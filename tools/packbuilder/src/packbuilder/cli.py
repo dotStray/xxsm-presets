@@ -116,12 +116,19 @@ def _run_builds(repo: Repo, args) -> tuple[list, bool]:
 
 def _build(repo: Repo, args) -> int:
     results, ok = _run_builds(repo, args)
-    published: list[str] = []
+    published = None
     if args.publish:
-        ready = [r.game for r in results if not r.errors]
-        published = release.publish(repo, ready, {r.game: " ".join(r.summary) for r in results})
-        for item in published:
-            print(f"published {item}")
+        repository = os.environ.get("GITHUB_REPOSITORY") or release.DEFAULT_REPOSITORY
+        published = release.publish(
+            repo,
+            [r.game for r in results if not r.errors],
+            {r.game: r.changes for r in results if r.changes},
+            releases=release.GitHubReleases(repository),
+            today=args.date or datetime.datetime.now(datetime.timezone.utc).date(),
+            stopped=[r.game for r in results if r.errors],
+            repository=repository,
+        )
+        print(f"published {published}" if published else "nothing new to publish")
     _step_summary(results, published)
     return 0 if ok else 1
 
@@ -201,7 +208,7 @@ def _publish(repo: Repo, args) -> int:
     return 0
 
 
-def _step_summary(results, published: list[str]) -> None:
+def _step_summary(results, published) -> None:
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if not path:
         return
@@ -216,6 +223,6 @@ def _step_summary(results, published: list[str]) -> None:
         lines += [f"- note: {w}" for w in result.warnings]
         lines.append("")
     if published:
-        lines.append("Published: " + ", ".join(published))
+        lines.append(f"Published {published}")
     with open(path, "a", encoding="utf-8") as stream:
         stream.write("\n".join(lines) + "\n")

@@ -1,12 +1,17 @@
 """Publishing: pack zips, ``index.json``, and GitHub releases.
 
-The app reads ``index.json`` from this repository's ``main`` branch. Each pack version is a
-GitHub release named ``<game>-<version>`` holding one zip, and ``index.json`` lists the
-newest versions of each game with that zip's address and checksum. A zip is built with
-fixed timestamps and a fixed file order, so the same pack always has the same checksum.
+The app reads ``index.json`` from this repository's ``main`` branch, which lists the newest
+versions of each game with its zip's address and checksum. A build that changes anything makes
+**one** release, tagged with the day (``2026.09.26``, ``.01`` for a second that day), holding a
+``<game>-<version>.zip`` for each game whose pack changed and notes saying what changed in each.
+A game that did not change is not in it; ``index.json`` keeps pointing at the release that has
+its current pack. A zip is built with fixed timestamps and a fixed file order, so the same pack
+always has the same checksum.
 
-A release is created *before* ``index.json`` points at it, so the app can never be told
-about a zip that does not exist yet.
+A release is created *before* ``index.json`` points at it, so the app can never be told about
+a zip that does not exist yet. Before publishing, every address in ``index.json`` is checked
+against the releases that exist: one whose release was deleted is dropped, and a game whose
+current pack was deleted is published again.
 """
 
 from __future__ import annotations
@@ -14,12 +19,17 @@ from __future__ import annotations
 import datetime
 import hashlib
 import io
+import json
 import os
 import pathlib
 import subprocess
 import zipfile
+from dataclasses import dataclass, field
+from typing import Protocol
 
-from packbuilder.files import BuildError, Repo, read_json, write_bytes, write_json
+from packbuilder.build import next_version
+from packbuilder.files import BuildError, Repo, read_json, write_bytes, write_json, write_text
+from packbuilder.reports import Changes, contents
 
 KEEP_VERSIONS = 10
 DEFAULT_REPOSITORY = "dotStray/xxsm-presets"
@@ -86,46 +96,169 @@ def update_index(index: dict, game: dict, entry: dict) -> dict:
     return {"schemaVersion": 1, "updatedAt": f"{datetime.date(year, month, day).isoformat()}T00:00:00Z", "packs": packs}
 
 
-def publish(repo: Repo, games: list[str], changelogs: dict[str, str], *, repository: str | None = None, dry_run: bool = False) -> list[str]:
-    """Releases every game whose current pack is not in ``index.json`` yet. Returns what it did."""
+class Releases(Protocol):
+    """The repository's GitHub releases: what exists, and making one."""
+
+    def list(self) -> dict[str, set[str]]:
+        """Every release's tag, with the names of the files it holds."""
+
+    def create(self, tag: str, title: str, notes: str, assets: list[pathlib.Path]) -> None:
+        """One release holding ``assets``, or nothing at all: a half-made release is removed."""
+
+
+class GitHubReleases:
+    """:class:`Releases` through the ``gh`` command, which the weekly run has."""
+
+    def __init__(self, repository: str):
+        self.repository = repository
+
+    def list(self) -> dict[str, set[str]]:
+        finished = subprocess.run(
+            ["gh", "api", f"repos/{self.repository}/releases", "--paginate", "--jq", ".[] | {tag: .tag_name, assets: [.assets[].name]}"],
+            capture_output=True,
+            text=True,
+        )
+        if finished.returncode != 0:
+            raise BuildError(f"Could not read the list of releases: {finished.stderr.strip() or finished.stdout.strip()}")
+        releases: dict[str, set[str]] = {}
+        for line in finished.stdout.splitlines():
+            if line.strip():
+                item = json.loads(line)
+                releases[item["tag"]] = set(item["assets"])
+        return releases
+
+    def create(self, tag: str, title: str, notes: str, assets: list[pathlib.Path]) -> None:
+        notes_file = assets[0].parent / f"{tag}.md"
+        write_text(notes_file, notes)
+        command = ["gh", "release", "create", tag, *map(str, assets), "--repo", self.repository, "--title", title, "--notes-file", str(notes_file)]
+        finished = subprocess.run(command, capture_output=True, text=True)
+        if finished.returncode != 0:
+            subprocess.run(["gh", "release", "delete", tag, "--repo", self.repository, "--cleanup-tag", "--yes"], capture_output=True, text=True)
+            raise BuildError(f"Could not publish the {tag} release: {finished.stderr.strip() or finished.stdout.strip()}")
+
+
+@dataclass
+class Published:
+    """One build's release: its tag, and each game in it with its version."""
+
+    tag: str
+    games: list[str] = field(default_factory=list)
+
+    def __str__(self) -> str:
+        return f"release {self.tag}: " + ", ".join(self.games)
+
+
+def reachable(url: str, repository: str, releases: dict[str, set[str]]) -> bool:
+    """False only for an address in this repository's releases whose release or file is gone."""
+    prefix = f"https://github.com/{repository}/releases/download/"
+    if not url.startswith(prefix):
+        return True
+    tag, _, name = url[len(prefix):].partition("/")
+    return name in releases.get(tag, set())
+
+
+def prune(index: dict, repository: str, releases: dict[str, set[str]]) -> dict:
+    """``index`` without the versions whose release was deleted; a game left with none is dropped."""
+    packs = []
+    for pack in index.get("packs", []):
+        versions = [v for v in pack.get("versions", []) if reachable(v.get("url", ""), repository, releases)]
+        if versions:
+            packs.append({**pack, "versions": versions})
+    return {**index, "packs": packs}
+
+
+def publish(
+    repo: Repo,
+    games: list[str],
+    changes: dict[str, Changes],
+    *,
+    releases: Releases,
+    today: datetime.date,
+    stopped: list[str] | None = None,
+    repository: str | None = None,
+) -> Published | None:
+    """Releases, together, every game whose current pack is not published yet. None when there is none."""
     repository = repository or os.environ.get("GITHUB_REPOSITORY") or DEFAULT_REPOSITORY
-    index = read_json(repo.index, {}) or {}
-    done = []
+    existing = releases.list()
+    original = read_json(repo.index, {}) or {}
+    index = prune(original, repository, existing)
+
+    ready = []
     for game_id in games:
-        pack = repo.pack(game_id)
-        manifest = read_json(pack / "manifest.json")
-        game = read_json(pack / "game.json")
-        if not manifest or not game:
-            continue
+        manifest = read_json(repo.pack(game_id) / "manifest.json")
+        game = read_json(repo.pack(game_id) / "game.json")
+        if manifest and game and manifest["packVersion"] not in published_versions(index, game_id):
+            ready.append((game_id, game, manifest))
+    if not ready:
+        if index != original:
+            write_json(repo.index, index)
+        return None
+
+    tag = next_version(today, set(existing))
+    dist = repo.root / ".dist"
+    assets, entries, sections = [], [], []
+    for game_id, game, manifest in ready:
         version = manifest["packVersion"]
-        if version in published_versions(index, game_id):
-            continue
-        tag = f"{game_id}-{version}"
         name = f"{game_id}-{version}.zip"
-        data = zip_bytes(pack)
+        data = zip_bytes(repo.pack(game_id))
+        write_bytes(dist / name, data)
+        assets.append(dist / name)
+        change = changes.get(game_id) or Changes()
+        if not change.contents:
+            change.contents = contents(read_json(repo.pack(game_id) / "variants.json", []) or [])
         url = f"https://github.com/{repository}/releases/download/{tag}/{name}"
-        changelog = changelogs.get(game_id) or "Updated."
-        if not dry_run:
-            dist = repo.root / ".dist"
-            write_bytes(dist / name, data)
-            _release(repository, tag, dist / name, f"{game.get('displayName', game_id)} {version}", changelog)
-        index = update_index(index, game, index_entry(game, manifest, url, data, changelog))
-        done.append(f"{game_id} {version}")
-    if done and not dry_run:
-        write_json(repo.index, index)
-    return done
+        entries.append((game, index_entry(game, manifest, url, data, change.short())))
+        sections.append(_section(game, version, change))
+    for game_id in games:
+        if game_id not in [g for g, _, _ in ready]:
+            sections.append(_unchanged(repo, game_id, index))
+    for game_id in stopped or []:
+        sections.append(_stopped(repo, game_id, index))
+
+    releases.create(tag, f"Packs {tag}", _notes(sections), assets)
+    for game, entry in entries:
+        index = update_index(index, game, entry)
+    write_json(repo.index, index)
+    return Published(tag, [f"{game_id} {manifest['packVersion']}" for game_id, _, manifest in ready])
 
 
-def _release(repository: str, tag: str, asset: pathlib.Path, title: str, notes: str) -> None:
-    exists = subprocess.run(["gh", "release", "view", tag, "--repo", repository], capture_output=True, text=True).returncode == 0
-    command = (
-        ["gh", "release", "upload", tag, str(asset), "--clobber", "--repo", repository]
-        if exists
-        else ["gh", "release", "create", tag, str(asset), "--repo", repository, "--title", title, "--notes", notes]
-    )
-    finished = subprocess.run(command, capture_output=True, text=True)
-    if finished.returncode != 0:
-        raise BuildError(f"Could not publish the {tag} release: {finished.stderr.strip() or finished.stdout.strip()}")
+def _display(repo: Repo, game_id: str, index: dict) -> str:
+    game = read_json(repo.pack(game_id) / "game.json", {}) or {}
+    listed = next((p for p in index.get("packs", []) if p.get("gameId") == game_id), {})
+    return game.get("displayName") or listed.get("displayName") or game_id
+
+
+def _current(game_id: str, index: dict) -> str | None:
+    listed = next((p for p in index.get("packs", []) if p.get("gameId") == game_id), {})
+    versions = listed.get("versions", [])
+    return versions[0]["packVersion"] if versions else None
+
+
+def _section(game: dict, version: str, change: Changes) -> str:
+    lines = [f"## {game.get('displayName', game['gameId'])} {version}", ""]
+    if change.any():
+        lines += [f"- {line}" for line in change.lines()]
+        if not change.first:
+            lines += ["", f"The pack now has {change.contents}."]
+    else:
+        lines.append(f"The pack has {change.contents}.")
+    return "\n".join(lines)
+
+
+def _unchanged(repo: Repo, game_id: str, index: dict) -> str:
+    current = _current(game_id, index)
+    return f"## {_display(repo, game_id, index)}\n\nNo change" + (f"; the current pack is still {current}." if current else ".")
+
+
+def _stopped(repo: Repo, game_id: str, index: dict) -> str:
+    current = _current(game_id, index)
+    kept = f" The current pack is still {current}." if current else ""
+    return f"## {_display(repo, game_id, index)}\n\nNot updated this time: the build stopped, and `reports/{game_id}/blocked.md` says why.{kept}"
+
+
+def _notes(sections: list[str]) -> str:
+    intro = "Game Packs for XXSM. XXSM downloads and installs these by itself. To download one by hand, each game's pack is its zip under Assets below."
+    return "\n\n".join([intro, *sections]) + "\n"
 
 
 def local_registry(repo: Repo, games: list[str], destination: pathlib.Path) -> pathlib.Path:

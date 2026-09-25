@@ -154,6 +154,18 @@ class AssembleTest(unittest.TestCase):
         )
         self.assertTrue(any("partOf" in e and "Nobody" in e for e in result.errors))
 
+    def test_an_outfit_parents_names_takes_its_characters_display_name(self):
+        result = self.run_it(
+            [character("a:1", "March 7th (Preservation)", "March7thPreservation"), character("a:2", "Caelus")],
+            [folder("March7thPreservation", "00000001"), folder("March7thPreservationSpring", "00000002"), folder("CaelusVigor", "00000003"),
+             folder("OddName", "00000004")],
+            overrides=Overrides(parents={"March7thPreservationSpring": "March7thPreservation", "CaelusVigor": "Caelus", "OddName": "Caelus"}),
+        )
+        variants = self.by_name(result)
+        self.assertEqual(variants["March7thPreservationSpring"].display, "March 7th (Preservation) Spring")
+        self.assertEqual(variants["CaelusVigor"].display, "Caelus Vigor")
+        self.assertEqual(variants["OddName"].display, "Odd Name")  # not named like its character: the folder's words
+
     def test_a_nested_folder_that_parents_names_is_still_an_outfit(self):
         result = self.run_it(
             [character("a:1", "Xilonen")],
@@ -209,7 +221,9 @@ class BuildTest(unittest.TestCase):
         result = self.build(today=DAY + datetime.timedelta(days=1))
         self.assertTrue(result.changed)
         self.assertEqual(result.version, "2026.09.26")
-        self.assertIn("Hashes for Lan Yan.", result.summary)
+        self.assertIn("Hashes for the first time: Lan Yan.", result.summary)
+        self.assertIn("New portraits: Lan Yan.", result.summary)
+        self.assertEqual(result.changes.short(), "Hashes for Lan Yan; 1 new portrait.")
         variants = {v["internalName"]: v for v in self.fake.read("packs/testgame/variants.json")}
         self.assertNotIn("hashesPending", variants["LanYan"])
         self.assertEqual(variants["LanYan"]["image"], "images/LanYan.webp")
@@ -302,7 +316,8 @@ class BuildTest(unittest.TestCase):
         result = self.build(today=DAY + datetime.timedelta(days=7))
         self.assertTrue(result.changed)
         self.assertEqual(result.version, "2026.10.02")
-        self.assertIn("Added Nefer.", result.summary)
+        self.assertIn("Added: Nefer.", result.summary)
+        self.assertTrue(result.changes.short().startswith("Added Nefer"))
         variants = {v["internalName"]: v for v in self.fake.read("packs/testgame/variants.json")}
         self.assertTrue(variants["Nefer"]["hashesPending"])
         self.assertIn("**Nefer**", (self.fake.root / "reports/testgame/pending-hashes.md").read_text())

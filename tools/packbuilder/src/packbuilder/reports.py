@@ -13,6 +13,7 @@ They are regenerated from scratch on every build, so they always describe the pa
 from __future__ import annotations
 
 import pathlib
+from dataclasses import dataclass, field
 
 from packbuilder.files import write_text
 
@@ -90,25 +91,167 @@ def write_blocked(folder: pathlib.Path, game: str, errors: list[str]) -> None:
     write_text(folder / "blocked.md", "\n".join(lines) + "\n")
 
 
-def summary(previous_variants: list[dict], previous_hashes: dict, variants: list[dict], hash_json: dict) -> list[str]:
-    """What changed since the published pack, in the words the changelog uses."""
-    before = {v["internalName"].lower() for v in previous_variants}
-    had_hashes = {str(e.get("variant", "")).lower() for e in previous_hashes.get("entries", [])}
-    has_hashes = {e["variant"].lower() for e in hash_json.get("entries", [])}
-    added = [v["displayName"] for v in variants if v["internalName"].lower() not in before]
-    hashed = [v["displayName"] for v in variants if v["internalName"].lower() in before and v["internalName"].lower() in has_hashes and v["internalName"].lower() not in had_hashes]
-    lines = []
+@dataclass
+class Changes:
+    """What changed in one game's pack since the last build, for the release notes and the app.
+
+    Names are display names. A character that is new is only in ``added`` or ``outfits``: its
+    hashes and portrait are part of being new, not listed again.
+    """
+
+    added: list[str] = field(default_factory=list)
+    outfits: list[str] = field(default_factory=list)
+    removed: list[str] = field(default_factory=list)
+    renamed: list[str] = field(default_factory=list)
+    first_hashes: list[str] = field(default_factory=list)
+    hash_changes: list[str] = field(default_factory=list)
+    new_portraits: list[str] = field(default_factory=list)
+    changed_portraits: list[str] = field(default_factory=list)
+    details: list[str] = field(default_factory=list)
+    icon: str = ""
+    other: list[str] = field(default_factory=list)
+    contents: str = ""
+    first: bool = False
+
+    def any(self) -> bool:
+        return self.first or any(
+            (self.added, self.outfits, self.removed, self.renamed, self.first_hashes, self.hash_changes,
+             self.new_portraits, self.changed_portraits, self.details, self.icon, self.other)
+        )
+
+    def lines(self, limit: int = 40) -> list[str]:
+        """Full sentences, one per kind of change: the release notes and the build's log."""
+        if self.first:
+            return [f"First build: {self.contents}."]
+        rows = [
+            ("Added", self.added),
+            ("New outfits", self.outfits),
+            ("Removed", self.removed),
+            ("Renamed", self.renamed),
+            ("Hashes for the first time", self.first_hashes),
+            ("Hashes changed", self.hash_changes),
+            ("New portraits", self.new_portraits),
+            ("Changed portraits", self.changed_portraits),
+            ("Other details changed", self.details),
+        ]
+        lines = [f"{label}: {_list(names, limit)}." for label, names in rows if names]
+        if self.icon:
+            lines.append(self.icon)
+        return lines + self.other
+
+    def short(self) -> str:
+        """One line for the app's pack card, which has room for about one sentence."""
+        if self.first or not self.any():
+            return self.contents[:1].upper() + self.contents[1:] + "." if self.contents else "Updated."
+        parts = []
+        if self.added:
+            parts.append("Added " + _list(self.added, 3))
+        if self.outfits:
+            parts.append(plural(len(self.outfits), "new outfit"))
+        if self.removed:
+            parts.append(plural(len(self.removed), "character") + " removed")
+        if self.renamed:
+            parts.append(plural(len(self.renamed), "name") + " changed")
+        if self.first_hashes:
+            parts.append("hashes for " + _list(self.first_hashes, 3))
+        if self.hash_changes:
+            parts.append("hashes changed for " + plural(len(self.hash_changes), "character"))
+        if self.new_portraits and self.changed_portraits:
+            parts.append(plural(len(self.new_portraits) + len(self.changed_portraits), "portrait") + " new or changed")
+        elif self.new_portraits:
+            parts.append(plural(len(self.new_portraits), "new portrait"))
+        elif self.changed_portraits:
+            parts.append(plural(len(self.changed_portraits), "portrait") + " changed")
+        if self.details:
+            parts.append("details for " + plural(len(self.details), "character"))
+        if self.icon:
+            parts.append("new game icon")
+        if not parts:
+            parts.append("small changes to the pack's files")
+        text = "; ".join(parts)
+        return text[:1].upper() + text[1:] + "."
+
+
+def contents(variants: list[dict]) -> str:
+    outfits = sum(1 for v in variants if v.get("baseCharacterId"))
+    pending = sum(1 for v in variants if v.get("hashesPending"))
+    text = plural(len(variants) - outfits, "character") + (f" and {plural(outfits, 'outfit')}" if outfits else "")
+    return text + (f", {pending} still waiting for hashes" if pending else "")
+
+
+# Fields a character's "other details" are judged by; the name, picture and hashes have their own lines.
+DETAIL_FIELDS = ("baseCharacterId", "isDefaultVariant", "modFilesName", "aliases", "releaseDate", "attributes")
+
+
+def compare(
+    previous_variants: list[dict],
+    previous_hashes: dict,
+    previous_images: dict[str, str],
+    previous_game: dict,
+    variants: list[dict],
+    hash_json: dict,
+    images: dict[str, str],
+    game: dict,
+) -> Changes:
+    """What changed from the last pack to this one. ``*images`` map a file in ``images/`` to its checksum."""
+    changes = Changes(contents=contents(variants))
     if not previous_variants:
-        pending = sum(1 for v in variants if v.get("hashesPending"))
-        lines.append(f"First build: {plural(len(variants), 'character')}, {pending} still waiting for hashes.")
-        return lines
-    if added:
-        lines.append("Added " + _list(added) + ".")
-    if hashed:
-        lines.append("Hashes for " + _list(hashed) + ".")
-    if not lines:
-        lines.append("Updated hashes and details.")
-    return lines
+        changes.first = True
+        return changes
+
+    def key(variant: dict) -> str:
+        return variant["internalName"].lower()
+
+    def hash_sets(payload: dict) -> dict[str, set[str]]:
+        sets: dict[str, set[str]] = {}
+        for entry in payload.get("entries", []):
+            sets.setdefault(str(entry.get("variant", "")).lower(), set()).add(str(entry.get("hash", "")).lower())
+        return sets
+
+    def picture(variant: dict, record: dict[str, str]) -> str | None:
+        image = variant.get("image")
+        return record.get(image.split("/", 1)[-1]) if image else None
+
+    before = {key(v): v for v in previous_variants}
+    after = {key(v): v for v in variants}
+    names = {key(v): v["displayName"] for v in variants}
+    had, has = hash_sets(previous_hashes), hash_sets(hash_json)
+
+    for name, variant in after.items():
+        old = before.get(name)
+        if old is None:
+            if variant.get("baseCharacterId"):
+                parent = after.get(variant["baseCharacterId"].lower(), {}).get("displayName", variant["baseCharacterId"])
+                changes.outfits.append(f"{variant['displayName']} ({parent})")
+            else:
+                changes.added.append(variant["displayName"])
+            continue
+        if old["displayName"] != variant["displayName"]:
+            changes.renamed.append(f"{old['displayName']} → {variant['displayName']}")
+        old_hashes, new_hashes = had.get(name, set()), has.get(name, set())
+        if new_hashes and not old_hashes:
+            changes.first_hashes.append(names[name])
+        elif old_hashes != new_hashes and old_hashes:
+            gained, lost = len(new_hashes - old_hashes), len(old_hashes - new_hashes)
+            counts = ", ".join(c for c in (f"+{gained}" if gained else "", f"−{lost}" if lost else "") if c)
+            changes.hash_changes.append(f"{names[name]} ({counts})")
+        old_picture, new_picture = picture(old, previous_images), picture(variant, images)
+        if new_picture and not old_picture:
+            changes.new_portraits.append(names[name])
+        elif new_picture and new_picture != old_picture:
+            changes.changed_portraits.append(names[name])
+        if any(old.get(f) != variant.get(f) for f in DETAIL_FIELDS):
+            changes.details.append(names[name])
+    changes.removed = [v["displayName"] for n, v in before.items() if n not in after]
+
+    icon_before, icon_after = previous_images.get("_game.webp"), images.get("_game.webp")
+    if icon_after and icon_after != icon_before:
+        changes.icon = "New game icon." if icon_before else "Added the game's icon."
+    if {k: v for k, v in previous_game.items() if k != "icon"} != {k: v for k, v in game.items() if k != "icon"}:
+        changes.other.append("The game's details changed (its name, filters or folder settings).")
+    if sorted(previous_hashes.get("ignoredHashes", [])) != sorted(hash_json.get("ignoredHashes", [])):
+        changes.other.append("The list of shared shader hashes changed.")
+    return changes
 
 
 def _list(names: list[str], limit: int = 12) -> str:

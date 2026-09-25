@@ -39,6 +39,7 @@ class GameResult:
     errors: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
     summary: list[str] = field(default_factory=list)
+    changes: reports.Changes | None = None
 
 
 def build_game(
@@ -68,6 +69,8 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     previous_manifest = read_json(pack_dir / "manifest.json", {}) or {}
     previous_variants = read_json(pack_dir / "variants.json", []) or []
     previous_hashes = read_json(pack_dir / "hashes.json", {}) or {}
+    previous_game = read_json(pack_dir / "game.json", {}) or {}
+    previous_images = image_checksums(pack_dir / "images")
     previous_fingerprint = fingerprint(pack_dir)
 
     # 1. Roster.
@@ -159,6 +162,12 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
 
     # 6. Version, manifest, and the switch.
     changed = fingerprint(staging) != previous_fingerprint or not previous_manifest
+    changes = reports.compare(
+        previous_variants, previous_hashes, previous_images, previous_game,
+        variants, hash_json, image_checksums(staging / "images"), game_json,
+    )
+    if changed and not changes.any():
+        changes.other.append("Small changes to the pack's files.")
     if changed:
         version = next_version(today, known_versions | {previous_manifest.get("packVersion", "")})
         skins = sum(1 for v in variants if v.get("baseCharacterId"))
@@ -188,7 +197,8 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
 
     result.changed = changed
     result.version = manifest["packVersion"]
-    result.summary = reports.summary(previous_variants, previous_hashes, variants, hash_json)
+    result.changes = changes if changed else reports.Changes(contents=changes.contents)
+    result.summary = result.changes.lines()
     return result
 
 
@@ -269,6 +279,13 @@ def variant_json(variant: assembler.Variant, image: str | None) -> dict:
     if not variant.hashes:
         payload["hashesPending"] = True
     return payload
+
+
+def image_checksums(folder: pathlib.Path) -> dict[str, str]:
+    """Each picture in a pack's ``images/`` by file name, so the notes can say which portraits changed."""
+    if not folder.is_dir():
+        return {}
+    return {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in folder.iterdir() if p.is_file()}
 
 
 def fingerprint(folder: pathlib.Path) -> str:

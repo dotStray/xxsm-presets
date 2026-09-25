@@ -249,6 +249,10 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
             continue
         if name in overrides.parents:
             parent = overrides.parents[name]
+            if parent and name.lower().startswith(parent.lower()) and len(name) > len(parent):
+                # Named like its character, so it is named after the character's display name:
+                # "March 7th (Preservation) Spring", not a split of "March7thPreservationSpring".
+                remainder = name[len(parent):]
             rule, confidence = ("override: an outfit of " + parent if parent else "override: a character of its own"), HIGH
         elif folder.container and names.get(claimed.get(folder.container.lower(), folder.container)):
             # A folder inside a character's own folder that the character list does not name is a
