@@ -3,6 +3,7 @@
   "displayName": "Zenless Zone Zero",
   "shortName": "ZZZ",
   "importer": "ZZMI",
+  "icon": "images/_game.webp",
   "disabledPrefix": "DISABLED_",
   "attributes": {
     "attribute": {

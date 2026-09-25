@@ -3,6 +3,7 @@
   "displayName": "Genshin Impact",
   "shortName": "GI",
   "importer": "GIMI",
+  "icon": "images/_game.webp",
   "disabledPrefix": "DISABLED_",
   "attributes": {
     "element": {

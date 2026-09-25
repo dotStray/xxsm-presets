@@ -3,6 +3,7 @@
   "displayName": "Honkai: Star Rail",
   "shortName": "HSR",
   "importer": "SRMI",
+  "icon": "images/_game.webp",
   "disabledPrefix": "DISABLED_",
   "attributes": {
     "element": {

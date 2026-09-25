@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T00:00:00Z",
+  "updatedAt": "2026-09-25T00:00:00Z",
   "packs": [
     {
       "gameId": "genshin",
@@ -8,6 +8,15 @@
       "shortName": "GI",
       "importer": "GIMI",
       "versions": [
+        {
+          "packVersion": "2026.09.25",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/genshin-2026.09.25/genshin-2026.09.25.zip",
+          "sha256": "f1c14f283fde03dfd3000424026027bfcabebe138093e6ac55ca3570e31a6ffe",
+          "sizeBytes": 2932653,
+          "changelog": "Updated hashes and details."
+        },
         {
           "packVersion": "2026.09.24",
           "packSchemaVersion": 1,
@@ -26,6 +35,15 @@
       "importer": "SRMI",
       "versions": [
         {
+          "packVersion": "2026.09.25",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/starrail-2026.09.25/starrail-2026.09.25.zip",
+          "sha256": "ebcb664415bab9fe7f27538d5089b1a8a184971ca190dcaa6f0d060f99d6d890",
+          "sizeBytes": 5669658,
+          "changelog": "Updated hashes and details."
+        },
+        {
           "packVersion": "2026.09.24",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
@@ -42,6 +60,15 @@
       "shortName": "ZZZ",
       "importer": "ZZMI",
       "versions": [
+        {
+          "packVersion": "2026.09.25",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/zenless-2026.09.25/zenless-2026.09.25.zip",
+          "sha256": "8bf451feb728ebcc236364ca85ce5edb9918e8cfc2381a249624318367ff5de7",
+          "sizeBytes": 899243,
+          "changelog": "Updated hashes and details."
+        },
         {
           "packVersion": "2026.09.24",
           "packSchemaVersion": 1,
