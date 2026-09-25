@@ -12,28 +12,10 @@
           "packVersion": "2026.09.25.01",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/genshin-2026.09.25.01/genshin-2026.09.25.01.zip",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.25/genshin-2026.09.25.01.zip",
           "sha256": "067d18b59e2d28bf1cc251df67e078eb9591e4a4204f5c4751c63b01cdff6c60",
           "sizeBytes": 2932548,
-          "changelog": "Updated hashes and details."
-        },
-        {
-          "packVersion": "2026.09.25",
-          "packSchemaVersion": 1,
-          "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/genshin-2026.09.25/genshin-2026.09.25.zip",
-          "sha256": "f1c14f283fde03dfd3000424026027bfcabebe138093e6ac55ca3570e31a6ffe",
-          "sizeBytes": 2932653,
-          "changelog": "Updated hashes and details."
-        },
-        {
-          "packVersion": "2026.09.24",
-          "packSchemaVersion": 1,
-          "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/genshin-2026.09.24/genshin-2026.09.24.zip",
-          "sha256": "97fa69d1dd8a62561f21b6e9208e3930a0f0263a424b87cb6300742f6448302c",
-          "sizeBytes": 2898261,
-          "changelog": "Updated hashes and details."
+          "changelog": "124 characters and 28 outfits, 19 still waiting for hashes."
         }
       ]
     },
@@ -44,31 +26,13 @@
       "importer": "SRMI",
       "versions": [
         {
-          "packVersion": "2026.09.25.01",
+          "packVersion": "2026.09.25.02",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/starrail-2026.09.25.01/starrail-2026.09.25.01.zip",
-          "sha256": "fc45838d7858a054a184eafa88c8dde4d206e1900ee7671495356ed0e78219ab",
-          "sizeBytes": 5815472,
-          "changelog": "Updated hashes and details."
-        },
-        {
-          "packVersion": "2026.09.25",
-          "packSchemaVersion": 1,
-          "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/starrail-2026.09.25/starrail-2026.09.25.zip",
-          "sha256": "ebcb664415bab9fe7f27538d5089b1a8a184971ca190dcaa6f0d060f99d6d890",
-          "sizeBytes": 5669658,
-          "changelog": "Updated hashes and details."
-        },
-        {
-          "packVersion": "2026.09.24",
-          "packSchemaVersion": 1,
-          "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/starrail-2026.09.24/starrail-2026.09.24.zip",
-          "sha256": "beacc498d8a98e88acf3a704a938d5eb04ed29eb56c43a3b990b88f75bdd804f",
-          "sizeBytes": 5630183,
-          "changelog": "Updated hashes and details."
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.25/starrail-2026.09.25.02.zip",
+          "sha256": "975711a1f53c0833e923557ecd142b4f3586d882128250c7eae5cdb686fdcd62",
+          "sizeBytes": 5815467,
+          "changelog": "1 name changed."
         }
       ]
     },
@@ -82,19 +46,10 @@
           "packVersion": "2026.09.25",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/zenless-2026.09.25/zenless-2026.09.25.zip",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.25/zenless-2026.09.25.zip",
           "sha256": "8bf451feb728ebcc236364ca85ce5edb9918e8cfc2381a249624318367ff5de7",
           "sizeBytes": 899243,
-          "changelog": "Updated hashes and details."
-        },
-        {
-          "packVersion": "2026.09.24",
-          "packSchemaVersion": 1,
-          "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/zenless-2026.09.24/zenless-2026.09.24.zip",
-          "sha256": "41d6e71543e3a1c8ced7e692e517eac096652ef5f3b32e34b1a9f6327c443874",
-          "sizeBytes": 862604,
-          "changelog": "Updated hashes and details."
+          "changelog": "63 characters and 30 outfits, 1 still waiting for hashes."
         }
       ]
     }
