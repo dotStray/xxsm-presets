@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 
 from packbuilder.files import BuildError, read_json
 
-CONFIG_KEYS = {"gameId", "displayName", "shortName", "importer", "disabledPrefix", "hashes", "roster", "portraits", "attributes"}
+CONFIG_KEYS = {"gameId", "displayName", "shortName", "importer", "disabledPrefix", "hashes", "roster", "portraits", "icon", "attributes"}
 OVERRIDE_KEYS = {
     "notes",
     "join",

@@ -20,6 +20,7 @@ from __future__ import annotations
 import hashlib
 import io
 import pathlib
+import re
 from dataclasses import dataclass
 
 from PIL import Image, ImageChops, ImageStat
@@ -115,6 +116,32 @@ def normalise(data: bytes, crop: str) -> bytes:
     with Image.open(io.BytesIO(data)) as opened:
         image = opened.convert("RGBA")
     return encode(_crop(image, crop))
+
+
+# A game's page on Google Play. robots.txt allows it; the US storefront, because some games' pages
+# answer 404 elsewhere.
+PLAY_PAGE = "https://play.google.com/store/apps/details?id={app}&hl=en&gl=US"
+PLAY_ICON = re.compile(r'<meta property="og:image" content="(https://play-lh\.googleusercontent\.com/[^"=]+)[^"]*"')
+
+
+def store_icon_url(app: str, fetcher: Fetcher) -> str:
+    """The address of a game's current app icon, square and 512 pixels, from its Google Play page."""
+    page = PLAY_PAGE.format(app=app)
+    found = PLAY_ICON.search(fetcher.get(page).decode("utf-8", errors="replace"))
+    if found is None:
+        raise FetchError(f"{page}: the page has no app icon in it; Google Play may have changed its pages.")
+    # "=s512": the picture at 512 pixels, without the rounded corners the page asks for.
+    return f"{found.group(1)}=s512"
+
+
+def game_icon(data: bytes) -> bytes:
+    """The game's icon as the pack stores it: square, with any spare space left transparent, never cut."""
+    with Image.open(io.BytesIO(data)) as opened:
+        image = opened.convert("RGBA")
+    side = max(image.size)
+    square = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    square.paste(image, ((side - image.width) // 2, (side - image.height) // 2))
+    return encode(square)
 
 
 def encode(image: Image.Image) -> bytes:

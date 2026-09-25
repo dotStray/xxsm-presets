@@ -141,7 +141,7 @@ class BuildTest(unittest.TestCase):
         self.fake.cleanup()
 
     def build(self, **kwargs):
-        return build_game(self.fake.repo, "testgame", fetcher=None, today=kwargs.pop("today", DAY), **kwargs)
+        return build_game(self.fake.repo, "testgame", fetcher=kwargs.pop("fetcher", None), today=kwargs.pop("today", DAY), **kwargs)
 
     def test_a_first_build_writes_a_complete_pack(self):
         result = self.build()
@@ -179,6 +179,85 @@ class BuildTest(unittest.TestCase):
         self.assertNotIn("hashesPending", variants["LanYan"])
         self.assertEqual(variants["LanYan"]["image"], "images/LanYan.webp")
         self.assertTrue((self.fake.root / "packs/testgame/images/LanYan.webp").is_file())
+
+    def test_a_game_icon_in_manual_becomes_the_packs_icon_and_is_not_a_character(self):
+        self.build()
+        self.fake.write("manual/testgame/images/_game.png", helpers.png(size=(90, 60)))
+        result = self.build(today=DAY + datetime.timedelta(days=1))
+        self.assertEqual(result.errors, [])
+        self.assertTrue(result.changed)
+        self.assertEqual(self.fake.read("packs/testgame/game.json")["icon"], "images/_game.webp")
+        variants = {v["internalName"] for v in self.fake.read("packs/testgame/variants.json")}
+        self.assertEqual(variants, {"Ganyu", "GanyuTwilight", "LanYan"})
+        with helpers.Image.open(self.fake.root / "packs/testgame/images/_game.webp") as icon:
+            self.assertEqual(icon.width, icon.height)  # padded to a square, never cut
+            self.assertEqual(icon.getpixel((0, 0))[3], 0)
+        self.assertIn("game icon", (self.fake.root / "packs/testgame/ATTRIBUTION.md").read_text())
+        self.assertIn("is the game's icon", (self.fake.root / "reports/testgame/manual.md").read_text())
+
+        again = self.build(today=DAY + datetime.timedelta(days=2))
+        self.assertFalse(again.changed)  # the same icon is the same pack
+
+    def test_removing_the_game_icon_removes_it_from_the_pack(self):
+        self.fake.write("manual/testgame/images/_game.png", helpers.png())
+        self.build()
+        (self.fake.root / "manual/testgame/images/_game.png").unlink()
+        result = self.build(today=DAY + datetime.timedelta(days=1))
+        self.assertTrue(result.changed)
+        self.assertNotIn("icon", self.fake.read("packs/testgame/game.json"))
+        self.assertFalse((self.fake.root / "packs/testgame/images/_game.webp").exists())
+
+    def test_a_game_icon_that_is_not_a_picture_stops_the_build_and_says_so(self):
+        self.fake.write("manual/testgame/images/_game.png", "not a picture")
+        result = self.build()
+        self.assertTrue(any("_game.png" in e and "not a picture" in e for e in result.errors))
+        self.assertIn("_game.png", (self.fake.root / "reports/testgame/blocked.md").read_text())
+
+    def with_store_icon(self):
+        config = self.fake.read("config/testgame.json")
+        self.fake.write("config/testgame.json", {**config, "icon": {"googlePlay": "com.example.game"}})
+
+    def build_online(self, store, **kwargs):
+        return self.build(fetcher=store, refresh_roster=False, refresh_hashes=False, **kwargs)
+
+    def test_the_game_icon_comes_from_the_store_and_is_downloaded_again_only_when_it_changes(self):
+        self.with_store_icon()
+        store = FakeStore("https://play-lh.googleusercontent.com/first")
+        result = self.build_online(store)
+        self.assertEqual(result.errors, [])
+        self.assertEqual(self.fake.read("packs/testgame/game.json")["icon"], "images/_game.webp")
+        self.assertEqual(self.fake.read("upstream/testgame/icon.json")["source"], "https://play-lh.googleusercontent.com/first=s512")
+        self.assertIn("Google Play", (self.fake.root / "packs/testgame/ATTRIBUTION.md").read_text())
+        self.assertIn("id=com.example.game&hl=en&gl=US", store.pages[0])
+
+        again = self.build_online(store, today=DAY + datetime.timedelta(days=7))
+        self.assertFalse(again.changed)
+        self.assertEqual(store.pictures, ["https://play-lh.googleusercontent.com/first=s512"])  # not downloaded twice
+
+        store.icon = "https://play-lh.googleusercontent.com/anniversary"
+        store.colour = (10, 200, 10, 255)
+        changed = self.build_online(store, today=DAY + datetime.timedelta(days=14))
+        self.assertTrue(changed.changed)
+        self.assertEqual(len(store.pictures), 2)
+
+    def test_a_store_that_cannot_be_reached_keeps_last_weeks_icon(self):
+        self.with_store_icon()
+        self.build_online(FakeStore("https://play-lh.googleusercontent.com/first"))
+        before = (self.fake.root / "packs/testgame/images/_game.webp").read_bytes()
+
+        result = self.build_online(FakeStore(None), today=DAY + datetime.timedelta(days=7))
+        self.assertEqual(result.errors, [])
+        self.assertFalse(result.changed)
+        self.assertTrue(any("Game icon not refreshed" in w for w in result.warnings))
+        self.assertEqual(before, (self.fake.root / "packs/testgame/images/_game.webp").read_bytes())
+
+    def test_a_game_icon_in_manual_beats_the_stores(self):
+        self.with_store_icon()
+        self.fake.write("manual/testgame/images/_game.png", helpers.png())
+        store = FakeStore("https://play-lh.googleusercontent.com/first")
+        self.build_online(store)
+        self.assertEqual(store.pages, [])
+        self.assertIn("kept by hand", (self.fake.root / "packs/testgame/ATTRIBUTION.md").read_text())
 
     def test_a_new_upstream_character_is_published_and_named_in_the_changelog(self):
         # MILESTONES.md M13's exit: a scheduled run with a new upstream character publishes it.
@@ -268,3 +347,25 @@ class LearnTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FakeStore:
+    """Google Play, as far as the icon needs it: a page naming the icon, and the icon. None is a store that is down."""
+
+    def __init__(self, icon):
+        self.icon = icon
+        self.colour = (200, 100, 50, 255)
+        self.pages: list[str] = []
+        self.pictures: list[str] = []
+
+    def get(self, url, *, fresh=True):
+        from packbuilder.http import FetchError
+
+        if self.icon is None:
+            raise FetchError(f"{url}: HTTP 503 Service Unavailable")
+        if url.startswith("https://play.google.com/"):
+            self.pages.append(url)
+            return f'<html><meta property="og:image" content="{self.icon}=s0-br30"></html>'.encode()
+        self.pictures.append(url)
+        return helpers.png(self.colour, (40, 40))
+

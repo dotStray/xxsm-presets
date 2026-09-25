@@ -19,6 +19,9 @@
   "portraits": {
     "crop": "top-square"
   },
+  "icon": {
+    "googlePlay": "com.HoYoverse.hkrpgoversea"
+  },
   "attributes": {
     "element": {
       "displayName": "Element",

@@ -23,7 +23,7 @@ import shutil
 from dataclasses import dataclass, field
 
 from packbuilder import BUILDER, assemble as assembler, checks, hashes, images, manual, reports, roster
-from packbuilder.files import BuildError, Repo, dumps, read_json, write_json, write_text
+from packbuilder.files import BuildError, Repo, dumps, read_json, write_bytes, write_json, write_text
 from packbuilder.http import Fetcher, FetchError
 from packbuilder.settings import load_config, load_overrides
 
@@ -120,6 +120,15 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
         (staging / "images").mkdir(parents=True)
     record = read_json(upstream / "images.json", {}) or {}
     pictures = images.build(assembly.variants, staging / "images", record, config.get("portraits", {}).get("crop", "none"), fetcher)
+    icon_record = read_json(upstream / "icon.json", {}) or {}
+    icon_problems, icon_record = game_icon(
+        config, hand, fetcher, pack_dir / "images", staging / "images", icon_record, assembly.manual_rows, result.warnings
+    )
+    if icon_problems:
+        shutil.rmtree(staging)
+        result.errors.extend(icon_problems)
+        reports.write_blocked(repo.reports(game), game, icon_problems)
+        return result
 
     # 5. Pack files, checked before anything is replaced.
     game_json = {
@@ -146,7 +155,7 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     write_text(staging / "game.json", dumps(game_json))
     write_text(staging / "variants.json", dumps(variants))
     write_text(staging / "hashes.json", dumps(hash_json))
-    write_text(staging / "ATTRIBUTION.md", attribution(config, pictures.sources))
+    write_text(staging / "ATTRIBUTION.md", attribution(config, pictures.sources, icon_source=icon_record.get("source") if "icon" in game_json else None))
 
     # 6. Version, manifest, and the switch.
     changed = fingerprint(staging) != previous_fingerprint or not previous_manifest
@@ -172,6 +181,8 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
         shutil.rmtree(pack_dir)
     staging.rename(pack_dir)
     write_json(upstream / "images.json", pictures.sources)
+    if icon_record:
+        write_json(upstream / "icon.json", icon_record)
     write_json(repo.ledger(game), {"names": assembly.ledger})
     reports.write(repo.reports(game), game, assembly, variants, hash_json, pictures.missing)
 
@@ -179,6 +190,64 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     result.version = manifest["packVersion"]
     result.summary = reports.summary(previous_variants, previous_hashes, variants, hash_json)
     return result
+
+
+def game_icon(
+    config: dict,
+    hand: manual.Manual,
+    fetcher: Fetcher | None,
+    previous_images: pathlib.Path,
+    pack_images: pathlib.Path,
+    record: dict,
+    rows: list[str],
+    warnings: list[str],
+) -> tuple[list[str], dict]:
+    """Writes ``images/_game.webp``, and returns what stops the build and the icon's record.
+
+    ``manual/<game>/images/_game.*`` wins. Otherwise the game's current app icon from Google Play
+    (``config`` → ``icon`` → ``googlePlay``), downloaded again only when its address changes, which
+    is when the game changes it — an anniversary badge comes and goes by itself. A store that cannot
+    be reached keeps last week's icon, like every other source.
+    """
+    target = pack_images / "_game.webp"
+    previous = previous_images / "_game.webp"
+
+    if hand.game_icon is not None:
+        source = f"manual/{hand.game_icon.parent.parent.name}/images/{hand.game_icon.name}"
+        try:
+            data = images.game_icon(hand.game_icon.read_bytes())
+        except (OSError, ValueError) as error:
+            return [f"{source} is not a picture this builder can read ({error}). Replace it with a .png, .jpg or .webp."], record
+        write_bytes(target, data)
+        rows.append(f"`{source}` is the game's icon.")
+        return [], {**record, "source": source}
+
+    app = (config.get("icon") or {}).get("googlePlay")
+    if not app:
+        return [], {}
+
+    def keep_last(reason: str | None) -> tuple[list[str], dict]:
+        if reason:
+            warnings.append(f"Game icon not refreshed ({reason}); kept the last one.")
+        if previous.is_file() and str(record.get("source", "")).startswith("http"):
+            shutil.copyfile(previous, target)
+            return [], record
+        return [], {}
+
+    if fetcher is None:
+        return keep_last(None)
+    try:
+        url = images.store_icon_url(app, fetcher)
+        if url == record.get("source") and previous.is_file():
+            shutil.copyfile(previous, target)
+            return [], record
+        original = fetcher.get(url, fresh=False)
+        write_bytes(target, images.game_icon(original))
+    except FetchError as error:
+        return keep_last(str(error))
+    except (OSError, ValueError) as error:
+        return keep_last(f"the store's icon could not be read: {error}")
+    return [], {"source": url, "sha256": hashlib.sha256(original).hexdigest()}
 
 
 def variant_json(variant: assembler.Variant, image: str | None) -> dict:
@@ -240,7 +309,7 @@ def sources(config: dict, lock: dict) -> list[dict]:
     return result
 
 
-def attribution(config: dict, pictures: dict) -> str:
+def attribution(config: dict, pictures: dict, icon_source: str | None = None) -> str:
     hash_config = config["hashes"]
     hosts = sorted({str(p.get("source", "")).split("/")[2] for p in pictures.values() if str(p.get("source", "")).startswith("http")})
     manual_count = sum(1 for p in pictures.values() if str(p.get("source", "")).startswith("manual/"))
@@ -257,6 +326,15 @@ def attribution(config: dict, pictures: dict) -> str:
         + (f", and {manual_count} added by hand" if manual_count else "")
         + ". The presets repository's `upstream/<game>/images.json` records each picture's exact address.",
         "",
+        *(
+            [
+                "**The game icon** is game art © COGNOSPHERE / HoYoverse: "
+                + ("the game's own app icon, from its Google Play page." if icon_source.startswith("http") else "kept by hand in the presets repository's `manual/` folder."),
+                "",
+            ]
+            if icon_source
+            else []
+        ),
         "This pack is built by the XXSM presets repository, https://github.com/dotStray/xxsm-presets, and is published under GPL-3.0.",
         "",
     ]

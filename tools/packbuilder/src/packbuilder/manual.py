@@ -6,6 +6,8 @@ Everything here is a plain file that can be added from GitHub's website:
   or whole ``[TextureOverride…]`` sections copied out of a mod's ``.ini``.
 - ``hashes/<Name>.json`` — a ``hash.json`` in the asset repositories' own format.
 - ``images/<Name>.png|.jpg|.jpeg|.webp`` — a portrait, which beats any downloaded one.
+- ``images/_game.png|.jpg|.jpeg|.webp`` — the game's icon, beside its name in XXSM. It beats the
+  one the build downloads (``config`` → ``icon``), for as long as the file is here.
 - ``characters.json`` — characters the character lists do not have yet, when a hashes file
   alone is not enough (a display name with spaces, or an outfit of someone).
 
@@ -25,6 +27,9 @@ from packbuilder.files import BuildError, read_json
 from packbuilder.hashes import HEX, entries as upstream_entries
 
 IMAGE_SUFFIXES = (".png", ".jpg", ".jpeg", ".webp")
+
+# The picture in images/ that is the game's icon rather than a character's portrait.
+GAME_ICON = "_game"
 
 # The last meaningful word of a section name says which buffer or texture a hash is for.
 # The same markers modders use: `[TextureOverrideGanyuBodyIB]`, `…HeadDiffuse`, `…Position`.
@@ -75,6 +80,7 @@ class Manual:
     hashes: dict[str, list[dict]] = field(default_factory=dict)  # name as written → entries (variant filled later)
     hash_sources: dict[str, str] = field(default_factory=dict)
     images: dict[str, pathlib.Path] = field(default_factory=dict)
+    game_icon: pathlib.Path | None = None
     characters: list[ManualCharacter] = field(default_factory=list)
     problems: list[str] = field(default_factory=list)
 
@@ -106,7 +112,10 @@ def read(folder: pathlib.Path) -> Manual:
 
     for path in sorted((folder / "images").glob("*")) if (folder / "images").is_dir() else []:
         if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES:
-            manual.images[path.stem] = path
+            if path.stem.lower() == GAME_ICON:
+                manual.game_icon = path
+            else:
+                manual.images[path.stem] = path
 
     listed = read_json(folder / "characters.json", [])
     if not isinstance(listed, list):

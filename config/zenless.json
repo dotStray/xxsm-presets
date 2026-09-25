@@ -19,6 +19,9 @@
   "portraits": {
     "crop": "none"
   },
+  "icon": {
+    "googlePlay": "com.HoYoverse.Nap"
+  },
   "attributes": {
     "attribute": {
       "displayName": "Attribute",
