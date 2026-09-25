@@ -1,0 +1,30 @@
+{
+  "notes": "Corrections the builder cannot work out for itself. Each entry is explained in the presets repository's README.",
+  "join": {
+    "avatar:1001": "March7thPreservation",
+    "avatar:1224": "March7thHunt",
+    "avatar:1213": "DanHengIL",
+    "avatar:1414": "DanHengPT",
+    "avatar:1506": "SilverWolf999",
+    "avatar:8001": "Caelus",
+    "avatar:8002": "Stelle",
+    "avatar:8003": "Caelus",
+    "avatar:8004": "Stelle",
+    "avatar:8005": "Caelus",
+    "avatar:8006": "Stelle",
+    "avatar:8007": "Caelus",
+    "avatar:8008": "Stelle",
+    "avatar:8009": "Caelus",
+    "avatar:8010": "Stelle"
+  },
+  "parents": {
+    "SAM": "Firefly"
+  },
+  "displayNames": {
+    "Caelus": "Caelus",
+    "Stelle": "Stelle",
+    "March7thPreservation": "March 7th (Preservation)",
+    "March7thHunt": "March 7th (The Hunt)",
+    "SAM": "SAM"
+  }
+}

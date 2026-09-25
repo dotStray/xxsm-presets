@@ -1,0 +1,32 @@
+{
+  "packSchemaVersion": 1,
+  "gameId": "genshin",
+  "packVersion": "2026.09.24",
+  "generatedAt": "2026-09-24T00:00:00Z",
+  "builder": "packbuilder 0.1.0",
+  "authoredBy": "official",
+  "minAppVersion": "0.1.0",
+  "counts": {
+    "variants": 154,
+    "skins": 30,
+    "images": 152
+  },
+  "sources": [
+    {
+      "kind": "hashes",
+      "url": "https://github.com/SilentNightSound/GI-Model-Importer-Assets",
+      "commit": "2039d16d4b64696098ba53cd69888ce967397be9",
+      "license": "GPL-3.0"
+    },
+    {
+      "kind": "roster",
+      "url": "https://gi.yatta.moe",
+      "license": "Read as the site's robots.txt allows; no licence stated"
+    },
+    {
+      "kind": "images",
+      "url": "https://gi.yatta.moe/assets/UI/",
+      "license": "Game art © COGNOSPHERE / HoYoverse, as served by the source named in each image's record."
+    }
+  ]
+}

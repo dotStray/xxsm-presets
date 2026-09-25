@@ -1,0 +1,1152 @@
+[
+  {
+    "internalName": "Alice",
+    "displayName": "Alice",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Alice",
+    "image": "images/Alice.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "AliceSummer",
+    "displayName": "Alice Summer",
+    "baseCharacterId": "Alice",
+    "isDefaultVariant": false,
+    "modFilesName": "AliceSummer",
+    "image": "images/AliceSummer.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Anby",
+    "displayName": "Anby",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Anby",
+    "image": "images/Anby.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "stun",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Anton",
+    "displayName": "Anton",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Anton",
+    "image": "images/Anton.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "attack",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Aria",
+    "displayName": "Aria",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Aria",
+    "image": "images/Aria.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "AriaDiscordant",
+    "displayName": "Aria Discordant",
+    "baseCharacterId": "Aria",
+    "isDefaultVariant": false,
+    "modFilesName": "AriaDiscordant",
+    "image": "images/AriaDiscordant.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "AriaKfc",
+    "displayName": "Aria Kfc",
+    "baseCharacterId": "Aria",
+    "isDefaultVariant": false,
+    "modFilesName": "AriaKfc",
+    "image": "images/AriaKfc.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "AriaRobot",
+    "displayName": "Aria Robot",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "AriaRobot"
+  },
+  {
+    "internalName": "AriaRobotDiscordant",
+    "displayName": "Aria Robot Discordant",
+    "baseCharacterId": "AriaRobot",
+    "isDefaultVariant": false,
+    "modFilesName": "AriaRobotDiscordant"
+  },
+  {
+    "internalName": "Astra",
+    "displayName": "Astra Yao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Astra",
+    "image": "images/Astra.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "AstraChandelier",
+    "displayName": "Astra Yao Chandelier",
+    "baseCharacterId": "Astra",
+    "isDefaultVariant": false,
+    "modFilesName": "AstraChandelier",
+    "image": "images/AstraChandelier.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Banyue",
+    "displayName": "Banyue",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Banyue",
+    "image": "images/Banyue.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "rupture",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Belle",
+    "displayName": "Belle",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Belle"
+  },
+  {
+    "internalName": "BelleBrilliance",
+    "displayName": "Belle Brilliance",
+    "baseCharacterId": "Belle",
+    "isDefaultVariant": false,
+    "modFilesName": "BelleBrilliance"
+  },
+  {
+    "internalName": "BelleSummer",
+    "displayName": "Belle Summer",
+    "baseCharacterId": "Belle",
+    "isDefaultVariant": false,
+    "modFilesName": "BelleSummer"
+  },
+  {
+    "internalName": "BelleSunlight",
+    "displayName": "Belle Sunlight",
+    "baseCharacterId": "Belle",
+    "isDefaultVariant": false,
+    "modFilesName": "BelleSunlight"
+  },
+  {
+    "internalName": "Ben",
+    "displayName": "Ben",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ben",
+    "image": "images/Ben.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "defense",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Billy",
+    "displayName": "Billy",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Billy",
+    "image": "images/Billy.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "attack",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "BillyStarlight",
+    "displayName": "Starlight - Billy",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "BillyStarlight",
+    "image": "images/BillyStarlight.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "rupture",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Burnice",
+    "displayName": "Burnice",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Burnice",
+    "image": "images/Burnice.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Caesar",
+    "displayName": "Caesar",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Caesar",
+    "image": "images/Caesar.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "defense",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Cissia",
+    "displayName": "Cissia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Cissia",
+    "image": "images/Cissia.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Claret",
+    "displayName": "Claret",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Claret",
+    "image": "images/Claret.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "armorer",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Corin",
+    "displayName": "Corin",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Corin",
+    "image": "images/Corin.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "attack",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Dialyn",
+    "displayName": "Dialyn",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Dialyn",
+    "image": "images/Dialyn.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Ellen",
+    "displayName": "Ellen",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ellen",
+    "image": "images/Ellen.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "EllenCampus",
+    "displayName": "Ellen Campus",
+    "baseCharacterId": "Ellen",
+    "isDefaultVariant": false,
+    "modFilesName": "EllenCampus",
+    "image": "images/EllenCampus.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Evelyn",
+    "displayName": "Evelyn",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Evelyn",
+    "image": "images/Evelyn.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Grace",
+    "displayName": "Grace",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Grace",
+    "image": "images/Grace.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Harumasa",
+    "displayName": "Harumasa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Harumasa",
+    "image": "images/Harumasa.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Hugo",
+    "displayName": "Hugo",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Hugo",
+    "image": "images/Hugo.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Jane",
+    "displayName": "Jane",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Jane",
+    "image": "images/Jane.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "JaneSummer",
+    "displayName": "Jane Summer",
+    "baseCharacterId": "Jane",
+    "isDefaultVariant": false,
+    "modFilesName": "JaneSummer",
+    "image": "images/JaneSummer.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "JuFufu",
+    "displayName": "Ju Fufu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "JuFufu",
+    "image": "images/JuFufu.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Koleda",
+    "displayName": "Koleda",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Koleda",
+    "image": "images/Koleda.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Lighter",
+    "displayName": "Lighter",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lighter",
+    "image": "images/Lighter.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Lucia",
+    "displayName": "Lucia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lucia",
+    "image": "images/Lucia.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Lucy",
+    "displayName": "Lucy",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lucy",
+    "image": "images/Lucy.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "support",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "LucySummer",
+    "displayName": "Lucy Summer",
+    "baseCharacterId": "Lucy",
+    "isDefaultVariant": false,
+    "modFilesName": "LucySummer",
+    "image": "images/LucySummer.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "support",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Lycaon",
+    "displayName": "Lycaon",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lycaon",
+    "image": "images/Lycaon.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Manato",
+    "displayName": "Manato",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Manato",
+    "image": "images/Manato.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "rupture",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "ManatoWhite",
+    "displayName": "Manato White",
+    "baseCharacterId": "Manato",
+    "isDefaultVariant": false,
+    "modFilesName": "ManatoWhite",
+    "image": "images/ManatoWhite.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "rupture",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Miyabi",
+    "displayName": "Miyabi",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Miyabi",
+    "image": "images/Miyabi.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "MiyabiBlossom",
+    "displayName": "Miyabi Blossom",
+    "baseCharacterId": "Miyabi",
+    "isDefaultVariant": false,
+    "modFilesName": "MiyabiBlossom",
+    "image": "images/MiyabiBlossom.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "NangongYu",
+    "displayName": "Nangong Yu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "NangongYu",
+    "image": "images/NangongYu.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "NangongYuKfc",
+    "displayName": "Nangong Yu Kfc",
+    "baseCharacterId": "NangongYu",
+    "isDefaultVariant": false,
+    "modFilesName": "NangongYuKfc",
+    "image": "images/NangongYuKfc.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "NangongYuRapsody",
+    "displayName": "Nangong Yu Rapsody",
+    "baseCharacterId": "NangongYu",
+    "isDefaultVariant": false,
+    "modFilesName": "NangongYuRapsody",
+    "image": "images/NangongYuRapsody.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Nekomata",
+    "displayName": "Nekomata",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Nekomata",
+    "image": "images/Nekomata.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Nicole",
+    "displayName": "Nicole",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Nicole",
+    "image": "images/Nicole.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "support",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "NicoleCutie",
+    "displayName": "Nicole Cutie",
+    "baseCharacterId": "Nicole",
+    "isDefaultVariant": false,
+    "modFilesName": "NicoleCutie",
+    "image": "images/NicoleCutie.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "support",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Norma",
+    "displayName": "Norma",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Norma",
+    "image": "images/Norma.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Orphie",
+    "displayName": "Orphie & Magus",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Orphie",
+    "image": "images/Orphie.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "PanYinhu",
+    "displayName": "Pan Yinhu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "PanYinhu",
+    "image": "images/PanYinhu.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "defense",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "PanYinhuJewel",
+    "displayName": "Pan Yinhu Jewel",
+    "baseCharacterId": "PanYinhu",
+    "isDefaultVariant": false,
+    "modFilesName": "PanYinhuJewel",
+    "image": "images/PanYinhuJewel.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "defense",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Piper",
+    "displayName": "Piper",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Piper",
+    "image": "images/Piper.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "anomaly",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Promeia",
+    "displayName": "Promeia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Promeia",
+    "image": "images/Promeia.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Pulchra",
+    "displayName": "Pulchra",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Pulchra",
+    "image": "images/Pulchra.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "stun",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Pyrois",
+    "displayName": "Pyrois",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Pyrois",
+    "image": "images/Pyrois.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Qingyi",
+    "displayName": "Qingyi",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Qingyi",
+    "image": "images/Qingyi.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Remielle",
+    "displayName": "Remielle",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Remielle",
+    "image": "images/Remielle.webp",
+    "attributes": {
+      "attribute": "lumen",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "RemielleMoonlight",
+    "displayName": "Remielle Moonlight",
+    "baseCharacterId": "Remielle",
+    "isDefaultVariant": false,
+    "modFilesName": "RemielleMoonlight",
+    "image": "images/RemielleMoonlight.webp",
+    "attributes": {
+      "attribute": "lumen",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "RemielleSummer",
+    "displayName": "Remielle Summer",
+    "baseCharacterId": "Remielle",
+    "isDefaultVariant": false,
+    "modFilesName": "RemielleSummer",
+    "image": "images/RemielleSummer.webp",
+    "attributes": {
+      "attribute": "lumen",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Rina",
+    "displayName": "Rina",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Rina",
+    "image": "images/Rina.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Roxy",
+    "displayName": "Roxy",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Roxy",
+    "image": "images/Roxy.webp",
+    "attributes": {
+      "attribute": "wind",
+      "specialty": "stun",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Seed",
+    "displayName": "Seed",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Seed",
+    "image": "images/Seed.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Seth",
+    "displayName": "Seth",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Seth",
+    "image": "images/Seth.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "defense",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Sigrid",
+    "displayName": "Sigrid",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sigrid",
+    "image": "images/Sigrid.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "SigridSummer",
+    "displayName": "Sigrid Summer",
+    "baseCharacterId": "Sigrid",
+    "isDefaultVariant": false,
+    "modFilesName": "SigridSummer",
+    "image": "images/SigridSummer.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Soldier0",
+    "displayName": "Soldier 0 - Anby",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Soldier0",
+    "image": "images/Soldier0.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Soldier11",
+    "displayName": "Soldier 11",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Soldier11",
+    "image": "images/Soldier11.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Soukaku",
+    "displayName": "Soukaku",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Soukaku",
+    "image": "images/Soukaku.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "support",
+      "rank": "a"
+    }
+  },
+  {
+    "internalName": "Sunna",
+    "displayName": "Sunna",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sunna",
+    "image": "images/Sunna.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "SunnaKfc",
+    "displayName": "Sunna Kfc",
+    "baseCharacterId": "Sunna",
+    "isDefaultVariant": false,
+    "modFilesName": "SunnaKfc",
+    "image": "images/SunnaKfc.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "SunnaMaid",
+    "displayName": "Sunna Maid",
+    "baseCharacterId": "Sunna",
+    "isDefaultVariant": false,
+    "modFilesName": "SunnaMaid",
+    "image": "images/SunnaMaid.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Trigger",
+    "displayName": "Trigger",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Trigger",
+    "image": "images/Trigger.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "stun",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Velina",
+    "displayName": "Velina",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Velina",
+    "image": "images/Velina.webp",
+    "attributes": {
+      "attribute": "wind",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "VelinaLeisure",
+    "displayName": "Velina Leisure",
+    "baseCharacterId": "Velina",
+    "isDefaultVariant": false,
+    "modFilesName": "VelinaLeisure",
+    "image": "images/VelinaLeisure.webp",
+    "attributes": {
+      "attribute": "wind",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Vivian",
+    "displayName": "Vivian",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Vivian",
+    "image": "images/Vivian.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "VivianSummer",
+    "displayName": "Vivian Summer",
+    "baseCharacterId": "Vivian",
+    "isDefaultVariant": false,
+    "modFilesName": "VivianSummer",
+    "image": "images/VivianSummer.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Wise",
+    "displayName": "Wise",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Wise"
+  },
+  {
+    "internalName": "WiseCrane",
+    "displayName": "Wise Crane",
+    "baseCharacterId": "Wise",
+    "isDefaultVariant": false,
+    "modFilesName": "WiseCrane"
+  },
+  {
+    "internalName": "WiseSkies",
+    "displayName": "Wise Skies",
+    "baseCharacterId": "Wise",
+    "isDefaultVariant": false,
+    "modFilesName": "WiseSkies"
+  },
+  {
+    "internalName": "WiseSummer",
+    "displayName": "Wise Summer",
+    "baseCharacterId": "Wise",
+    "isDefaultVariant": false,
+    "modFilesName": "WiseSummer"
+  },
+  {
+    "internalName": "Yanagi",
+    "displayName": "Yanagi",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yanagi",
+    "image": "images/Yanagi.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "anomaly",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "YeShunguang",
+    "displayName": "Ye Shunguang",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "YeShunguang",
+    "image": "images/YeShunguang.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "YeShunguangDawnlight",
+    "displayName": "Ye Shunguang Dawnlight",
+    "baseCharacterId": "YeShunguang",
+    "isDefaultVariant": false,
+    "modFilesName": "YeShunguangDawnlight",
+    "image": "images/YeShunguangDawnlight.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Yidhari",
+    "displayName": "Yidhari",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yidhari",
+    "image": "images/Yidhari.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "rupture",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Yixuan",
+    "displayName": "Yixuan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yixuan",
+    "image": "images/Yixuan.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "rupture",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "YixuanTrailsOfInk",
+    "displayName": "Yixuan Trails Of Ink",
+    "baseCharacterId": "Yixuan",
+    "isDefaultVariant": false,
+    "modFilesName": "YixuanTrailsOfInk",
+    "image": "images/YixuanTrailsOfInk.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "rupture",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Yuzuha",
+    "displayName": "Yuzuha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yuzuha",
+    "image": "images/Yuzuha.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "YuzuhaSummer",
+    "displayName": "Yuzuha Summer",
+    "baseCharacterId": "Yuzuha",
+    "isDefaultVariant": false,
+    "modFilesName": "YuzuhaSummer",
+    "image": "images/YuzuhaSummer.webp",
+    "attributes": {
+      "attribute": "physical",
+      "specialty": "support",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "Zhao",
+    "displayName": "Zhao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Zhao",
+    "image": "images/Zhao.webp",
+    "attributes": {
+      "attribute": "ice",
+      "specialty": "defense",
+      "rank": "s"
+    }
+  },
+  {
+    "internalName": "ZhuYuan",
+    "displayName": "Zhu Yuan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "ZhuYuan",
+    "image": "images/ZhuYuan.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "attack",
+      "rank": "s"
+    }
+  }
+]

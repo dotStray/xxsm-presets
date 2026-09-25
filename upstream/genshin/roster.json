@@ -1,0 +1,2597 @@
+{
+  "source": "yatta-genshin",
+  "characters": [
+    {
+      "key": "avatar:10000002",
+      "name": "Kamisato Ayaka",
+      "joinKeys": [
+        "kamisatoayaka",
+        "ayaka"
+      ],
+      "wordKeys": [
+        "kamisato"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-07-20",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayaka.png",
+      "outfits": [
+        {
+          "key": "costume:AyakaCostumeFruhling",
+          "name": "Springbloom Missive",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AyakaCostumeFruhling.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000003",
+      "name": "Jean",
+      "joinKeys": [
+        "jean",
+        "qin"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qin.png",
+      "outfits": [
+        {
+          "key": "costume:QinCostumeSea",
+          "name": "Sea Breeze Dandelion",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeSea.png"
+        },
+        {
+          "key": "costume:QinCostumeWic",
+          "name": "Gunnhildr's Legacy",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeWic.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000005-anemo",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000005-cryo",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-08-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000005-dendro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-07-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000005-electro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-07-20",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000005-geo",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000005-hydro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-07-23",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000005-pyro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playerboy"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-01-01",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+    },
+    {
+      "key": "avatar:10000006",
+      "name": "Lisa",
+      "joinKeys": [
+        "lisa"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lisa.png",
+      "outfits": [
+        {
+          "key": "costume:LisaCostumeStudentin",
+          "name": "A Sobriquet Under Shade",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_LisaCostumeStudentin.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000007-anemo",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000007-cryo",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-08-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000007-dendro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-07-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000007-electro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-07-20",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000007-geo",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000007-hydro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-07-23",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000007-pyro",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler",
+        "playergirl"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-01-01",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+    },
+    {
+      "key": "avatar:10000014",
+      "name": "Barbara",
+      "joinKeys": [
+        "barbara"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Barbara.png",
+      "outfits": [
+        {
+          "key": "costume:BarbaraCostumeSummertime",
+          "name": "Summertime Sparkle",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BarbaraCostumeSummertime.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000015",
+      "name": "Kaeya",
+      "joinKeys": [
+        "kaeya"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaeya.png",
+      "outfits": [
+        {
+          "key": "costume:KaeyaCostumeDancer",
+          "name": "Sailwind Shadow",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KaeyaCostumeDancer.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000016",
+      "name": "Diluc",
+      "joinKeys": [
+        "diluc"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diluc.png",
+      "outfits": [
+        {
+          "key": "costume:DilucCostumeFlamme",
+          "name": "Red Dead of Night",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DilucCostumeFlamme.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000020",
+      "name": "Razor",
+      "joinKeys": [
+        "razor"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Razor.png"
+    },
+    {
+      "key": "avatar:10000021",
+      "name": "Amber",
+      "joinKeys": [
+        "amber",
+        "ambor"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ambor.png",
+      "outfits": [
+        {
+          "key": "costume:AmborCostumeWic",
+          "name": "100% Outrider",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AmborCostumeWic.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000022",
+      "name": "Venti",
+      "joinKeys": [
+        "venti"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Venti.png"
+    },
+    {
+      "key": "avatar:10000023",
+      "name": "Xiangling",
+      "joinKeys": [
+        "xiangling"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiangling.png",
+      "outfits": [
+        {
+          "key": "costume:XianglingCostumeWinter",
+          "name": "New Year's Cheer",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XianglingCostumeWinter.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000024",
+      "name": "Beidou",
+      "joinKeys": [
+        "beidou"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Beidou.png"
+    },
+    {
+      "key": "avatar:10000025",
+      "name": "Xingqiu",
+      "joinKeys": [
+        "xingqiu"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xingqiu.png",
+      "outfits": [
+        {
+          "key": "costume:XingqiuCostumeBamboo",
+          "name": "Bamboo Rain",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XingqiuCostumeBamboo.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000026",
+      "name": "Xiao",
+      "joinKeys": [
+        "xiao"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-02-01",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiao.png"
+    },
+    {
+      "key": "avatar:10000027",
+      "name": "Ningguang",
+      "joinKeys": [
+        "ningguang"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ningguang.png",
+      "outfits": [
+        {
+          "key": "costume:NingguangCostumeFloral",
+          "name": "Orchid's Evening Gown",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NingguangCostumeFloral.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000029",
+      "name": "Klee",
+      "joinKeys": [
+        "klee"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Klee.png",
+      "outfits": [
+        {
+          "key": "costume:KleeCostumeWitch",
+          "name": "Blossoming Starlight",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KleeCostumeWitch.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000030",
+      "name": "Zhongli",
+      "joinKeys": [
+        "zhongli"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-12-02",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zhongli.png"
+    },
+    {
+      "key": "avatar:10000031",
+      "name": "Fischl",
+      "joinKeys": [
+        "fischl"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Fischl.png",
+      "outfits": [
+        {
+          "key": "costume:FischlCostumeHighness",
+          "name": "Ein Immernachtstraum",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_FischlCostumeHighness.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000032",
+      "name": "Bennett",
+      "joinKeys": [
+        "bennett"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Bennett.png",
+      "outfits": [
+        {
+          "key": "costume:BennettCostumeSummer",
+          "name": "Adventures in Blazing Hue",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BennettCostumeSummer.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000033",
+      "name": "Tartaglia",
+      "joinKeys": [
+        "tartaglia"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "FATUI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-11-11",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tartaglia.png"
+    },
+    {
+      "key": "avatar:10000034",
+      "name": "Noelle",
+      "joinKeys": [
+        "noelle",
+        "noel"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Noel.png"
+    },
+    {
+      "key": "avatar:10000035",
+      "name": "Qiqi",
+      "joinKeys": [
+        "qiqi"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qiqi.png"
+    },
+    {
+      "key": "avatar:10000036",
+      "name": "Chongyun",
+      "joinKeys": [
+        "chongyun"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chongyun.png"
+    },
+    {
+      "key": "avatar:10000037",
+      "name": "Ganyu",
+      "joinKeys": [
+        "ganyu"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-01-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ganyu.png",
+      "outfits": [
+        {
+          "key": "costume:GanyuCostumeYu",
+          "name": "Twilight Blossom",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_GanyuCostumeYu.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000038",
+      "name": "Albedo",
+      "joinKeys": [
+        "albedo"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-12-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Albedo.png"
+    },
+    {
+      "key": "avatar:10000039",
+      "name": "Diona",
+      "joinKeys": [
+        "diona"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-11-11",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diona.png"
+    },
+    {
+      "key": "avatar:10000041",
+      "name": "Mona",
+      "joinKeys": [
+        "mona"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mona.png",
+      "outfits": [
+        {
+          "key": "costume:MonaCostumeWic",
+          "name": "Pact of Stars and Moon",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MonaCostumeWic.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000042",
+      "name": "Keqing",
+      "joinKeys": [
+        "keqing"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Keqing.png",
+      "outfits": [
+        {
+          "key": "costume:KeqingCostumeFeather",
+          "name": "Opulent Splendor",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KeqingCostumeFeather.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000043",
+      "name": "Sucrose",
+      "joinKeys": [
+        "sucrose"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-09-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sucrose.png"
+    },
+    {
+      "key": "avatar:10000044",
+      "name": "Xinyan",
+      "joinKeys": [
+        "xinyan"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2020-12-02",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xinyan.png"
+    },
+    {
+      "key": "avatar:10000045",
+      "name": "Rosaria",
+      "joinKeys": [
+        "rosaria"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2021-04-06",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Rosaria.png",
+      "outfits": [
+        {
+          "key": "costume:RosariaCostumeWic",
+          "name": "To the Church's Free Spirit",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_RosariaCostumeWic.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000046",
+      "name": "Hu Tao",
+      "joinKeys": [
+        "hutao"
+      ],
+      "wordKeys": [
+        "tao",
+        "hu"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-03-02",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Hutao.png",
+      "outfits": [
+        {
+          "key": "costume:HutaoCostumeWinter",
+          "name": "Cherries Snow-Laden",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_HutaoCostumeWinter.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000047",
+      "name": "Kaedehara Kazuha",
+      "joinKeys": [
+        "kaedeharakazuha",
+        "kazuha"
+      ],
+      "wordKeys": [
+        "kaedehara"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-06-29",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kazuha.png"
+    },
+    {
+      "key": "avatar:10000048",
+      "name": "Yanfei",
+      "joinKeys": [
+        "yanfei",
+        "feiyan"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2021-04-26",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Feiyan.png"
+    },
+    {
+      "key": "avatar:10000049",
+      "name": "Yoimiya",
+      "joinKeys": [
+        "yoimiya"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-08-10",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yoimiya.png"
+    },
+    {
+      "key": "avatar:10000050",
+      "name": "Thoma",
+      "joinKeys": [
+        "thoma",
+        "tohma"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2021-11-02",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tohma.png"
+    },
+    {
+      "key": "avatar:10000051",
+      "name": "Eula",
+      "joinKeys": [
+        "eula"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-05-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Eula.png"
+    },
+    {
+      "key": "avatar:10000052",
+      "name": "Raiden Shogun",
+      "joinKeys": [
+        "raidenshogun",
+        "shougun"
+      ],
+      "wordKeys": [
+        "shogun",
+        "raiden"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-08-31",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shougun.png"
+    },
+    {
+      "key": "avatar:10000053",
+      "name": "Sayu",
+      "joinKeys": [
+        "sayu"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2021-08-10",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sayu.png"
+    },
+    {
+      "key": "avatar:10000054",
+      "name": "Sangonomiya Kokomi",
+      "joinKeys": [
+        "sangonomiyakokomi",
+        "kokomi"
+      ],
+      "wordKeys": [
+        "sangonomiya"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-09-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kokomi.png"
+    },
+    {
+      "key": "avatar:10000055",
+      "name": "Gorou",
+      "joinKeys": [
+        "gorou"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2021-12-14",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gorou.png"
+    },
+    {
+      "key": "avatar:10000056",
+      "name": "Kujou Sara",
+      "joinKeys": [
+        "kujousara",
+        "sara"
+      ],
+      "wordKeys": [
+        "kujou"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2021-08-31",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sara.png"
+    },
+    {
+      "key": "avatar:10000057",
+      "name": "Arataki Itto",
+      "joinKeys": [
+        "aratakiitto",
+        "itto"
+      ],
+      "wordKeys": [
+        "arataki"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-12-14",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Itto.png"
+    },
+    {
+      "key": "avatar:10000058",
+      "name": "Yae Miko",
+      "joinKeys": [
+        "yaemiko",
+        "yae"
+      ],
+      "wordKeys": [
+        "miko"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-02-15",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yae.png"
+    },
+    {
+      "key": "avatar:10000059",
+      "name": "Shikanoin Heizou",
+      "joinKeys": [
+        "shikanoinheizou",
+        "heizo"
+      ],
+      "wordKeys": [
+        "heizou",
+        "shikanoin"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-07-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Heizo.png"
+    },
+    {
+      "key": "avatar:10000060",
+      "name": "Yelan",
+      "joinKeys": [
+        "yelan"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-05-30",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yelan.png",
+      "outfits": [
+        {
+          "key": "costume:YelanCostumeSummer",
+          "name": "Tranquil Banquet",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YelanCostumeSummer.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000061",
+      "name": "Kirara",
+      "joinKeys": [
+        "kirara",
+        "momoka"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-05-22",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Momoka.png",
+      "outfits": [
+        {
+          "key": "costume:MomokaCostumeErrantry",
+          "name": "Phantom in Boots",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MomokaCostumeErrantry.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000062",
+      "name": "Aloy",
+      "joinKeys": [
+        "aloy"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "RANGER"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2021-08-31",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aloy.png"
+    },
+    {
+      "key": "avatar:10000063",
+      "name": "Shenhe",
+      "joinKeys": [
+        "shenhe"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-01-04",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shenhe.png",
+      "outfits": [
+        {
+          "key": "costume:ShenheCostumeDai",
+          "name": "Frostflower Dew",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_ShenheCostumeDai.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000064",
+      "name": "Yun Jin",
+      "joinKeys": [
+        "yunjin"
+      ],
+      "wordKeys": [
+        "jin",
+        "yun"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-01-04",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yunjin.png"
+    },
+    {
+      "key": "avatar:10000065",
+      "name": "Kuki Shinobu",
+      "joinKeys": [
+        "kukishinobu",
+        "shinobu"
+      ],
+      "wordKeys": [
+        "kuki"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-06-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shinobu.png"
+    },
+    {
+      "key": "avatar:10000066",
+      "name": "Kamisato Ayato",
+      "joinKeys": [
+        "kamisatoayato",
+        "ayato"
+      ],
+      "wordKeys": [
+        "kamisato"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-03-29",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayato.png"
+    },
+    {
+      "key": "avatar:10000067",
+      "name": "Collei",
+      "joinKeys": [
+        "collei"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-08-23",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Collei.png"
+    },
+    {
+      "key": "avatar:10000068",
+      "name": "Dori",
+      "joinKeys": [
+        "dori"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-09-09",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dori.png"
+    },
+    {
+      "key": "avatar:10000069",
+      "name": "Tighnari",
+      "joinKeys": [
+        "tighnari"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-08-23",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tighnari.png"
+    },
+    {
+      "key": "avatar:10000070",
+      "name": "Nilou",
+      "joinKeys": [
+        "nilou"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-10-14",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nilou.png",
+      "outfits": [
+        {
+          "key": "costume:NilouCostumeFairy",
+          "name": "Breeze of Sabaa",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NilouCostumeFairy.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000071",
+      "name": "Cyno",
+      "joinKeys": [
+        "cyno"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-09-26",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Cyno.png"
+    },
+    {
+      "key": "avatar:10000072",
+      "name": "Candace",
+      "joinKeys": [
+        "candace"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-09-26",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Candace.png"
+    },
+    {
+      "key": "avatar:10000073",
+      "name": "Nahida",
+      "joinKeys": [
+        "nahida"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-10-31",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nahida.png"
+    },
+    {
+      "key": "avatar:10000074",
+      "name": "Layla",
+      "joinKeys": [
+        "layla"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-11-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Layla.png"
+    },
+    {
+      "key": "avatar:10000075",
+      "name": "Wanderer",
+      "joinKeys": [
+        "wanderer"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2022-12-05",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wanderer.png"
+    },
+    {
+      "key": "avatar:10000076",
+      "name": "Faruzan",
+      "joinKeys": [
+        "faruzan"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2022-12-05",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Faruzan.png"
+    },
+    {
+      "key": "avatar:10000077",
+      "name": "Yaoyao",
+      "joinKeys": [
+        "yaoyao"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-01-16",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yaoyao.png",
+      "outfits": [
+        {
+          "key": "costume:YaoyaoCostumeWinter",
+          "name": "Rainlit Bamboo Reverie",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YaoyaoCostumeWinter.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000078",
+      "name": "Alhaitham",
+      "joinKeys": [
+        "alhaitham",
+        "alhatham"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-01-16",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alhatham.png"
+    },
+    {
+      "key": "avatar:10000079",
+      "name": "Dehya",
+      "joinKeys": [
+        "dehya"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-02-27",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dehya.png"
+    },
+    {
+      "key": "avatar:10000080",
+      "name": "Mika",
+      "joinKeys": [
+        "mika"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-03-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mika.png"
+    },
+    {
+      "key": "avatar:10000081",
+      "name": "Kaveh",
+      "joinKeys": [
+        "kaveh"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-05-02",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaveh.png"
+    },
+    {
+      "key": "avatar:10000082",
+      "name": "Baizhu",
+      "joinKeys": [
+        "baizhu",
+        "baizhuer"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-05-02",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Baizhuer.png"
+    },
+    {
+      "key": "avatar:10000083",
+      "name": "Lynette",
+      "joinKeys": [
+        "lynette",
+        "linette"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-08-14",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linette.png"
+    },
+    {
+      "key": "avatar:10000084",
+      "name": "Lyney",
+      "joinKeys": [
+        "lyney",
+        "liney"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-08-14",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liney.png"
+    },
+    {
+      "key": "avatar:10000085",
+      "name": "Freminet",
+      "joinKeys": [
+        "freminet"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-09-05",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Freminet.png"
+    },
+    {
+      "key": "avatar:10000086",
+      "name": "Wriothesley",
+      "joinKeys": [
+        "wriothesley"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-10-17",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wriothesley.png"
+    },
+    {
+      "key": "avatar:10000087",
+      "name": "Neuvillette",
+      "joinKeys": [
+        "neuvillette"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-09-25",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Neuvillette.png",
+      "outfits": [
+        {
+          "key": "costume:NeuvilletteCostumeWinter",
+          "name": "Melusent Gift",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NeuvilletteCostumeWinter.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000088",
+      "name": "Charlotte",
+      "joinKeys": [
+        "charlotte"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2023-11-06",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Charlotte.png",
+      "outfits": [
+        {
+          "key": "costume:CharlotteCostumeDong",
+          "name": "Hurlock Variations",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CharlotteCostumeDong.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000089",
+      "name": "Furina",
+      "joinKeys": [
+        "furina"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-11-06",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Furina.png"
+    },
+    {
+      "key": "avatar:10000090",
+      "name": "Chevreuse",
+      "joinKeys": [
+        "chevreuse"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2024-01-09",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chevreuse.png"
+    },
+    {
+      "key": "avatar:10000091",
+      "name": "Navia",
+      "joinKeys": [
+        "navia"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2023-12-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Navia.png"
+    },
+    {
+      "key": "avatar:10000092",
+      "name": "Gaming",
+      "joinKeys": [
+        "gaming"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2024-01-29",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gaming.png"
+    },
+    {
+      "key": "avatar:10000093",
+      "name": "Xianyun",
+      "joinKeys": [
+        "xianyun",
+        "liuyun"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-01-29",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liuyun.png"
+    },
+    {
+      "key": "avatar:10000094",
+      "name": "Chiori",
+      "joinKeys": [
+        "chiori"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-03-11",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chiori.png"
+    },
+    {
+      "key": "avatar:10000095",
+      "name": "Sigewinne",
+      "joinKeys": [
+        "sigewinne"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-06-26",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sigewinne.png"
+    },
+    {
+      "key": "avatar:10000096",
+      "name": "Arlecchino",
+      "joinKeys": [
+        "arlecchino"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "FATUI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-04-22",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Arlecchino.png"
+    },
+    {
+      "key": "avatar:10000097",
+      "name": "Sethos",
+      "joinKeys": [
+        "sethos"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "SUMERU"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2024-06-03",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sethos.png"
+    },
+    {
+      "key": "avatar:10000098",
+      "name": "Clorinde",
+      "joinKeys": [
+        "clorinde"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-06-03",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Clorinde.png"
+    },
+    {
+      "key": "avatar:10000099",
+      "name": "Emilie",
+      "joinKeys": [
+        "emilie"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-08-06",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Emilie.png"
+    },
+    {
+      "key": "avatar:10000100",
+      "name": "Kachina",
+      "joinKeys": [
+        "kachina"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2024-08-26",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kachina.png"
+    },
+    {
+      "key": "avatar:10000101",
+      "name": "Kinich",
+      "joinKeys": [
+        "kinich"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-09-17",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kinich.png"
+    },
+    {
+      "key": "avatar:10000102",
+      "name": "Mualani",
+      "joinKeys": [
+        "mualani"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-08-26",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mualani.png"
+    },
+    {
+      "key": "avatar:10000103",
+      "name": "Xilonen",
+      "joinKeys": [
+        "xilonen"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-10-07",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xilonen.png"
+    },
+    {
+      "key": "avatar:10000104",
+      "name": "Chasca",
+      "joinKeys": [
+        "chasca"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-11-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chasca.png"
+    },
+    {
+      "key": "avatar:10000105",
+      "name": "Ororon",
+      "joinKeys": [
+        "ororon",
+        "olorun"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2024-11-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Olorun.png"
+    },
+    {
+      "key": "avatar:10000106",
+      "name": "Mavuika",
+      "joinKeys": [
+        "mavuika"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-12-30",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mavuika.png"
+    },
+    {
+      "key": "avatar:10000107",
+      "name": "Citlali",
+      "joinKeys": [
+        "citlali"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2024-12-30",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Citlali.png",
+      "outfits": [
+        {
+          "key": "costume:CitlaliCostumeXia",
+          "name": "Whispers of Stars and Smoke",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CitlaliCostumeXia.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000108",
+      "name": "Lan Yan",
+      "joinKeys": [
+        "lanyan"
+      ],
+      "wordKeys": [
+        "yan",
+        "lan"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "LIYUE"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2025-01-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lanyan.png"
+    },
+    {
+      "key": "avatar:10000109",
+      "name": "Yumemizuki Mizuki",
+      "joinKeys": [
+        "yumemizukimizuki",
+        "mizuki"
+      ],
+      "wordKeys": [
+        "yumemizuki"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "INAZUMA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-02-10",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mizuki.png"
+    },
+    {
+      "key": "avatar:10000110",
+      "name": "Iansan",
+      "joinKeys": [
+        "iansan"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2025-03-24",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Iansan.png"
+    },
+    {
+      "key": "avatar:10000111",
+      "name": "Varesa",
+      "joinKeys": [
+        "varesa"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-03-24",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varesa.png"
+    },
+    {
+      "key": "avatar:10000112",
+      "name": "Escoffier",
+      "joinKeys": [
+        "escoffier"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "FONTAINE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-05-05",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Escoffier.png"
+    },
+    {
+      "key": "avatar:10000113",
+      "name": "Ifa",
+      "joinKeys": [
+        "ifa"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NATLAN"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2025-05-05",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ifa.png"
+    },
+    {
+      "key": "avatar:10000114",
+      "name": "Skirk",
+      "joinKeys": [
+        "skirk",
+        "skirknew"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "OMNI_SCOURGE"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-06-16",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_SkirkNew.png"
+    },
+    {
+      "key": "avatar:10000115",
+      "name": "Dahlia",
+      "joinKeys": [
+        "dahlia"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2025-06-16",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dahlia.png"
+    },
+    {
+      "key": "avatar:10000116",
+      "name": "Ineffa",
+      "joinKeys": [
+        "ineffa"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-07-28",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ineffa.png"
+    },
+    {
+      "key": "avatar:10000117",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin",
+        "mannequinboy"
+      ],
+      "attributes": {
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-10-20",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MannequinBoy.png"
+    },
+    {
+      "key": "avatar:10000118",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina",
+        "mannequingirl"
+      ],
+      "attributes": {
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MAINACTOR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-10-20",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MannequinGirl.png"
+    },
+    {
+      "key": "avatar:10000119",
+      "name": "Lauma",
+      "joinKeys": [
+        "lauma"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-09-08",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lauma.png"
+    },
+    {
+      "key": "avatar:10000120",
+      "name": "Flins",
+      "joinKeys": [
+        "flins"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-09-30",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Flins.png"
+    },
+    {
+      "key": "avatar:10000121",
+      "name": "Aino",
+      "joinKeys": [
+        "aino"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2025-09-08",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aino.png"
+    },
+    {
+      "key": "avatar:10000122",
+      "name": "Nefer",
+      "joinKeys": [
+        "nefer"
+      ],
+      "attributes": {
+        "element": "Grass",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-10-20",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nefer.png"
+    },
+    {
+      "key": "avatar:10000123",
+      "name": "Durin",
+      "joinKeys": [
+        "durin"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2025-12-01",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin.png",
+      "outfits": [
+        {
+          "key": "costume:DurinCostumeWic",
+          "name": "Toward the Distant Horizon",
+          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DurinCostumeWic.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:10000124",
+      "name": "Jahoda",
+      "joinKeys": [
+        "jahoda"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2025-12-01",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Jahoda.png"
+    },
+    {
+      "key": "avatar:10000125",
+      "name": "Columbina",
+      "joinKeys": [
+        "columbina"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-01-12",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Columbina.png"
+    },
+    {
+      "key": "avatar:10000126",
+      "name": "Zibai",
+      "joinKeys": [
+        "zibai"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "NODKRAI_ZIBAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-02-03",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zibai.png"
+    },
+    {
+      "key": "avatar:10000127",
+      "name": "Illuga",
+      "joinKeys": [
+        "illuga"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2026-02-03",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Illuga.png"
+    },
+    {
+      "key": "avatar:10000128",
+      "name": "Varka",
+      "joinKeys": [
+        "varka"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-02-23",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varka.png"
+    },
+    {
+      "key": "avatar:10000129",
+      "name": "Lohen",
+      "joinKeys": [
+        "lohen"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-06-09",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lohen.png"
+    },
+    {
+      "key": "avatar:10000130",
+      "name": "Linnea",
+      "joinKeys": [
+        "linnea"
+      ],
+      "attributes": {
+        "element": "Rock",
+        "weaponClass": "WEAPON_BOW",
+        "region": [
+          "NODKRAI"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-04-06",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linnea.png"
+    },
+    {
+      "key": "avatar:10000131",
+      "name": "Nicole",
+      "joinKeys": [
+        "nicole"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "HVISION"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-05-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nicole.png"
+    },
+    {
+      "key": "avatar:10000132",
+      "name": "Prune",
+      "joinKeys": [
+        "prune"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "MONDSTADT"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2026-05-18",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Prune.png"
+    },
+    {
+      "key": "avatar:10000133",
+      "name": "Sandrone",
+      "joinKeys": [
+        "sandrone",
+        "marionettenew"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_CLAYMORE",
+        "region": [
+          "SNEZHNAYA_STAR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-06-29",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MarionetteNew.png"
+    },
+    {
+      "key": "avatar:10000140",
+      "name": "Vodyanitsa",
+      "joinKeys": [
+        "vodyanitsa"
+      ],
+      "attributes": {
+        "element": "Water",
+        "weaponClass": "WEAPON_CATALYST",
+        "region": [
+          "SNEZHNAYA"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-09-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vodyanitsa.png"
+    },
+    {
+      "key": "avatar:10000143",
+      "name": "Vesna",
+      "joinKeys": [
+        "vesna"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "SNEZHNAYA_STAR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-09-21",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vesna.png"
+    },
+    {
+      "key": "avatar:10000148",
+      "name": "Alyosha",
+      "joinKeys": [
+        "alyosha"
+      ],
+      "attributes": {
+        "element": "Electric",
+        "weaponClass": "WEAPON_POLE",
+        "region": [
+          "SNEZHNAYA"
+        ],
+        "rarity": 4
+      },
+      "releaseDate": "2026-08-10",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alyosha.png"
+    },
+    {
+      "key": "avatar:10000150",
+      "name": "Odette",
+      "joinKeys": [
+        "odette"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "weaponClass": "WEAPON_SWORD_ONE_HAND",
+        "region": [
+          "SNEZHNAYA_STAR"
+        ],
+        "rarity": 5
+      },
+      "releaseDate": "2026-08-10",
+      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Odette.png"
+    }
+  ]
+}

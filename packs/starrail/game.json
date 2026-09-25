@@ -1,0 +1,87 @@
+{
+  "gameId": "starrail",
+  "displayName": "Honkai: Star Rail",
+  "shortName": "HSR",
+  "importer": "SRMI",
+  "disabledPrefix": "DISABLED_",
+  "attributes": {
+    "element": {
+      "displayName": "Element",
+      "values": [
+        {
+          "id": "physical",
+          "displayName": "Physical"
+        },
+        {
+          "id": "fire",
+          "displayName": "Fire"
+        },
+        {
+          "id": "ice",
+          "displayName": "Ice"
+        },
+        {
+          "id": "lightning",
+          "displayName": "Lightning"
+        },
+        {
+          "id": "wind",
+          "displayName": "Wind"
+        },
+        {
+          "id": "quantum",
+          "displayName": "Quantum"
+        },
+        {
+          "id": "imaginary",
+          "displayName": "Imaginary"
+        }
+      ]
+    },
+    "path": {
+      "displayName": "Path",
+      "values": [
+        {
+          "id": "destruction",
+          "displayName": "Destruction"
+        },
+        {
+          "id": "hunt",
+          "displayName": "The Hunt"
+        },
+        {
+          "id": "erudition",
+          "displayName": "Erudition"
+        },
+        {
+          "id": "harmony",
+          "displayName": "Harmony"
+        },
+        {
+          "id": "nihility",
+          "displayName": "Nihility"
+        },
+        {
+          "id": "preservation",
+          "displayName": "Preservation"
+        },
+        {
+          "id": "abundance",
+          "displayName": "Abundance"
+        },
+        {
+          "id": "remembrance",
+          "displayName": "Remembrance"
+        },
+        {
+          "id": "elation",
+          "displayName": "Elation"
+        }
+      ]
+    },
+    "rarity": {
+      "displayName": "Rarity",
+      "kind": "number"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "gameId": "genshin",
+  "displayName": "Genshin Impact",
+  "shortName": "GI",
+  "importer": "GIMI",
+  "disabledPrefix": "DISABLED_",
+  "hashes": {
+    "repo": "SilentNightSound/GI-Model-Importer-Assets",
+    "folder": "PlayerCharacterData",
+    "license": "GPL-3.0"
+  },
+  "roster": {
+    "source": "yatta-genshin",
+    "url": "https://gi.yatta.moe",
+    "imagesUrl": "https://gi.yatta.moe/assets/UI/",
+    "credit": "[Project Amber](https://gi.yatta.moe) (gi.yatta.moe), with which characters have outfits taken from [Enka.Network's public data](https://github.com/EnkaNetwork/API-docs)",
+    "license": "Read as the site's robots.txt allows; no licence stated"
+  },
+  "portraits": {
+    "crop": "none"
+  },
+  "attributes": {
+    "element": {
+      "displayName": "Element",
+      "values": [
+        {
+          "id": "anemo",
+          "displayName": "Anemo",
+          "from": [
+            "Wind"
+          ]
+        },
+        {
+          "id": "cryo",
+          "displayName": "Cryo",
+          "from": [
+            "Ice"
+          ]
+        },
+        {
+          "id": "dendro",
+          "displayName": "Dendro",
+          "from": [
+            "Grass"
+          ]
+        },
+        {
+          "id": "electro",
+          "displayName": "Electro",
+          "from": [
+            "Electric"
+          ]
+        },
+        {
+          "id": "geo",
+          "displayName": "Geo",
+          "from": [
+            "Rock"
+          ]
+        },
+        {
+          "id": "hydro",
+          "displayName": "Hydro",
+          "from": [
+            "Water"
+          ]
+        },
+        {
+          "id": "pyro",
+          "displayName": "Pyro",
+          "from": [
+            "Fire"
+          ]
+        }
+      ],
+      "ignore": [
+        "None"
+      ]
+    },
+    "weaponClass": {
+      "displayName": "Weapon",
+      "values": [
+        {
+          "id": "bow",
+          "displayName": "Bow",
+          "from": [
+            "WEAPON_BOW"
+          ]
+        },
+        {
+          "id": "catalyst",
+          "displayName": "Catalyst",
+          "from": [
+            "WEAPON_CATALYST"
+          ]
+        },
+        {
+          "id": "claymore",
+          "displayName": "Claymore",
+          "from": [
+            "WEAPON_CLAYMORE"
+          ]
+        },
+        {
+          "id": "polearm",
+          "displayName": "Polearm",
+          "from": [
+            "WEAPON_POLE"
+          ]
+        },
+        {
+          "id": "sword",
+          "displayName": "Sword",
+          "from": [
+            "WEAPON_SWORD_ONE_HAND"
+          ]
+        }
+      ]
+    },
+    "region": {
+      "displayName": "Region",
+      "list": true,
+      "values": [
+        {
+          "id": "mondstadt",
+          "displayName": "Mondstadt",
+          "from": [
+            "MONDSTADT"
+          ]
+        },
+        {
+          "id": "liyue",
+          "displayName": "Liyue",
+          "from": [
+            "LIYUE"
+          ]
+        },
+        {
+          "id": "inazuma",
+          "displayName": "Inazuma",
+          "from": [
+            "INAZUMA"
+          ]
+        },
+        {
+          "id": "sumeru",
+          "displayName": "Sumeru",
+          "from": [
+            "SUMERU"
+          ]
+        },
+        {
+          "id": "fontaine",
+          "displayName": "Fontaine",
+          "from": [
+            "FONTAINE"
+          ]
+        },
+        {
+          "id": "natlan",
+          "displayName": "Natlan",
+          "from": [
+            "NATLAN"
+          ]
+        },
+        {
+          "id": "nodkrai",
+          "displayName": "Nod-Krai",
+          "from": [
+            "NODKRAI",
+            "NODKRAI_ZIBAI"
+          ]
+        },
+        {
+          "id": "snezhnaya",
+          "displayName": "Snezhnaya",
+          "from": [
+            "SNEZHNAYA",
+            "SNEZHNAYA_STAR",
+            "FATUI"
+          ]
+        }
+      ],
+      "ignore": [
+        "MAINACTOR",
+        "RANGER",
+        "HVISION",
+        "OMNI_SCOURGE"
+      ]
+    },
+    "rarity": {
+      "displayName": "Rarity",
+      "kind": "number"
+    }
+  }
+}

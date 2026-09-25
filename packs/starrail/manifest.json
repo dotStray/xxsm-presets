@@ -1,0 +1,32 @@
+{
+  "packSchemaVersion": 1,
+  "gameId": "starrail",
+  "packVersion": "2026.09.24",
+  "generatedAt": "2026-09-24T00:00:00Z",
+  "builder": "packbuilder 0.1.0",
+  "authoredBy": "official",
+  "minAppVersion": "0.1.0",
+  "counts": {
+    "variants": 98,
+    "skins": 9,
+    "images": 89
+  },
+  "sources": [
+    {
+      "kind": "hashes",
+      "url": "https://github.com/Astute4533/SR-Model-Importer-Assets",
+      "commit": "84e61eeb2680d8ba1ed6c01b1ac9bae5380100a6",
+      "license": "No licence stated upstream"
+    },
+    {
+      "kind": "roster",
+      "url": "https://sr.yatta.moe",
+      "license": "Read as the site allows (it publishes no robots.txt); no licence stated"
+    },
+    {
+      "kind": "images",
+      "url": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/",
+      "license": "Game art © COGNOSPHERE / HoYoverse, as served by the source named in each image's record."
+    }
+  ]
+}

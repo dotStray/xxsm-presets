@@ -1,0 +1,38 @@
+{
+  "notes": "Corrections the builder cannot work out for itself. Each entry is explained in the presets repository's README.",
+  "join": {
+    "avatar:10000005-anemo": "TravelerBoy",
+    "avatar:10000005-geo": "TravelerBoy",
+    "avatar:10000005-electro": "TravelerBoy",
+    "avatar:10000005-dendro": "TravelerBoy",
+    "avatar:10000005-hydro": "TravelerBoy",
+    "avatar:10000005-pyro": "TravelerBoy",
+    "avatar:10000005-cryo": "TravelerBoy",
+    "avatar:10000007-anemo": "TravelerGirl",
+    "avatar:10000007-geo": "TravelerGirl",
+    "avatar:10000007-electro": "TravelerGirl",
+    "avatar:10000007-dendro": "TravelerGirl",
+    "avatar:10000007-hydro": "TravelerGirl",
+    "avatar:10000007-pyro": "TravelerGirl",
+    "avatar:10000007-cryo": "TravelerGirl",
+    "costume:AyakaCostumeFruhling": "AyakaSpringbloom",
+    "costume:AmborCostumeWic": "AmberCN",
+    "costume:QinCostumeWic": "JeanCN",
+    "costume:MonaCostumeWic": "MonaCN",
+    "costume:RosariaCostumeWic": "RosariaCN",
+    "costume:BarbaraCostumeSummertime": "BarbaraSummertime",
+    "costume:DilucCostumeFlamme": "DilucFlamme",
+    "costume:FischlCostumeHighness": "FischlHighness",
+    "costume:GanyuCostumeYu": "GanyuTwilight",
+    "costume:KaeyaCostumeDancer": "KaeyaSailwind",
+    "costume:KeqingCostumeFeather": "KeqingOpulent",
+    "costume:LisaCostumeStudentin": "LisaStudent",
+    "costume:NingguangCostumeFloral": "NingguangOrchid",
+    "costume:ShenheCostumeDai": "ShenheFrostFlower",
+    "costume:XingqiuCostumeBamboo": "XingqiuBamboo"
+  },
+  "displayNames": {
+    "TravelerBoy": "Aether",
+    "TravelerGirl": "Lumine"
+  }
+}

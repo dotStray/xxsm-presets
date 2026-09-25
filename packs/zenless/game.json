@@ -1,0 +1,88 @@
+{
+  "gameId": "zenless",
+  "displayName": "Zenless Zone Zero",
+  "shortName": "ZZZ",
+  "importer": "ZZMI",
+  "disabledPrefix": "DISABLED_",
+  "attributes": {
+    "attribute": {
+      "displayName": "Attribute",
+      "values": [
+        {
+          "id": "physical",
+          "displayName": "Physical"
+        },
+        {
+          "id": "fire",
+          "displayName": "Fire"
+        },
+        {
+          "id": "ice",
+          "displayName": "Ice"
+        },
+        {
+          "id": "electric",
+          "displayName": "Electric"
+        },
+        {
+          "id": "ether",
+          "displayName": "Ether"
+        },
+        {
+          "id": "wind",
+          "displayName": "Wind"
+        },
+        {
+          "id": "lumen",
+          "displayName": "Lumen"
+        }
+      ]
+    },
+    "specialty": {
+      "displayName": "Specialty",
+      "values": [
+        {
+          "id": "attack",
+          "displayName": "Attack"
+        },
+        {
+          "id": "stun",
+          "displayName": "Stun"
+        },
+        {
+          "id": "anomaly",
+          "displayName": "Anomaly"
+        },
+        {
+          "id": "support",
+          "displayName": "Support"
+        },
+        {
+          "id": "defense",
+          "displayName": "Defense"
+        },
+        {
+          "id": "rupture",
+          "displayName": "Rupture"
+        },
+        {
+          "id": "armorer",
+          "displayName": "Armorer"
+        }
+      ]
+    },
+    "rank": {
+      "displayName": "Rank",
+      "values": [
+        {
+          "id": "s",
+          "displayName": "S"
+        },
+        {
+          "id": "a",
+          "displayName": "A"
+        }
+      ]
+    }
+  }
+}

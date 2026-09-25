@@ -1,0 +1,1404 @@
+[
+  {
+    "internalName": "Acheron",
+    "displayName": "Acheron",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Acheron",
+    "image": "images/Acheron.webp",
+    "releaseDate": "2024-03-27",
+    "attributes": {
+      "element": "lightning",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Aglaea",
+    "displayName": "Aglaea",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Aglaea",
+    "image": "images/Aglaea.webp",
+    "releaseDate": "2025-02-05",
+    "attributes": {
+      "element": "lightning",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Anaxa",
+    "displayName": "Anaxa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Anaxa",
+    "image": "images/Anaxa.webp",
+    "releaseDate": "2025-04-30",
+    "attributes": {
+      "element": "wind",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Archer",
+    "displayName": "Archer",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Archer",
+    "image": "images/Archer.webp",
+    "releaseDate": "2025-07-11",
+    "attributes": {
+      "element": "quantum",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Argenti",
+    "displayName": "Argenti",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Argenti",
+    "image": "images/Argenti.webp",
+    "releaseDate": "2023-12-06",
+    "attributes": {
+      "element": "physical",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Arlan",
+    "displayName": "Arlan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Arlan",
+    "image": "images/Arlan.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "lightning",
+      "path": "destruction",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Ashveil",
+    "displayName": "Ashveil",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ashveil",
+    "image": "images/Ashveil.webp",
+    "releaseDate": "2026-03-25",
+    "attributes": {
+      "element": "lightning",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Asta",
+    "displayName": "Asta",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Asta",
+    "image": "images/Asta.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "fire",
+      "path": "harmony",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Aventurine",
+    "displayName": "Aventurine",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Aventurine",
+    "image": "images/Aventurine.webp",
+    "releaseDate": "2024-04-17",
+    "attributes": {
+      "element": "imaginary",
+      "path": "preservation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "AventurineWaveflair",
+    "displayName": "Aventurine • Waveflair",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "AventurineWaveflair",
+    "image": "images/AventurineWaveflair.webp",
+    "releaseDate": "2026-09-12",
+    "attributes": {
+      "element": "quantum",
+      "path": "elation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Bailu",
+    "displayName": "Bailu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Bailu",
+    "image": "images/Bailu.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "lightning",
+      "path": "abundance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "BlackSwan",
+    "displayName": "Black Swan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "BlackSwan",
+    "image": "images/BlackSwan.webp",
+    "releaseDate": "2024-02-06",
+    "attributes": {
+      "element": "wind",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Blade",
+    "displayName": "Blade",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Blade",
+    "image": "images/Blade.webp",
+    "releaseDate": "2023-07-19",
+    "attributes": {
+      "element": "wind",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Boothill",
+    "displayName": "Boothill",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Boothill",
+    "image": "images/Boothill.webp",
+    "releaseDate": "2024-05-29",
+    "attributes": {
+      "element": "physical",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Bronya",
+    "displayName": "Bronya",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Bronya",
+    "image": "images/Bronya.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "wind",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Caelus",
+    "displayName": "Caelus",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Caelus",
+    "image": "images/Caelus.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": [
+        "physical",
+        "fire",
+        "imaginary",
+        "ice",
+        "lightning"
+      ],
+      "path": [
+        "destruction",
+        "preservation",
+        "harmony",
+        "remembrance",
+        "elation"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "CaelusVigor",
+    "displayName": "Caelus Vigor",
+    "baseCharacterId": "Caelus",
+    "isDefaultVariant": false,
+    "modFilesName": "CaelusVigor",
+    "attributes": {
+      "element": [
+        "physical",
+        "fire",
+        "imaginary",
+        "ice",
+        "lightning"
+      ],
+      "path": [
+        "destruction",
+        "preservation",
+        "harmony",
+        "remembrance",
+        "elation"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Castorice",
+    "displayName": "Castorice",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Castorice",
+    "image": "images/Castorice.webp",
+    "releaseDate": "2025-04-09",
+    "attributes": {
+      "element": "quantum",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "CastoriceFlutter",
+    "displayName": "Castorice Flutter",
+    "baseCharacterId": "Castorice",
+    "isDefaultVariant": false,
+    "modFilesName": "CastoriceFlutter",
+    "attributes": {
+      "element": "quantum",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Cerydra",
+    "displayName": "Cerydra",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Cerydra",
+    "image": "images/Cerydra.webp",
+    "releaseDate": "2025-09-02",
+    "attributes": {
+      "element": "wind",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Cipher",
+    "displayName": "Cipher",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Cipher",
+    "image": "images/Cipher.webp",
+    "releaseDate": "2025-06-11",
+    "attributes": {
+      "element": "quantum",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Clara",
+    "displayName": "Clara",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Clara",
+    "image": "images/Clara.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "physical",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Cyrene",
+    "displayName": "Cyrene",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Cyrene",
+    "image": "images/Cyrene.webp",
+    "releaseDate": "2025-11-05",
+    "attributes": {
+      "element": "ice",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "DanHeng",
+    "displayName": "Dan Heng",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "DanHeng",
+    "image": "images/DanHeng.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "wind",
+      "path": "hunt",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "DanHengIL",
+    "displayName": "Dan Heng • Imbibitor Lunae",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "DanHengIL",
+    "image": "images/DanHengIL.webp",
+    "releaseDate": "2023-08-30",
+    "attributes": {
+      "element": "imaginary",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "DanHengPT",
+    "displayName": "Dan Heng • Permansor Terrae",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "DanHengPT",
+    "image": "images/DanHengPT.webp",
+    "releaseDate": "2025-10-11",
+    "attributes": {
+      "element": "physical",
+      "path": "preservation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "DrRatio",
+    "displayName": "Dr. Ratio",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "DrRatio",
+    "image": "images/DrRatio.webp",
+    "releaseDate": "2024-01-17",
+    "attributes": {
+      "element": "imaginary",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Evanescia",
+    "displayName": "Evanescia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Evanescia",
+    "image": "images/Evanescia.webp",
+    "releaseDate": "2026-05-13",
+    "attributes": {
+      "element": "physical",
+      "path": "elation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Evernight",
+    "displayName": "Evernight",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Evernight",
+    "image": "images/Evernight.webp",
+    "releaseDate": "2025-09-25",
+    "attributes": {
+      "element": "ice",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Feixiao",
+    "displayName": "Feixiao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Feixiao",
+    "image": "images/Feixiao.webp",
+    "releaseDate": "2024-09-10",
+    "attributes": {
+      "element": "wind",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Firefly",
+    "displayName": "Firefly",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Firefly",
+    "image": "images/Firefly.webp",
+    "releaseDate": "2024-06-19",
+    "attributes": {
+      "element": "fire",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "FireflySpring",
+    "displayName": "Firefly Spring",
+    "baseCharacterId": "Firefly",
+    "isDefaultVariant": false,
+    "modFilesName": "FireflySpring",
+    "attributes": {
+      "element": "fire",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Fugue",
+    "displayName": "Fugue",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Fugue",
+    "image": "images/Fugue.webp",
+    "releaseDate": "2024-12-25",
+    "attributes": {
+      "element": "fire",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "FuXuan",
+    "displayName": "Fu Xuan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "FuXuan",
+    "image": "images/FuXuan.webp",
+    "releaseDate": "2023-09-20",
+    "attributes": {
+      "element": "quantum",
+      "path": "preservation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Gallagher",
+    "displayName": "Gallagher",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Gallagher",
+    "image": "images/Gallagher.webp",
+    "releaseDate": "2024-03-27",
+    "attributes": {
+      "element": "fire",
+      "path": "abundance",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Gepard",
+    "displayName": "Gepard",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Gepard",
+    "image": "images/Gepard.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "ice",
+      "path": "preservation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Gilgamesh",
+    "displayName": "Gilgamesh",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Gilgamesh",
+    "image": "images/Gilgamesh.webp",
+    "releaseDate": "2026-07-24",
+    "attributes": {
+      "element": "lightning",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Guinaifen",
+    "displayName": "Guinaifen",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Guinaifen",
+    "image": "images/Guinaifen.webp",
+    "releaseDate": "2023-10-28",
+    "attributes": {
+      "element": "fire",
+      "path": "nihility",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Hanya",
+    "displayName": "Hanya",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Hanya",
+    "image": "images/Hanya.webp",
+    "releaseDate": "2023-12-06",
+    "attributes": {
+      "element": "physical",
+      "path": "harmony",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Herta",
+    "displayName": "Herta",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Herta",
+    "image": "images/Herta.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "ice",
+      "path": "erudition",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Himeko",
+    "displayName": "Himeko",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Himeko",
+    "image": "images/Himeko.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "fire",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "HimekoNova",
+    "displayName": "Himeko • Nova",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "HimekoNova",
+    "image": "images/HimekoNova.webp",
+    "releaseDate": "2026-07-15",
+    "attributes": {
+      "element": "fire",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Hook",
+    "displayName": "Hook",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Hook",
+    "image": "images/Hook.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "fire",
+      "path": "destruction",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Huohuo",
+    "displayName": "Huohuo",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Huohuo",
+    "image": "images/Huohuo.webp",
+    "releaseDate": "2023-11-15",
+    "attributes": {
+      "element": "wind",
+      "path": "abundance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Hyacine",
+    "displayName": "Hyacine",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Hyacine",
+    "image": "images/Hyacine.webp",
+    "releaseDate": "2025-05-21",
+    "attributes": {
+      "element": "wind",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Hysilens",
+    "displayName": "Hysilens",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Hysilens",
+    "image": "images/Hysilens.webp",
+    "releaseDate": "2025-08-13",
+    "attributes": {
+      "element": "physical",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Jade",
+    "displayName": "Jade",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Jade",
+    "image": "images/Jade.webp",
+    "releaseDate": "2024-07-10",
+    "attributes": {
+      "element": "quantum",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Jiaoqiu",
+    "displayName": "Jiaoqiu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Jiaoqiu",
+    "image": "images/Jiaoqiu.webp",
+    "releaseDate": "2024-08-21",
+    "attributes": {
+      "element": "fire",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Jingliu",
+    "displayName": "Jingliu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Jingliu",
+    "image": "images/Jingliu.webp",
+    "releaseDate": "2023-10-11",
+    "attributes": {
+      "element": "ice",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "JingYuan",
+    "displayName": "Jing Yuan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "JingYuan",
+    "image": "images/JingYuan.webp",
+    "releaseDate": "2023-05-17",
+    "attributes": {
+      "element": "lightning",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Kafka",
+    "displayName": "Kafka",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kafka",
+    "image": "images/Kafka.webp",
+    "releaseDate": "2023-07-19",
+    "attributes": {
+      "element": "lightning",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Lingsha",
+    "displayName": "Lingsha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lingsha",
+    "image": "images/Lingsha.webp",
+    "releaseDate": "2024-10-02",
+    "attributes": {
+      "element": "fire",
+      "path": "abundance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Luka",
+    "displayName": "Luka",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Luka",
+    "image": "images/Luka.webp",
+    "releaseDate": "2023-07-19",
+    "attributes": {
+      "element": "physical",
+      "path": "nihility",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Luocha",
+    "displayName": "Luocha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Luocha",
+    "image": "images/Luocha.webp",
+    "releaseDate": "2023-06-28",
+    "attributes": {
+      "element": "imaginary",
+      "path": "abundance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Lynx",
+    "displayName": "Lynx",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lynx",
+    "image": "images/Lynx.webp",
+    "releaseDate": "2023-09-20",
+    "attributes": {
+      "element": "quantum",
+      "path": "abundance",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "March7thHunt",
+    "displayName": "March 7th (The Hunt)",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "March7thHunt",
+    "image": "images/March7thHunt.webp",
+    "releaseDate": "2024-07-31",
+    "attributes": {
+      "element": "imaginary",
+      "path": "hunt",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "March7thPreservation",
+    "displayName": "March 7th (Preservation)",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "March7thPreservation",
+    "image": "images/March7thPreservation.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "ice",
+      "path": "preservation",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "March7thPreservationSpring",
+    "displayName": "March 7th (Preservation) Spring",
+    "baseCharacterId": "March7thPreservation",
+    "isDefaultVariant": false,
+    "modFilesName": "March7thPreservationSpring",
+    "attributes": {
+      "element": "ice",
+      "path": "preservation",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Misha",
+    "displayName": "Misha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Misha",
+    "image": "images/Misha.webp",
+    "releaseDate": "2024-02-29",
+    "attributes": {
+      "element": "ice",
+      "path": "destruction",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "MortenaxBlade",
+    "displayName": "Mortenax Blade",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "MortenaxBlade",
+    "image": "images/MortenaxBlade.webp",
+    "releaseDate": "2026-06-01",
+    "attributes": {
+      "element": "fire",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Moze",
+    "displayName": "Moze",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Moze",
+    "image": "images/Moze.webp",
+    "releaseDate": "2024-09-10",
+    "attributes": {
+      "element": "lightning",
+      "path": "hunt",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Mydei",
+    "displayName": "Mydei",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Mydei",
+    "image": "images/Mydei.webp",
+    "releaseDate": "2025-03-19",
+    "attributes": {
+      "element": "imaginary",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Natasha",
+    "displayName": "Natasha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Natasha",
+    "image": "images/Natasha.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "physical",
+      "path": "abundance",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Pela",
+    "displayName": "Pela",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Pela",
+    "image": "images/Pela.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "ice",
+      "path": "nihility",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Phainon",
+    "displayName": "Phainon",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Phainon",
+    "image": "images/Phainon.webp",
+    "releaseDate": "2025-07-02",
+    "attributes": {
+      "element": "physical",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "PhainonKhaslana",
+    "displayName": "Phainon Khaslana",
+    "baseCharacterId": "Phainon",
+    "isDefaultVariant": false,
+    "modFilesName": "PhainonKhaslana",
+    "attributes": {
+      "element": "physical",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Qingque",
+    "displayName": "Qingque",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Qingque",
+    "image": "images/Qingque.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "quantum",
+      "path": "erudition",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Rappa",
+    "displayName": "Rappa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Rappa",
+    "image": "images/Rappa.webp",
+    "releaseDate": "2024-10-23",
+    "attributes": {
+      "element": "imaginary",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "RinTohsaka",
+    "displayName": "Rin Tohsaka",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "RinTohsaka",
+    "image": "images/RinTohsaka.webp",
+    "releaseDate": "2026-07-24",
+    "attributes": {
+      "element": "quantum",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Robin",
+    "displayName": "Robin",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Robin",
+    "image": "images/Robin.webp",
+    "releaseDate": "2024-05-08",
+    "attributes": {
+      "element": "physical",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "RobinSummeretto",
+    "displayName": "Robin • Summeretto",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "RobinSummeretto",
+    "image": "images/RobinSummeretto.webp",
+    "releaseDate": "2026-08-26",
+    "attributes": {
+      "element": "wind",
+      "path": "remembrance",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "RuanMei",
+    "displayName": "Ruan Mei",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "RuanMei",
+    "image": "images/RuanMei.webp",
+    "releaseDate": "2023-12-27",
+    "attributes": {
+      "element": "ice",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "RuanMeiPlumblossom",
+    "displayName": "Ruan Mei Plumblossom",
+    "baseCharacterId": "RuanMei",
+    "isDefaultVariant": false,
+    "modFilesName": "RuanMeiPlumblossom",
+    "attributes": {
+      "element": "ice",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Saber",
+    "displayName": "Saber",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Saber",
+    "image": "images/Saber.webp",
+    "releaseDate": "2025-07-11",
+    "attributes": {
+      "element": "wind",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "SAM",
+    "displayName": "SAM",
+    "baseCharacterId": "Firefly",
+    "isDefaultVariant": false,
+    "modFilesName": "SAM",
+    "attributes": {
+      "element": "fire",
+      "path": "destruction",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sampo",
+    "displayName": "Sampo",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sampo",
+    "image": "images/Sampo.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "wind",
+      "path": "nihility",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Seele",
+    "displayName": "Seele",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Seele",
+    "image": "images/Seele.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "quantum",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Serval",
+    "displayName": "Serval",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Serval",
+    "image": "images/Serval.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "lightning",
+      "path": "erudition",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "SilverWolf",
+    "displayName": "Silver Wolf",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "SilverWolf",
+    "image": "images/SilverWolf.webp",
+    "releaseDate": "2023-06-07",
+    "attributes": {
+      "element": "quantum",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "SilverWolf999",
+    "displayName": "Silver Wolf LV.999",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "SilverWolf999",
+    "image": "images/SilverWolf999.webp",
+    "releaseDate": "2026-04-22",
+    "attributes": {
+      "element": "imaginary",
+      "path": "elation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sparkle",
+    "displayName": "Sparkle",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sparkle",
+    "image": "images/Sparkle.webp",
+    "releaseDate": "2024-02-06",
+    "attributes": {
+      "element": "quantum",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sparxie",
+    "displayName": "Sparxie",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sparxie",
+    "image": "images/Sparxie.webp",
+    "releaseDate": "2026-02-13",
+    "attributes": {
+      "element": "fire",
+      "path": "elation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "SparxieCandy",
+    "displayName": "Sparxie Candy",
+    "baseCharacterId": "Sparxie",
+    "isDefaultVariant": false,
+    "modFilesName": "SparxieCandy",
+    "attributes": {
+      "element": "fire",
+      "path": "elation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Stelle",
+    "displayName": "Stelle",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Stelle",
+    "image": "images/Stelle.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": [
+        "physical",
+        "fire",
+        "imaginary",
+        "ice",
+        "lightning"
+      ],
+      "path": [
+        "destruction",
+        "preservation",
+        "harmony",
+        "remembrance",
+        "elation"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "StelleVigor",
+    "displayName": "Stelle Vigor",
+    "baseCharacterId": "Stelle",
+    "isDefaultVariant": false,
+    "modFilesName": "StelleVigor",
+    "attributes": {
+      "element": [
+        "physical",
+        "fire",
+        "imaginary",
+        "ice",
+        "lightning"
+      ],
+      "path": [
+        "destruction",
+        "preservation",
+        "harmony",
+        "remembrance",
+        "elation"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sunday",
+    "displayName": "Sunday",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sunday",
+    "image": "images/Sunday.webp",
+    "releaseDate": "2024-12-04",
+    "attributes": {
+      "element": "imaginary",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sushang",
+    "displayName": "Sushang",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sushang",
+    "image": "images/Sushang.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "physical",
+      "path": "hunt",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "TheDahlia",
+    "displayName": "The Dahlia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "TheDahlia",
+    "image": "images/TheDahlia.webp",
+    "releaseDate": "2025-12-07",
+    "attributes": {
+      "element": "fire",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "TheHerta",
+    "displayName": "The Herta",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "TheHerta",
+    "image": "images/TheHerta.webp",
+    "releaseDate": "2025-01-15",
+    "attributes": {
+      "element": "ice",
+      "path": "erudition",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Tingyun",
+    "displayName": "Tingyun",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Tingyun",
+    "image": "images/Tingyun.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "lightning",
+      "path": "harmony",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Topaz",
+    "displayName": "Topaz & Numby",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Topaz",
+    "image": "images/Topaz.webp",
+    "releaseDate": "2023-10-28",
+    "attributes": {
+      "element": "fire",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Tribbie",
+    "displayName": "Tribbie",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Tribbie",
+    "image": "images/Tribbie.webp",
+    "releaseDate": "2025-02-26",
+    "attributes": {
+      "element": "quantum",
+      "path": "harmony",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Welt",
+    "displayName": "Welt",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Welt",
+    "image": "images/Welt.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "imaginary",
+      "path": "nihility",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Xueyi",
+    "displayName": "Xueyi",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xueyi",
+    "image": "images/Xueyi.webp",
+    "releaseDate": "2023-12-27",
+    "attributes": {
+      "element": "quantum",
+      "path": "destruction",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Yanqing",
+    "displayName": "Yanqing",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yanqing",
+    "image": "images/Yanqing.webp",
+    "releaseDate": "2023-04-25",
+    "attributes": {
+      "element": "ice",
+      "path": "hunt",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "YaoGuang",
+    "displayName": "Yao Guang",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "YaoGuang",
+    "image": "images/YaoGuang.webp",
+    "releaseDate": "2026-02-13",
+    "attributes": {
+      "element": "physical",
+      "path": "elation",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Yukong",
+    "displayName": "Yukong",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yukong",
+    "image": "images/Yukong.webp",
+    "releaseDate": "2023-06-28",
+    "attributes": {
+      "element": "imaginary",
+      "path": "harmony",
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Yunli",
+    "displayName": "Yunli",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yunli",
+    "image": "images/Yunli.webp",
+    "releaseDate": "2024-07-31",
+    "attributes": {
+      "element": "physical",
+      "path": "destruction",
+      "rarity": 5
+    }
+  }
+]

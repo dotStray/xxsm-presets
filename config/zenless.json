@@ -1,0 +1,156 @@
+{
+  "gameId": "zenless",
+  "displayName": "Zenless Zone Zero",
+  "shortName": "ZZZ",
+  "importer": "ZZMI",
+  "disabledPrefix": "DISABLED_",
+  "hashes": {
+    "repo": "leotorrez/ZZ-Model-Importer-Assets",
+    "folder": "PlayerCharacterData",
+    "license": "GPL-3.0"
+  },
+  "roster": {
+    "source": "enka-zenless",
+    "url": "https://github.com/EnkaNetwork/API-docs",
+    "imagesUrl": "https://enka.network/ui/zzz/",
+    "credit": "[Enka.Network's public data](https://github.com/EnkaNetwork/API-docs)",
+    "license": "Read as enka.network's robots.txt allows; no licence stated"
+  },
+  "portraits": {
+    "crop": "none"
+  },
+  "attributes": {
+    "attribute": {
+      "displayName": "Attribute",
+      "values": [
+        {
+          "id": "physical",
+          "displayName": "Physical",
+          "from": [
+            "Physics"
+          ]
+        },
+        {
+          "id": "fire",
+          "displayName": "Fire",
+          "from": [
+            "Fire"
+          ]
+        },
+        {
+          "id": "ice",
+          "displayName": "Ice",
+          "from": [
+            "Ice"
+          ]
+        },
+        {
+          "id": "electric",
+          "displayName": "Electric",
+          "from": [
+            "Elec"
+          ]
+        },
+        {
+          "id": "ether",
+          "displayName": "Ether",
+          "from": [
+            "Ether"
+          ]
+        },
+        {
+          "id": "wind",
+          "displayName": "Wind",
+          "from": [
+            "Wind"
+          ]
+        },
+        {
+          "id": "lumen",
+          "displayName": "Lumen",
+          "from": [
+            "Lumen"
+          ]
+        }
+      ],
+      "ignore": [
+        "FireFrost",
+        "AuricEther",
+        "ZhenZhenAssault"
+      ]
+    },
+    "specialty": {
+      "displayName": "Specialty",
+      "values": [
+        {
+          "id": "attack",
+          "displayName": "Attack",
+          "from": [
+            "Attack"
+          ]
+        },
+        {
+          "id": "stun",
+          "displayName": "Stun",
+          "from": [
+            "Stun"
+          ]
+        },
+        {
+          "id": "anomaly",
+          "displayName": "Anomaly",
+          "from": [
+            "Anomaly"
+          ]
+        },
+        {
+          "id": "support",
+          "displayName": "Support",
+          "from": [
+            "Support"
+          ]
+        },
+        {
+          "id": "defense",
+          "displayName": "Defense",
+          "from": [
+            "Defense"
+          ]
+        },
+        {
+          "id": "rupture",
+          "displayName": "Rupture",
+          "from": [
+            "Rupture"
+          ]
+        },
+        {
+          "id": "armorer",
+          "displayName": "Armorer",
+          "from": [
+            "Armorer"
+          ]
+        }
+      ]
+    },
+    "rank": {
+      "displayName": "Rank",
+      "values": [
+        {
+          "id": "s",
+          "displayName": "S",
+          "from": [
+            4
+          ]
+        },
+        {
+          "id": "a",
+          "displayName": "A",
+          "from": [
+            3
+          ]
+        }
+      ]
+    }
+  }
+}

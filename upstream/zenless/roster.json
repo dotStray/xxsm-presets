@@ -1,0 +1,1186 @@
+{
+  "source": "enka-zenless",
+  "characters": [
+    {
+      "key": "avatar:1011",
+      "name": "Anby",
+      "joinKeys": [
+        "anby",
+        "anbi"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Stun",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole01.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle01.png"
+    },
+    {
+      "key": "avatar:1021",
+      "name": "Nekomata",
+      "joinKeys": [
+        "nekomata",
+        "tsubaki"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole11.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle11.png"
+    },
+    {
+      "key": "avatar:1031",
+      "name": "Nicole",
+      "joinKeys": [
+        "nicole",
+        "nostradamus"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Support",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole12.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle12.png",
+      "outfits": [
+        {
+          "key": "skin:3110311",
+          "image": "https://enka.network/ui/zzz/IconRole12_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle12_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1041",
+      "name": "Soldier 11",
+      "joinKeys": [
+        "soldier11",
+        "longinus"
+      ],
+      "wordKeys": [
+        "11",
+        "soldier"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole05.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle05.png"
+    },
+    {
+      "key": "avatar:1051",
+      "name": "Yidhari",
+      "joinKeys": [
+        "yidhari"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Rupture",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole52.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle52.png"
+    },
+    {
+      "key": "avatar:1061",
+      "name": "Corin",
+      "joinKeys": [
+        "corin"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Attack",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole09.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle09.png"
+    },
+    {
+      "key": "avatar:1071",
+      "name": "Caesar",
+      "joinKeys": [
+        "caesar"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Defense",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole25.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle25.png"
+    },
+    {
+      "key": "avatar:1081",
+      "name": "Billy",
+      "joinKeys": [
+        "billy"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Attack",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole10.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle10.png"
+    },
+    {
+      "key": "avatar:1091",
+      "name": "Miyabi",
+      "joinKeys": [
+        "miyabi",
+        "unagi"
+      ],
+      "attributes": {
+        "attribute": [
+          "FireFrost",
+          "Ice"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole13.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle13.png",
+      "outfits": [
+        {
+          "key": "skin:3110911",
+          "image": "https://enka.network/ui/zzz/IconRole13_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle13_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1101",
+      "name": "Koleda",
+      "joinKeys": [
+        "koleda",
+        "ookumamari"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole14.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle14.png"
+    },
+    {
+      "key": "avatar:1111",
+      "name": "Anton",
+      "joinKeys": [
+        "anton"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Attack",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole15.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle15.png"
+    },
+    {
+      "key": "avatar:1121",
+      "name": "Ben",
+      "joinKeys": [
+        "ben"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Defense",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole16.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle16.png"
+    },
+    {
+      "key": "avatar:1131",
+      "name": "Soukaku",
+      "joinKeys": [
+        "soukaku",
+        "aokaku"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Support",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole17.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle17.png"
+    },
+    {
+      "key": "avatar:1141",
+      "name": "Lycaon",
+      "joinKeys": [
+        "lycaon"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole18.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle18.png"
+    },
+    {
+      "key": "avatar:1151",
+      "name": "Lucy",
+      "joinKeys": [
+        "lucy"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Support",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole27.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle27.png",
+      "outfits": [
+        {
+          "key": "skin:3111511",
+          "image": "https://enka.network/ui/zzz/IconRole27_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle27_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1161",
+      "name": "Lighter",
+      "joinKeys": [
+        "lighter"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole26.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle26.png"
+    },
+    {
+      "key": "avatar:1171",
+      "name": "Burnice",
+      "joinKeys": [
+        "burnice"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole32.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle32.png"
+    },
+    {
+      "key": "avatar:1181",
+      "name": "Grace",
+      "joinKeys": [
+        "grace",
+        "lisa"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole20.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle20.png"
+    },
+    {
+      "key": "avatar:1191",
+      "name": "Ellen",
+      "joinKeys": [
+        "ellen"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole21.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle21.png",
+      "outfits": [
+        {
+          "key": "skin:3111911",
+          "image": "https://enka.network/ui/zzz/IconRole21_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle21_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1201",
+      "name": "Harumasa",
+      "joinKeys": [
+        "harumasa"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole35.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle35.png"
+    },
+    {
+      "key": "avatar:1211",
+      "name": "Rina",
+      "joinKeys": [
+        "rina"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Support",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole22.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle22.png"
+    },
+    {
+      "key": "avatar:1221",
+      "name": "Yanagi",
+      "joinKeys": [
+        "yanagi"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole31.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle31.png"
+    },
+    {
+      "key": "avatar:1241",
+      "name": "Zhu Yuan",
+      "joinKeys": [
+        "zhuyuan"
+      ],
+      "wordKeys": [
+        "yuan",
+        "zhu"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole23.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle23.png"
+    },
+    {
+      "key": "avatar:1251",
+      "name": "Qingyi",
+      "joinKeys": [
+        "qingyi"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole29.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle29.png"
+    },
+    {
+      "key": "avatar:1261",
+      "name": "Jane",
+      "joinKeys": [
+        "jane",
+        "janedoe"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole24.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle24.png",
+      "outfits": [
+        {
+          "key": "skin:3112611",
+          "image": "https://enka.network/ui/zzz/IconRole24_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle24_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1271",
+      "name": "Seth",
+      "joinKeys": [
+        "seth"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Defense",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole30.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle30.png"
+    },
+    {
+      "key": "avatar:1281",
+      "name": "Piper",
+      "joinKeys": [
+        "piper",
+        "clara"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Anomaly",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole28.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle28.png"
+    },
+    {
+      "key": "avatar:1291",
+      "name": "Hugo",
+      "joinKeys": [
+        "hugo",
+        "hugovlad"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole42.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle42.png"
+    },
+    {
+      "key": "avatar:1301",
+      "name": "Orphie & Magus",
+      "joinKeys": [
+        "orphiemagus",
+        "brujas"
+      ],
+      "wordKeys": [
+        "magus",
+        "orphie"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole49.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle49.png"
+    },
+    {
+      "key": "avatar:1311",
+      "name": "Astra Yao",
+      "joinKeys": [
+        "astrayao",
+        "astra"
+      ],
+      "wordKeys": [
+        "yao"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Support",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole36.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle36.png",
+      "outfits": [
+        {
+          "key": "skin:3113111",
+          "image": "https://enka.network/ui/zzz/IconRole36_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle36_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1321",
+      "name": "Evelyn",
+      "joinKeys": [
+        "evelyn"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole37.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle37.png"
+    },
+    {
+      "key": "avatar:1331",
+      "name": "Vivian",
+      "joinKeys": [
+        "vivian"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole41.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle41.png",
+      "outfits": [
+        {
+          "key": "skin:3113311",
+          "image": "https://enka.network/ui/zzz/IconRole41_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle41_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1341",
+      "name": "Zhao",
+      "joinKeys": [
+        "zhao",
+        "xiaozhao"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Defense",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole56.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle56.png"
+    },
+    {
+      "key": "avatar:1351",
+      "name": "Pulchra",
+      "joinKeys": [
+        "pulchra"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Stun",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole38.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle38.png"
+    },
+    {
+      "key": "avatar:1361",
+      "name": "Trigger",
+      "joinKeys": [
+        "trigger"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole39.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle39.png"
+    },
+    {
+      "key": "avatar:1371",
+      "name": "Yixuan",
+      "joinKeys": [
+        "yixuan"
+      ],
+      "attributes": {
+        "attribute": [
+          "AuricEther",
+          "Ether"
+        ],
+        "specialty": "Rupture",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole44.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle44.png",
+      "outfits": [
+        {
+          "key": "skin:3113711",
+          "image": "https://enka.network/ui/zzz/IconRole44_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle44_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1381",
+      "name": "Soldier 0 - Anby",
+      "joinKeys": [
+        "soldier0anby",
+        "silveranby"
+      ],
+      "wordKeys": [
+        "anby",
+        "soldier"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole40.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle40.png"
+    },
+    {
+      "key": "avatar:1391",
+      "name": "Ju Fufu",
+      "joinKeys": [
+        "jufufu"
+      ],
+      "wordKeys": [
+        "fufu",
+        "ju"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole43.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle43.png"
+    },
+    {
+      "key": "avatar:1401",
+      "name": "Alice",
+      "joinKeys": [
+        "alice"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole46.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle46.png",
+      "outfits": [
+        {
+          "key": "skin:3114011",
+          "image": "https://enka.network/ui/zzz/IconRole46_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle46_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1411",
+      "name": "Yuzuha",
+      "joinKeys": [
+        "yuzuha"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Support",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole47.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle47.png",
+      "outfits": [
+        {
+          "key": "skin:3114111",
+          "image": "https://enka.network/ui/zzz/IconRole47_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle47_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1421",
+      "name": "Pan Yinhu",
+      "joinKeys": [
+        "panyinhu"
+      ],
+      "wordKeys": [
+        "yinhu",
+        "pan"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Defense",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole45.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle45.png",
+      "outfits": [
+        {
+          "key": "skin:3114211",
+          "image": "https://enka.network/ui/zzz/IconRole45_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle45_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1431",
+      "name": "Ye Shunguang",
+      "joinKeys": [
+        "yeshunguang",
+        "zhenzhen"
+      ],
+      "wordKeys": [
+        "shunguang",
+        "ye"
+      ],
+      "attributes": {
+        "attribute": [
+          "ZhenZhenAssault",
+          "Physics"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole55.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle55.png",
+      "outfits": [
+        {
+          "key": "skin:3114311",
+          "image": "https://enka.network/ui/zzz/IconRole55_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle55_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1441",
+      "name": "Manato",
+      "joinKeys": [
+        "manato",
+        "norano"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Rupture",
+        "rank": 3
+      },
+      "image": "https://enka.network/ui/zzz/IconRole51.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle51.png",
+      "outfits": [
+        {
+          "key": "skin:3114411",
+          "image": "https://enka.network/ui/zzz/IconRole51_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle51_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1451",
+      "name": "Lucia",
+      "joinKeys": [
+        "lucia"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Support",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole50.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle50.png"
+    },
+    {
+      "key": "avatar:1461",
+      "name": "Seed",
+      "joinKeys": [
+        "seed"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole48.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle48.png"
+    },
+    {
+      "key": "avatar:1471",
+      "name": "Banyue",
+      "joinKeys": [
+        "banyue"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Rupture",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole53.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle53.png"
+    },
+    {
+      "key": "avatar:1481",
+      "name": "Dialyn",
+      "joinKeys": [
+        "dialyn",
+        "azural"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole54.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle54.png"
+    },
+    {
+      "key": "avatar:1491",
+      "name": "Sunna",
+      "joinKeys": [
+        "sunna",
+        "summer"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Support",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole58.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle58.png",
+      "outfits": [
+        {
+          "key": "skin:3114911",
+          "image": "https://enka.network/ui/zzz/IconRole58_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle58_01.png"
+        },
+        {
+          "key": "skin:3114912",
+          "image": "https://enka.network/ui/zzz/IconRole58_02.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle58_02.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1501",
+      "name": "Aria",
+      "joinKeys": [
+        "aria"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole57.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle57.png",
+      "outfits": [
+        {
+          "key": "skin:3115011",
+          "image": "https://enka.network/ui/zzz/IconRole57_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle57_01.png"
+        },
+        {
+          "key": "skin:3115012",
+          "image": "https://enka.network/ui/zzz/IconRole57_02.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle57_02.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1511",
+      "name": "Nangong Yu",
+      "joinKeys": [
+        "nangongyu"
+      ],
+      "wordKeys": [
+        "yu",
+        "nangong"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole59.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle59.png",
+      "outfits": [
+        {
+          "key": "skin:3115111",
+          "image": "https://enka.network/ui/zzz/IconRole59_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle59_01.png"
+        },
+        {
+          "key": "skin:3115112",
+          "image": "https://enka.network/ui/zzz/IconRole59_02.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle59_02.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1521",
+      "name": "Cissia",
+      "joinKeys": [
+        "cissia"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole60.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle60.png"
+    },
+    {
+      "key": "avatar:1531",
+      "name": "Starlight - Billy",
+      "joinKeys": [
+        "starlightbilly",
+        "spbilly"
+      ],
+      "wordKeys": [
+        "billy",
+        "starlight"
+      ],
+      "attributes": {
+        "attribute": [
+          "Physics"
+        ],
+        "specialty": "Rupture",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole62.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle62.png"
+    },
+    {
+      "key": "avatar:1541",
+      "name": "Promeia",
+      "joinKeys": [
+        "promeia"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole61.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle61.png"
+    },
+    {
+      "key": "avatar:1551",
+      "name": "Pyrois",
+      "joinKeys": [
+        "pyrois"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole63.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle63.png"
+    },
+    {
+      "key": "avatar:1561",
+      "name": "Velina",
+      "joinKeys": [
+        "velina"
+      ],
+      "attributes": {
+        "attribute": [
+          "Wind"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole64.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle64.png",
+      "outfits": [
+        {
+          "key": "skin:3115611",
+          "image": "https://enka.network/ui/zzz/IconRole64_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle64_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1571",
+      "name": "Norma",
+      "joinKeys": [
+        "norma"
+      ],
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole65.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle65.png"
+    },
+    {
+      "key": "avatar:1581",
+      "name": "Remielle",
+      "joinKeys": [
+        "remielle"
+      ],
+      "attributes": {
+        "attribute": [
+          "Lumen"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole67.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67.png",
+      "outfits": [
+        {
+          "key": "skin:3115811",
+          "image": "https://enka.network/ui/zzz/IconRole67_02.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67_02.png"
+        },
+        {
+          "key": "skin:3115812",
+          "image": "https://enka.network/ui/zzz/IconRole67_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67_01.png"
+        },
+        {
+          "key": "skin:3115813",
+          "image": "https://enka.network/ui/zzz/IconRole67_03.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67_03.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1591",
+      "name": "Sigrid",
+      "joinKeys": [
+        "sigrid"
+      ],
+      "attributes": {
+        "attribute": [
+          "Ice"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole66.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle66.png",
+      "outfits": [
+        {
+          "key": "skin:3115911",
+          "image": "https://enka.network/ui/zzz/IconRole66_01.png",
+          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle66_01.png"
+        }
+      ]
+    },
+    {
+      "key": "avatar:1611",
+      "name": "Claret",
+      "joinKeys": [
+        "claret"
+      ],
+      "attributes": {
+        "attribute": [
+          "Elec"
+        ],
+        "specialty": "Armorer",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole1611.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle1611.png"
+    },
+    {
+      "key": "avatar:1621",
+      "name": "Roxy",
+      "joinKeys": [
+        "roxy",
+        "pryce"
+      ],
+      "attributes": {
+        "attribute": [
+          "Wind"
+        ],
+        "specialty": "Stun",
+        "rank": 4
+      },
+      "image": "https://enka.network/ui/zzz/IconRole68.png",
+      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle68.png"
+    }
+  ]
+}

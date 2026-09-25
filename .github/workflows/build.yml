@@ -1,0 +1,75 @@
+# Builds the packs and publishes any that changed.
+#
+# Runs every Monday, whenever someone changes manual/, overrides/, config/ or the builder,
+# and on demand (Actions → Build packs → Run workflow). It publishes by itself: nobody has
+# to review anything. When the builder refuses a pack — a character would disappear, a
+# guess it is not sure of, a broken file in manual/ — that game is not published, the run
+# fails, which notifies the maintainers, and reports/<game>/blocked.md says why.
+name: Build packs
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "manual/**"
+      - "overrides/**"
+      - "config/**"
+      - "tools/**"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write
+
+# One build at a time; a push during a weekly run waits for it rather than racing it.
+concurrency:
+  group: build-packs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      # Always the newest main, so a run that waited in the queue builds on what is there now.
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Test the builder
+        run: uv run --project tools/packbuilder python -m unittest discover -s tools/packbuilder/tests -t tools/packbuilder/tests
+
+      # Pictures and upstream files are fetched once and reused, so a weekly run asks the
+      # sources only for what is new.
+      - name: Restore downloads
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: downloads-${{ github.run_id }}
+          restore-keys: downloads-
+
+      - name: Build and publish
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run --project tools/packbuilder packbuilder build --publish
+
+      # Also after a failed build: the games that did build were published, and index.json
+      # must say so; a refused game's blocked.md is saved too, so the reason is in the repository.
+      - name: Save the result
+        if: success() || (failure() && steps.build.outcome == 'failure')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "build: packs $(date -u +%Y-%m-%d)"
+          git push

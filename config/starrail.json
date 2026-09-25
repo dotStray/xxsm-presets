@@ -1,0 +1,150 @@
+{
+  "gameId": "starrail",
+  "displayName": "Honkai: Star Rail",
+  "shortName": "HSR",
+  "importer": "SRMI",
+  "disabledPrefix": "DISABLED_",
+  "hashes": {
+    "repo": "Astute4533/SR-Model-Importer-Assets",
+    "folder": "PlayerCharacterData",
+    "license": "No licence stated upstream"
+  },
+  "roster": {
+    "source": "yatta-starrail",
+    "url": "https://sr.yatta.moe",
+    "imagesUrl": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/",
+    "credit": "[Project Yatta](https://sr.yatta.moe) (sr.yatta.moe)",
+    "license": "Read as the site allows (it publishes no robots.txt); no licence stated"
+  },
+  "portraits": {
+    "crop": "top-square"
+  },
+  "attributes": {
+    "element": {
+      "displayName": "Element",
+      "values": [
+        {
+          "id": "physical",
+          "displayName": "Physical",
+          "from": [
+            "Physical"
+          ]
+        },
+        {
+          "id": "fire",
+          "displayName": "Fire",
+          "from": [
+            "Fire"
+          ]
+        },
+        {
+          "id": "ice",
+          "displayName": "Ice",
+          "from": [
+            "Ice"
+          ]
+        },
+        {
+          "id": "lightning",
+          "displayName": "Lightning",
+          "from": [
+            "Thunder"
+          ]
+        },
+        {
+          "id": "wind",
+          "displayName": "Wind",
+          "from": [
+            "Wind"
+          ]
+        },
+        {
+          "id": "quantum",
+          "displayName": "Quantum",
+          "from": [
+            "Quantum"
+          ]
+        },
+        {
+          "id": "imaginary",
+          "displayName": "Imaginary",
+          "from": [
+            "Imaginary"
+          ]
+        }
+      ]
+    },
+    "path": {
+      "displayName": "Path",
+      "values": [
+        {
+          "id": "destruction",
+          "displayName": "Destruction",
+          "from": [
+            "Warrior"
+          ]
+        },
+        {
+          "id": "hunt",
+          "displayName": "The Hunt",
+          "from": [
+            "Rogue"
+          ]
+        },
+        {
+          "id": "erudition",
+          "displayName": "Erudition",
+          "from": [
+            "Mage"
+          ]
+        },
+        {
+          "id": "harmony",
+          "displayName": "Harmony",
+          "from": [
+            "Shaman"
+          ]
+        },
+        {
+          "id": "nihility",
+          "displayName": "Nihility",
+          "from": [
+            "Warlock"
+          ]
+        },
+        {
+          "id": "preservation",
+          "displayName": "Preservation",
+          "from": [
+            "Knight"
+          ]
+        },
+        {
+          "id": "abundance",
+          "displayName": "Abundance",
+          "from": [
+            "Priest"
+          ]
+        },
+        {
+          "id": "remembrance",
+          "displayName": "Remembrance",
+          "from": [
+            "Memory"
+          ]
+        },
+        {
+          "id": "elation",
+          "displayName": "Elation",
+          "from": [
+            "Elation"
+          ]
+        }
+      ]
+    },
+    "rarity": {
+      "displayName": "Rarity",
+      "kind": "number"
+    }
+  }
+}

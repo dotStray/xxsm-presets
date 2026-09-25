@@ -1,0 +1,1447 @@
+{
+  "source": "yatta-starrail",
+  "characters": [
+    {
+      "key": "avatar:1001",
+      "name": "March 7th",
+      "joinKeys": [
+        "march7th"
+      ],
+      "wordKeys": [
+        "7th",
+        "march"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Knight",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png"
+    },
+    {
+      "key": "avatar:1002",
+      "name": "Dan Heng",
+      "joinKeys": [
+        "danheng"
+      ],
+      "wordKeys": [
+        "heng",
+        "dan"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Rogue",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1002.png"
+    },
+    {
+      "key": "avatar:1003",
+      "name": "Himeko",
+      "joinKeys": [
+        "himeko"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1003.png"
+    },
+    {
+      "key": "avatar:1004",
+      "name": "Welt",
+      "joinKeys": [
+        "welt"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1004.png"
+    },
+    {
+      "key": "avatar:1005",
+      "name": "Kafka",
+      "joinKeys": [
+        "kafka"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2023-07-19",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1005.png"
+    },
+    {
+      "key": "avatar:1006",
+      "name": "Silver Wolf",
+      "joinKeys": [
+        "silverwolf"
+      ],
+      "wordKeys": [
+        "wolf",
+        "silver"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2023-06-07",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1006.png"
+    },
+    {
+      "key": "avatar:1008",
+      "name": "Arlan",
+      "joinKeys": [
+        "arlan"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Warrior",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1008.png"
+    },
+    {
+      "key": "avatar:1009",
+      "name": "Asta",
+      "joinKeys": [
+        "asta"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Shaman",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1009.png"
+    },
+    {
+      "key": "avatar:1013",
+      "name": "Herta",
+      "joinKeys": [
+        "herta"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Mage",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1013.png"
+    },
+    {
+      "key": "avatar:1014",
+      "name": "Saber",
+      "joinKeys": [
+        "saber"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2025-07-11",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png"
+    },
+    {
+      "key": "avatar:1015",
+      "name": "Archer",
+      "joinKeys": [
+        "archer"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2025-07-11",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1015.png"
+    },
+    {
+      "key": "avatar:1101",
+      "name": "Bronya",
+      "joinKeys": [
+        "bronya"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1101.png"
+    },
+    {
+      "key": "avatar:1102",
+      "name": "Seele",
+      "joinKeys": [
+        "seele"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1102.png"
+    },
+    {
+      "key": "avatar:1103",
+      "name": "Serval",
+      "joinKeys": [
+        "serval"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Mage",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1103.png"
+    },
+    {
+      "key": "avatar:1104",
+      "name": "Gepard",
+      "joinKeys": [
+        "gepard"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Knight",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1104.png"
+    },
+    {
+      "key": "avatar:1105",
+      "name": "Natasha",
+      "joinKeys": [
+        "natasha"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Priest",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png"
+    },
+    {
+      "key": "avatar:1106",
+      "name": "Pela",
+      "joinKeys": [
+        "pela"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Warlock",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png"
+    },
+    {
+      "key": "avatar:1107",
+      "name": "Clara",
+      "joinKeys": [
+        "clara"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1107.png"
+    },
+    {
+      "key": "avatar:1108",
+      "name": "Sampo",
+      "joinKeys": [
+        "sampo"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Warlock",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1108.png"
+    },
+    {
+      "key": "avatar:1109",
+      "name": "Hook",
+      "joinKeys": [
+        "hook"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warrior",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1109.png"
+    },
+    {
+      "key": "avatar:1110",
+      "name": "Lynx",
+      "joinKeys": [
+        "lynx"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Priest",
+        "rarity": 4
+      },
+      "releaseDate": "2023-09-20",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1110.png"
+    },
+    {
+      "key": "avatar:1111",
+      "name": "Luka",
+      "joinKeys": [
+        "luka"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warlock",
+        "rarity": 4
+      },
+      "releaseDate": "2023-07-19",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1111.png"
+    },
+    {
+      "key": "avatar:1112",
+      "name": "Topaz & Numby",
+      "joinKeys": [
+        "topaznumby"
+      ],
+      "wordKeys": [
+        "numby",
+        "topaz"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2023-10-28",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1112.png"
+    },
+    {
+      "key": "avatar:1201",
+      "name": "Qingque",
+      "joinKeys": [
+        "qingque"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Mage",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1201.png"
+    },
+    {
+      "key": "avatar:1202",
+      "name": "Tingyun",
+      "joinKeys": [
+        "tingyun"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Shaman",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1202.png"
+    },
+    {
+      "key": "avatar:1203",
+      "name": "Luocha",
+      "joinKeys": [
+        "luocha"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Priest",
+        "rarity": 5
+      },
+      "releaseDate": "2023-06-28",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1203.png"
+    },
+    {
+      "key": "avatar:1204",
+      "name": "Jing Yuan",
+      "joinKeys": [
+        "jingyuan"
+      ],
+      "wordKeys": [
+        "yuan",
+        "jing"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2023-05-17",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1204.png"
+    },
+    {
+      "key": "avatar:1205",
+      "name": "Blade",
+      "joinKeys": [
+        "blade"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2023-07-19",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1205.png"
+    },
+    {
+      "key": "avatar:1206",
+      "name": "Sushang",
+      "joinKeys": [
+        "sushang"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Rogue",
+        "rarity": 4
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1206.png"
+    },
+    {
+      "key": "avatar:1207",
+      "name": "Yukong",
+      "joinKeys": [
+        "yukong"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Shaman",
+        "rarity": 4
+      },
+      "releaseDate": "2023-06-28",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1207.png"
+    },
+    {
+      "key": "avatar:1208",
+      "name": "Fu Xuan",
+      "joinKeys": [
+        "fuxuan"
+      ],
+      "wordKeys": [
+        "xuan",
+        "fu"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Knight",
+        "rarity": 5
+      },
+      "releaseDate": "2023-09-20",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png"
+    },
+    {
+      "key": "avatar:1209",
+      "name": "Yanqing",
+      "joinKeys": [
+        "yanqing"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1209.png"
+    },
+    {
+      "key": "avatar:1210",
+      "name": "Guinaifen",
+      "joinKeys": [
+        "guinaifen"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warlock",
+        "rarity": 4
+      },
+      "releaseDate": "2023-10-28",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1210.png"
+    },
+    {
+      "key": "avatar:1211",
+      "name": "Bailu",
+      "joinKeys": [
+        "bailu"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Priest",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1211.png"
+    },
+    {
+      "key": "avatar:1212",
+      "name": "Jingliu",
+      "joinKeys": [
+        "jingliu"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2023-10-11",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1212.png"
+    },
+    {
+      "key": "avatar:1213",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "joinKeys": [
+        "danhengimbibitorlunae"
+      ],
+      "wordKeys": [
+        "lunae",
+        "dan"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2023-08-30",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1213.png"
+    },
+    {
+      "key": "avatar:1214",
+      "name": "Xueyi",
+      "joinKeys": [
+        "xueyi"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Warrior",
+        "rarity": 4
+      },
+      "releaseDate": "2023-12-27",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1214.png"
+    },
+    {
+      "key": "avatar:1215",
+      "name": "Hanya",
+      "joinKeys": [
+        "hanya"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Shaman",
+        "rarity": 4
+      },
+      "releaseDate": "2023-12-06",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1215.png"
+    },
+    {
+      "key": "avatar:1217",
+      "name": "Huohuo",
+      "joinKeys": [
+        "huohuo"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Priest",
+        "rarity": 5
+      },
+      "releaseDate": "2023-11-15",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1217.png"
+    },
+    {
+      "key": "avatar:1218",
+      "name": "Jiaoqiu",
+      "joinKeys": [
+        "jiaoqiu"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2024-08-21",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1218.png"
+    },
+    {
+      "key": "avatar:1220",
+      "name": "Feixiao",
+      "joinKeys": [
+        "feixiao"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2024-09-10",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1220.png"
+    },
+    {
+      "key": "avatar:1221",
+      "name": "Yunli",
+      "joinKeys": [
+        "yunli"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2024-07-31",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1221.png"
+    },
+    {
+      "key": "avatar:1222",
+      "name": "Lingsha",
+      "joinKeys": [
+        "lingsha"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Priest",
+        "rarity": 5
+      },
+      "releaseDate": "2024-10-02",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1222.png"
+    },
+    {
+      "key": "avatar:1223",
+      "name": "Moze",
+      "joinKeys": [
+        "moze"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Rogue",
+        "rarity": 4
+      },
+      "releaseDate": "2024-09-10",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1223.png"
+    },
+    {
+      "key": "avatar:1224",
+      "name": "March 7th",
+      "joinKeys": [
+        "march7th"
+      ],
+      "wordKeys": [
+        "7th",
+        "march"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Rogue",
+        "rarity": 4
+      },
+      "releaseDate": "2024-07-31",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1224.png"
+    },
+    {
+      "key": "avatar:1225",
+      "name": "Fugue",
+      "joinKeys": [
+        "fugue"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2024-12-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1225.png"
+    },
+    {
+      "key": "avatar:1301",
+      "name": "Gallagher",
+      "joinKeys": [
+        "gallagher"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Priest",
+        "rarity": 4
+      },
+      "releaseDate": "2024-03-27",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1301.png"
+    },
+    {
+      "key": "avatar:1302",
+      "name": "Argenti",
+      "joinKeys": [
+        "argenti"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2023-12-06",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1302.png"
+    },
+    {
+      "key": "avatar:1303",
+      "name": "Ruan Mei",
+      "joinKeys": [
+        "ruanmei"
+      ],
+      "wordKeys": [
+        "mei",
+        "ruan"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2023-12-27",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png"
+    },
+    {
+      "key": "avatar:1304",
+      "name": "Aventurine",
+      "joinKeys": [
+        "aventurine"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Knight",
+        "rarity": 5
+      },
+      "releaseDate": "2024-04-17",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1304.png"
+    },
+    {
+      "key": "avatar:1305",
+      "name": "Dr. Ratio",
+      "joinKeys": [
+        "drratio"
+      ],
+      "wordKeys": [
+        "ratio",
+        "dr"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2024-01-17",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1305.png"
+    },
+    {
+      "key": "avatar:1306",
+      "name": "Sparkle",
+      "joinKeys": [
+        "sparkle"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2024-02-06",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1306.png"
+    },
+    {
+      "key": "avatar:1307",
+      "name": "Black Swan",
+      "joinKeys": [
+        "blackswan"
+      ],
+      "wordKeys": [
+        "swan",
+        "black"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2024-02-06",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1307.png"
+    },
+    {
+      "key": "avatar:1308",
+      "name": "Acheron",
+      "joinKeys": [
+        "acheron"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2024-03-27",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1308.png"
+    },
+    {
+      "key": "avatar:1309",
+      "name": "Robin",
+      "joinKeys": [
+        "robin"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2024-05-08",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1309.png"
+    },
+    {
+      "key": "avatar:1310",
+      "name": "Firefly",
+      "joinKeys": [
+        "firefly"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2024-06-19",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png"
+    },
+    {
+      "key": "avatar:1312",
+      "name": "Misha",
+      "joinKeys": [
+        "misha"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Warrior",
+        "rarity": 4
+      },
+      "releaseDate": "2024-02-29",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png"
+    },
+    {
+      "key": "avatar:1313",
+      "name": "Sunday",
+      "joinKeys": [
+        "sunday"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2024-12-04",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1313.png"
+    },
+    {
+      "key": "avatar:1314",
+      "name": "Jade",
+      "joinKeys": [
+        "jade"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2024-07-10",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1314.png"
+    },
+    {
+      "key": "avatar:1315",
+      "name": "Boothill",
+      "joinKeys": [
+        "boothill"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2024-05-29",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1315.png"
+    },
+    {
+      "key": "avatar:1317",
+      "name": "Rappa",
+      "joinKeys": [
+        "rappa"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2024-10-23",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1317.png"
+    },
+    {
+      "key": "avatar:1321",
+      "name": "The Dahlia",
+      "joinKeys": [
+        "thedahlia"
+      ],
+      "wordKeys": [
+        "dahlia",
+        "the"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2025-12-07",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1321.png"
+    },
+    {
+      "key": "avatar:1401",
+      "name": "The Herta",
+      "joinKeys": [
+        "theherta"
+      ],
+      "wordKeys": [
+        "herta",
+        "the"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2025-01-15",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1401.png"
+    },
+    {
+      "key": "avatar:1402",
+      "name": "Aglaea",
+      "joinKeys": [
+        "aglaea"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-02-05",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1402.png"
+    },
+    {
+      "key": "avatar:1403",
+      "name": "Tribbie",
+      "joinKeys": [
+        "tribbie"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2025-02-26",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1403.png"
+    },
+    {
+      "key": "avatar:1404",
+      "name": "Mydei",
+      "joinKeys": [
+        "mydei"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2025-03-19",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1404.png"
+    },
+    {
+      "key": "avatar:1405",
+      "name": "Anaxa",
+      "joinKeys": [
+        "anaxa"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2025-04-30",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1405.png"
+    },
+    {
+      "key": "avatar:1406",
+      "name": "Cipher",
+      "joinKeys": [
+        "cipher"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2025-06-11",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1406.png"
+    },
+    {
+      "key": "avatar:1407",
+      "name": "Castorice",
+      "joinKeys": [
+        "castorice"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-04-09",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png"
+    },
+    {
+      "key": "avatar:1408",
+      "name": "Phainon",
+      "joinKeys": [
+        "phainon"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2025-07-02",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1408.png"
+    },
+    {
+      "key": "avatar:1409",
+      "name": "Hyacine",
+      "joinKeys": [
+        "hyacine"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-05-21",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1409.png"
+    },
+    {
+      "key": "avatar:1410",
+      "name": "Hysilens",
+      "joinKeys": [
+        "hysilens"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2025-08-13",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1410.png"
+    },
+    {
+      "key": "avatar:1412",
+      "name": "Cerydra",
+      "joinKeys": [
+        "cerydra"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2025-09-02",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png"
+    },
+    {
+      "key": "avatar:1413",
+      "name": "Evernight",
+      "joinKeys": [
+        "evernight"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-09-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1413.png"
+    },
+    {
+      "key": "avatar:1414",
+      "name": "Dan Heng • Permansor Terrae",
+      "joinKeys": [
+        "danhengpermansorterrae"
+      ],
+      "wordKeys": [
+        "terrae",
+        "dan"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Knight",
+        "rarity": 5
+      },
+      "releaseDate": "2025-10-11",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1414.png"
+    },
+    {
+      "key": "avatar:1415",
+      "name": "Cyrene",
+      "joinKeys": [
+        "cyrene"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-11-05",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png"
+    },
+    {
+      "key": "avatar:1501",
+      "name": "Sparxie",
+      "joinKeys": [
+        "sparxie"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-02-13",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png"
+    },
+    {
+      "key": "avatar:1502",
+      "name": "Yao Guang",
+      "joinKeys": [
+        "yaoguang"
+      ],
+      "wordKeys": [
+        "guang",
+        "yao"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-02-13",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1502.png"
+    },
+    {
+      "key": "avatar:1504",
+      "name": "Ashveil",
+      "joinKeys": [
+        "ashveil"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Rogue",
+        "rarity": 5
+      },
+      "releaseDate": "2026-03-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1504.png"
+    },
+    {
+      "key": "avatar:1505",
+      "name": "Evanescia",
+      "joinKeys": [
+        "evanescia"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-05-13",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1505.png"
+    },
+    {
+      "key": "avatar:1506",
+      "name": "Silver Wolf LV.999",
+      "joinKeys": [
+        "silverwolflv999"
+      ],
+      "wordKeys": [
+        "lv999",
+        "silver"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-04-22",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1506.png"
+    },
+    {
+      "key": "avatar:1507",
+      "name": "Mortenax Blade",
+      "joinKeys": [
+        "mortenaxblade"
+      ],
+      "wordKeys": [
+        "blade",
+        "mortenax"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Warlock",
+        "rarity": 5
+      },
+      "releaseDate": "2026-06-01",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1507.png"
+    },
+    {
+      "key": "avatar:1508",
+      "name": "Rin Tohsaka",
+      "joinKeys": [
+        "rintohsaka"
+      ],
+      "wordKeys": [
+        "tohsaka",
+        "rin"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2026-07-24",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1508.png"
+    },
+    {
+      "key": "avatar:1509",
+      "name": "Gilgamesh",
+      "joinKeys": [
+        "gilgamesh"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2026-07-24",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1509.png"
+    },
+    {
+      "key": "avatar:1510",
+      "name": "Himeko • Nova",
+      "joinKeys": [
+        "himekonova"
+      ],
+      "wordKeys": [
+        "nova",
+        "himeko"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Mage",
+        "rarity": 5
+      },
+      "releaseDate": "2026-07-15",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1510.png"
+    },
+    {
+      "key": "avatar:1512",
+      "name": "Robin • Summeretto",
+      "joinKeys": [
+        "robinsummeretto"
+      ],
+      "wordKeys": [
+        "summeretto",
+        "robin"
+      ],
+      "attributes": {
+        "element": "Wind",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2026-08-26",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1512.png"
+    },
+    {
+      "key": "avatar:1513",
+      "name": "Aventurine • Waveflair",
+      "joinKeys": [
+        "aventurinewaveflair"
+      ],
+      "wordKeys": [
+        "waveflair",
+        "aventurine"
+      ],
+      "attributes": {
+        "element": "Quantum",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-09-12",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1513.png"
+    },
+    {
+      "key": "avatar:8001",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8001.png"
+    },
+    {
+      "key": "avatar:8002",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Physical",
+        "path": "Warrior",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png"
+    },
+    {
+      "key": "avatar:8003",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Knight",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8003.png"
+    },
+    {
+      "key": "avatar:8004",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Fire",
+        "path": "Knight",
+        "rarity": 5
+      },
+      "releaseDate": "2023-04-25",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8004.png"
+    },
+    {
+      "key": "avatar:8005",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2024-05-08",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8005.png"
+    },
+    {
+      "key": "avatar:8006",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Imaginary",
+        "path": "Shaman",
+        "rarity": 5
+      },
+      "releaseDate": "2024-05-08",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8006.png"
+    },
+    {
+      "key": "avatar:8007",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-01-15",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8007.png"
+    },
+    {
+      "key": "avatar:8008",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Ice",
+        "path": "Memory",
+        "rarity": 5
+      },
+      "releaseDate": "2025-01-15",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8008.png"
+    },
+    {
+      "key": "avatar:8009",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-04-22",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8009.png"
+    },
+    {
+      "key": "avatar:8010",
+      "name": "Trailblazer",
+      "joinKeys": [
+        "trailblazer"
+      ],
+      "attributes": {
+        "element": "Thunder",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "releaseDate": "2026-04-22",
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8010.png"
+    }
+  ]
+}

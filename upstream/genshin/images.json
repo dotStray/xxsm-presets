@@ -1,0 +1,610 @@
+{
+  "Aino": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aino.png",
+    "sha256": "64fbd2cfbeab6bcca73efce9a067eadf4e4405a9fae52d5960b482e725c28a71"
+  },
+  "Albedo": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Albedo.png",
+    "sha256": "8cc262f51bac7dd0cb3be3ca7222aba732b61d9dc6e4e25cdb621b56267db4ee"
+  },
+  "Alhaitham": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alhatham.png",
+    "sha256": "a79991dfb61f5efead552eb1cc4c779d02300eca2ad45b2f8fabf34b2a35ef4c"
+  },
+  "Aloy": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aloy.png",
+    "sha256": "dc22c5166f243db5a8f4025d8b8345724cfeb417853da8f3f2743c010306663a"
+  },
+  "Alyosha": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alyosha.png",
+    "sha256": "241c3ddc20ed2666af3968f4ce27ea40276b02ceaf62ffa954ab0e96f50252d6"
+  },
+  "Amber": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ambor.png",
+    "sha256": "f79e11e68c293cadabe1c8f08a71b6ad5d6f0bfbc21cd9209543f0ab82d70a19"
+  },
+  "AmberCN": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AmborCostumeWic.png",
+    "sha256": "60595de26b3b137969ff6452a781b14e893bfcaf76d6a350173ccc958bbeadf9"
+  },
+  "AratakiItto": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Itto.png",
+    "sha256": "5f1478b80f8a95dcd7ef9cad3feb5818d5d876af1a70b4c1079d026d015a0625"
+  },
+  "Arlecchino": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Arlecchino.png",
+    "sha256": "cfa74e23b21db17ee885bafd563831300df3a76d669890a76f37c7df33beb5b4"
+  },
+  "AyakaSpringbloom": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AyakaCostumeFruhling.png",
+    "sha256": "7b0596d1b43e7f8e7c625f3b32b20131ad8da32d92bdcdd90f02e3a4abd98dd3"
+  },
+  "Baizhu": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Baizhuer.png",
+    "sha256": "2108020cb5fe4804128a77ab857652962eeb46543af1dc5e762f3530f32e8faf"
+  },
+  "Barbara": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Barbara.png",
+    "sha256": "b482d58d517ced5204140cfb65fdbcd06a3b85efdef2e0193e9e1c8fb46b36bb"
+  },
+  "BarbaraSummertime": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BarbaraCostumeSummertime.png",
+    "sha256": "4fbca6372be21b0fa372c60cd2a766167f34d4eb62c86b24f6a30eef4c20f5d1"
+  },
+  "Beidou": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Beidou.png",
+    "sha256": "267eb658c84ca525ac84b44064dc1bbeb0d3d90c38d6e2aee10eb9e1dea823d2"
+  },
+  "Bennett": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Bennett.png",
+    "sha256": "0fcd809d95ee8ecbebe95b77596180463b2e3b055103bc828a4f531089279690"
+  },
+  "BennettAdventures": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BennettCostumeSummer.png",
+    "sha256": "a4b1094310280524b2d6125aaa420ce0612ed3435adefaa5926c6737ed00e27d"
+  },
+  "Candace": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Candace.png",
+    "sha256": "eaf690caf6665f60b5bc2e3a16d7c8f6abac357d8764735f48c6336c85fdedc9"
+  },
+  "Charlotte": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Charlotte.png",
+    "sha256": "fc438a7a84fb1d9673bfab823a1cb7c0a80b1e2a53994a0daf2030b9db63691b"
+  },
+  "CharlotteHurlock": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CharlotteCostumeDong.png",
+    "sha256": "8edb74fd092877bb8b29ce4e121164fd68479634b15e7c5f18902efae943930e"
+  },
+  "Chasca": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chasca.png",
+    "sha256": "c72048edeb0200c5e7c5e4b3fa906093afc8aecfdac613389180146e3fddc533"
+  },
+  "Chevreuse": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chevreuse.png",
+    "sha256": "8215441e5e7f8eb33e777a594ab8d66b360714c35650a6fb5518295f17f67573"
+  },
+  "Chiori": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chiori.png",
+    "sha256": "102fb595e6de9965f4cd463c07a3985a3a6d646ca42574ad2710aba8b11ad0bc"
+  },
+  "Chongyun": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chongyun.png",
+    "sha256": "c032aa4c45ab0c0163e9986711c9140002cd8aee4276716be6d54314ac21703f"
+  },
+  "Citlali": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Citlali.png",
+    "sha256": "cc4670522189bc684be9102079de1b60df71733b82bc0c56bfb417247d9ee6b6"
+  },
+  "CitlaliWhispers": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CitlaliCostumeXia.png",
+    "sha256": "11384027a68332ca1476ed30cad798eef0dc0e5baffc01d5156a957816b9f1a4"
+  },
+  "Clorinde": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Clorinde.png",
+    "sha256": "583d14a0fb24bb68f3caac0221199466dd02b9818e9cd2417eaac525d56534e6"
+  },
+  "Collei": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Collei.png",
+    "sha256": "935291ef0c79e8c3453c9c9ff27d983aa4d8cb4b9002a842c6156c3b0a9e2fee"
+  },
+  "Columbina": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Columbina.png",
+    "sha256": "80f83d394d7249509886029b2892c2bbaa5282413634b827c9e80bb9bdcfc09b"
+  },
+  "Cyno": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Cyno.png",
+    "sha256": "3164bdb8f88acdd5873ea5b3e41c813ad10920b107546290236c6e32f8062aca"
+  },
+  "Dahlia": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dahlia.png",
+    "sha256": "595b09b7d8f588bab862df3218ecd9ade5c56208a5aca019c98fcb9780b0848c"
+  },
+  "Dehya": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dehya.png",
+    "sha256": "0b533a61386c10a80cbdc6228ed8794320bef972788f5beadced4dd3542d28e3"
+  },
+  "Diluc": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diluc.png",
+    "sha256": "4ebeffd1dce3bf70ce3edbcf0078e22e1f237983fa9a0d01552db002f34d168c"
+  },
+  "DilucFlamme": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DilucCostumeFlamme.png",
+    "sha256": "9dada856b5cda544074368a69a28e5985651bb7cdd1a899020532fd8dda1955d"
+  },
+  "Diona": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diona.png",
+    "sha256": "e8f2ade4e131f9dd8448d3b43cc2e19cf51a3235bfe32f47693d21d23c3dbabb"
+  },
+  "Dori": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dori.png",
+    "sha256": "9248d9842c9496ba0c80cac5d66ac5af4ee985763224155ee2790752e290332c"
+  },
+  "Durin": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin.png",
+    "sha256": "01cbfa9c1addadc337545a51a3505905fd4a286deea77ce15b196ba38d2da3b4"
+  },
+  "DurinToward": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DurinCostumeWic.png",
+    "sha256": "2bfc28951520477b7b6c0775015e44ae938fe456a8a9fabc4832a6561e676c6f"
+  },
+  "Emilie": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Emilie.png",
+    "sha256": "2cace78230d637d28a0e97a736344f8c01c7db4f4b14da6e16b32193d1ffd7a7"
+  },
+  "Escoffier": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Escoffier.png",
+    "sha256": "f621f18f52c544b75dc7eb24ca5d88eb764baa4fd608102c8ace9c3c723e37d7"
+  },
+  "Eula": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Eula.png",
+    "sha256": "4093874ca96a7372c57790b58a06e76981e81c2050a501505f77b494f3405183"
+  },
+  "Faruzan": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Faruzan.png",
+    "sha256": "dbaeace57c186cd67973fe519f57d12fce22ef504fb5eba840e3ae1767534c50"
+  },
+  "Fischl": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Fischl.png",
+    "sha256": "ae253a2058e55c9408ce9722b3b7f01d72ec8da8e7f9984841a1132eb797a663"
+  },
+  "FischlHighness": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_FischlCostumeHighness.png",
+    "sha256": "2339aed5faf9d0672579d9073e1055462f9c1d45f8dba4ec09bd066a01e48c03"
+  },
+  "Flins": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Flins.png",
+    "sha256": "b5bf1383cf412fb94662818742fdd669086a08dd7ed1968a9240488ff5fafc52"
+  },
+  "Freminet": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Freminet.png",
+    "sha256": "ae655d9a27e9afdb0c7dfbb8b8fccd5422bb0c98e58409dc316f585cca6f2047"
+  },
+  "Furina": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Furina.png",
+    "sha256": "f232a0d37d44b5cdc19ba7b49f1c1f4ecce18aea28e608afc2c397de1aa3b16f"
+  },
+  "GaMing": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gaming.png",
+    "sha256": "a29c3c39727c7ed1fbe276e0d95ed9e2547b6156a40ec27d4b641e1c07709b6c"
+  },
+  "Ganyu": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ganyu.png",
+    "sha256": "28a582b7b4072daab3c824de3a566292d1897a352d5e3984c0c5eec6ff2f52be"
+  },
+  "GanyuTwilight": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_GanyuCostumeYu.png",
+    "sha256": "d40b9499aaba1c0e6387ec563218cb57a58319dff5ca4730c6c055cf82f94bec"
+  },
+  "Gorou": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gorou.png",
+    "sha256": "8acaac543df0bf336ea81a22813808e1ae0d3d796d6a54c6f4b266ad1efc826a"
+  },
+  "Heizou": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Heizo.png",
+    "sha256": "94f9aee5982e6622f00b1a694a51a267bd8f03e7de85ffc08f1d9ee13f1ff9bd"
+  },
+  "HuTao": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Hutao.png",
+    "sha256": "24adcbad8bba2d3df793d09fc0f526f4eb1d0c1901724e71556e8a36a7486c18"
+  },
+  "HuTaoCherries": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_HutaoCostumeWinter.png",
+    "sha256": "51e4b45a2ca226c0730dc10dcb4ae0297ea2413a1960f6444c0e22708a97de40"
+  },
+  "Iansan": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Iansan.png",
+    "sha256": "e58055a399c0f0534b7d9066b1472dc44815a1f85f4adf89c063c7b5f5a4c7c5"
+  },
+  "Ifa": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ifa.png",
+    "sha256": "4a6d64973561be24f419a155980395faa69d4c6142b668a7c0c7d59733fd27c3"
+  },
+  "Illuga": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Illuga.png",
+    "sha256": "4d72358ffc1a200673d7b430921412393819e0b56a7f2f523f0f7c8415511477"
+  },
+  "Ineffa": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ineffa.png",
+    "sha256": "1779476b5a97c644f0e4b4180221cd3f17809ad8c7315c281e9065e1c6cdb241"
+  },
+  "Jahoda": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Jahoda.png",
+    "sha256": "d16c77060185c5bff29e62eb7dab91e061cd28bcd0ce8ecec180830d00bf0ea0"
+  },
+  "Jean": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qin.png",
+    "sha256": "85e39e185d2804a685a649c3e4b2fb9a4342dc32c94b89e6ebede2f35a605f3a"
+  },
+  "JeanCN": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeWic.png",
+    "sha256": "caf8c22bc495f79db0468bd69ccbd85855ab99a42cc2f709581479f0d99ad48d"
+  },
+  "JeanSea": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeSea.png",
+    "sha256": "a34b7c612e061d45891e9392b7fdcf34ec8ea7bc9d7747edf5c93d82c1fcb2a6"
+  },
+  "Kachina": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kachina.png",
+    "sha256": "bdc34c38abf6d0e7971a9a3b5baaf4f3378ee2ed6d25d2f8c96f216e9247895b"
+  },
+  "KaedeharaKazuha": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kazuha.png",
+    "sha256": "2ebf220eaa45d25d703e568cc94f20d0fba4413d93d35291f494d72ed66e09ca"
+  },
+  "Kaeya": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaeya.png",
+    "sha256": "f205e5268f686d41688d8ec2365af2cafd139250e310a82442b299d3ad36fbc2"
+  },
+  "KaeyaSailwind": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KaeyaCostumeDancer.png",
+    "sha256": "39ff2faa62b870e19c32b0389d86bb501029282380b631a5fbea67ae59f528b0"
+  },
+  "KamisatoAyaka": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayaka.png",
+    "sha256": "30ec989ba92533c34743f5e39c6dcf35fed5509819249b83e29978f79e015c68"
+  },
+  "KamisatoAyato": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayato.png",
+    "sha256": "1fb9d95b22467a46c8cb544a1b72a757b9b065d5942168e16576352b4949418e"
+  },
+  "Kaveh": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaveh.png",
+    "sha256": "a9744540bc97c389d48f5295d303771b7cb19e427cab4b5f34e5c1aa127c622b"
+  },
+  "Keqing": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Keqing.png",
+    "sha256": "3a1daa948dc957d1bcb8196247f34637b16ccb60aede618c19c45bb51a84cf07"
+  },
+  "KeqingOpulent": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KeqingCostumeFeather.png",
+    "sha256": "494c8bc92617162813f50683695ac8ea2e599da6837daf3d644e4593cce0a30b"
+  },
+  "Kinich": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kinich.png",
+    "sha256": "b94f4a130ed5cc806ff0ab5071edbee9d9caa0fd6f1cc37cb6c71320e8ec6afe"
+  },
+  "Kirara": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Momoka.png",
+    "sha256": "5f44ec52d1b4b94369cad7ee3d0c85ff64169d7e9ba8f94c7926709b76ba7613"
+  },
+  "KiraraPhantom": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MomokaCostumeErrantry.png",
+    "sha256": "0024537fac05d5ae6ad20b87cf4fc11f22965b0b655d411f01a1e1806a4338d2"
+  },
+  "Klee": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Klee.png",
+    "sha256": "62388c1eeaf9616a8ec6d51840cbba2a6afa58b2faaaafa55801a3a2c2c4f4be"
+  },
+  "KleeBlossomingStarlight": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KleeCostumeWitch.png",
+    "sha256": "d60079fac3e6431e16759662eca569d68b529e31bc76a7d17630d0782942638c"
+  },
+  "KujouSara": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sara.png",
+    "sha256": "6a88be96498f0d52050ec8b55b6496792afa328c22e7a126ea1a41e3d04b5db6"
+  },
+  "KukiShinobu": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shinobu.png",
+    "sha256": "50de7708623118667a62fd3434c85a720ed64188496ba2add13afaa92eba4303"
+  },
+  "LanYan": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lanyan.png",
+    "sha256": "ab11416309852e41cf164610e2de423d401899ab8bc7e3dadb9be95fa4077a4c"
+  },
+  "Lauma": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lauma.png",
+    "sha256": "0273b6678abce93fdfdfa9511b8e149e49c1e8af6929e046f4d67a41d3359b5d"
+  },
+  "Layla": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Layla.png",
+    "sha256": "7641283247814fd4f18fbdf49e90ceb14fb6b57666ed4ff0037d45640adf441c"
+  },
+  "Linnea": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linnea.png",
+    "sha256": "cd8d0efabec68ae213cfb567d06023109afd8d6bc6a7fcf28af0dba6a4a69074"
+  },
+  "Lisa": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lisa.png",
+    "sha256": "1b771b7bf1d42307a800d6f544a5e59c7351ea016d0501de6e370a4e9f5b1cf7"
+  },
+  "LisaStudent": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_LisaCostumeStudentin.png",
+    "sha256": "7012b7a7597605395d1ab4d40f3af2674d600865d2c9e068a5050d301fd0571b"
+  },
+  "Lohen": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lohen.png",
+    "sha256": "51e3cd26b0464876b3f2e9ab0be23ec196b6bb09810493b026259de484fe47b0"
+  },
+  "Lynette": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linette.png",
+    "sha256": "aab5b6d966f683598c94a9091daf5efc6a779dd7c380d5fec0156b9a63323bed"
+  },
+  "Lyney": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liney.png",
+    "sha256": "43e0baa1e3ce1a096ac4df8dce1696d3995a39b1b73d40a8ee296bf88734026e"
+  },
+  "Manekin": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MannequinBoy.png",
+    "sha256": "f2e4244da51d10b7c92c1f2c0cf41d58e02203705e8b83fbd56de039ce1df6db"
+  },
+  "Manekina": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MannequinGirl.png",
+    "sha256": "648c55765ca842ebebecc6473b6e7192255cc292ae6dcc5ac5c4159f07629c4e"
+  },
+  "Mavuika": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mavuika.png",
+    "sha256": "31e2763e852e116a58a56b256ca9da05197517587cfd17a0e2736650cb104328"
+  },
+  "Mika": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mika.png",
+    "sha256": "b92dc41ade94ba9464499fb2bbd8bdafa09ac6ff6b12b3b2c9cba09e516c62b8"
+  },
+  "Mizuki": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mizuki.png",
+    "sha256": "4b95143ef1814d3011e824af391a3b5d59ce3b4cf6156fdb0767c31b236209ad"
+  },
+  "Mona": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mona.png",
+    "sha256": "ece1f74765f7e3b4fdecbbdd0b8cd71dfac08afa094a904403dd0cdb02b72b7e"
+  },
+  "MonaCN": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MonaCostumeWic.png",
+    "sha256": "dab10e0683ab13bd766839eeb415c73cea978dbaa839278fe1a2f8fbd4f822d1"
+  },
+  "Mualani": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mualani.png",
+    "sha256": "7312c1d71909fd280ba46ebff8b4dfbe2b00eb048515fda0acd735192321c393"
+  },
+  "Nahida": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nahida.png",
+    "sha256": "bb0418859d7448cdbd368d6846b2419df54ba9227bc961de1182ce1b302d6a4d"
+  },
+  "Navia": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Navia.png",
+    "sha256": "8806602840ce40c4f58588c7db355acd847f016d5817cfae21cc7ac9dd547ba5"
+  },
+  "Nefer": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nefer.png",
+    "sha256": "cbb7259e5b52a5ba124642532f8416e5d818b0856dd7340d5ef59637e441d1cf"
+  },
+  "Neuvillette": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Neuvillette.png",
+    "sha256": "bf29b11eef1fa59283924a71857f9882482a0a1f2b6823c3c56f44adf5ae307e"
+  },
+  "NeuvilletteMelusent": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NeuvilletteCostumeWinter.png",
+    "sha256": "71e41109e988acdd3325460c1ada3a741593c424f7640c1d1e05e4d0c4cfa86b"
+  },
+  "Nicole": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nicole.png",
+    "sha256": "4cb708a6422ea68b7df0b1441c37cc6373e9255ca18429e40f2e263d48b67047"
+  },
+  "Nilou": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nilou.png",
+    "sha256": "b215f97723e83fc36804c94feb1cca2e332c9b89e1ddd3b57fb765e69b3703d7"
+  },
+  "NilouBreeze": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NilouCostumeFairy.png",
+    "sha256": "8168d3445734440b97ec7cef161ec55ff583b53f8be64e1c9bf298623a7682e7"
+  },
+  "Ningguang": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ningguang.png",
+    "sha256": "cb2fb75b7f22030cf42f3634f22470d1479fcb08dfc02fae8927129b9c220623"
+  },
+  "NingguangOrchid": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NingguangCostumeFloral.png",
+    "sha256": "9cfdc544ec80b9231080a9c78d91ad3e50bca182e1f389502414dfd4d6618a8c"
+  },
+  "Noelle": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Noel.png",
+    "sha256": "ddecf682058d03929b0a1598857edaffc9a5adf461b1d2475d95fc302f8d4c99"
+  },
+  "Odette": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Odette.png",
+    "sha256": "e285386cbcc74db6c7393be2fce5bf6ef2eab9964baa6845aff95839b1f1c166"
+  },
+  "Ororon": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Olorun.png",
+    "sha256": "7dbb8b01985361d762af212d1e428c889548e243ec55748820cb2547c6a13bf0"
+  },
+  "Prune": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Prune.png",
+    "sha256": "9f180760eed1e892aaca2298840b72c7bf5d45ff24f6bd973c6ae2f887902459"
+  },
+  "Qiqi": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qiqi.png",
+    "sha256": "8b8877d9c4cfe3093ed809f532433702ddc1f344a7e24daaee85ccd0601e4f5c"
+  },
+  "RaidenShogun": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shougun.png",
+    "sha256": "9c70e4979c98989259d44d2717523610cf5cd6c6d1f049341dac1004c4f8981d"
+  },
+  "Razor": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Razor.png",
+    "sha256": "4f5e15f57d044f3e3a4bac4f466e6291b2cf0b55678179acb0544d8b760211c6"
+  },
+  "Rosaria": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Rosaria.png",
+    "sha256": "0857ec079da658cf09ab1219388eba9b7d39d234b2d4b523e598169ba2ae95de"
+  },
+  "RosariaCN": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_RosariaCostumeWic.png",
+    "sha256": "735c35697081f04344889e2705e4aeada34a1e460e27f3407d4cb3786cd38d16"
+  },
+  "Sandrone": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MarionetteNew.png",
+    "sha256": "e0cdb9cb2ab6041e06d003119ae7379c403dd1d04e478b02668c7143a508d756"
+  },
+  "SangonomiyaKokomi": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kokomi.png",
+    "sha256": "dafd9057cf19da57418e1bd3ca748b6a3ffa5756002ec7b695956dc41879b94d"
+  },
+  "Sayu": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sayu.png",
+    "sha256": "9309345152f62778603814952d4217b3270004448498992582df46d49e20f235"
+  },
+  "Sethos": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sethos.png",
+    "sha256": "41f24de5e1530c14cf96bc08ce5bf1c565ce69353bb71fd1c402480e9ecffb71"
+  },
+  "Shenhe": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shenhe.png",
+    "sha256": "2762324c4ffc1bb3906660ab34601b2905bce7e500a82e549a5f036ef8320f03"
+  },
+  "ShenheFrostFlower": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_ShenheCostumeDai.png",
+    "sha256": "cfa2efb5085a0b102dfcd636dd24558a4e185132e0f48eca779f5a08718888fa"
+  },
+  "Sigewinne": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sigewinne.png",
+    "sha256": "e9c637089672cdbf83913beee8ecde4d028af19b2810729f5360cdbfd5fa7a59"
+  },
+  "Skirk": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_SkirkNew.png",
+    "sha256": "2137bc679114f27cac42a2f3271f669b8c4da88064ecad35623ab3543fad6377"
+  },
+  "Sucrose": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sucrose.png",
+    "sha256": "1f7780e16fa63b5c99e2899299181be45696d095da8e927decc159229bcc7a88"
+  },
+  "Tartaglia": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tartaglia.png",
+    "sha256": "798c57d34c3ed10e9882004f97d1bb795fe9f81caef22c6ecdb358a88635a3b2"
+  },
+  "Thoma": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tohma.png",
+    "sha256": "327dc553bca2556c36e7216d40decb05183c1fe6b4a218546a914a15c5018ef8"
+  },
+  "Tighnari": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tighnari.png",
+    "sha256": "5d7eaa188932f16c8b82612a381f4212e2b528bba88330a68d18cb2e3fcafb61"
+  },
+  "TravelerBoy": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png",
+    "sha256": "2805d34c87420d2f50c1658f2c82210102f371fe60dfba222f76bfa1ec5d5020"
+  },
+  "TravelerGirl": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png",
+    "sha256": "7883a53bcef4de82e5e4aa4d20b913d115baa73eace8d850f403d86eb4dcb983"
+  },
+  "Varesa": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varesa.png",
+    "sha256": "2fa83fd0d9252f9a18d37cf57e6ad1df72b582ac4aee11a452e154d70ee9cef0"
+  },
+  "Varka": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varka.png",
+    "sha256": "2af4e80bd67ebb9e9a98f4ede8c8a0f118d9631ac2feebd12680d9622dc164f7"
+  },
+  "Venti": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Venti.png",
+    "sha256": "de7176fbf1b4da105400d640c3e79a8553f762ce49df560e83f05ac343de6e12"
+  },
+  "Vesna": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vesna.png",
+    "sha256": "f3e2281ad4c824a51266fdc259a49cdc3b3a0d27c86ebcefb1bbc42648596d27"
+  },
+  "Vodyanitsa": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vodyanitsa.png",
+    "sha256": "aced8668e017da1b48fa105b744b174d47308057acfca7a85c1f2e38f386147e"
+  },
+  "Wanderer": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wanderer.png",
+    "sha256": "cbf80665941d2ef2e70cbac5f92ab3d34a327bd7a5ad84751d81c78785aae452"
+  },
+  "Wriothesley": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wriothesley.png",
+    "sha256": "32dbdefdf3b0b3d6f8b8fc73daacc35f78db2b25eb17e2c06c935e7a64e4fae4"
+  },
+  "Xiangling": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiangling.png",
+    "sha256": "791e50c6e5e8f94004ea4695dd8d1a21798a3c04e904c2e0c21ee32f8ecbb16b"
+  },
+  "XianglingNew": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XianglingCostumeWinter.png",
+    "sha256": "5b5377822ac00d50657cc94e1f20197b9a7af3285939e134d1881c9f5494c3b2"
+  },
+  "Xianyun": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liuyun.png",
+    "sha256": "1f62afb86933dcb84a56bedd61054e5ed7d5f985f07df24ff3093a6024457855"
+  },
+  "Xiao": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiao.png",
+    "sha256": "80def546d20432726af2b1c1c0c65600f170c66d762193b085af6dea0ac956a3"
+  },
+  "Xilonen": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xilonen.png",
+    "sha256": "becaaacbf83ab84f9ab7c075993fc912ad149064140e193dc33af7deba94dbf5"
+  },
+  "Xingqiu": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xingqiu.png",
+    "sha256": "4e976c25669968563c315118b10b41c3ae0ebd6552cb009a5227f14210e5433a"
+  },
+  "XingqiuBamboo": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XingqiuCostumeBamboo.png",
+    "sha256": "503b578db3a121b4bceb38bf3326eea930be32d12b01dd911dd85bac4203db29"
+  },
+  "Xinyan": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xinyan.png",
+    "sha256": "5e9dd9e9e2a24bd2c9f620883adbb1bb69c8f76ea435ba8cb2f506b3d8ac9d2a"
+  },
+  "YaeMiko": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yae.png",
+    "sha256": "04a8c1c712e355a200d1abc77197f67fdaf544ff49f69f08ea88c849e0a2b39d"
+  },
+  "Yanfei": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Feiyan.png",
+    "sha256": "4661282a6a4419a68363e8b22c7bd563e61d27b3a1995fb123abad741dacb55e"
+  },
+  "YaoYao": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yaoyao.png",
+    "sha256": "e18377f668916e5d051bd4142674c63e52d20b4708ce914033d6c32cd2802eba"
+  },
+  "YaoYaoRainlit": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YaoyaoCostumeWinter.png",
+    "sha256": "251874935662511a27db2b2db379cee914095b664fd4961cf3ef2548a4eaf88d"
+  },
+  "Yelan": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yelan.png",
+    "sha256": "659594db7bd0a39c70b1f2758574296a185f3570b4a495a49fed7be233a46331"
+  },
+  "YelanTranquil": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YelanCostumeSummer.png",
+    "sha256": "4a3b460bd07a2067649907f36fa12aa5d7f201bb050e293548b582ec352514a0"
+  },
+  "Yoimiya": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yoimiya.png",
+    "sha256": "1a48602acaf4d9b70a8216c61daf81c8f371a924f1259fa6f21c3d2d0c6c8fb2"
+  },
+  "YunJin": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yunjin.png",
+    "sha256": "e8b87b499a68edc06db5c78a3efcdeb1d2b4cc7cd54027005c612403e5c56117"
+  },
+  "Zhongli": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zhongli.png",
+    "sha256": "a8d34dc3af28b0404608493908096d38a7db7e8f38fddd072a84ec7c66fa1e51"
+  },
+  "Zibai": {
+    "source": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zibai.png",
+    "sha256": "55d55173d21accd79516285a3020c5af75580f9b63681b3cdf3f77f5069c125e"
+  }
+}

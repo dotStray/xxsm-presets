@@ -1,0 +1,32 @@
+{
+  "packSchemaVersion": 1,
+  "gameId": "zenless",
+  "packVersion": "2026.09.24",
+  "generatedAt": "2026-09-24T00:00:00Z",
+  "builder": "packbuilder 0.1.0",
+  "authoredBy": "official",
+  "minAppVersion": "0.1.0",
+  "counts": {
+    "variants": 93,
+    "skins": 30,
+    "images": 83
+  },
+  "sources": [
+    {
+      "kind": "hashes",
+      "url": "https://github.com/leotorrez/ZZ-Model-Importer-Assets",
+      "commit": "e1673e89930025fdba89a687540bd5b944eb8b5f",
+      "license": "GPL-3.0"
+    },
+    {
+      "kind": "roster",
+      "url": "https://github.com/EnkaNetwork/API-docs",
+      "license": "Read as enka.network's robots.txt allows; no licence stated"
+    },
+    {
+      "kind": "images",
+      "url": "https://enka.network/ui/zzz/",
+      "license": "Game art © COGNOSPHERE / HoYoverse, as served by the source named in each image's record."
+    }
+  ]
+}

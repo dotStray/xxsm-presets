@@ -1,0 +1,108 @@
+{
+  "gameId": "genshin",
+  "displayName": "Genshin Impact",
+  "shortName": "GI",
+  "importer": "GIMI",
+  "disabledPrefix": "DISABLED_",
+  "attributes": {
+    "element": {
+      "displayName": "Element",
+      "values": [
+        {
+          "id": "anemo",
+          "displayName": "Anemo"
+        },
+        {
+          "id": "cryo",
+          "displayName": "Cryo"
+        },
+        {
+          "id": "dendro",
+          "displayName": "Dendro"
+        },
+        {
+          "id": "electro",
+          "displayName": "Electro"
+        },
+        {
+          "id": "geo",
+          "displayName": "Geo"
+        },
+        {
+          "id": "hydro",
+          "displayName": "Hydro"
+        },
+        {
+          "id": "pyro",
+          "displayName": "Pyro"
+        }
+      ]
+    },
+    "weaponClass": {
+      "displayName": "Weapon",
+      "values": [
+        {
+          "id": "bow",
+          "displayName": "Bow"
+        },
+        {
+          "id": "catalyst",
+          "displayName": "Catalyst"
+        },
+        {
+          "id": "claymore",
+          "displayName": "Claymore"
+        },
+        {
+          "id": "polearm",
+          "displayName": "Polearm"
+        },
+        {
+          "id": "sword",
+          "displayName": "Sword"
+        }
+      ]
+    },
+    "region": {
+      "displayName": "Region",
+      "values": [
+        {
+          "id": "mondstadt",
+          "displayName": "Mondstadt"
+        },
+        {
+          "id": "liyue",
+          "displayName": "Liyue"
+        },
+        {
+          "id": "inazuma",
+          "displayName": "Inazuma"
+        },
+        {
+          "id": "sumeru",
+          "displayName": "Sumeru"
+        },
+        {
+          "id": "fontaine",
+          "displayName": "Fontaine"
+        },
+        {
+          "id": "natlan",
+          "displayName": "Natlan"
+        },
+        {
+          "id": "nodkrai",
+          "displayName": "Nod-Krai"
+        },
+        {
+          "id": "snezhnaya",
+          "displayName": "Snezhnaya"
+        }
+      ]
+    },
+    "rarity": {
+      "displayName": "Rarity",
+      "kind": "number"
+    }
+  }
+}

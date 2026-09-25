@@ -1,0 +1,2600 @@
+[
+  {
+    "internalName": "Aino",
+    "displayName": "Aino",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Aino",
+    "image": "images/Aino.webp",
+    "releaseDate": "2025-09-08",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "claymore",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Albedo",
+    "displayName": "Albedo",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Albedo",
+    "image": "images/Albedo.webp",
+    "releaseDate": "2020-12-21",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Alhaitham",
+    "displayName": "Alhaitham",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Alhaitham",
+    "image": "images/Alhaitham.webp",
+    "releaseDate": "2023-01-16",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "sword",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Aloy",
+    "displayName": "Aloy",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Aloy",
+    "image": "images/Aloy.webp",
+    "releaseDate": "2021-08-31",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "bow",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Alyosha",
+    "displayName": "Alyosha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Alyosha",
+    "image": "images/Alyosha.webp",
+    "releaseDate": "2026-08-10",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "polearm",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Amber",
+    "displayName": "Amber",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Amber",
+    "image": "images/Amber.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "bow",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "AmberCN",
+    "displayName": "100% Outrider",
+    "baseCharacterId": "Amber",
+    "isDefaultVariant": false,
+    "modFilesName": "AmberCN",
+    "image": "images/AmberCN.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "bow",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "AratakiItto",
+    "displayName": "Arataki Itto",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "AratakiItto",
+    "image": "images/AratakiItto.webp",
+    "releaseDate": "2021-12-14",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "claymore",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Arlecchino",
+    "displayName": "Arlecchino",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Arlecchino",
+    "image": "images/Arlecchino.webp",
+    "releaseDate": "2024-04-22",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "AyakaSpringbloom",
+    "displayName": "Springbloom Missive",
+    "baseCharacterId": "KamisatoAyaka",
+    "isDefaultVariant": false,
+    "modFilesName": "AyakaSpringbloom",
+    "image": "images/AyakaSpringbloom.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Baizhu",
+    "displayName": "Baizhu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Baizhu",
+    "image": "images/Baizhu.webp",
+    "releaseDate": "2023-05-02",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "catalyst",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Barbara",
+    "displayName": "Barbara",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Barbara",
+    "image": "images/Barbara.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "BarbaraSummertime",
+    "displayName": "Summertime Sparkle",
+    "baseCharacterId": "Barbara",
+    "isDefaultVariant": false,
+    "modFilesName": "BarbaraSummertime",
+    "image": "images/BarbaraSummertime.webp",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Beidou",
+    "displayName": "Beidou",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Beidou",
+    "image": "images/Beidou.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "claymore",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Bennett",
+    "displayName": "Bennett",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Bennett",
+    "image": "images/Bennett.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "BennettAdventures",
+    "displayName": "Adventures in Blazing Hue",
+    "baseCharacterId": "Bennett",
+    "isDefaultVariant": false,
+    "modFilesName": "BennettAdventures",
+    "image": "images/BennettAdventures.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Candace",
+    "displayName": "Candace",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Candace",
+    "image": "images/Candace.webp",
+    "releaseDate": "2022-09-26",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "polearm",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Charlotte",
+    "displayName": "Charlotte",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Charlotte",
+    "image": "images/Charlotte.webp",
+    "releaseDate": "2023-11-06",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "catalyst",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "CharlotteHurlock",
+    "displayName": "Hurlock Variations",
+    "baseCharacterId": "Charlotte",
+    "isDefaultVariant": false,
+    "modFilesName": "CharlotteHurlock",
+    "image": "images/CharlotteHurlock.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "catalyst",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Chasca",
+    "displayName": "Chasca",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Chasca",
+    "image": "images/Chasca.webp",
+    "releaseDate": "2024-11-18",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "bow",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Chevreuse",
+    "displayName": "Chevreuse",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Chevreuse",
+    "image": "images/Chevreuse.webp",
+    "releaseDate": "2024-01-09",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Chiori",
+    "displayName": "Chiori",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Chiori",
+    "image": "images/Chiori.webp",
+    "releaseDate": "2024-03-11",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Chongyun",
+    "displayName": "Chongyun",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Chongyun",
+    "image": "images/Chongyun.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "claymore",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Citlali",
+    "displayName": "Citlali",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Citlali",
+    "image": "images/Citlali.webp",
+    "releaseDate": "2024-12-30",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "catalyst",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "CitlaliWhispers",
+    "displayName": "Whispers of Stars and Smoke",
+    "baseCharacterId": "Citlali",
+    "isDefaultVariant": false,
+    "modFilesName": "CitlaliWhispers",
+    "image": "images/CitlaliWhispers.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "catalyst",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Clorinde",
+    "displayName": "Clorinde",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Clorinde",
+    "image": "images/Clorinde.webp",
+    "releaseDate": "2024-06-03",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "sword",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Collei",
+    "displayName": "Collei",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Collei",
+    "image": "images/Collei.webp",
+    "releaseDate": "2022-08-23",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "bow",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Columbina",
+    "displayName": "Columbina",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Columbina",
+    "image": "images/Columbina.webp",
+    "releaseDate": "2026-01-12",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Cyno",
+    "displayName": "Cyno",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Cyno",
+    "image": "images/Cyno.webp",
+    "releaseDate": "2022-09-26",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "polearm",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Dahlia",
+    "displayName": "Dahlia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Dahlia",
+    "image": "images/Dahlia.webp",
+    "releaseDate": "2025-06-16",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Dehya",
+    "displayName": "Dehya",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Dehya",
+    "image": "images/Dehya.webp",
+    "releaseDate": "2023-02-27",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "claymore",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Diluc",
+    "displayName": "Diluc",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Diluc",
+    "image": "images/Diluc.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "claymore",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "DilucFlamme",
+    "displayName": "Red Dead of Night",
+    "baseCharacterId": "Diluc",
+    "isDefaultVariant": false,
+    "modFilesName": "DilucFlamme",
+    "image": "images/DilucFlamme.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "claymore",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Diona",
+    "displayName": "Diona",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Diona",
+    "image": "images/Diona.webp",
+    "releaseDate": "2020-11-11",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "bow",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Dori",
+    "displayName": "Dori",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Dori",
+    "image": "images/Dori.webp",
+    "releaseDate": "2022-09-09",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "claymore",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Durin",
+    "displayName": "Durin",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Durin",
+    "image": "images/Durin.webp",
+    "releaseDate": "2025-12-01",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "DurinToward",
+    "displayName": "Toward the Distant Horizon",
+    "baseCharacterId": "Durin",
+    "isDefaultVariant": false,
+    "modFilesName": "DurinToward",
+    "image": "images/DurinToward.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Emilie",
+    "displayName": "Emilie",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Emilie",
+    "image": "images/Emilie.webp",
+    "releaseDate": "2024-08-06",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "polearm",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Escoffier",
+    "displayName": "Escoffier",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Escoffier",
+    "image": "images/Escoffier.webp",
+    "releaseDate": "2025-05-05",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Eula",
+    "displayName": "Eula",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Eula",
+    "image": "images/Eula.webp",
+    "releaseDate": "2021-05-18",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "claymore",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Faruzan",
+    "displayName": "Faruzan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Faruzan",
+    "image": "images/Faruzan.webp",
+    "releaseDate": "2022-12-05",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "bow",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Fischl",
+    "displayName": "Fischl",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Fischl",
+    "image": "images/Fischl.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "bow",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "FischlHighness",
+    "displayName": "Ein Immernachtstraum",
+    "baseCharacterId": "Fischl",
+    "isDefaultVariant": false,
+    "modFilesName": "FischlHighness",
+    "image": "images/FischlHighness.webp",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "bow",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Flins",
+    "displayName": "Flins",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Flins",
+    "image": "images/Flins.webp",
+    "releaseDate": "2025-09-30",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "polearm",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Freminet",
+    "displayName": "Freminet",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Freminet",
+    "image": "images/Freminet.webp",
+    "releaseDate": "2023-09-05",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "claymore",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Furina",
+    "displayName": "Furina",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Furina",
+    "image": "images/Furina.webp",
+    "releaseDate": "2023-11-06",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "GaMing",
+    "displayName": "Gaming",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "GaMing",
+    "image": "images/GaMing.webp",
+    "releaseDate": "2024-01-29",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "claymore",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Ganyu",
+    "displayName": "Ganyu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ganyu",
+    "image": "images/Ganyu.webp",
+    "releaseDate": "2021-01-12",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "bow",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "GanyuTwilight",
+    "displayName": "Twilight Blossom",
+    "baseCharacterId": "Ganyu",
+    "isDefaultVariant": false,
+    "modFilesName": "GanyuTwilight",
+    "image": "images/GanyuTwilight.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "bow",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Gorou",
+    "displayName": "Gorou",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Gorou",
+    "image": "images/Gorou.webp",
+    "releaseDate": "2021-12-14",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "bow",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Heizou",
+    "displayName": "Shikanoin Heizou",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Heizou",
+    "image": "images/Heizou.webp",
+    "releaseDate": "2022-07-12",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "HuTao",
+    "displayName": "Hu Tao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "HuTao",
+    "image": "images/HuTao.webp",
+    "releaseDate": "2021-03-02",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "HuTaoCherries",
+    "displayName": "Cherries Snow-Laden",
+    "baseCharacterId": "HuTao",
+    "isDefaultVariant": false,
+    "modFilesName": "HuTaoCherries",
+    "image": "images/HuTaoCherries.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Iansan",
+    "displayName": "Iansan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Iansan",
+    "image": "images/Iansan.webp",
+    "releaseDate": "2025-03-24",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "polearm",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Ifa",
+    "displayName": "Ifa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ifa",
+    "image": "images/Ifa.webp",
+    "releaseDate": "2025-05-05",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Illuga",
+    "displayName": "Illuga",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Illuga",
+    "image": "images/Illuga.webp",
+    "releaseDate": "2026-02-03",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "polearm",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Ineffa",
+    "displayName": "Ineffa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ineffa",
+    "image": "images/Ineffa.webp",
+    "releaseDate": "2025-07-28",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "polearm",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Jahoda",
+    "displayName": "Jahoda",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Jahoda",
+    "image": "images/Jahoda.webp",
+    "releaseDate": "2025-12-01",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "bow",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Jean",
+    "displayName": "Jean",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Jean",
+    "image": "images/Jean.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "JeanCN",
+    "displayName": "Gunnhildr's Legacy",
+    "baseCharacterId": "Jean",
+    "isDefaultVariant": false,
+    "modFilesName": "JeanCN",
+    "image": "images/JeanCN.webp",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "JeanSea",
+    "displayName": "Sea Breeze Dandelion",
+    "baseCharacterId": "Jean",
+    "isDefaultVariant": false,
+    "modFilesName": "JeanSea",
+    "image": "images/JeanSea.webp",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Kachina",
+    "displayName": "Kachina",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kachina",
+    "image": "images/Kachina.webp",
+    "releaseDate": "2024-08-26",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "polearm",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "KaedeharaKazuha",
+    "displayName": "Kaedehara Kazuha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "KaedeharaKazuha",
+    "image": "images/KaedeharaKazuha.webp",
+    "releaseDate": "2021-06-29",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Kaeya",
+    "displayName": "Kaeya",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kaeya",
+    "image": "images/Kaeya.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "KaeyaSailwind",
+    "displayName": "Sailwind Shadow",
+    "baseCharacterId": "Kaeya",
+    "isDefaultVariant": false,
+    "modFilesName": "KaeyaSailwind",
+    "image": "images/KaeyaSailwind.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "KamisatoAyaka",
+    "displayName": "Kamisato Ayaka",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "KamisatoAyaka",
+    "image": "images/KamisatoAyaka.webp",
+    "releaseDate": "2021-07-20",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "KamisatoAyato",
+    "displayName": "Kamisato Ayato",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "KamisatoAyato",
+    "image": "images/KamisatoAyato.webp",
+    "releaseDate": "2022-03-29",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Kaveh",
+    "displayName": "Kaveh",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kaveh",
+    "image": "images/Kaveh.webp",
+    "releaseDate": "2023-05-02",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "claymore",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Keqing",
+    "displayName": "Keqing",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Keqing",
+    "image": "images/Keqing.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "sword",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "KeqingOpulent",
+    "displayName": "Opulent Splendor",
+    "baseCharacterId": "Keqing",
+    "isDefaultVariant": false,
+    "modFilesName": "KeqingOpulent",
+    "image": "images/KeqingOpulent.webp",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "sword",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Kinich",
+    "displayName": "Kinich",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kinich",
+    "image": "images/Kinich.webp",
+    "releaseDate": "2024-09-17",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "claymore",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Kirara",
+    "displayName": "Kirara",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kirara",
+    "image": "images/Kirara.webp",
+    "releaseDate": "2023-05-22",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "KiraraPhantom",
+    "displayName": "Phantom in Boots",
+    "baseCharacterId": "Kirara",
+    "isDefaultVariant": false,
+    "modFilesName": "KiraraPhantom",
+    "image": "images/KiraraPhantom.webp",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Klee",
+    "displayName": "Klee",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Klee",
+    "image": "images/Klee.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "KleeBlossomingStarlight",
+    "displayName": "Blossoming Starlight",
+    "baseCharacterId": "Klee",
+    "isDefaultVariant": false,
+    "modFilesName": "KleeBlossomingStarlight",
+    "image": "images/KleeBlossomingStarlight.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "KujouSara",
+    "displayName": "Kujou Sara",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "KujouSara",
+    "image": "images/KujouSara.webp",
+    "releaseDate": "2021-08-31",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "bow",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "KukiShinobu",
+    "displayName": "Kuki Shinobu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "KukiShinobu",
+    "image": "images/KukiShinobu.webp",
+    "releaseDate": "2022-06-21",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "sword",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "LanYan",
+    "displayName": "Lan Yan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "LanYan",
+    "image": "images/LanYan.webp",
+    "releaseDate": "2025-01-21",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Lauma",
+    "displayName": "Lauma",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lauma",
+    "image": "images/Lauma.webp",
+    "releaseDate": "2025-09-08",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "catalyst",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Layla",
+    "displayName": "Layla",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Layla",
+    "image": "images/Layla.webp",
+    "releaseDate": "2022-11-18",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Linnea",
+    "displayName": "Linnea",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Linnea",
+    "image": "images/Linnea.webp",
+    "releaseDate": "2026-04-06",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "bow",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Lisa",
+    "displayName": "Lisa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lisa",
+    "image": "images/Lisa.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "LisaStudent",
+    "displayName": "A Sobriquet Under Shade",
+    "baseCharacterId": "Lisa",
+    "isDefaultVariant": false,
+    "modFilesName": "LisaStudent",
+    "image": "images/LisaStudent.webp",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Lohen",
+    "displayName": "Lohen",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lohen",
+    "image": "images/Lohen.webp",
+    "releaseDate": "2026-06-09",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Lynette",
+    "displayName": "Lynette",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lynette",
+    "image": "images/Lynette.webp",
+    "releaseDate": "2023-08-14",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "sword",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Lyney",
+    "displayName": "Lyney",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lyney",
+    "image": "images/Lyney.webp",
+    "releaseDate": "2023-08-14",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "bow",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Manekin",
+    "displayName": "Manekin",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Manekin",
+    "image": "images/Manekin.webp",
+    "releaseDate": "2025-10-20",
+    "attributes": {
+      "weaponClass": "sword",
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Manekina",
+    "displayName": "Manekina",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Manekina",
+    "image": "images/Manekina.webp",
+    "releaseDate": "2025-10-20",
+    "attributes": {
+      "weaponClass": "sword",
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Mavuika",
+    "displayName": "Mavuika",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Mavuika",
+    "image": "images/Mavuika.webp",
+    "releaseDate": "2024-12-30",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "claymore",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Mika",
+    "displayName": "Mika",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Mika",
+    "image": "images/Mika.webp",
+    "releaseDate": "2023-03-21",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Mizuki",
+    "displayName": "Yumemizuki Mizuki",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Mizuki",
+    "image": "images/Mizuki.webp",
+    "releaseDate": "2025-02-10",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Mona",
+    "displayName": "Mona",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Mona",
+    "image": "images/Mona.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "MonaCN",
+    "displayName": "Pact of Stars and Moon",
+    "baseCharacterId": "Mona",
+    "isDefaultVariant": false,
+    "modFilesName": "MonaCN",
+    "image": "images/MonaCN.webp",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Mualani",
+    "displayName": "Mualani",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Mualani",
+    "image": "images/Mualani.webp",
+    "releaseDate": "2024-08-26",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Nahida",
+    "displayName": "Nahida",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Nahida",
+    "image": "images/Nahida.webp",
+    "releaseDate": "2022-10-31",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "catalyst",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Navia",
+    "displayName": "Navia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Navia",
+    "image": "images/Navia.webp",
+    "releaseDate": "2023-12-18",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "claymore",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Nefer",
+    "displayName": "Nefer",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Nefer",
+    "image": "images/Nefer.webp",
+    "releaseDate": "2025-10-20",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "catalyst",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Neuvillette",
+    "displayName": "Neuvillette",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Neuvillette",
+    "image": "images/Neuvillette.webp",
+    "releaseDate": "2023-09-25",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "NeuvilletteMelusent",
+    "displayName": "Melusent Gift",
+    "baseCharacterId": "Neuvillette",
+    "isDefaultVariant": false,
+    "modFilesName": "NeuvilletteMelusent",
+    "image": "images/NeuvilletteMelusent.webp",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Nicole",
+    "displayName": "Nicole",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Nicole",
+    "image": "images/Nicole.webp",
+    "releaseDate": "2026-05-18",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "catalyst",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Nilou",
+    "displayName": "Nilou",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Nilou",
+    "image": "images/Nilou.webp",
+    "releaseDate": "2022-10-14",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "NilouBreeze",
+    "displayName": "Breeze of Sabaa",
+    "baseCharacterId": "Nilou",
+    "isDefaultVariant": false,
+    "modFilesName": "NilouBreeze",
+    "image": "images/NilouBreeze.webp",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Ningguang",
+    "displayName": "Ningguang",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ningguang",
+    "image": "images/Ningguang.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "catalyst",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "NingguangOrchid",
+    "displayName": "Orchid's Evening Gown",
+    "baseCharacterId": "Ningguang",
+    "isDefaultVariant": false,
+    "modFilesName": "NingguangOrchid",
+    "image": "images/NingguangOrchid.webp",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "catalyst",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Noelle",
+    "displayName": "Noelle",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Noelle",
+    "image": "images/Noelle.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "claymore",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Odette",
+    "displayName": "Odette",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Odette",
+    "image": "images/Odette.webp",
+    "releaseDate": "2026-08-10",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Ororon",
+    "displayName": "Ororon",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ororon",
+    "image": "images/Ororon.webp",
+    "releaseDate": "2024-11-18",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "bow",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Prune",
+    "displayName": "Prune",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Prune",
+    "image": "images/Prune.webp",
+    "releaseDate": "2026-05-18",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Qiqi",
+    "displayName": "Qiqi",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Qiqi",
+    "image": "images/Qiqi.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "RaidenShogun",
+    "displayName": "Raiden Shogun",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "RaidenShogun",
+    "image": "images/RaidenShogun.webp",
+    "releaseDate": "2021-08-31",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "polearm",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Razor",
+    "displayName": "Razor",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Razor",
+    "image": "images/Razor.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "claymore",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Rosaria",
+    "displayName": "Rosaria",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Rosaria",
+    "image": "images/Rosaria.webp",
+    "releaseDate": "2021-04-06",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "RosariaCN",
+    "displayName": "To the Church's Free Spirit",
+    "baseCharacterId": "Rosaria",
+    "isDefaultVariant": false,
+    "modFilesName": "RosariaCN",
+    "image": "images/RosariaCN.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Sandrone",
+    "displayName": "Sandrone",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sandrone",
+    "image": "images/Sandrone.webp",
+    "releaseDate": "2026-06-29",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "claymore",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "SangonomiyaKokomi",
+    "displayName": "Sangonomiya Kokomi",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "SangonomiyaKokomi",
+    "image": "images/SangonomiyaKokomi.webp",
+    "releaseDate": "2021-09-21",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sayu",
+    "displayName": "Sayu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sayu",
+    "image": "images/Sayu.webp",
+    "releaseDate": "2021-08-10",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "claymore",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Sethos",
+    "displayName": "Sethos",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sethos",
+    "image": "images/Sethos.webp",
+    "releaseDate": "2024-06-03",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "bow",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Shenhe",
+    "displayName": "Shenhe",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Shenhe",
+    "image": "images/Shenhe.webp",
+    "releaseDate": "2022-01-04",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "ShenheFrostFlower",
+    "displayName": "Frostflower Dew",
+    "baseCharacterId": "Shenhe",
+    "isDefaultVariant": false,
+    "modFilesName": "ShenheFrostFlower",
+    "image": "images/ShenheFrostFlower.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sigewinne",
+    "displayName": "Sigewinne",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sigewinne",
+    "image": "images/Sigewinne.webp",
+    "releaseDate": "2024-06-26",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "bow",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Skirk",
+    "displayName": "Skirk",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Skirk",
+    "image": "images/Skirk.webp",
+    "releaseDate": "2025-06-16",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "sword",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Sucrose",
+    "displayName": "Sucrose",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sucrose",
+    "image": "images/Sucrose.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Tartaglia",
+    "displayName": "Tartaglia",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Tartaglia",
+    "image": "images/Tartaglia.webp",
+    "releaseDate": "2020-11-11",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "bow",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Thoma",
+    "displayName": "Thoma",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Thoma",
+    "image": "images/Thoma.webp",
+    "releaseDate": "2021-11-02",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Tighnari",
+    "displayName": "Tighnari",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Tighnari",
+    "image": "images/Tighnari.webp",
+    "releaseDate": "2022-08-23",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "bow",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "TravelerBoy",
+    "displayName": "Aether",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "TravelerBoy",
+    "image": "images/TravelerBoy.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": [
+        "anemo",
+        "cryo",
+        "dendro",
+        "electro",
+        "geo",
+        "hydro",
+        "pyro"
+      ],
+      "weaponClass": "sword",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "TravelerGirl",
+    "displayName": "Lumine",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "TravelerGirl",
+    "image": "images/TravelerGirl.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": [
+        "anemo",
+        "cryo",
+        "dendro",
+        "electro",
+        "geo",
+        "hydro",
+        "pyro"
+      ],
+      "weaponClass": "sword",
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Varesa",
+    "displayName": "Varesa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Varesa",
+    "image": "images/Varesa.webp",
+    "releaseDate": "2025-03-24",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "catalyst",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Varka",
+    "displayName": "Varka",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Varka",
+    "image": "images/Varka.webp",
+    "releaseDate": "2026-02-23",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "claymore",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Venti",
+    "displayName": "Venti",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Venti",
+    "image": "images/Venti.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "bow",
+      "region": [
+        "mondstadt"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Vesna",
+    "displayName": "Vesna",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Vesna",
+    "image": "images/Vesna.webp",
+    "releaseDate": "2026-09-21",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "sword",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Vodyanitsa",
+    "displayName": "Vodyanitsa",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Vodyanitsa",
+    "image": "images/Vodyanitsa.webp",
+    "releaseDate": "2026-09-21",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "catalyst",
+      "region": [
+        "snezhnaya"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Wanderer",
+    "displayName": "Wanderer",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Wanderer",
+    "image": "images/Wanderer.webp",
+    "releaseDate": "2022-12-05",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "sumeru"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Wriothesley",
+    "displayName": "Wriothesley",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Wriothesley",
+    "image": "images/Wriothesley.webp",
+    "releaseDate": "2023-10-17",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "catalyst",
+      "region": [
+        "fontaine"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Xiangling",
+    "displayName": "Xiangling",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xiangling",
+    "image": "images/Xiangling.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "XianglingNew",
+    "displayName": "New Year's Cheer",
+    "baseCharacterId": "Xiangling",
+    "isDefaultVariant": false,
+    "modFilesName": "XianglingNew",
+    "image": "images/XianglingNew.webp",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Xianyun",
+    "displayName": "Xianyun",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xianyun",
+    "image": "images/Xianyun.webp",
+    "releaseDate": "2024-01-29",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "catalyst",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Xiao",
+    "displayName": "Xiao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xiao",
+    "image": "images/Xiao.webp",
+    "releaseDate": "2021-02-01",
+    "attributes": {
+      "element": "anemo",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Xilonen",
+    "displayName": "Xilonen",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xilonen",
+    "image": "images/Xilonen.webp",
+    "releaseDate": "2024-10-07",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "sword",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "XilonenCoat",
+    "displayName": "Xilonen Coat",
+    "baseCharacterId": "Xilonen",
+    "isDefaultVariant": false,
+    "modFilesName": "XilonenCoat",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "sword",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "XilonenSkates",
+    "displayName": "Xilonen Skates",
+    "baseCharacterId": "Xilonen",
+    "isDefaultVariant": false,
+    "modFilesName": "XilonenSkates",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "sword",
+      "region": [
+        "natlan"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Xingqiu",
+    "displayName": "Xingqiu",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xingqiu",
+    "image": "images/Xingqiu.webp",
+    "releaseDate": "2020-09-27",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "XingqiuBamboo",
+    "displayName": "Bamboo Rain",
+    "baseCharacterId": "Xingqiu",
+    "isDefaultVariant": false,
+    "modFilesName": "XingqiuBamboo",
+    "image": "images/XingqiuBamboo.webp",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "sword",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Xinyan",
+    "displayName": "Xinyan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Xinyan",
+    "image": "images/Xinyan.webp",
+    "releaseDate": "2020-12-02",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "claymore",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "YaeMiko",
+    "displayName": "Yae Miko",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "YaeMiko",
+    "image": "images/YaeMiko.webp",
+    "releaseDate": "2022-02-15",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "catalyst",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Yanfei",
+    "displayName": "Yanfei",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yanfei",
+    "image": "images/Yanfei.webp",
+    "releaseDate": "2021-04-26",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "catalyst",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "YaoYao",
+    "displayName": "Yaoyao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "YaoYao",
+    "image": "images/YaoYao.webp",
+    "releaseDate": "2023-01-16",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "YaoYaoRainlit",
+    "displayName": "Rainlit Bamboo Reverie",
+    "baseCharacterId": "YaoYao",
+    "isDefaultVariant": false,
+    "modFilesName": "YaoYaoRainlit",
+    "image": "images/YaoYaoRainlit.webp",
+    "attributes": {
+      "element": "dendro",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Yelan",
+    "displayName": "Yelan",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yelan",
+    "image": "images/Yelan.webp",
+    "releaseDate": "2022-05-30",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "bow",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "YelanTranquil",
+    "displayName": "Tranquil Banquet",
+    "baseCharacterId": "Yelan",
+    "isDefaultVariant": false,
+    "modFilesName": "YelanTranquil",
+    "image": "images/YelanTranquil.webp",
+    "attributes": {
+      "element": "hydro",
+      "weaponClass": "bow",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "Yoimiya",
+    "displayName": "Yoimiya",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Yoimiya",
+    "image": "images/Yoimiya.webp",
+    "releaseDate": "2021-08-10",
+    "attributes": {
+      "element": "pyro",
+      "weaponClass": "bow",
+      "region": [
+        "inazuma"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "YunJin",
+    "displayName": "Yun Jin",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "YunJin",
+    "image": "images/YunJin.webp",
+    "releaseDate": "2022-01-04",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 4
+    }
+  },
+  {
+    "internalName": "Zhongli",
+    "displayName": "Zhongli",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Zhongli",
+    "image": "images/Zhongli.webp",
+    "releaseDate": "2020-12-02",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "polearm",
+      "region": [
+        "liyue"
+      ],
+      "rarity": 5
+    }
+  },
+  {
+    "internalName": "Zibai",
+    "displayName": "Zibai",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Zibai",
+    "image": "images/Zibai.webp",
+    "releaseDate": "2026-02-03",
+    "attributes": {
+      "element": "geo",
+      "weaponClass": "sword",
+      "region": [
+        "nodkrai"
+      ],
+      "rarity": 5
+    }
+  }
+]

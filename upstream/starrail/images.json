@@ -1,0 +1,358 @@
+{
+  "Acheron": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1308.png",
+    "sha256": "b4afe65ca18636e9ef01cb3fd9d60f884c00c7f1d84a97eee8b1623dc2316994"
+  },
+  "Aglaea": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1402.png",
+    "sha256": "18b2f071b3ed2d4379388bb493bc91d334b159034727156aa3f944abd16cf06a"
+  },
+  "Anaxa": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1405.png",
+    "sha256": "5271d865c96edaf8c01f57e07f060dee8ae4fef08327a6f0eef46714a86b4a82"
+  },
+  "Archer": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1015.png",
+    "sha256": "c329043f7cdb09681ccf5f7f100add6514c95d270befbea646dd1fc4bedc556c"
+  },
+  "Argenti": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1302.png",
+    "sha256": "ddacdf3e4791d88ff8841dfc92dd1221f3a4979262fed9cfd0d4e8e7d570bebd"
+  },
+  "Arlan": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1008.png",
+    "sha256": "8efe27688e89ad843afd669d16933051bf063449c55c1f47d516fc3929ffe91f"
+  },
+  "Ashveil": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1504.png",
+    "sha256": "f27044f638adb9c3e31350db1bc79f859169fe4320ba344fc3b1e1c64d358daa"
+  },
+  "Asta": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1009.png",
+    "sha256": "8e468bcf6ba736d67e55030958c5fb48da8a4329bcf2aa6f6995f833033dda17"
+  },
+  "Aventurine": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1304.png",
+    "sha256": "6bb693c92daa6a93a066f74b156b690ca23999804ef57ac45ef01ca7428ef088"
+  },
+  "AventurineWaveflair": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1513.png",
+    "sha256": "b284e64d9454d881e9e0e5a1e503b79f1cdcad90d8a9c3c4f00c6f693ebd628e"
+  },
+  "Bailu": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1211.png",
+    "sha256": "9ac211c197a41490fd572f48e7e53b6010a392bfbc49c787e04edb1d83b310d7"
+  },
+  "BlackSwan": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1307.png",
+    "sha256": "a80342a6a7accd98f8e846ef082f0d0d0e0222e818936cf74940a1f63162a455"
+  },
+  "Blade": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1205.png",
+    "sha256": "6baaca38a330665cf5a68c2c549a41f1c6b7429bbdd4e64a2b13e12865521fb6"
+  },
+  "Boothill": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1315.png",
+    "sha256": "e6a7ca3242f310dac2682b6e41fb4b2718a27754126b16a07328100e70e06d03"
+  },
+  "Bronya": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1101.png",
+    "sha256": "fcf3041f4ef0e98e997c95253153b70c3563d55508afca7db97955378522e766"
+  },
+  "Caelus": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8001.png",
+    "sha256": "101eb3f02a7f53941ab94475359c8032b935fa51be915a0b2fda52a403c057da"
+  },
+  "Castorice": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
+    "sha256": "15fd6056b1370da9f6a9de78e73100a9f1fc7a3e55072a40dfb249312247fd7c"
+  },
+  "Cerydra": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png",
+    "sha256": "d3dcc91c6b306873014972e080fe254318bff0407dcb02f04e7ad8247a924d96"
+  },
+  "Cipher": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1406.png",
+    "sha256": "e0772ee7f0099eb023d420242824846016ffb5acecd8b2b865b0bd2cf1287e5c"
+  },
+  "Clara": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1107.png",
+    "sha256": "d2a3a59bcef4cd7aad31a1b13caa309806d051c49ec786f6466ee75b6034b60a"
+  },
+  "Cyrene": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png",
+    "sha256": "83954ecf90670e151128080a43c91473c1766b6ff9669acdbc96fcd60c4b7080"
+  },
+  "DanHeng": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1002.png",
+    "sha256": "55955ca4b0c28713eb31461f664e7b4c22b7a3eb2a21ca2892ac8270998352eb"
+  },
+  "DanHengIL": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1213.png",
+    "sha256": "5ab0fc51f5acf1e21268295fee40042c7072df93f91d78c15deacddf69311740"
+  },
+  "DanHengPT": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1414.png",
+    "sha256": "c95750ab5b6eb7985ea7db0c0b8cfce11b43a829b4266ba07a85cb76181a26d5"
+  },
+  "DrRatio": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1305.png",
+    "sha256": "d1caa6884e54f98fc13e22b8280bf993532f36bdc2d40b64f4146aa48ebe9ecd"
+  },
+  "Evanescia": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1505.png",
+    "sha256": "3e170e707b027d24ee1a2aacaff6267feab23856bdc9e4fb9d9e65187220e626"
+  },
+  "Evernight": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1413.png",
+    "sha256": "0eccad1fd73dc059290f3e7aa8195013a4b2c72843d1000fa7b07356e127b23d"
+  },
+  "Feixiao": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1220.png",
+    "sha256": "0e325e398cf99901e1aff0a27a362c100d834fbad10666336ceb58fb1f6829ee"
+  },
+  "Firefly": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
+    "sha256": "07e7d3c792de1ec87f30ec6473024f7a2c83e0a90cf2a9b5be39c9ac33376383"
+  },
+  "FuXuan": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png",
+    "sha256": "9b39b50d40559d3efc4dee1132e03b0ff13b649928b43703ca2d0285d91ccfb4"
+  },
+  "Fugue": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1225.png",
+    "sha256": "7007c67a20c2443893f30a0b9d0b6294e6300bdeb15b6ba7cf765b1edfeab2c8"
+  },
+  "Gallagher": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1301.png",
+    "sha256": "77c08e3bf7b06dd3cef49751b3f8ce29f7f49084c1727ebbf6e4913363330e83"
+  },
+  "Gepard": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1104.png",
+    "sha256": "be6d0c8ec097444b83c32615552539c339ea58d87bbbd64dc2ebf3fe5bd7ad96"
+  },
+  "Gilgamesh": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1509.png",
+    "sha256": "859c94c3a0bf6d984fcb236f7b0af2aeb579662631264d22cb5ceacd0a4336a4"
+  },
+  "Guinaifen": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1210.png",
+    "sha256": "9739bcd14d5eadf207a56934f67210e28955eb75819d3e705b98933a35d06666"
+  },
+  "Hanya": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1215.png",
+    "sha256": "6b1d4b32b731266085237b0a76cd6d50ad9a6cc84a7ccbd587425b2d9363c6b7"
+  },
+  "Herta": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1013.png",
+    "sha256": "2f1c0653c7435769fe7579c86bbf2ec88fe314775047dfef84c8bbea7ce6e700"
+  },
+  "Himeko": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1003.png",
+    "sha256": "8595fcc400ed86b5d63068f1b3a5b0be54680ae171b08918956f711288257a1c"
+  },
+  "HimekoNova": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1510.png",
+    "sha256": "abdc700fcf0b33e03ed85d9084e7cf7713aee9cbef97494340394771d51508d3"
+  },
+  "Hook": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1109.png",
+    "sha256": "92902d1d5a05e53712cb512823c4321a287de30590d896f6fad10f063750d74c"
+  },
+  "Huohuo": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1217.png",
+    "sha256": "466cd54aaa2a3a3ace4a37e6b1ef5b6ad04ca4122c762d7ea51f031f05d57345"
+  },
+  "Hyacine": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1409.png",
+    "sha256": "2ff4ea8c875c81ddd359670d1b20ddedecbec656fe316377c1ba58c91df13044"
+  },
+  "Hysilens": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1410.png",
+    "sha256": "6002c2089f4056530af977b20a8bf02d515cda919d6de71684ae7c495f0fa0a5"
+  },
+  "Jade": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1314.png",
+    "sha256": "6bd07adaf9ee50b220b4dac037a02b6e89bf24eb1947263566f1a28855f07298"
+  },
+  "Jiaoqiu": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1218.png",
+    "sha256": "a96dcfc0a4b3e62118cba7506f4e0e3c3d0eb8a179aa5151e2a2c6049a2d4e78"
+  },
+  "JingYuan": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1204.png",
+    "sha256": "131be2709936e396fbdd44568086ba5fc0a928483d587810ba63be9c7a9f49d2"
+  },
+  "Jingliu": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1212.png",
+    "sha256": "039ebafcb78371d403871d1cf277f9d7eba1447d5b2c51bfc71d9ff2e2641fec"
+  },
+  "Kafka": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1005.png",
+    "sha256": "79423cb5703d9f0098cbb8cf0b50a5ebe1ba5da39a0a6165eec2a8ce0f904f88"
+  },
+  "Lingsha": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1222.png",
+    "sha256": "41b1ea47cc7600ee79b6337eb35aab448c5c70f3233cd2241ee0e533e483cf0a"
+  },
+  "Luka": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1111.png",
+    "sha256": "5ee24f4c527669f68a4d117642359d3ba961de0bb8ef3a99be6a87704a6edd45"
+  },
+  "Luocha": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1203.png",
+    "sha256": "49a3393e02bd46bc6949f30b729d6fa467bebdc9af0b0d9e127a200ef3c6d889"
+  },
+  "Lynx": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1110.png",
+    "sha256": "3e4e2df7de7d6db5062c9408b97d0aad2fd506920b45d836fc9b8ef4f2c9da5d"
+  },
+  "March7thHunt": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1224.png",
+    "sha256": "f43f8be81e531102d6ee07e65feb3a29b59f1bab1efd72223c3cc13b3670b2f2"
+  },
+  "March7thPreservation": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
+    "sha256": "f1cfd0dbbf8c4adb8458af7aedfc4a0258a7d07c48d0d068bd30aefcccfc3db5"
+  },
+  "Misha": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png",
+    "sha256": "d82fd01b1695c8f3eb992f7e52fe0f770427ba5bffffaae4618030b682aa5e1f"
+  },
+  "MortenaxBlade": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1507.png",
+    "sha256": "90decfc568a02401a9ec70ffb0c4beb065b4c09cd89d79e6cef03ae96ccc4a43"
+  },
+  "Moze": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1223.png",
+    "sha256": "45ded48d632f023b8a67bbb8fd14536876104b5609f01282619b680ceb5e8ee1"
+  },
+  "Mydei": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1404.png",
+    "sha256": "38ee7677c0da279b771e7f625444cbd8882b349a4e4fc44f4ecca941c79bb918"
+  },
+  "Natasha": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png",
+    "sha256": "c39b2d526503423e6af0597234f5526e87d33625697060c9e10b66730b0a6112"
+  },
+  "Pela": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png",
+    "sha256": "741b01054c401a17918505dba71e6473f2cd7155f473bf42d8bf55310074c90c"
+  },
+  "Phainon": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1408.png",
+    "sha256": "5f26147c24729a904c2097e645c6fee78a45e2d9009b15f26f10e5091307183e"
+  },
+  "Qingque": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1201.png",
+    "sha256": "4e442be7b2ef4ef1408272835f64115520287da6927093e9a0e87473d9773427"
+  },
+  "Rappa": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1317.png",
+    "sha256": "a3cdc62d84da047e39fd77b43a787e9d42fcd34bb9914348452b3b4b545447e2"
+  },
+  "RinTohsaka": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1508.png",
+    "sha256": "170defad2552ef2b83eafde59c33c527c5707cb037db51fae5eacb8ca82aa5d8"
+  },
+  "Robin": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1309.png",
+    "sha256": "cc98860894173be99fb344edd0c2aecdff3bf1bf2fb2d8dfe4dfe26d6804bf5e"
+  },
+  "RobinSummeretto": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1512.png",
+    "sha256": "68598678278364f097affe6bc77b147f34e2d027945947a13fb962901422d3e1"
+  },
+  "RuanMei": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
+    "sha256": "4b7aecc8cba16f1e2d3e73db90043cacb21606df7bd73ce42df6250b543e8502"
+  },
+  "Saber": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png",
+    "sha256": "a955237f9c4a464109d69e4c84d3cbdb433c76a5302bc850137dcee1acbba85f"
+  },
+  "Sampo": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1108.png",
+    "sha256": "7ac8c68f07a4efe4944888ffdeb9b40e00badc3d153f296b4578819479e33a29"
+  },
+  "Seele": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1102.png",
+    "sha256": "0074ba90f991c75e245e77d7af82d23af8ac56f03c1ef1ed5609e3a073fe5371"
+  },
+  "Serval": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1103.png",
+    "sha256": "da2f96c528101687e6e6e379798759a982c62ef39d1780989844219f77009060"
+  },
+  "SilverWolf": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1006.png",
+    "sha256": "a222772725045864184e2c24065838b1ccd634a888f9582354663e4b9ffa94a7"
+  },
+  "SilverWolf999": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1506.png",
+    "sha256": "01a8246aceb98a09c8b21f60b6559d190173ce697b84b925b6b27ffedf60bf4a"
+  },
+  "Sparkle": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1306.png",
+    "sha256": "386e453884a8ae09f7f8c4463dfff631d34d28ce94fef00ead2f881345629ff4"
+  },
+  "Sparxie": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
+    "sha256": "ad147dafe1c7b991277303d9fb968f1db5e9ef257673a6fc5447c1a6187a1fd9"
+  },
+  "Stelle": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png",
+    "sha256": "8ce059fff114fd87a62dc2e80abbad9ce0f8ea556a5c7e8f2554fa2cb03b150e"
+  },
+  "Sunday": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1313.png",
+    "sha256": "28f5b848cd60e4d6ab27f00cecb1032ec5a18b5d79901265c0161c60f7bf90f4"
+  },
+  "Sushang": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1206.png",
+    "sha256": "2ba3c75a6127816b3a8068aa9f48519f77aa50b5614eaaf8adb0ceb007c9b9a0"
+  },
+  "TheDahlia": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1321.png",
+    "sha256": "b26b87b58fa6a7b06b5c6dffd8487d01a4e66158735385456658481773ec033f"
+  },
+  "TheHerta": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1401.png",
+    "sha256": "85da899dc16252c7405a2a0badfbda1482e87c4512971907201fe7ddceff1ac5"
+  },
+  "Tingyun": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1202.png",
+    "sha256": "de90e2b6b02f5743beda3bf67e449cf056677ba6106485255d8e434389552e36"
+  },
+  "Topaz": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1112.png",
+    "sha256": "0502c07ee3dfa079d5e40334fca3b73e00468a40c24a8cf4d07379a394df53b2"
+  },
+  "Tribbie": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1403.png",
+    "sha256": "effbbf8adc9713d6be79ce6bb3f229bcef2ad21649df8d3eee600784e1bf513a"
+  },
+  "Welt": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1004.png",
+    "sha256": "67747f23a23f97c8ead4046518ecd74d936157ee7f0e781008dbc545efa8f1a1"
+  },
+  "Xueyi": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1214.png",
+    "sha256": "94f7d4cda2cfbf3811c50986d2ec8bae7c61739f988ed829d9d72d1e3a798d21"
+  },
+  "Yanqing": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1209.png",
+    "sha256": "3292863ea9cf6f7cf8d574262669820a63e29bc057b7151c227173cda5388539"
+  },
+  "YaoGuang": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1502.png",
+    "sha256": "f0b6750d0125d283c43679f3ff063867ad00a51010e058cc04e678faf2c1df7a"
+  },
+  "Yukong": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1207.png",
+    "sha256": "d8e6f1f7d7edb762b6a887fd5f5e2d5defe2a450836ad8fd700dceca9fbca1df"
+  },
+  "Yunli": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1221.png",
+    "sha256": "80e3421f448cc105996c179a3d4e48594326e04c3b9352814fcec05adf036ec7"
+  }
+}
