@@ -279,6 +279,7 @@
     "baseCharacterId": "Castorice",
     "isDefaultVariant": false,
     "modFilesName": "CastoriceFlutter",
+    "image": "images/CastoriceFlutter.webp",
     "attributes": {
       "element": "quantum",
       "path": "remembrance",
@@ -459,6 +460,7 @@
     "baseCharacterId": "Firefly",
     "isDefaultVariant": false,
     "modFilesName": "FireflySpring",
+    "image": "images/FireflySpring.webp",
     "attributes": {
       "element": "fire",
       "path": "destruction",
@@ -817,10 +819,11 @@
   },
   {
     "internalName": "March7thPreservationSpring",
-    "displayName": "March 7th (Preservation) Spring",
+    "displayName": "March 7 th Preservation Spring",
     "baseCharacterId": "March7thPreservation",
     "isDefaultVariant": false,
     "modFilesName": "March7thPreservationSpring",
+    "image": "images/March7thPreservationSpring.webp",
     "attributes": {
       "element": "ice",
       "path": "preservation",
@@ -926,18 +929,6 @@
     }
   },
   {
-    "internalName": "PhainonKhaslana",
-    "displayName": "Phainon Khaslana",
-    "baseCharacterId": "Phainon",
-    "isDefaultVariant": false,
-    "modFilesName": "PhainonKhaslana",
-    "attributes": {
-      "element": "physical",
-      "path": "destruction",
-      "rarity": 5
-    }
-  },
-  {
     "internalName": "Qingque",
     "displayName": "Qingque",
     "baseCharacterId": null,
@@ -1027,6 +1018,7 @@
     "baseCharacterId": "RuanMei",
     "isDefaultVariant": false,
     "modFilesName": "RuanMeiPlumblossom",
+    "image": "images/RuanMeiPlumblossom.webp",
     "attributes": {
       "element": "ice",
       "path": "harmony",
@@ -1043,18 +1035,6 @@
     "releaseDate": "2025-07-11",
     "attributes": {
       "element": "wind",
-      "path": "destruction",
-      "rarity": 5
-    }
-  },
-  {
-    "internalName": "SAM",
-    "displayName": "SAM",
-    "baseCharacterId": "Firefly",
-    "isDefaultVariant": false,
-    "modFilesName": "SAM",
-    "attributes": {
-      "element": "fire",
       "path": "destruction",
       "rarity": 5
     }
@@ -1163,6 +1143,7 @@
     "baseCharacterId": "Sparxie",
     "isDefaultVariant": false,
     "modFilesName": "SparxieCandy",
+    "image": "images/SparxieCandy.webp",
     "attributes": {
       "element": "fire",
       "path": "elation",

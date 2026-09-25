@@ -27,8 +27,8 @@
 | RosariaCN | Rosaria | the character list names it as an outfit | high |
 | ShenheFrostFlower | Shenhe | the character list names it as an outfit | high |
 | XianglingNew | Xiangling | the character list names it as an outfit | high |
-| XilonenCoat | Xilonen | nested inside Xilonen/ | high |
-| XilonenSkates | Xilonen | nested inside Xilonen/ | high |
+| XilonenCoat | Xilonen | nested inside Xilonen/: a part of Xilonen's model, its hashes are Xilonen's | high |
+| XilonenSkates | Xilonen | nested inside Xilonen/: a part of Xilonen's model, its hashes are Xilonen's | high |
 | XingqiuBamboo | Xingqiu | the character list names it as an outfit | high |
 | YaoYaoRainlit | YaoYao | the character list names it as an outfit | high |
 | YelanTranquil | Yelan | the character list names it as an outfit | high |

@@ -2,12 +2,12 @@
 
 | Outfit or folder | Belongs to | How it was decided | Confidence |
 |---|---|---|---|
-| CaelusVigor | Caelus | name starts with 'Caelus' | medium |
-| CastoriceFlutter | Castorice | name starts with 'Castorice' | medium |
-| FireflySpring | Firefly | name starts with 'Firefly' | medium |
-| March7thPreservationSpring | March7thPreservation | name starts with 'March7thPreservation' | medium |
-| PhainonKhaslana | Phainon | name starts with 'Phainon' | medium |
-| RuanMeiPlumblossom | RuanMei | name starts with 'RuanMei' | medium |
-| SAM | Firefly | override: an outfit of Firefly | high |
-| SparxieCandy | Sparxie | name starts with 'Sparxie' | medium |
-| StelleVigor | Stelle | name starts with 'Stelle' | medium |
+| CaelusVigor | Caelus | override: an outfit of Caelus | high |
+| CastoriceFlutter | Castorice | override: an outfit of Castorice | high |
+| FireflySpring | Firefly | override: an outfit of Firefly | high |
+| March7thPreservationSpring | March7thPreservation | override: an outfit of March7thPreservation | high |
+| PhainonKhaslana | Phainon | override: part of Phainon, its hashes are Phainon's | high |
+| RuanMeiPlumblossom | RuanMei | override: an outfit of RuanMei | high |
+| SAM | Firefly | override: part of Firefly, its hashes are Firefly's | high |
+| SparxieCandy | Sparxie | override: an outfit of Sparxie | high |
+| StelleVigor | Stelle | override: an outfit of Stelle | high |

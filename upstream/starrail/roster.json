@@ -17,7 +17,14 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png"
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
+      "outfits": [
+        {
+          "key": "skin:1100101",
+          "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1100101.png",
+          "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1100101.png"
+        }
+      ]
     },
     {
       "key": "avatar:1002",
@@ -721,7 +728,14 @@
         "rarity": 5
       },
       "releaseDate": "2023-12-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png"
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
+      "outfits": [
+        {
+          "key": "skin:1130301",
+          "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1130301.png",
+          "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1130301.png"
+        }
+      ]
     },
     {
       "key": "avatar:1304",
@@ -827,7 +841,14 @@
         "rarity": 5
       },
       "releaseDate": "2024-06-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png"
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
+      "outfits": [
+        {
+          "key": "skin:1131001",
+          "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1131001.png",
+          "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1131001.png"
+        }
+      ]
     },
     {
       "key": "avatar:1312",
@@ -1017,7 +1038,14 @@
         "rarity": 5
       },
       "releaseDate": "2025-04-09",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png"
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
+      "outfits": [
+        {
+          "key": "skin:1140701",
+          "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1140701.png",
+          "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1140701.png"
+        }
+      ]
     },
     {
       "key": "avatar:1408",
@@ -1119,7 +1147,14 @@
         "rarity": 5
       },
       "releaseDate": "2025-11-05",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png"
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png",
+      "outfits": [
+        {
+          "key": "skin:1141501",
+          "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1415.png",
+          "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/Avatar/1415.png"
+        }
+      ]
     },
     {
       "key": "avatar:1501",
@@ -1133,7 +1168,14 @@
         "rarity": 5
       },
       "releaseDate": "2026-02-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png"
+      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
+      "outfits": [
+        {
+          "key": "skin:1150101",
+          "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1150101.png",
+          "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1150101.png"
+        }
+      ]
     },
     {
       "key": "avatar:1502",

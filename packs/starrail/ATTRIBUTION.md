@@ -4,7 +4,7 @@
 
 **The character list** comes from [Project Yatta](https://sr.yatta.moe) (sr.yatta.moe).
 
-**Portraits** are game art © COGNOSPHERE / HoYoverse, downloaded from sr.yatta.moe. The presets repository's `upstream/<game>/images.json` records each picture's exact address.
+**Portraits** are game art © COGNOSPHERE / HoYoverse, downloaded from enka.network, sr.yatta.moe. The presets repository's `upstream/<game>/images.json` records each picture's exact address.
 
 **The game icon** is game art © COGNOSPHERE / HoYoverse: the game's own app icon, from its Google Play page.
 

@@ -4786,6 +4786,98 @@
       "slot": 2
     },
     {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "3cedd48a"
+    },
+    {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "7e2c7aac"
+    },
+    {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "cf00dd15"
+    },
+    {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "baa0c1d5"
+    },
+    {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "33ab0bd9"
+    },
+    {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "e1446be0",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Firefly",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "7b19d686",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "ib",
+      "hash": "9f97733a"
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "position_vb",
+      "hash": "f21ba070"
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "blend_vb",
+      "hash": "bf1f0928"
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "texcoord_vb",
+      "hash": "d20b2b02"
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "draw_vb",
+      "hash": "d9a21081"
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "texture",
+      "hash": "433f032d",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Firefly",
+      "component": "ShoulderEffect",
+      "kind": "texture",
+      "hash": "7dfe4ca6",
+      "textureKind": "StockingMap",
+      "slot": 0
+    },
+    {
       "variant": "FireflySpring",
       "component": "Body",
       "kind": "ib",
@@ -9838,37 +9930,37 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "ib",
       "hash": "da144b26"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "position_vb",
       "hash": "a6fde4bc"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "blend_vb",
       "hash": "a8cc3b32"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "texcoord_vb",
       "hash": "cd6234a3"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "draw_vb",
       "hash": "c8740f82"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "texture",
       "hash": "b8b5a508",
@@ -9876,7 +9968,7 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "texture",
       "hash": "996626ad",
@@ -9884,7 +9976,7 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Body",
       "kind": "texture",
       "hash": "adc70a5c",
@@ -9892,37 +9984,37 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "ib",
       "hash": "cb6ad0a0"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "position_vb",
       "hash": "19272bad"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "blend_vb",
       "hash": "05b6280c"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "texcoord_vb",
       "hash": "80794c9c"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "draw_vb",
       "hash": "130505d3"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "texture",
       "hash": "b99ca7ba",
@@ -9930,7 +10022,7 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Wing",
       "kind": "texture",
       "hash": "fb8f355b",
@@ -9938,37 +10030,37 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Head",
       "kind": "ib",
       "hash": "b403fd45"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Head",
       "kind": "position_vb",
       "hash": "bc544302"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Head",
       "kind": "blend_vb",
       "hash": "b8cc0788"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Head",
       "kind": "texcoord_vb",
       "hash": "30469b97"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Head",
       "kind": "draw_vb",
       "hash": "267be81a"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Head",
       "kind": "texture",
       "hash": "f9a1d420",
@@ -9976,37 +10068,37 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "ib",
       "hash": "79d47c71"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "position_vb",
       "hash": "eb429c70"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "blend_vb",
       "hash": "33008924"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "texcoord_vb",
       "hash": "ab8c60bd"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "draw_vb",
       "hash": "6dfb56d6"
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "texture",
       "hash": "c8a75b45",
@@ -10014,7 +10106,7 @@
       "slot": 0
     },
     {
-      "variant": "PhainonKhaslana",
+      "variant": "Phainon",
       "component": "Hair",
       "kind": "texture",
       "hash": "40df13a0",
@@ -11187,98 +11279,6 @@
       "kind": "texture",
       "hash": "fdc458e6",
       "textureKind": "LightMap",
-      "slot": 0
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "ib",
-      "hash": "3cedd48a"
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "position_vb",
-      "hash": "7e2c7aac"
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "blend_vb",
-      "hash": "cf00dd15"
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "texcoord_vb",
-      "hash": "baa0c1d5"
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "draw_vb",
-      "hash": "33ab0bd9"
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "texture",
-      "hash": "e1446be0",
-      "textureKind": "Diffuse",
-      "slot": 0
-    },
-    {
-      "variant": "SAM",
-      "component": "Body",
-      "kind": "texture",
-      "hash": "7b19d686",
-      "textureKind": "LightMap",
-      "slot": 0
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "ib",
-      "hash": "9f97733a"
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "position_vb",
-      "hash": "f21ba070"
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "blend_vb",
-      "hash": "bf1f0928"
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "texcoord_vb",
-      "hash": "d20b2b02"
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "draw_vb",
-      "hash": "d9a21081"
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "texture",
-      "hash": "433f032d",
-      "textureKind": "Diffuse",
-      "slot": 0
-    },
-    {
-      "variant": "SAM",
-      "component": "ShoulderEffect",
-      "kind": "texture",
-      "hash": "7dfe4ca6",
-      "textureKind": "StockingMap",
       "slot": 0
     },
     {

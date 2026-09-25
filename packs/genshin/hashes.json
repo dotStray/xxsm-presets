@@ -16142,127 +16142,67 @@
       "slot": 0
     },
     {
-      "variant": "XilonenCoat",
+      "variant": "Xilonen",
       "component": "",
       "kind": "ib",
       "hash": "24afd7b2"
     },
     {
-      "variant": "XilonenCoat",
+      "variant": "Xilonen",
       "component": "",
       "kind": "position_vb",
       "hash": "696ed18b"
     },
     {
-      "variant": "XilonenCoat",
+      "variant": "Xilonen",
       "component": "",
       "kind": "blend_vb",
       "hash": "2135ad79"
     },
     {
-      "variant": "XilonenCoat",
+      "variant": "Xilonen",
       "component": "",
       "kind": "texcoord_vb",
       "hash": "5c84dba7"
     },
     {
-      "variant": "XilonenCoat",
+      "variant": "Xilonen",
       "component": "",
       "kind": "draw_vb",
       "hash": "83f0f082"
     },
     {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "root_vs",
-      "hash": "653c63ba4a73ca8b"
-    },
-    {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "texture",
-      "hash": "cbed2a4d",
-      "textureKind": "NormalMap",
-      "slot": 0
-    },
-    {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "texture",
-      "hash": "617dafcb",
-      "textureKind": "Diffuse",
-      "slot": 0
-    },
-    {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "texture",
-      "hash": "e3f4ee7a",
-      "textureKind": "LightMap",
-      "slot": 0
-    },
-    {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "texture",
-      "hash": "3196ebcf",
-      "textureKind": "NormalMap",
-      "slot": 1
-    },
-    {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "texture",
-      "hash": "a99422b8",
-      "textureKind": "Diffuse",
-      "slot": 1
-    },
-    {
-      "variant": "XilonenCoat",
-      "component": "",
-      "kind": "texture",
-      "hash": "3bc47273",
-      "textureKind": "LightMap",
-      "slot": 1
-    },
-    {
-      "variant": "XilonenSkates",
+      "variant": "Xilonen",
       "component": "",
       "kind": "ib",
       "hash": "cdd1008f"
     },
     {
-      "variant": "XilonenSkates",
+      "variant": "Xilonen",
       "component": "",
       "kind": "position_vb",
       "hash": "99999c1d"
     },
     {
-      "variant": "XilonenSkates",
+      "variant": "Xilonen",
       "component": "",
       "kind": "blend_vb",
       "hash": "41371bca"
     },
     {
-      "variant": "XilonenSkates",
+      "variant": "Xilonen",
       "component": "",
       "kind": "texcoord_vb",
       "hash": "591a0b0a"
     },
     {
-      "variant": "XilonenSkates",
+      "variant": "Xilonen",
       "component": "",
       "kind": "draw_vb",
       "hash": "3b0470e9"
     },
     {
-      "variant": "XilonenSkates",
-      "component": "",
-      "kind": "root_vs",
-      "hash": "653c63ba4a73ca8b"
-    },
-    {
-      "variant": "XilonenSkates",
+      "variant": "Xilonen",
       "component": "",
       "kind": "texture",
       "hash": "026f5488",

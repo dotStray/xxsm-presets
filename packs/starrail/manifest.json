@@ -1,15 +1,15 @@
 {
   "packSchemaVersion": 1,
   "gameId": "starrail",
-  "packVersion": "2026.09.25",
+  "packVersion": "2026.09.25.01",
   "generatedAt": "2026-09-25T00:00:00Z",
   "builder": "packbuilder 0.1.0",
   "authoredBy": "official",
   "minAppVersion": "0.1.0",
   "counts": {
-    "variants": 98,
-    "skins": 9,
-    "images": 89
+    "variants": 96,
+    "skins": 7,
+    "images": 94
   },
   "sources": [
     {

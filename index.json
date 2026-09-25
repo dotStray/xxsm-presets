@@ -9,6 +9,15 @@
       "importer": "GIMI",
       "versions": [
         {
+          "packVersion": "2026.09.25.01",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/genshin-2026.09.25.01/genshin-2026.09.25.01.zip",
+          "sha256": "067d18b59e2d28bf1cc251df67e078eb9591e4a4204f5c4751c63b01cdff6c60",
+          "sizeBytes": 2932548,
+          "changelog": "Updated hashes and details."
+        },
+        {
           "packVersion": "2026.09.25",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
@@ -34,6 +43,15 @@
       "shortName": "HSR",
       "importer": "SRMI",
       "versions": [
+        {
+          "packVersion": "2026.09.25.01",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/starrail-2026.09.25.01/starrail-2026.09.25.01.zip",
+          "sha256": "fc45838d7858a054a184eafa88c8dde4d206e1900ee7671495356ed0e78219ab",
+          "sizeBytes": 5815472,
+          "changelog": "Updated hashes and details."
+        },
         {
           "packVersion": "2026.09.25",
           "packSchemaVersion": 1,

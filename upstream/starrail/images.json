@@ -67,6 +67,11 @@
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
     "sha256": "15fd6056b1370da9f6a9de78e73100a9f1fc7a3e55072a40dfb249312247fd7c"
   },
+  "CastoriceFlutter": {
+    "source": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1140701.png",
+    "frame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1140701.png",
+    "sha256": "4fb499d9471c8879638e1c3bd836d34e4d75811ca32ac4894d150c97cd0ea346"
+  },
   "Cerydra": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png",
     "sha256": "d3dcc91c6b306873014972e080fe254318bff0407dcb02f04e7ad8247a924d96"
@@ -114,6 +119,11 @@
   "Firefly": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
     "sha256": "07e7d3c792de1ec87f30ec6473024f7a2c83e0a90cf2a9b5be39c9ac33376383"
+  },
+  "FireflySpring": {
+    "source": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1131001.png",
+    "frame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1131001.png",
+    "sha256": "fb8fbd77290a6ee5f1c00d63428cd91a3b6f1ef9ea5340ba782c139c9eb30711"
   },
   "FuXuan": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png",
@@ -215,6 +225,11 @@
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
     "sha256": "f1cfd0dbbf8c4adb8458af7aedfc4a0258a7d07c48d0d068bd30aefcccfc3db5"
   },
+  "March7thPreservationSpring": {
+    "source": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1100101.png",
+    "frame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1100101.png",
+    "sha256": "e5d8501c3facc567465429d30fb2360265b1b018d00a37499df622a935d5f310"
+  },
   "Misha": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png",
     "sha256": "d82fd01b1695c8f3eb992f7e52fe0f770427ba5bffffaae4618030b682aa5e1f"
@@ -267,6 +282,11 @@
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
     "sha256": "4b7aecc8cba16f1e2d3e73db90043cacb21606df7bd73ce42df6250b543e8502"
   },
+  "RuanMeiPlumblossom": {
+    "source": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1130301.png",
+    "frame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1130301.png",
+    "sha256": "f2313b4a1e18c538f59586fa1dd338f8264d8796dae0621f7102e4f240b564c8"
+  },
   "Saber": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png",
     "sha256": "a955237f9c4a464109d69e4c84d3cbdb433c76a5302bc850137dcee1acbba85f"
@@ -298,6 +318,11 @@
   "Sparxie": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
     "sha256": "ad147dafe1c7b991277303d9fb968f1db5e9ef257673a6fc5447c1a6187a1fd9"
+  },
+  "SparxieCandy": {
+    "source": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1150101.png",
+    "frame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1150101.png",
+    "sha256": "1f3310715931da53299d96987b9163796c7d5920762a4d09a178c6ba09bfc19b"
   },
   "Stelle": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png",

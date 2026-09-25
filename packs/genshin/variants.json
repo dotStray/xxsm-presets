@@ -2348,36 +2348,6 @@
     }
   },
   {
-    "internalName": "XilonenCoat",
-    "displayName": "Xilonen Coat",
-    "baseCharacterId": "Xilonen",
-    "isDefaultVariant": false,
-    "modFilesName": "XilonenCoat",
-    "attributes": {
-      "element": "geo",
-      "weaponClass": "sword",
-      "region": [
-        "natlan"
-      ],
-      "rarity": 5
-    }
-  },
-  {
-    "internalName": "XilonenSkates",
-    "displayName": "Xilonen Skates",
-    "baseCharacterId": "Xilonen",
-    "isDefaultVariant": false,
-    "modFilesName": "XilonenSkates",
-    "attributes": {
-      "element": "geo",
-      "weaponClass": "sword",
-      "region": [
-        "natlan"
-      ],
-      "rarity": 5
-    }
-  },
-  {
     "internalName": "Xingqiu",
     "displayName": "Xingqiu",
     "baseCharacterId": null,
