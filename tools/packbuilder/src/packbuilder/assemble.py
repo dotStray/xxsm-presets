@@ -39,6 +39,7 @@ class Variant:
     release: str | None = None
     image_url: str | None = None
     image_frame: str | None = None
+    image_fallback: str | None = None  # the character list's own picture, if framing image_url fails
     image_path: object = None  # a manual picture's path
     roster_key: str | None = None
     folder: Folder | None = None
@@ -158,8 +159,11 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
                 display=overrides.display_names.get(name, character.name),
                 attributes=attribute_values.map(character.attributes),
                 release=character.release_date,
-                image_url=character.image,
-                image_frame=character.frame,
+                # "listPortraits" in the overrides: this character's framed picture is no good,
+                # so it gets the character list's own (D213).
+                image_url=character.fallback if character.fallback and name in overrides.list_portraits else character.image,
+                image_frame=None if character.fallback and name in overrides.list_portraits else character.frame,
+                image_fallback=character.fallback,
                 roster_key=character.key,
                 folder=folder,
                 origin="roster",
@@ -398,6 +402,10 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
             errors.append(f"overrides \"aliases\" names '{name}', and there is no such character.")
         else:
             variant.aliases = list(alias_list)
+
+    for name in overrides.list_portraits:
+        if not names.get(name):
+            errors.append(f"overrides \"listPortraits\" names '{name}', and there is no such character.")
 
     for key, name in overrides.display_names.items():
         if not names.get(name) and not names.get(key):

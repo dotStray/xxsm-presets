@@ -231,6 +231,69 @@ class PictureTest(unittest.TestCase):
         difference = sum(images.ImageStat.Stat(images.ImageChops.difference(truth, found)).mean)
         self.assertLess(difference, 30)
 
+    def test_a_face_smaller_than_its_icon_is_refused_unless_told_otherwise(self):
+        # D213: splash art with the character drawn small. The icon has more detail than the art.
+        art = self.art()
+        icon = self.as_round_icon(art.crop((300, 100, 360, 160)))
+        with self.assertRaises(images.SmallFace):
+            images.frame_square(self.data(art), self.data(icon))
+        self.assertLess(images.frame_square(self.data(art), self.data(icon), strict=False).width, 142)
+
+    class Pictures:
+        """A picture host: answers from a dict, and counts what it was asked for."""
+
+        def __init__(self, answers):
+            self.answers, self.asked = answers, []
+
+        def get(self, url, *, fresh=True):
+            self.asked.append(url)
+            return self.answers[url]
+
+    def build_one(self, folder, fetcher, record=None, **variant):
+        from types import SimpleNamespace
+
+        character = SimpleNamespace(name="Sampo", image_path=None, image_url="art", image_frame="icon", image_fallback=None)
+        for key, value in variant.items():
+            setattr(character, key, value)
+        return images.build([character], folder, record or {}, "top-square", fetcher)
+
+    def test_a_small_face_falls_back_to_the_character_lists_picture(self):
+        art = self.art()
+        listed = helpers.png(size=(300, 500))
+        fetcher = self.Pictures({"art": self.data(art), "icon": self.data(self.as_round_icon(art.crop((300, 100, 360, 160)))), "list": listed})
+        with helpers.tempfile.TemporaryDirectory() as scratch:
+            folder = helpers.pathlib.Path(scratch)
+            result = self.build_one(folder, fetcher, image_fallback="list")
+            self.assertEqual(result.images, {"Sampo": "images/Sampo.webp"})
+            self.assertEqual(result.sources["Sampo"]["source"], "list")
+            self.assertEqual(result.sources["Sampo"]["tried"], "art")
+            self.assertTrue(any("the character list's picture instead" in n for n in result.notes))
+            self.assertEqual((folder / "Sampo.webp").read_bytes(), images.normalise(listed, "top-square"))
+
+            # The next build asks for nothing: the record says the art was tried and not used.
+            fetcher.asked.clear()
+            again = self.build_one(folder, fetcher, record=result.sources, image_fallback="list")
+            self.assertEqual(fetcher.asked, [])
+            self.assertEqual(again.sources["Sampo"], result.sources["Sampo"])
+
+    def test_a_small_face_with_nothing_else_is_framed_anyway_and_noted(self):
+        art = self.art()
+        fetcher = self.Pictures({"art": self.data(art), "icon": self.data(self.as_round_icon(art.crop((300, 100, 360, 160))))})
+        with helpers.tempfile.TemporaryDirectory() as scratch:
+            result = self.build_one(helpers.pathlib.Path(scratch), fetcher)
+        self.assertEqual(result.images, {"Sampo": "images/Sampo.webp"})
+        self.assertEqual(result.sources["Sampo"]["source"], "art")
+        self.assertTrue(any("Worth a look" in n for n in result.notes))
+
+    def test_a_face_the_right_size_is_framed_with_no_note(self):
+        art = self.art()
+        fetcher = self.Pictures({"art": self.data(art), "icon": self.data(self.as_round_icon(art.crop((210, 120, 410, 320)))), "list": helpers.png()})
+        with helpers.tempfile.TemporaryDirectory() as scratch:
+            result = self.build_one(helpers.pathlib.Path(scratch), fetcher, image_fallback="list")
+        self.assertEqual(result.sources["Sampo"]["source"], "art")
+        self.assertEqual(result.notes, [])
+        self.assertNotIn("list", fetcher.asked)
+
     def test_something_that_is_not_a_picture_is_refused(self):
         with self.assertRaises(Exception):
             images.normalise(b"not a picture", "none")
@@ -241,11 +304,13 @@ if __name__ == "__main__":
 
 
 class StarRailRosterTest(unittest.TestCase):
-    """Star Rail's outfits come from Enka.Network, the character list from Project Yatta (D210)."""
+    """Star Rail's pictures and outfits come from Enka.Network, the character list from Project Yatta (D210)."""
 
     YATTA = {"data": {"items": {"1310": {"id": 1310, "name": "Firefly", "rank": 5, "icon": "1310", "types": {"pathType": "Warrior", "combatType": "Fire"}}}}}
     ENKA = {
         "1310": {
+            "AvatarSideIconPath": "/ui/hsr/SpriteOutput/AvatarRoundIcon/1310.png",
+            "AvatarCutinFrontImgPath": "/ui/hsr/SpriteOutput/AvatarDrawCard/1310.png",
             "Skins": {
                 "1131001": {
                     "AvatarSideIconPath": "/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1131001.png",
@@ -285,3 +350,24 @@ class StarRailRosterTest(unittest.TestCase):
         characters = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": None}), last_week)
         self.assertEqual([o.key for o in characters[0].outfits], ["skin:1131001"])
 
+    def test_a_characters_portrait_is_enka_s_full_art_framed_by_its_round_icon(self):
+        firefly = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])[0]
+        self.assertEqual(firefly.image, "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1310.png")
+        self.assertEqual(firefly.frame, "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1310.png")
+        self.assertEqual(firefly.fallback, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png")
+        again = roster.Character.from_json(firefly.to_json())
+        self.assertEqual((again.image, again.frame, again.fallback), (firefly.image, firefly.frame, firefly.fallback))
+
+    def test_a_character_enka_does_not_have_yet_keeps_project_yatta_s_picture(self):
+        firefly = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": {"1001": {"Rarity": 4}}}), [])[0]
+        self.assertEqual(firefly.image, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png")
+        self.assertIsNone(firefly.frame)
+        self.assertIsNone(firefly.fallback, "it already is the list's picture")
+
+    def test_enka_down_keeps_last_week_s_pictures_rather_than_swapping_them_all(self):
+        last_week = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])
+        firefly = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": None}), last_week)[0]
+        self.assertEqual(firefly.image, "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1310.png")
+        self.assertEqual(firefly.frame, "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1310.png")
+        fresh = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": None}), [])[0]
+        self.assertEqual(fresh.image, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png", "no Enka and no last week: Yatta's")

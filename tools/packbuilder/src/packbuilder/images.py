@@ -21,7 +21,7 @@ import hashlib
 import io
 import pathlib
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from PIL import Image, ImageChops, ImageStat
 
@@ -37,6 +37,19 @@ class ImageResult:
     images: dict[str, str]  # variant → "images/<name>.webp"
     missing: list[tuple[str, str]]  # (variant, reason)
     sources: dict[str, dict]
+    notes: list[str] = field(default_factory=list)  # pictures worth a look, for the build's log
+
+
+class SmallFace(ValueError):
+    """The face a frame found is smaller in the full art than the frame itself (D213).
+
+    The art then has less detail than the round icon, and in every case measured the search had
+    not found the face at all: splash art with the character drawn small, or upside down.
+    """
+
+    def __init__(self, side: float, frame_side: int):
+        super().__init__(f"the face it found is {round(side)} pixels across, smaller than the {frame_side}-pixel icon")
+        self.side = side
 
 
 def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher: Fetcher | None) -> ImageResult:
@@ -48,6 +61,7 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
     images: dict[str, str] = {}
     missing: list[tuple[str, str]] = []
     sources: dict[str, dict] = {}
+    notes: list[str] = []
     pack_images.mkdir(parents=True, exist_ok=True)
 
     for variant in variants:
@@ -74,7 +88,8 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
             missing.append((variant.name, "no picture in any source"))
             continue
         frame = getattr(variant, "image_frame", None)
-        if previous.get("source") == url and previous.get("frame") == frame and target.is_file():
+        fallback = getattr(variant, "image_fallback", None)
+        if (previous.get("source") == url or previous.get("tried") == url) and previous.get("frame") == frame and target.is_file():
             images[variant.name] = relative
             sources[variant.name] = previous
             continue
@@ -85,10 +100,22 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
             else:
                 missing.append((variant.name, f"{url} not downloaded yet (built without the network)"))
             continue
+        record: dict = {}
         try:
             original = fetcher.get(url, fresh=False)
             if frame:
-                write_bytes(target, encode(frame_square(original, fetcher.get(frame, fresh=False))))
+                try:
+                    write_bytes(target, encode(frame_square(original, fetcher.get(frame, fresh=False))))
+                except SmallFace as small:
+                    if fallback:
+                        # The art is no good for a portrait: the character list's own picture instead.
+                        notes.append(f"{variant.name}: {url} not used, {small}; the character list's picture instead.")
+                        record = {"source": fallback, "tried": url, "frame": frame}
+                        original = fetcher.get(fallback, fresh=False)
+                        write_bytes(target, normalise(original, crop))
+                    else:
+                        notes.append(f"{variant.name}: {small}; framed anyway, with nothing else to use. Worth a look.")
+                        write_bytes(target, encode(frame_square(original, fetcher.get(frame, fresh=False), strict=False)))
             else:
                 write_bytes(target, normalise(original, crop))
         except FetchError as error:
@@ -102,13 +129,13 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
             missing.append((variant.name, f"{url} is not a picture this builder can read: {error}"))
             continue
         images[variant.name] = relative
-        sources[variant.name] = {"source": url, **({"frame": frame} if frame else {}), "sha256": hashlib.sha256(original).hexdigest()}
+        sources[variant.name] = (record or {"source": url, **({"frame": frame} if frame else {})}) | {"sha256": hashlib.sha256(original).hexdigest()}
 
     wanted = {f"{name}.webp" for name in images}
     for stale in pack_images.glob("*"):
         if stale.is_file() and stale.name not in wanted:
             stale.unlink()
-    return ImageResult(images, missing, dict(sorted(sources.items())))
+    return ImageResult(images, missing, dict(sorted(sources.items())), notes)
 
 
 def normalise(data: bytes, crop: str) -> bytes:
@@ -173,7 +200,7 @@ def _crop(image: Image.Image, mode: str) -> Image.Image:
     raise ValueError(f"unknown crop '{mode}'")
 
 
-def frame_square(full_data: bytes, face_data: bytes) -> Image.Image:
+def frame_square(full_data: bytes, face_data: bytes, *, strict: bool = True) -> Image.Image:
     """The square of ``full`` that ``face`` shows.
 
     Found in two passes, both plain pixel comparison: a rough one over every size and place
@@ -187,6 +214,11 @@ def frame_square(full_data: bytes, face_data: bytes) -> Image.Image:
     accept bad ones. What keeps it right instead is that the icon and the art come from the same
     entry of the same source, so they are always the same character; the search only decides
     where the face is, and the build's portraits were checked by eye.
+
+    What *does* separate them is size (D213): measured on all 97 Star Rail characters, every square
+    the search found that was not the face was smaller than the icon itself (74 to 123 pixels of a
+    2048-pixel picture, against 128), and every right one larger (135 and up). ``strict`` raises
+    :class:`SmallFace` then, so the caller can use another picture.
     """
     with Image.open(io.BytesIO(full_data)) as opened:
         full = opened.convert("RGBA")
@@ -199,6 +231,8 @@ def frame_square(full_data: bytes, face_data: bytes) -> Image.Image:
     _, x, y, side = rough
     margin = side * 0.12
     _, x, y, side = _search(flat, face, 40, [side * k / 100 for k in range(90, 111, 2)], (x - margin, x + margin), (y - margin, y + margin))
+    if strict and side < face.width:
+        raise SmallFace(side, face.width)
     return full.crop((round(x), round(y), round(x + side), round(y + side)))
 
 

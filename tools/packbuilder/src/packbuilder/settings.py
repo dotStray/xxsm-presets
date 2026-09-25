@@ -20,6 +20,7 @@ OVERRIDE_KEYS = {
     "displayNames",
     "aliases",
     "outfitImages",
+    "listPortraits",
     "exclude",
     "ignoredHashes",
     "retired",
@@ -35,6 +36,7 @@ class Overrides:
     display_names: dict[str, str] = field(default_factory=dict)
     aliases: dict[str, list[str]] = field(default_factory=dict)
     outfit_images: dict[str, str] = field(default_factory=dict)
+    list_portraits: list[str] = field(default_factory=list)
     exclude: list[str] = field(default_factory=list)
     ignored_hashes: list[str] = field(default_factory=list)
     retired: list[str] = field(default_factory=list)
@@ -87,6 +89,7 @@ def load_overrides(path: pathlib.Path) -> Overrides:
         display_names=mapping("displayNames"),
         aliases={k: list(v) for k, v in aliases.items()},
         outfit_images=mapping("outfitImages"),
+        list_portraits=names("listPortraits"),
         exclude=names("exclude"),
         ignored_hashes=[h.lower() for h in names("ignoredHashes")],
         retired=names("retired"),

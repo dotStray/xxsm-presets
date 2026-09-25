@@ -166,6 +166,18 @@ class AssembleTest(unittest.TestCase):
         self.assertEqual(variants["CaelusVigor"].display, "Caelus Vigor")
         self.assertEqual(variants["OddName"].display, "Odd Name")  # not named like its character: the folder's words
 
+    def test_list_portraits_gives_a_character_the_character_lists_own_picture(self):
+        framed = roster.Character(key="a:1", name="Sampo", join_keys=["sampo"], image="enka-art", frame="enka-icon", fallback="yatta")
+        plain = roster.Character(key="a:2", name="Seele", join_keys=["seele"], image="enka-art-2", frame="enka-icon-2", fallback="yatta-2")
+        result = self.run_it([framed, plain], [folder("Sampo", "00000001"), folder("Seele", "00000002")], overrides=Overrides(list_portraits=["Sampo"]))
+        variants = self.by_name(result)
+        self.assertEqual((variants["Sampo"].image_url, variants["Sampo"].image_frame), ("yatta", None))
+        self.assertEqual((variants["Seele"].image_url, variants["Seele"].image_frame, variants["Seele"].image_fallback), ("enka-art-2", "enka-icon-2", "yatta-2"))
+
+    def test_list_portraits_naming_nobody_is_an_error(self):
+        result = self.run_it([character("a:1", "Sampo")], [folder("Sampo", "00000001")], overrides=Overrides(list_portraits=["Nobody"]))
+        self.assertTrue(any("listPortraits" in e and "Nobody" in e for e in result.errors))
+
     def test_a_nested_folder_that_parents_names_is_still_an_outfit(self):
         result = self.run_it(
             [character("a:1", "Xilonen")],

@@ -123,6 +123,7 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
         (staging / "images").mkdir(parents=True)
     record = read_json(upstream / "images.json", {}) or {}
     pictures = images.build(assembly.variants, staging / "images", record, config.get("portraits", {}).get("crop", "none"), fetcher)
+    result.warnings.extend(pictures.notes)
     icon_record = read_json(upstream / "icon.json", {}) or {}
     icon_problems, icon_record = game_icon(
         config, hand, fetcher, pack_dir / "images", staging / "images", icon_record, assembly.manual_rows, result.warnings

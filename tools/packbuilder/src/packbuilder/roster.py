@@ -46,6 +46,7 @@ class Character:
     release_date: str | None = None
     image: str | None = None
     frame: str | None = None  # a small picture showing how to frame `image` (see images.frame_square)
+    fallback: str | None = None  # the character list's own picture, for when framing `image` is no good
     outfits: list[Outfit] = field(default_factory=list)
 
     def to_json(self) -> dict:
@@ -60,6 +61,8 @@ class Character:
             payload["image"] = self.image
         if self.frame:
             payload["imageFrame"] = self.frame
+        if self.fallback:
+            payload["imageFallback"] = self.fallback
         if self.outfits:
             payload["outfits"] = [
                 {k: v for k, v in (("key", o.key), ("name", o.name), ("image", o.image), ("imageFrame", o.frame)) if v is not None}
@@ -78,6 +81,7 @@ class Character:
             release_date=payload.get("releaseDate"),
             image=payload.get("image"),
             frame=payload.get("imageFrame"),
+            fallback=payload.get("imageFallback"),
             outfits=[Outfit(o["key"], o.get("name"), o.get("image"), o.get("imageFrame")) for o in payload.get("outfits", [])],
         )
 
@@ -193,12 +197,15 @@ def _starrail(fetcher: Fetcher, previous: dict[str, Character]) -> list[Characte
     base = "https://sr.yatta.moe"
     url = f"{base}/api/v2/en/avatar"
     items = _items(fetcher.get_json(url), url)
-    outfits = _starrail_outfits(fetcher, previous)
+    enka = _starrail_enka(fetcher)
+    outfits = _starrail_outfits(enka, previous)
     characters = []
     for key in sorted(items):
         entry = items[key]
         types = entry.get("types") or {}
         icon = str(entry.get("icon", ""))
+        image, frame = _starrail_portrait(enka, key, previous.get(f"avatar:{key}"))
+        listed = f"{base}/hsr/assets/UI/avatar/medium/{icon}.png" if icon else None
         characters.append(
             Character(
                 key=f"avatar:{key}",
@@ -214,14 +221,44 @@ def _starrail(fetcher: Fetcher, previous: dict[str, Character]) -> list[Characte
                     if v
                 },
                 release_date=release_date(entry.get("release")),
-                image=f"{base}/hsr/assets/UI/avatar/medium/{icon}.png" if icon else None,
+                image=image or listed,
+                frame=frame,
+                fallback=listed if image else None,
                 outfits=outfits.get(f"avatar:{key}", []),
             )
         )
     return characters
 
 
-def _starrail_outfits(fetcher: Fetcher, previous: dict[str, Character]) -> dict[str, list[Outfit]]:
+ENKA_UI = "https://enka.network"
+
+
+def _starrail_enka(fetcher: Fetcher) -> dict | None:
+    """Enka.Network's Star Rail characters, or None when it cannot be reached."""
+    try:
+        avatars = fetcher.get_json(f"{ENKA}/hsr/avatars.json")
+    except FetchError:
+        return None
+    return avatars if isinstance(avatars, dict) and avatars else None
+
+
+def _starrail_portrait(enka: dict | None, key: str, previous: Character | None) -> tuple[str | None, str | None]:
+    """A Star Rail character's picture and the round icon that frames it, from Enka.Network.
+
+    The full art, framed the way the game's round face icon frames it — the framing the outfits
+    have, so a character and its outfits look alike (the user's choice, 2026-09-26). (None, None)
+    for a character Enka does not have yet: Project Yatta's picture is used until it does. When
+    Enka cannot be reached, last week's choice stays, so an outage does not swap every portrait.
+    """
+    if enka is None:
+        return (previous.image, previous.frame) if previous and previous.frame else (None, None)
+    entry = enka.get(key)
+    if not isinstance(entry, dict) or not entry.get("AvatarCutinFrontImgPath") or not entry.get("AvatarSideIconPath"):
+        return None, None
+    return f"{ENKA_UI}{entry['AvatarCutinFrontImgPath']}", f"{ENKA_UI}{entry['AvatarSideIconPath']}"
+
+
+def _starrail_outfits(avatars: dict | None, previous: dict[str, Character]) -> dict[str, list[Outfit]]:
     """Each Star Rail character's outfits, from Enka.Network's public data (D210).
 
     Project Yatta, the character list, has none. Enka lists each outfit with its pictures but no name,
@@ -229,14 +266,9 @@ def _starrail_outfits(fetcher: Fetcher, previous: dict[str, Character]) -> dict[
     overrides says which picture is whose. The full art is framed the way the outfit's own round
     icon frames it, as Zenless's portraits are. When Enka cannot be reached, last week's outfits stay.
     """
-    url = f"{ENKA}/hsr/avatars.json"
-    try:
-        avatars = fetcher.get_json(url)
-    except FetchError:
+    if avatars is None:
         return {key: character.outfits for key, character in previous.items()}
-    if not isinstance(avatars, dict):
-        return {key: character.outfits for key, character in previous.items()}
-    ui = "https://enka.network"
+    ui = ENKA_UI
     return {
         f"avatar:{key}": sorted(
             (
