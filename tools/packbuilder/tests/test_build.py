@@ -89,10 +89,6 @@ class AssembleTest(unittest.TestCase):
         self.assertIsNone(variants["SilverWolf999"].parent)
         self.assertEqual(variants["WiseCrane"].parent, "Wise")
 
-    def test_a_folder_nested_inside_a_character_is_its_outfit(self):
-        result = self.run_it([character("a:1", "Xilonen")], [folder("Xilonen", "00000001"), folder("XilonenCoat", "00000002", "Xilonen/XilonenCoat")])
-        self.assertEqual(self.by_name(result)["XilonenCoat"].parent, "Xilonen")
-
     def test_named_outfits_follow_upstream_naming_and_join_later(self):
         ganyu = character("a:1", "Ganyu")
         ganyu.outfits = [roster.Outfit("costume:GanyuCostumeYu", "Twilight Blossom", None)]
@@ -126,6 +122,45 @@ class AssembleTest(unittest.TestCase):
         rows = "\n".join(result.manual_rows)
         self.assertIn("now in upstream too", rows)
         self.assertIn("**BrandNew** was added as a new one", rows)
+
+    def test_a_folder_nested_in_a_characters_folder_is_part_of_it_not_an_outfit(self):
+        result = self.run_it(
+            [character("a:1", "Xilonen")],
+            [folder("Xilonen", "00000001"), folder("XilonenCoat", "00000002", "Xilonen/XilonenCoat"), folder("XilonenSkates", "00000001", "Xilonen/XilonenSkates")],
+        )
+        variants = self.by_name(result)
+        self.assertEqual(result.errors, [])
+        self.assertEqual(set(variants), {"Xilonen"})
+        ibs = sorted(e["hash"] for e in variants["Xilonen"].hashes if e["kind"] == "ib")
+        self.assertEqual(ibs, ["00000001", "00000002"])  # the coat's joined, the skates' shared one once
+        self.assertTrue(any("part of Xilonen's model" in i.rule for i in result.inferences))
+
+    def test_part_of_folds_a_form_into_its_character(self):
+        result = self.run_it(
+            [character("a:1", "Firefly")],
+            [folder("Firefly", "00000001"), folder("SAM", "00000003")],
+            overrides=Overrides(part_of={"SAM": "Firefly"}),
+        )
+        variants = self.by_name(result)
+        self.assertEqual(result.errors, [])
+        self.assertEqual(set(variants), {"Firefly"})
+        self.assertIn("00000003", [e["hash"] for e in variants["Firefly"].hashes])
+
+    def test_part_of_a_character_that_does_not_exist_stops_the_build(self):
+        result = self.run_it(
+            [character("a:1", "Firefly")],
+            [folder("Firefly", "00000001"), folder("SAM", "00000003")],
+            overrides=Overrides(part_of={"SAM": "Nobody"}),
+        )
+        self.assertTrue(any("partOf" in e and "Nobody" in e for e in result.errors))
+
+    def test_a_nested_folder_that_parents_names_is_still_an_outfit(self):
+        result = self.run_it(
+            [character("a:1", "Xilonen")],
+            [folder("Xilonen", "00000001"), folder("XilonenCoat", "00000002", "Xilonen/XilonenCoat")],
+            overrides=Overrides(parents={"XilonenCoat": "Xilonen"}),
+        )
+        self.assertEqual(self.by_name(result)["XilonenCoat"].parent, "Xilonen")
 
     def test_a_manual_picture_for_nobody_stops_the_build(self):
         hand = manual.Manual(images={"Nobody": helpers.pathlib.Path("manual/x/images/Nobody.png")})

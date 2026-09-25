@@ -228,6 +228,7 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
             if target and len(key) >= 4:
                 prefixes.setdefault(key, target)
 
+    parts: dict[str, list] = {}  # character → folders that are parts of its model
     unclaimed = [f for f in folders if f.name.lower() in folders_by_key and f.name.lower() not in claimed and folders_by_key[f.name.lower()] is f]
     for folder in sorted(unclaimed, key=lambda f: (f.path.count("/"), f.path.lower())):
         name = folder.name
@@ -235,12 +236,31 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
             errors.append(f"Upstream folder '{folder.path}' is not a valid id and cannot become a variant.")
             continue
         remainder = ""
+        if name in overrides.part_of:
+            # A folder the overrides call part of a character — a form it takes, a mech it pilots:
+            # its hashes are that character's, and it is no outfit (D210).
+            owner = names.get(overrides.part_of[name])
+            if owner is None:
+                errors.append(f"overrides \"partOf\" says '{name}' is part of '{overrides.part_of[name]}', and there is no '{overrides.part_of[name]}'.")
+                continue
+            parts.setdefault(owner.name, []).append(folder)
+            claimed[folder.name.lower()] = owner.name
+            inferences.append(Inference(name, owner.name, f"override: part of {owner.name}, its hashes are {owner.name}'s", HIGH))
+            continue
         if name in overrides.parents:
             parent = overrides.parents[name]
             rule, confidence = ("override: an outfit of " + parent if parent else "override: a character of its own"), HIGH
         elif folder.container and names.get(claimed.get(folder.container.lower(), folder.container)):
-            parent = _root(names, names.get(claimed.get(folder.container.lower(), folder.container)).name)
-            rule, confidence = f"nested inside {folder.container}/", HIGH
+            # A folder inside a character's own folder that the character list does not name is a
+            # part of that character's model — Xilonen's coat, her skates — not an outfit anyone can
+            # wear: no source has a picture of it, and mods for the character carry its hashes. Its
+            # hashes join the character's. The list naming it as an outfit ("join"), or "parents",
+            # still makes it one.
+            owner = names.get(claimed.get(folder.container.lower(), folder.container))
+            parts.setdefault(owner.name, []).append(folder)
+            claimed[folder.name.lower()] = owner.name
+            inferences.append(Inference(name, owner.name, f"nested inside {folder.container}/: a part of {owner.name}'s model, its hashes are {owner.name}'s", HIGH))
+            continue
         else:
             match = max((k for k in prefixes if name.lower().startswith(k) and len(k) < len(name)), key=len, default=None)
             if match:
@@ -293,6 +313,13 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
     for variant in names.by_key.values():
         if variant.folder:
             variant.hashes = folder_entries(variant.name, variant.folder.components)
+        seen = {(e["kind"], e["hash"], e.get("textureKind"), e.get("slot")) for e in variant.hashes}
+        for part in parts.get(variant.name, []):
+            for entry in folder_entries(variant.name, part.components):
+                key = (entry["kind"], entry["hash"], entry.get("textureKind"), entry.get("slot"))
+                if key not in seen:
+                    seen.add(key)
+                    variant.hashes.append(entry)
 
     # ---- 5. manual/. ------------------------------------------------------------------------------
     manual_rows: list[str] = []

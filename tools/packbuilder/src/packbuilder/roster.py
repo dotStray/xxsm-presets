@@ -193,6 +193,7 @@ def _starrail(fetcher: Fetcher, previous: dict[str, Character]) -> list[Characte
     base = "https://sr.yatta.moe"
     url = f"{base}/api/v2/en/avatar"
     items = _items(fetcher.get_json(url), url)
+    outfits = _starrail_outfits(fetcher, previous)
     characters = []
     for key in sorted(items):
         entry = items[key]
@@ -214,9 +215,45 @@ def _starrail(fetcher: Fetcher, previous: dict[str, Character]) -> list[Characte
                 },
                 release_date=release_date(entry.get("release")),
                 image=f"{base}/hsr/assets/UI/avatar/medium/{icon}.png" if icon else None,
+                outfits=outfits.get(f"avatar:{key}", []),
             )
         )
     return characters
+
+
+def _starrail_outfits(fetcher: Fetcher, previous: dict[str, Character]) -> dict[str, list[Outfit]]:
+    """Each Star Rail character's outfits, from Enka.Network's public data (D210).
+
+    Project Yatta, the character list, has none. Enka lists each outfit with its pictures but no name,
+    as it does for Zenless: the outfit itself comes from its hash folder, and ``outfitImages`` in the
+    overrides says which picture is whose. The full art is framed the way the outfit's own round
+    icon frames it, as Zenless's portraits are. When Enka cannot be reached, last week's outfits stay.
+    """
+    url = f"{ENKA}/hsr/avatars.json"
+    try:
+        avatars = fetcher.get_json(url)
+    except FetchError:
+        return {key: character.outfits for key, character in previous.items()}
+    if not isinstance(avatars, dict):
+        return {key: character.outfits for key, character in previous.items()}
+    ui = "https://enka.network"
+    return {
+        f"avatar:{key}": sorted(
+            (
+                Outfit(
+                    f"skin:{skin_id}",
+                    None,
+                    f"{ui}{skin['AvatarCutinFrontImgPath']}" if skin.get("AvatarCutinFrontImgPath") else None,
+                    f"{ui}{skin['AvatarSideIconPath']}" if skin.get("AvatarSideIconPath") else None,
+                )
+                for skin_id, skin in (entry.get("Skins") or {}).items()
+                if isinstance(skin, dict)
+            ),
+            key=lambda o: o.key,
+        )
+        for key, entry in avatars.items()
+        if isinstance(entry, dict) and entry.get("Skins")
+    }
 
 
 def _zenless(fetcher: Fetcher, previous: dict[str, Character]) -> list[Character]:

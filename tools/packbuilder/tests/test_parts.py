@@ -7,7 +7,7 @@ import unittest
 
 import helpers  # noqa: F401  (puts src on the path)
 
-from packbuilder import build, checks, hashes, images, manual, names, release
+from packbuilder import build, checks, hashes, images, manual, names, release, roster
 
 
 class NamesTest(unittest.TestCase):
@@ -238,3 +238,50 @@ class PictureTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class StarRailRosterTest(unittest.TestCase):
+    """Star Rail's outfits come from Enka.Network, the character list from Project Yatta (D210)."""
+
+    YATTA = {"data": {"items": {"1310": {"id": 1310, "name": "Firefly", "rank": 5, "icon": "1310", "types": {"pathType": "Warrior", "combatType": "Fire"}}}}}
+    ENKA = {
+        "1310": {
+            "Skins": {
+                "1131001": {
+                    "AvatarSideIconPath": "/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1131001.png",
+                    "AvatarCutinFrontImgPath": "/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1131001.png",
+                }
+            }
+        },
+        "1001": {"Rarity": 4},
+    }
+
+    class Fake:
+        def __init__(self, answers):
+            self.answers = answers
+
+        def get_json(self, url, *, fresh=True):
+            from packbuilder.http import FetchError
+
+            for fragment, answer in self.answers.items():
+                if fragment in url:
+                    if answer is None:
+                        raise FetchError(f"{url}: HTTP 503")
+                    return answer
+            raise AssertionError(url)
+
+    def test_outfits_and_their_pictures_come_from_enka(self):
+        characters = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])
+        firefly = characters[0]
+        self.assertEqual(firefly.name, "Firefly")
+        self.assertEqual([o.key for o in firefly.outfits], ["skin:1131001"])
+        outfit = firefly.outfits[0]
+        self.assertIsNone(outfit.name)  # Enka names no outfit; its folder does
+        self.assertEqual(outfit.image, "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1131001.png")
+        self.assertEqual(outfit.frame, "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1131001.png")
+
+    def test_enka_down_keeps_last_week_s_outfits(self):
+        last_week = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])
+        characters = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": None}), last_week)
+        self.assertEqual([o.key for o in characters[0].outfits], ["skin:1131001"])
+

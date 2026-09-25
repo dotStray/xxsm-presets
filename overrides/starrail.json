@@ -17,14 +17,34 @@
     "avatar:8009": "Caelus",
     "avatar:8010": "Stelle"
   },
-  "parents": {
+  "partOf": {
+    "PhainonKhaslana": "Phainon",
     "SAM": "Firefly"
+  },
+  "parents": {
+    "CaelusVigor": "Caelus",
+    "StelleVigor": "Stelle",
+    "CastoriceFlutter": "Castorice",
+    "FireflySpring": "Firefly",
+    "March7thPreservationSpring": "March7thPreservation",
+    "RuanMeiPlumblossom": "RuanMei",
+    "SparxieCandy": "Sparxie"
   },
   "displayNames": {
     "Caelus": "Caelus",
     "Stelle": "Stelle",
     "March7thPreservation": "March 7th (Preservation)",
-    "March7thHunt": "March 7th (The Hunt)",
-    "SAM": "SAM"
-  }
+    "March7thHunt": "March 7th (The Hunt)"
+  },
+  "outfitImages": {
+    "March7thPreservationSpring": "skin:1100101",
+    "RuanMeiPlumblossom": "skin:1130301",
+    "FireflySpring": "skin:1131001",
+    "CastoriceFlutter": "skin:1140701",
+    "SparxieCandy": "skin:1150101"
+  },
+  "retired": [
+    "PhainonKhaslana",
+    "SAM"
+  ]
 }

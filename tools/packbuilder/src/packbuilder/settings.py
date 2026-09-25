@@ -16,6 +16,7 @@ OVERRIDE_KEYS = {
     "notes",
     "join",
     "parents",
+    "partOf",
     "displayNames",
     "aliases",
     "outfitImages",
@@ -30,6 +31,7 @@ OVERRIDE_KEYS = {
 class Overrides:
     join: dict[str, str] = field(default_factory=dict)
     parents: dict[str, str | None] = field(default_factory=dict)
+    part_of: dict[str, str] = field(default_factory=dict)
     display_names: dict[str, str] = field(default_factory=dict)
     aliases: dict[str, list[str]] = field(default_factory=dict)
     outfit_images: dict[str, str] = field(default_factory=dict)
@@ -81,6 +83,7 @@ def load_overrides(path: pathlib.Path) -> Overrides:
     return Overrides(
         join=mapping("join"),
         parents=mapping("parents", allow_null=True),
+        part_of=mapping("partOf"),
         display_names=mapping("displayNames"),
         aliases={k: list(v) for k, v in aliases.items()},
         outfit_images=mapping("outfitImages"),
