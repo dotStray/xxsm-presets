@@ -26,12 +26,12 @@
       "importer": "SRMI",
       "versions": [
         {
-          "packVersion": "2026.09.26.01",
+          "packVersion": "2026.09.26",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.26/starrail-2026.09.26.01.zip",
-          "sha256": "4a130c210aea3d06f350c012ffdc33d085f6a0d72cf0084b5ccfc17b2ec3cfd8",
-          "sizeBytes": 5975396,
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.26/starrail-2026.09.26.zip",
+          "sha256": "68e94be4ef5550100bfcd794ca6d2fb78cd1fddcb07e0b44ddda758059d6bd6d",
+          "sizeBytes": 5975444,
           "changelog": "89 characters and 7 skins."
         }
       ]
