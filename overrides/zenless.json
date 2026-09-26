@@ -1,0 +1,37 @@
+{
+  "notes": "Corrections the builder cannot work out for itself. Each entry is explained in the presets repository's README.",
+  "join": {
+    "avatar:1381": "Soldier0",
+    "avatar:1531": "BillyStarlight"
+  },
+  "parents": {
+    "Belle": null,
+    "Wise": null,
+    "AriaRobot": null
+  },
+  "outfitImages": {
+    "NicoleCutie": "skin:3110311",
+    "MiyabiBlossom": "skin:3110911",
+    "LucySummer": "skin:3111511",
+    "EllenCampus": "skin:3111911",
+    "JaneSummer": "skin:3112611",
+    "AstraChandelier": "skin:3113111",
+    "VivianSummer": "skin:3113311",
+    "YixuanTrailsOfInk": "skin:3113711",
+    "AliceSummer": "skin:3114011",
+    "YuzuhaSummer": "skin:3114111",
+    "PanYinhuJewel": "skin:3114211",
+    "YeShunguangDawnlight": "skin:3114311",
+    "ManatoWhite": "skin:3114411",
+    "SunnaMaid": "skin:3114911",
+    "SunnaKfc": "skin:3114912",
+    "AriaDiscordant": "skin:3115011",
+    "AriaKfc": "skin:3115012",
+    "NangongYuRapsody": "skin:3115111",
+    "NangongYuKfc": "skin:3115112",
+    "VelinaLeisure": "skin:3115611",
+    "RemielleMoonlight": "skin:3115811",
+    "RemielleSummer": "skin:3115812",
+    "SigridSummer": "skin:3115911"
+  }
+}

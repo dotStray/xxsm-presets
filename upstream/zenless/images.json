@@ -1,0 +1,417 @@
+{
+  "Alice": {
+    "source": "https://enka.network/ui/zzz/IconRole46.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle46.png",
+    "sha256": "d78b530bb33afa927beaf639996acc4d6b261cd9fd0d930bde1598f8a5f9abee"
+  },
+  "AliceSummer": {
+    "source": "https://enka.network/ui/zzz/IconRole46_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle46_01.png",
+    "sha256": "0c54b7b0876ac10245a85c0c79561a8f70059fbf4c1a5c397dfc4e2bc92d4c1c"
+  },
+  "Anby": {
+    "source": "https://enka.network/ui/zzz/IconRole01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle01.png",
+    "sha256": "511c689d3726958d2bd495724546b4ba420937bab071b753191ff948c5588576"
+  },
+  "Anton": {
+    "source": "https://enka.network/ui/zzz/IconRole15.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle15.png",
+    "sha256": "20a3d92737eaba61888671464774fec4a13397593a607703a5447c5d5e821eaf"
+  },
+  "Aria": {
+    "source": "https://enka.network/ui/zzz/IconRole57.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle57.png",
+    "sha256": "a84a70f66fb997493684b39d166da4dbecd9e6979dbe251fdbf61b8c574365bc"
+  },
+  "AriaDiscordant": {
+    "source": "https://enka.network/ui/zzz/IconRole57_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle57_01.png",
+    "sha256": "444532f481dfeeaf22885fc09f4ab7ebb9bd8ffca93a361a7c8e9f8c22e7e759"
+  },
+  "AriaKfc": {
+    "source": "https://enka.network/ui/zzz/IconRole57_02.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle57_02.png",
+    "sha256": "ebae9b26494969cbdd86733c1580c5f66817d76173159f62ed473935e2243cd1"
+  },
+  "Astra": {
+    "source": "https://enka.network/ui/zzz/IconRole36.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle36.png",
+    "sha256": "a1e4111e38066f755c216c997a72d86ad61fb3db981daa97f7a2637ce553e582"
+  },
+  "AstraChandelier": {
+    "source": "https://enka.network/ui/zzz/IconRole36_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle36_01.png",
+    "sha256": "38123c59d009317dea109ac6e278d871a940951e96dea56f16897298661ef9c6"
+  },
+  "Banyue": {
+    "source": "https://enka.network/ui/zzz/IconRole53.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle53.png",
+    "sha256": "e40864d8530f9580379f4b70bbe603d9e697efeb6ecd0c24e5998854b4cd957b"
+  },
+  "Ben": {
+    "source": "https://enka.network/ui/zzz/IconRole16.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle16.png",
+    "sha256": "998e49781afd25b6e0562fe97effa8a7c255c3203d3c38cb7f013982ecc88e5f"
+  },
+  "Billy": {
+    "source": "https://enka.network/ui/zzz/IconRole10.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle10.png",
+    "sha256": "a2f9d676ad456aeaf7e0d317edc558b66a37326dee6dc0811b6111115b28b523"
+  },
+  "BillyStarlight": {
+    "source": "https://enka.network/ui/zzz/IconRole62.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle62.png",
+    "sha256": "75ab3af5221d6f835a7658bd4fd8080d7932cec5182e0fc160d8f7396ba7b5e0"
+  },
+  "Burnice": {
+    "source": "https://enka.network/ui/zzz/IconRole32.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle32.png",
+    "sha256": "b563fc16a626e0ffeb92e58dba068fa80e5fc9f74bc2ae1dd874bd3a85339e36"
+  },
+  "Caesar": {
+    "source": "https://enka.network/ui/zzz/IconRole25.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle25.png",
+    "sha256": "bcd9d6482c32c2be3a7301346658328c037b8179a2e889dabd4c896b332207ed"
+  },
+  "Cissia": {
+    "source": "https://enka.network/ui/zzz/IconRole60.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle60.png",
+    "sha256": "8f076bc441dfc6e3df0679d79b7a243929b47e1f3e961b7a216ccac4ce32f50e"
+  },
+  "Claret": {
+    "source": "https://enka.network/ui/zzz/IconRole1611.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle1611.png",
+    "sha256": "b2c3d566ee37f6b3e590ffd2891f43d4cd9a63e205ecd183affda2160ebb7924"
+  },
+  "Corin": {
+    "source": "https://enka.network/ui/zzz/IconRole09.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle09.png",
+    "sha256": "6d03eddf40e57d3a6f05344a48c31f94770363d8bcb63e056215cc31f5120c59"
+  },
+  "Dialyn": {
+    "source": "https://enka.network/ui/zzz/IconRole54.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle54.png",
+    "sha256": "7d501dcf969bc958eed4b7836a1888607dfb339b87011956e1f95f42227257a8"
+  },
+  "Ellen": {
+    "source": "https://enka.network/ui/zzz/IconRole21.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle21.png",
+    "sha256": "4f8fa5e688d92b9d0fb9752716b03d528bf156feb2216a9e13e4f78045579faf"
+  },
+  "EllenCampus": {
+    "source": "https://enka.network/ui/zzz/IconRole21_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle21_01.png",
+    "sha256": "831f3dd3fa5cfdcde9aba0b98c195fa9b4d5c06ff97f39f8d1614f026fc3cc2b"
+  },
+  "Evelyn": {
+    "source": "https://enka.network/ui/zzz/IconRole37.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle37.png",
+    "sha256": "4f636b11b801361a1801701eeba97e570c51548e3eb998551f9b0dc0322d8a2c"
+  },
+  "Grace": {
+    "source": "https://enka.network/ui/zzz/IconRole20.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle20.png",
+    "sha256": "daa0734059937e6f822df5efaad2e2274ea759f0d4874b78669244da0c614ac1"
+  },
+  "Harumasa": {
+    "source": "https://enka.network/ui/zzz/IconRole35.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle35.png",
+    "sha256": "eb7f57c364fef03c3404effe57b5eb9391d60ffaa165ea70387510de91a93e6e"
+  },
+  "Hugo": {
+    "source": "https://enka.network/ui/zzz/IconRole42.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle42.png",
+    "sha256": "7c749dec3264fdda1d49f14d248761fb39bcfa4b09ad8be212419a994fe5952e"
+  },
+  "Jane": {
+    "source": "https://enka.network/ui/zzz/IconRole24.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle24.png",
+    "sha256": "fa76fa1e060f7472066b9d9fe53576c314982c1e7a837d316bc196e722e04707"
+  },
+  "JaneSummer": {
+    "source": "https://enka.network/ui/zzz/IconRole24_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle24_01.png",
+    "sha256": "876e761d311990bc5f63589ebd66c0f4792fe5f31568935112169584a9dcbf44"
+  },
+  "JuFufu": {
+    "source": "https://enka.network/ui/zzz/IconRole43.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle43.png",
+    "sha256": "0c390dd31fc50b92f557c984a01d185a5f3aea7cec760f5c571dee5c10b22861"
+  },
+  "Koleda": {
+    "source": "https://enka.network/ui/zzz/IconRole14.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle14.png",
+    "sha256": "a351cf6fc4bc52a975bd4e8100da7818f9b724d89787ed0f5354acdfef5fbaa4"
+  },
+  "Lighter": {
+    "source": "https://enka.network/ui/zzz/IconRole26.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle26.png",
+    "sha256": "1bc5b00d9a9e7a48a57477ad61efbea7564d088b83469a9cfdd8b5ade360f53f"
+  },
+  "Lucia": {
+    "source": "https://enka.network/ui/zzz/IconRole50.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle50.png",
+    "sha256": "6f85aa3c235c1a91ad3d20c7e660140ef9d5958874baf33e9564e81aa010c35b"
+  },
+  "Lucy": {
+    "source": "https://enka.network/ui/zzz/IconRole27.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle27.png",
+    "sha256": "bfca62aa9a28dbb42197fb7b192f84bbf8196db27d4ac9a3052941c0bc3a73b6"
+  },
+  "LucySummer": {
+    "source": "https://enka.network/ui/zzz/IconRole27_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle27_01.png",
+    "sha256": "e5136e1c37dee64c526d78740f3fd55b31d2033cc379a81613dfeefa23cb6d1d"
+  },
+  "Lycaon": {
+    "source": "https://enka.network/ui/zzz/IconRole18.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle18.png",
+    "sha256": "77932dc150a6a0918c4dda71fa558c05c46077953969f5f1a304ad4e3eba46ac"
+  },
+  "Manato": {
+    "source": "https://enka.network/ui/zzz/IconRole51.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle51.png",
+    "sha256": "ee96fbebb900528d3f8214b4ca634d876111ba981ff30315a643928fdb03a660"
+  },
+  "ManatoWhite": {
+    "source": "https://enka.network/ui/zzz/IconRole51_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle51_01.png",
+    "sha256": "4ab1b1fdb54e59296b93413da4123eb8a016f168b25bf7565ecd3c63836094e6"
+  },
+  "Miyabi": {
+    "source": "https://enka.network/ui/zzz/IconRole13.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle13.png",
+    "sha256": "cf51326f1fd5dc31c1d2b9146ad642965034466d743c65e529503935d81f76f9"
+  },
+  "MiyabiBlossom": {
+    "source": "https://enka.network/ui/zzz/IconRole13_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle13_01.png",
+    "sha256": "8a47c89d3359e32ca335177c54d791b58a27d5ed99dce5767c3607f33b6db04a"
+  },
+  "NangongYu": {
+    "source": "https://enka.network/ui/zzz/IconRole59.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle59.png",
+    "sha256": "14b54c296be1e23514f574eecb200127e7c28842f4accd217152f2cce719c870"
+  },
+  "NangongYuKfc": {
+    "source": "https://enka.network/ui/zzz/IconRole59_02.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle59_02.png",
+    "sha256": "5d26d35d9fdcc60a4ac12047f0b2426a030f257aa75d17a1d0b8d3b44f848401"
+  },
+  "NangongYuRapsody": {
+    "source": "https://enka.network/ui/zzz/IconRole59_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle59_01.png",
+    "sha256": "2b99d561c54704c5f068cb44ce4b7f72496c7b85cc16d2d56a4f9f69e9f6c575"
+  },
+  "Nekomata": {
+    "source": "https://enka.network/ui/zzz/IconRole11.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle11.png",
+    "sha256": "0232e316b201a7ed7ec6258bc9879b13f6eadaca12948313dc5bdb2de82783af"
+  },
+  "Nicole": {
+    "source": "https://enka.network/ui/zzz/IconRole12.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle12.png",
+    "sha256": "5fc99c9f5b345bbdd8dbd24f7f57c909b5d5b68b8d8c7c21998be2b7703751ab"
+  },
+  "NicoleCutie": {
+    "source": "https://enka.network/ui/zzz/IconRole12_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle12_01.png",
+    "sha256": "49f6b69b219870580247cca5f4c734593565c8fc5c4a5c81dcf3344648432b47"
+  },
+  "Norma": {
+    "source": "https://enka.network/ui/zzz/IconRole65.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle65.png",
+    "sha256": "7d84a4bfd8a6a153139e0dc4749fad3f70f0f6905be16e34bbf1b6701b8b5215"
+  },
+  "Orphie": {
+    "source": "https://enka.network/ui/zzz/IconRole49.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle49.png",
+    "sha256": "809fe7c82ebaa5008af950f9dfbfedeec467b24677db9c57bb72cfb62391a912"
+  },
+  "PanYinhu": {
+    "source": "https://enka.network/ui/zzz/IconRole45.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle45.png",
+    "sha256": "6cf7b5271da36746306fadb51dbc6aceda20e875655c3bfcabf8a2386f3b83de"
+  },
+  "PanYinhuJewel": {
+    "source": "https://enka.network/ui/zzz/IconRole45_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle45_01.png",
+    "sha256": "c3795255387f5e6893082655c0c54bec9bea8686cba0b26cff5fa0d02df45781"
+  },
+  "Piper": {
+    "source": "https://enka.network/ui/zzz/IconRole28.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle28.png",
+    "sha256": "8183c355d3f09338a6448812f70ae710c332c68947f69d5bb7a52f04f63c9d49"
+  },
+  "Promeia": {
+    "source": "https://enka.network/ui/zzz/IconRole61.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle61.png",
+    "sha256": "2b9e7eb67a293d6bb6e5eec2d427ae5e0a22a2a4b1134f066228f1787390a777"
+  },
+  "Pulchra": {
+    "source": "https://enka.network/ui/zzz/IconRole38.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle38.png",
+    "sha256": "003c2e6ac92e2c86a96396c00885165edeb47d56d2a93c8b88e998bef14d2f63"
+  },
+  "Pyrois": {
+    "source": "https://enka.network/ui/zzz/IconRole63.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle63.png",
+    "sha256": "5177e89464bb817922097219b042eca44d49d66f46115612d5ce728e485a3322"
+  },
+  "Qingyi": {
+    "source": "https://enka.network/ui/zzz/IconRole29.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle29.png",
+    "sha256": "15ee8783ac1b186c79439eb2527a7714a770bb0094aaef75bfbeb65db896d01b"
+  },
+  "Remielle": {
+    "source": "https://enka.network/ui/zzz/IconRole67.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle67.png",
+    "sha256": "36c76f4fe9967a2b4bfb5b44c18df160d83ef5f7749aa6bbf8c0b71aa59474c2"
+  },
+  "RemielleMoonlight": {
+    "source": "https://enka.network/ui/zzz/IconRole67_02.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle67_02.png",
+    "sha256": "91dff512aea4322408e06b3e4b1027e9b4f19db2730f4dcf3f797a746b3ee82b"
+  },
+  "RemielleSummer": {
+    "source": "https://enka.network/ui/zzz/IconRole67_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle67_01.png",
+    "sha256": "3ede0bd872e9d5d3c8a70e07ad94fadb30744d68bb0d92fc59499ebb0880f267"
+  },
+  "Rina": {
+    "source": "https://enka.network/ui/zzz/IconRole22.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle22.png",
+    "sha256": "b4784f0463e99cb78e12c0c1646a32716c190534397d754b80a308913f7204b4"
+  },
+  "Roxy": {
+    "source": "https://enka.network/ui/zzz/IconRole68.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle68.png",
+    "sha256": "50cf911bcce47a4e0c7a05eb70628a83bf1b7500d4163660e5b17131fb00c883"
+  },
+  "Seed": {
+    "source": "https://enka.network/ui/zzz/IconRole48.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle48.png",
+    "sha256": "49652b894c9e5259b80d27e89421006d6933f6a88d2bda4f789d0d88a7e19a80"
+  },
+  "Seth": {
+    "source": "https://enka.network/ui/zzz/IconRole30.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle30.png",
+    "sha256": "f780bba4fb8c7a5707e4e0c2c0acb96de24c5fcfc55cad883a2308b25f58dca7"
+  },
+  "Sigrid": {
+    "source": "https://enka.network/ui/zzz/IconRole66.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle66.png",
+    "sha256": "206bebfd954c716ca0250ecc4d4fe6f910de219586e245a045dae791e5929e40"
+  },
+  "SigridSummer": {
+    "source": "https://enka.network/ui/zzz/IconRole66_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle66_01.png",
+    "sha256": "552ab25a0128eb759d45e45864ac3a98b0eae5169d35f66486f5de4c23d7192c"
+  },
+  "Soldier0": {
+    "source": "https://enka.network/ui/zzz/IconRole40.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle40.png",
+    "sha256": "48fc1004fcd6e1289d6c7495b6463482ccb8140e2bb78c144eb4386b3fdcecd7"
+  },
+  "Soldier11": {
+    "source": "https://enka.network/ui/zzz/IconRole05.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle05.png",
+    "sha256": "d666de2dd4985ccb01a07365accfbf26b0346a2f13a76e1eb83ecbafe6e9da03"
+  },
+  "Soukaku": {
+    "source": "https://enka.network/ui/zzz/IconRole17.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle17.png",
+    "sha256": "f4d6f1ae2a2ee5de4dbbb11f69d63c9c8481e52962b01659b74f808bca190383"
+  },
+  "Sunna": {
+    "source": "https://enka.network/ui/zzz/IconRole58.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle58.png",
+    "sha256": "30fbde333f13e20b9bb425c3f303fd39c7316fd2231c8e104431917874ff8049"
+  },
+  "SunnaKfc": {
+    "source": "https://enka.network/ui/zzz/IconRole58_02.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle58_02.png",
+    "sha256": "508ddf48bb5c79fa76060fd285e6bda61f737fb4bab0679d79640cb6e244a087"
+  },
+  "SunnaMaid": {
+    "source": "https://enka.network/ui/zzz/IconRole58_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle58_01.png",
+    "sha256": "9d0a7542a8a23b05355dc5ac17c45e6a4c459fee18f0912f2c583f99a6cd2e6e"
+  },
+  "Trigger": {
+    "source": "https://enka.network/ui/zzz/IconRole39.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle39.png",
+    "sha256": "b4c3f2f3c6da38b29b0739d74fb1b18eab52f88ae29753c65826db08c5465bbc"
+  },
+  "Velina": {
+    "source": "https://enka.network/ui/zzz/IconRole64.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle64.png",
+    "sha256": "7d4bd21d221b9cf3a12fe433d6dfb02d92257e5d580a3e2f651ea0808985e10f"
+  },
+  "VelinaLeisure": {
+    "source": "https://enka.network/ui/zzz/IconRole64_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle64_01.png",
+    "sha256": "40e0eab9ba14600ac3fa874a737be542699dfffa2649475a396fc4017928da86"
+  },
+  "Vivian": {
+    "source": "https://enka.network/ui/zzz/IconRole41.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle41.png",
+    "sha256": "52ac860f7e51d1e83f991e8ea1495128e14a0a255017c9b52d46044bc5539211"
+  },
+  "VivianSummer": {
+    "source": "https://enka.network/ui/zzz/IconRole41_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle41_01.png",
+    "sha256": "aabeb39f59c28c8845781fc58fca87201204e5fb9e400ff9c486335e9edbd0b4"
+  },
+  "Yanagi": {
+    "source": "https://enka.network/ui/zzz/IconRole31.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle31.png",
+    "sha256": "69ab65f7b7ae5d1cd46952a7d3ecfe8cdae323542029ff75992641e7213acc1e"
+  },
+  "YeShunguang": {
+    "source": "https://enka.network/ui/zzz/IconRole55.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle55.png",
+    "sha256": "764dc0df5c706bc4c387e33195d697ccee94121daacee09b9322d5ef7b4e5d48"
+  },
+  "YeShunguangDawnlight": {
+    "source": "https://enka.network/ui/zzz/IconRole55_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle55_01.png",
+    "sha256": "39f27e694dd119cd401c33d45bd958fada7d886d615135850fdd32d885efc3a9"
+  },
+  "Yidhari": {
+    "source": "https://enka.network/ui/zzz/IconRole52.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle52.png",
+    "sha256": "66eb62b46dc72f48631c2246e5d868f186de3142c73f43b5857f179177fbc7b8"
+  },
+  "Yixuan": {
+    "source": "https://enka.network/ui/zzz/IconRole44.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle44.png",
+    "sha256": "c0f738ca21f556b687291f842e946ec535d6bf9d24bce22e4a9c9601464346d7"
+  },
+  "YixuanTrailsOfInk": {
+    "source": "https://enka.network/ui/zzz/IconRole44_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle44_01.png",
+    "sha256": "fb76ce8b2590c1af4ee26609ea8db908eee1ee82e38df9a663aaa6348057ff1e"
+  },
+  "Yuzuha": {
+    "source": "https://enka.network/ui/zzz/IconRole47.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle47.png",
+    "sha256": "04ff3b2b822b512a42fe7ba726e03e28c6b66f7ded2fddfa30c050a4b04d6f41"
+  },
+  "YuzuhaSummer": {
+    "source": "https://enka.network/ui/zzz/IconRole47_01.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle47_01.png",
+    "sha256": "e442807b0b06c26de3e58b3fe99449cef3f31a2f7afc836130dbd3ddea7e2b35"
+  },
+  "Zhao": {
+    "source": "https://enka.network/ui/zzz/IconRole56.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle56.png",
+    "sha256": "cffe9608e0d40578853b0f99191e35f777304ba9a273c869087cecec5b89ee97"
+  },
+  "ZhuYuan": {
+    "source": "https://enka.network/ui/zzz/IconRole23.png",
+    "frame": "https://enka.network/ui/zzz/IconRoleCircle23.png",
+    "sha256": "1f494b4f768a4db73eaae1c4db5f05f1c84688ec6fa7c48962a43b324789cd50"
+  }
+}
