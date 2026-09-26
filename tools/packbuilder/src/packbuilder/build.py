@@ -300,14 +300,21 @@ def fingerprint(folder: pathlib.Path) -> str:
 
 
 def next_version(today: datetime.date, taken: set[str]) -> str:
-    """``2026.09.25``, or ``2026.09.25.01`` for a second release the same day. Sorts as text."""
+    """``2026.09.25``, or ``2026.09.25.01`` for a second release the same day. Sorts as text.
+
+    Always after every version in ``taken``, not only different from them: the app treats the
+    version that sorts last as the newest. When the releases are deleted, the published list is
+    empty and only the previous pack's own version is left in ``taken``; a free ``2026.09.26``
+    after ``2026.09.26.01`` was published that way, and the app kept loading the older pack
+    (2026-09-27).
+    """
     base = today.strftime("%Y.%m.%d")
-    if base not in taken:
-        return base
-    for number in range(1, 100):
-        candidate = f"{base}.{number:02d}"
-        if candidate not in taken:
+    newest = max((version for version in taken if version), default="")
+    for candidate in [base, *(f"{base}.{number:02d}" for number in range(1, 100))]:
+        if candidate not in taken and candidate > newest:
             return candidate
+    if newest > f"{base}.99":
+        raise BuildError(f"The newest version, {newest}, is later than today ({base}); the runner's clock or a version is wrong.")
     raise BuildError(f"More than 99 releases on {base}.")
 
 

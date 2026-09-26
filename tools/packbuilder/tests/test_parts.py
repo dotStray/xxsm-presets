@@ -161,6 +161,15 @@ class VersionAndZipTest(unittest.TestCase):
         self.assertGreater("2026.09.25.01", "2026.09.25")
         self.assertGreater("2026.09.25.10", "2026.09.25.09")
 
+    def test_a_new_version_sorts_after_the_previous_one_even_when_the_releases_are_gone(self):
+        # 2026-09-27: every release was deleted, so only the previous pack's 2026.09.26.01 was known,
+        # and a free 2026.09.26 was published — which the app sorts as older.
+        day = datetime.date(2026, 9, 26)
+        self.assertEqual(build.next_version(day, {"2026.09.26.01"}), "2026.09.26.02")
+        self.assertEqual(build.next_version(day, {"", "2026.09.25.01"}), "2026.09.26")
+        with self.assertRaises(build.BuildError):
+            build.next_version(day, {"2026.09.27"})
+
     def test_the_index_keeps_the_newest_first_and_only_ten(self):
         index: dict = {}
         game = {"gameId": "genshin", "displayName": "Genshin Impact"}
