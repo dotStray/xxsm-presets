@@ -1,8 +1,8 @@
 {
   "packSchemaVersion": 1,
   "gameId": "starrail",
-  "packVersion": "2026.09.25.02",
-  "generatedAt": "2026-09-25T00:00:00Z",
+  "packVersion": "2026.09.26",
+  "generatedAt": "2026-09-26T00:00:00Z",
   "builder": "packbuilder 0.1.0",
   "authoredBy": "official",
   "minAppVersion": "0.1.0",
@@ -25,7 +25,7 @@
     },
     {
       "kind": "images",
-      "url": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/",
+      "url": "https://enka.network/ui/hsr/",
       "license": "Game art © COGNOSPHERE / HoYoverse, as served by the source named in each image's record."
     }
   ]

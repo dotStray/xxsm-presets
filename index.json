@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T00:00:00Z",
+  "updatedAt": "2026-09-26T00:00:00Z",
   "packs": [
     {
       "gameId": "genshin",
@@ -25,6 +25,15 @@
       "shortName": "HSR",
       "importer": "SRMI",
       "versions": [
+        {
+          "packVersion": "2026.09.26",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.26/starrail-2026.09.26.zip",
+          "sha256": "5f2c9bbd0e3fb21c28b16b2d8feec9865f5a6ec83bbf35dbf49e9e4d6247db37",
+          "sizeBytes": 1948726,
+          "changelog": "83 portraits changed."
+        },
         {
           "packVersion": "2026.09.25.02",
           "packSchemaVersion": 1,

@@ -17,7 +17,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1001.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1001.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
       "outfits": [
         {
           "key": "skin:1100101",
@@ -42,7 +44,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1002.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1002.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1002.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1002.png"
     },
     {
       "key": "avatar:1003",
@@ -56,7 +60,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1003.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1003.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1003.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1003.png"
     },
     {
       "key": "avatar:1004",
@@ -70,7 +76,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1004.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1004.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1004.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1004.png"
     },
     {
       "key": "avatar:1005",
@@ -84,7 +92,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-07-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1005.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1005.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1005.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1005.png"
     },
     {
       "key": "avatar:1006",
@@ -102,7 +112,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-06-07",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1006.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1006.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1006.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1006.png"
     },
     {
       "key": "avatar:1008",
@@ -116,7 +128,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1008.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1008.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1008.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1008.png"
     },
     {
       "key": "avatar:1009",
@@ -130,7 +144,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1009.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1009.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1009.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1009.png"
     },
     {
       "key": "avatar:1013",
@@ -144,7 +160,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1013.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1013.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1013.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1013.png"
     },
     {
       "key": "avatar:1014",
@@ -158,7 +176,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-07-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1014.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1014.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png"
     },
     {
       "key": "avatar:1015",
@@ -172,7 +192,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-07-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1015.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1015.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1015.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1015.png"
     },
     {
       "key": "avatar:1101",
@@ -186,7 +208,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1101.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1101.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1101.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1101.png"
     },
     {
       "key": "avatar:1102",
@@ -200,7 +224,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1102.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1102.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1102.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1102.png"
     },
     {
       "key": "avatar:1103",
@@ -214,7 +240,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1103.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1103.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1103.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1103.png"
     },
     {
       "key": "avatar:1104",
@@ -228,7 +256,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1104.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1104.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1104.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1104.png"
     },
     {
       "key": "avatar:1105",
@@ -242,7 +272,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1105.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1105.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png"
     },
     {
       "key": "avatar:1106",
@@ -256,7 +288,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1106.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1106.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png"
     },
     {
       "key": "avatar:1107",
@@ -270,7 +304,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1107.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1107.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1107.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1107.png"
     },
     {
       "key": "avatar:1108",
@@ -284,7 +320,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1108.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1108.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1108.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1108.png"
     },
     {
       "key": "avatar:1109",
@@ -298,7 +336,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1109.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1109.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1109.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1109.png"
     },
     {
       "key": "avatar:1110",
@@ -312,7 +352,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-09-20",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1110.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1110.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1110.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1110.png"
     },
     {
       "key": "avatar:1111",
@@ -326,7 +368,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-07-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1111.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1111.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1111.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1111.png"
     },
     {
       "key": "avatar:1112",
@@ -344,7 +388,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-10-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1112.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1112.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1112.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1112.png"
     },
     {
       "key": "avatar:1201",
@@ -358,7 +404,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1201.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1201.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1201.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1201.png"
     },
     {
       "key": "avatar:1202",
@@ -372,7 +420,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1202.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1202.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1202.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1202.png"
     },
     {
       "key": "avatar:1203",
@@ -386,7 +436,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-06-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1203.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1203.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1203.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1203.png"
     },
     {
       "key": "avatar:1204",
@@ -404,7 +456,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-05-17",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1204.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1204.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1204.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1204.png"
     },
     {
       "key": "avatar:1205",
@@ -418,7 +472,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-07-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1205.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1205.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1205.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1205.png"
     },
     {
       "key": "avatar:1206",
@@ -432,7 +488,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1206.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1206.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1206.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1206.png"
     },
     {
       "key": "avatar:1207",
@@ -446,7 +504,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-06-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1207.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1207.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1207.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1207.png"
     },
     {
       "key": "avatar:1208",
@@ -464,7 +524,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-09-20",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1208.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1208.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png"
     },
     {
       "key": "avatar:1209",
@@ -478,7 +540,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1209.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1209.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1209.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1209.png"
     },
     {
       "key": "avatar:1210",
@@ -492,7 +556,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-10-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1210.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1210.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1210.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1210.png"
     },
     {
       "key": "avatar:1211",
@@ -506,7 +572,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1211.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1211.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1211.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1211.png"
     },
     {
       "key": "avatar:1212",
@@ -520,7 +588,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-10-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1212.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1212.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1212.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1212.png"
     },
     {
       "key": "avatar:1213",
@@ -538,7 +608,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-08-30",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1213.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1213.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1213.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1213.png"
     },
     {
       "key": "avatar:1214",
@@ -552,7 +624,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-12-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1214.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1214.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1214.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1214.png"
     },
     {
       "key": "avatar:1215",
@@ -566,7 +640,9 @@
         "rarity": 4
       },
       "releaseDate": "2023-12-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1215.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1215.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1215.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1215.png"
     },
     {
       "key": "avatar:1217",
@@ -580,7 +656,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-11-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1217.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1217.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1217.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1217.png"
     },
     {
       "key": "avatar:1218",
@@ -594,7 +672,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-08-21",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1218.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1218.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1218.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1218.png"
     },
     {
       "key": "avatar:1220",
@@ -608,7 +688,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-09-10",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1220.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1220.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1220.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1220.png"
     },
     {
       "key": "avatar:1221",
@@ -622,7 +704,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-07-31",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1221.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1221.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1221.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1221.png"
     },
     {
       "key": "avatar:1222",
@@ -636,7 +720,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-10-02",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1222.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1222.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1222.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1222.png"
     },
     {
       "key": "avatar:1223",
@@ -650,7 +736,9 @@
         "rarity": 4
       },
       "releaseDate": "2024-09-10",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1223.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1223.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1223.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1223.png"
     },
     {
       "key": "avatar:1224",
@@ -668,7 +756,9 @@
         "rarity": 4
       },
       "releaseDate": "2024-07-31",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1224.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1224.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1224.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1224.png"
     },
     {
       "key": "avatar:1225",
@@ -682,7 +772,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-12-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1225.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1225.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1225.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1225.png"
     },
     {
       "key": "avatar:1301",
@@ -696,7 +788,9 @@
         "rarity": 4
       },
       "releaseDate": "2024-03-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1301.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1301.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1301.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1301.png"
     },
     {
       "key": "avatar:1302",
@@ -710,7 +804,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-12-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1302.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1302.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1302.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1302.png"
     },
     {
       "key": "avatar:1303",
@@ -728,7 +824,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-12-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1303.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1303.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
       "outfits": [
         {
           "key": "skin:1130301",
@@ -749,7 +847,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-04-17",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1304.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1304.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1304.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1304.png"
     },
     {
       "key": "avatar:1305",
@@ -767,7 +867,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-01-17",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1305.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1305.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1305.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1305.png"
     },
     {
       "key": "avatar:1306",
@@ -781,7 +883,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-02-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1306.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1306.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1306.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1306.png"
     },
     {
       "key": "avatar:1307",
@@ -799,7 +903,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-02-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1307.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1307.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1307.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1307.png"
     },
     {
       "key": "avatar:1308",
@@ -813,7 +919,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-03-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1308.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1308.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1308.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1308.png"
     },
     {
       "key": "avatar:1309",
@@ -827,7 +935,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-05-08",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1309.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1309.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1309.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1309.png"
     },
     {
       "key": "avatar:1310",
@@ -841,7 +951,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-06-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1310.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1310.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
       "outfits": [
         {
           "key": "skin:1131001",
@@ -862,7 +974,9 @@
         "rarity": 4
       },
       "releaseDate": "2024-02-29",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1312.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1312.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png"
     },
     {
       "key": "avatar:1313",
@@ -876,7 +990,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-12-04",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1313.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1313.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1313.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1313.png"
     },
     {
       "key": "avatar:1314",
@@ -890,7 +1006,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-07-10",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1314.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1314.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1314.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1314.png"
     },
     {
       "key": "avatar:1315",
@@ -904,7 +1022,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-05-29",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1315.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1315.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1315.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1315.png"
     },
     {
       "key": "avatar:1317",
@@ -918,7 +1038,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-10-23",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1317.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1317.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1317.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1317.png"
     },
     {
       "key": "avatar:1321",
@@ -936,7 +1058,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-12-07",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1321.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1321.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1321.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1321.png"
     },
     {
       "key": "avatar:1401",
@@ -954,7 +1078,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-01-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1401.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1401.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1401.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1401.png"
     },
     {
       "key": "avatar:1402",
@@ -968,7 +1094,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-02-05",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1402.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1402.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1402.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1402.png"
     },
     {
       "key": "avatar:1403",
@@ -982,7 +1110,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-02-26",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1403.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1403.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1403.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1403.png"
     },
     {
       "key": "avatar:1404",
@@ -996,7 +1126,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-03-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1404.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1404.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1404.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1404.png"
     },
     {
       "key": "avatar:1405",
@@ -1010,7 +1142,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-04-30",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1405.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1405.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1405.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1405.png"
     },
     {
       "key": "avatar:1406",
@@ -1024,7 +1158,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-06-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1406.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1406.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1406.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1406.png"
     },
     {
       "key": "avatar:1407",
@@ -1038,7 +1174,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-04-09",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1407.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1407.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
       "outfits": [
         {
           "key": "skin:1140701",
@@ -1059,7 +1197,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-07-02",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1408.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1408.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1408.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1408.png"
     },
     {
       "key": "avatar:1409",
@@ -1073,7 +1213,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-05-21",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1409.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1409.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1409.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1409.png"
     },
     {
       "key": "avatar:1410",
@@ -1087,7 +1229,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-08-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1410.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1410.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1410.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1410.png"
     },
     {
       "key": "avatar:1412",
@@ -1101,7 +1245,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-09-02",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1412.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1412.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png"
     },
     {
       "key": "avatar:1413",
@@ -1115,7 +1261,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-09-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1413.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1413.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1413.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1413.png"
     },
     {
       "key": "avatar:1414",
@@ -1133,7 +1281,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-10-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1414.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1414.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1414.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1414.png"
     },
     {
       "key": "avatar:1415",
@@ -1147,7 +1297,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-11-05",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png",
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1415.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1415.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png",
       "outfits": [
         {
           "key": "skin:1141501",
@@ -1168,7 +1320,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-02-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1501.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1501.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
       "outfits": [
         {
           "key": "skin:1150101",
@@ -1193,7 +1347,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-02-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1502.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1502.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1502.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1502.png"
     },
     {
       "key": "avatar:1504",
@@ -1207,7 +1363,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-03-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1504.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1504.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1504.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1504.png"
     },
     {
       "key": "avatar:1505",
@@ -1221,7 +1379,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-05-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1505.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1505.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1505.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1505.png"
     },
     {
       "key": "avatar:1506",
@@ -1239,7 +1399,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-04-22",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1506.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1506.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1506.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1506.png"
     },
     {
       "key": "avatar:1507",
@@ -1257,7 +1419,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-06-01",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1507.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1507.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1507.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1507.png"
     },
     {
       "key": "avatar:1508",
@@ -1275,7 +1439,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-07-24",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1508.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1508.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1508.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1508.png"
     },
     {
       "key": "avatar:1509",
@@ -1289,7 +1455,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-07-24",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1509.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1509.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1509.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1509.png"
     },
     {
       "key": "avatar:1510",
@@ -1307,7 +1475,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-07-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1510.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1510.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1510.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1510.png"
     },
     {
       "key": "avatar:1512",
@@ -1325,7 +1495,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-08-26",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1512.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1512.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1512.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1512.png"
     },
     {
       "key": "avatar:1513",
@@ -1343,7 +1515,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-09-12",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1513.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/1513.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/1513.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1513.png"
     },
     {
       "key": "avatar:8001",
@@ -1357,7 +1531,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8001.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8001.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8001.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8001.png"
     },
     {
       "key": "avatar:8002",
@@ -1371,7 +1547,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8002.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8002.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png"
     },
     {
       "key": "avatar:8003",
@@ -1385,7 +1563,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8003.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8003.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8003.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8003.png"
     },
     {
       "key": "avatar:8004",
@@ -1399,7 +1579,9 @@
         "rarity": 5
       },
       "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8004.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8004.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8004.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8004.png"
     },
     {
       "key": "avatar:8005",
@@ -1413,7 +1595,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-05-08",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8005.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8005.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8005.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8005.png"
     },
     {
       "key": "avatar:8006",
@@ -1427,7 +1611,9 @@
         "rarity": 5
       },
       "releaseDate": "2024-05-08",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8006.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8006.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8006.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8006.png"
     },
     {
       "key": "avatar:8007",
@@ -1441,7 +1627,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-01-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8007.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8007.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8007.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8007.png"
     },
     {
       "key": "avatar:8008",
@@ -1455,7 +1643,9 @@
         "rarity": 5
       },
       "releaseDate": "2025-01-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8008.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8008.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8008.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8008.png"
     },
     {
       "key": "avatar:8009",
@@ -1469,7 +1659,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-04-22",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8009.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8009.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8009.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8009.png"
     },
     {
       "key": "avatar:8010",
@@ -1483,7 +1675,9 @@
         "rarity": 5
       },
       "releaseDate": "2026-04-22",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8010.png"
+      "image": "https://enka.network/ui/hsr/SpriteOutput/AvatarDrawCard/8010.png",
+      "imageFrame": "https://enka.network/ui/hsr/SpriteOutput/AvatarRoundIcon/8010.png",
+      "imageFallback": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8010.png"
     }
   ]
 }

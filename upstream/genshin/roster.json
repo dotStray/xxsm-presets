@@ -2526,40 +2526,6 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MarionetteNew.png"
     },
     {
-      "key": "avatar:10000140",
-      "name": "Vodyanitsa",
-      "joinKeys": [
-        "vodyanitsa"
-      ],
-      "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "SNEZHNAYA"
-        ],
-        "rarity": 5
-      },
-      "releaseDate": "2026-09-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vodyanitsa.png"
-    },
-    {
-      "key": "avatar:10000143",
-      "name": "Vesna",
-      "joinKeys": [
-        "vesna"
-      ],
-      "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "SNEZHNAYA_STAR"
-        ],
-        "rarity": 5
-      },
-      "releaseDate": "2026-09-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vesna.png"
-    },
-    {
       "key": "avatar:10000148",
       "name": "Alyosha",
       "joinKeys": [
