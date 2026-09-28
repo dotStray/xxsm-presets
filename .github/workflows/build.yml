@@ -34,22 +34,30 @@ jobs:
     timeout-minutes: 120
     steps:
       # Always the newest main, so a run that waited in the queue builds on what is there now.
-      - uses: actions/checkout@v5
+      # The token is not left in the checkout: only the two steps that need it are given it.
+      # Every action is pinned to the commit its tag named on 2026-09-28, so a moved tag cannot
+      # run other code with this job's permissions.
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
           ref: main
+          persist-credentials: false
 
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
 
       - name: Test the builder
-        run: uv run --project tools/packbuilder python -m unittest discover -s tools/packbuilder/tests -t tools/packbuilder/tests
+        run: uv run --locked --project tools/packbuilder python -m unittest discover -s tools/packbuilder/tests -t tools/packbuilder/tests
+
+      - name: Name the week
+        id: week
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
 
       # Pictures and upstream files are fetched once and reused, so a weekly run asks the
-      # sources only for what is new.
+      # sources only for what is new. One saved copy a week, not one per run.
       - name: Restore downloads
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: .cache
-          key: downloads-${{ github.run_id }}
+          key: downloads-${{ steps.week.outputs.week }}
           restore-keys: downloads-
 
       - name: Build and publish
@@ -57,12 +65,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_TOKEN: ${{ github.token }}
-        run: uv run --project tools/packbuilder packbuilder build --publish
+        run: uv run --locked --project tools/packbuilder packbuilder build --publish
 
-      # Also after a failed build: the games that did build were published, and index.json
-      # must say so; a refused game's blocked.md is saved too, so the reason is in the repository.
+      # Also after a failed or cancelled build: the games that did build were published, and
+      # index.json must say so; a refused game's blocked.md is saved too. A push to main during the
+      # run is taken in first (the build touches only its own folders), and the push is tried again.
       - name: Save the result
-        if: success() || (failure() && steps.build.outcome == 'failure')
+        if: always() && steps.build.outcome != 'skipped'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -72,4 +83,10 @@ jobs:
             exit 0
           fi
           git commit -m "build: packs $(date -u +%Y-%m-%d)"
-          git push
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          for attempt in 1 2 3; do
+            git pull --rebase "$remote" main && git push "$remote" HEAD:main && exit 0
+            echo "Push attempt $attempt failed; trying again."
+            sleep $((attempt * 10))
+          done
+          exit 1
