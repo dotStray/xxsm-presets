@@ -20,6 +20,7 @@ Sources, and why each is allowed (checked 2026-09-25):
 from __future__ import annotations
 
 import datetime
+import urllib.parse
 from dataclasses import dataclass, field
 
 from packbuilder.http import Fetcher, FetchError
@@ -267,6 +268,20 @@ def _starrail_outfits(fetcher: Fetcher, previous: dict[str, Character], pictures
     }
 
 
+def _on(site: str, path: object) -> str | None:
+    """A path upstream gives, as an address on ``site`` and nowhere else.
+
+    Glued on as text, ``@evil.tld/x`` or ``.evil.tld/x`` would have named another host (audit P5).
+    """
+    if not isinstance(path, str) or not path:
+        return None
+    joined = urllib.parse.urljoin(site + "/", path)
+    parts = urllib.parse.urlparse(joined)
+    if parts.scheme != "https" or parts.netloc != urllib.parse.urlparse(site).netloc:
+        return None
+    return joined
+
+
 def _zenless(fetcher: Fetcher, previous: dict[str, Character]) -> list[Character]:
     avatars = fetcher.get_json(f"{ENKA}/zzz/avatars.json")
     locs = fetcher.get_json(f"{ENKA}/zzz/locs.json")
@@ -299,15 +314,15 @@ def _zenless(fetcher: Fetcher, previous: dict[str, Character]) -> list[Character
                 },
                 # The full-body art, framed the way the game's own round face icon frames it:
                 # the look the user chose (2026-09-25), cut square to fit a square tile.
-                image=f"{ui}{entry['Image']}" if entry.get("Image") else None,
-                frame=f"{ui}{entry['CircleIcon']}" if entry.get("CircleIcon") else None,
+                image=_on(ui, entry.get("Image")),
+                frame=_on(ui, entry.get("CircleIcon")),
                 outfits=sorted(
                     (
                         Outfit(
                             f"skin:{skin_id}",
                             None,
-                            f"{ui}{skin['Image']}" if skin.get("Image") else None,
-                            f"{ui}{skin['CircleIcon']}" if skin.get("CircleIcon") else None,
+                            _on(ui, skin.get("Image")),
+                            _on(ui, skin.get("CircleIcon")),
                         )
                         for skin_id, skin in (entry.get("Skins") or {}).items()
                     ),

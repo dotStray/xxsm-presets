@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import os
 import pathlib
+import shutil
 import tempfile
 from dataclasses import dataclass
 
@@ -103,3 +104,20 @@ def read_json(path: pathlib.Path, default: object = None) -> object:
 
 class BuildError(Exception):
     """A problem a person has to fix. The message is shown as it is, so it is written in plain words."""
+
+
+def swap_in(staging: pathlib.Path, destination: pathlib.Path) -> None:
+    """Puts a finished folder in place of another: the old one renamed aside first, removed last.
+
+    Removing the old folder first left a moment with no folder at all; a run stopped there came
+    back to find the pack missing, and the "a character would disappear" check then compared
+    against nothing (audit P8).
+    """
+    aside = destination.with_name(f".{destination.name}.old")
+    if aside.exists():
+        shutil.rmtree(aside)
+    if destination.exists():
+        destination.rename(aside)
+    staging.rename(destination)
+    if aside.exists():
+        shutil.rmtree(aside)

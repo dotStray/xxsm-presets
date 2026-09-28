@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import datetime
 import unittest
+import urllib.parse
+import zlib
 
 import helpers  # noqa: F401  (puts src on the path)
 
@@ -158,6 +160,8 @@ class VersionAndZipTest(unittest.TestCase):
         self.assertEqual(build.next_version(day, set()), "2026.09.25")
         self.assertEqual(build.next_version(day, {"2026.09.25"}), "2026.09.25.01")
         self.assertEqual(build.next_version(day, {"2026.09.25", "2026.09.25.01"}), "2026.09.25.02")
+        # Audit P7: a tag that is not a date sorts after every date as text, and stopped every run.
+        self.assertEqual(build.next_version(day, {"v1", "2026.09.24"}), "2026.09.25")
         self.assertGreater("2026.09.25.01", "2026.09.25")
         self.assertGreater("2026.09.25.10", "2026.09.25.09")
 
@@ -311,3 +315,56 @@ class StarRailRosterTest(unittest.TestCase):
         self.assertEqual([o.key for o in characters[0].outfits], ["skin:1131001"])
         self.assertEqual(characters[0].outfits[0].image, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1131001.png")
 
+
+class HostilePictureTest(unittest.TestCase):
+    """A picture from a source is data: only picture formats, and no bomb (audit P4)."""
+
+    def test_a_format_that_is_not_a_picture_format_is_refused(self):
+        eps = b"%!PS-Adobe-3.0 EPSF-3.0\n%%BoundingBox: 0 0 10 10\nshowpage\n"
+        with self.assertRaises((OSError, ValueError)):
+            images.game_icon(eps)
+
+    def test_a_picture_claiming_to_be_enormous_is_refused_as_unreadable(self):
+        png = bytearray(helpers.png())
+        png[16:24] = (60000).to_bytes(4, "big") + (60000).to_bytes(4, "big")
+        png[29:33] = zlib.crc32(bytes(png[12:29])).to_bytes(4, "big")  # the header's own checksum
+        with self.assertRaises(ValueError):
+            images.game_icon(bytes(png))
+
+
+class UpstreamAddressTest(unittest.TestCase):
+    """An address built from upstream's data stays on upstream's site (audit P5)."""
+
+    def test_a_path_stays_on_the_site(self):
+        self.assertEqual(roster._on("https://enka.network", "/ui/zzz/Anby.png"), "https://enka.network/ui/zzz/Anby.png")
+
+    def test_a_path_glued_on_as_text_would_have_changed_the_host_and_joined_it_cannot(self):
+        # f"https://enka.network{path}" with "@evil.tld/x" is https://enka.network@evil.tld/x.
+        for tricky in ("@evil.tld/x.png", ".evil.tld/x.png"):
+            address = roster._on("https://enka.network", tricky)
+            self.assertEqual(urllib.parse.urlparse(address).netloc, "enka.network", tricky)
+
+    def test_a_path_naming_another_host_or_plain_http_is_no_address(self):
+        for hostile in ("//evil.tld/x.png", "https://evil.tld/x.png", "http://enka.network/x.png"):
+            self.assertIsNone(roster._on("https://enka.network", hostile), hostile)
+
+
+class PublicZipTest(unittest.TestCase):
+    """What goes into a public zip (audit P9)."""
+
+    def test_a_link_in_a_pack_is_not_zipped(self):
+        import tempfile, pathlib, zipfile, io, os
+        with tempfile.TemporaryDirectory() as temp:
+            pack = pathlib.Path(temp) / "pack"
+            (pack / "images").mkdir(parents=True)
+            (pack / "manifest.json").write_text('{"packVersion": "2026.09.25"}')
+            secret = pathlib.Path(temp) / "secret.txt"
+            secret.write_text("private")
+            os.symlink(secret, pack / "images" / "x.webp")
+            os.symlink(pathlib.Path(temp), pack / "linked")
+            names = zipfile.ZipFile(io.BytesIO(release.zip_bytes(pack))).namelist()
+        self.assertEqual(names, ["manifest.json"])
+
+    def test_a_name_with_a_trailing_newline_is_not_an_id(self):
+        self.assertFalse(names.is_valid_id("Foo\n"))
+        self.assertTrue(names.is_valid_id("Foo"))

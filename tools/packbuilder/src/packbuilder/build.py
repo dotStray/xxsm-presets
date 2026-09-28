@@ -19,11 +19,13 @@ from __future__ import annotations
 import datetime
 import hashlib
 import pathlib
+import re
 import shutil
+import traceback
 from dataclasses import dataclass, field
 
 from packbuilder import BUILDER, assemble as assembler, checks, hashes, images, manual, reports, roster
-from packbuilder.files import BuildError, Repo, dumps, read_json, write_bytes, write_json, write_text
+from packbuilder.files import BuildError, Repo, dumps, read_json, swap_in, write_bytes, write_json, write_text
 from packbuilder.http import Fetcher, FetchError
 from packbuilder.settings import load_config, load_overrides
 
@@ -57,7 +59,17 @@ def build_game(
         return _build(repo, game, fetcher, refresh_roster, refresh_hashes, today or datetime.datetime.now(datetime.timezone.utc).date(), known_versions or set(), result)
     except BuildError as error:
         result.errors.append(str(error))
-        return result
+    except Exception as error:  # noqa: BLE001 — one game's surprise must not stop the other two (audit P3)
+        result.errors.append(
+            f"The build of {game} stopped on something it did not expect ({type(error).__name__}: {error}).\n\n"
+            f"```\n{traceback.format_exc().rstrip()}\n```"
+        )
+    # Whatever stopped it: the reason is in reports/<game>/blocked.md, and no half-built pack is left (P8).
+    reports.write_blocked(repo.reports(game), game, result.errors)
+    staging = repo.pack(game).with_name(f".{game}.new")
+    if staging.exists():
+        shutil.rmtree(staging)
+    return result
 
 
 def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_versions, result: GameResult) -> GameResult:
@@ -118,7 +130,7 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     if staging.exists():
         shutil.rmtree(staging)
     if (pack_dir / "images").is_dir():
-        shutil.copytree(pack_dir / "images", staging / "images")
+        shutil.copytree(pack_dir / "images", staging / "images", symlinks=True)
     else:
         (staging / "images").mkdir(parents=True)
     record = read_json(upstream / "images.json", {}) or {}
@@ -186,9 +198,7 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
         manifest = previous_manifest
     write_text(staging / "manifest.json", dumps(manifest))
 
-    if pack_dir.exists():
-        shutil.rmtree(pack_dir)
-    staging.rename(pack_dir)
+    swap_in(staging, pack_dir)
     write_json(upstream / "images.json", pictures.sources)
     if icon_record:
         write_json(upstream / "icon.json", icon_record)
@@ -224,6 +234,8 @@ def game_icon(
 
     if hand.game_icon is not None:
         source = f"manual/{hand.game_icon.parent.parent.name}/images/{hand.game_icon.name}"
+        if hand.game_icon.is_symlink():
+            return [f"{source} is a link, and a link is not read. Put the picture itself there."], record
         try:
             data = images.game_icon(hand.game_icon.read_bytes())
         except (OSError, ValueError) as error:
@@ -299,6 +311,9 @@ def fingerprint(folder: pathlib.Path) -> str:
     return digest.hexdigest()
 
 
+_DATED = re.compile(r"^\d{4}\.\d{2}\.\d{2}(?:\.\d{1,3})?$")
+
+
 def next_version(today: datetime.date, taken: set[str]) -> str:
     """``2026.09.25``, or ``2026.09.25.01`` for a second release the same day. Sorts as text.
 
@@ -309,7 +324,10 @@ def next_version(today: datetime.date, taken: set[str]) -> str:
     (2026-09-27).
     """
     base = today.strftime("%Y.%m.%d")
-    newest = max((version for version in taken if version), default="")
+
+    # Only versions in the dated form order themselves this way: a tag like "v1" sorts after every
+    # date as text, and made every later run refuse to publish (audit P7).
+    newest = max((version for version in taken if _DATED.match(version or "")), default="")
     for candidate in [base, *(f"{base}.{number:02d}" for number in range(1, 100))]:
         if candidate not in taken and candidate > newest:
             return candidate

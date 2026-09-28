@@ -57,6 +57,10 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
 
         if variant.image_path is not None:
             source = f"manual/{pathlib.Path(variant.image_path).parent.parent.name}/images/{pathlib.Path(variant.image_path).name}"
+            if pathlib.Path(variant.image_path).is_symlink():
+                # A link in manual/ is not a picture: it would publish whatever it points at (P9).
+                missing.append((variant.name, f"{source} is a link, and a link is not read."))
+                continue
             original = pathlib.Path(variant.image_path).read_bytes()
             digest = hashlib.sha256(original).hexdigest()
             if previous.get("source") != source or previous.get("sha256") != digest or not target.is_file():
@@ -111,9 +115,23 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
     return ImageResult(images, missing, dict(sorted(sources.items())))
 
 
+# What a picture from a source may be. Pillow otherwise opens any format it knows, and EPS is run
+# through Ghostscript when it is installed — in the job that holds the publishing token (audit P4).
+PICTURE_FORMATS = ["PNG", "JPEG", "WEBP", "GIF"]
+
+
+def _open(data: bytes) -> Image.Image:
+    """Opens a picture from a source: the formats above only, and a decompression bomb refused as
+    ``ValueError`` like any other unreadable picture, rather than escaping as its own kind (P4)."""
+    try:
+        return Image.open(io.BytesIO(data), formats=PICTURE_FORMATS)
+    except Image.DecompressionBombError as error:
+        raise ValueError(f"the picture claims to be larger than any portrait could be ({error})") from error
+
+
 def normalise(data: bytes, crop: str) -> bytes:
     """A portrait as the pack stores it: cropped, at most 512 px, WebP, under 80 KB."""
-    with Image.open(io.BytesIO(data)) as opened:
+    with _open(data) as opened:
         image = opened.convert("RGBA")
     return encode(_crop(image, crop))
 
@@ -136,7 +154,7 @@ def store_icon_url(app: str, fetcher: Fetcher) -> str:
 
 def game_icon(data: bytes) -> bytes:
     """The game's icon as the pack stores it: square, with any spare space left transparent, never cut."""
-    with Image.open(io.BytesIO(data)) as opened:
+    with _open(data) as opened:
         image = opened.convert("RGBA")
     side = max(image.size)
     square = Image.new("RGBA", (side, side), (0, 0, 0, 0))
@@ -188,9 +206,9 @@ def frame_square(full_data: bytes, face_data: bytes) -> Image.Image:
     entry of the same source, so they are always the same character; the search only decides
     where the face is, and the build's portraits were checked by eye.
     """
-    with Image.open(io.BytesIO(full_data)) as opened:
+    with _open(full_data) as opened:
         full = opened.convert("RGBA")
-    with Image.open(io.BytesIO(face_data)) as opened:
+    with _open(face_data) as opened:
         face = opened.convert("RGBA")
     flat = Image.alpha_composite(Image.new("RGBA", full.size, (0, 0, 0, 255)), full).convert("RGB")
     width = full.width

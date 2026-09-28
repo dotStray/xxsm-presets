@@ -14,7 +14,7 @@ import pathlib
 import shutil
 from dataclasses import dataclass
 
-from packbuilder.files import read_json, write_json
+from packbuilder.files import read_json, write_json, swap_in
 from packbuilder.http import Fetcher, FetchError
 
 KINDS = {
@@ -85,9 +85,7 @@ def refresh(repo: str, folder: str, destination: pathlib.Path, fetcher: Fetcher)
         target.write_bytes(data)
     write_json(staging / "lock.json", {"repo": repo, "commit": commit, "folder": folder, "files": dict(sorted(wanted.items()))})
 
-    if destination.exists():
-        shutil.rmtree(destination)
-    staging.rename(destination)
+    swap_in(staging, destination)
     return commit
 
 

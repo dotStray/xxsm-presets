@@ -5,10 +5,11 @@ from __future__ import annotations
 import datetime
 import pathlib
 import unittest
+from unittest import mock
 
 import helpers
 
-from packbuilder import assemble, learn, manual, roster
+from packbuilder import assemble, build, learn, manual, roster
 from packbuilder.build import build_game
 from packbuilder.hashes import Folder
 from packbuilder.settings import Overrides
@@ -238,6 +239,16 @@ class BuildTest(unittest.TestCase):
         self.assertEqual(manifest["authoredBy"], "official")
         for report in ("pending-hashes", "missing-images", "inference-report", "collisions", "manual"):
             self.assertTrue((self.fake.root / "reports" / "testgame" / f"{report}.md").is_file(), report)
+
+    def test_a_surprise_in_one_game_is_that_game_s_error_with_its_traceback(self):
+        # Audit P3: an AttributeError from an odd upstream answer used to stop every game's build.
+        with mock.patch.object(build.assembler, "assemble", side_effect=AttributeError("'list' object has no attribute 'get'")):
+            result = self.build()
+        self.assertTrue(result.errors)
+        self.assertIn("AttributeError", result.errors[0])
+        blocked = (self.fake.root / "reports" / "testgame" / "blocked.md").read_text()
+        self.assertIn("Traceback", blocked)
+        self.assertFalse((self.fake.root / "packs" / ".testgame.new").exists(), "no half-built pack is left (P8)")
 
     def test_nothing_changed_means_the_same_version_and_bytes(self):
         self.build()

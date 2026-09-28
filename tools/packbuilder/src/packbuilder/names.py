@@ -40,4 +40,5 @@ def split_camel(identifier: str) -> str:
 
 
 def is_valid_id(value: str) -> bool:
-    return bool(ID_PATTERN.match(value))
+    # fullmatch: with match, "$" also matches before a final newline, and "Foo\n" passed (P9).
+    return bool(ID_PATTERN.fullmatch(value))

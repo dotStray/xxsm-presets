@@ -151,6 +151,10 @@ def _try(repo: Repo, args) -> int:
             print("Nothing was made: fix what is listed above first.", file=sys.stderr)
             return 1
         if args.out.exists():
+            # Only a folder this command made (it holds an index.json) or an empty one (P9).
+            if not ((args.out / "index.json").is_file() or not any(args.out.iterdir())):
+                print(f"{args.out} is not a folder `packbuilder try` made and is not empty; nothing was changed. Choose another --out.", file=sys.stderr)
+                return 1
             shutil.rmtree(args.out)
         release.local_registry(trial, games, args.out)
     print()

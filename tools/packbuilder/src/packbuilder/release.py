@@ -63,12 +63,25 @@ def zip_bytes(pack: pathlib.Path) -> bytes:
     stamp = _stamp(manifest.get("packVersion", "1980.01.01"))
     buffer = io.BytesIO()
     with zipfile.ZipFile(buffer, "w", zipfile.ZIP_DEFLATED) as archive:
-        for path in sorted((p for p in pack.rglob("*") if p.is_file()), key=lambda p: p.relative_to(pack).as_posix()):
+        # No link, and nothing reached through one: a link in a pack could put .git/config or anything
+        # else on this machine into a public zip (P9).
+        files = (p for p in pack.rglob("*") if p.is_file() and not _through_link(pack, p))
+        for path in sorted(files, key=lambda p: p.relative_to(pack).as_posix()):
             info = zipfile.ZipInfo(path.relative_to(pack).as_posix(), stamp)
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o644 << 16
             archive.writestr(info, path.read_bytes())
     return buffer.getvalue()
+
+
+def _through_link(root: pathlib.Path, path: pathlib.Path) -> bool:
+    """Whether ``path`` is a link, or is reached through one, below ``root``."""
+    current = path
+    while current != root and current != current.parent:
+        if current.is_symlink():
+            return True
+        current = current.parent
+    return False
 
 
 def _stamp(version: str) -> tuple[int, int, int, int, int, int]:
@@ -258,6 +271,8 @@ def publish(
         sections.append(_section(game, version, change))
     for game_id, game, manifest in restored:
         version = manifest["packVersion"]
+        # Zipped again, not downloaded: a restored pack is one whose release was deleted, so there is
+        # no published copy of it left to attach (checked for the audit's P9, 2026-09-28).
         name = f"{game_id}-{version}.zip"
         data = zip_bytes(repo.pack(game_id))
         write_bytes(dist / name, data)
