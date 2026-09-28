@@ -901,6 +901,21 @@
     }
   },
   {
+    "internalName": "Pearl",
+    "displayName": "Pearl",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Pearl",
+    "image": "images/Pearl.webp",
+    "releaseDate": "2026-09-28",
+    "attributes": {
+      "element": "ice",
+      "path": "elation",
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "Pela",
     "displayName": "Pela",
     "baseCharacterId": null,

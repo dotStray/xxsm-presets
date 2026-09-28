@@ -247,6 +247,10 @@
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png",
     "sha256": "c39b2d526503423e6af0597234f5526e87d33625697060c9e10b66730b0a6112"
   },
+  "Pearl": {
+    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1503.png",
+    "sha256": "8ed274a238cc363eda1a6985621451d3af85991a5668668c061a852922066c1b"
+  },
   "Pela": {
     "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png",
     "sha256": "741b01054c401a17918505dba71e6473f2cd7155f473bf42d8bf55310074c90c"

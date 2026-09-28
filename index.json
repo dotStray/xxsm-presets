@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T00:00:00Z",
+  "updatedAt": "2026-09-28T00:00:00Z",
   "packs": [
     {
       "gameId": "genshin",
@@ -12,7 +12,7 @@
           "packVersion": "2026.09.25.01",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.26/genshin-2026.09.25.01.zip",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.28/genshin-2026.09.25.01.zip",
           "sha256": "067d18b59e2d28bf1cc251df67e078eb9591e4a4204f5c4751c63b01cdff6c60",
           "sizeBytes": 2932548,
           "changelog": "124 characters and 28 skins, 19 still waiting for hashes."
@@ -25,6 +25,15 @@
       "shortName": "HSR",
       "importer": "SRMI",
       "versions": [
+        {
+          "packVersion": "2026.09.28",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.28/starrail-2026.09.28.zip",
+          "sha256": "e83a94e6ed42015a79723e81a46739309c6c14d36774c5ccbc2428407c5f5e48",
+          "sizeBytes": 6056593,
+          "changelog": "90 characters and 7 skins, 1 still waiting for hashes."
+        },
         {
           "packVersion": "2026.09.26",
           "packSchemaVersion": 1,
@@ -46,7 +55,7 @@
           "packVersion": "2026.09.25",
           "packSchemaVersion": 1,
           "minAppVersion": "0.1.0",
-          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.26/zenless-2026.09.25.zip",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.09.28/zenless-2026.09.25.zip",
           "sha256": "8bf451feb728ebcc236364ca85ce5edb9918e8cfc2381a249624318367ff5de7",
           "sizeBytes": 899243,
           "changelog": "63 characters and 30 skins, 1 still waiting for hashes."
