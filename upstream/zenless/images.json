@@ -34,6 +34,14 @@
     "frame": "https://enka.network/ui/zzz/IconRoleCircle57_02.png",
     "sha256": "ebae9b26494969cbdd86733c1580c5f66817d76173159f62ed473935e2243cd1"
   },
+  "AriaRobot": {
+    "source": "manual/zenless/images/AriaRobot.png",
+    "sha256": "0a82150271562a4d434f584aee300bfbabe743225147c5168bc17ec3313bc434"
+  },
+  "AriaRobotDiscordant": {
+    "source": "manual/zenless/images/AriaRobotDiscordant.png",
+    "sha256": "5826e08ef805b5e3a69973f77c3e421bb115a9e0db219aa1bb729c9b78c5ef07"
+  },
   "Astra": {
     "source": "https://enka.network/ui/zzz/IconRole36.png",
     "frame": "https://enka.network/ui/zzz/IconRoleCircle36.png",
@@ -48,6 +56,22 @@
     "source": "https://enka.network/ui/zzz/IconRole53.png",
     "frame": "https://enka.network/ui/zzz/IconRoleCircle53.png",
     "sha256": "e40864d8530f9580379f4b70bbe603d9e697efeb6ecd0c24e5998854b4cd957b"
+  },
+  "Belle": {
+    "source": "manual/zenless/images/Belle.png",
+    "sha256": "10e99b1897c8eb781c70aaf5941900c509b0ee270dffba0c070c69b722ed1251"
+  },
+  "BelleBrilliance": {
+    "source": "manual/zenless/images/BelleBrilliance.png",
+    "sha256": "7eac87c2134d1431a45d9b696c75a72aaa661da512882d8d3fb3c9f996ac7eae"
+  },
+  "BelleSummer": {
+    "source": "manual/zenless/images/BelleSummer.png",
+    "sha256": "9f50497cc710950049e34a1c01152c9899fdf97edbbd5845f6fcda52259a551f"
+  },
+  "BelleSunlight": {
+    "source": "manual/zenless/images/BelleSunlight.png",
+    "sha256": "182409e327db3092276e58f24a7d62d1da14b114b080e2598e2e6a574365db29"
   },
   "Ben": {
     "source": "https://enka.network/ui/zzz/IconRole16.png",
@@ -363,6 +387,22 @@
     "source": "https://enka.network/ui/zzz/IconRole41_01.png",
     "frame": "https://enka.network/ui/zzz/IconRoleCircle41_01.png",
     "sha256": "aabeb39f59c28c8845781fc58fca87201204e5fb9e400ff9c486335e9edbd0b4"
+  },
+  "Wise": {
+    "source": "manual/zenless/images/Wise.png",
+    "sha256": "14e7afee2afdc88e991af9453c0f124d183807db84d27926b0546518319809d7"
+  },
+  "WiseCrane": {
+    "source": "manual/zenless/images/WiseCrane.png",
+    "sha256": "091d06c109051eef78f1f83e6fdb4dc11af160ae38c0b836d12ba22d6388ce0e"
+  },
+  "WiseSkies": {
+    "source": "manual/zenless/images/WiseSkies.png",
+    "sha256": "da75066d8f68a9c6b68eb46825502af067f648a5e89a1b8a66f212f5b09f9e4d"
+  },
+  "WiseSummer": {
+    "source": "manual/zenless/images/WiseSummer.png",
+    "sha256": "2bb815927c5749aa0cdf1a1496c5b4c3eb297bc4dd5bbab0aea34d5516711de4"
   },
   "Yanagi": {
     "source": "https://enka.network/ui/zzz/IconRole31.png",

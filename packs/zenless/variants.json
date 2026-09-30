@@ -95,14 +95,16 @@
     "displayName": "Aria Robot",
     "baseCharacterId": null,
     "isDefaultVariant": true,
-    "modFilesName": "AriaRobot"
+    "modFilesName": "AriaRobot",
+    "image": "images/AriaRobot.webp"
   },
   {
     "internalName": "AriaRobotDiscordant",
     "displayName": "Aria Robot Discordant",
     "baseCharacterId": "AriaRobot",
     "isDefaultVariant": false,
-    "modFilesName": "AriaRobotDiscordant"
+    "modFilesName": "AriaRobotDiscordant",
+    "image": "images/AriaRobotDiscordant.webp"
   },
   {
     "internalName": "Astra",
@@ -148,28 +150,32 @@
     "displayName": "Belle",
     "baseCharacterId": null,
     "isDefaultVariant": true,
-    "modFilesName": "Belle"
+    "modFilesName": "Belle",
+    "image": "images/Belle.webp"
   },
   {
     "internalName": "BelleBrilliance",
     "displayName": "Belle Brilliance",
     "baseCharacterId": "Belle",
     "isDefaultVariant": false,
-    "modFilesName": "BelleBrilliance"
+    "modFilesName": "BelleBrilliance",
+    "image": "images/BelleBrilliance.webp"
   },
   {
     "internalName": "BelleSummer",
     "displayName": "Belle Summer",
     "baseCharacterId": "Belle",
     "isDefaultVariant": false,
-    "modFilesName": "BelleSummer"
+    "modFilesName": "BelleSummer",
+    "image": "images/BelleSummer.webp"
   },
   {
     "internalName": "BelleSunlight",
     "displayName": "Belle Sunlight",
     "baseCharacterId": "Belle",
     "isDefaultVariant": false,
-    "modFilesName": "BelleSunlight"
+    "modFilesName": "BelleSunlight",
+    "image": "images/BelleSunlight.webp"
   },
   {
     "internalName": "Ben",
@@ -996,28 +1002,32 @@
     "displayName": "Wise",
     "baseCharacterId": null,
     "isDefaultVariant": true,
-    "modFilesName": "Wise"
+    "modFilesName": "Wise",
+    "image": "images/Wise.webp"
   },
   {
     "internalName": "WiseCrane",
     "displayName": "Wise Crane",
     "baseCharacterId": "Wise",
     "isDefaultVariant": false,
-    "modFilesName": "WiseCrane"
+    "modFilesName": "WiseCrane",
+    "image": "images/WiseCrane.webp"
   },
   {
     "internalName": "WiseSkies",
     "displayName": "Wise Skies",
     "baseCharacterId": "Wise",
     "isDefaultVariant": false,
-    "modFilesName": "WiseSkies"
+    "modFilesName": "WiseSkies",
+    "image": "images/WiseSkies.webp"
   },
   {
     "internalName": "WiseSummer",
     "displayName": "Wise Summer",
     "baseCharacterId": "Wise",
     "isDefaultVariant": false,
-    "modFilesName": "WiseSummer"
+    "modFilesName": "WiseSummer",
+    "image": "images/WiseSummer.webp"
   },
   {
     "internalName": "Yanagi",

@@ -4,7 +4,7 @@
 
 **The character list** comes from [Enka.Network's public data](https://github.com/EnkaNetwork/API-docs).
 
-**Portraits** are game art © COGNOSPHERE / HoYoverse, downloaded from enka.network. The presets repository's `upstream/<game>/images.json` records each picture's exact address.
+**Portraits** are game art © COGNOSPHERE / HoYoverse, downloaded from enka.network, and 10 added by hand. The presets repository's `upstream/<game>/images.json` records each picture's exact address.
 
 **The game icon** is game art © COGNOSPHERE / HoYoverse: the game's own app icon, from its Google Play page.
 
