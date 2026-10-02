@@ -1,6 +1,6 @@
 # genshin: characters waiting for hashes
 
-19 characters in the pack have no hashes yet. They are still usable: they appear in the grid, take mods filed by hand or by name, and offer *Learn hashes from a mod*. A shrinking list is the pipeline working; a growing one means an upstream hash repository has gone quiet.
+23 characters in the pack have no hashes yet. They are still usable: they appear in the grid, take mods filed by hand or by name, and offer *Learn hashes from a mod*. A shrinking list is the pipeline working; a growing one means an upstream hash repository has gone quiet.
 
 To add hashes yourself, put a file in `manual/genshin/hashes/` named after the character.
 
@@ -15,9 +15,13 @@ To add hashes yourself, put a file in `manual/genshin/hashes/` named after the c
 - **LanYan** — Lan Yan
 - **Manekin** — Manekin
 - **Manekina** — Manekina
+- **Mitya** — Mitya
 - **NeuvilletteMelusent** — Melusent Gift (outfit of Neuvillette)
 - **NilouBreeze** — Breeze of Sabaa (outfit of Nilou)
 - **Odette** — Odette
+- **TravelerBoyHeaven** — As Heaven and Earth Are Made Anew (outfit of TravelerBoy)
+- **TravelerGirlHeaven** — As Heaven and Earth Are Made Anew (outfit of TravelerGirl)
+- **Valeriy** — Valeriy
 - **Vesna** — Vesna
 - **Vodyanitsa** — Vodyanitsa
 - **XianglingNew** — New Year's Cheer (outfit of Xiangling)

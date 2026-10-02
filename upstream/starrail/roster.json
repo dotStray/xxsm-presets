@@ -1,5 +1,5 @@
 {
-  "source": "yatta-starrail",
+  "source": "gachabase-starrail",
   "characters": [
     {
       "key": "avatar:1001",
@@ -13,17 +13,18 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/9418d6a3a92a32b09501bbd72f8f3571.png",
       "outfits": [
         {
           "key": "skin:1100101",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1100101.png"
+          "name": "Nascent Spring",
+          "image": "https://cdn.gachabase.net/hsr/assets/ef29323e766cb40d506861e800449b00.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:c085e7f6c3ec28dad49ee859ef70b86a:348aeec467324443cc969caf2cb3d1d3:afeaae523fbf40c3353009b36d70fa54"
     },
     {
       "key": "avatar:1002",
@@ -37,11 +38,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1002.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/808d204ed791f2ff4a5e533dea63b70a.png",
+      "sourceHash": "release:r2:7174ce5322a322ca34ade80de61794a3:c5164da1ff7e62b2481d187bb2515ad0:0fc8fd4d9f1e8944dae39a0a27de1441"
     },
     {
       "key": "avatar:1003",
@@ -51,11 +52,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1003.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/26a0a1c7fa3cd5d4c7e002e7a7a38196.png",
+      "sourceHash": "release:r2:062aeaff63b5823f1cf484efaa130785:6c832f09adc0b4ee099c3c827d042999:20e29d3b1b8a5c8d5deeb882de5c01ee"
     },
     {
       "key": "avatar:1004",
@@ -65,11 +66,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1004.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/b8e968d79adaeef4b592a197a167ff34.png",
+      "sourceHash": "release:r2:cebfc99de100203fa41b8f94520e48e7:9ebdc38f0dc088daf8fb642b34bc537f:ea7476c7d0819cb3d7b00c62b0982e65"
     },
     {
       "key": "avatar:1005",
@@ -78,12 +79,12 @@
         "kafka"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Warlock",
+        "element": "Lightning",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2023-07-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1005.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/3e96fc7df78d149f45a0622b407a4990.png",
+      "sourceHash": "release:r2:12a3206c5ab7b6d27126f771e1d0d0ba:56cbe0553b1d2f72c3df85d604f113b6:132501d34ef66e78fdb4a056d228741d"
     },
     {
       "key": "avatar:1006",
@@ -97,11 +98,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2023-06-07",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1006.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/2ffd18388014392b721df480b6a147a9.png",
+      "sourceHash": "release:r2:e18fe2bcca93d4e5eb7b5fa63a172bfc:1245d4d51fbcea807fe043fff91b1ab5:04293fe568fd95cb6ffd7f82b171556a"
     },
     {
       "key": "avatar:1008",
@@ -110,12 +111,12 @@
         "arlan"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Warrior",
+        "element": "Lightning",
+        "path": "Destruction",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1008.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/ed08113df4fe2936288906558416670f.png",
+      "sourceHash": "release:r2:6aa4229c068e37318516d1ec70ad59ad:1ad8a86c4bc76c5be9c59ca9db97d6b5:2abdccaad4ee3bae2f07e1a02d238734"
     },
     {
       "key": "avatar:1009",
@@ -125,11 +126,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1009.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/8cafc46d07ce456dc3fad53fb5f1cf2b.png",
+      "sourceHash": "release:r2:1db9ed4794f9465da98a8b235f169e87:3b14204d63a1e8e32215a4d739cb1239:71272f89bd7122c2cdcdab34fbe2cbc7"
     },
     {
       "key": "avatar:1013",
@@ -139,11 +140,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1013.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/7ea5a61ea4dcfb27b4ec0ae05dc3b552.png",
+      "sourceHash": "release:r2:a3bfbd928acc3102d63b3c03b4d90276:ee9588dfca97bced27be34299a02bfce:68a4dfe72db264b2c1806755923a3085"
     },
     {
       "key": "avatar:1014",
@@ -153,11 +154,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2025-07-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d24c764b3defa40d37d46706f9646a24.png",
+      "sourceHash": "release:r2:fa42555df25497309d862418bce5905e:1b93344c27a904bc0830b91196269b9c:d0a60569e6e218735d654d0882034033"
     },
     {
       "key": "avatar:1015",
@@ -167,11 +168,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2025-07-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1015.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/cee9af274fb905e5dc461066603f4549.png",
+      "sourceHash": "release:r2:2e344c104b52ae5df94201fc445f0de4:1c3cdfa0c1898d1ab6c7f98ae2d042d8:d66162bc478ee769d75fcaa287472bb9"
     },
     {
       "key": "avatar:1101",
@@ -181,11 +182,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1101.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/53f07b59ba78889e3814345d647a8008.png",
+      "sourceHash": "release:r2:1db914b678e2f3e30c66a3c0f51072eb:cb941035ab0e86883755016f190ea369:0b917ea1983de4a948c7145b6ecfb1f9"
     },
     {
       "key": "avatar:1102",
@@ -195,11 +196,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1102.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/13ce7ecf7e9c5e76ede4e841c39f6ec5.png",
+      "sourceHash": "release:r2:e3baaad5f1ac7487ef7cca7bc76acb8d:e8958d971597bc341d7b9e79b6a4004e:461cb2f5c65e53cc84fee2af1a1d693c"
     },
     {
       "key": "avatar:1103",
@@ -208,12 +209,12 @@
         "serval"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Mage",
+        "element": "Lightning",
+        "path": "Erudition",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1103.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/841670fb0172925c8e31931110cb089f.png",
+      "sourceHash": "release:r2:d2fe1436e5ec513e7ef4eb3b8bb8bef9:99dc95823ad8a32f0dda6c8e21078fa4:320d4af81483ff7ead21c37e0693affb"
     },
     {
       "key": "avatar:1104",
@@ -223,11 +224,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1104.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/f1328ab204ce9e59823adf2d33983215.png",
+      "sourceHash": "release:r2:de8c09f75d3117a32f8750d4e047d270:698c69444097a9889eb178a95710aac6:ac4f045e1b78432f244357f438d8d3bc"
     },
     {
       "key": "avatar:1105",
@@ -237,11 +238,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Priest",
+        "path": "Abundance",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/914c8bb0cf2da14b21fb2da43677a3ba.png",
+      "sourceHash": "release:r2:b622a5fe0739209a500f4cb5d035b788:09891f1afd837df9e88503ee54dcd689:041217c675734d6c8d4f36ea8dc12532"
     },
     {
       "key": "avatar:1106",
@@ -251,11 +252,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/9b883b39f3b0216948efc663bcca7599.png",
+      "sourceHash": "release:r2:d21953084cce4ab6732f1b0992b6d0af:9c8c97318803cc5e874cc9298634431a:c94ec16c19f2cd43a44791b6bdddc779"
     },
     {
       "key": "avatar:1107",
@@ -265,11 +266,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1107.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/334614016646efbda3e7c2025d437dc4.png",
+      "sourceHash": "release:r2:05e74d016635138b228ff88d66560ecc:69b5a8b2183d59a943c2955fc11c5e82:489ba1995a49949f996d031e6db0c0f7"
     },
     {
       "key": "avatar:1108",
@@ -279,11 +280,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1108.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/76d8fa5f38c395f33feb35091fc0f599.png",
+      "sourceHash": "release:r2:e41b4f66575db9df7dd4e96891821188:46392a87f4465134def1359619a2ae98:480c27f7f0c7b9ed307fcc43d6711da3"
     },
     {
       "key": "avatar:1109",
@@ -293,11 +294,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1109.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/65afb26b7cf09f6c34c1a471ada2d232.png",
+      "sourceHash": "release:r2:2376da4421c64065369b661526da2e28:e13eac9497aa3ba2b898fa66ff0d42a1:b9044b915a3128097a12b36289a4009a"
     },
     {
       "key": "avatar:1110",
@@ -307,11 +308,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Priest",
+        "path": "Abundance",
         "rarity": 4
       },
-      "releaseDate": "2023-09-20",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1110.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d0a169d1c37d81a69463abb3a444eba0.png",
+      "sourceHash": "release:r2:ee8a87696889c27cd5bcb294be5ca1cf:59639af9c774720a43c4576016bed15a:bd330dcc1a25e693325526036184c5c6"
     },
     {
       "key": "avatar:1111",
@@ -321,11 +322,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 4
       },
-      "releaseDate": "2023-07-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1111.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/b5ca4e90258025701e2de70a5d9d10b6.png",
+      "sourceHash": "release:r2:cf7e4c2d8bd8a2663f7d7d00a4fee847:ce181651498842916fb22e8fad9f3dff:3af76cd0168b3ba8c277109723c5d4dc"
     },
     {
       "key": "avatar:1112",
@@ -339,11 +340,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2023-10-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1112.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/9ab24d1d3065a93213ce1cf645838f14.png",
+      "sourceHash": "release:r2:8b86e033abc53ee2cc97997fe02d34b3:1630499ac6fe4b968ff1e10ada7720f4:98106dc4750414a2658f42708ed9afaf"
     },
     {
       "key": "avatar:1201",
@@ -353,11 +354,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1201.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/15c98bb50e3071a563619bbcc305d6b5.png",
+      "sourceHash": "release:r2:9a304fd2787b7170857a01a95b4a32ee:420b45da74f43d157fd4f6e128a82221:91d9e78c5c0e6fbce243b3b403569f11"
     },
     {
       "key": "avatar:1202",
@@ -366,12 +367,12 @@
         "tingyun"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Shaman",
+        "element": "Lightning",
+        "path": "Harmony",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1202.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/44b708432a42948b3afb72da1ec7d809.png",
+      "sourceHash": "release:r2:5f5d8d6f1b3b1d97fe0d58f136c5ab78:726b9f57f21b58e0c89cfaec05290705:77fd5fbe6b9e2b9772f3f3d999ce254f"
     },
     {
       "key": "avatar:1203",
@@ -381,11 +382,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Priest",
+        "path": "Abundance",
         "rarity": 5
       },
-      "releaseDate": "2023-06-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1203.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/fddd4efef825c5d70c3df7f5aea85f8a.png",
+      "sourceHash": "release:r2:eafd9e130d7322eb018e1586820cd766:73c182f6e19f0a7540e6b6804961eeca:718448c9c3aab2a10f6a86bfe1a8e0f8"
     },
     {
       "key": "avatar:1204",
@@ -398,12 +399,12 @@
         "jing"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Mage",
+        "element": "Lightning",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2023-05-17",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1204.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/a783ba914152ebf4c6216ed948fe0f90.png",
+      "sourceHash": "release:r2:168403e1e903df7cde69e67b98ea3f7e:2c00542831045e9ad559406251b3fa53:1c2fa6305b56b728b95ac724d76c3ff7"
     },
     {
       "key": "avatar:1205",
@@ -413,11 +414,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2023-07-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1205.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/a608189d947a033cc3cf08d496599da2.png",
+      "sourceHash": "release:r2:cf39ff45f4eb3a1a53fe556a03ba3c36:fd65676054738b437e0b32dc7ca32a7a:703aa7e4d0cea9ea167c6149344bb508"
     },
     {
       "key": "avatar:1206",
@@ -427,11 +428,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 4
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1206.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/101ce4e784382ab4066f9d6ee4d07720.png",
+      "sourceHash": "release:r2:5680786e7782a8bf6ba658945a350dba:845698a494c7045965d010cacafc210b:4d564de70429f5e6c047e1a09c2132f6"
     },
     {
       "key": "avatar:1207",
@@ -441,11 +442,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 4
       },
-      "releaseDate": "2023-06-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1207.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/c5cd1d4da24821fbd7b73b783071dbe1.png",
+      "sourceHash": "release:r2:ebf2415b999cd3f832c21adb282d9c48:1c9843968b1f0b0ad9cb5fd2336a5fe0:f8c875431d0c22fd3c708a3d34c83944"
     },
     {
       "key": "avatar:1208",
@@ -459,11 +460,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 5
       },
-      "releaseDate": "2023-09-20",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/df9b67c565680fa13faf2cc136267fe4.png",
+      "sourceHash": "release:r2:b47b1da380e96021c87d3294915ecd12:6a53fdf5c796ec1db1a451535b868294:03111dc3b4000a0f3a632c29e6884333"
     },
     {
       "key": "avatar:1209",
@@ -473,11 +474,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1209.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/88866874fa2ce76d3c8f65a03323406d.png",
+      "sourceHash": "release:r2:55c516ee136657bd4efc135481d98758:08371a7fe3d293b088ca4d63ce44109c:22ccb057559d6c06906bc9e00c0029e9"
     },
     {
       "key": "avatar:1210",
@@ -487,11 +488,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 4
       },
-      "releaseDate": "2023-10-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1210.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/08c2ef0e81aa09837a4599199aebbe2f.png",
+      "sourceHash": "release:r2:5e09e0dc37db4e399f1e13917fbe00a2:67ad06204670e9027d8004ec60096af0:42528f621877a42fce02980d3dfbe1c9"
     },
     {
       "key": "avatar:1211",
@@ -500,12 +501,12 @@
         "bailu"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Priest",
+        "element": "Lightning",
+        "path": "Abundance",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1211.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/be6f955fd12ceb085ef86e33e8282462.png",
+      "sourceHash": "release:r2:efcc903e2fcf4cc4fb1f801364f0d40c:6de9e7e4ec275931626254349696ba47:265d8cc13b4a08540b0d12892e63a594"
     },
     {
       "key": "avatar:1212",
@@ -515,11 +516,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2023-10-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1212.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d92f84839ec3a75d2a0192f95a6f5708.png",
+      "sourceHash": "release:r2:dcf9cf44bc7a96c51461bda4649e00e9:c873780e79dc14cc82c0df6d56740424:508528d056e2cd36d07b8d7f7095f275"
     },
     {
       "key": "avatar:1213",
@@ -533,11 +534,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2023-08-30",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1213.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/7d9d7c036c0d88048b228a6e2853cc20.png",
+      "sourceHash": "release:r2:9b92ab5e838aa2c186fc6a26144e7e04:8aa823eb65d275e5f3e558fda7e6d630:80dc1a5f984abe656251964f04b2d282"
     },
     {
       "key": "avatar:1214",
@@ -547,11 +548,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 4
       },
-      "releaseDate": "2023-12-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1214.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d64bee997d9eecdd991fdb70944f6fcf.png",
+      "sourceHash": "release:r2:5dfd8da79069b5a9aae891fb1b70bc58:4c1204c7a7a40e75621d1f4679b07ab8:98d733a5e0188a5e5f0349b752d5c192"
     },
     {
       "key": "avatar:1215",
@@ -561,11 +562,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 4
       },
-      "releaseDate": "2023-12-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1215.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/faa2244d18987fd1acba90814ea1d200.png",
+      "sourceHash": "release:r2:91f5840b01d20f21ab5ead6d0e7331a0:c056a5659bef209caef68e31a1588ea8:b91ab4a1daafc8d4756dc186c2006703"
     },
     {
       "key": "avatar:1217",
@@ -575,11 +576,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Priest",
+        "path": "Abundance",
         "rarity": 5
       },
-      "releaseDate": "2023-11-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1217.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/cdfa676f1e33e447f594d1f4464ff71e.png",
+      "sourceHash": "release:r2:3bf9eebcdfffd4aca3024c75cb75a776:38b74a78053f4cc73344ed5a7e26448f:61394372aea49cf8850435a65ba4e120"
     },
     {
       "key": "avatar:1218",
@@ -589,11 +590,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2024-08-21",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1218.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/be21dc8b2e7fe7bd458c3b13ac141973.png",
+      "sourceHash": "release:r2:476cdcfd0e4df025c22d8bd6ed9cef48:017eaee8da01fa8650d31e59adfea6db:e190d72c0f9e8611ea634871f255b6e7"
     },
     {
       "key": "avatar:1220",
@@ -603,11 +604,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2024-09-10",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1220.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/6b3211e1964ddc0053e944a551f16a43.png",
+      "sourceHash": "release:r2:769520546edfe13e23c9d5bbd8ccc9e3:910174d3a6272602da91620fe152427b:e1873b2b846ea59ba02fe365be7bc391"
     },
     {
       "key": "avatar:1221",
@@ -617,11 +618,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2024-07-31",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1221.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/4613b49e0fcaf841eb190f9f0003d5eb.png",
+      "sourceHash": "release:r2:b00557a3c738c65d66b9128be425e011:78aab506c69f448f9d8940b7547e8c9f:c5e64218498c13bc6f27dcdcb8ec6392"
     },
     {
       "key": "avatar:1222",
@@ -631,11 +632,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Priest",
+        "path": "Abundance",
         "rarity": 5
       },
-      "releaseDate": "2024-10-02",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1222.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/739c96807d1bec7ee49dcb6e4c81b41f.png",
+      "sourceHash": "release:r2:a53cee22d0401075a40bb6c29b6b3b56:8f1e4662c9de9da5538d895c0eacec44:3550976b115aee1eb1fe4ee39080855d"
     },
     {
       "key": "avatar:1223",
@@ -644,12 +645,12 @@
         "moze"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Rogue",
+        "element": "Lightning",
+        "path": "The Hunt",
         "rarity": 4
       },
-      "releaseDate": "2024-09-10",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1223.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/df925da554f836000c395c9972ec10e2.png",
+      "sourceHash": "release:r2:5dd5cf579322bb8c79fb772dfd39fafb:1acf7b4b225c7ddd4b39534bdd64bd15:d9fd02f012863bbfb328fbad7ad1b060"
     },
     {
       "key": "avatar:1224",
@@ -663,11 +664,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 4
       },
-      "releaseDate": "2024-07-31",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1224.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d05da62e4167ca64bfbb162e26ee72a9.png",
+      "sourceHash": "release:r2:814e1241a52f2c74c77a7a4faa7b5cc8:f7a205dbf0973f199985bfd909824fc9:0aea729dee10e4fe5d2d97fcc670d0c5"
     },
     {
       "key": "avatar:1225",
@@ -677,11 +678,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2024-12-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1225.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/5c0a3732fbd1bbea48d97941a19ad3d4.png",
+      "sourceHash": "release:r2:de0f96990a859fe1d15c6b4fc4ad9691:1390857a9d1f7802b80651471cad0aa6:656e053ca452d80b1065bb7906a39d7d"
     },
     {
       "key": "avatar:1301",
@@ -691,11 +692,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Priest",
+        "path": "Abundance",
         "rarity": 4
       },
-      "releaseDate": "2024-03-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1301.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/15c206167a003f7ce39b9a7165ecdb36.png",
+      "sourceHash": "release:r2:313112ee087a2c287d364cccfb7c4ea1:e4e72789fc1ac3f2d2e5050e2a5d22a8:32eac3d9fdce98e80cb046a3b748c66b"
     },
     {
       "key": "avatar:1302",
@@ -705,11 +706,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2023-12-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1302.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/351a5bdb5bdff3897dbdebde47941cbc.png",
+      "sourceHash": "release:r2:384a4f181a1782a3378006553ca57f12:12989f3c812ec0f7a08e4e9c840d1793:01810d5a2690843d4bdce76fc78f2340"
     },
     {
       "key": "avatar:1303",
@@ -723,17 +724,18 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2023-12-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/573122ecf10d8ff28f026974bc2210bd.png",
       "outfits": [
         {
           "key": "skin:1130301",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1130301.png"
+          "name": "Plumblossom Letter",
+          "image": "https://cdn.gachabase.net/hsr/assets/f390a5b0f82aa50f708f09153d5bf70a.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:9c884c6a2114326f4988264147b1eb63:906cfb22046d4171007719a1fd927cee:7261c1ce548baf9496ed7bd75937501a"
     },
     {
       "key": "avatar:1304",
@@ -743,11 +745,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 5
       },
-      "releaseDate": "2024-04-17",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1304.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/07756cf596fdba62a2a199821cd93971.png",
+      "sourceHash": "release:r2:fec5c64a3e552cc3bb5bebf1fe852f6f:8239f32762fa43361f94e0c833a98244:d1b191ca21106bc5bfe6ea663e3370f9"
     },
     {
       "key": "avatar:1305",
@@ -761,11 +763,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2024-01-17",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1305.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/3a33024c2bc9b1dfd8a95969c8675e92.png",
+      "sourceHash": "release:r2:b1c3b3b897a04f3a54de74b3adfbcd7d:2b7ed1dca9996c0ecc915b15cf0a11c9:1168ee7ec9e2a63b545a3e351e564dc6"
     },
     {
       "key": "avatar:1306",
@@ -775,11 +777,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2024-02-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1306.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/fa392ec307add9c1adedef9c2a23e224.png",
+      "sourceHash": "release:r2:2d583904b1191c1ba169f5c82f2df0fe:ff4b9431c699bb948fab606f5c6f50a6:674e99bb9e64ac0ecfc6e791e5320481"
     },
     {
       "key": "avatar:1307",
@@ -793,11 +795,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2024-02-06",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1307.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/2129d94b36071fd12e993301a17f2a8a.png",
+      "sourceHash": "release:r2:365645be86b3e5f70779af854c1ab987:0873eeb5e811526122d3d130227a7791:7d868a563cf9bcd0b621cfe1cd8c91f3"
     },
     {
       "key": "avatar:1308",
@@ -806,12 +808,12 @@
         "acheron"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Warlock",
+        "element": "Lightning",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2024-03-27",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1308.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/c0f59d0bd9d4cdbf59f9d7d3d1dcd5fc.png",
+      "sourceHash": "release:r2:a70c1f9f51a33b5dd9755fe52f481bba:34ce9c9dff84478c9d4fef822a2af19b:efb90851bc736d03ccf0d95c4fd5deea"
     },
     {
       "key": "avatar:1309",
@@ -821,11 +823,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2024-05-08",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1309.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/0ab2fee18c19a8f8fff01362f14af640.png",
+      "sourceHash": "release:r2:f85cbf46c8072925710418244dbda5c2:358faaa2e8f227ec70da366a3539b05d:d4df785a6edfb31e850b617b9c494e81"
     },
     {
       "key": "avatar:1310",
@@ -835,17 +837,18 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2024-06-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/2d70d4c8b146fb172af136ee0ac3e4ce.png",
       "outfits": [
         {
           "key": "skin:1131001",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1131001.png"
+          "name": "Spring Missive",
+          "image": "https://cdn.gachabase.net/hsr/assets/c2860460be83612782abf069015053ae.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:9079abd9dfcc7eeef6f332fd72b7f8bd:e61c0741ed1bfa39f1de8cbddcf602c6:e1360aecfeb1b0c35c126ab7dc223e24"
     },
     {
       "key": "avatar:1312",
@@ -855,11 +858,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 4
       },
-      "releaseDate": "2024-02-29",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/b5402d328eec1defa9d4be37c18b6bd5.png",
+      "sourceHash": "release:r2:45546a4c7c2db83c1235f5bbfe15bd7a:32816df2e723879537935cf60e8f567e:6d2f036d09699cc7265e3cb2864ae561"
     },
     {
       "key": "avatar:1313",
@@ -869,11 +872,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2024-12-04",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1313.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/2dd3f7d16106722b57ff155f25dba780.png",
+      "sourceHash": "release:r2:88c3a1241876d0228ebb28e598ad0b57:e3f83cce8a477db0d7782b82c3cae765:b9ce53dc8174b077911bd3005925bad4"
     },
     {
       "key": "avatar:1314",
@@ -883,11 +886,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2024-07-10",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1314.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/df3e4413c8aae536c59e8016d0035049.png",
+      "sourceHash": "release:r2:79ad1825c595b08e39d3d7b5e355b5cf:ef0267f6bf792e97cafef0d3166d85e5:85eda00b7c02d7ef5f2cd61848401726"
     },
     {
       "key": "avatar:1315",
@@ -897,11 +900,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Rogue",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2024-05-29",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1315.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/e6f8ee4ceae0c6121e2578b2a5e1e030.png",
+      "sourceHash": "release:r2:4753c3a39f16b6050a6b16f2141fad72:0c49977d107c21fb91a5abe578aa259c:791fef5483d9b5249f15829d709eda05"
     },
     {
       "key": "avatar:1317",
@@ -911,11 +914,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2024-10-23",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1317.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/35f8af937a01096a18877ad4075e1e38.png",
+      "sourceHash": "release:r2:b61dcb50c80bc59c1ba619353c328ed9:d281df90e96bd584d51362850fe608be:23a0bc058839e1c7a5b742468ba22c17"
     },
     {
       "key": "avatar:1321",
@@ -929,11 +932,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2025-12-07",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1321.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/2e88f37e40740679f5c7c573e1885b96.png",
+      "sourceHash": "release:r2:0c1dfaba31e2b95fa0c515b046230d6a:04d47255b4307af1718a9c4bdda72c69:dfaf149b450861f865e2bd5c279f64ab"
     },
     {
       "key": "avatar:1401",
@@ -947,11 +950,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2025-01-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1401.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/46f0566f40866a3f6a2d4807b8b50092.png",
+      "sourceHash": "release:r2:81cffc745db321a55f208aad52f02738:941e297510986c221ecc40b9462b2a93:277b482c592ed9cf7c41c4fba95f33ba"
     },
     {
       "key": "avatar:1402",
@@ -960,12 +963,12 @@
         "aglaea"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Memory",
+        "element": "Lightning",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-02-05",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1402.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/87ac37c964ffbf03f0e59a686c9d2792.png",
+      "sourceHash": "release:r2:514e876d204d32d523b122f45b1ae2c3:c83d1e4059bc3610f71d96a9b06c002b:a0535edc2eabdac8b0230ff627f0ef5b"
     },
     {
       "key": "avatar:1403",
@@ -975,11 +978,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2025-02-26",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1403.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d5075abf0d8bb19bdcde41fb42f97d52.png",
+      "sourceHash": "release:r2:e7f0d3d7ce1ef5087a35c0bfade2c71b:11b1774c3b0e70b700910e74e3fc1538:7e595492b42614a68c03a2fc89967ce0"
     },
     {
       "key": "avatar:1404",
@@ -989,11 +992,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2025-03-19",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1404.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/115c14bcc2b463f28ca40a4a1d8f40ef.png",
+      "sourceHash": "release:r2:7f40774690d8b2bbbe4c7db23b2c3834:2aac6cfdd048a62e1be3b6fcf2db063e:e9702d2bcb958fc7987e953224ff00de"
     },
     {
       "key": "avatar:1405",
@@ -1003,11 +1006,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2025-04-30",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1405.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/cbdcba6e196fff11954438ef37d5f84f.png",
+      "sourceHash": "release:r2:a70d52791142c25836f1565fd1b81174:99362b819bceb978fddb1889f6f5e325:a220099bdd02ba07b5fa78d80f02364d"
     },
     {
       "key": "avatar:1406",
@@ -1017,11 +1020,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2025-06-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1406.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/0cd3c930b443156928927ab68f1f850d.png",
+      "sourceHash": "release:r2:96eeba191abf7fd8abc85687af803051:ada28800aaf9d68e6beb49a2d4424c8e:85b3160739ffa787ac3d7b99567078ac"
     },
     {
       "key": "avatar:1407",
@@ -1031,17 +1034,18 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-04-09",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/9dc6745d071921b94a14e10538c9787c.png",
       "outfits": [
         {
           "key": "skin:1140701",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1140701.png"
+          "name": "Gossamer Flutter",
+          "image": "https://cdn.gachabase.net/hsr/assets/4d171f62b12309d0fd09b6a609e8fe7b.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:0c91e1e93585c6e34d0e36764bbf37ff:a57ef962d753a76db4491892efc860ba:39b5a13fe8c655a8ac582b06e27ebca0"
     },
     {
       "key": "avatar:1408",
@@ -1051,11 +1055,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2025-07-02",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1408.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/83eb1129a542f9a470ed3d1bcdfecd19.png",
+      "sourceHash": "release:r2:beb82f7833e20aec2534ffc1011a24c6:db24c3b8d3e5205eba3580d9fcf0ac2d:b89545e189f945ea9348eaaa008b3c16"
     },
     {
       "key": "avatar:1409",
@@ -1065,17 +1069,18 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-05-21",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1409.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/671da57770e033b589109d2018e2da91.png",
       "outfits": [
         {
           "key": "skin:1140901",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1140901.png"
+          "name": "Warm Cotton Skies",
+          "image": "https://cdn.gachabase.net/hsr/assets/2bfe9ebeef7edfa50de9a5057a78eca0.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:e0dda7295a2b168a66eb9ed5173c13dc:35c9566a710c5e50b09e2b13fcfb486d:d1572897d55920f9bec85993be2247d4"
     },
     {
       "key": "avatar:1410",
@@ -1085,11 +1090,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2025-08-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1410.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/5133fe9933cfbc10c7d416023aafec05.png",
+      "sourceHash": "release:r2:772c6d2b0f0f4c57419dc80e1967bbb1:e9bf1a40587e79968dae486d17c79522:b804166167a7c8716cb4a784f78328d3"
     },
     {
       "key": "avatar:1412",
@@ -1099,11 +1104,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2025-09-02",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/846064c129399e15a948c330ba611e67.png",
+      "sourceHash": "release:r2:6643fb35f20810f3f22445f265eba970:741417463d7248cd47e03e204b9bbee0:07afd99992dcbc74b4db36c4b5d21af8"
     },
     {
       "key": "avatar:1413",
@@ -1113,11 +1118,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-09-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1413.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/0e07118b44fbd3f38d1d80ef7191cde4.png",
+      "sourceHash": "release:r2:88e1d1a3ba986e4a3588160c584ed538:672a32abbc600da40b1291e86bb4357a:089a6149b29c7e318cd5096f57b730f8"
     },
     {
       "key": "avatar:1414",
@@ -1131,11 +1136,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 5
       },
-      "releaseDate": "2025-10-11",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1414.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/8a939a292f2c996ad09006df2fc026bc.png",
+      "sourceHash": "release:r2:8f70444936e7863589c6350771b523e3:06608f87876b4a3dcf383d547b421fe6:509c365c80fe00ca604006a0678ee20d"
     },
     {
       "key": "avatar:1415",
@@ -1145,15 +1150,16 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-11-05",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png",
-      "outfits": [
+      "image": "https://cdn.gachabase.net/hsr/assets/651bc804d680f1a594a4116409433c85.png",
+      "sourceHash": "release:r2:a7e56a5199bce299dd6a231484c3ffcb:d9b70b0aada6cd4d6a486cb3b5fc57d8:bfb16e64d07f843223ee4d5a41ace6bc",
+      "leftOut": [
         {
           "key": "skin:1141501",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1141501.png"
+          "name": "The Promise's \"∞\"",
+          "reason": "gachabase lists it as a light-cone look (weapon_skins): it changes only the weapon, not the outfit, so mods for her outfit need nothing new"
         }
       ]
     },
@@ -1168,14 +1174,15 @@
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-02-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/09ee6e2618ac2a0dab2aec8d73b0bb01.png",
       "outfits": [
         {
           "key": "skin:1150101",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1150101.png"
+          "name": "Candy-Coated Waves",
+          "image": "https://cdn.gachabase.net/hsr/assets/307e2d25319e01d1db92905b78ec0da2.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:764a046e40bf396f9e6954643a89897f:81b4e209025a7838cc4256ca9818919f:f7599a2abe8b705d3053ba5d7b060936"
     },
     {
       "key": "avatar:1502",
@@ -1192,8 +1199,8 @@
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-02-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1502.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/8ca2530c42791593b72d54a850fce97e.png",
+      "sourceHash": "release:r2:83c98015f2cfb75c6d5d75f08056979c:0302b2df245cb2f4c8f6f2368bcb85c7:d837093bad224dbafe9b01309e74a407"
     },
     {
       "key": "avatar:1503",
@@ -1206,8 +1213,8 @@
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-09-28",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1503.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/b4e31c2407f7834ab2d40d35d94f987b.png",
+      "sourceHash": "release:r2:7b47ad70d6b2eec8e2203a47e72198a0:44b068add754fd9fd62dcb6b37e5ec41:a896860b7727b9abccf5d1e59adb7cdc"
     },
     {
       "key": "avatar:1504",
@@ -1216,12 +1223,12 @@
         "ashveil"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Rogue",
+        "element": "Lightning",
+        "path": "The Hunt",
         "rarity": 5
       },
-      "releaseDate": "2026-03-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1504.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/183d741e6204c6c46259606d15af4de0.png",
+      "sourceHash": "release:r2:821e2d5c61ed5971ff512c2aad4ac50d:a9b527660433e67579f267c5ed5779e2:0d6fbccbaaed2a62d8ea7eb986c82c9b"
     },
     {
       "key": "avatar:1505",
@@ -1234,14 +1241,15 @@
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-05-13",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1505.png",
+      "image": "https://cdn.gachabase.net/hsr/assets/723a90e789fd354fb96b450a90c73e30.png",
       "outfits": [
         {
           "key": "skin:1150501",
-          "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1150501.png"
+          "name": "Lunar Blossoming",
+          "image": "https://cdn.gachabase.net/hsr/assets/e48a276f033cf42ccf3cf2c1aaabdfdf.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:f18492bab88b4ee1427588f394a6989f:8d99e38cb8256dcde593b14b4e7d2bcc:92fda22fa52f80c2a4ca1777a3a56536"
     },
     {
       "key": "avatar:1506",
@@ -1258,8 +1266,8 @@
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-04-22",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1506.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/98dd725eefc23aba5e2b8ae7ad008d33.png",
+      "sourceHash": "release:r2:eac4f41df41b694b58d1f001841a81a2:632b8f150f71be3b26980b197c171ae3:2dd60cb1e456825c65aef41e2935fff1"
     },
     {
       "key": "avatar:1507",
@@ -1273,11 +1281,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Warlock",
+        "path": "Nihility",
         "rarity": 5
       },
-      "releaseDate": "2026-06-01",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1507.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/c98c2d67c810e74bcc549f151ee42d14.png",
+      "sourceHash": "release:r2:0ddb113bd76a31b2d44527531bf9ca10:56725aa89e019919aa661a47967d830b:27b09ee155c241d4422b82f5d230b4fc"
     },
     {
       "key": "avatar:1508",
@@ -1291,11 +1299,11 @@
       ],
       "attributes": {
         "element": "Quantum",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2026-07-24",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1508.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/9d03312750658cfd8fbd92df26e20abb.png",
+      "sourceHash": "release:r2:7c25f379e42278d9092641877aa319a3:e0f7dd4b5dac3a24c0cf98cac1d74b5e:4b50ba8834050065f3057ad0fabd7f4d"
     },
     {
       "key": "avatar:1509",
@@ -1304,12 +1312,12 @@
         "gilgamesh"
       ],
       "attributes": {
-        "element": "Thunder",
-        "path": "Warrior",
+        "element": "Lightning",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2026-07-24",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1509.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/f14b7b301a148c6bfb417e88fc3bca95.png",
+      "sourceHash": "release:r2:bcaa3ac3318de188a2a7ecb8d4badbe7:852d3aa46498da3423a16c0a4760984a:dd68b8a20fcabd28130aa222218c6ca0"
     },
     {
       "key": "avatar:1510",
@@ -1323,11 +1331,30 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Mage",
+        "path": "Erudition",
         "rarity": 5
       },
-      "releaseDate": "2026-07-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1510.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/a02fa50e1826ff9d666e9a1e9299fd72.png",
+      "sourceHash": "release:r2:4b5be14cf3122385db2775e3ea46525a:4b0b3b42906781341cfe2a3dfb7bf318:43b64d27d2c3939f0eac5493ef1ea930"
+    },
+    {
+      "key": "avatar:1511",
+      "name": "Aeon ★ Aha",
+      "joinKeys": [
+        "aeonaha"
+      ],
+      "wordKeys": [
+        "aha",
+        "aeon"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Quantum",
+        "path": "Elation",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/hsr/assets/2be49dbbe7cfe8f77187dcfea51d9863.png",
+      "sourceHash": "beta:r2:5d79fdb5849a3f4336330b814f2891ee:8b1ca4c7a8a243f5b5e3b9a276181b6e:37b33fb62087d7eccd321a68284e988c"
     },
     {
       "key": "avatar:1512",
@@ -1341,11 +1368,11 @@
       ],
       "attributes": {
         "element": "Wind",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2026-08-26",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1512.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/98bcc901782bee57cb5907f354f0c2d5.png",
+      "sourceHash": "release:r2:ef47308982185a3f145e28798fb3d93f:23c789758464bbf66d2b58c8cf225235:82c6b2598b7dd4abdddf7cc54abcb213"
     },
     {
       "key": "avatar:1513",
@@ -1362,8 +1389,8 @@
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-09-12",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1513.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/2fdf5d4fe6eb998064438ffd373ce95f.png",
+      "sourceHash": "release:r2:c5fedf47dfa4926f0ae921be05bd239b:d68358e489d9f97687bfc705a06cca97:aa47bba6dc57023a04b2b4e66979e5ff"
     },
     {
       "key": "avatar:8001",
@@ -1373,11 +1400,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8001.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/0ffa395fe7c71255c3c206a9d195db7f.png",
+      "sourceHash": "release:r2:d9ea7de6ec4aca593ef57ffc6e767815:ed39c3d42cc32d19c0b7ecec61f90c55:08cfa4bba247105cf787792930fb97c7"
     },
     {
       "key": "avatar:8002",
@@ -1387,11 +1414,11 @@
       ],
       "attributes": {
         "element": "Physical",
-        "path": "Warrior",
+        "path": "Destruction",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/511d14e283c60ec40ecb74491b22c268.png",
+      "sourceHash": "release:r2:c380d34b8fa9f8fddffc30248d7af1bd:f4896f42ecc981286d99a2c3ee1318d7:8e766d165f00983bd93ca7ae64a8fe6c"
     },
     {
       "key": "avatar:8003",
@@ -1401,11 +1428,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8003.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/723d62bebcc31d6e77b2b42cbad711b9.png",
+      "sourceHash": "release:r2:0e33c3482ddaa6619cf87c4518201dc9:a394b7f714424c63fc846e21daba32a3:553c4bc7635d09891acad5161a476948"
     },
     {
       "key": "avatar:8004",
@@ -1415,11 +1442,11 @@
       ],
       "attributes": {
         "element": "Fire",
-        "path": "Knight",
+        "path": "Preservation",
         "rarity": 5
       },
-      "releaseDate": "2023-04-25",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8004.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/f521fb6e83ca2316d8e20d297301c62c.png",
+      "sourceHash": "release:r2:20077de6b90b326e475b85c041156250:c2580af7427217c11b91a359c97793cd:35ff4aba5117532ef3b8ed4c20fd7670"
     },
     {
       "key": "avatar:8005",
@@ -1429,11 +1456,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2024-05-08",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8005.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/b9b33e1ed8b901a0f2b5cc27cd271895.png",
+      "sourceHash": "release:r2:83b770932ccae55c2a0b342c0c54bd9a:00a5f5f97698060ed33c08da22dfe3f2:7c85d2a108c983275405da3f36b31b44"
     },
     {
       "key": "avatar:8006",
@@ -1443,11 +1470,11 @@
       ],
       "attributes": {
         "element": "Imaginary",
-        "path": "Shaman",
+        "path": "Harmony",
         "rarity": 5
       },
-      "releaseDate": "2024-05-08",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8006.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/6242ddb3f1b4bff617438fb1bd29aa07.png",
+      "sourceHash": "release:r2:8937489dd751d9b3ed61aca2116c72c2:73820014818a117a44aedf202cbf87f0:81ddff4a1ba1d1af2681ab7dd8a98091"
     },
     {
       "key": "avatar:8007",
@@ -1457,11 +1484,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-01-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8007.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/8c13c583eb0c37fb38e1bae55b8cb9cb.png",
+      "sourceHash": "release:r2:7356dab9451169aec26ba6649aba92fe:a0fa76fa395c748744e6e9e9e858a6f0:8cb0a64a53d5f0851ab03d646f07fbdf"
     },
     {
       "key": "avatar:8008",
@@ -1471,11 +1498,11 @@
       ],
       "attributes": {
         "element": "Ice",
-        "path": "Memory",
+        "path": "Remembrance",
         "rarity": 5
       },
-      "releaseDate": "2025-01-15",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8008.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/f71d370e214756f86351b24ec20a211d.png",
+      "sourceHash": "release:r2:fd5e331dcd98bc4248854dd2e131bd7d:ce66a05b85babaeb13053ab41b20f8b9:5a66286460e7d9c35dd2697d1ffacd3d"
     },
     {
       "key": "avatar:8009",
@@ -1484,12 +1511,12 @@
         "trailblazer"
       ],
       "attributes": {
-        "element": "Thunder",
+        "element": "Lightning",
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-04-22",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8009.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/71766955de4ec3d7b647aded7b5266cb.png",
+      "sourceHash": "release:r2:7d83ab04384462219ca763e722715617:87137ca50586620ca3136a5da4440954:119b689a659dd19cf687465d996bbeb1"
     },
     {
       "key": "avatar:8010",
@@ -1498,12 +1525,144 @@
         "trailblazer"
       ],
       "attributes": {
-        "element": "Thunder",
+        "element": "Lightning",
         "path": "Elation",
         "rarity": 5
       },
-      "releaseDate": "2026-04-22",
-      "image": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8010.png"
+      "image": "https://cdn.gachabase.net/hsr/assets/d761e38823852df1d28adfb72b47a08f.png",
+      "sourceHash": "release:r2:15764406ccabbef72a0d0b5e99f12057:407d311210fcfa8dcf2cd80396f00587:dda0087b373462b09aab3328e9ac8268"
+    }
+  ],
+  "leftOut": [
+    {
+      "key": "skin:1141501",
+      "name": "The Promise's \"∞\" (Cyrene)",
+      "reason": "gachabase lists it as a light-cone look (weapon_skins): it changes only the weapon, not the outfit, so mods for her outfit need nothing new"
+    },
+    {
+      "key": "avatar:6022",
+      "name": "March 7th",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6023",
+      "name": "Skott's Specially Appointed IPC Mech",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6024",
+      "name": "Bloodstained Lupine",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6025",
+      "name": "Frenzied Beast's Seed Germ",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6026",
+      "name": "Sparkle",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6027",
+      "name": "Qingque",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6028",
+      "name": "Aventurine",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6029",
+      "name": "Feixiao",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6030",
+      "name": "Cerydra",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6032",
+      "name": "Hallucinogenic Mermaid",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6035",
+      "name": "MagiMech: Daybreak Warriors",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6036",
+      "name": "Saber",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6037",
+      "name": "Archer",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6038",
+      "name": "Rin Tohsaka",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6039",
+      "name": "nickname",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6040",
+      "name": "nickname",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6041",
+      "name": "Gilgamesh",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:7005",
+      "name": "Kafka",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:7006",
+      "name": "Silver Wolf",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:7205",
+      "name": "Blade",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:7212",
+      "name": "Jingliu",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:7213",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:8901",
+      "name": "nickname",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:8902",
+      "name": "nickname",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
+      "key": "avatar:6042",
+      "name": "King Pom-Pom",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
     }
   ]
 }

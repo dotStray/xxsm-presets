@@ -1,5 +1,5 @@
 {
-  "source": "enka-zenless",
+  "source": "gachabase-zenless",
   "characters": [
     {
       "key": "avatar:1011",
@@ -10,13 +10,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Stun",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole01.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle01.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/b4ab0294ac888e092e88dad1b15eb993.png",
+      "sourceHash": "release:r2:bfdaf86c92a9421093c7ef40b40eb28b:94ce9e9c38aa8b22d97c2c2577201a37:41eabda9c79670b52e64bd6f7527b8a2"
     },
     {
       "key": "avatar:1021",
@@ -27,20 +27,19 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole11.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle11.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/dc36ffad7092e2295bf5421a10edf8e0.png",
+      "sourceHash": "release:r2:4f25ab189c64f2a621c169a3f972c430:a4818fcb58ed20583720711fdc54c071:4ea480f71d27fcafe65743ecbd7f4608"
     },
     {
       "key": "avatar:1031",
       "name": "Nicole",
       "joinKeys": [
-        "nicole",
-        "nostradamus"
+        "nicole"
       ],
       "attributes": {
         "attribute": [
@@ -49,15 +48,16 @@
         "specialty": "Support",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole12.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle12.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/2d98e884f851589eb9bc114d66900543.png",
       "outfits": [
         {
           "key": "skin:3110311",
-          "image": "https://enka.network/ui/zzz/IconRole12_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle12_01.png"
+          "name": "Cunning Cutie",
+          "image": "https://cdn.gachabase.net/zzz/assets/151aa2a4191cf89e501b0cd3a19a19fb.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/4392befb3eecf056c45506cbd9e4ac60.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:f277d552b8cf13c91e32b2a93df346d0:600b7045b67d423d5c939e8a93826d58:10a62818d91ceb963a21805f21181dc5"
     },
     {
       "key": "avatar:1041",
@@ -77,8 +77,8 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole05.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle05.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/d58f221cb8baf0e95df64900c81d6d9d.png",
+      "sourceHash": "release:r2:1410f9345554690f6f0955c0c654ca44:9fe9d2106697f0c74751fe21c3f5107a:f5ddd325725bc53ef0c5ddeb5896982b"
     },
     {
       "key": "avatar:1051",
@@ -93,8 +93,8 @@
         "specialty": "Rupture",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole52.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle52.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/4291fb8afcd5fb298b88e97236ccb336.png",
+      "sourceHash": "release:r2:fb8cbffe716cbeb89ace1f92f871f935:8ca9e3f7c123016785e2de3b5d6fd96e:8f0db02b63765463b50b87fc8bb0dc04"
     },
     {
       "key": "avatar:1061",
@@ -104,13 +104,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Attack",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole09.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle09.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/d5c447ddb052d2fc89ac4da5e4966c8d.png",
+      "sourceHash": "release:r2:bb6ecc9817dba79a91a05b338e2488e8:f92712a9841674b5d883a7e8cb7caffa:1f88756db299e1763cf95b043eb1e6b8"
     },
     {
       "key": "avatar:1071",
@@ -120,13 +120,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Defense",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole25.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle25.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/c236e92d72e2499f82b7a0d889bc9737.png",
+      "sourceHash": "release:r2:3573ba2719fcbd2bd791a08eac74c9cf:6865997404901f0eda2dbb9e51bce84f:ff5901d88a7cf375e33a666e7724bf0c"
     },
     {
       "key": "avatar:1081",
@@ -136,13 +136,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Attack",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole10.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle10.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/d4a10c7ed660aed154d24d7b6b90f2c3.png",
+      "sourceHash": "release:r2:3e8911f07ca0a6ca2d67975296a36f0c:37e6dced1eab43325e298d58192641d9:4667d12576e5bb028f55cb4c2fbf94ed"
     },
     {
       "key": "avatar:1091",
@@ -153,28 +153,27 @@
       ],
       "attributes": {
         "attribute": [
-          "FireFrost",
           "Ice"
         ],
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole13.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle13.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/c8da2d5c33c36b2c1babe617be68674a.png",
       "outfits": [
         {
           "key": "skin:3110911",
-          "image": "https://enka.network/ui/zzz/IconRole13_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle13_01.png"
+          "name": "Dignified Blossom",
+          "image": "https://cdn.gachabase.net/zzz/assets/026d292d0f7c6228e449faa7ceb0c1ec.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/92667b949109f0f2b2a3610e28444001.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:9c18dd4d05dc90062ba58c21256a7343:0be8d86cf34672a24213a96e58023f7a:b34297f5de6e5c8ba5542b184b424d6c"
     },
     {
       "key": "avatar:1101",
       "name": "Koleda",
       "joinKeys": [
-        "koleda",
-        "ookumamari"
+        "koleda"
       ],
       "attributes": {
         "attribute": [
@@ -183,8 +182,8 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole14.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle14.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/49acf5cd330ed18abe9e58c6003ae6e6.png",
+      "sourceHash": "release:r2:63ccd36721bead8511861d070a387244:a8aaf41ef10902c318631d7aa4c7c0ff:551ad193c55b72c3e12120dc878e3e94"
     },
     {
       "key": "avatar:1111",
@@ -194,13 +193,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Attack",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole15.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle15.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/8295dbcf0314d419b2a9b4a9b87da5d0.png",
+      "sourceHash": "release:r2:cc09fd4c2b5a3800c4db1f177da1d5da:843581042392c6061711b60de8d89539:6463284c98efd5c5b128f095518ba62b"
     },
     {
       "key": "avatar:1121",
@@ -215,8 +214,8 @@
         "specialty": "Defense",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole16.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle16.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/67550cd9447d75acd733f95ee1c0f80b.png",
+      "sourceHash": "release:r2:aa922252367a39132b9a474c6d8aec27:9fdefaae878945b86367a0ddc6ee400b:7670ebf8201b95f44734c8ba0357c7a7"
     },
     {
       "key": "avatar:1131",
@@ -232,8 +231,8 @@
         "specialty": "Support",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole17.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle17.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/32e2b296dc0fb23ccbfb3eb688f490dd.png",
+      "sourceHash": "release:r2:cd973cc787c4f229df93f4668fe6ca9f:3ab570a9316c6b5e74ebc2ac470c6354:0e5003472e5a7d116f77dbc71d626db0"
     },
     {
       "key": "avatar:1141",
@@ -248,8 +247,8 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole18.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle18.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/c103fd6a1002d16ecc490ac78a963cd3.png",
+      "sourceHash": "release:r2:1b6ff342b29073200b125dfac4127eea:79e9f019b6a6d022f4a40fd58ece70e1:9787809ba344ad64b8b25512bdc72326"
     },
     {
       "key": "avatar:1151",
@@ -264,15 +263,16 @@
         "specialty": "Support",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole27.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle27.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/b0f33edca9768937789b68fcfd04e147.png",
       "outfits": [
         {
           "key": "skin:3111511",
-          "image": "https://enka.network/ui/zzz/IconRole27_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle27_01.png"
+          "name": "Princess on Holiday",
+          "image": "https://cdn.gachabase.net/zzz/assets/d19bd839ddb71538c6f44ac36ac5600b.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/720dd9127235df13000fc202be842967.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:e630d32aae0b52d20a672fedd18a48dc:1db2bf378e117076d09560cf2fa007f8:c2bee8e3a9da73585bc0621c3a475ac9"
     },
     {
       "key": "avatar:1161",
@@ -287,8 +287,8 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole26.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle26.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/248378a43129a71bc7e52f8db6e4c44c.png",
+      "sourceHash": "release:r2:bccfdaae9eff2b724d515d64c9a31637:f8539155c31299144bc48a5bb9afd49a:698b7acf22707660312f52998a2100b3"
     },
     {
       "key": "avatar:1171",
@@ -303,8 +303,8 @@
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole32.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle32.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/6f2a2ed348274ae916a32ef3869c9fab.png",
+      "sourceHash": "release:r2:976ab195b1b033541627c64ac0bece3f:c36246fe7e6dc6be1fe9c378173d8833:95e77dbbfdffb67b5e58829c257bc0d7"
     },
     {
       "key": "avatar:1181",
@@ -315,13 +315,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole20.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle20.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/098250c708e00ab4dc87a36f3dc38944.png",
+      "sourceHash": "release:r2:b52d669d4572c15f3e652db1ac26a3f0:f74018ef7b4f4dc5ef211b2c1d202dd7:f3fe7137b6f9cf29ce1d02885297e3b8"
     },
     {
       "key": "avatar:1191",
@@ -336,15 +336,16 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole21.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle21.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/33792e1a1947a9d5303ecb023d72ed51.png",
       "outfits": [
         {
           "key": "skin:3111911",
-          "image": "https://enka.network/ui/zzz/IconRole21_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle21_01.png"
+          "name": "On Campus",
+          "image": "https://cdn.gachabase.net/zzz/assets/d8c04ee6c2f3a6995b2abeea8cf9295e.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/42604f4ea3a4242ea4e1d85f1ec17d27.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:ef41166b4004ad2a2b759ee553757c3e:64557f779938a44068a8ff8b5e5fe233:ad969ccecbe8f8d92c21eb0bf738330e"
     },
     {
       "key": "avatar:1201",
@@ -354,13 +355,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole35.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle35.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/21deadf2ee30fb6ebff1cf8f69b39213.png",
+      "sourceHash": "release:r2:ebeac9be511c76224eeed3f2451081be:f958b3d2205315cedbae98b90d48d4e6:884c5bcb9ed618279e17502a3e13ce77"
     },
     {
       "key": "avatar:1211",
@@ -370,13 +371,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Support",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole22.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle22.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/b06b14634997744ca11b55d9397dfcdf.png",
+      "sourceHash": "release:r2:e00628a961c4d50351b51e1c8d9f0261:07dd4948c35be910583c8e9b36e7b2b1:f40096e691e317f86cfa13d08bae2670"
     },
     {
       "key": "avatar:1221",
@@ -386,13 +387,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole31.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle31.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/d53b7f45142a93969f9b11214c44debf.png",
+      "sourceHash": "release:r2:36809d8b0cbbf8d0a167b4326dd61d38:4801447d5ab6136ff80774ede01e4d5b:4da300562ea41e2f73e10b76c19b3c67"
     },
     {
       "key": "avatar:1241",
@@ -411,8 +412,8 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole23.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle23.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/c28a062a88a14cf3764b27a393ec3f9b.png",
+      "sourceHash": "release:r2:552db1fb41fa3ecb60c6f042835c8b9d:9f598ee0975e31db75f0dc75d0c29b1c:749ffd15db76cb3f190800d4a45e180c"
     },
     {
       "key": "avatar:1251",
@@ -422,13 +423,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole29.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle29.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/af9acb58632b0208caaee560b28b8322.png",
+      "sourceHash": "release:r2:d46eb85f616141f528ce09eef3896b67:0491bfd06735bc0ad26e205d051a410e:2f328950ad448cfec0556c97aa1fcd40"
     },
     {
       "key": "avatar:1261",
@@ -439,20 +440,21 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole24.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle24.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/b400cb996b5d37a997dcb0b39ac48e13.png",
       "outfits": [
         {
           "key": "skin:3112611",
-          "image": "https://enka.network/ui/zzz/IconRole24_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle24_01.png"
+          "name": "Nocturne of Light",
+          "image": "https://cdn.gachabase.net/zzz/assets/b6eaeb5106172596680177cc6e5b5f61.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/d93667139015443f2b6b3eadbf3baced.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:cab3ca48db48145948c9a509ef6c5a7c:4907eb4b3dd8b79afd84a84405d0d9a3:3170295216974e2c0947c334d2d7d8fc"
     },
     {
       "key": "avatar:1271",
@@ -462,13 +464,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Defense",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole30.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle30.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/e0274951007f27aef30dbf0be7490c15.png",
+      "sourceHash": "release:r2:64200f85709fceb4d66e165d1c0d041e:70d4bcb6546269d08f4b734587a5eba8:623095903839d4c3fc64e865967f9a20"
     },
     {
       "key": "avatar:1281",
@@ -479,13 +481,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Anomaly",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole28.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle28.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/1976a2cefd6c40343c301e2a6d41861f.png",
+      "sourceHash": "release:r2:756804b7e87a11a813434db32a3feed2:4998807ba0660d93077fe92e21ccf88e:ebe9826092e9948982ab71ffcd4399a5"
     },
     {
       "key": "avatar:1291",
@@ -501,8 +503,8 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole42.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle42.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/041992971531a7daab5026ab3bc4a671.png",
+      "sourceHash": "release:r2:0172f4c9ca21121b3a9b25f49f0aaa0a:f3cab9e430f9c7cc56749b589417224e:cb191cfb7475ba1d8015fe7664bef8ca"
     },
     {
       "key": "avatar:1301",
@@ -522,8 +524,8 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole49.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle49.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/852dd8fba1faa655b9710b633eea87af.png",
+      "sourceHash": "release:r2:dbb0d1cf374bbff444696c0b50fcf1ac:ee9fb96490a338b5f6407e85e147d293:debd950392bfc9c93e4453a85726d2dd"
     },
     {
       "key": "avatar:1311",
@@ -542,15 +544,16 @@
         "specialty": "Support",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole36.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle36.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/e7793cc470b006a804e474d7b0599094.png",
       "outfits": [
         {
           "key": "skin:3113111",
-          "image": "https://enka.network/ui/zzz/IconRole36_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle36_01.png"
+          "name": "Chandelier",
+          "image": "https://cdn.gachabase.net/zzz/assets/336e3b5741876f2313649255eb2e13c1.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/0105fa28c6d86c2065f87076e7920fda.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:5ffe6e24321ad16d18fb0ae97002197e:820d6582a26c2b3a9a334e85374a9781:fb4a8e05ac8d621042fb161ee3a03e4a"
     },
     {
       "key": "avatar:1321",
@@ -565,8 +568,8 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole37.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle37.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/adb09dad5b465b48bb3d80d76db625a6.png",
+      "sourceHash": "release:r2:6674e1ae147a3c40a9cb2aae5c814d35:df4ded9cd3cfd0996814f855a04e3779:6ab4cfc9ce27efdc8103bbd17445f9a3"
     },
     {
       "key": "avatar:1331",
@@ -581,15 +584,16 @@
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole41.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle41.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/17b92d3d51fd755059b5b5c049186f14.png",
       "outfits": [
         {
           "key": "skin:3113311",
-          "image": "https://enka.network/ui/zzz/IconRole41_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle41_01.png"
+          "name": "Iris of the Shore",
+          "image": "https://cdn.gachabase.net/zzz/assets/ac4a20b8704057c14b265233e75a9a76.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/99b1a97afa32fac2fcc6e9e26ed8b39c.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:1c3b0da4527ed72d4fcdf1ebe64af1ad:5b0fea6165208732b038b2d5ebb78b81:91b26139d0066076e3985add44230401"
     },
     {
       "key": "avatar:1341",
@@ -605,8 +609,8 @@
         "specialty": "Defense",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole56.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle56.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/376c811a30b22e1f6e0383d159526ea8.png",
+      "sourceHash": "release:r2:e17de65be0389e17ca3145284256f5e8:6d2b0103a7d42a331d87384335d0dc51:6fa3341517cc9ba5f36da92b856bc8ea"
     },
     {
       "key": "avatar:1351",
@@ -616,13 +620,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Stun",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole38.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle38.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/3ed842c3abe2a13b2313f27150451e11.png",
+      "sourceHash": "release:r2:155e19f577296013e41d553a9c9a906e:b4b3db0af6b95e37d04572d590bb8c90:6b210ea0049edabf9fdedded690d2013"
     },
     {
       "key": "avatar:1361",
@@ -632,13 +636,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole39.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle39.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/dcc6e82b9c8c98d578687da07c8cc269.png",
+      "sourceHash": "release:r2:37725fa57dfe1561474f8689f8c29195:a891ab9172405d73291446d67002d9ad:f4248526994e070c6b8e97633009722c"
     },
     {
       "key": "avatar:1371",
@@ -648,21 +652,21 @@
       ],
       "attributes": {
         "attribute": [
-          "AuricEther",
           "Ether"
         ],
         "specialty": "Rupture",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole44.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle44.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/dd7ff9235f356bf79b04a6f8f3c881b9.png",
       "outfits": [
         {
           "key": "skin:3113711",
-          "image": "https://enka.network/ui/zzz/IconRole44_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle44_01.png"
+          "name": "Trails of Ink",
+          "image": "https://cdn.gachabase.net/zzz/assets/4317249c8c70bb2505b984ea21dac15d.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/e0a6afe9e4d35af3aa85bf51394eda1b.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:6d219ccd12edfb151755181959bb1301:63188651caab453f1930e43fe4a567ac:5a19a2652ce68bfa964245012c3023e3"
     },
     {
       "key": "avatar:1381",
@@ -677,13 +681,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole40.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle40.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/54de38445fdb07382fd034ed84c0a1a5.png",
+      "sourceHash": "release:r2:4b7945e65d12213c35d40757a3a9a0dd:9ceb145081e7f6da159d435031f18c66:458bcdeeb92c64cd510592941e0253cd"
     },
     {
       "key": "avatar:1391",
@@ -702,8 +706,8 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole43.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle43.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/28475743c4563dda002200eaf0216139.png",
+      "sourceHash": "release:r2:5d3a157cbd472969be50290e783d5824:a80feceb1b4140fbcb2d76a7b946ca07:aa7d0b4a6272ab48a91bff6a34eed6ce"
     },
     {
       "key": "avatar:1401",
@@ -713,20 +717,21 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole46.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle46.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/0f7f0bc07893742283bec91cca7d063c.png",
       "outfits": [
         {
           "key": "skin:3114011",
-          "image": "https://enka.network/ui/zzz/IconRole46_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle46_01.png"
+          "name": "Sea of Thyme",
+          "image": "https://cdn.gachabase.net/zzz/assets/ddf2544fbfe3aa52ac69e13b6ed9fc81.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/b710f9da2d2048cca7df8dfd793c0724.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:ac1f639b8924071c19b0dfe8b1b68f82:371a4505953bdd0f2e7edd58610f5782:e0c2dca642c8370e77c5c38264807ce3"
     },
     {
       "key": "avatar:1411",
@@ -736,20 +741,21 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Support",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole47.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle47.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/e0e8e4b7ff6f5223c5e7c19d8443562c.png",
       "outfits": [
         {
           "key": "skin:3114111",
-          "image": "https://enka.network/ui/zzz/IconRole47_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle47_01.png"
+          "name": "Tanuki in Broad Daylight",
+          "image": "https://cdn.gachabase.net/zzz/assets/92b6731844e5b7f4580e7929a6ddfcb5.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/571e453c5f45e789add1745d1e82418b.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:63645e38d7092003abfb66359ff02bb6:027be9ee6b63620e30eed7ea755b918e:8142f8e48951da5167ff16574064ea69"
     },
     {
       "key": "avatar:1421",
@@ -763,20 +769,21 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Defense",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole45.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle45.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/ae54395ffdeaadfab518192678fa0c3a.png",
       "outfits": [
         {
           "key": "skin:3114211",
-          "image": "https://enka.network/ui/zzz/IconRole45_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle45_01.png"
+          "name": "Culinary Jewel",
+          "image": "https://cdn.gachabase.net/zzz/assets/00d30ad378a4def8e3d29bdc5de6a825.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/564e4e4e426bb6ed405ae98886a49d36.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:5dfbbd67c6120a0e10d2403e1dbcead9:c566d2fd311fa321634c656d9856ef66:92011929f61e9435595778df55b040f8"
     },
     {
       "key": "avatar:1431",
@@ -791,21 +798,21 @@
       ],
       "attributes": {
         "attribute": [
-          "ZhenZhenAssault",
-          "Physics"
+          "Physical"
         ],
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole55.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle55.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/536209238423776e36bf5ecbee4973ca.png",
       "outfits": [
         {
           "key": "skin:3114311",
-          "image": "https://enka.network/ui/zzz/IconRole55_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle55_01.png"
+          "name": "Touch of Dawnlight",
+          "image": "https://cdn.gachabase.net/zzz/assets/668f2c19f32449b09ca832cfb3a2aa8c.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/ec788860465e3920033ffc691c8637f0.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:a5e054b80c971ed23e43b77938238cba:cb9765d39bb99a5e65f311b43696366a:9d5931e875cc1928cc6a7a7389ee09d8"
     },
     {
       "key": "avatar:1441",
@@ -821,15 +828,16 @@
         "specialty": "Rupture",
         "rank": 3
       },
-      "image": "https://enka.network/ui/zzz/IconRole51.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle51.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/80ed09513d3f9d6378a88d8ae6ac01fd.png",
       "outfits": [
         {
           "key": "skin:3114411",
-          "image": "https://enka.network/ui/zzz/IconRole51_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle51_01.png"
+          "name": "White Heart Silhouette",
+          "image": "https://cdn.gachabase.net/zzz/assets/c17c3d12db0c380f5144dc10ee4d3c56.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/2274c4b09c01a2c2a6098accb8a4ca8b.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:d4f8fcf28051c0eb3dd93630eac201c4:9225290526a7d2d54258b1d88fdd9fb3:cfd4509ae17b01250f10ac94b376c4f3"
     },
     {
       "key": "avatar:1451",
@@ -844,8 +852,8 @@
         "specialty": "Support",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole50.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle50.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/5550f028b6e3c83820fbe426e21d13f8.png",
+      "sourceHash": "release:r2:70d85999c2ff18a247067f38a7d4cd57:ced55a13d68f94556e221e6e86fba4ad:aafc3d58314f8825fbc2ff4045dba785"
     },
     {
       "key": "avatar:1461",
@@ -855,13 +863,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole48.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle48.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/10451feffb62a24d4e6c7952a8602f72.png",
+      "sourceHash": "release:r2:a628d24bdbfb49eecacc63b73472a14c:a2698d424e6be487f7dbd096c1914152:f4b17057ba913fd618a605d317519477"
     },
     {
       "key": "avatar:1471",
@@ -876,8 +884,8 @@
         "specialty": "Rupture",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole53.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle53.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/23eca099bdad634e439c54e228f15408.png",
+      "sourceHash": "release:r2:aaa99db20ae574f850a3541e34b80e2f:27e355f1f444bf87f4480d5a54a8b892:0f27c78eb794c538d5d050521632b1a6"
     },
     {
       "key": "avatar:1481",
@@ -888,13 +896,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole54.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle54.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/7e9fdef6cbf736f008d4d0cbd09471af.png",
+      "sourceHash": "release:r2:8a3dfc6ac8bf248538698e59a45da1a5:1ef90a5b796a656577338275619430bf:64bdde31aa62675489095682ca8b57ae"
     },
     {
       "key": "avatar:1491",
@@ -905,25 +913,27 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Support",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole58.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle58.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/7bb302a9c0bf8446d95b78ec33514761.png",
       "outfits": [
         {
           "key": "skin:3114911",
-          "image": "https://enka.network/ui/zzz/IconRole58_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle58_01.png"
+          "name": "Afternoon Tea Break",
+          "image": "https://cdn.gachabase.net/zzz/assets/a43501431ea05a8bc575411c68ac88ac.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/01657db08f99df9244ab25869e845c17.png"
         },
         {
           "key": "skin:3114912",
-          "image": "https://enka.network/ui/zzz/IconRole58_02.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle58_02.png"
+          "name": "Delusions in Business",
+          "image": "https://cdn.gachabase.net/zzz/assets/ab269921bc74ce8456139c43dfa9dcb1.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/6725fba5d3a8f4c5d3005c5d3acd24a4.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:0ee2c862f03c43a104dea1cfaacb1049:84baeb5bc34c9ee1905705bf53edfdfb:ec83d34ae9fe3e1c41d044d95b7dbe28"
     },
     {
       "key": "avatar:1501",
@@ -938,20 +948,46 @@
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole57.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle57.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/760c04edb1d4d6fe933d789e3e7b0d07.png",
       "outfits": [
         {
           "key": "skin:3115011",
-          "image": "https://enka.network/ui/zzz/IconRole57_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle57_01.png"
+          "image": "https://cdn.gachabase.net/zzz/assets/e025d8ec6316afbd36b6bdce1d75378e.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/7bb5de237c8e50a91803548ff5b57f55.png"
         },
         {
           "key": "skin:3115012",
-          "image": "https://enka.network/ui/zzz/IconRole57_02.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle57_02.png"
+          "name": "Cuteness Loading",
+          "image": "https://cdn.gachabase.net/zzz/assets/d14f3018b3c2cac2b8678a8d3daf5995.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/2ba09147c982f2c6533bc967e9e6a2d4.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:9fb97c4a1a3cbb91c0c9fcd53b3fdc27:43efe5516d365a76d65bc027570aa068:b0d860d970222662b38998b447734c33"
+    },
+    {
+      "key": "avatar:1502",
+      "name": "Aria",
+      "joinKeys": [
+        "aria"
+      ],
+      "attributes": {
+        "rank": 2
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/af9acb58632b0208caaee560b28b8322.png",
+      "outfits": [
+        {
+          "key": "skin:3115021",
+          "image": "https://cdn.gachabase.net/zzz/assets/e025d8ec6316afbd36b6bdce1d75378e.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/cd2a3bdd2e6ea59edca1c6a5c48e3691.png"
+        },
+        {
+          "key": "skin:3115022",
+          "name": "Cuteness Loading",
+          "image": "https://cdn.gachabase.net/zzz/assets/d14f3018b3c2cac2b8678a8d3daf5995.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/461813be9a4520c24eb5a8cd3c38e86c.png"
+        }
+      ],
+      "sourceHash": "release:r2:1b89b9af764231e464b755984c14bddc:16e6508f0e14eeb92761c072bd739b43:ff29f096597bd40fe12516b66ede27ff"
     },
     {
       "key": "avatar:1511",
@@ -970,20 +1006,22 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole59.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle59.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/27128cd09ff475220cdcde3df3d1a79a.png",
       "outfits": [
         {
           "key": "skin:3115111",
-          "image": "https://enka.network/ui/zzz/IconRole59_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle59_01.png"
+          "name": "Rhapsody's Muse",
+          "image": "https://cdn.gachabase.net/zzz/assets/d452884f47fd80080b0e442f8b610c03.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/f0ec77dc3be59f1fba8e82ca024a045e.png"
         },
         {
           "key": "skin:3115112",
-          "image": "https://enka.network/ui/zzz/IconRole59_02.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle59_02.png"
+          "name": "Heartfelt Support",
+          "image": "https://cdn.gachabase.net/zzz/assets/e5b0ce9477e69a5547b8efa7d0d460e9.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/4b5c406476c5344060c062e43311725c.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:ae0f13dbe953ff0de97991c6cef510d9:124f9dc4b3f52c93695fdcdeca0cba78:fb156674a4b9894e5092668de6939580"
     },
     {
       "key": "avatar:1521",
@@ -993,13 +1031,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole60.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle60.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/bf5a0979f810ee13a78983c7a0ee05fc.png",
+      "sourceHash": "release:r2:f24516d606b1d2d27feeba7203434fb0:f4b57e22ee98b3cd38146a40e5e13264:4f9dd1687ba635f64a64d9ceef8f7682"
     },
     {
       "key": "avatar:1531",
@@ -1014,13 +1052,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Physics"
+          "Physical"
         ],
         "specialty": "Rupture",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole62.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle62.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/ef8f997bc96f08afc81604f241929748.png",
+      "sourceHash": "release:r2:3cff4bcd801ecb36c05b5c94d0b66f1a:4dc3d96ac3fae82a90fe7ceeb77fb417:3ecf4d3d0446c1eb473d59249d5acd31"
     },
     {
       "key": "avatar:1541",
@@ -1035,8 +1073,8 @@
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole61.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle61.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/513083eb67f76c2a606dc7c4fd8aff61.png",
+      "sourceHash": "release:r2:44ce911e3d740cc6d8747b0c812d182d:0fef473f3397fcabbd99109d496629f3:9895b2d061584233c4a3def6759a43ac"
     },
     {
       "key": "avatar:1551",
@@ -1051,8 +1089,8 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole63.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle63.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/4d6c65037e82bbf04d6261ef5969465d.png",
+      "sourceHash": "release:r2:b0f87a461f9dc27f49264ccd6edc7b85:91be3e624dd4a5a7257390ea3020c5e9:7b0046d8a53036bd57058523b45f121a"
     },
     {
       "key": "avatar:1561",
@@ -1067,15 +1105,16 @@
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole64.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle64.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/46c5e304d99cffbcc3f78d6ed0a2ac8e.png",
       "outfits": [
         {
           "key": "skin:3115611",
-          "image": "https://enka.network/ui/zzz/IconRole64_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle64_01.png"
+          "name": "Shade of Leisure",
+          "image": "https://cdn.gachabase.net/zzz/assets/a17d49287e61c734f56490569cab336d.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/ee6c13a2aca0c7e028ea988c2f4b3ef5.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:3041c8ed3a666361ae33f99e12ef8dad:d077af276df6120edc230696e2bff589:14a369b131000d98c883765fe5be0766"
     },
     {
       "key": "avatar:1571",
@@ -1090,8 +1129,8 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole65.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle65.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/d28a193deaf7f4787ce72fb1211f5684.png",
+      "sourceHash": "release:r2:f1ccb5a95ab05de0d4f38503689e2480:931e4fa1bcdcce144ca00b5c248ed276:7878ea6797025acc0ec4ad4f5d87b51e"
     },
     {
       "key": "avatar:1581",
@@ -1101,30 +1140,49 @@
       ],
       "attributes": {
         "attribute": [
-          "Lumen"
+          "Lumiflux"
         ],
         "specialty": "Anomaly",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole67.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/080994770cc8725e55d683320db237a5.png",
       "outfits": [
         {
           "key": "skin:3115811",
-          "image": "https://enka.network/ui/zzz/IconRole67_02.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67_02.png"
+          "name": "Moonlight Whispers",
+          "image": "https://cdn.gachabase.net/zzz/assets/cc1c9451f3122370dbaff039c6acfb24.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/31ed2914f0c637cfc3c6ceae64b9465e.png"
         },
         {
           "key": "skin:3115812",
-          "image": "https://enka.network/ui/zzz/IconRole67_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67_01.png"
+          "name": "Seashade Pas Seul",
+          "image": "https://cdn.gachabase.net/zzz/assets/a023f4857c3e798d6c060a82f2fe7ea6.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/8c92738061e7e05bc78159635acc1d75.png"
         },
         {
           "key": "skin:3115813",
-          "image": "https://enka.network/ui/zzz/IconRole67_03.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle67_03.png"
+          "name": "Moonlight Whispers (Veil)",
+          "image": "https://cdn.gachabase.net/zzz/assets/4297b324e2c22489fab7f256b75a5d8d.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/7875b5806206b455b455c33b7f629a26.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:cff41b5f93f5fdb14a03877a19978843:a8a5d42570fe5a51276c60dcea95df38:0cc5843bcbae899fdbecc071f945f744"
+    },
+    {
+      "key": "avatar:1582",
+      "name": "Remielle",
+      "joinKeys": [
+        "remielle"
+      ],
+      "attributes": {
+        "attribute": [
+          "Lumiflux"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/5550f028b6e3c83820fbe426e21d13f8.png",
+      "sourceHash": "release:r2:5c5609195a7c15796a9b7ebc8f963490:5d134482945ddaccb032956361e214fa:adc4fdb7aa7520fe7004e753e6d243c3"
     },
     {
       "key": "avatar:1591",
@@ -1139,15 +1197,16 @@
         "specialty": "Attack",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole66.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle66.png",
+      "image": "https://cdn.gachabase.net/zzz/assets/a61e2a6333cc18a69c9499bf27ca0968.png",
       "outfits": [
         {
           "key": "skin:3115911",
-          "image": "https://enka.network/ui/zzz/IconRole66_01.png",
-          "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle66_01.png"
+          "name": "Majestic Wavechaser",
+          "image": "https://cdn.gachabase.net/zzz/assets/c4bf45344fdbb9336d10c5564f76aaf9.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/16b8284253768e19ec9fef0500ff9c84.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:ce1a1f7f6ea34e66302d611d367ce096:466854ca8fc8fbb16b8980ac27512bc5:bdb36d126e8e3f59d26abbe9f333abe2"
     },
     {
       "key": "avatar:1611",
@@ -1157,13 +1216,13 @@
       ],
       "attributes": {
         "attribute": [
-          "Elec"
+          "Electric"
         ],
         "specialty": "Armorer",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole1611.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle1611.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/46041a1fd403c311377d75602a84f8f0.png",
+      "sourceHash": "release:r2:b7424bfebf71b23bbccfc12481cd1e45:d68b72e5bdf9f8e79b6d791bedff454b:e6fe642e27f3af5b11bf14431c839f0a"
     },
     {
       "key": "avatar:1621",
@@ -1179,8 +1238,60 @@
         "specialty": "Stun",
         "rank": 4
       },
-      "image": "https://enka.network/ui/zzz/IconRole68.png",
-      "imageFrame": "https://enka.network/ui/zzz/IconRoleCircle68.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/7952393ff5046f93da5853ad3fe75001.png",
+      "sourceHash": "release:r2:2f59b321d7a27be050aa747d1e972a63:ef172ef18ec08ca3a49fe591ec5b5fd5:53e4235d2b82ae6df0c5c327328fb795"
+    },
+    {
+      "key": "avatar:1631",
+      "name": "Severian",
+      "joinKeys": [
+        "severian"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "attribute": [
+          "Wind"
+        ],
+        "specialty": "Attack",
+        "rank": 4
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/63f0a72fec36301c3de355ce78f32d2d.png",
+      "sourceHash": "beta:r2:0bcef2f43d99d735c9d2c56ce07d07c6:48499fffe08dd50ffcaba5978eecb179:442e14093b5655a1e205077af7dd93b6"
+    },
+    {
+      "key": "avatar:1641",
+      "name": "Phoenix",
+      "joinKeys": [
+        "phoenix",
+        "pheony"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/8f0be38216c1d38219a1cb97c18d76c2.png",
+      "sourceHash": "beta:r2:e8bab497fec914de73cc271f422a4aeb:b682abd3074e2f9bfea453039f52c47b:e21a1e8f7f534f00455351896dbf3be7"
+    }
+  ],
+  "leftOut": [
+    {
+      "key": "avatar:1601",
+      "name": "Sunbringer",
+      "reason": "it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides)"
+    },
+    {
+      "key": "avatar:1602",
+      "name": "Lindverne",
+      "reason": "it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides)"
+    },
+    {
+      "key": "avatar:1603",
+      "name": "CampusLead",
+      "reason": "it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides)"
     }
   ]
 }

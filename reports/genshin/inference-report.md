@@ -26,6 +26,8 @@
 | NingguangOrchid | Ningguang | the character list names it as an outfit | high |
 | RosariaCN | Rosaria | the character list names it as an outfit | high |
 | ShenheFrostFlower | Shenhe | the character list names it as an outfit | high |
+| TravelerBoyHeaven | TravelerBoy | the character list names it as an outfit | high |
+| TravelerGirlHeaven | TravelerGirl | the character list names it as an outfit | high |
 | XianglingNew | Xiangling | the character list names it as an outfit | high |
 | XilonenCoat | Xilonen | nested inside Xilonen/: a part of Xilonen's model, its hashes are Xilonen's | high |
 | XilonenSkates | Xilonen | nested inside Xilonen/: a part of Xilonen's model, its hashes are Xilonen's | high |

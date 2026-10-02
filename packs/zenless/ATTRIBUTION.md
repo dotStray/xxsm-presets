@@ -2,9 +2,9 @@
 
 **Hashes** come from [leotorrez/ZZ-Model-Importer-Assets](https://github.com/leotorrez/ZZ-Model-Importer-Assets) (GPL-3.0), plus any added by hand in the presets repository's `manual/` folder.
 
-**The character list** comes from [Enka.Network's public data](https://github.com/EnkaNetwork/API-docs).
+**The character list** comes from [gachabase](https://zzz.gachabase.net) (zzz.gachabase.net).
 
-**Portraits** are game art © COGNOSPHERE / HoYoverse, downloaded from enka.network, and 10 added by hand. The presets repository's `upstream/<game>/images.json` records each picture's exact address.
+**Portraits** are game art © COGNOSPHERE / HoYoverse, downloaded from cdn.gachabase.net, and 10 added by hand. The presets repository's `upstream/<game>/images.json` records each picture's exact address.
 
 **The game icon** is game art © COGNOSPHERE / HoYoverse: the game's own app icon, from its Google Play page.
 

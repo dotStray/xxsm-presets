@@ -64,43 +64,6 @@
         }
       ]
     },
-    "region": {
-      "displayName": "Region",
-      "values": [
-        {
-          "id": "mondstadt",
-          "displayName": "Mondstadt"
-        },
-        {
-          "id": "liyue",
-          "displayName": "Liyue"
-        },
-        {
-          "id": "inazuma",
-          "displayName": "Inazuma"
-        },
-        {
-          "id": "sumeru",
-          "displayName": "Sumeru"
-        },
-        {
-          "id": "fontaine",
-          "displayName": "Fontaine"
-        },
-        {
-          "id": "natlan",
-          "displayName": "Natlan"
-        },
-        {
-          "id": "nodkrai",
-          "displayName": "Nod-Krai"
-        },
-        {
-          "id": "snezhnaya",
-          "displayName": "Snezhnaya"
-        }
-      ]
-    },
     "rarity": {
       "displayName": "Rarity",
       "kind": "number"

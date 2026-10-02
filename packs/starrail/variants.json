@@ -6,12 +6,25 @@
     "isDefaultVariant": true,
     "modFilesName": "Acheron",
     "image": "images/Acheron.webp",
-    "releaseDate": "2024-03-27",
     "attributes": {
       "element": "lightning",
       "path": "nihility",
       "rarity": 5
     }
+  },
+  {
+    "internalName": "AeonAha",
+    "displayName": "Aeon ★ Aha",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "AeonAha",
+    "image": "images/AeonAha.webp",
+    "attributes": {
+      "element": "quantum",
+      "path": "elation",
+      "rarity": 5
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Aglaea",
@@ -20,7 +33,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Aglaea",
     "image": "images/Aglaea.webp",
-    "releaseDate": "2025-02-05",
     "attributes": {
       "element": "lightning",
       "path": "remembrance",
@@ -34,7 +46,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Anaxa",
     "image": "images/Anaxa.webp",
-    "releaseDate": "2025-04-30",
     "attributes": {
       "element": "wind",
       "path": "erudition",
@@ -48,7 +59,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Archer",
     "image": "images/Archer.webp",
-    "releaseDate": "2025-07-11",
     "attributes": {
       "element": "quantum",
       "path": "hunt",
@@ -62,7 +72,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Argenti",
     "image": "images/Argenti.webp",
-    "releaseDate": "2023-12-06",
     "attributes": {
       "element": "physical",
       "path": "erudition",
@@ -76,7 +85,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Arlan",
     "image": "images/Arlan.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "lightning",
       "path": "destruction",
@@ -90,7 +98,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Ashveil",
     "image": "images/Ashveil.webp",
-    "releaseDate": "2026-03-25",
     "attributes": {
       "element": "lightning",
       "path": "hunt",
@@ -104,7 +111,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Asta",
     "image": "images/Asta.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "fire",
       "path": "harmony",
@@ -118,7 +124,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Aventurine",
     "image": "images/Aventurine.webp",
-    "releaseDate": "2024-04-17",
     "attributes": {
       "element": "imaginary",
       "path": "preservation",
@@ -132,7 +137,6 @@
     "isDefaultVariant": true,
     "modFilesName": "AventurineWaveflair",
     "image": "images/AventurineWaveflair.webp",
-    "releaseDate": "2026-09-12",
     "attributes": {
       "element": "quantum",
       "path": "elation",
@@ -146,7 +150,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Bailu",
     "image": "images/Bailu.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "lightning",
       "path": "abundance",
@@ -160,7 +163,6 @@
     "isDefaultVariant": true,
     "modFilesName": "BlackSwan",
     "image": "images/BlackSwan.webp",
-    "releaseDate": "2024-02-06",
     "attributes": {
       "element": "wind",
       "path": "nihility",
@@ -174,7 +176,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Blade",
     "image": "images/Blade.webp",
-    "releaseDate": "2023-07-19",
     "attributes": {
       "element": "wind",
       "path": "destruction",
@@ -188,7 +189,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Boothill",
     "image": "images/Boothill.webp",
-    "releaseDate": "2024-05-29",
     "attributes": {
       "element": "physical",
       "path": "hunt",
@@ -202,7 +202,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Bronya",
     "image": "images/Bronya.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "wind",
       "path": "harmony",
@@ -216,7 +215,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Caelus",
     "image": "images/Caelus.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": [
         "physical",
@@ -266,7 +264,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Castorice",
     "image": "images/Castorice.webp",
-    "releaseDate": "2025-04-09",
     "attributes": {
       "element": "quantum",
       "path": "remembrance",
@@ -275,7 +272,7 @@
   },
   {
     "internalName": "CastoriceFlutter",
-    "displayName": "Castorice Flutter",
+    "displayName": "Gossamer Flutter",
     "baseCharacterId": "Castorice",
     "isDefaultVariant": false,
     "modFilesName": "CastoriceFlutter",
@@ -293,7 +290,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Cerydra",
     "image": "images/Cerydra.webp",
-    "releaseDate": "2025-09-02",
     "attributes": {
       "element": "wind",
       "path": "harmony",
@@ -307,7 +303,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Cipher",
     "image": "images/Cipher.webp",
-    "releaseDate": "2025-06-11",
     "attributes": {
       "element": "quantum",
       "path": "nihility",
@@ -321,7 +316,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Clara",
     "image": "images/Clara.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "physical",
       "path": "destruction",
@@ -335,7 +329,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Cyrene",
     "image": "images/Cyrene.webp",
-    "releaseDate": "2025-11-05",
     "attributes": {
       "element": "ice",
       "path": "remembrance",
@@ -349,7 +342,6 @@
     "isDefaultVariant": true,
     "modFilesName": "DanHeng",
     "image": "images/DanHeng.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "wind",
       "path": "hunt",
@@ -363,7 +355,6 @@
     "isDefaultVariant": true,
     "modFilesName": "DanHengIL",
     "image": "images/DanHengIL.webp",
-    "releaseDate": "2023-08-30",
     "attributes": {
       "element": "imaginary",
       "path": "destruction",
@@ -377,7 +368,6 @@
     "isDefaultVariant": true,
     "modFilesName": "DanHengPT",
     "image": "images/DanHengPT.webp",
-    "releaseDate": "2025-10-11",
     "attributes": {
       "element": "physical",
       "path": "preservation",
@@ -391,7 +381,6 @@
     "isDefaultVariant": true,
     "modFilesName": "DrRatio",
     "image": "images/DrRatio.webp",
-    "releaseDate": "2024-01-17",
     "attributes": {
       "element": "imaginary",
       "path": "hunt",
@@ -405,12 +394,25 @@
     "isDefaultVariant": true,
     "modFilesName": "Evanescia",
     "image": "images/Evanescia.webp",
-    "releaseDate": "2026-05-13",
     "attributes": {
       "element": "physical",
       "path": "elation",
       "rarity": 5
     }
+  },
+  {
+    "internalName": "EvanesciaLunar",
+    "displayName": "Lunar Blossoming",
+    "baseCharacterId": "Evanescia",
+    "isDefaultVariant": false,
+    "modFilesName": "EvanesciaLunar",
+    "image": "images/EvanesciaLunar.webp",
+    "attributes": {
+      "element": "physical",
+      "path": "elation",
+      "rarity": 5
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Evernight",
@@ -419,7 +421,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Evernight",
     "image": "images/Evernight.webp",
-    "releaseDate": "2025-09-25",
     "attributes": {
       "element": "ice",
       "path": "remembrance",
@@ -433,7 +434,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Feixiao",
     "image": "images/Feixiao.webp",
-    "releaseDate": "2024-09-10",
     "attributes": {
       "element": "wind",
       "path": "hunt",
@@ -447,7 +447,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Firefly",
     "image": "images/Firefly.webp",
-    "releaseDate": "2024-06-19",
     "attributes": {
       "element": "fire",
       "path": "destruction",
@@ -456,7 +455,7 @@
   },
   {
     "internalName": "FireflySpring",
-    "displayName": "Firefly Spring",
+    "displayName": "Spring Missive",
     "baseCharacterId": "Firefly",
     "isDefaultVariant": false,
     "modFilesName": "FireflySpring",
@@ -474,7 +473,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Fugue",
     "image": "images/Fugue.webp",
-    "releaseDate": "2024-12-25",
     "attributes": {
       "element": "fire",
       "path": "nihility",
@@ -488,7 +486,6 @@
     "isDefaultVariant": true,
     "modFilesName": "FuXuan",
     "image": "images/FuXuan.webp",
-    "releaseDate": "2023-09-20",
     "attributes": {
       "element": "quantum",
       "path": "preservation",
@@ -502,7 +499,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Gallagher",
     "image": "images/Gallagher.webp",
-    "releaseDate": "2024-03-27",
     "attributes": {
       "element": "fire",
       "path": "abundance",
@@ -516,7 +512,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Gepard",
     "image": "images/Gepard.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "ice",
       "path": "preservation",
@@ -530,7 +525,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Gilgamesh",
     "image": "images/Gilgamesh.webp",
-    "releaseDate": "2026-07-24",
     "attributes": {
       "element": "lightning",
       "path": "destruction",
@@ -544,7 +538,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Guinaifen",
     "image": "images/Guinaifen.webp",
-    "releaseDate": "2023-10-28",
     "attributes": {
       "element": "fire",
       "path": "nihility",
@@ -558,7 +551,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Hanya",
     "image": "images/Hanya.webp",
-    "releaseDate": "2023-12-06",
     "attributes": {
       "element": "physical",
       "path": "harmony",
@@ -572,7 +564,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Herta",
     "image": "images/Herta.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "ice",
       "path": "erudition",
@@ -586,7 +577,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Himeko",
     "image": "images/Himeko.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "fire",
       "path": "erudition",
@@ -600,7 +590,6 @@
     "isDefaultVariant": true,
     "modFilesName": "HimekoNova",
     "image": "images/HimekoNova.webp",
-    "releaseDate": "2026-07-15",
     "attributes": {
       "element": "fire",
       "path": "erudition",
@@ -614,7 +603,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Hook",
     "image": "images/Hook.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "fire",
       "path": "destruction",
@@ -628,7 +616,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Huohuo",
     "image": "images/Huohuo.webp",
-    "releaseDate": "2023-11-15",
     "attributes": {
       "element": "wind",
       "path": "abundance",
@@ -642,12 +629,25 @@
     "isDefaultVariant": true,
     "modFilesName": "Hyacine",
     "image": "images/Hyacine.webp",
-    "releaseDate": "2025-05-21",
     "attributes": {
       "element": "wind",
       "path": "remembrance",
       "rarity": 5
     }
+  },
+  {
+    "internalName": "HyacineWarm",
+    "displayName": "Warm Cotton Skies",
+    "baseCharacterId": "Hyacine",
+    "isDefaultVariant": false,
+    "modFilesName": "HyacineWarm",
+    "image": "images/HyacineWarm.webp",
+    "attributes": {
+      "element": "wind",
+      "path": "remembrance",
+      "rarity": 5
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Hysilens",
@@ -656,7 +656,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Hysilens",
     "image": "images/Hysilens.webp",
-    "releaseDate": "2025-08-13",
     "attributes": {
       "element": "physical",
       "path": "nihility",
@@ -670,7 +669,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Jade",
     "image": "images/Jade.webp",
-    "releaseDate": "2024-07-10",
     "attributes": {
       "element": "quantum",
       "path": "erudition",
@@ -684,7 +682,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Jiaoqiu",
     "image": "images/Jiaoqiu.webp",
-    "releaseDate": "2024-08-21",
     "attributes": {
       "element": "fire",
       "path": "nihility",
@@ -698,7 +695,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Jingliu",
     "image": "images/Jingliu.webp",
-    "releaseDate": "2023-10-11",
     "attributes": {
       "element": "ice",
       "path": "destruction",
@@ -712,7 +708,6 @@
     "isDefaultVariant": true,
     "modFilesName": "JingYuan",
     "image": "images/JingYuan.webp",
-    "releaseDate": "2023-05-17",
     "attributes": {
       "element": "lightning",
       "path": "erudition",
@@ -726,7 +721,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Kafka",
     "image": "images/Kafka.webp",
-    "releaseDate": "2023-07-19",
     "attributes": {
       "element": "lightning",
       "path": "nihility",
@@ -740,7 +734,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Lingsha",
     "image": "images/Lingsha.webp",
-    "releaseDate": "2024-10-02",
     "attributes": {
       "element": "fire",
       "path": "abundance",
@@ -754,7 +747,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Luka",
     "image": "images/Luka.webp",
-    "releaseDate": "2023-07-19",
     "attributes": {
       "element": "physical",
       "path": "nihility",
@@ -768,7 +760,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Luocha",
     "image": "images/Luocha.webp",
-    "releaseDate": "2023-06-28",
     "attributes": {
       "element": "imaginary",
       "path": "abundance",
@@ -782,7 +773,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Lynx",
     "image": "images/Lynx.webp",
-    "releaseDate": "2023-09-20",
     "attributes": {
       "element": "quantum",
       "path": "abundance",
@@ -796,7 +786,6 @@
     "isDefaultVariant": true,
     "modFilesName": "March7thHunt",
     "image": "images/March7thHunt.webp",
-    "releaseDate": "2024-07-31",
     "attributes": {
       "element": "imaginary",
       "path": "hunt",
@@ -810,7 +799,6 @@
     "isDefaultVariant": true,
     "modFilesName": "March7thPreservation",
     "image": "images/March7thPreservation.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "ice",
       "path": "preservation",
@@ -819,7 +807,7 @@
   },
   {
     "internalName": "March7thPreservationSpring",
-    "displayName": "March 7th (Preservation) Spring",
+    "displayName": "Nascent Spring",
     "baseCharacterId": "March7thPreservation",
     "isDefaultVariant": false,
     "modFilesName": "March7thPreservationSpring",
@@ -837,7 +825,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Misha",
     "image": "images/Misha.webp",
-    "releaseDate": "2024-02-29",
     "attributes": {
       "element": "ice",
       "path": "destruction",
@@ -851,7 +838,6 @@
     "isDefaultVariant": true,
     "modFilesName": "MortenaxBlade",
     "image": "images/MortenaxBlade.webp",
-    "releaseDate": "2026-06-01",
     "attributes": {
       "element": "fire",
       "path": "nihility",
@@ -865,7 +851,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Moze",
     "image": "images/Moze.webp",
-    "releaseDate": "2024-09-10",
     "attributes": {
       "element": "lightning",
       "path": "hunt",
@@ -879,7 +864,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Mydei",
     "image": "images/Mydei.webp",
-    "releaseDate": "2025-03-19",
     "attributes": {
       "element": "imaginary",
       "path": "destruction",
@@ -893,7 +877,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Natasha",
     "image": "images/Natasha.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "physical",
       "path": "abundance",
@@ -907,7 +890,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Pearl",
     "image": "images/Pearl.webp",
-    "releaseDate": "2026-09-28",
     "attributes": {
       "element": "ice",
       "path": "elation",
@@ -922,7 +904,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Pela",
     "image": "images/Pela.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "ice",
       "path": "nihility",
@@ -936,7 +917,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Phainon",
     "image": "images/Phainon.webp",
-    "releaseDate": "2025-07-02",
     "attributes": {
       "element": "physical",
       "path": "destruction",
@@ -950,7 +930,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Qingque",
     "image": "images/Qingque.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "quantum",
       "path": "erudition",
@@ -964,7 +943,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Rappa",
     "image": "images/Rappa.webp",
-    "releaseDate": "2024-10-23",
     "attributes": {
       "element": "imaginary",
       "path": "erudition",
@@ -978,7 +956,6 @@
     "isDefaultVariant": true,
     "modFilesName": "RinTohsaka",
     "image": "images/RinTohsaka.webp",
-    "releaseDate": "2026-07-24",
     "attributes": {
       "element": "quantum",
       "path": "erudition",
@@ -992,7 +969,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Robin",
     "image": "images/Robin.webp",
-    "releaseDate": "2024-05-08",
     "attributes": {
       "element": "physical",
       "path": "harmony",
@@ -1006,7 +982,6 @@
     "isDefaultVariant": true,
     "modFilesName": "RobinSummeretto",
     "image": "images/RobinSummeretto.webp",
-    "releaseDate": "2026-08-26",
     "attributes": {
       "element": "wind",
       "path": "remembrance",
@@ -1020,7 +995,6 @@
     "isDefaultVariant": true,
     "modFilesName": "RuanMei",
     "image": "images/RuanMei.webp",
-    "releaseDate": "2023-12-27",
     "attributes": {
       "element": "ice",
       "path": "harmony",
@@ -1029,7 +1003,7 @@
   },
   {
     "internalName": "RuanMeiPlumblossom",
-    "displayName": "Ruan Mei Plumblossom",
+    "displayName": "Plumblossom Letter",
     "baseCharacterId": "RuanMei",
     "isDefaultVariant": false,
     "modFilesName": "RuanMeiPlumblossom",
@@ -1047,7 +1021,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Saber",
     "image": "images/Saber.webp",
-    "releaseDate": "2025-07-11",
     "attributes": {
       "element": "wind",
       "path": "destruction",
@@ -1061,7 +1034,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Sampo",
     "image": "images/Sampo.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "wind",
       "path": "nihility",
@@ -1075,7 +1047,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Seele",
     "image": "images/Seele.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "quantum",
       "path": "hunt",
@@ -1089,7 +1060,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Serval",
     "image": "images/Serval.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "lightning",
       "path": "erudition",
@@ -1103,7 +1073,6 @@
     "isDefaultVariant": true,
     "modFilesName": "SilverWolf",
     "image": "images/SilverWolf.webp",
-    "releaseDate": "2023-06-07",
     "attributes": {
       "element": "quantum",
       "path": "nihility",
@@ -1117,7 +1086,6 @@
     "isDefaultVariant": true,
     "modFilesName": "SilverWolf999",
     "image": "images/SilverWolf999.webp",
-    "releaseDate": "2026-04-22",
     "attributes": {
       "element": "imaginary",
       "path": "elation",
@@ -1131,7 +1099,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Sparkle",
     "image": "images/Sparkle.webp",
-    "releaseDate": "2024-02-06",
     "attributes": {
       "element": "quantum",
       "path": "harmony",
@@ -1145,7 +1112,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Sparxie",
     "image": "images/Sparxie.webp",
-    "releaseDate": "2026-02-13",
     "attributes": {
       "element": "fire",
       "path": "elation",
@@ -1154,7 +1120,7 @@
   },
   {
     "internalName": "SparxieCandy",
-    "displayName": "Sparxie Candy",
+    "displayName": "Candy-Coated Waves",
     "baseCharacterId": "Sparxie",
     "isDefaultVariant": false,
     "modFilesName": "SparxieCandy",
@@ -1172,7 +1138,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Stelle",
     "image": "images/Stelle.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": [
         "physical",
@@ -1222,7 +1187,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Sunday",
     "image": "images/Sunday.webp",
-    "releaseDate": "2024-12-04",
     "attributes": {
       "element": "imaginary",
       "path": "harmony",
@@ -1236,7 +1200,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Sushang",
     "image": "images/Sushang.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "physical",
       "path": "hunt",
@@ -1250,7 +1213,6 @@
     "isDefaultVariant": true,
     "modFilesName": "TheDahlia",
     "image": "images/TheDahlia.webp",
-    "releaseDate": "2025-12-07",
     "attributes": {
       "element": "fire",
       "path": "nihility",
@@ -1264,7 +1226,6 @@
     "isDefaultVariant": true,
     "modFilesName": "TheHerta",
     "image": "images/TheHerta.webp",
-    "releaseDate": "2025-01-15",
     "attributes": {
       "element": "ice",
       "path": "erudition",
@@ -1278,7 +1239,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Tingyun",
     "image": "images/Tingyun.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "lightning",
       "path": "harmony",
@@ -1292,7 +1252,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Topaz",
     "image": "images/Topaz.webp",
-    "releaseDate": "2023-10-28",
     "attributes": {
       "element": "fire",
       "path": "hunt",
@@ -1306,7 +1265,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Tribbie",
     "image": "images/Tribbie.webp",
-    "releaseDate": "2025-02-26",
     "attributes": {
       "element": "quantum",
       "path": "harmony",
@@ -1320,7 +1278,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Welt",
     "image": "images/Welt.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "imaginary",
       "path": "nihility",
@@ -1334,7 +1291,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Xueyi",
     "image": "images/Xueyi.webp",
-    "releaseDate": "2023-12-27",
     "attributes": {
       "element": "quantum",
       "path": "destruction",
@@ -1348,7 +1304,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Yanqing",
     "image": "images/Yanqing.webp",
-    "releaseDate": "2023-04-25",
     "attributes": {
       "element": "ice",
       "path": "hunt",
@@ -1362,7 +1317,6 @@
     "isDefaultVariant": true,
     "modFilesName": "YaoGuang",
     "image": "images/YaoGuang.webp",
-    "releaseDate": "2026-02-13",
     "attributes": {
       "element": "physical",
       "path": "elation",
@@ -1376,7 +1330,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Yukong",
     "image": "images/Yukong.webp",
-    "releaseDate": "2023-06-28",
     "attributes": {
       "element": "imaginary",
       "path": "harmony",
@@ -1390,7 +1343,6 @@
     "isDefaultVariant": true,
     "modFilesName": "Yunli",
     "image": "images/Yunli.webp",
-    "releaseDate": "2024-07-31",
     "attributes": {
       "element": "physical",
       "path": "destruction",

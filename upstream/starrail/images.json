@@ -1,382 +1,394 @@
 {
   "Acheron": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1308.png",
-    "sha256": "b4afe65ca18636e9ef01cb3fd9d60f884c00c7f1d84a97eee8b1623dc2316994"
+    "source": "https://cdn.gachabase.net/hsr/assets/c0f59d0bd9d4cdbf59f9d7d3d1dcd5fc.png",
+    "sha256": "7ad1e0a35bcb6e7aad85023c693302abb8022fc5268e332de756472007784c38"
+  },
+  "AeonAha": {
+    "source": "https://cdn.gachabase.net/hsr/assets/2be49dbbe7cfe8f77187dcfea51d9863.png",
+    "sha256": "9f5f400bc2551ac3bf18c866500527ca1ea72a8afc2c7d1b84a039e31c0d4353"
   },
   "Aglaea": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1402.png",
-    "sha256": "18b2f071b3ed2d4379388bb493bc91d334b159034727156aa3f944abd16cf06a"
+    "source": "https://cdn.gachabase.net/hsr/assets/87ac37c964ffbf03f0e59a686c9d2792.png",
+    "sha256": "8fa811a184b0fff306f32f0383347d2b1c64912bffd35e01e6bdd3ce2e437c2c"
   },
   "Anaxa": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1405.png",
-    "sha256": "5271d865c96edaf8c01f57e07f060dee8ae4fef08327a6f0eef46714a86b4a82"
+    "source": "https://cdn.gachabase.net/hsr/assets/cbdcba6e196fff11954438ef37d5f84f.png",
+    "sha256": "6843ec4fbb8b684b55c3197600aa8b9acfc67f0bb8e3d6ccb7040a21938401d0"
   },
   "Archer": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1015.png",
-    "sha256": "c329043f7cdb09681ccf5f7f100add6514c95d270befbea646dd1fc4bedc556c"
+    "source": "https://cdn.gachabase.net/hsr/assets/cee9af274fb905e5dc461066603f4549.png",
+    "sha256": "6912c912482ff54e4878404577dff453e96bff25ba81fe61b944aa7f70c4ad30"
   },
   "Argenti": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1302.png",
-    "sha256": "ddacdf3e4791d88ff8841dfc92dd1221f3a4979262fed9cfd0d4e8e7d570bebd"
+    "source": "https://cdn.gachabase.net/hsr/assets/351a5bdb5bdff3897dbdebde47941cbc.png",
+    "sha256": "dd5bbb3bbc4eaac96bbb36c67565f18860f415fed9acb41b35213620bd9ad0ab"
   },
   "Arlan": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1008.png",
-    "sha256": "8efe27688e89ad843afd669d16933051bf063449c55c1f47d516fc3929ffe91f"
+    "source": "https://cdn.gachabase.net/hsr/assets/ed08113df4fe2936288906558416670f.png",
+    "sha256": "575402eb455ba6225c7bf13095abda42620859899708d4fd10e8e56e7e05edfe"
   },
   "Ashveil": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1504.png",
-    "sha256": "f27044f638adb9c3e31350db1bc79f859169fe4320ba344fc3b1e1c64d358daa"
+    "source": "https://cdn.gachabase.net/hsr/assets/183d741e6204c6c46259606d15af4de0.png",
+    "sha256": "8f8a1c70942d763c718fa98a98a3bad657057ae72c5e914ffd2089d66df5f8a5"
   },
   "Asta": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1009.png",
-    "sha256": "8e468bcf6ba736d67e55030958c5fb48da8a4329bcf2aa6f6995f833033dda17"
+    "source": "https://cdn.gachabase.net/hsr/assets/8cafc46d07ce456dc3fad53fb5f1cf2b.png",
+    "sha256": "b1d0e590aefef5e18a3480ab48abc723f2a75b76aeb127b809ea4dfd48cec52c"
   },
   "Aventurine": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1304.png",
-    "sha256": "6bb693c92daa6a93a066f74b156b690ca23999804ef57ac45ef01ca7428ef088"
+    "source": "https://cdn.gachabase.net/hsr/assets/07756cf596fdba62a2a199821cd93971.png",
+    "sha256": "2f2091881db6e932c08a88bad67a9d926255773501e7bc6b3428f7e321a5b966"
   },
   "AventurineWaveflair": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1513.png",
-    "sha256": "b284e64d9454d881e9e0e5a1e503b79f1cdcad90d8a9c3c4f00c6f693ebd628e"
+    "source": "https://cdn.gachabase.net/hsr/assets/2fdf5d4fe6eb998064438ffd373ce95f.png",
+    "sha256": "7b561dd4695b30cac3886640102624c4fbe716b9b96af00bd2c77dab45426f91"
   },
   "Bailu": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1211.png",
-    "sha256": "9ac211c197a41490fd572f48e7e53b6010a392bfbc49c787e04edb1d83b310d7"
+    "source": "https://cdn.gachabase.net/hsr/assets/be6f955fd12ceb085ef86e33e8282462.png",
+    "sha256": "bdf8dbb039ba3641ba86b9e6c3a42cc4903405d538931fdd5e30011f5919212a"
   },
   "BlackSwan": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1307.png",
-    "sha256": "a80342a6a7accd98f8e846ef082f0d0d0e0222e818936cf74940a1f63162a455"
+    "source": "https://cdn.gachabase.net/hsr/assets/2129d94b36071fd12e993301a17f2a8a.png",
+    "sha256": "89e551e83513973294bdbb093d84500a930a1b97bdc9f3ff44e774197698cd6e"
   },
   "Blade": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1205.png",
-    "sha256": "6baaca38a330665cf5a68c2c549a41f1c6b7429bbdd4e64a2b13e12865521fb6"
+    "source": "https://cdn.gachabase.net/hsr/assets/a608189d947a033cc3cf08d496599da2.png",
+    "sha256": "2269a41fca33bf15d986174517cbcfa4a5eca89b15aa967d8b732c32a58ac3b3"
   },
   "Boothill": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1315.png",
-    "sha256": "e6a7ca3242f310dac2682b6e41fb4b2718a27754126b16a07328100e70e06d03"
+    "source": "https://cdn.gachabase.net/hsr/assets/e6f8ee4ceae0c6121e2578b2a5e1e030.png",
+    "sha256": "22f712eb255e178237db8de912e29a71e01d852eb8a9af7f570d12c4d1f1afb4"
   },
   "Bronya": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1101.png",
-    "sha256": "fcf3041f4ef0e98e997c95253153b70c3563d55508afca7db97955378522e766"
+    "source": "https://cdn.gachabase.net/hsr/assets/53f07b59ba78889e3814345d647a8008.png",
+    "sha256": "ce37e04fc1edfa7a745964157f12ee7cb00bfba7f36fe9c3dddc7d77fc7415f8"
   },
   "Caelus": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8001.png",
-    "sha256": "101eb3f02a7f53941ab94475359c8032b935fa51be915a0b2fda52a403c057da"
+    "source": "https://cdn.gachabase.net/hsr/assets/0ffa395fe7c71255c3c206a9d195db7f.png",
+    "sha256": "593f8ca0a39d37accb3ef5cb90f3987c8174d195fe18272f27b8b3920480da25"
   },
   "Castorice": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1407.png",
-    "sha256": "15fd6056b1370da9f6a9de78e73100a9f1fc7a3e55072a40dfb249312247fd7c"
+    "source": "https://cdn.gachabase.net/hsr/assets/9dc6745d071921b94a14e10538c9787c.png",
+    "sha256": "1d8b0bbfe4279501164c13da429dd53c785845e7702c1feabc8874fd8ee20dd2"
   },
   "CastoriceFlutter": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1140701.png",
-    "sha256": "f03a22ace7ab87521dcfc8743fb6c6b47bc931a9356b4f2a852b4560ec20fd84"
+    "source": "https://cdn.gachabase.net/hsr/assets/4d171f62b12309d0fd09b6a609e8fe7b.png",
+    "sha256": "9fe08661ef9d488e1264f5adbfc650a3042c1e21f0ee89c436fe3cb078422455"
   },
   "Cerydra": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1412.png",
-    "sha256": "d3dcc91c6b306873014972e080fe254318bff0407dcb02f04e7ad8247a924d96"
+    "source": "https://cdn.gachabase.net/hsr/assets/846064c129399e15a948c330ba611e67.png",
+    "sha256": "65a89d9ba80aca6b430bf392649c46dd495ce4fadafae8248dab0559f5075e29"
   },
   "Cipher": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1406.png",
-    "sha256": "e0772ee7f0099eb023d420242824846016ffb5acecd8b2b865b0bd2cf1287e5c"
+    "source": "https://cdn.gachabase.net/hsr/assets/0cd3c930b443156928927ab68f1f850d.png",
+    "sha256": "28d08c0ca39c6e5b761ecf4d6cb9978db0f5cf142ea8348c51ed2761169d0d59"
   },
   "Clara": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1107.png",
-    "sha256": "d2a3a59bcef4cd7aad31a1b13caa309806d051c49ec786f6466ee75b6034b60a"
+    "source": "https://cdn.gachabase.net/hsr/assets/334614016646efbda3e7c2025d437dc4.png",
+    "sha256": "e02f28048e8f1a33524b5b66b27972d9c3901ca4d810e7f20aa66fd5d0d9dca2"
   },
   "Cyrene": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1415.png",
-    "sha256": "83954ecf90670e151128080a43c91473c1766b6ff9669acdbc96fcd60c4b7080"
+    "source": "https://cdn.gachabase.net/hsr/assets/651bc804d680f1a594a4116409433c85.png",
+    "sha256": "b345f5ac191442efa55216f1e4a3873bc15f9a245bfa2ee94e3bae6531b91988"
   },
   "DanHeng": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1002.png",
-    "sha256": "55955ca4b0c28713eb31461f664e7b4c22b7a3eb2a21ca2892ac8270998352eb"
+    "source": "https://cdn.gachabase.net/hsr/assets/808d204ed791f2ff4a5e533dea63b70a.png",
+    "sha256": "675f29707194273e01dc3680d9607ac703ecfd147f542e315c5d036574f5100c"
   },
   "DanHengIL": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1213.png",
-    "sha256": "5ab0fc51f5acf1e21268295fee40042c7072df93f91d78c15deacddf69311740"
+    "source": "https://cdn.gachabase.net/hsr/assets/7d9d7c036c0d88048b228a6e2853cc20.png",
+    "sha256": "67b8f49b8c41b978b32dd7c91a9b149047f6b11b1aa50caef2aea5468ca9f5d9"
   },
   "DanHengPT": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1414.png",
-    "sha256": "c95750ab5b6eb7985ea7db0c0b8cfce11b43a829b4266ba07a85cb76181a26d5"
+    "source": "https://cdn.gachabase.net/hsr/assets/8a939a292f2c996ad09006df2fc026bc.png",
+    "sha256": "5c276a756744354d8b7bbdb6f32303a29cf89049cbe1dfa52c0a501d7a3b8a36"
   },
   "DrRatio": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1305.png",
-    "sha256": "d1caa6884e54f98fc13e22b8280bf993532f36bdc2d40b64f4146aa48ebe9ecd"
+    "source": "https://cdn.gachabase.net/hsr/assets/3a33024c2bc9b1dfd8a95969c8675e92.png",
+    "sha256": "0b5343292fc22dada42f2fb5f6b37550dc07c8ca893e2797359d048b5b304f06"
   },
   "Evanescia": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1505.png",
-    "sha256": "3e170e707b027d24ee1a2aacaff6267feab23856bdc9e4fb9d9e65187220e626"
+    "source": "https://cdn.gachabase.net/hsr/assets/723a90e789fd354fb96b450a90c73e30.png",
+    "sha256": "57b4e63ddffb153479a8c870bbad117c56dcbe55c80d6a560fee8653263c59b1"
+  },
+  "EvanesciaLunar": {
+    "source": "https://cdn.gachabase.net/hsr/assets/e48a276f033cf42ccf3cf2c1aaabdfdf.png",
+    "sha256": "c05867289f2e086bf93b5eee7e7bdb8927a655ade83653a18b5fc86f4626e4f2"
   },
   "Evernight": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1413.png",
-    "sha256": "0eccad1fd73dc059290f3e7aa8195013a4b2c72843d1000fa7b07356e127b23d"
+    "source": "https://cdn.gachabase.net/hsr/assets/0e07118b44fbd3f38d1d80ef7191cde4.png",
+    "sha256": "f2a529d611ddeb95a3feeef2da7e51fcd7c7c52004defa9a9294b0cef14aa6f9"
   },
   "Feixiao": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1220.png",
-    "sha256": "0e325e398cf99901e1aff0a27a362c100d834fbad10666336ceb58fb1f6829ee"
+    "source": "https://cdn.gachabase.net/hsr/assets/6b3211e1964ddc0053e944a551f16a43.png",
+    "sha256": "73f1408fed24a3874a31a459d0caa5e5a310792f1fae4ea3ef38b73ac8e6bac0"
   },
   "Firefly": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png",
-    "sha256": "07e7d3c792de1ec87f30ec6473024f7a2c83e0a90cf2a9b5be39c9ac33376383"
+    "source": "https://cdn.gachabase.net/hsr/assets/2d70d4c8b146fb172af136ee0ac3e4ce.png",
+    "sha256": "9f2825881c368b3df67c82ebc693c3a95e55976ef4f03560e95728dfb53600d5"
   },
   "FireflySpring": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1131001.png",
-    "sha256": "b3aa7b04ce1b95e2ded8815f6331207ea6b66cda673d55cfce7b56c90daf3485"
+    "source": "https://cdn.gachabase.net/hsr/assets/c2860460be83612782abf069015053ae.png",
+    "sha256": "d9bc5a045b5e044a81ee5ab4f9e8fc58232a00d8b625e83a234d033c90e1fef2"
   },
   "FuXuan": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1208.png",
-    "sha256": "9b39b50d40559d3efc4dee1132e03b0ff13b649928b43703ca2d0285d91ccfb4"
+    "source": "https://cdn.gachabase.net/hsr/assets/df9b67c565680fa13faf2cc136267fe4.png",
+    "sha256": "70dc9b864e61051a85331713dfb5063655f44135be294c38c0b517ba64772962"
   },
   "Fugue": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1225.png",
-    "sha256": "7007c67a20c2443893f30a0b9d0b6294e6300bdeb15b6ba7cf765b1edfeab2c8"
+    "source": "https://cdn.gachabase.net/hsr/assets/5c0a3732fbd1bbea48d97941a19ad3d4.png",
+    "sha256": "a3f85635eb91a4f7c73c8bb9cc84e64a7df9b3ece5283f33e7c7e966b64605c0"
   },
   "Gallagher": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1301.png",
-    "sha256": "77c08e3bf7b06dd3cef49751b3f8ce29f7f49084c1727ebbf6e4913363330e83"
+    "source": "https://cdn.gachabase.net/hsr/assets/15c206167a003f7ce39b9a7165ecdb36.png",
+    "sha256": "e0b334b3705470a8b4b5b4d9ecef93f09b259077bfbd775bb72af0639a6ecaaf"
   },
   "Gepard": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1104.png",
-    "sha256": "be6d0c8ec097444b83c32615552539c339ea58d87bbbd64dc2ebf3fe5bd7ad96"
+    "source": "https://cdn.gachabase.net/hsr/assets/f1328ab204ce9e59823adf2d33983215.png",
+    "sha256": "1d718492fe92d1dfdef92dec923b7ba143958b31d7b66468b763faf61db21aa7"
   },
   "Gilgamesh": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1509.png",
-    "sha256": "859c94c3a0bf6d984fcb236f7b0af2aeb579662631264d22cb5ceacd0a4336a4"
+    "source": "https://cdn.gachabase.net/hsr/assets/f14b7b301a148c6bfb417e88fc3bca95.png",
+    "sha256": "fe943414a88a942ddd26a2caac0ff534ac8741e6a2a0d3cf196d65abe21491c5"
   },
   "Guinaifen": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1210.png",
-    "sha256": "9739bcd14d5eadf207a56934f67210e28955eb75819d3e705b98933a35d06666"
+    "source": "https://cdn.gachabase.net/hsr/assets/08c2ef0e81aa09837a4599199aebbe2f.png",
+    "sha256": "617e3342e40870ed3bbed9c18aad11c49007bda64d9e4f5837fe3ed85b56abc1"
   },
   "Hanya": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1215.png",
-    "sha256": "6b1d4b32b731266085237b0a76cd6d50ad9a6cc84a7ccbd587425b2d9363c6b7"
+    "source": "https://cdn.gachabase.net/hsr/assets/faa2244d18987fd1acba90814ea1d200.png",
+    "sha256": "81922f564547fca7a892955fd1c15d0d7500955ae506f64c857fe28802875b8d"
   },
   "Herta": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1013.png",
-    "sha256": "2f1c0653c7435769fe7579c86bbf2ec88fe314775047dfef84c8bbea7ce6e700"
+    "source": "https://cdn.gachabase.net/hsr/assets/7ea5a61ea4dcfb27b4ec0ae05dc3b552.png",
+    "sha256": "b88ecd71ea3113b1d3e00b65c8e955b61dcf5bd745a857a05fc5edad8de2045e"
   },
   "Himeko": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1003.png",
-    "sha256": "8595fcc400ed86b5d63068f1b3a5b0be54680ae171b08918956f711288257a1c"
+    "source": "https://cdn.gachabase.net/hsr/assets/26a0a1c7fa3cd5d4c7e002e7a7a38196.png",
+    "sha256": "6daa3b965296b089acb40afbb97a469b7914f1c5ba61d2300e5cd527667b3f21"
   },
   "HimekoNova": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1510.png",
-    "sha256": "abdc700fcf0b33e03ed85d9084e7cf7713aee9cbef97494340394771d51508d3"
+    "source": "https://cdn.gachabase.net/hsr/assets/a02fa50e1826ff9d666e9a1e9299fd72.png",
+    "sha256": "cc2e42af0b623c48e7c82005e4474e9823902bdfe4988b21ae76530a9efa3519"
   },
   "Hook": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1109.png",
-    "sha256": "92902d1d5a05e53712cb512823c4321a287de30590d896f6fad10f063750d74c"
+    "source": "https://cdn.gachabase.net/hsr/assets/65afb26b7cf09f6c34c1a471ada2d232.png",
+    "sha256": "6fba02ce89aad7bbc6a36767b56124f8f73a6b1238efb164d8309f45f0f80c31"
   },
   "Huohuo": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1217.png",
-    "sha256": "466cd54aaa2a3a3ace4a37e6b1ef5b6ad04ca4122c762d7ea51f031f05d57345"
+    "source": "https://cdn.gachabase.net/hsr/assets/cdfa676f1e33e447f594d1f4464ff71e.png",
+    "sha256": "e0781bb4244b9392efa7a792970c1e4855ce29d950ae51a5b0750d9818576470"
   },
   "Hyacine": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1409.png",
-    "sha256": "2ff4ea8c875c81ddd359670d1b20ddedecbec656fe316377c1ba58c91df13044"
+    "source": "https://cdn.gachabase.net/hsr/assets/671da57770e033b589109d2018e2da91.png",
+    "sha256": "3662418c33b5698685f3081f06db20d746021ed8d414b02b661c064997ad678a"
+  },
+  "HyacineWarm": {
+    "source": "https://cdn.gachabase.net/hsr/assets/2bfe9ebeef7edfa50de9a5057a78eca0.png",
+    "sha256": "7bf88cb43a70fd439de46a2c1ffce196bab267a573b730e4dc3dad6cc6eb6730"
   },
   "Hysilens": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1410.png",
-    "sha256": "6002c2089f4056530af977b20a8bf02d515cda919d6de71684ae7c495f0fa0a5"
+    "source": "https://cdn.gachabase.net/hsr/assets/5133fe9933cfbc10c7d416023aafec05.png",
+    "sha256": "7c0d63d7b620676d6e8ae9a82d407612516e969acd91c16c0562a2e64a8a289f"
   },
   "Jade": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1314.png",
-    "sha256": "6bd07adaf9ee50b220b4dac037a02b6e89bf24eb1947263566f1a28855f07298"
+    "source": "https://cdn.gachabase.net/hsr/assets/df3e4413c8aae536c59e8016d0035049.png",
+    "sha256": "3203e6db4df2abc7d3fe9f71e8fab61a7b60351ec645b06f6d7e3ac729a22770"
   },
   "Jiaoqiu": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1218.png",
-    "sha256": "a96dcfc0a4b3e62118cba7506f4e0e3c3d0eb8a179aa5151e2a2c6049a2d4e78"
+    "source": "https://cdn.gachabase.net/hsr/assets/be21dc8b2e7fe7bd458c3b13ac141973.png",
+    "sha256": "3eb0b3b1b1f904e5f716d05266e67d742ec2f289ac0e8e310e930faa1631d9b0"
   },
   "JingYuan": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1204.png",
-    "sha256": "131be2709936e396fbdd44568086ba5fc0a928483d587810ba63be9c7a9f49d2"
+    "source": "https://cdn.gachabase.net/hsr/assets/a783ba914152ebf4c6216ed948fe0f90.png",
+    "sha256": "8bbba25105ebf38adb38272b43b9f5c7c72fe75cb9d79d1994af607176705745"
   },
   "Jingliu": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1212.png",
-    "sha256": "039ebafcb78371d403871d1cf277f9d7eba1447d5b2c51bfc71d9ff2e2641fec"
+    "source": "https://cdn.gachabase.net/hsr/assets/d92f84839ec3a75d2a0192f95a6f5708.png",
+    "sha256": "1bf00a1c93c13d6424c51d80f6233ac551e8364523bf5fd24723558b6f623820"
   },
   "Kafka": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1005.png",
-    "sha256": "79423cb5703d9f0098cbb8cf0b50a5ebe1ba5da39a0a6165eec2a8ce0f904f88"
+    "source": "https://cdn.gachabase.net/hsr/assets/3e96fc7df78d149f45a0622b407a4990.png",
+    "sha256": "1e499bfc967af61b0cf103e8d6dbc11c36d43592690038a03e5e17801fd7cf05"
   },
   "Lingsha": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1222.png",
-    "sha256": "41b1ea47cc7600ee79b6337eb35aab448c5c70f3233cd2241ee0e533e483cf0a"
+    "source": "https://cdn.gachabase.net/hsr/assets/739c96807d1bec7ee49dcb6e4c81b41f.png",
+    "sha256": "49b1dde637b58dd35dbca25768e0a8788e8a4e2117b09fdbc0e10eaa06698e52"
   },
   "Luka": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1111.png",
-    "sha256": "5ee24f4c527669f68a4d117642359d3ba961de0bb8ef3a99be6a87704a6edd45"
+    "source": "https://cdn.gachabase.net/hsr/assets/b5ca4e90258025701e2de70a5d9d10b6.png",
+    "sha256": "bfc4933e505cd0987cee1c38c22754681a56682e0e82257ad82ec6343f932d16"
   },
   "Luocha": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1203.png",
-    "sha256": "49a3393e02bd46bc6949f30b729d6fa467bebdc9af0b0d9e127a200ef3c6d889"
+    "source": "https://cdn.gachabase.net/hsr/assets/fddd4efef825c5d70c3df7f5aea85f8a.png",
+    "sha256": "3c75cae8e1aff5f1ca41d4089046bb3e8713b3138b4865c66164685cd5ccb00b"
   },
   "Lynx": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1110.png",
-    "sha256": "3e4e2df7de7d6db5062c9408b97d0aad2fd506920b45d836fc9b8ef4f2c9da5d"
+    "source": "https://cdn.gachabase.net/hsr/assets/d0a169d1c37d81a69463abb3a444eba0.png",
+    "sha256": "ddbd20d01b26574012a3d123428286eec281266f578ba0830dd8e0a4b87231ed"
   },
   "March7thHunt": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1224.png",
-    "sha256": "f43f8be81e531102d6ee07e65feb3a29b59f1bab1efd72223c3cc13b3670b2f2"
+    "source": "https://cdn.gachabase.net/hsr/assets/d05da62e4167ca64bfbb162e26ee72a9.png",
+    "sha256": "fa292ae018c6f97adb69729cf1cd4be312709e13695496d77134417f964e916b"
   },
   "March7thPreservation": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1001.png",
-    "sha256": "f1cfd0dbbf8c4adb8458af7aedfc4a0258a7d07c48d0d068bd30aefcccfc3db5"
+    "source": "https://cdn.gachabase.net/hsr/assets/9418d6a3a92a32b09501bbd72f8f3571.png",
+    "sha256": "39d6945fae30b6e2671a0aa80eeeaccfe8c7d74ea03ea321a4214aa60b5c77d6"
   },
   "March7thPreservationSpring": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1100101.png",
-    "sha256": "03e67817d934c7e318f27d9c449aa4cda284a1dfc4219aae4d6ddf3fcf9a64f8"
+    "source": "https://cdn.gachabase.net/hsr/assets/ef29323e766cb40d506861e800449b00.png",
+    "sha256": "eb704443bd1738b3dfe704763091a36abd36fc186cd8471df6cbf03758e9c6f9"
   },
   "Misha": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1312.png",
-    "sha256": "d82fd01b1695c8f3eb992f7e52fe0f770427ba5bffffaae4618030b682aa5e1f"
+    "source": "https://cdn.gachabase.net/hsr/assets/b5402d328eec1defa9d4be37c18b6bd5.png",
+    "sha256": "5a7a16cec88d18265828cf2f8ea4dfae9dc5189d91e1e4515b9191fc181f43a1"
   },
   "MortenaxBlade": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1507.png",
-    "sha256": "90decfc568a02401a9ec70ffb0c4beb065b4c09cd89d79e6cef03ae96ccc4a43"
+    "source": "https://cdn.gachabase.net/hsr/assets/c98c2d67c810e74bcc549f151ee42d14.png",
+    "sha256": "f3fe6b2650996ff0c2d3b34c3dfabd1c505e5193252dfc3caece819e23eab5e8"
   },
   "Moze": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1223.png",
-    "sha256": "45ded48d632f023b8a67bbb8fd14536876104b5609f01282619b680ceb5e8ee1"
+    "source": "https://cdn.gachabase.net/hsr/assets/df925da554f836000c395c9972ec10e2.png",
+    "sha256": "5dc3f7e28575dedb863ad82ad2e23cf296a4fed9acde9c87dac09e70eb60ac2c"
   },
   "Mydei": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1404.png",
-    "sha256": "38ee7677c0da279b771e7f625444cbd8882b349a4e4fc44f4ecca941c79bb918"
+    "source": "https://cdn.gachabase.net/hsr/assets/115c14bcc2b463f28ca40a4a1d8f40ef.png",
+    "sha256": "9e1145937dba34bbd28881a88a254e2f474bf84df10e2cc0df8d0c9a373739e0"
   },
   "Natasha": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1105.png",
-    "sha256": "c39b2d526503423e6af0597234f5526e87d33625697060c9e10b66730b0a6112"
+    "source": "https://cdn.gachabase.net/hsr/assets/914c8bb0cf2da14b21fb2da43677a3ba.png",
+    "sha256": "ffa66ed12ba8783d7830f047d27a5a613bbefded4a33b5cba0689f9187f83e4e"
   },
   "Pearl": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1503.png",
-    "sha256": "8ed274a238cc363eda1a6985621451d3af85991a5668668c061a852922066c1b"
+    "source": "https://cdn.gachabase.net/hsr/assets/b4e31c2407f7834ab2d40d35d94f987b.png",
+    "sha256": "5e3992587cca306aca63a8c121bdd32e062c6aa47c7a76d741f01070af0142e2"
   },
   "Pela": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1106.png",
-    "sha256": "741b01054c401a17918505dba71e6473f2cd7155f473bf42d8bf55310074c90c"
+    "source": "https://cdn.gachabase.net/hsr/assets/9b883b39f3b0216948efc663bcca7599.png",
+    "sha256": "1a4e90ac0ceafad544af7a214dbbdd5f896ce273eb07f70eaa8061754a9a5c38"
   },
   "Phainon": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1408.png",
-    "sha256": "5f26147c24729a904c2097e645c6fee78a45e2d9009b15f26f10e5091307183e"
+    "source": "https://cdn.gachabase.net/hsr/assets/83eb1129a542f9a470ed3d1bcdfecd19.png",
+    "sha256": "3fb6bdc27380364ba149a5fc92512fbf5fdee7c7d3ce53964708094ce6911549"
   },
   "Qingque": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1201.png",
-    "sha256": "4e442be7b2ef4ef1408272835f64115520287da6927093e9a0e87473d9773427"
+    "source": "https://cdn.gachabase.net/hsr/assets/15c98bb50e3071a563619bbcc305d6b5.png",
+    "sha256": "f7f4a943b6b5aec3928a977cbd7de5572de435440c6018537cd13715911d31fa"
   },
   "Rappa": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1317.png",
-    "sha256": "a3cdc62d84da047e39fd77b43a787e9d42fcd34bb9914348452b3b4b545447e2"
+    "source": "https://cdn.gachabase.net/hsr/assets/35f8af937a01096a18877ad4075e1e38.png",
+    "sha256": "eb24e0ea2860bbb60a32be8cce3c062c1e98d19ef02c15abb119cbc44ed911de"
   },
   "RinTohsaka": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1508.png",
-    "sha256": "170defad2552ef2b83eafde59c33c527c5707cb037db51fae5eacb8ca82aa5d8"
+    "source": "https://cdn.gachabase.net/hsr/assets/9d03312750658cfd8fbd92df26e20abb.png",
+    "sha256": "dd21a41eaf8fe7f9b8cb7ac705b4ceff5f1628d15a8ea56ab6126cd72c00748b"
   },
   "Robin": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1309.png",
-    "sha256": "cc98860894173be99fb344edd0c2aecdff3bf1bf2fb2d8dfe4dfe26d6804bf5e"
+    "source": "https://cdn.gachabase.net/hsr/assets/0ab2fee18c19a8f8fff01362f14af640.png",
+    "sha256": "1df650c5fb1e69a34e98992f73e643fe7a48055b114cd1bf9521ea3964d8e7bb"
   },
   "RobinSummeretto": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1512.png",
-    "sha256": "68598678278364f097affe6bc77b147f34e2d027945947a13fb962901422d3e1"
+    "source": "https://cdn.gachabase.net/hsr/assets/98bcc901782bee57cb5907f354f0c2d5.png",
+    "sha256": "0daddfe03d9b9e884ea68819b846141d9da613b18518ad4d4614273d06d01496"
   },
   "RuanMei": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1303.png",
-    "sha256": "4b7aecc8cba16f1e2d3e73db90043cacb21606df7bd73ce42df6250b543e8502"
+    "source": "https://cdn.gachabase.net/hsr/assets/573122ecf10d8ff28f026974bc2210bd.png",
+    "sha256": "976eb1b3ed314fd75c39e2534e65b1891b4cf6de2e82312c737c0f455ed118c7"
   },
   "RuanMeiPlumblossom": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1130301.png",
-    "sha256": "53e1bdd0bb294144e17a09d83de1046a5c44f3cc1f4224219c97b49bb6d57776"
+    "source": "https://cdn.gachabase.net/hsr/assets/f390a5b0f82aa50f708f09153d5bf70a.png",
+    "sha256": "f1e4eb7d3d6ae4b9b10fabeac41663ca26ae6ee6dd9bf089cc73a8e899f8443e"
   },
   "Saber": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1014.png",
-    "sha256": "a955237f9c4a464109d69e4c84d3cbdb433c76a5302bc850137dcee1acbba85f"
+    "source": "https://cdn.gachabase.net/hsr/assets/d24c764b3defa40d37d46706f9646a24.png",
+    "sha256": "a56693b4eadf136bf025d940d4f158fa0fd6926e46d56a47ebd3e014e996b7ab"
   },
   "Sampo": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1108.png",
-    "sha256": "7ac8c68f07a4efe4944888ffdeb9b40e00badc3d153f296b4578819479e33a29"
+    "source": "https://cdn.gachabase.net/hsr/assets/76d8fa5f38c395f33feb35091fc0f599.png",
+    "sha256": "341e5269bf20850c4263f3ff644f562e90c489fdf8635167be32d2f10bdd585b"
   },
   "Seele": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1102.png",
-    "sha256": "0074ba90f991c75e245e77d7af82d23af8ac56f03c1ef1ed5609e3a073fe5371"
+    "source": "https://cdn.gachabase.net/hsr/assets/13ce7ecf7e9c5e76ede4e841c39f6ec5.png",
+    "sha256": "af0b7972c2529298ea3a344e838b74d12bf04fbaa185bbfe1bab64fe53a102f4"
   },
   "Serval": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1103.png",
-    "sha256": "da2f96c528101687e6e6e379798759a982c62ef39d1780989844219f77009060"
+    "source": "https://cdn.gachabase.net/hsr/assets/841670fb0172925c8e31931110cb089f.png",
+    "sha256": "fba6d8afe52edae353c2fb961509b743804de5a7bc068c0a2911d83b3cfd49e0"
   },
   "SilverWolf": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1006.png",
-    "sha256": "a222772725045864184e2c24065838b1ccd634a888f9582354663e4b9ffa94a7"
+    "source": "https://cdn.gachabase.net/hsr/assets/2ffd18388014392b721df480b6a147a9.png",
+    "sha256": "a0f4f985cfc581e873acbf82fbbf073d0413337580d3c475001d315ec4c95dec"
   },
   "SilverWolf999": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1506.png",
-    "sha256": "01a8246aceb98a09c8b21f60b6559d190173ce697b84b925b6b27ffedf60bf4a"
+    "source": "https://cdn.gachabase.net/hsr/assets/98dd725eefc23aba5e2b8ae7ad008d33.png",
+    "sha256": "57522da261d2133f10a5422563ea8fa991b0f4ec68cd0b6e8e2b6926c96d9f54"
   },
   "Sparkle": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1306.png",
-    "sha256": "386e453884a8ae09f7f8c4463dfff631d34d28ce94fef00ead2f881345629ff4"
+    "source": "https://cdn.gachabase.net/hsr/assets/fa392ec307add9c1adedef9c2a23e224.png",
+    "sha256": "bf0c28ee4a0db74c3b0b2dfb474e8f80800be0395a769ef03743083b8956495e"
   },
   "Sparxie": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1501.png",
-    "sha256": "ad147dafe1c7b991277303d9fb968f1db5e9ef257673a6fc5447c1a6187a1fd9"
+    "source": "https://cdn.gachabase.net/hsr/assets/09ee6e2618ac2a0dab2aec8d73b0bb01.png",
+    "sha256": "1928443ba753538075e2411c5e17452c6c0cf6a68d141ad838769acada8418cc"
   },
   "SparxieCandy": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1150101.png",
-    "sha256": "58583519ab8357f1e796e87db036d9c9427ad8173256cbc460e11e59caccb13b"
+    "source": "https://cdn.gachabase.net/hsr/assets/307e2d25319e01d1db92905b78ec0da2.png",
+    "sha256": "816781d5fa49e3d148082b1e52e1e8899c8898f9f9bfe51c3c304ad2cf954b18"
   },
   "Stelle": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/8002.png",
-    "sha256": "8ce059fff114fd87a62dc2e80abbad9ce0f8ea556a5c7e8f2554fa2cb03b150e"
+    "source": "https://cdn.gachabase.net/hsr/assets/511d14e283c60ec40ecb74491b22c268.png",
+    "sha256": "ae81a79f673f75b44b2d5e8414cfa7977347e23685c3e17f20c68ab8b56bafa8"
   },
   "Sunday": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1313.png",
-    "sha256": "28f5b848cd60e4d6ab27f00cecb1032ec5a18b5d79901265c0161c60f7bf90f4"
+    "source": "https://cdn.gachabase.net/hsr/assets/2dd3f7d16106722b57ff155f25dba780.png",
+    "sha256": "1d408a6a84c630cd2cd8f3bbdb0d70c7c368edd31f9b6694a15fda35d7501da5"
   },
   "Sushang": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1206.png",
-    "sha256": "2ba3c75a6127816b3a8068aa9f48519f77aa50b5614eaaf8adb0ceb007c9b9a0"
+    "source": "https://cdn.gachabase.net/hsr/assets/101ce4e784382ab4066f9d6ee4d07720.png",
+    "sha256": "e6f50411d930c33bd4e292e47a2c3f320eae4f7e818450bcc990fb1121165409"
   },
   "TheDahlia": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1321.png",
-    "sha256": "b26b87b58fa6a7b06b5c6dffd8487d01a4e66158735385456658481773ec033f"
+    "source": "https://cdn.gachabase.net/hsr/assets/2e88f37e40740679f5c7c573e1885b96.png",
+    "sha256": "7e7f07304e60f400b3265467c1751b739f1f8626de420bc85692024b6117be96"
   },
   "TheHerta": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1401.png",
-    "sha256": "85da899dc16252c7405a2a0badfbda1482e87c4512971907201fe7ddceff1ac5"
+    "source": "https://cdn.gachabase.net/hsr/assets/46f0566f40866a3f6a2d4807b8b50092.png",
+    "sha256": "1079ce0b599fcb73024a187cea5f4178e0b054ba2ab6300b7c682c279a6fc4a4"
   },
   "Tingyun": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1202.png",
-    "sha256": "de90e2b6b02f5743beda3bf67e449cf056677ba6106485255d8e434389552e36"
+    "source": "https://cdn.gachabase.net/hsr/assets/44b708432a42948b3afb72da1ec7d809.png",
+    "sha256": "ad25e835cef2c6ef934a5e5ab53578a20e09063c6f72db85f6688d456d6575c0"
   },
   "Topaz": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1112.png",
-    "sha256": "0502c07ee3dfa079d5e40334fca3b73e00468a40c24a8cf4d07379a394df53b2"
+    "source": "https://cdn.gachabase.net/hsr/assets/9ab24d1d3065a93213ce1cf645838f14.png",
+    "sha256": "04ba6b62a835da7063bd889666b4ec73edb28f87edfb5e3c79f46d9bd1bf7b80"
   },
   "Tribbie": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1403.png",
-    "sha256": "effbbf8adc9713d6be79ce6bb3f229bcef2ad21649df8d3eee600784e1bf513a"
+    "source": "https://cdn.gachabase.net/hsr/assets/d5075abf0d8bb19bdcde41fb42f97d52.png",
+    "sha256": "39b7b58436d6606b843193a568d955b796d882d9582258cf3d7bb56adc14db4a"
   },
   "Welt": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1004.png",
-    "sha256": "67747f23a23f97c8ead4046518ecd74d936157ee7f0e781008dbc545efa8f1a1"
+    "source": "https://cdn.gachabase.net/hsr/assets/b8e968d79adaeef4b592a197a167ff34.png",
+    "sha256": "1bfb44438f0bdf5c60b93529010bc0c5c60bb3557e014900e702a92d831dbfdd"
   },
   "Xueyi": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1214.png",
-    "sha256": "94f7d4cda2cfbf3811c50986d2ec8bae7c61739f988ed829d9d72d1e3a798d21"
+    "source": "https://cdn.gachabase.net/hsr/assets/d64bee997d9eecdd991fdb70944f6fcf.png",
+    "sha256": "9e2fd99a6eda5c6622463241dbc2f7187f4096591bf9ee4741450841a747265f"
   },
   "Yanqing": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1209.png",
-    "sha256": "3292863ea9cf6f7cf8d574262669820a63e29bc057b7151c227173cda5388539"
+    "source": "https://cdn.gachabase.net/hsr/assets/88866874fa2ce76d3c8f65a03323406d.png",
+    "sha256": "1f9e6926ae90deefa06b695019248f49ae432957b1378492a9ab314c04d58dcf"
   },
   "YaoGuang": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1502.png",
-    "sha256": "f0b6750d0125d283c43679f3ff063867ad00a51010e058cc04e678faf2c1df7a"
+    "source": "https://cdn.gachabase.net/hsr/assets/8ca2530c42791593b72d54a850fce97e.png",
+    "sha256": "7198e20d244fc140f4282618f1482ec59714937fdfe8ddf8ec2893115ec951c1"
   },
   "Yukong": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1207.png",
-    "sha256": "d8e6f1f7d7edb762b6a887fd5f5e2d5defe2a450836ad8fd700dceca9fbca1df"
+    "source": "https://cdn.gachabase.net/hsr/assets/c5cd1d4da24821fbd7b73b783071dbe1.png",
+    "sha256": "a93a952f8fd03428034ffd2a157120679b39c57dc181fe8e0cda202d7ff756b5"
   },
   "Yunli": {
-    "source": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1221.png",
-    "sha256": "80e3421f448cc105996c179a3d4e48594326e04c3b9352814fcec05adf036ec7"
+    "source": "https://cdn.gachabase.net/hsr/assets/4613b49e0fcaf841eb190f9f0003d5eb.png",
+    "sha256": "a45486c7e6d7ef2f00402a993b1d17b591de7d24261b43d00649da6c814ea031"
   }
 }

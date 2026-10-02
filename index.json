@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z",
   "packs": [
     {
       "gameId": "genshin",
@@ -8,6 +8,15 @@
       "shortName": "GI",
       "importer": "GIMI",
       "versions": [
+        {
+          "packVersion": "2026.10.02",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.10.02/genshin-2026.10.02.zip",
+          "sha256": "efad32ada01b31a94b0b6df0c5a832f98ff82076a7bba7d82f43a7ee7dd16d14",
+          "sizeBytes": 3210012,
+          "changelog": "126 characters and 30 skins, 23 still waiting for hashes."
+        },
         {
           "packVersion": "2026.09.25.01",
           "packSchemaVersion": 1,
@@ -25,6 +34,15 @@
       "shortName": "HSR",
       "importer": "SRMI",
       "versions": [
+        {
+          "packVersion": "2026.10.02",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.10.02/starrail-2026.10.02.zip",
+          "sha256": "fb0389dbba685e47d96c8d026cce943de16a645029b7986d5d89edb1a5040bc4",
+          "sizeBytes": 1211129,
+          "changelog": "91 characters and 9 skins, 4 still waiting for hashes."
+        },
         {
           "packVersion": "2026.09.28",
           "packSchemaVersion": 1,
@@ -51,6 +69,15 @@
       "shortName": "ZZZ",
       "importer": "ZZMI",
       "versions": [
+        {
+          "packVersion": "2026.10.02",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.10.02/zenless-2026.10.02.zip",
+          "sha256": "f226b461f091d51b36fe029e02a371f71c94063a80ae1fa7ea2b6f43dfaaf25c",
+          "sizeBytes": 3880452,
+          "changelog": "65 characters and 31 skins, 4 still waiting for hashes."
+        },
         {
           "packVersion": "2026.09.30",
           "packSchemaVersion": 1,

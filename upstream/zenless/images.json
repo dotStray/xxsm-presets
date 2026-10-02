@@ -1,457 +1,434 @@
 {
   "Alice": {
-    "source": "https://enka.network/ui/zzz/IconRole46.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle46.png",
-    "sha256": "d78b530bb33afa927beaf639996acc4d6b261cd9fd0d930bde1598f8a5f9abee"
+    "source": "https://cdn.gachabase.net/zzz/assets/0f7f0bc07893742283bec91cca7d063c.png",
+    "sha256": "637e237e1f5586dcddeff51dfe0ac6399ad8ac44d9b4903d939979a4dc584ab8"
   },
   "AliceSummer": {
-    "source": "https://enka.network/ui/zzz/IconRole46_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle46_01.png",
-    "sha256": "0c54b7b0876ac10245a85c0c79561a8f70059fbf4c1a5c397dfc4e2bc92d4c1c"
+    "source": "https://cdn.gachabase.net/zzz/assets/ddf2544fbfe3aa52ac69e13b6ed9fc81.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/b710f9da2d2048cca7df8dfd793c0724.png",
+    "frameScale": 2.0,
+    "sha256": "4990997bc88161dab0327d601db06886df6a5497a041778ed8482f0f5946779e"
   },
   "Anby": {
-    "source": "https://enka.network/ui/zzz/IconRole01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle01.png",
-    "sha256": "511c689d3726958d2bd495724546b4ba420937bab071b753191ff948c5588576"
+    "source": "https://cdn.gachabase.net/zzz/assets/b4ab0294ac888e092e88dad1b15eb993.png",
+    "sha256": "aa3bedc34fe299f4b450aaaed948eec756bdc2720dcf3a3f4aceb038f7b9ba9c"
   },
   "Anton": {
-    "source": "https://enka.network/ui/zzz/IconRole15.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle15.png",
-    "sha256": "20a3d92737eaba61888671464774fec4a13397593a607703a5447c5d5e821eaf"
+    "source": "https://cdn.gachabase.net/zzz/assets/8295dbcf0314d419b2a9b4a9b87da5d0.png",
+    "sha256": "d4403e9266e0fe6a2363b6b8d5780a6465dbe8e1bafebb3292940071f00b6ddf"
   },
   "Aria": {
-    "source": "https://enka.network/ui/zzz/IconRole57.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle57.png",
-    "sha256": "a84a70f66fb997493684b39d166da4dbecd9e6979dbe251fdbf61b8c574365bc"
+    "source": "https://cdn.gachabase.net/zzz/assets/760c04edb1d4d6fe933d789e3e7b0d07.png",
+    "sha256": "6158244521c968105b69c6d7b12af49364a4f6de77e9d067155f3b7380671694"
   },
   "AriaDiscordant": {
-    "source": "https://enka.network/ui/zzz/IconRole57_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle57_01.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/e025d8ec6316afbd36b6bdce1d75378e.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/7bb5de237c8e50a91803548ff5b57f55.png",
+    "frameScale": 2.0,
     "sha256": "444532f481dfeeaf22885fc09f4ab7ebb9bd8ffca93a361a7c8e9f8c22e7e759"
   },
   "AriaKfc": {
-    "source": "https://enka.network/ui/zzz/IconRole57_02.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle57_02.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/d14f3018b3c2cac2b8678a8d3daf5995.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/2ba09147c982f2c6533bc967e9e6a2d4.png",
+    "frameScale": 2.0,
     "sha256": "ebae9b26494969cbdd86733c1580c5f66817d76173159f62ed473935e2243cd1"
   },
   "AriaRobot": {
     "source": "manual/zenless/images/AriaRobot.png",
-    "sha256": "0a82150271562a4d434f584aee300bfbabe743225147c5168bc17ec3313bc434"
+    "sha256": "ce008809f602e204f0dff2c761a45fd3b6a7537aec7b47a277a4df9d1a4b1b20"
   },
   "AriaRobotDiscordant": {
     "source": "manual/zenless/images/AriaRobotDiscordant.png",
-    "sha256": "5826e08ef805b5e3a69973f77c3e421bb115a9e0db219aa1bb729c9b78c5ef07"
+    "sha256": "34eab239e266f47f0770b79a44a25db18ac0670c9c9cbf2f8ccfe1db9b12ee9c"
   },
   "Astra": {
-    "source": "https://enka.network/ui/zzz/IconRole36.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle36.png",
-    "sha256": "a1e4111e38066f755c216c997a72d86ad61fb3db981daa97f7a2637ce553e582"
+    "source": "https://cdn.gachabase.net/zzz/assets/e7793cc470b006a804e474d7b0599094.png",
+    "sha256": "6789464f0dbf9996b309776e6867ad261f2fa6078f942d6ab019ec494e2d2911"
   },
   "AstraChandelier": {
-    "source": "https://enka.network/ui/zzz/IconRole36_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle36_01.png",
-    "sha256": "38123c59d009317dea109ac6e278d871a940951e96dea56f16897298661ef9c6"
+    "source": "https://cdn.gachabase.net/zzz/assets/336e3b5741876f2313649255eb2e13c1.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/0105fa28c6d86c2065f87076e7920fda.png",
+    "frameScale": 2.0,
+    "sha256": "1a01dc29b1b63e5a7d9b1f9dbefb3072e9676dd163826c151f2413da29ec9af1"
   },
   "Banyue": {
-    "source": "https://enka.network/ui/zzz/IconRole53.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle53.png",
-    "sha256": "e40864d8530f9580379f4b70bbe603d9e697efeb6ecd0c24e5998854b4cd957b"
+    "source": "https://cdn.gachabase.net/zzz/assets/23eca099bdad634e439c54e228f15408.png",
+    "sha256": "0ed9738f9aafd643b239566d2ecab311076859c701687740bbbebbd48355b731"
   },
   "Belle": {
     "source": "manual/zenless/images/Belle.png",
-    "sha256": "10e99b1897c8eb781c70aaf5941900c509b0ee270dffba0c070c69b722ed1251"
+    "sha256": "3899ee0b4a32dc3584ef9884dd48bbdf3025769e9f77e51423f3fee207f9b29f"
   },
   "BelleBrilliance": {
     "source": "manual/zenless/images/BelleBrilliance.png",
-    "sha256": "7eac87c2134d1431a45d9b696c75a72aaa661da512882d8d3fb3c9f996ac7eae"
+    "sha256": "05e6a5ead2b26899ed599f9611e591b44252b644faf9d633f5118e87384cfe23"
   },
   "BelleSummer": {
     "source": "manual/zenless/images/BelleSummer.png",
-    "sha256": "9f50497cc710950049e34a1c01152c9899fdf97edbbd5845f6fcda52259a551f"
+    "sha256": "68c571c27570939a6c892313a53da3ac31f7c9b0fa8421fb922d6826ed4b507f"
   },
   "BelleSunlight": {
     "source": "manual/zenless/images/BelleSunlight.png",
-    "sha256": "182409e327db3092276e58f24a7d62d1da14b114b080e2598e2e6a574365db29"
+    "sha256": "bb1b1e4105bc1e51d202a646b35bf5084e4690ad70e22f07f0ba2c26be8c4b8e"
   },
   "Ben": {
-    "source": "https://enka.network/ui/zzz/IconRole16.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle16.png",
-    "sha256": "998e49781afd25b6e0562fe97effa8a7c255c3203d3c38cb7f013982ecc88e5f"
+    "source": "https://cdn.gachabase.net/zzz/assets/67550cd9447d75acd733f95ee1c0f80b.png",
+    "sha256": "2b7cc77a010a0fae0f0a11a2d60a7c746a2c647a325c4a3a841bbaeb76e01bf0"
   },
   "Billy": {
-    "source": "https://enka.network/ui/zzz/IconRole10.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle10.png",
-    "sha256": "a2f9d676ad456aeaf7e0d317edc558b66a37326dee6dc0811b6111115b28b523"
+    "source": "https://cdn.gachabase.net/zzz/assets/d4a10c7ed660aed154d24d7b6b90f2c3.png",
+    "sha256": "be90e1eea7c295e1654899e5cb2049be8c011fa229d174c160c89147136880c6"
   },
   "BillyStarlight": {
-    "source": "https://enka.network/ui/zzz/IconRole62.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle62.png",
-    "sha256": "75ab3af5221d6f835a7658bd4fd8080d7932cec5182e0fc160d8f7396ba7b5e0"
+    "source": "https://cdn.gachabase.net/zzz/assets/ef8f997bc96f08afc81604f241929748.png",
+    "sha256": "7586593ffd51ff4b5bd3f19258f5ed34ed4020bc35683a4b6a67380e286918f2"
   },
   "Burnice": {
-    "source": "https://enka.network/ui/zzz/IconRole32.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle32.png",
-    "sha256": "b563fc16a626e0ffeb92e58dba068fa80e5fc9f74bc2ae1dd874bd3a85339e36"
+    "source": "https://cdn.gachabase.net/zzz/assets/6f2a2ed348274ae916a32ef3869c9fab.png",
+    "sha256": "e64f1f34a76a25492114e95783247c8e8766e983b312e41f8fbb3daa98548c8e"
   },
   "Caesar": {
-    "source": "https://enka.network/ui/zzz/IconRole25.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle25.png",
-    "sha256": "bcd9d6482c32c2be3a7301346658328c037b8179a2e889dabd4c896b332207ed"
+    "source": "https://cdn.gachabase.net/zzz/assets/c236e92d72e2499f82b7a0d889bc9737.png",
+    "sha256": "bd1cb1618a4921b86fd4be88c83b6d75a6b2302457add5310f0538f738347008"
   },
   "Cissia": {
-    "source": "https://enka.network/ui/zzz/IconRole60.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle60.png",
-    "sha256": "8f076bc441dfc6e3df0679d79b7a243929b47e1f3e961b7a216ccac4ce32f50e"
+    "source": "https://cdn.gachabase.net/zzz/assets/bf5a0979f810ee13a78983c7a0ee05fc.png",
+    "sha256": "d46517f195704b1bb393e3acd94ca4aa2ba32335cea13edd5821fd6e39724125"
   },
   "Claret": {
-    "source": "https://enka.network/ui/zzz/IconRole1611.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle1611.png",
-    "sha256": "b2c3d566ee37f6b3e590ffd2891f43d4cd9a63e205ecd183affda2160ebb7924"
+    "source": "https://cdn.gachabase.net/zzz/assets/46041a1fd403c311377d75602a84f8f0.png",
+    "sha256": "8e75cfa831793a614078ed745dfb8d96048e7d3d37a60585282249e3bb04289e"
   },
   "Corin": {
-    "source": "https://enka.network/ui/zzz/IconRole09.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle09.png",
-    "sha256": "6d03eddf40e57d3a6f05344a48c31f94770363d8bcb63e056215cc31f5120c59"
+    "source": "https://cdn.gachabase.net/zzz/assets/d5c447ddb052d2fc89ac4da5e4966c8d.png",
+    "sha256": "e21866871dfcae64a1f224fd1f81455021b08eaeadfdd880bc33ef45c80b5d5b"
   },
   "Dialyn": {
-    "source": "https://enka.network/ui/zzz/IconRole54.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle54.png",
-    "sha256": "7d501dcf969bc958eed4b7836a1888607dfb339b87011956e1f95f42227257a8"
+    "source": "https://cdn.gachabase.net/zzz/assets/7e9fdef6cbf736f008d4d0cbd09471af.png",
+    "sha256": "1a6808d343d004a5f6115258e84cd126db6ce6611cafc219a8ead9eed39f45f7"
   },
   "Ellen": {
-    "source": "https://enka.network/ui/zzz/IconRole21.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle21.png",
-    "sha256": "4f8fa5e688d92b9d0fb9752716b03d528bf156feb2216a9e13e4f78045579faf"
+    "source": "https://cdn.gachabase.net/zzz/assets/33792e1a1947a9d5303ecb023d72ed51.png",
+    "sha256": "b6a2d9a21a4068bb15d1619bba8090fc0fe63fc138d9b9b47d9138a6fd1c8e2c"
   },
   "EllenCampus": {
-    "source": "https://enka.network/ui/zzz/IconRole21_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle21_01.png",
-    "sha256": "831f3dd3fa5cfdcde9aba0b98c195fa9b4d5c06ff97f39f8d1614f026fc3cc2b"
+    "source": "https://cdn.gachabase.net/zzz/assets/d8c04ee6c2f3a6995b2abeea8cf9295e.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/42604f4ea3a4242ea4e1d85f1ec17d27.png",
+    "frameScale": 2.0,
+    "sha256": "9e736a71b64e87dcd800d2d8f9b1028577dd4becd191ec8f5c044c96920af8f1"
   },
   "Evelyn": {
-    "source": "https://enka.network/ui/zzz/IconRole37.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle37.png",
-    "sha256": "4f636b11b801361a1801701eeba97e570c51548e3eb998551f9b0dc0322d8a2c"
+    "source": "https://cdn.gachabase.net/zzz/assets/adb09dad5b465b48bb3d80d76db625a6.png",
+    "sha256": "2665d8bb0e42e0ba22843917aa92dcabd35a7abf56850d09a3748683697561f5"
   },
   "Grace": {
-    "source": "https://enka.network/ui/zzz/IconRole20.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle20.png",
-    "sha256": "daa0734059937e6f822df5efaad2e2274ea759f0d4874b78669244da0c614ac1"
+    "source": "https://cdn.gachabase.net/zzz/assets/098250c708e00ab4dc87a36f3dc38944.png",
+    "sha256": "601133bf3451903324b1e858848b33fef9ec11bd58ef2ae0cb13f2682772b893"
   },
   "Harumasa": {
-    "source": "https://enka.network/ui/zzz/IconRole35.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle35.png",
-    "sha256": "eb7f57c364fef03c3404effe57b5eb9391d60ffaa165ea70387510de91a93e6e"
+    "source": "https://cdn.gachabase.net/zzz/assets/21deadf2ee30fb6ebff1cf8f69b39213.png",
+    "sha256": "551f22c39411697b5f91d1cee443a22f987f3bc9a0c6043b082b15af76ce1eee"
   },
   "Hugo": {
-    "source": "https://enka.network/ui/zzz/IconRole42.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle42.png",
-    "sha256": "7c749dec3264fdda1d49f14d248761fb39bcfa4b09ad8be212419a994fe5952e"
+    "source": "https://cdn.gachabase.net/zzz/assets/041992971531a7daab5026ab3bc4a671.png",
+    "sha256": "a8c3ab84bfd97e824e7695f9f5277363c25641b5cb7bb8e40428bb35331c0da0"
   },
   "Jane": {
-    "source": "https://enka.network/ui/zzz/IconRole24.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle24.png",
-    "sha256": "fa76fa1e060f7472066b9d9fe53576c314982c1e7a837d316bc196e722e04707"
+    "source": "https://cdn.gachabase.net/zzz/assets/b400cb996b5d37a997dcb0b39ac48e13.png",
+    "sha256": "50efcc91d2948f83db3bdbda00f660f1882ef2dc8bd0caaa2a904f980fc96883"
   },
   "JaneSummer": {
-    "source": "https://enka.network/ui/zzz/IconRole24_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle24_01.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/b6eaeb5106172596680177cc6e5b5f61.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/d93667139015443f2b6b3eadbf3baced.png",
+    "frameScale": 2.0,
     "sha256": "876e761d311990bc5f63589ebd66c0f4792fe5f31568935112169584a9dcbf44"
   },
   "JuFufu": {
-    "source": "https://enka.network/ui/zzz/IconRole43.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle43.png",
-    "sha256": "0c390dd31fc50b92f557c984a01d185a5f3aea7cec760f5c571dee5c10b22861"
+    "source": "https://cdn.gachabase.net/zzz/assets/28475743c4563dda002200eaf0216139.png",
+    "sha256": "f5301d2802a0c6d8aad99adb598350dba3f625e497c16a306470dfad99004689"
   },
   "Koleda": {
-    "source": "https://enka.network/ui/zzz/IconRole14.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle14.png",
-    "sha256": "a351cf6fc4bc52a975bd4e8100da7818f9b724d89787ed0f5354acdfef5fbaa4"
+    "source": "https://cdn.gachabase.net/zzz/assets/49acf5cd330ed18abe9e58c6003ae6e6.png",
+    "sha256": "beac731514347905a41ddf6f370deb25b85ce9aeaec3a191c0aa358ba76388f2"
   },
   "Lighter": {
-    "source": "https://enka.network/ui/zzz/IconRole26.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle26.png",
-    "sha256": "1bc5b00d9a9e7a48a57477ad61efbea7564d088b83469a9cfdd8b5ade360f53f"
+    "source": "https://cdn.gachabase.net/zzz/assets/248378a43129a71bc7e52f8db6e4c44c.png",
+    "sha256": "0ca47c54ef08474b86868c02b8a7df6e732851aa67a672a1947d7f63c0dbca56"
   },
   "Lucia": {
-    "source": "https://enka.network/ui/zzz/IconRole50.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle50.png",
-    "sha256": "6f85aa3c235c1a91ad3d20c7e660140ef9d5958874baf33e9564e81aa010c35b"
+    "source": "https://cdn.gachabase.net/zzz/assets/5550f028b6e3c83820fbe426e21d13f8.png",
+    "sha256": "61baaf7120efd0941c56c51ba76c53bb88372f6cf78537c3649fab3f6c74039f"
   },
   "Lucy": {
-    "source": "https://enka.network/ui/zzz/IconRole27.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle27.png",
-    "sha256": "bfca62aa9a28dbb42197fb7b192f84bbf8196db27d4ac9a3052941c0bc3a73b6"
+    "source": "https://cdn.gachabase.net/zzz/assets/b0f33edca9768937789b68fcfd04e147.png",
+    "sha256": "dd32bc3ca0b510094097740acbf199ef26d4cd770b77203882722372daf10d81"
   },
   "LucySummer": {
-    "source": "https://enka.network/ui/zzz/IconRole27_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle27_01.png",
-    "sha256": "e5136e1c37dee64c526d78740f3fd55b31d2033cc379a81613dfeefa23cb6d1d"
+    "source": "https://cdn.gachabase.net/zzz/assets/d19bd839ddb71538c6f44ac36ac5600b.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/720dd9127235df13000fc202be842967.png",
+    "frameScale": 2.0,
+    "sha256": "193b19f918b21ab6fc609e656c1d8148ebb9d85222b772982e44badfb58e1048"
   },
   "Lycaon": {
-    "source": "https://enka.network/ui/zzz/IconRole18.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle18.png",
-    "sha256": "77932dc150a6a0918c4dda71fa558c05c46077953969f5f1a304ad4e3eba46ac"
+    "source": "https://cdn.gachabase.net/zzz/assets/c103fd6a1002d16ecc490ac78a963cd3.png",
+    "sha256": "eb82eb370203097060955d91e49c2bfc3d9690ba3a7e5be214b2d42ab90414f4"
   },
   "Manato": {
-    "source": "https://enka.network/ui/zzz/IconRole51.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle51.png",
-    "sha256": "ee96fbebb900528d3f8214b4ca634d876111ba981ff30315a643928fdb03a660"
+    "source": "https://cdn.gachabase.net/zzz/assets/80ed09513d3f9d6378a88d8ae6ac01fd.png",
+    "sha256": "ec82b6a5705b7214bccf58269bfa66d8971fcfcd6fa98e252ad50722c7978218"
   },
   "ManatoWhite": {
-    "source": "https://enka.network/ui/zzz/IconRole51_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle51_01.png",
-    "sha256": "4ab1b1fdb54e59296b93413da4123eb8a016f168b25bf7565ecd3c63836094e6"
+    "source": "https://cdn.gachabase.net/zzz/assets/c17c3d12db0c380f5144dc10ee4d3c56.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/2274c4b09c01a2c2a6098accb8a4ca8b.png",
+    "frameScale": 2.0,
+    "sha256": "1dc657414018f28bd7189faa9ac2854603563742620e51074f09bee878756d16"
   },
   "Miyabi": {
-    "source": "https://enka.network/ui/zzz/IconRole13.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle13.png",
-    "sha256": "cf51326f1fd5dc31c1d2b9146ad642965034466d743c65e529503935d81f76f9"
+    "source": "https://cdn.gachabase.net/zzz/assets/c8da2d5c33c36b2c1babe617be68674a.png",
+    "sha256": "67d902f676cccf7df16b0b85929febdaafc14ac3c47a4f08aedb8e7633bdaddf"
   },
   "MiyabiBlossom": {
-    "source": "https://enka.network/ui/zzz/IconRole13_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle13_01.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/026d292d0f7c6228e449faa7ceb0c1ec.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/92667b949109f0f2b2a3610e28444001.png",
+    "frameScale": 2.0,
     "sha256": "8a47c89d3359e32ca335177c54d791b58a27d5ed99dce5767c3607f33b6db04a"
   },
   "NangongYu": {
-    "source": "https://enka.network/ui/zzz/IconRole59.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle59.png",
-    "sha256": "14b54c296be1e23514f574eecb200127e7c28842f4accd217152f2cce719c870"
+    "source": "https://cdn.gachabase.net/zzz/assets/27128cd09ff475220cdcde3df3d1a79a.png",
+    "sha256": "3f0e0c903d2444fa225744a363e551c1578266575457d39b1187d7b53638704f"
   },
   "NangongYuKfc": {
-    "source": "https://enka.network/ui/zzz/IconRole59_02.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle59_02.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/e5b0ce9477e69a5547b8efa7d0d460e9.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/4b5c406476c5344060c062e43311725c.png",
+    "frameScale": 2.0,
     "sha256": "5d26d35d9fdcc60a4ac12047f0b2426a030f257aa75d17a1d0b8d3b44f848401"
   },
   "NangongYuRapsody": {
-    "source": "https://enka.network/ui/zzz/IconRole59_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle59_01.png",
-    "sha256": "2b99d561c54704c5f068cb44ce4b7f72496c7b85cc16d2d56a4f9f69e9f6c575"
+    "source": "https://cdn.gachabase.net/zzz/assets/d452884f47fd80080b0e442f8b610c03.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/f0ec77dc3be59f1fba8e82ca024a045e.png",
+    "frameScale": 2.0,
+    "sha256": "1a7f9122c6a8abb352e636132cf1c7f222b995beae8575c462c31b62948d9243"
   },
   "Nekomata": {
-    "source": "https://enka.network/ui/zzz/IconRole11.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle11.png",
-    "sha256": "0232e316b201a7ed7ec6258bc9879b13f6eadaca12948313dc5bdb2de82783af"
+    "source": "https://cdn.gachabase.net/zzz/assets/dc36ffad7092e2295bf5421a10edf8e0.png",
+    "sha256": "8e4af1df15007af075f1a7e344d2e8ddf935b4bdc1be603bbb2d27f3e48adcb6"
   },
   "Nicole": {
-    "source": "https://enka.network/ui/zzz/IconRole12.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle12.png",
-    "sha256": "5fc99c9f5b345bbdd8dbd24f7f57c909b5d5b68b8d8c7c21998be2b7703751ab"
+    "source": "https://cdn.gachabase.net/zzz/assets/2d98e884f851589eb9bc114d66900543.png",
+    "sha256": "ee833c2ae1c77ca92b663cc5f0d3267d1898a5f15a873debbefeaca83998166d"
   },
   "NicoleCutie": {
-    "source": "https://enka.network/ui/zzz/IconRole12_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle12_01.png",
-    "sha256": "49f6b69b219870580247cca5f4c734593565c8fc5c4a5c81dcf3344648432b47"
+    "source": "https://cdn.gachabase.net/zzz/assets/151aa2a4191cf89e501b0cd3a19a19fb.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/4392befb3eecf056c45506cbd9e4ac60.png",
+    "frameScale": 2.0,
+    "sha256": "e10ecb6ffca2552a2af0540daa3d71e7f2ed3d230f631fb3f68df99ee9258757"
   },
   "Norma": {
-    "source": "https://enka.network/ui/zzz/IconRole65.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle65.png",
-    "sha256": "7d84a4bfd8a6a153139e0dc4749fad3f70f0f6905be16e34bbf1b6701b8b5215"
+    "source": "https://cdn.gachabase.net/zzz/assets/d28a193deaf7f4787ce72fb1211f5684.png",
+    "sha256": "ef5fcbc6a7a590d05301fcf56948d73cb93a2f4ca2f21860d39a98c0c37209f4"
   },
   "Orphie": {
-    "source": "https://enka.network/ui/zzz/IconRole49.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle49.png",
-    "sha256": "809fe7c82ebaa5008af950f9dfbfedeec467b24677db9c57bb72cfb62391a912"
+    "source": "https://cdn.gachabase.net/zzz/assets/852dd8fba1faa655b9710b633eea87af.png",
+    "sha256": "0166294b07832984866f4e539e2ae7ae1b8c339cfb1726257c40c73c6d79f058"
   },
   "PanYinhu": {
-    "source": "https://enka.network/ui/zzz/IconRole45.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle45.png",
-    "sha256": "6cf7b5271da36746306fadb51dbc6aceda20e875655c3bfcabf8a2386f3b83de"
+    "source": "https://cdn.gachabase.net/zzz/assets/ae54395ffdeaadfab518192678fa0c3a.png",
+    "sha256": "3a8301e3d45f404dd4beb9ebab54f618046e01f9001a2ae6e4ff1a4a4111f1c9"
   },
   "PanYinhuJewel": {
-    "source": "https://enka.network/ui/zzz/IconRole45_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle45_01.png",
-    "sha256": "c3795255387f5e6893082655c0c54bec9bea8686cba0b26cff5fa0d02df45781"
+    "source": "https://cdn.gachabase.net/zzz/assets/00d30ad378a4def8e3d29bdc5de6a825.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/564e4e4e426bb6ed405ae98886a49d36.png",
+    "frameScale": 2.0,
+    "sha256": "5b3006debf3ad3234cdf06aa9b5cd56e42d09b15fd87cb134553b12bc50b3179"
+  },
+  "Phoenix": {
+    "source": "https://cdn.gachabase.net/zzz/assets/8f0be38216c1d38219a1cb97c18d76c2.png",
+    "sha256": "52935070e33f15c43a8938bad3bc3498527638c16747d6b1d0be341abd9c1c78"
   },
   "Piper": {
-    "source": "https://enka.network/ui/zzz/IconRole28.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle28.png",
-    "sha256": "8183c355d3f09338a6448812f70ae710c332c68947f69d5bb7a52f04f63c9d49"
+    "source": "https://cdn.gachabase.net/zzz/assets/1976a2cefd6c40343c301e2a6d41861f.png",
+    "sha256": "a6ce089d4cdb4701c2c1bf311923b1c920d005c2513111cbe6760768cb11e83c"
   },
   "Promeia": {
-    "source": "https://enka.network/ui/zzz/IconRole61.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle61.png",
-    "sha256": "2b9e7eb67a293d6bb6e5eec2d427ae5e0a22a2a4b1134f066228f1787390a777"
+    "source": "https://cdn.gachabase.net/zzz/assets/513083eb67f76c2a606dc7c4fd8aff61.png",
+    "sha256": "93ce1df8c5b8bbe86f2d267e75553786c1d931ef5f8745aecd688831f5a39050"
   },
   "Pulchra": {
-    "source": "https://enka.network/ui/zzz/IconRole38.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle38.png",
-    "sha256": "003c2e6ac92e2c86a96396c00885165edeb47d56d2a93c8b88e998bef14d2f63"
+    "source": "https://cdn.gachabase.net/zzz/assets/3ed842c3abe2a13b2313f27150451e11.png",
+    "sha256": "ac4fad4dd0edfedf68ed552018f46aae78f10566430c37e86a28ebaa4756d2bd"
   },
   "Pyrois": {
-    "source": "https://enka.network/ui/zzz/IconRole63.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle63.png",
-    "sha256": "5177e89464bb817922097219b042eca44d49d66f46115612d5ce728e485a3322"
+    "source": "https://cdn.gachabase.net/zzz/assets/4d6c65037e82bbf04d6261ef5969465d.png",
+    "sha256": "a6fec800aef90d1d936f2b1fd58f0cb0bce2dfdf022e5cdb6272585112a0d64c"
   },
   "Qingyi": {
-    "source": "https://enka.network/ui/zzz/IconRole29.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle29.png",
-    "sha256": "15ee8783ac1b186c79439eb2527a7714a770bb0094aaef75bfbeb65db896d01b"
+    "source": "https://cdn.gachabase.net/zzz/assets/af9acb58632b0208caaee560b28b8322.png",
+    "sha256": "72f2f33ac374107dafaf1ba0b521621ce40c10adb1a0bd14e438761bbabdd1eb"
   },
   "Remielle": {
-    "source": "https://enka.network/ui/zzz/IconRole67.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle67.png",
-    "sha256": "36c76f4fe9967a2b4bfb5b44c18df160d83ef5f7749aa6bbf8c0b71aa59474c2"
+    "source": "https://cdn.gachabase.net/zzz/assets/080994770cc8725e55d683320db237a5.png",
+    "sha256": "9b335ebaa989e31a0ec4d3d7fb3e1b006449368fef69db517ad0962965fd9282"
   },
   "RemielleMoonlight": {
-    "source": "https://enka.network/ui/zzz/IconRole67_02.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle67_02.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/cc1c9451f3122370dbaff039c6acfb24.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/31ed2914f0c637cfc3c6ceae64b9465e.png",
+    "frameScale": 2.0,
     "sha256": "91dff512aea4322408e06b3e4b1027e9b4f19db2730f4dcf3f797a746b3ee82b"
   },
+  "RemielleMoonlightWhispersVeil": {
+    "source": "https://cdn.gachabase.net/zzz/assets/4297b324e2c22489fab7f256b75a5d8d.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/7875b5806206b455b455c33b7f629a26.png",
+    "frameScale": 2.0,
+    "sha256": "d24d55ff25c8b9075591d078c332a5b58659ce7622970d149fb6e14d9d4155fc"
+  },
   "RemielleSummer": {
-    "source": "https://enka.network/ui/zzz/IconRole67_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle67_01.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/a023f4857c3e798d6c060a82f2fe7ea6.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/8c92738061e7e05bc78159635acc1d75.png",
+    "frameScale": 2.0,
     "sha256": "3ede0bd872e9d5d3c8a70e07ad94fadb30744d68bb0d92fc59499ebb0880f267"
   },
   "Rina": {
-    "source": "https://enka.network/ui/zzz/IconRole22.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle22.png",
-    "sha256": "b4784f0463e99cb78e12c0c1646a32716c190534397d754b80a308913f7204b4"
+    "source": "https://cdn.gachabase.net/zzz/assets/b06b14634997744ca11b55d9397dfcdf.png",
+    "sha256": "b0c67b391fbee8917a6e452f13898f8997d271727f120c9fab3b281002e408e3"
   },
   "Roxy": {
-    "source": "https://enka.network/ui/zzz/IconRole68.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle68.png",
-    "sha256": "50cf911bcce47a4e0c7a05eb70628a83bf1b7500d4163660e5b17131fb00c883"
+    "source": "https://cdn.gachabase.net/zzz/assets/7952393ff5046f93da5853ad3fe75001.png",
+    "sha256": "15b9014046359f5069652e9c6639304ae8dadd482098222045cb099e267c29e1"
   },
   "Seed": {
-    "source": "https://enka.network/ui/zzz/IconRole48.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle48.png",
-    "sha256": "49652b894c9e5259b80d27e89421006d6933f6a88d2bda4f789d0d88a7e19a80"
+    "source": "https://cdn.gachabase.net/zzz/assets/10451feffb62a24d4e6c7952a8602f72.png",
+    "sha256": "7e9fed696daca1270f665ed65b669a0a08a08fbbf3fc6a92925e5fd88ba1d482"
   },
   "Seth": {
-    "source": "https://enka.network/ui/zzz/IconRole30.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle30.png",
-    "sha256": "f780bba4fb8c7a5707e4e0c2c0acb96de24c5fcfc55cad883a2308b25f58dca7"
+    "source": "https://cdn.gachabase.net/zzz/assets/e0274951007f27aef30dbf0be7490c15.png",
+    "sha256": "b9b0cbf5b6f1c3cc402ede92f37ca1a9152736d1c99247ec37d3a7bcb0860f7c"
+  },
+  "Severian": {
+    "source": "https://cdn.gachabase.net/zzz/assets/63f0a72fec36301c3de355ce78f32d2d.png",
+    "sha256": "d076ead9106fc1f95314563c37120a370c67e57a2134691cdad01a61ea80600f"
   },
   "Sigrid": {
-    "source": "https://enka.network/ui/zzz/IconRole66.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle66.png",
-    "sha256": "206bebfd954c716ca0250ecc4d4fe6f910de219586e245a045dae791e5929e40"
+    "source": "https://cdn.gachabase.net/zzz/assets/a61e2a6333cc18a69c9499bf27ca0968.png",
+    "sha256": "df32f07de717ab897773b0993bf5efeb22e4309b93c45374bf8593b1acc9fc3b"
   },
   "SigridSummer": {
-    "source": "https://enka.network/ui/zzz/IconRole66_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle66_01.png",
-    "sha256": "552ab25a0128eb759d45e45864ac3a98b0eae5169d35f66486f5de4c23d7192c"
+    "source": "https://cdn.gachabase.net/zzz/assets/c4bf45344fdbb9336d10c5564f76aaf9.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/16b8284253768e19ec9fef0500ff9c84.png",
+    "frameScale": 2.0,
+    "sha256": "bd783613e38880f2dfff554cb3bcdd30560ece05887592eafe0ba89b811ba87a"
   },
   "Soldier0": {
-    "source": "https://enka.network/ui/zzz/IconRole40.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle40.png",
-    "sha256": "48fc1004fcd6e1289d6c7495b6463482ccb8140e2bb78c144eb4386b3fdcecd7"
+    "source": "https://cdn.gachabase.net/zzz/assets/54de38445fdb07382fd034ed84c0a1a5.png",
+    "sha256": "78ffb939c92049943e6dd58a0da71944f0577c3e7e1d961b1198ffcfacbc5d66"
   },
   "Soldier11": {
-    "source": "https://enka.network/ui/zzz/IconRole05.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle05.png",
-    "sha256": "d666de2dd4985ccb01a07365accfbf26b0346a2f13a76e1eb83ecbafe6e9da03"
+    "source": "https://cdn.gachabase.net/zzz/assets/d58f221cb8baf0e95df64900c81d6d9d.png",
+    "sha256": "191e4aa44e011c2da5dab1032e733fbf3a90d97c34d28bbaa39272b4adcd1983"
   },
   "Soukaku": {
-    "source": "https://enka.network/ui/zzz/IconRole17.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle17.png",
-    "sha256": "f4d6f1ae2a2ee5de4dbbb11f69d63c9c8481e52962b01659b74f808bca190383"
+    "source": "https://cdn.gachabase.net/zzz/assets/32e2b296dc0fb23ccbfb3eb688f490dd.png",
+    "sha256": "a98dcb31b8a5c14d8384af81241188742a2613fddbc8b35e3ae32f9ee6da421d"
   },
   "Sunna": {
-    "source": "https://enka.network/ui/zzz/IconRole58.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle58.png",
-    "sha256": "30fbde333f13e20b9bb425c3f303fd39c7316fd2231c8e104431917874ff8049"
+    "source": "https://cdn.gachabase.net/zzz/assets/7bb302a9c0bf8446d95b78ec33514761.png",
+    "sha256": "eda00f2e4aae4aa13b6a432b1d754285aece496f529e80322be3f820b2d01593"
   },
   "SunnaKfc": {
-    "source": "https://enka.network/ui/zzz/IconRole58_02.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle58_02.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/ab269921bc74ce8456139c43dfa9dcb1.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/6725fba5d3a8f4c5d3005c5d3acd24a4.png",
+    "frameScale": 2.0,
     "sha256": "508ddf48bb5c79fa76060fd285e6bda61f737fb4bab0679d79640cb6e244a087"
   },
   "SunnaMaid": {
-    "source": "https://enka.network/ui/zzz/IconRole58_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle58_01.png",
-    "sha256": "9d0a7542a8a23b05355dc5ac17c45e6a4c459fee18f0912f2c583f99a6cd2e6e"
+    "source": "https://cdn.gachabase.net/zzz/assets/a43501431ea05a8bc575411c68ac88ac.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/01657db08f99df9244ab25869e845c17.png",
+    "frameScale": 2.0,
+    "sha256": "7a7147d1e4337e5fef2513a42357fc3f44dcf3152e7bb5b5d6391d4311438b9d"
   },
   "Trigger": {
-    "source": "https://enka.network/ui/zzz/IconRole39.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle39.png",
-    "sha256": "b4c3f2f3c6da38b29b0739d74fb1b18eab52f88ae29753c65826db08c5465bbc"
+    "source": "https://cdn.gachabase.net/zzz/assets/dcc6e82b9c8c98d578687da07c8cc269.png",
+    "sha256": "a32c2ea7b1844aa7985e598a587c526532a43f5a929a8861eb5195be220ca290"
   },
   "Velina": {
-    "source": "https://enka.network/ui/zzz/IconRole64.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle64.png",
-    "sha256": "7d4bd21d221b9cf3a12fe433d6dfb02d92257e5d580a3e2f651ea0808985e10f"
+    "source": "https://cdn.gachabase.net/zzz/assets/46c5e304d99cffbcc3f78d6ed0a2ac8e.png",
+    "sha256": "5c793209753f9f9a325d64f6600aacc18a2b02ca2abc82553022513fdbf0f2c4"
   },
   "VelinaLeisure": {
-    "source": "https://enka.network/ui/zzz/IconRole64_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle64_01.png",
-    "sha256": "40e0eab9ba14600ac3fa874a737be542699dfffa2649475a396fc4017928da86"
+    "source": "https://cdn.gachabase.net/zzz/assets/a17d49287e61c734f56490569cab336d.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/ee6c13a2aca0c7e028ea988c2f4b3ef5.png",
+    "frameScale": 2.0,
+    "sha256": "311c9a2bd438fac703acd65dfaef649ba7fd753045cae70bd59bedaa58091d14"
   },
   "Vivian": {
-    "source": "https://enka.network/ui/zzz/IconRole41.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle41.png",
-    "sha256": "52ac860f7e51d1e83f991e8ea1495128e14a0a255017c9b52d46044bc5539211"
+    "source": "https://cdn.gachabase.net/zzz/assets/17b92d3d51fd755059b5b5c049186f14.png",
+    "sha256": "1e0e44618fa8eec1e9615b01b23a7a6f00c66b2f462cb7c84628d597e40a03b0"
   },
   "VivianSummer": {
-    "source": "https://enka.network/ui/zzz/IconRole41_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle41_01.png",
-    "sha256": "aabeb39f59c28c8845781fc58fca87201204e5fb9e400ff9c486335e9edbd0b4"
+    "source": "https://cdn.gachabase.net/zzz/assets/ac4a20b8704057c14b265233e75a9a76.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/99b1a97afa32fac2fcc6e9e26ed8b39c.png",
+    "frameScale": 2.0,
+    "sha256": "e41d372f36d88da39e3ac31168ca5f5ada1ace2ca0c6ae7bc8668d0a57fd8059"
   },
   "Wise": {
     "source": "manual/zenless/images/Wise.png",
-    "sha256": "14e7afee2afdc88e991af9453c0f124d183807db84d27926b0546518319809d7"
+    "sha256": "697c527ef6bbe8b46b0c97601a964ed219203f3fb029aa7ba4e5e5de77637fe8"
   },
   "WiseCrane": {
     "source": "manual/zenless/images/WiseCrane.png",
-    "sha256": "091d06c109051eef78f1f83e6fdb4dc11af160ae38c0b836d12ba22d6388ce0e"
+    "sha256": "4a99efd95647e040f6eaed4c3d9cdf4b8f869cfe11531682e24b6b70bfc037b5"
   },
   "WiseSkies": {
     "source": "manual/zenless/images/WiseSkies.png",
-    "sha256": "da75066d8f68a9c6b68eb46825502af067f648a5e89a1b8a66f212f5b09f9e4d"
+    "sha256": "39cd22e2802e2ba33edaf1d568b9511064d82e85c29248ce862285f2d73560a8"
   },
   "WiseSummer": {
     "source": "manual/zenless/images/WiseSummer.png",
-    "sha256": "2bb815927c5749aa0cdf1a1496c5b4c3eb297bc4dd5bbab0aea34d5516711de4"
+    "sha256": "cc7cab6817992a6cd1a87cc3f94bb0b20b3b1f6154a3dfd9dbbd6bed6b8b23fc"
   },
   "Yanagi": {
-    "source": "https://enka.network/ui/zzz/IconRole31.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle31.png",
-    "sha256": "69ab65f7b7ae5d1cd46952a7d3ecfe8cdae323542029ff75992641e7213acc1e"
+    "source": "https://cdn.gachabase.net/zzz/assets/d53b7f45142a93969f9b11214c44debf.png",
+    "sha256": "b96ca745cc5551741014070abbc72a853c4c8ec39826c9e1989f0acecccb99a2"
   },
   "YeShunguang": {
-    "source": "https://enka.network/ui/zzz/IconRole55.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle55.png",
-    "sha256": "764dc0df5c706bc4c387e33195d697ccee94121daacee09b9322d5ef7b4e5d48"
+    "source": "https://cdn.gachabase.net/zzz/assets/536209238423776e36bf5ecbee4973ca.png",
+    "sha256": "67445c76bcc079971eb9dd399a2478f1e37c1490903a49a4b32b54396e91e043"
   },
   "YeShunguangDawnlight": {
-    "source": "https://enka.network/ui/zzz/IconRole55_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle55_01.png",
-    "sha256": "39f27e694dd119cd401c33d45bd958fada7d886d615135850fdd32d885efc3a9"
+    "source": "https://cdn.gachabase.net/zzz/assets/668f2c19f32449b09ca832cfb3a2aa8c.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/ec788860465e3920033ffc691c8637f0.png",
+    "frameScale": 2.0,
+    "sha256": "7e841be69a6722876ce5c5f51cb23a59e4a242b8c3cc268ba503af94eabf5355"
   },
   "Yidhari": {
-    "source": "https://enka.network/ui/zzz/IconRole52.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle52.png",
-    "sha256": "66eb62b46dc72f48631c2246e5d868f186de3142c73f43b5857f179177fbc7b8"
+    "source": "https://cdn.gachabase.net/zzz/assets/4291fb8afcd5fb298b88e97236ccb336.png",
+    "sha256": "fb67c9b65bb83649d8a9b20c313fa0ff30cd8567617ed692330f588cbef026dc"
   },
   "Yixuan": {
-    "source": "https://enka.network/ui/zzz/IconRole44.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle44.png",
-    "sha256": "c0f738ca21f556b687291f842e946ec535d6bf9d24bce22e4a9c9601464346d7"
+    "source": "https://cdn.gachabase.net/zzz/assets/dd7ff9235f356bf79b04a6f8f3c881b9.png",
+    "sha256": "df3a98997e94e551b628e217140d328e2e820d225860b7f277d413ecee3c375b"
   },
   "YixuanTrailsOfInk": {
-    "source": "https://enka.network/ui/zzz/IconRole44_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle44_01.png",
-    "sha256": "fb76ce8b2590c1af4ee26609ea8db908eee1ee82e38df9a663aaa6348057ff1e"
+    "source": "https://cdn.gachabase.net/zzz/assets/4317249c8c70bb2505b984ea21dac15d.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/e0a6afe9e4d35af3aa85bf51394eda1b.png",
+    "frameScale": 2.0,
+    "sha256": "f190435b11e59e9afc6c4bcda69ef1797240f6f4aced8848786bb5dc4388baac"
   },
   "Yuzuha": {
-    "source": "https://enka.network/ui/zzz/IconRole47.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle47.png",
-    "sha256": "04ff3b2b822b512a42fe7ba726e03e28c6b66f7ded2fddfa30c050a4b04d6f41"
+    "source": "https://cdn.gachabase.net/zzz/assets/e0e8e4b7ff6f5223c5e7c19d8443562c.png",
+    "sha256": "bc7fd4b345c12a68ee94963eafd5e231b9e40250516e05bf3cf0642e465efdee"
   },
   "YuzuhaSummer": {
-    "source": "https://enka.network/ui/zzz/IconRole47_01.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle47_01.png",
-    "sha256": "e442807b0b06c26de3e58b3fe99449cef3f31a2f7afc836130dbd3ddea7e2b35"
+    "source": "https://cdn.gachabase.net/zzz/assets/92b6731844e5b7f4580e7929a6ddfcb5.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/571e453c5f45e789add1745d1e82418b.png",
+    "frameScale": 2.0,
+    "sha256": "930f365f9b5643eb006f5f74867527dd3b71c1e3e9133a9a5d37decf914d13d8"
   },
   "Zhao": {
-    "source": "https://enka.network/ui/zzz/IconRole56.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle56.png",
-    "sha256": "cffe9608e0d40578853b0f99191e35f777304ba9a273c869087cecec5b89ee97"
+    "source": "https://cdn.gachabase.net/zzz/assets/376c811a30b22e1f6e0383d159526ea8.png",
+    "sha256": "ea94ff6dfeedd25ae584d3c4a4062cfa181595f1e1f6517f1bedbcddae54c6c9"
   },
   "ZhuYuan": {
-    "source": "https://enka.network/ui/zzz/IconRole23.png",
-    "frame": "https://enka.network/ui/zzz/IconRoleCircle23.png",
-    "sha256": "1f494b4f768a4db73eaae1c4db5f05f1c84688ec6fa7c48962a43b324789cd50"
+    "source": "https://cdn.gachabase.net/zzz/assets/c28a062a88a14cf3764b27a393ec3f9b.png",
+    "sha256": "c03dcbc492a73dd57286f196048232af4837683cf071b0eff24eeeeb44859a85"
   }
 }

@@ -1,189 +1,210 @@
 {
-  "source": "yatta-genshin",
+  "source": "gachabase-genshin",
   "characters": [
     {
       "key": "avatar:10000002",
       "name": "Kamisato Ayaka",
       "joinKeys": [
-        "kamisatoayaka",
-        "ayaka"
+        "kamisatoayaka"
       ],
       "wordKeys": [
+        "ayaka",
         "kamisato"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2021-07-20",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayaka.png",
+      "image": "https://cdn.gachabase.net/gi/assets/c1c0e6911e89adb206708bf871fc3ecd.png",
       "outfits": [
         {
           "key": "skin:200201",
           "name": "Springbloom Missive",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AyakaCostumeFruhling.png"
+          "image": "https://cdn.gachabase.net/gi/assets/21e28e47f7f4da71d785e0cf0a5bf98a.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:a7d0272d365ecf9c803a860842a24ab2:af293e1f0e22e6d60bba900412f09550:e185de41b8bc453ad2abf74384540983"
     },
     {
       "key": "avatar:10000003",
       "name": "Jean",
       "joinKeys": [
-        "jean",
-        "qin"
+        "jean"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qin.png",
+      "image": "https://cdn.gachabase.net/gi/assets/34146c3986e10e282d6965388e18f6b8.png",
       "outfits": [
         {
           "key": "skin:200301",
           "name": "Sea Breeze Dandelion",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeSea.png"
+          "image": "https://cdn.gachabase.net/gi/assets/84f696e697102ea433c679295e19b973.png"
         },
         {
           "key": "skin:200302",
           "name": "Gunnhildr's Legacy",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeWic.png"
+          "image": "https://cdn.gachabase.net/gi/assets/a9516539ad50937638e1891145051d71.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:2dfb4a7fa6f755b84acbce0192b23d58:191dc3414564bff6b8198b190655c58d:4bf597a8f15af3487d901475938ad990"
     },
     {
       "key": "avatar:10000005-anemo",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-cryo",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2026-08-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-dendro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2022-07-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-electro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Electro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2021-07-20",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-geo",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Geo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-hydro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2023-07-23",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-pyro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playerboy"
+        "traveler"
       ],
+      "family": "avatar:10000005",
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2025-01-01",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000006",
@@ -192,148 +213,173 @@
         "lisa"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Electro",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lisa.png",
+      "image": "https://cdn.gachabase.net/gi/assets/f0fc6d0af6b2fdc328ba3296ed259842.png",
       "outfits": [
         {
           "key": "skin:200601",
           "name": "A Sobriquet Under Shade",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_LisaCostumeStudentin.png"
+          "image": "https://cdn.gachabase.net/gi/assets/df266941e7072eb854c27e8dfb838ebc.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:23e4b6d34bf4fde8f648d57a5ac5838e:e0b5d8175b73b45a2604504ca280306c:d770048ded02ced2f79fb7119e23809f"
     },
     {
       "key": "avatar:10000007-anemo",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-cryo",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2026-08-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-dendro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2022-07-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-electro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Electro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2021-07-20",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-geo",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Geo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-hydro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2023-07-23",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-pyro",
       "name": "Traveler",
       "joinKeys": [
-        "traveler",
-        "playergirl"
+        "traveler"
       ],
+      "family": "avatar:10000007",
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2025-01-01",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000014",
@@ -342,22 +388,19 @@
         "barbara"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Barbara.png",
+      "image": "https://cdn.gachabase.net/gi/assets/42db7fcb2d4d4ca875eb463657821d9d.png",
       "outfits": [
         {
           "key": "skin:201401",
           "name": "Summertime Sparkle",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BarbaraCostumeSummertime.png"
+          "image": "https://cdn.gachabase.net/gi/assets/982d0cbe9fc93877c03d9f6c0b4472cd.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:8567b78378ed0ef59b746264dbac3907:6894dd9bce9ecf41e1651002737313f9:93c403228a139e78c70d16c72772ceba"
     },
     {
       "key": "avatar:10000015",
@@ -366,22 +409,19 @@
         "kaeya"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaeya.png",
+      "image": "https://cdn.gachabase.net/gi/assets/ac5c5a0cace3e36002ceb5fd1779387a.png",
       "outfits": [
         {
           "key": "skin:201501",
           "name": "Sailwind Shadow",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KaeyaCostumeDancer.png"
+          "image": "https://cdn.gachabase.net/gi/assets/c0ae31eb6854d7c39936110fa1aed91a.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:69d5153b5102e08c099958205651a87a:4b6cc21b759ffe4b90dde209c0cd8f4f:f664e6f17fa610ba25a54001f1cd8d78"
     },
     {
       "key": "avatar:10000016",
@@ -390,22 +430,19 @@
         "diluc"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diluc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1f57a9a785d58e11ab44af7a5ef9cfc6.png",
       "outfits": [
         {
           "key": "skin:201601",
           "name": "Red Dead of Night",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DilucCostumeFlamme.png"
+          "image": "https://cdn.gachabase.net/gi/assets/674f8cd4fa8ab9bd163903aef1db2179.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:27d5792ea58b76ce61f96ed22333e0ae:44460909292fc16a7a162c47b9c561c3:8cde9ad28f8c881ff9f8461919efefdf"
     },
     {
       "key": "avatar:10000020",
@@ -414,40 +451,33 @@
         "razor"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Electro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Razor.png"
+      "image": "https://cdn.gachabase.net/gi/assets/239ef580296a75094b733dfd77074985.png",
+      "sourceHash": "release:r2:3979ed502059813700c97c42e16c3405:62259996fc518cd18778b879cfeca17c:564fe584adec671b5f7ee40126a48de9"
     },
     {
       "key": "avatar:10000021",
       "name": "Amber",
       "joinKeys": [
-        "amber",
-        "ambor"
+        "amber"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ambor.png",
+      "image": "https://cdn.gachabase.net/gi/assets/de25155a508d2f76c1dbba4ae1b41552.png",
       "outfits": [
         {
           "key": "skin:202101",
           "name": "100% Outrider",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AmborCostumeWic.png"
+          "image": "https://cdn.gachabase.net/gi/assets/f108fa2d5c867e6bd9b43dadf892bc83.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:34fb62e337ea7645b8d99e20029553d7:9b9d79dbcd099fca5c2dea5b12b63eb6:09801f291b3c7e5e66325e17a8e4d524"
     },
     {
       "key": "avatar:10000022",
@@ -456,15 +486,12 @@
         "venti"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Venti.png"
+      "image": "https://cdn.gachabase.net/gi/assets/00cefd90d4dc229b0cc9bc64ca537707.png",
+      "sourceHash": "release:r2:ef562e7bd2f59ce866c68a450f4d0dff:28dc5eb6c3ff49f898e0dc19248fb391:7ce9381c5ba900e95f5ad1a8a6e60a51"
     },
     {
       "key": "avatar:10000023",
@@ -473,22 +500,19 @@
         "xiangling"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiangling.png",
+      "image": "https://cdn.gachabase.net/gi/assets/01f6d0e399ca061841562d1a5351cc76.png",
       "outfits": [
         {
           "key": "skin:202301",
           "name": "New Year's Cheer",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XianglingCostumeWinter.png"
+          "image": "https://cdn.gachabase.net/gi/assets/b065163b99eac97be8a4064d42812e5e.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:55d3ccd61336585ba6610374d3c1bc88:da61434fef8b2969b23f2aa15555514b:9d0ea0f85c4e81569d00012af09859e6"
     },
     {
       "key": "avatar:10000024",
@@ -497,15 +521,12 @@
         "beidou"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Electro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Beidou.png"
+      "image": "https://cdn.gachabase.net/gi/assets/217f737498f780c60332a9c8bd759dca.png",
+      "sourceHash": "release:r2:2ccb9170071c55b28409e0bb09b6e0db:9b3b4b5dc8728e151d77188a0bef4971:8f6a0cd496ad399a3f638f874f65b17f"
     },
     {
       "key": "avatar:10000025",
@@ -514,22 +535,19 @@
         "xingqiu"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xingqiu.png",
+      "image": "https://cdn.gachabase.net/gi/assets/28a7f17b0d6df7f942b4bbcb1aafcd81.png",
       "outfits": [
         {
           "key": "skin:202501",
           "name": "Bamboo Rain",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XingqiuCostumeBamboo.png"
+          "image": "https://cdn.gachabase.net/gi/assets/19978d2e6858f45e3e37c39550d64b5c.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:308be576d7e95bff5f6a2da739f553c5:f11e856d5e8021abe11bf45a1dd2f44a:00775a93cb304431bb5f8283cb3b951e"
     },
     {
       "key": "avatar:10000026",
@@ -538,15 +556,12 @@
         "xiao"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2021-02-01",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiao.png"
+      "image": "https://cdn.gachabase.net/gi/assets/3f49194503389829d0696e40a56b987a.png",
+      "sourceHash": "release:r2:f48838e94ded2958f8010fcf73f2fa1c:8bf7d427eaff9b09b015b9509a39b0f4:629aafa4537ba9340320b4ac289e8a75"
     },
     {
       "key": "avatar:10000027",
@@ -555,22 +570,19 @@
         "ningguang"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Geo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ningguang.png",
+      "image": "https://cdn.gachabase.net/gi/assets/9d738ad06cbfb3b95133db467f0cf3c6.png",
       "outfits": [
         {
           "key": "skin:202701",
           "name": "Orchid's Evening Gown",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NingguangCostumeFloral.png"
+          "image": "https://cdn.gachabase.net/gi/assets/e5dd63b16b3e87229219bfe98827052b.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:2b696ce277c071e8a6442da815448029:8b9740f93853b8322d7e674704fc69f1:80bda464d69c744c37f81582b64ecdab"
     },
     {
       "key": "avatar:10000029",
@@ -579,22 +591,19 @@
         "klee"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Klee.png",
+      "image": "https://cdn.gachabase.net/gi/assets/df2b99f0f527b07c80dab41165239d4b.png",
       "outfits": [
         {
           "key": "skin:202901",
           "name": "Blossoming Starlight",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KleeCostumeWitch.png"
+          "image": "https://cdn.gachabase.net/gi/assets/cd964757fd0644cff26e402da5744b9d.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:f962595e2a50291603137a8af6dc9be3:f349ed00db582a82f88eeb94c69b146d:dc5bfa812db3c41a46f159fbea24e1f4"
     },
     {
       "key": "avatar:10000030",
@@ -603,15 +612,12 @@
         "zhongli"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Geo",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2020-12-02",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zhongli.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e3424ad122507762f9edd87ceebc24eb.png",
+      "sourceHash": "release:r2:a3929bf7a56f2f34f0e1c129dc54ea8f:715cf92ee0f7a48b513fdbde59d03606:c00fe8a77a1eba57e1923d3bf6e1eb30"
     },
     {
       "key": "avatar:10000031",
@@ -620,22 +626,19 @@
         "fischl"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Electro",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Fischl.png",
+      "image": "https://cdn.gachabase.net/gi/assets/eedb938da46e1491c39dc7f410c3cf88.png",
       "outfits": [
         {
           "key": "skin:203101",
           "name": "Ein Immernachtstraum",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_FischlCostumeHighness.png"
+          "image": "https://cdn.gachabase.net/gi/assets/8bfeb9f36a4304535ac33e3b13bd25df.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:cf0fcd09b994813967fe3e5e4a97a738:400028b54983dd9d12ca5849b0d3f347:fbc89da114dd1337cf2ce4fbc3da54b3"
     },
     {
       "key": "avatar:10000032",
@@ -644,22 +647,19 @@
         "bennett"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Bennett.png",
+      "image": "https://cdn.gachabase.net/gi/assets/62129df9b3b30972d26d0bfac473231c.png",
       "outfits": [
         {
           "key": "skin:203201",
           "name": "Adventures in Blazing Hue",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BennettCostumeSummer.png"
+          "image": "https://cdn.gachabase.net/gi/assets/84ffb106a053b02122d71b97cf194e6d.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:491c920464eeaadc0361c84b74524a55:c92e53573a32a6d390d0faaef33b345d:31a838b9b5d97a4fc826fefb1ac78185"
     },
     {
       "key": "avatar:10000033",
@@ -668,33 +668,26 @@
         "tartaglia"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "FATUI"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2020-11-11",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tartaglia.png"
+      "image": "https://cdn.gachabase.net/gi/assets/f336a7762947f9a31807942fd9c89793.png",
+      "sourceHash": "release:r2:6018f637c428310709befc93df079b8b:a16fcf04579d35e7b0c4b09d482c8ea3:d35b76a293a8f3dc6cba7a4deb5661b1"
     },
     {
       "key": "avatar:10000034",
       "name": "Noelle",
       "joinKeys": [
-        "noelle",
-        "noel"
+        "noelle"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Geo",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Noel.png"
+      "image": "https://cdn.gachabase.net/gi/assets/eca70d2dc912c1eec24754bbf5f94567.png",
+      "sourceHash": "release:r2:67db98b7818232d4cac0a91c1ad92f3a:5fa46fab5b2f6bd9ccd08113c17309c5:6c1275c4030f17f21e2e55f809bb5b96"
     },
     {
       "key": "avatar:10000035",
@@ -703,15 +696,12 @@
         "qiqi"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qiqi.png"
+      "image": "https://cdn.gachabase.net/gi/assets/f6d67dd777a4baf59fcf0d7fe6128c22.png",
+      "sourceHash": "release:r2:f2126c37f54997367cb031c63043b934:8527daa00ad1c86b2b642933810517fa:55ed2b24089d6d57a4c09e04c14b110b"
     },
     {
       "key": "avatar:10000036",
@@ -720,15 +710,12 @@
         "chongyun"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chongyun.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a79dc489040ae486945d0a57298e4be2.png",
+      "sourceHash": "release:r2:83a3f94336657d5da7983853c6c2c196:6ec2585b0ea91b44479acda62a503fd9:5ba35e54a0cd53ab1919043b667be234"
     },
     {
       "key": "avatar:10000037",
@@ -737,22 +724,19 @@
         "ganyu"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2021-01-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ganyu.png",
+      "image": "https://cdn.gachabase.net/gi/assets/d3d392262216d18dde7458b323c01842.png",
       "outfits": [
         {
           "key": "skin:203701",
           "name": "Twilight Blossom",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_GanyuCostumeYu.png"
+          "image": "https://cdn.gachabase.net/gi/assets/d5bdd35d7818fcbe8083189b67b8fece.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:1fc3558dc8477969c88da73161f9b903:3d36df64d7d8bdf7c84a7ff65d587ecb:d55caaae8bfe59668c528eef9b9c793d"
     },
     {
       "key": "avatar:10000038",
@@ -761,15 +745,12 @@
         "albedo"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Geo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-12-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Albedo.png"
+      "image": "https://cdn.gachabase.net/gi/assets/d67b89365634517a3e32c44dac17c043.png",
+      "sourceHash": "release:r2:fc47be0df95cf7daa6b437b8647e2db8:a2d9a6a419ac038ca590ff978e7a668c:4f0637f917c51583e03c35c8e4b5c957"
     },
     {
       "key": "avatar:10000039",
@@ -778,15 +759,12 @@
         "diona"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2020-11-11",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diona.png"
+      "image": "https://cdn.gachabase.net/gi/assets/8ed181274ca55a385aa5f26e0360ca1a.png",
+      "sourceHash": "release:r2:896dd3276d8036cf82b7763b7003bde2:98c1a411b073f5033c71da1cabe62b41:d858de6c1fcbd3fa6e68289b4f289548"
     },
     {
       "key": "avatar:10000041",
@@ -795,22 +773,19 @@
         "mona"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mona.png",
+      "image": "https://cdn.gachabase.net/gi/assets/cd9d2ac1d66dfd1706afe51d8d00adba.png",
       "outfits": [
         {
           "key": "skin:204101",
           "name": "Pact of Stars and Moon",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MonaCostumeWic.png"
+          "image": "https://cdn.gachabase.net/gi/assets/0858b36aa6b6d3b2d1d82e3387f2c134.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:ea95d5e1ba2c2c287f28e336d9487bec:4673714e16ced6f3881cbcfdcd988ebb:2ee3d3beda2966f4366e73a03867def4"
     },
     {
       "key": "avatar:10000042",
@@ -819,22 +794,19 @@
         "keqing"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Electro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Keqing.png",
+      "image": "https://cdn.gachabase.net/gi/assets/fb62feb1e0abb6818dcc21585a251a4a.png",
       "outfits": [
         {
           "key": "skin:204201",
           "name": "Opulent Splendor",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KeqingCostumeFeather.png"
+          "image": "https://cdn.gachabase.net/gi/assets/001cbeda366d6f12886e3ebe741438ac.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:faedc37294b68698c8ad84800106e9f2:a6adc5b1ca2a47045765e7d0f710e87a:8211f70d3aed623dcecdc7a424fef775"
     },
     {
       "key": "avatar:10000043",
@@ -843,15 +815,12 @@
         "sucrose"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2020-09-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sucrose.png"
+      "image": "https://cdn.gachabase.net/gi/assets/cfd548852a8ae0e265682057e7168689.png",
+      "sourceHash": "release:r2:f8451b6d480f449fda46045c45292627:538cfc69d8de923439ad5425a5e5569d:ad5f3cc6388cb3f98f8138cc9efe4c69"
     },
     {
       "key": "avatar:10000044",
@@ -860,15 +829,12 @@
         "xinyan"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2020-12-02",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xinyan.png"
+      "image": "https://cdn.gachabase.net/gi/assets/1fff83f98ebe95520fede6d407e2f720.png",
+      "sourceHash": "release:r2:43f8c3eac3a36b04bd6bba48cf6700aa:da746197b6c83d3dcfc82f4609095181:2e362c06b5555b3b003f6110e2c6ce03"
     },
     {
       "key": "avatar:10000045",
@@ -877,22 +843,19 @@
         "rosaria"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2021-04-06",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Rosaria.png",
+      "image": "https://cdn.gachabase.net/gi/assets/5f9fb7818c97016022083348039a4163.png",
       "outfits": [
         {
           "key": "skin:204501",
           "name": "To the Church's Free Spirit",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_RosariaCostumeWic.png"
+          "image": "https://cdn.gachabase.net/gi/assets/6dd6d9ae4f4ae2c995ad15dbadf68c39.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:88699b8d68362607d6664669c3f5ca8e:d3adec842a88458dc643aef3e1ee62ae:de3625e24d10b555afd485b41d863aa4"
     },
     {
       "key": "avatar:10000046",
@@ -905,61 +868,51 @@
         "hu"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2021-03-02",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Hutao.png",
+      "image": "https://cdn.gachabase.net/gi/assets/dfe3cc7f3d99516ba404349cb959a4ad.png",
       "outfits": [
         {
           "key": "skin:204601",
           "name": "Cherries Snow-Laden",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_HutaoCostumeWinter.png"
+          "image": "https://cdn.gachabase.net/gi/assets/be4b1e49d79ab5ac70e1e1c688fda777.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:61a20fbd3e223100bc578c3fda248fa2:0b359aad3f3de981a8864862b5dbc2e9:ab2518d0813f74c494a140f2da0c4055"
     },
     {
       "key": "avatar:10000047",
       "name": "Kaedehara Kazuha",
       "joinKeys": [
-        "kaedeharakazuha",
-        "kazuha"
+        "kaedeharakazuha"
       ],
       "wordKeys": [
+        "kazuha",
         "kaedehara"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2021-06-29",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kazuha.png"
+      "image": "https://cdn.gachabase.net/gi/assets/7a49ef3f9c8ae8bdbcaffb25cb6332e7.png",
+      "sourceHash": "release:r2:540db96a95a0ed57a2b58b5d7dc491d9:b0c63ad67fe4a837c83da911573185a5:36f34b2846af4acc143754bc12505985"
     },
     {
       "key": "avatar:10000048",
       "name": "Yanfei",
       "joinKeys": [
-        "yanfei",
-        "feiyan"
+        "yanfei"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2021-04-26",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Feiyan.png"
+      "image": "https://cdn.gachabase.net/gi/assets/780710140be01c161f5d577415d2b45e.png",
+      "sourceHash": "release:r2:54776d0ae6ef409af87c83c2fa327765:617de3ae0ba1429ad5e50407bead1417:b32e6b8f83bc53db2c33c3bdf04012e9"
     },
     {
       "key": "avatar:10000049",
@@ -968,33 +921,26 @@
         "yoimiya"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2021-08-10",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yoimiya.png"
+      "image": "https://cdn.gachabase.net/gi/assets/c1ad44f1e68753e1d994f86b083cc84d.png",
+      "sourceHash": "release:r2:c6046bc57f740d51a497bb2b0195a755:b268910e0ff8d7bfb9062156c5b2be47:85bda251e1f3806a1d3aa0a7c3f62202"
     },
     {
       "key": "avatar:10000050",
       "name": "Thoma",
       "joinKeys": [
-        "thoma",
-        "tohma"
+        "thoma"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2021-11-02",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tohma.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e8932d466f0a436e11972b2b26194ce8.png",
+      "sourceHash": "release:r2:4dfba5ae4198228feba84f920e617fe5:8c1fc9de2348038424e697cfd25e51ce:71ba32722e56c4074d620b3ea196523d"
     },
     {
       "key": "avatar:10000051",
@@ -1003,37 +949,30 @@
         "eula"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2021-05-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Eula.png"
+      "image": "https://cdn.gachabase.net/gi/assets/c10116e454ee58e6234346223f26f792.png",
+      "sourceHash": "release:r2:4832d4c49474065eb7afcfbba519643e:373ce07ad0f2781c0d95067b36f59a66:6518f90ab00df3e4ede8eaf40f4ecb43"
     },
     {
       "key": "avatar:10000052",
       "name": "Raiden Shogun",
       "joinKeys": [
-        "raidenshogun",
-        "shougun"
+        "raidenshogun"
       ],
       "wordKeys": [
         "shogun",
         "raiden"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Electro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2021-08-31",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shougun.png"
+      "image": "https://cdn.gachabase.net/gi/assets/49c97e82f7291d23d5d665a9e0b65b87.png",
+      "sourceHash": "release:r2:20b3df7b3809741036e1a7a51fb890b2:42f5aad7583a86c66b69a3d227ef542e:b7099fc4caeb57f6fb489f768cd0c431"
     },
     {
       "key": "avatar:10000053",
@@ -1042,36 +981,30 @@
         "sayu"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2021-08-10",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sayu.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6a0fc98e9eab789d9a810ba1e7cf8b7c.png",
+      "sourceHash": "release:r2:b8135849d2d5bc9f21be989e05c4b288:b6e275a5f575485581b04cad1262aabb:e125696b32cf4b8a234bbb89572e3daf"
     },
     {
       "key": "avatar:10000054",
       "name": "Sangonomiya Kokomi",
       "joinKeys": [
-        "sangonomiyakokomi",
-        "kokomi"
+        "sangonomiyakokomi"
       ],
       "wordKeys": [
+        "kokomi",
         "sangonomiya"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2021-09-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kokomi.png"
+      "image": "https://cdn.gachabase.net/gi/assets/c7df9093bfdcac72aba705e224194bcf.png",
+      "sourceHash": "release:r2:61ca09926af2b8e48ad6d4f9500ffebe:93634a0d9fb2e660d6b3e645060b5902:08ffb6d2b29bd38e752c094b08ec95f2"
     },
     {
       "key": "avatar:10000055",
@@ -1080,100 +1013,84 @@
         "gorou"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Geo",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2021-12-14",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gorou.png"
+      "image": "https://cdn.gachabase.net/gi/assets/749d94adac0136ba9754ba68c97a72de.png",
+      "sourceHash": "release:r2:f3b178c2c1fe7acdf8e0e867d69a2c5e:f0054e93ebb2b4817cdb30070c32c825:68abee3fd64e33a0f4413f7573ba257d"
     },
     {
       "key": "avatar:10000056",
       "name": "Kujou Sara",
       "joinKeys": [
-        "kujousara",
-        "sara"
+        "kujousara"
       ],
       "wordKeys": [
+        "sara",
         "kujou"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Electro",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2021-08-31",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sara.png"
+      "image": "https://cdn.gachabase.net/gi/assets/2e6d23658459210624721c3a781a6d4f.png",
+      "sourceHash": "release:r2:796dee4fe0955a3fb79b35617f89d381:e8a6e235538ca4758edb4f7f371d3116:64f373c3a8e98e43cc893e10912a7b29"
     },
     {
       "key": "avatar:10000057",
       "name": "Arataki Itto",
       "joinKeys": [
-        "aratakiitto",
-        "itto"
+        "aratakiitto"
       ],
       "wordKeys": [
+        "itto",
         "arataki"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Geo",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2021-12-14",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Itto.png"
+      "image": "https://cdn.gachabase.net/gi/assets/03889bc2d68dc7949e64dcc0a61e71b9.png",
+      "sourceHash": "release:r2:51487a1ff22f8b32f8408a35e08f2dad:d59fc6633ba6675f58a49f4b51772351:c96c8d5650ffac8115e403eb7dd50c4f"
     },
     {
       "key": "avatar:10000058",
       "name": "Yae Miko",
       "joinKeys": [
-        "yaemiko",
-        "yae"
+        "yaemiko"
       ],
       "wordKeys": [
-        "miko"
+        "miko",
+        "yae"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Electro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2022-02-15",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yae.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e2436c0a4ddf1eb9583c2649968f2a34.png",
+      "sourceHash": "release:r2:24b50629cf2d0731b4dad06fe46cfb75:6d33442096490bf6aa5fe0e2caa3d3cb:745f4ccc32ade2eb53a678ee8ef5ff9c"
     },
     {
       "key": "avatar:10000059",
       "name": "Shikanoin Heizou",
       "joinKeys": [
-        "shikanoinheizou",
-        "heizo"
+        "shikanoinheizou"
       ],
       "wordKeys": [
         "heizou",
         "shikanoin"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2022-07-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Heizo.png"
+      "image": "https://cdn.gachabase.net/gi/assets/b7df0300f96417f2cdca5c726dbf60d8.png",
+      "sourceHash": "release:r2:a0b175f5dbdf1596d266bd4ab6d2b249:4aaa968b14ba7f34e77ce5a554440284:c7cefab407960e31b157a603a96c9e0f"
     },
     {
       "key": "avatar:10000060",
@@ -1182,47 +1099,40 @@
         "yelan"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2022-05-30",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yelan.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b1aaee77de7a9c847a09a401f37c9e8e.png",
       "outfits": [
         {
           "key": "skin:206001",
           "name": "Tranquil Banquet",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YelanCostumeSummer.png"
+          "image": "https://cdn.gachabase.net/gi/assets/1bed476b6f70e89f70d56246e5a8fdfb.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:dd06d5ca48b86536d8ff62533bb4f72e:c7477225baef55a23ca18b3a1d128b26:07bf42bd59065c31dbf2f3c6895d4fb4"
     },
     {
       "key": "avatar:10000061",
       "name": "Kirara",
       "joinKeys": [
-        "kirara",
-        "momoka"
+        "kirara"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2023-05-22",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Momoka.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b21ea77155bb73f1e9239450c0d8a69d.png",
       "outfits": [
         {
           "key": "skin:206101",
           "name": "Phantom in Boots",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MomokaCostumeErrantry.png"
+          "image": "https://cdn.gachabase.net/gi/assets/5960e8253599df9a27c25232595b19fd.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:c798c5963707fd9ce8ddeeb131870674:0e70dbf143c99e6951d7b412c2bce49b:edef8f793761c983add1a431b5ee6a2a"
     },
     {
       "key": "avatar:10000062",
@@ -1231,15 +1141,12 @@
         "aloy"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "RANGER"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2021-08-31",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aloy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6279a0bca98218073d5932d50cf3b09d.png",
+      "sourceHash": "release:r2:e67cae60788a5bfdb83cad7d0d3311a6:1b9cbd3bc3da342dcb56529d41c7884d:21b78de2e48c1140e070bac9bca773d3"
     },
     {
       "key": "avatar:10000063",
@@ -1248,22 +1155,19 @@
         "shenhe"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2022-01-04",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shenhe.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b8f7b98175b63eddbadc614c66fcdab4.png",
       "outfits": [
         {
           "key": "skin:206301",
           "name": "Frostflower Dew",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_ShenheCostumeDai.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7052800a6e99c167a5f5e7cec760ede8.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:2ca4907eeeb00b5b6f584335b1a8d60f:6ade20e2b6a2b948d04fc0beee11edad:91b806a103eff4caf4ac129c1c1da6f1"
     },
     {
       "key": "avatar:10000064",
@@ -1276,57 +1180,48 @@
         "yun"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Geo",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2022-01-04",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yunjin.png"
+      "image": "https://cdn.gachabase.net/gi/assets/8e94aa98964b5ab0e8f611859df71642.png",
+      "sourceHash": "release:r2:08e78dda2a574d44931e8da33d19dcca:8114359d5845196910755d03fbc059b0:91964f0c424eacceb664c5fd6f96fd62"
     },
     {
       "key": "avatar:10000065",
       "name": "Kuki Shinobu",
       "joinKeys": [
-        "kukishinobu",
-        "shinobu"
+        "kukishinobu"
       ],
       "wordKeys": [
+        "shinobu",
         "kuki"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Electro",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2022-06-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shinobu.png"
+      "image": "https://cdn.gachabase.net/gi/assets/737b47b194f5696ad6f24c1c4f26d0aa.png",
+      "sourceHash": "release:r2:dcb47a0aed1e64ef86d784abbe15051f:389df8d66449d08654e39ace84aec422:313390244355fc37cf2f0b245e86becb"
     },
     {
       "key": "avatar:10000066",
       "name": "Kamisato Ayato",
       "joinKeys": [
-        "kamisatoayato",
-        "ayato"
+        "kamisatoayato"
       ],
       "wordKeys": [
+        "ayato",
         "kamisato"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2022-03-29",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayato.png"
+      "image": "https://cdn.gachabase.net/gi/assets/5a44d3835ea1bb7c2bf419675ab0225f.png",
+      "sourceHash": "release:r2:02fd5f0c60bced65432d5caaa2ff0482:5032dabc75454b7b8181aa12ef3baeaa:d4e74fd38942c3fdfc11a811af9fd86e"
     },
     {
       "key": "avatar:10000067",
@@ -1335,15 +1230,12 @@
         "collei"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2022-08-23",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Collei.png"
+      "image": "https://cdn.gachabase.net/gi/assets/149d8953864216516f73b00ec6fada25.png",
+      "sourceHash": "release:r2:322a75ac34d4d3f9a7d37fd21291860e:b14adf441fbe03f11f1dd71f0db438bb:2722ea43385461e5269c27feb8372a9e"
     },
     {
       "key": "avatar:10000068",
@@ -1352,15 +1244,12 @@
         "dori"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Electro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2022-09-09",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dori.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e2e4afa1c1baf881907456adf3dd07b8.png",
+      "sourceHash": "release:r2:91295ce1e1882629d01a42ca3ed41ac8:1f1bb2c0e7e97e3e2c8427a4cb5f12b0:3c7f55a7d574b91826fa0a285acb4c32"
     },
     {
       "key": "avatar:10000069",
@@ -1369,15 +1258,12 @@
         "tighnari"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2022-08-23",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tighnari.png"
+      "image": "https://cdn.gachabase.net/gi/assets/69581fa2baa59831f43e4a9e9f4f758f.png",
+      "sourceHash": "release:r2:e65f18f3ad32a4d2450574dca140fd07:760fe259cb3f53bb8a920de6bb9313c2:15466e66f3f2baa8fba23c5bbf5545e0"
     },
     {
       "key": "avatar:10000070",
@@ -1386,22 +1272,19 @@
         "nilou"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2022-10-14",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nilou.png",
+      "image": "https://cdn.gachabase.net/gi/assets/777501656904e684ebb97e40b45fdc49.png",
       "outfits": [
         {
           "key": "skin:207001",
           "name": "Breeze of Sabaa",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NilouCostumeFairy.png"
+          "image": "https://cdn.gachabase.net/gi/assets/024e4d5ef9709d64788679f3831d954a.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:e36071077bf99585191f6fa10458c42e:244fc9e9f47a5ba42d24c8c255b7a06f:7a34a72308ea584bcf13286d87956259"
     },
     {
       "key": "avatar:10000071",
@@ -1410,15 +1293,12 @@
         "cyno"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Electro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2022-09-26",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Cyno.png"
+      "image": "https://cdn.gachabase.net/gi/assets/34dd7031de49c5bedc971258f3c1ac3e.png",
+      "sourceHash": "release:r2:10f484158ae0a84b87ebb81ccb1fea6b:33f6c06c04c058aa998e4f5405aa68ce:8398aebaf22940eee9775e4342424fbe"
     },
     {
       "key": "avatar:10000072",
@@ -1427,15 +1307,12 @@
         "candace"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2022-09-26",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Candace.png"
+      "image": "https://cdn.gachabase.net/gi/assets/65626a40e35da2bd74c74616116b7550.png",
+      "sourceHash": "release:r2:43c2b8ecd1498e66ec5a427b710a9b00:84b68c7f976afccd0103366492a14fd9:c20b695667f970bb080304bc1c028158"
     },
     {
       "key": "avatar:10000073",
@@ -1444,15 +1321,12 @@
         "nahida"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2022-10-31",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nahida.png"
+      "image": "https://cdn.gachabase.net/gi/assets/57c9d4da98eb763141e3c2308232cba0.png",
+      "sourceHash": "release:r2:0ccdcb9a7905ca75840006d864528a9e:b3020e44c7759919fe08c463968af73b:5931d4be5493a12eb239ff6183ac65f1"
     },
     {
       "key": "avatar:10000074",
@@ -1461,15 +1335,12 @@
         "layla"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2022-11-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Layla.png"
+      "image": "https://cdn.gachabase.net/gi/assets/9c4100f29625984eb249d5d0eada080e.png",
+      "sourceHash": "release:r2:830893a45a3e5e0df66dd1a0512d8557:4a18043e2e7a70684bccb66afcb667b4:c3d0910cfd3d0529b15383456a75cca1"
     },
     {
       "key": "avatar:10000075",
@@ -1478,15 +1349,12 @@
         "wanderer"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2022-12-05",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wanderer.png"
+      "image": "https://cdn.gachabase.net/gi/assets/d17b07098a33dbfcc26122ad5cf0c20c.png",
+      "sourceHash": "release:r2:9346d08d3f4c9538dde85686ec9770ae:0419712ba436dbee16f6dd24345a04c2:c26f6666d34846b4a4ca683706203b20"
     },
     {
       "key": "avatar:10000076",
@@ -1495,15 +1363,12 @@
         "faruzan"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2022-12-05",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Faruzan.png"
+      "image": "https://cdn.gachabase.net/gi/assets/f7e3a388939a7868d7fa9665cbdf0f2c.png",
+      "sourceHash": "release:r2:6457f6ffedeab1798dac087ef9b335c9:7aa427dccc2e5f9e95dabe1c9c71c196:6bfe2398e81a70bfb56e840cfba9db5e"
     },
     {
       "key": "avatar:10000077",
@@ -1512,40 +1377,33 @@
         "yaoyao"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2023-01-16",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yaoyao.png",
+      "image": "https://cdn.gachabase.net/gi/assets/28f518c0bd0f46eba52c286f43a8630d.png",
       "outfits": [
         {
           "key": "skin:207701",
           "name": "Rainlit Bamboo Reverie",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YaoyaoCostumeWinter.png"
+          "image": "https://cdn.gachabase.net/gi/assets/ea79350787991f6168d2a80e5e6bcee1.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:22331ef13c892b03f990f41d5d71aad4:4473e41233fee0328dec62848bda50d8:5b21c79aafe18c610b950f33e48d4937"
     },
     {
       "key": "avatar:10000078",
       "name": "Alhaitham",
       "joinKeys": [
-        "alhaitham",
-        "alhatham"
+        "alhaitham"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2023-01-16",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alhatham.png"
+      "image": "https://cdn.gachabase.net/gi/assets/83e3d45026f7dd2006bb668a2620323d.png",
+      "sourceHash": "release:r2:9d5b23684e0436ea8199311619c02d31:c26c0e81d1bd7c6c774ac7701e1bb308:7d026055341d28177cc91475bb42e2ca"
     },
     {
       "key": "avatar:10000079",
@@ -1554,15 +1412,12 @@
         "dehya"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2023-02-27",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dehya.png"
+      "image": "https://cdn.gachabase.net/gi/assets/b75298018afb184cd6f222416383da8f.png",
+      "sourceHash": "release:r2:ad513790b7d08c734fb1d1a54589f15f:283e06502cc41feece4f6d1b1c320ce3:a97f245b2ee9f8c0f124fecdf2ecad11"
     },
     {
       "key": "avatar:10000080",
@@ -1571,15 +1426,12 @@
         "mika"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2023-03-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mika.png"
+      "image": "https://cdn.gachabase.net/gi/assets/af4c4b9d2489cb977b5a7c53a55c378a.png",
+      "sourceHash": "release:r2:823eeed201713bd1dab3a27354ea4cdf:818d0e6e3e92760e3f84aa769ec577c4:786d4f566ed2de1ecbd8c91191e53f73"
     },
     {
       "key": "avatar:10000081",
@@ -1588,69 +1440,54 @@
         "kaveh"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2023-05-02",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaveh.png"
+      "image": "https://cdn.gachabase.net/gi/assets/772ba1dcf97ff4843a34e12c2eb5f26e.png",
+      "sourceHash": "release:r2:aae4c912e298bca6943da88ad4286fd1:cb9d59633d0886305515b7b48b9ba2ed:a5063c27978696755a9497438ecc0d2b"
     },
     {
       "key": "avatar:10000082",
       "name": "Baizhu",
       "joinKeys": [
-        "baizhu",
-        "baizhuer"
+        "baizhu"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2023-05-02",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Baizhuer.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6a916d859aebcee669155531121fb7b1.png",
+      "sourceHash": "release:r2:2b443da3f96266d6aea7a897bec37049:e9965d0103bee5a323744271f148d112:f7cabe826cf1f3af018e7cc5fbad733d"
     },
     {
       "key": "avatar:10000083",
       "name": "Lynette",
       "joinKeys": [
-        "lynette",
-        "linette"
+        "lynette"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2023-08-14",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linette.png"
+      "image": "https://cdn.gachabase.net/gi/assets/aa9de72390e8abf28e9ed1618ec9b4d4.png",
+      "sourceHash": "release:r2:173ab3ae3aec0cd453229b923c731c50:376961052c6ce76d5a8b8e2a081b285f:7562fd3ecdce15c9b5097438a5d5bd7e"
     },
     {
       "key": "avatar:10000084",
       "name": "Lyney",
       "joinKeys": [
-        "lyney",
-        "liney"
+        "lyney"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2023-08-14",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liney.png"
+      "image": "https://cdn.gachabase.net/gi/assets/f5151c98dca2132cf9b2700f857b3bd4.png",
+      "sourceHash": "release:r2:caca97facad7531046ef6586c00aa754:e4587f60f3b765a90efe7e6007391ec9:b0a11b84eefb05fe307c3a0d50709fca"
     },
     {
       "key": "avatar:10000085",
@@ -1659,15 +1496,12 @@
         "freminet"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2023-09-05",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Freminet.png"
+      "image": "https://cdn.gachabase.net/gi/assets/38dd0daac7ec30794899ce99ac1f29c4.png",
+      "sourceHash": "release:r2:78c63952c8c9fc9cf3c49d3eb7307d40:9645591041ea31dd78339fbd534e5ba6:ed78b7342d9a7b2f691e68955072c39b"
     },
     {
       "key": "avatar:10000086",
@@ -1676,15 +1510,12 @@
         "wriothesley"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2023-10-17",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wriothesley.png"
+      "image": "https://cdn.gachabase.net/gi/assets/bef0fe8f0f6b71d31acafe00466ff1df.png",
+      "sourceHash": "release:r2:8986e25b3944707686334708f00f96f0:9359d3c0355d066c6e2c420ffc3b3b94:9f2391b6a6406455d25dd334214fe470"
     },
     {
       "key": "avatar:10000087",
@@ -1693,22 +1524,19 @@
         "neuvillette"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2023-09-25",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Neuvillette.png",
+      "image": "https://cdn.gachabase.net/gi/assets/ca553e5c422a12b407e3497e27567cde.png",
       "outfits": [
         {
           "key": "skin:208701",
           "name": "Melusent Gift",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NeuvilletteCostumeWinter.png"
+          "image": "https://cdn.gachabase.net/gi/assets/ad527f343cde14e41f3101d7669f95ad.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:4213394c35bc6c1e2e48497ae1a05527:b0fd45ae37fbd728963afce95886c44f:2306db040773548b28ef483058ac0768"
     },
     {
       "key": "avatar:10000088",
@@ -1717,22 +1545,19 @@
         "charlotte"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2023-11-06",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Charlotte.png",
+      "image": "https://cdn.gachabase.net/gi/assets/307781d165ce09bd422112dcf3061869.png",
       "outfits": [
         {
           "key": "skin:208801",
           "name": "Hurlock Variations",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CharlotteCostumeDong.png"
+          "image": "https://cdn.gachabase.net/gi/assets/a934221ca5f3dadbf02a6d3a130ade89.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:577f2bdcd29e5781312a00ae689bab7a:d6dcaea441f8616a4fd4897fb7dc3f5b:8ffe1a62e633568e6c509149aafad7d6"
     },
     {
       "key": "avatar:10000089",
@@ -1741,15 +1566,12 @@
         "furina"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2023-11-06",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Furina.png"
+      "image": "https://cdn.gachabase.net/gi/assets/24da7e7f1f61d412b9d7535c9b150264.png",
+      "sourceHash": "release:r2:1ea4d7226c8cbd8aea8798229929ed1e:a3890e77c19831f03fd09054d09c2ad2:707b9431a7d02e4c846b48d9b7832c9a"
     },
     {
       "key": "avatar:10000090",
@@ -1758,15 +1580,12 @@
         "chevreuse"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2024-01-09",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chevreuse.png"
+      "image": "https://cdn.gachabase.net/gi/assets/51a510f785d9f8d928194a721368e844.png",
+      "sourceHash": "release:r2:e7daa28b0656688092338f0aff489f90:59f8eaa0c228c091a0fd2a6d2cbbeeea:96f8c0ebd6c5997104776310a2a0ab0d"
     },
     {
       "key": "avatar:10000091",
@@ -1775,15 +1594,12 @@
         "navia"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Geo",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2023-12-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Navia.png"
+      "image": "https://cdn.gachabase.net/gi/assets/780bea73742950c31d083d9ce89c4269.png",
+      "sourceHash": "release:r2:cde1dfb2ba419eaa2186dd02eea28bda:4b7c785826be3d0983380ea05fb513c7:de1ab6f1bb757d32e19b1f017701a8a2"
     },
     {
       "key": "avatar:10000092",
@@ -1792,33 +1608,26 @@
         "gaming"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2024-01-29",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gaming.png"
+      "image": "https://cdn.gachabase.net/gi/assets/948ba31c7dbb04d095b05d58649be7fd.png",
+      "sourceHash": "release:r2:03b002da3243c76aa813f5bfb114dd45:279bac824125357db231b5e68abeebc8:9809658a235ae1b5cdc3784373292262"
     },
     {
       "key": "avatar:10000093",
       "name": "Xianyun",
       "joinKeys": [
-        "xianyun",
-        "liuyun"
+        "xianyun"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2024-01-29",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liuyun.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a2300af1412cb411cf9db50ba974d0c8.png",
+      "sourceHash": "release:r2:dc27e4fb94407f46c78fdc9598cb4e5a:a133b2ede660a36d65014a812626ef49:e0a320f96bfd0cc25e9b5565f4e64e5f"
     },
     {
       "key": "avatar:10000094",
@@ -1827,15 +1636,12 @@
         "chiori"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Geo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2024-03-11",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chiori.png"
+      "image": "https://cdn.gachabase.net/gi/assets/dbbd853fc804a154869b971b8b419c81.png",
+      "sourceHash": "release:r2:1b88fbf68e2159ba7d1fdc553d93d89d:084d292e4601666eb5e2e747ab2b73a4:e8e3d05383b7850c6bc4b2bd1a4c939a"
     },
     {
       "key": "avatar:10000095",
@@ -1844,15 +1650,12 @@
         "sigewinne"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2024-06-26",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sigewinne.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6b307f2c8a698e653771e61e5e323a0e.png",
+      "sourceHash": "release:r2:bc897b9ba735ca763163779a69ff448f:84222c761dc0f922bfaf8d729c7f53da:41bb0e1ebc768d1ae87401bff8dc53a4"
     },
     {
       "key": "avatar:10000096",
@@ -1861,15 +1664,12 @@
         "arlecchino"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "FATUI"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2024-04-22",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Arlecchino.png"
+      "image": "https://cdn.gachabase.net/gi/assets/68c77b6d44140544693b593303a1e024.png",
+      "sourceHash": "release:r2:006fe31858bf86b4886d42e5a2abf873:94ce81bf620d88c9ea54fc1437000b7b:ecc0852e1234c8a41b2620db81c5a92f"
     },
     {
       "key": "avatar:10000097",
@@ -1878,15 +1678,12 @@
         "sethos"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "SUMERU"
-        ],
+        "element": "Electro",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2024-06-03",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sethos.png"
+      "image": "https://cdn.gachabase.net/gi/assets/07b15f42901488ec473a1caf1622733d.png",
+      "sourceHash": "release:r2:7c1f84b18da796df200a1d74d7aca6df:81902e2c71ac7fcbe1e4b00a0c979915:a2720b92c4ffeec9ceb6524ee7a0a7a6"
     },
     {
       "key": "avatar:10000098",
@@ -1895,15 +1692,12 @@
         "clorinde"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Electro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2024-06-03",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Clorinde.png"
+      "image": "https://cdn.gachabase.net/gi/assets/73cdfdebc1ca87a163c725fe44bacae7.png",
+      "sourceHash": "release:r2:d10ca13c68a8c8b1d4d2aee0915ea020:afc6faba1181faf2a67c695fafc64a3a:d0369430ebbeb6086e8fd971224c7a32"
     },
     {
       "key": "avatar:10000099",
@@ -1912,15 +1706,12 @@
         "emilie"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2024-08-06",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Emilie.png"
+      "image": "https://cdn.gachabase.net/gi/assets/0c791b8a8ab9c0db54d2843e20e5722f.png",
+      "sourceHash": "release:r2:1730060dab81a6c1a3e7ce58b6fa76c7:2279d7e396310c78ed514342c834fc29:e89fb78106f329d0952e38156370e982"
     },
     {
       "key": "avatar:10000100",
@@ -1929,15 +1720,12 @@
         "kachina"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Geo",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2024-08-26",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kachina.png"
+      "image": "https://cdn.gachabase.net/gi/assets/c11141708911cd95ffc02cd644531fab.png",
+      "sourceHash": "release:r2:f5aedf117d48bcf91a6061c8b6f1451a:b7734aa083e6c20bf8c10faf28d4828e:eeb2298c6185378f953c54b19168eea3"
     },
     {
       "key": "avatar:10000101",
@@ -1946,15 +1734,12 @@
         "kinich"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2024-09-17",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kinich.png"
+      "image": "https://cdn.gachabase.net/gi/assets/7d050035834a62243ce31283d35a51ba.png",
+      "sourceHash": "release:r2:eb1aa079d88908278483ef399ab83ef4:06db03d39fa424d264c81ea5942c64ca:7bc3592909da452b799dfca7fabc6438"
     },
     {
       "key": "avatar:10000102",
@@ -1963,15 +1748,12 @@
         "mualani"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2024-08-26",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mualani.png"
+      "image": "https://cdn.gachabase.net/gi/assets/0e6befdd826d8bbc6e32e45d99909e74.png",
+      "sourceHash": "release:r2:86ed8cb2f2491f893ae56663fc369e82:b68df551b6ce40a021b27bac07570c85:a0389d94f9289e958012e1c18c12548e"
     },
     {
       "key": "avatar:10000103",
@@ -1980,15 +1762,12 @@
         "xilonen"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Geo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2024-10-07",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xilonen.png"
+      "image": "https://cdn.gachabase.net/gi/assets/40bc31160128abfa71fed4011fc3b6ca.png",
+      "sourceHash": "release:r2:612b7393fff56f4dda754699a7865a95:7a013400acdc6c8682f642527a0f8159:1a53b3b57920262cb31d2abd5327af4f"
     },
     {
       "key": "avatar:10000104",
@@ -1997,33 +1776,26 @@
         "chasca"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2024-11-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chasca.png"
+      "image": "https://cdn.gachabase.net/gi/assets/3e32ff0166be01f8cfcbd8f7e8297922.png",
+      "sourceHash": "release:r2:c3814132b9aabe0b967b21afa32b3c4b:6a63901c92ea88a8f527f867cc5acaee:f9bf00421f7a7258b4245a931ed15f8e"
     },
     {
       "key": "avatar:10000105",
       "name": "Ororon",
       "joinKeys": [
-        "ororon",
-        "olorun"
+        "ororon"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Electro",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2024-11-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Olorun.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6760498c571e6f98d150f974bc261d38.png",
+      "sourceHash": "release:r2:5489bba862da67519101a82f42c70d17:80496338bed3ed44903ebff26317fcb6:49efa8df7aab550f35d37661f2c2b0b5"
     },
     {
       "key": "avatar:10000106",
@@ -2032,15 +1804,12 @@
         "mavuika"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2024-12-30",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mavuika.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e23f978ae6bb8606b7a86739eb78ca34.png",
+      "sourceHash": "release:r2:33222667a54bfd26ca6ce47713e5fd27:f8ccd3fad2e4e7c7453d5c7c0702980b:0c0a48b11fca6b04fba2dd39a7a0bc8a"
     },
     {
       "key": "avatar:10000107",
@@ -2049,22 +1818,19 @@
         "citlali"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2024-12-30",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Citlali.png",
+      "image": "https://cdn.gachabase.net/gi/assets/a563cd8a81666aa75669b795c70f05cd.png",
       "outfits": [
         {
           "key": "skin:210701",
           "name": "Whispers of Stars and Smoke",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CitlaliCostumeXia.png"
+          "image": "https://cdn.gachabase.net/gi/assets/0441e839c235288c1472f4071fd21808.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:04356dfea4ec318e1c900b185c7f3388:eb0d97249fd8031d6294402294a7dde8:26a4ed1c18cf285465d83d3fac7b7e89"
     },
     {
       "key": "avatar:10000108",
@@ -2077,36 +1843,30 @@
         "lan"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "LIYUE"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2025-01-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lanyan.png"
+      "image": "https://cdn.gachabase.net/gi/assets/989302ad5e15f4e18c80ec5c36575229.png",
+      "sourceHash": "release:r2:07e18fa550875c0ada260fd4d62a77e4:27d12b0f66e1248b0d53c62260fb0035:a84c4225cf3961cf59dd3711e5603897"
     },
     {
       "key": "avatar:10000109",
       "name": "Yumemizuki Mizuki",
       "joinKeys": [
-        "yumemizukimizuki",
-        "mizuki"
+        "yumemizukimizuki"
       ],
       "wordKeys": [
+        "mizuki",
         "yumemizuki"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "INAZUMA"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2025-02-10",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mizuki.png"
+      "image": "https://cdn.gachabase.net/gi/assets/fd4db36751306341f37a6be57d6283b7.png",
+      "sourceHash": "release:r2:4b8a3002aef42f2723fd2db548dad1a6:814efd34898adb9acd66c00c1f65535b:1c25e9e8f0fa454b572f1171a66781c3"
     },
     {
       "key": "avatar:10000110",
@@ -2115,15 +1875,12 @@
         "iansan"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Electro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2025-03-24",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Iansan.png"
+      "image": "https://cdn.gachabase.net/gi/assets/f6bc2b1dff05ec823c98c0d651a458e8.png",
+      "sourceHash": "release:r2:5564e98955ffce6cff9285fc31762d8a:05b5f69042eace5550be615b67e8de4b:3de8a453c81d09bab603d6a7ae971aa9"
     },
     {
       "key": "avatar:10000111",
@@ -2132,15 +1889,12 @@
         "varesa"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Electro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2025-03-24",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varesa.png"
+      "image": "https://cdn.gachabase.net/gi/assets/9afe97583c8fe55ca1ad9c5a4c7e9c6a.png",
+      "sourceHash": "release:r2:0f864f23528ff845c1f04ff0c2cb2b63:8f15b0d97def3595d0ce653f83e7ed1a:98982d5094c8c7dd2c644474b20561cb"
     },
     {
       "key": "avatar:10000112",
@@ -2149,15 +1903,12 @@
         "escoffier"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "FONTAINE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2025-05-05",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Escoffier.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a5b9c91c56a5c8308b2a39e734a488cf.png",
+      "sourceHash": "release:r2:d907882eaf71231e105e1181a0b73c2b:9150cb82a4a71a718edd67696f5b81c6:3a1ea94c607d26d42e2d243733c9e9b5"
     },
     {
       "key": "avatar:10000113",
@@ -2166,33 +1917,26 @@
         "ifa"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NATLAN"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2025-05-05",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ifa.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6b1c38827e86395ae38054d6074dbbd1.png",
+      "sourceHash": "release:r2:2a62bf4199b3eefe985b31fca601fcfe:e6a12e53fd3f22fd05d87c75c8b31c26:01996761e223b5c4598c22054924e44f"
     },
     {
       "key": "avatar:10000114",
       "name": "Skirk",
       "joinKeys": [
-        "skirk",
-        "skirknew"
+        "skirk"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "OMNI_SCOURGE"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2025-06-16",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_SkirkNew.png"
+      "image": "https://cdn.gachabase.net/gi/assets/8350b142103018a9381dc1cf6a94c1b7.png",
+      "sourceHash": "release:r2:fe440aa5cd4d505c746f95a1148341ce:12e95cd96b3e37ccbeacb4fbd7ee056a:4e4fa28feba081137c5a0ded420a60f3"
     },
     {
       "key": "avatar:10000115",
@@ -2201,15 +1945,12 @@
         "dahlia"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Sword",
         "rarity": 4
       },
-      "releaseDate": "2025-06-16",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dahlia.png"
+      "image": "https://cdn.gachabase.net/gi/assets/832e5b44b4409a6509f377350fa18737.png",
+      "sourceHash": "release:r2:112f0a31f27d7007d5d0ec007715a201:73035f4c96e903a4522ac38646c81086:53b96b2041c08a114634901a26e328f6"
     },
     {
       "key": "avatar:10000116",
@@ -2218,49 +1959,222 @@
         "ineffa"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Electro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2025-07-28",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ineffa.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a7b75b371b53b77d5df4c0851309317b.png",
+      "sourceHash": "release:r2:6ce0506491d05611ccdf2d215db23d22:601169a70f1b885ce5d4729479276fa9:d05d29c904e23e33f1be0d24b43363b6"
     },
     {
-      "key": "avatar:10000117",
+      "key": "avatar:10000117-anemo",
       "name": "Manekin",
       "joinKeys": [
-        "manekin",
-        "mannequinboy"
+        "manekin"
       ],
+      "family": "avatar:10000117",
       "attributes": {
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2025-10-20",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MannequinBoy.png"
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
-      "key": "avatar:10000118",
-      "name": "Manekina",
+      "key": "avatar:10000117-cryo",
+      "name": "Manekin",
       "joinKeys": [
-        "manekina",
-        "mannequingirl"
+        "manekin"
       ],
+      "family": "avatar:10000117",
       "attributes": {
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MAINACTOR"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2025-10-20",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MannequinGirl.png"
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:10000117-dendro",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Dendro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:10000117-electro",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:10000117-geo",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Geo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:10000117-hydro",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Hydro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:10000117-pyro",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Pyro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:10000118-anemo",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Anemo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:10000118-cryo",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Cryo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:10000118-dendro",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Dendro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:10000118-electro",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:10000118-geo",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Geo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:10000118-hydro",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Hydro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:10000118-pyro",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Pyro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000119",
@@ -2269,15 +2183,12 @@
         "lauma"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2025-09-08",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lauma.png"
+      "image": "https://cdn.gachabase.net/gi/assets/20af67834eb51d083d2b1da81bab3202.png",
+      "sourceHash": "release:r2:69fc3be59b43f4e3c9ae0d3a090c7c2d:9e0574d31739145884388703a55162f5:6fc8fd0f55afa3544c8e0e2a36ef1bec"
     },
     {
       "key": "avatar:10000120",
@@ -2286,15 +2197,12 @@
         "flins"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Electro",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2025-09-30",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Flins.png"
+      "image": "https://cdn.gachabase.net/gi/assets/829d5b5c83772d8fe194c4d37d9dfd86.png",
+      "sourceHash": "release:r2:7b46b1056e9ffaf396eeba7fe97af9f8:48cce59dee556b3f0e669c660e7f398f:e5524b7b335aeeb4230cc1431ec512da"
     },
     {
       "key": "avatar:10000121",
@@ -2303,15 +2211,12 @@
         "aino"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Claymore",
         "rarity": 4
       },
-      "releaseDate": "2025-09-08",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aino.png"
+      "image": "https://cdn.gachabase.net/gi/assets/23fbc9f5ed9b64b97ec208d8abc4dcc5.png",
+      "sourceHash": "release:r2:9260b4d3c3e90c4502b3899e3fd05ab9:20ad5a13a493d055bd1d5a79dd4c0e87:f9a97f90740feae8b0eff1baa3216332"
     },
     {
       "key": "avatar:10000122",
@@ -2320,15 +2225,12 @@
         "nefer"
       ],
       "attributes": {
-        "element": "Grass",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Dendro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2025-10-20",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nefer.png"
+      "image": "https://cdn.gachabase.net/gi/assets/48bf061286a840056a90ca62d64fa003.png",
+      "sourceHash": "release:r2:477486f6ed538f6bf3739b379f021b83:b81c2cde13628e58ccc0eb77d394b318:40a0168daac5d760c7af59a6fc4d37f4"
     },
     {
       "key": "avatar:10000123",
@@ -2337,22 +2239,19 @@
         "durin"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2025-12-01",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin.png",
+      "image": "https://cdn.gachabase.net/gi/assets/4a9dc0a3325a825c138e32b703e48cb0.png",
       "outfits": [
         {
           "key": "skin:212301",
           "name": "Toward the Distant Horizon",
-          "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DurinCostumeWic.png"
+          "image": "https://cdn.gachabase.net/gi/assets/9f2b322639bee4085d550c2e4f4643cb.png"
         }
-      ]
+      ],
+      "sourceHash": "release:r2:56501a871dfc33a240a6c7f3cef7f039:9adc7074fcd75cd7cda5026e8fa3374d:8c08eaf8877c550e4eec1a95fb41c863"
     },
     {
       "key": "avatar:10000124",
@@ -2361,15 +2260,12 @@
         "jahoda"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Bow",
         "rarity": 4
       },
-      "releaseDate": "2025-12-01",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Jahoda.png"
+      "image": "https://cdn.gachabase.net/gi/assets/10475d2682104bee0a03098abfe5c306.png",
+      "sourceHash": "release:r2:16420b007db3ea255c93e010b2a404d6:b003cbed20d4cc65edfb3b073892b244:a2bb1574b33e68a747cfd72f285a4bff"
     },
     {
       "key": "avatar:10000125",
@@ -2378,15 +2274,12 @@
         "columbina"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2026-01-12",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Columbina.png"
+      "image": "https://cdn.gachabase.net/gi/assets/85e5b02caea884fbe0f60af463c17d68.png",
+      "sourceHash": "release:r2:110fbf35edc1e6ad2ebdb2deb18aad60:aec98a5acc5e451f4052628d0c0eab3b:463adf4593543364a43ec5bfff6538d2"
     },
     {
       "key": "avatar:10000126",
@@ -2395,15 +2288,12 @@
         "zibai"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "NODKRAI_ZIBAI"
-        ],
+        "element": "Geo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2026-02-03",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zibai.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e700f145eed2ad72c80ea5a7a1541a7b.png",
+      "sourceHash": "release:r2:ec92bb750153781b29ce7b121a3db5ac:eb945046fadd0d69ff8aaf378e5a6a0e:ee45e33831a1df2d9ba1a2d7e0038a31"
     },
     {
       "key": "avatar:10000127",
@@ -2412,15 +2302,12 @@
         "illuga"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Geo",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2026-02-03",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Illuga.png"
+      "image": "https://cdn.gachabase.net/gi/assets/a0da206de75d152d2db70e5a27bd6092.png",
+      "sourceHash": "release:r2:0879ca529497462e55b7be25a030ae25:17b355397af49c2e8a4be02e08763d29:e5f425d89236f8b6e7268ab00d59d141"
     },
     {
       "key": "avatar:10000128",
@@ -2429,15 +2316,12 @@
         "varka"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2026-02-23",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varka.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6254120403fd5ff832fbd697a6c86262.png",
+      "sourceHash": "release:r2:fb5a42f8de7ae92965b6375680d9992b:8615b8df7b587f33a007315adb1f20d6:cdafedd7b0ada0f981892646896220c2"
     },
     {
       "key": "avatar:10000129",
@@ -2446,15 +2330,12 @@
         "lohen"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Polearm",
         "rarity": 5
       },
-      "releaseDate": "2026-06-09",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lohen.png"
+      "image": "https://cdn.gachabase.net/gi/assets/df74f99df90145c8c4dd060e81729c34.png",
+      "sourceHash": "release:r2:83354927194be5a3178f46aeb4879ce6:752ae3bf0af2a1b3986515006272a7c6:66b11bd0d3825750a55d5cd0d36f5761"
     },
     {
       "key": "avatar:10000130",
@@ -2463,15 +2344,12 @@
         "linnea"
       ],
       "attributes": {
-        "element": "Rock",
-        "weaponClass": "WEAPON_BOW",
-        "region": [
-          "NODKRAI"
-        ],
+        "element": "Geo",
+        "weaponClass": "Bow",
         "rarity": 5
       },
-      "releaseDate": "2026-04-06",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linnea.png"
+      "image": "https://cdn.gachabase.net/gi/assets/26b9f952b3bda837e99c03a691ad1e32.png",
+      "sourceHash": "release:r2:896939a6e97878b8da4ab8a45f420388:08b294a519a8732394262c790ac6b27c:123d48e8590b51e85c03c8e493252d1c"
     },
     {
       "key": "avatar:10000131",
@@ -2480,15 +2358,12 @@
         "nicole"
       ],
       "attributes": {
-        "element": "Fire",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "HVISION"
-        ],
+        "element": "Pyro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2026-05-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nicole.png"
+      "image": "https://cdn.gachabase.net/gi/assets/2cfac73f282a2768d235cc0c85805395.png",
+      "sourceHash": "release:r2:6dd474152867a305597736e9d0277914:77f1b4e376b556346cb65cbf2c4543ad:0fb86abcfad4d3ef35d839f69ca81481"
     },
     {
       "key": "avatar:10000132",
@@ -2497,33 +2372,56 @@
         "prune"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "MONDSTADT"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "releaseDate": "2026-05-18",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Prune.png"
+      "image": "https://cdn.gachabase.net/gi/assets/5a2ec5c152828dd930bd004dacc4ec75.png",
+      "sourceHash": "release:r2:ce32a4b23218c7c542fc6f8c983f6342:e19d8d2f3d16908d946a0cee9fd70add:dc0ee3d1bcc36c4ae01267d032658bee"
     },
     {
       "key": "avatar:10000133",
       "name": "Sandrone",
       "joinKeys": [
-        "sandrone",
-        "marionettenew"
+        "sandrone"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_CLAYMORE",
-        "region": [
-          "SNEZHNAYA_STAR"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Claymore",
         "rarity": 5
       },
-      "releaseDate": "2026-06-29",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MarionetteNew.png"
+      "image": "https://cdn.gachabase.net/gi/assets/6358e40835bacdb98ca9a05f8c09df43.png",
+      "sourceHash": "release:r2:fa35fd7d5b69a2e6a1ac1625faa057ba:38b89c2eaf6dc7dc0c1f53d23c6d69f2:bccbd7b0f8a835874cad5174ab1cb8eb"
+    },
+    {
+      "key": "avatar:10000136",
+      "name": "Mitya",
+      "joinKeys": [
+        "mitya"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Catalyst",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/01f26722851dc864fe866c284750d09a.png",
+      "sourceHash": "beta:r2:51dbed38725e19e24e07e1b150a6198e:86743ea0468a254061276fd2d849593d:2bd3efad1140e10f908dbd8bf846c29e"
+    },
+    {
+      "key": "avatar:10000137",
+      "name": "Valeriy",
+      "joinKeys": [
+        "valeriy"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Sword",
+        "rarity": 4
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/b21a22b6e99dac5f41f591ce207bf2d5.png",
+      "sourceHash": "beta:r2:bb35a214526a051fae78f08e5b1e06a8:94038b11e8ea65cbf81b5e721886a1a5:d7605685fce2f55439d2bed8a0b22d30"
     },
     {
       "key": "avatar:10000140",
@@ -2532,15 +2430,12 @@
         "vodyanitsa"
       ],
       "attributes": {
-        "element": "Water",
-        "weaponClass": "WEAPON_CATALYST",
-        "region": [
-          "SNEZHNAYA"
-        ],
+        "element": "Hydro",
+        "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "releaseDate": "2026-09-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vodyanitsa.png"
+      "image": "https://cdn.gachabase.net/gi/assets/4ed3905b4bf6e429eb6335002d214fbe.png",
+      "sourceHash": "release:r2:62ee041e31e8da886554f739c4098fd4:4e70451557db40051fe7f1dfd7b2b447:ef10a2267dbd036c1888f60d39bd5dd5"
     },
     {
       "key": "avatar:10000143",
@@ -2549,15 +2444,12 @@
         "vesna"
       ],
       "attributes": {
-        "element": "Wind",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "SNEZHNAYA_STAR"
-        ],
+        "element": "Anemo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2026-09-21",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Vesna.png"
+      "image": "https://cdn.gachabase.net/gi/assets/5a28acf25f5d449da22100097d63fbe8.png",
+      "sourceHash": "release:r2:29fb9d630025ca7bd0981a43e8a8b69f:1014d3b57e245c42b27cf81d69394526:a31869f89fffb71f3805fa91e94000bf"
     },
     {
       "key": "avatar:10000148",
@@ -2566,15 +2458,12 @@
         "alyosha"
       ],
       "attributes": {
-        "element": "Electric",
-        "weaponClass": "WEAPON_POLE",
-        "region": [
-          "SNEZHNAYA"
-        ],
+        "element": "Electro",
+        "weaponClass": "Polearm",
         "rarity": 4
       },
-      "releaseDate": "2026-08-10",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alyosha.png"
+      "image": "https://cdn.gachabase.net/gi/assets/be039888aebc701ab7a5a67c3a72757d.png",
+      "sourceHash": "release:r2:4274082997d8d0356138bf8de407c414:5b0f1df8725137c7e2540f95b2eb0d49:e32ae4cdfa9e8da4a474a7bf4c48b502"
     },
     {
       "key": "avatar:10000150",
@@ -2583,15 +2472,24 @@
         "odette"
       ],
       "attributes": {
-        "element": "Ice",
-        "weaponClass": "WEAPON_SWORD_ONE_HAND",
-        "region": [
-          "SNEZHNAYA_STAR"
-        ],
+        "element": "Cryo",
+        "weaponClass": "Sword",
         "rarity": 5
       },
-      "releaseDate": "2026-08-10",
-      "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Odette.png"
+      "image": "https://cdn.gachabase.net/gi/assets/e2ae90ac6c14326555456ea4833726be.png",
+      "sourceHash": "release:r2:3cfbfa84b757189d25f92233adf47bf9:17d58939d4e4de0c0c02c73583a32394:a71da30cb78b2a6388c8b8d1425decd5"
+    }
+  ],
+  "leftOut": [
+    {
+      "key": "avatar:10000134",
+      "name": "Traveler",
+      "reason": "it has no element: an empty placeholder in the game's files, not a character anyone can play"
+    },
+    {
+      "key": "avatar:10000135",
+      "name": "Traveler",
+      "reason": "it has no element: an empty placeholder in the game's files, not a character anyone can play"
     }
   ]
 }

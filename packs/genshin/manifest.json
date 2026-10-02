@@ -1,15 +1,15 @@
 {
   "packSchemaVersion": 1,
   "gameId": "genshin",
-  "packVersion": "2026.09.25.01",
-  "generatedAt": "2026-09-25T00:00:00Z",
+  "packVersion": "2026.10.02",
+  "generatedAt": "2026-10-02T00:00:00Z",
   "builder": "packbuilder 0.1.0",
   "authoredBy": "official",
   "minAppVersion": "0.1.0",
   "counts": {
-    "variants": 152,
-    "skins": 28,
-    "images": 152
+    "variants": 156,
+    "skins": 30,
+    "images": 156
   },
   "sources": [
     {
@@ -20,12 +20,12 @@
     },
     {
       "kind": "roster",
-      "url": "https://gi.yatta.moe",
-      "license": "Read as the site's robots.txt allows; no licence stated"
+      "url": "https://gi.gachabase.net",
+      "license": "Read as the site's robots.txt allows (it disallows nothing); no licence or terms stated"
     },
     {
       "kind": "images",
-      "url": "https://gi.yatta.moe/assets/UI/",
+      "url": "https://cdn.gachabase.net/gi/assets/",
       "license": "Game art © COGNOSPHERE / HoYoverse, as served by the source named in each image's record."
     }
   ]
