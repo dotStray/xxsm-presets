@@ -132,6 +132,105 @@ class AssembleTest(unittest.TestCase):
         self.assertEqual(later.errors, [])
         self.assertTrue(self.by_name(later)["GanyuTwilight"].hashes)
 
+    def test_an_outfit_finds_its_folder_by_any_word_of_its_name(self):
+        castorice = character("a:1", "Castorice")
+        castorice.outfits = [roster.Outfit("skin:1140701", "Gossamer Flutter", "picture")]
+        result = self.run_it([castorice], [folder("Castorice", "00000001"), folder("CastoriceFlutter", "00000002")])
+        variants = self.by_name(result)
+        self.assertEqual(result.errors, [])
+        self.assertEqual((variants["CastoriceFlutter"].parent, variants["CastoriceFlutter"].display), ("Castorice", "Gossamer Flutter"))
+        self.assertEqual(variants["CastoriceFlutter"].image_url, "picture")
+        self.assertTrue(variants["CastoriceFlutter"].hashes)
+        self.assertEqual(result.ledger["skin:1140701"], "CastoriceFlutter")
+
+    def test_a_waiting_outfit_keeps_its_name_when_its_folder_arrives_under_another_word(self):
+        hyacine = character("a:1", "Hyacine")
+        hyacine.outfits = [roster.Outfit("skin:1140901", "Warm Cotton Skies", None)]
+        first = self.run_it([hyacine], [folder("Hyacine", "00000001")])
+        self.assertIn("HyacineWarm", self.by_name(first))
+        later = self.run_it([hyacine], [folder("Hyacine", "00000001"), folder("HyacineCotton", "00000002")], ledger=first.ledger)
+        variants = self.by_name(later)
+        self.assertEqual(later.errors, [])
+        self.assertNotIn("HyacineCotton", variants)  # not a second outfit: the waiting one's folder
+        self.assertEqual(variants["HyacineWarm"].hashes[0]["hash"], "00000002")
+
+    def test_a_waiting_outfit_is_named_after_a_word_that_says_something(self):
+        traveler = character("a:1", "Traveler")
+        traveler.outfits = [roster.Outfit("skin:200501", "As Heaven and Earth Are Made Anew", None)]
+        result = self.run_it([traveler], [folder("Traveler", "00000001")])
+        self.assertIn("TravelerHeaven", self.by_name(result))
+
+    def test_a_published_outfit_keeps_its_folder_before_another_outfit_s_words_can_take_it(self):
+        remielle = character("a:1", "Remielle")
+        remielle.outfits = [
+            roster.Outfit("skin:3115813", "Moonlight Whispers (Veil)", None),
+            roster.Outfit("skin:3115811", "Moonlight Whispers", None),
+        ]
+        result = self.run_it([remielle], [folder("Remielle", "00000001"), folder("RemielleMoonlight", "00000002")], ledger={"a:1": "Remielle", "skin:3115811": "RemielleMoonlight"})
+        variants = self.by_name(result)
+        self.assertEqual(variants["RemielleMoonlight"].display, "Moonlight Whispers")
+        self.assertTrue(variants["RemielleMoonlight"].hashes)
+        veil = next(v for v in result.variants if v.roster_key == "skin:3115813")
+        self.assertEqual((veil.name, veil.hashes), ("RemielleMoonlightWhispersVeil", []))
+
+    def test_an_unnamed_outfit_is_reported_unless_the_ledger_already_knows_it(self):
+        aria = character("a:1", "Aria")
+        aria.outfits = [roster.Outfit("skin:3115011", None, "known"), roster.Outfit("skin:3115099", None, "new")]
+        result = self.run_it([aria], [folder("Aria", "00000001"), folder("AriaDiscordant", "00000002")], ledger={"a:1": "Aria", "skin:3115011": "AriaDiscordant"})
+        variants = self.by_name(result)
+        self.assertEqual((variants["AriaDiscordant"].display, variants["AriaDiscordant"].image_url), ("Aria Discordant", "known"))
+        self.assertEqual([(i.key, i.name) for i in result.left_out], [("skin:3115099", "an outfit of Aria")])
+        self.assertIn("no name", result.left_out[0].reason)
+
+    def test_a_second_entry_with_a_character_s_name_is_reported_not_added_twice(self):
+        twin = character("a:1582", "Remielle")
+        twin.outfits = [roster.Outfit("skin:1", "Something", None)]
+        result = self.run_it([character("a:1581", "Remielle"), twin], [folder("Remielle", "00000001")])
+        self.assertEqual([v.name for v in result.variants], ["Remielle"])
+        self.assertEqual([i.key for i in result.left_out], ["a:1582"])
+        self.assertIn("a:1581", result.left_out[0].reason)
+        self.assertIn("1 outfit", result.left_out[0].name)
+        named = self.run_it([character("a:1581", "Remielle"), twin], [folder("Remielle", "00000001")], Overrides(join={"a:1582": "RemielleEvent"}))
+        self.assertIn("RemielleEvent", self.by_name(named))
+        self.assertEqual(named.left_out, [])
+
+    def test_a_new_form_of_a_character_joins_the_name_its_other_forms_have(self):
+        forms = []
+        for element in ("pyro", "hydro"):
+            form = character(f"avatar:10000117-{element}", "Manekin", **{"element": "Ice"})
+            form.family = "avatar:10000117"
+            forms.append(form)
+        result = self.run_it(forms, [folder("Manekin", "00000001")], ledger={"avatar:10000117": "Manekin"})
+        self.assertEqual([v.name for v in result.variants], ["Manekin"])
+        self.assertEqual(result.ledger["avatar:10000117-hydro"], "Manekin")
+
+    def test_a_replacement_in_manual_stands_in_for_upstream_s_hashes(self):
+        hand = manual.Manual(replacements={"Ganyu": [{"variant": "", "component": "", "kind": "ib", "hash": "0000beef"}]},
+                             replacement_sources={"Ganyu": "manual/testgame/hashes/replace/Ganyu.txt"})
+        result = self.run_it([character("a:1", "Ganyu")], [folder("Ganyu", "00000001")], hand=hand)
+        ganyu = self.by_name(result)["Ganyu"]
+        self.assertEqual([e["hash"] for e in ganyu.hashes], ["0000beef"])
+        self.assertEqual(result.replaced, ["Ganyu"])
+        self.assertTrue(any("replaces upstream's" in row for row in result.manual_rows))
+
+    def test_a_replacement_for_nobody_stops_the_build(self):
+        hand = manual.Manual(replacements={"Nobody": [{"variant": "", "component": "", "kind": "ib", "hash": "0000beef"}]})
+        result = self.run_it([character("a:1", "Ganyu")], [folder("Ganyu", "00000001")], hand=hand)
+        self.assertTrue(any("nothing for it to replace" in e for e in result.errors))
+
+    def test_replacement_files_are_read_from_their_own_folder(self):
+        with helpers.tempfile.TemporaryDirectory() as scratch:
+            folder_ = helpers.pathlib.Path(scratch) / "testgame"
+            (folder_ / "hashes" / "replace").mkdir(parents=True)
+            (folder_ / "hashes" / "Ganyu.txt").write_text("ib 1575ec63\n")
+            (folder_ / "hashes" / "replace" / "Keqing.txt").write_text("ib 0000beef\n")
+            (folder_ / "hashes" / "replace" / "Empty.txt").write_text("nothing here\n")
+            hand = manual.read(folder_)
+        self.assertEqual(list(hand.hashes), ["Ganyu"])
+        self.assertEqual(list(hand.replacements), ["Keqing"])
+        self.assertEqual(hand.replacement_sources["Keqing"], "manual/testgame/hashes/replace/Keqing.txt")
+        self.assertTrue(any("replace/Empty.txt: no hashes" in p for p in hand.problems))
+
     def test_several_roster_entries_for_one_character_merge(self):
         overrides = Overrides(join={"a:1": "TravelerBoy", "a:2": "TravelerBoy"}, display_names={"TravelerBoy": "Aether"})
         one = character("a:1", "Traveler", element="Ice")
@@ -394,6 +493,38 @@ class BuildTest(unittest.TestCase):
         self.fake.write("overrides/testgame.json", {"parent": {"GanyuTwilight": None}})
         result = self.build()
         self.assertTrue(any("unknown key(s) parent" in e for e in result.errors))
+
+    def test_outfit_images_in_overrides_is_an_error_that_says_what_replaced_it(self):
+        self.fake.write("overrides/testgame.json", {"outfitImages": {"GanyuTwilight": "skin:1"}})
+        result = self.build()
+        self.assertTrue(any("\"outfitImages\" is no longer used" in e and "\"join\"" in e for e in result.errors))
+
+    def test_no_release_dates_are_published(self):
+        self.fake.set_roster([{"key": "avatar:1", "name": "Ganyu", "joinKeys": ["ganyu"], "releaseDate": "2021-01-12"}])
+        self.assertEqual(self.build().errors, [])
+        self.assertFalse([v for v in self.fake.read("packs/testgame/variants.json") if "releaseDate" in v])
+
+    def test_what_the_character_list_left_out_is_in_its_own_report(self):
+        self.fake.write(f"upstream/testgame/roster.json", {
+            "source": "gachabase-genshin",
+            "characters": [{"key": "avatar:1", "name": "Ganyu", "joinKeys": ["ganyu"]}, {"key": "avatar:3", "name": "Ganyu", "joinKeys": ["ganyu"]}],
+            "leftOut": [{"key": "avatar:7005", "name": "Kafka", "reason": "its number is outside the playable range"}],
+        })
+        self.assertEqual(self.build().errors, [])
+        report = (self.fake.root / "reports" / "testgame" / "left-out.md").read_text()
+        self.assertIn("2 entries", report)
+        self.assertIn("`avatar:7005` **Kafka** — its number is outside the playable range.", report)
+        self.assertIn("`avatar:3` **Ganyu**", report)
+
+    def test_a_replacement_smaller_than_upstream_s_hashes_is_not_stopped_as_a_shrink(self):
+        many = [c for i in range(10) for c in helpers.component(f"000000{i:02d}")]
+        self.fake.set_folders({"Ganyu": many})
+        self.assertEqual(self.build().errors, [])
+        self.fake.write("manual/testgame/hashes/replace/Ganyu.txt", "ib 0000beef\n")
+        result = self.build(today=DAY + datetime.timedelta(days=1))
+        self.assertEqual(result.errors, [])
+        ganyu = [e["hash"] for e in self.fake.read("packs/testgame/hashes.json")["entries"] if e["variant"] == "Ganyu"]
+        self.assertEqual(ganyu, ["0000beef"])
 
     def test_no_saved_sources_and_no_network_is_a_clear_error(self):
         (self.fake.root / "upstream/testgame/roster.json").unlink()

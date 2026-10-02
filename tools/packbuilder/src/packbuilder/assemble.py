@@ -8,13 +8,19 @@ The two stages meet here and nowhere else. The rules, in order:
 2. **A roster character is joined to a hash folder by name**: an override first, then its
    own internal name, then its whole name or in-game code, and only after every character
    has had that chance, by one word of a longer name.
-3. **A roster character with no hash folder is still a character**, with ``hashesPending``.
-4. **A hash folder no roster character claimed** is an outfit of the character whose name it
+3. **A roster character with no hash folder is still a character**, with ``hashesPending``. A
+   second roster entry with the same name as a character already in the pack, and nothing in the
+   ledger or the overrides to say who it is, is not added twice: it is reported as left out.
+4. **An outfit the character list names is an outfit from that day**, joined to the hash folder
+   named after its character and any word of its name ("CastoriceFlutter" for Gossamer Flutter),
+   now or whenever the folder arrives. It keeps the name it was first published under.
+5. **A hash folder no roster character claimed** is an outfit of the character whose name it
    starts with, or a character of its own. Every such guess goes into the inference report,
    and a guess the builder is not sure of stops the build until ``overrides/<game>.json`` says
    what it is.
-5. **``manual/`` is added last, and adds only.** Hand-added hashes are kept beside
-   upstream's, duplicates removed (the user's ruling, 2026-09-25).
+6. **``manual/`` is added last.** Hand-added hashes are kept beside upstream's, duplicates
+   removed (the user's ruling, 2026-09-25); a file in ``hashes/replace/`` stands in for
+   upstream's hashes of its character entirely (their ruling, 2026-10-02).
 """
 
 from __future__ import annotations
@@ -23,11 +29,14 @@ from dataclasses import dataclass, field
 
 from packbuilder.hashes import Folder, entries as folder_entries
 from packbuilder.manual import Manual
-from packbuilder.names import is_valid_id, join_key, pascal, split_camel
-from packbuilder.roster import Character
+from packbuilder.names import ascii_words, is_valid_id, join_key, pascal, split_camel
+from packbuilder.roster import Character, LeftOut
 from packbuilder.settings import Overrides
 
 HIGH, MEDIUM, LOW = "high", "medium", "low"
+
+# Words no hash folder is named after.
+FILLER = {"the", "and", "for", "with", "from"}
 
 
 @dataclass
@@ -36,7 +45,6 @@ class Variant:
     display: str
     parent: str | None = None
     attributes: dict = field(default_factory=dict)
-    release: str | None = None
     image_url: str | None = None
     image_frame: str | None = None
     image_path: object = None  # a manual picture's path
@@ -66,6 +74,8 @@ class Assembly:
     errors: list[str] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
     manual_rows: list[str] = field(default_factory=list)
+    left_out: list[LeftOut] = field(default_factory=list)
+    replaced: list[str] = field(default_factory=list)  # variants whose hashes manual/…/hashes/replace/ gave
 
 
 class _Names:
@@ -113,11 +123,22 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
 
     excluded = set(overrides.exclude)
     characters = [c for c in roster if c.key not in excluded]
+    left_out: list[LeftOut] = []
+
+    def family_name(family: str | None) -> str | None:
+        """The name another form of the same character goes by, so every form is one character."""
+        if not family:
+            return None
+        for table in (overrides.join, ledger):
+            for key, value in table.items():
+                if key == family or key.startswith(family + "-"):
+                    return value
+        return None
 
     # ---- 1. Roster characters: decide each one's name and folder. ----------------------------
     chosen: dict[str, tuple[str | None, Folder | None]] = {}
     for character in characters:
-        name = overrides.join.get(character.key) or ledger.get(character.key)
+        name = overrides.join.get(character.key) or ledger.get(character.key) or family_name(character.family)
         folder = free(name)
         if folder:
             claimed[folder.name.lower()] = name or folder.name
@@ -137,6 +158,7 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
 
     attribute_values = _AttributeMapper(config.get("attributes", {}), notes)
     by_name: dict[str, Variant] = {}
+    source_names: dict[str, str] = {}  # variant → the name the character list gave it
     for character in characters:
         name, folder = chosen[character.key]
         name = name or (folder.name if folder else None)
@@ -147,6 +169,20 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
             ledger[character.key] = existing.name
             continue
         if not name:
+            twin = names.get(pascal(character.name))
+            if twin is not None and twin.origin == "roster" and join_key(source_names.get(twin.name, "")) == join_key(character.name):
+                # Gachabase lists some characters twice: an unfinished copy, an event's version. A
+                # second "Remielle" is not a new character called Remielle2.
+                outfits = f" (and its {len(character.outfits)} outfit{'s' if len(character.outfits) != 1 else ''})" if character.outfits else ""
+                left_out.append(
+                    LeftOut(
+                        character.key,
+                        character.name + outfits,
+                        f"another entry, {twin.roster_key}, has the same name and is in the pack as {twin.name}. "
+                        f"If this one is a character of its own, give it a name in \"join\" in overrides",
+                    )
+                )
+                continue
             name = names.unique(pascal(character.name), set(folders_by_key) - set(claimed))
         if not is_valid_id(name):
             errors.append(f"Roster entry {character.key} ('{character.name}') would be called '{name}', which is not a valid id. Add it to \"join\" in overrides.")
@@ -157,7 +193,6 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
                 name=name,
                 display=overrides.display_names.get(name, character.name),
                 attributes=attribute_values.map(character.attributes),
-                release=character.release_date,
                 image_url=character.image,
                 image_frame=character.frame,
                 roster_key=character.key,
@@ -168,54 +203,82 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
         if folder:
             claimed[folder.name.lower()] = name
         by_name[character.key] = variant
+        source_names[name] = character.name
 
-    # ---- 2. Named roster outfits (Genshin's costumes). ----------------------------------------
-    outfit_images: dict[str, tuple[str, str | None]] = {}
+    # ---- 2. Outfits the character list names. -------------------------------------------------
     pending_outfits: dict[str, list[str]] = {}
+    wanted: list[tuple[Variant, object]] = []  # (base character, outfit), each outfit once
     seen_outfits: set[str] = set()
     for character in characters:
         base = by_name.get(character.key) or names.get(ledger.get(character.key))
+        if base is None:
+            continue  # left out above, with its outfits
         for outfit in character.outfits:
-            if outfit.image:
-                outfit_images.setdefault(outfit.key, (outfit.image, outfit.frame))
-            if not outfit.name or outfit.key in seen_outfits or base is None or outfit.key in excluded:
+            if outfit.key in seen_outfits or outfit.key in excluded:
                 continue
             seen_outfits.add(outfit.key)
-            name = overrides.join.get(outfit.key) or ledger.get(outfit.key)
-            folder = free(name)
-            if not name:
-                # The asset repositories name an outfit after its character and the outfit's
-                # first word ("GanyuTwilight" for Twilight Blossom). Naming a pending one the
-                # same way means the folder, when it comes, joins it without anyone's help.
-                words = pascal(outfit.name.split()[0]) if outfit.name.split() else ""
-                folder = free(base.name + words) or free(base.name + pascal(outfit.name))
-                if folder:
-                    name = folder.name
-                else:
-                    reserved = set(folders_by_key) - set(claimed)
-                    short = base.name + words
-                    name = short if words and not names.get(short) and short.lower() not in reserved else names.unique(base.name + pascal(outfit.name), reserved)
-            if names.get(name):
-                errors.append(f"Outfit {outfit.key} ('{outfit.name}') would be called '{name}', which another variant already is. Fix \"join\" in overrides.")
+            if not outfit.name and not (overrides.join.get(outfit.key) or ledger.get(outfit.key)):
+                left_out.append(LeftOut(outfit.key, f"an outfit of {base.display}", "it has no name in the source yet; it is added the week it gets one"))
                 continue
-            ledger[outfit.key] = name
-            if folder:
-                claimed[folder.name.lower()] = name
-            else:
-                pending_outfits.setdefault(base.name, []).append(outfit.name)
-            names.add(
-                Variant(
-                    name=name,
-                    display=overrides.display_names.get(name, outfit.name),
-                    parent=base.name,
-                    attributes=dict(base.attributes),
-                    image_url=outfit.image,
-                    image_frame=outfit.frame,
-                    roster_key=outfit.key,
-                    folder=folder,
-                    origin="roster outfit",
-                )
+            wanted.append((base, outfit))
+
+    # A published outfit claims its own folder first, so a new outfit's words never take it.
+    chosen_outfits: dict[str, tuple[str | None, Folder | None]] = {}
+    for base, outfit in wanted:
+        name = overrides.join.get(outfit.key) or ledger.get(outfit.key)
+        folder = free(name)
+        if folder:
+            claimed[folder.name.lower()] = name
+        chosen_outfits[outfit.key] = (name, folder)
+    for base, outfit in wanted:
+        name, folder = chosen_outfits[outfit.key]
+        if folder or outfit.key in overrides.join or not outfit.name:
+            continue
+        # The hash repositories name an outfit after its character and one word of the outfit's
+        # name ("GanyuTwilight" for Twilight Blossom, "CastoriceFlutter" for Gossamer Flutter), so
+        # that folder is this outfit's, whenever it arrives. One that has waited keeps its name.
+        for word in [pascal(w) for w in ascii_words(outfit.name)] + [pascal(outfit.name)]:
+            candidate = free(base.name + word)
+            if candidate and not candidate.container:
+                claimed[candidate.name.lower()] = name or candidate.name
+                chosen_outfits[outfit.key] = (name, candidate)
+                break
+
+    for base, outfit in wanted:
+        name, folder = chosen_outfits[outfit.key]
+        if not name and folder:
+            name = folder.name
+        if not name:
+            # Named like the folder that will come: the character and the outfit's first word that
+            # says something ("TravelerBoyHeaven" for As Heaven and Earth Are Made Anew).
+            words = [w for w in ascii_words(outfit.name) if len(w) > 2 and w.lower() not in FILLER] or ascii_words(outfit.name)
+            # Not a folder's name, and not a name another outfit already goes by.
+            reserved = set(folders_by_key) | {n.lower() for n, _ in chosen_outfits.values() if n}
+            short = base.name + (pascal(words[0]) if words else "")
+            name = short if words and not names.get(short) and short.lower() not in reserved else names.unique(base.name + pascal(outfit.name), reserved)
+        if names.get(name):
+            errors.append(f"Outfit {outfit.key} ('{outfit.name or name}') would be called '{name}', which another variant already is. Fix \"join\" in overrides.")
+            continue
+        ledger[outfit.key] = name
+        if folder:
+            claimed[folder.name.lower()] = name
+        else:
+            pending_outfits.setdefault(base.name, []).append(outfit.name or name)
+        remainder = name[len(base.name):] if name.lower().startswith(base.name.lower()) else ""
+        display = overrides.display_names.get(name) or outfit.name or (f"{base.display} {split_camel(remainder)}" if remainder else split_camel(name))
+        names.add(
+            Variant(
+                name=name,
+                display=display,
+                parent=base.name,
+                attributes=dict(base.attributes),
+                image_url=outfit.image,
+                image_frame=outfit.frame,
+                roster_key=outfit.key,
+                folder=folder,
+                origin="roster outfit",
             )
+        )
 
     # ---- 3. Hash folders nobody claimed. -------------------------------------------------------
     inferences: list[Inference] = []
@@ -292,8 +355,6 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
                 display=display,
                 parent=base.name if base else None,
                 attributes=dict(base.attributes) if base else {},
-                image_url=outfit_images.get(overrides.outfit_images.get(name, ""), (None, None))[0],
-                image_frame=outfit_images.get(overrides.outfit_images.get(name, ""), (None, None))[1],
                 folder=folder,
                 origin="hash folder",
             )
@@ -355,6 +416,32 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
         base = names.get(parent)
         names.add(Variant(name=name, display=item.display_name or item.name, parent=parent, attributes=dict(base.attributes) if base else {}, origin="manual"))
         manual_rows.append(f"`{item.source}`: added **{name}**" + (f", an outfit of {parent}." if parent else "."))
+
+    replaced: list[str] = []
+    for written, found in sorted(manual.replacements.items()):
+        # Stands in for upstream entirely, for as long as the file is there (the user's ruling, 2026-10-02).
+        source = manual.replacement_sources.get(written, "manual")
+        variant = resolve(written)
+        if variant is None:
+            errors.append(
+                f"{source}: there is no character called '{written}', so there is nothing for it to replace. "
+                "Rename the file to the character's name, or move it up into hashes/ to add a new character."
+            )
+            continue
+        before = len(variant.hashes)
+        variant.hashes = []
+        have: set = set()
+        for entry in found:
+            entry = {**entry, "variant": variant.name}
+            key = (entry["kind"], entry["hash"], entry.get("textureKind"), entry.get("slot"))
+            if key not in have:
+                have.add(key)
+                variant.hashes.append(entry)
+        replaced.append(variant.name)
+        manual_rows.append(
+            f"`{source}` → **{variant.name}**: replaces upstream's {before} hash{'es' if before != 1 else ''} "
+            f"with the file's {len(variant.hashes)}. Upstream's are used again once the file is deleted."
+        )
 
     for written, found in sorted(manual.hashes.items()):
         source = manual.hash_sources.get(written, "manual")
@@ -428,6 +515,8 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
         errors=errors,
         notes=notes,
         manual_rows=manual_rows,
+        left_out=left_out,
+        replaced=replaced,
     )
 
 

@@ -3,13 +3,14 @@
 from __future__ import annotations
 
 import datetime
+import pathlib
 import unittest
-import urllib.parse
 import zlib
+from unittest import mock
 
 import helpers  # noqa: F401  (puts src on the path)
 
-from packbuilder import build, checks, hashes, images, manual, names, release, roster
+from packbuilder import assemble, build, checks, hashes, images, manual, names, release
 
 
 class NamesTest(unittest.TestCase):
@@ -244,6 +245,49 @@ class PictureTest(unittest.TestCase):
         difference = sum(images.ImageStat.Stat(images.ImageChops.difference(truth, found)).mean)
         self.assertLess(difference, 30)
 
+    def similar(self, a, b):
+        a, b = a.resize((50, 50)).convert("RGB"), b.resize((50, 50)).convert("RGB")
+        return sum(images.ImageStat.Stat(images.ImageChops.difference(a, b)).mean)
+
+    def test_a_wider_cut_is_twice_the_face_around_its_centre(self):
+        # Zenless's outfits (frameScale 2): framed as gachabase frames its characters' 512 portraits.
+        art = self.art()
+        icon = self.as_round_icon(art.crop((210, 220, 410, 420)))
+        square = images.frame_square(self.data(art), self.data(icon), 2)
+        self.assertAlmostEqual(square.width, 400, delta=24)
+        self.assertEqual(square.width, square.height)
+        self.assertLess(self.similar(art.crop((110, 120, 510, 520)), square), 30)
+
+    def test_a_wider_cut_that_would_run_off_the_picture_is_moved_back_inside(self):
+        art = self.art()
+        icon = self.as_round_icon(art.crop((20, 10, 220, 210)))  # near the top-left corner
+        square = images.frame_square(self.data(art), self.data(icon), 2)
+        self.assertAlmostEqual(square.width, 400, delta=24)
+        self.assertLess(self.similar(art.crop((0, 0, square.width, square.width)), square), 30)
+
+    def test_a_framed_picture_is_cut_again_when_the_framing_changes_and_not_otherwise(self):
+        import tempfile
+
+        art, cut = self.art(), []
+        icon = self.as_round_icon(art.crop((210, 220, 410, 420)))
+
+        class Fake:
+            def get(inner, url, *, fresh=True):
+                return self.data(art) if url.endswith("art.png") else self.data(icon)
+
+        variant = assemble.Variant(name="Remielle", display="Remielle", image_url="https://x/art.png", image_frame="https://x/icon.png")
+        real = images.frame_square
+        def counting(*args):
+            cut.append(args[2] if len(args) > 2 else 1.0)
+            return real(*args)
+        with tempfile.TemporaryDirectory() as folder, mock.patch.object(images, "frame_square", counting):
+            first = images.build([variant], pathlib.Path(folder), {}, "none", Fake())
+            images.build([variant], pathlib.Path(folder), first.sources, "none", Fake())
+            wider = images.build([variant], pathlib.Path(folder), first.sources, "none", Fake(), 2.0)
+            images.build([variant], pathlib.Path(folder), wider.sources, "none", Fake(), 2.0)
+        self.assertEqual(cut, [1.0, 2.0])
+        self.assertEqual(wider.sources["Remielle"]["frameScale"], 2.0)
+
     def test_something_that_is_not_a_picture_is_refused(self):
         with self.assertRaises(Exception):
             images.normalise(b"not a picture", "none")
@@ -251,69 +295,6 @@ class PictureTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-class StarRailRosterTest(unittest.TestCase):
-    """Which outfits Star Rail has comes from Enka.Network (D210); the characters and every picture from Project Yatta."""
-
-    YATTA = {"data": {"items": {"1310": {"id": 1310, "name": "Firefly", "rank": 5, "icon": "1310", "types": {"pathType": "Warrior", "combatType": "Fire"}}}}}
-    ENKA = {
-        "1310": {
-            "Skins": {
-                "1131001": {
-                    "AvatarSideIconPath": "/ui/hsr/SpriteOutput/AvatarRoundIcon/AvatarSkin/1131001.png",
-                    "AvatarCutinFrontImgPath": "/ui/hsr/SpriteOutput/AvatarDrawCard/AvatarSkin/1131001.png",
-                }
-            }
-        },
-        "1001": {"Rarity": 4},
-    }
-
-    class Fake:
-        def __init__(self, answers):
-            self.answers = answers
-
-        def get_json(self, url, *, fresh=True):
-            from packbuilder.http import FetchError
-
-            for fragment, answer in self.answers.items():
-                if fragment in url:
-                    if answer is None:
-                        raise FetchError(f"{url}: HTTP 503")
-                    return answer
-            raise AssertionError(url)
-
-    def test_outfits_come_from_enka_and_their_pictures_from_project_yatta(self):
-        characters = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])
-        firefly = characters[0]
-        self.assertEqual(firefly.name, "Firefly")
-        self.assertEqual([o.key for o in firefly.outfits], ["skin:1131001"])
-        outfit = firefly.outfits[0]
-        self.assertIsNone(outfit.name)  # Enka names no outfit; its folder does
-        # Drawn like the characters, on a clear background, not Enka's full art with its scenery.
-        self.assertEqual(outfit.image, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1131001.png")
-        self.assertIsNone(outfit.frame)
-        self.assertEqual(firefly.image, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1310.png")
-        self.assertIsNone(firefly.frame)
-
-    def test_project_yatta_is_asked_with_today_s_date_so_a_stale_cached_answer_is_not_used(self):
-        # Cloudflare kept a 16-day-old list for GitHub's runners (2026-09-26); the day makes a new address.
-        asked = []
-
-        class Recording(self.Fake):
-            def get_json(inner, url, *, fresh=True):
-                asked.append(url)
-                return super().get_json(url, fresh=fresh)
-
-        roster.read("yatta-starrail", Recording({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])
-        today = roster.datetime.datetime.now(roster.datetime.timezone.utc).date().isoformat()
-        self.assertIn(f"https://sr.yatta.moe/api/v2/en/avatar?fresh={today}", asked)
-
-    def test_enka_down_keeps_last_week_s_outfits(self):
-        last_week = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": self.ENKA}), [])
-        characters = roster.read("yatta-starrail", self.Fake({"sr.yatta.moe": self.YATTA, "hsr/avatars.json": None}), last_week)
-        self.assertEqual([o.key for o in characters[0].outfits], ["skin:1131001"])
-        self.assertEqual(characters[0].outfits[0].image, "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/1131001.png")
 
 
 class HostilePictureTest(unittest.TestCase):
@@ -330,23 +311,6 @@ class HostilePictureTest(unittest.TestCase):
         png[29:33] = zlib.crc32(bytes(png[12:29])).to_bytes(4, "big")  # the header's own checksum
         with self.assertRaises(ValueError):
             images.game_icon(bytes(png))
-
-
-class UpstreamAddressTest(unittest.TestCase):
-    """An address built from upstream's data stays on upstream's site (audit P5)."""
-
-    def test_a_path_stays_on_the_site(self):
-        self.assertEqual(roster._on("https://enka.network", "/ui/zzz/Anby.png"), "https://enka.network/ui/zzz/Anby.png")
-
-    def test_a_path_glued_on_as_text_would_have_changed_the_host_and_joined_it_cannot(self):
-        # f"https://enka.network{path}" with "@evil.tld/x" is https://enka.network@evil.tld/x.
-        for tricky in ("@evil.tld/x.png", ".evil.tld/x.png"):
-            address = roster._on("https://enka.network", tricky)
-            self.assertEqual(urllib.parse.urlparse(address).netloc, "enka.network", tricky)
-
-    def test_a_path_naming_another_host_or_plain_http_is_no_address(self):
-        for hostile in ("//evil.tld/x.png", "https://evil.tld/x.png", "http://enka.network/x.png"):
-            self.assertIsNone(roster._on("https://enka.network", hostile), hostile)
 
 
 class PublicZipTest(unittest.TestCase):

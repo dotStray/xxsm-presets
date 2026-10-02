@@ -10,11 +10,11 @@
     "license": "GPL-3.0"
   },
   "roster": {
-    "source": "yatta-genshin",
-    "url": "https://gi.yatta.moe",
-    "imagesUrl": "https://gi.yatta.moe/assets/UI/",
-    "credit": "[Project Amber](https://gi.yatta.moe) (gi.yatta.moe), with which characters have outfits taken from [Enka.Network's public data](https://github.com/EnkaNetwork/API-docs)",
-    "license": "Read as the site's robots.txt allows; no licence stated"
+    "source": "gachabase-genshin",
+    "url": "https://gi.gachabase.net",
+    "imagesUrl": "https://cdn.gachabase.net/gi/assets/",
+    "credit": "[gachabase](https://gi.gachabase.net) (gi.gachabase.net)",
+    "license": "Read as the site's robots.txt allows (it disallows nothing); no licence or terms stated"
   },
   "portraits": {
     "crop": "none"
@@ -30,6 +30,7 @@
           "id": "anemo",
           "displayName": "Anemo",
           "from": [
+            "Anemo",
             "Wind"
           ]
         },
@@ -37,6 +38,7 @@
           "id": "cryo",
           "displayName": "Cryo",
           "from": [
+            "Cryo",
             "Ice"
           ]
         },
@@ -44,6 +46,7 @@
           "id": "dendro",
           "displayName": "Dendro",
           "from": [
+            "Dendro",
             "Grass"
           ]
         },
@@ -51,6 +54,7 @@
           "id": "electro",
           "displayName": "Electro",
           "from": [
+            "Electro",
             "Electric"
           ]
         },
@@ -58,6 +62,7 @@
           "id": "geo",
           "displayName": "Geo",
           "from": [
+            "Geo",
             "Rock"
           ]
         },
@@ -65,6 +70,7 @@
           "id": "hydro",
           "displayName": "Hydro",
           "from": [
+            "Hydro",
             "Water"
           ]
         },
@@ -72,6 +78,7 @@
           "id": "pyro",
           "displayName": "Pyro",
           "from": [
+            "Pyro",
             "Fire"
           ]
         }
@@ -87,6 +94,7 @@
           "id": "bow",
           "displayName": "Bow",
           "from": [
+            "Bow",
             "WEAPON_BOW"
           ]
         },
@@ -94,6 +102,7 @@
           "id": "catalyst",
           "displayName": "Catalyst",
           "from": [
+            "Catalyst",
             "WEAPON_CATALYST"
           ]
         },
@@ -101,6 +110,7 @@
           "id": "claymore",
           "displayName": "Claymore",
           "from": [
+            "Claymore",
             "WEAPON_CLAYMORE"
           ]
         },
@@ -108,6 +118,7 @@
           "id": "polearm",
           "displayName": "Polearm",
           "from": [
+            "Polearm",
             "WEAPON_POLE"
           ]
         },
@@ -115,80 +126,10 @@
           "id": "sword",
           "displayName": "Sword",
           "from": [
+            "Sword",
             "WEAPON_SWORD_ONE_HAND"
           ]
         }
-      ]
-    },
-    "region": {
-      "displayName": "Region",
-      "list": true,
-      "values": [
-        {
-          "id": "mondstadt",
-          "displayName": "Mondstadt",
-          "from": [
-            "MONDSTADT"
-          ]
-        },
-        {
-          "id": "liyue",
-          "displayName": "Liyue",
-          "from": [
-            "LIYUE"
-          ]
-        },
-        {
-          "id": "inazuma",
-          "displayName": "Inazuma",
-          "from": [
-            "INAZUMA"
-          ]
-        },
-        {
-          "id": "sumeru",
-          "displayName": "Sumeru",
-          "from": [
-            "SUMERU"
-          ]
-        },
-        {
-          "id": "fontaine",
-          "displayName": "Fontaine",
-          "from": [
-            "FONTAINE"
-          ]
-        },
-        {
-          "id": "natlan",
-          "displayName": "Natlan",
-          "from": [
-            "NATLAN"
-          ]
-        },
-        {
-          "id": "nodkrai",
-          "displayName": "Nod-Krai",
-          "from": [
-            "NODKRAI",
-            "NODKRAI_ZIBAI"
-          ]
-        },
-        {
-          "id": "snezhnaya",
-          "displayName": "Snezhnaya",
-          "from": [
-            "SNEZHNAYA",
-            "SNEZHNAYA_STAR",
-            "FATUI"
-          ]
-        }
-      ],
-      "ignore": [
-        "MAINACTOR",
-        "RANGER",
-        "HVISION",
-        "OMNI_SCOURGE"
       ]
     },
     "rarity": {

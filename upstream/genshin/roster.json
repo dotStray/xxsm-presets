@@ -23,7 +23,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayaka.png",
       "outfits": [
         {
-          "key": "costume:AyakaCostumeFruhling",
+          "key": "skin:200201",
           "name": "Springbloom Missive",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AyakaCostumeFruhling.png"
         }
@@ -48,12 +48,12 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qin.png",
       "outfits": [
         {
-          "key": "costume:QinCostumeSea",
+          "key": "skin:200301",
           "name": "Sea Breeze Dandelion",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeSea.png"
         },
         {
-          "key": "costume:QinCostumeWic",
+          "key": "skin:200302",
           "name": "Gunnhildr's Legacy",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_QinCostumeWic.png"
         }
@@ -203,7 +203,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lisa.png",
       "outfits": [
         {
-          "key": "costume:LisaCostumeStudentin",
+          "key": "skin:200601",
           "name": "A Sobriquet Under Shade",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_LisaCostumeStudentin.png"
         }
@@ -353,7 +353,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Barbara.png",
       "outfits": [
         {
-          "key": "costume:BarbaraCostumeSummertime",
+          "key": "skin:201401",
           "name": "Summertime Sparkle",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BarbaraCostumeSummertime.png"
         }
@@ -377,7 +377,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaeya.png",
       "outfits": [
         {
-          "key": "costume:KaeyaCostumeDancer",
+          "key": "skin:201501",
           "name": "Sailwind Shadow",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KaeyaCostumeDancer.png"
         }
@@ -401,7 +401,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diluc.png",
       "outfits": [
         {
-          "key": "costume:DilucCostumeFlamme",
+          "key": "skin:201601",
           "name": "Red Dead of Night",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DilucCostumeFlamme.png"
         }
@@ -443,7 +443,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ambor.png",
       "outfits": [
         {
-          "key": "costume:AmborCostumeWic",
+          "key": "skin:202101",
           "name": "100% Outrider",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_AmborCostumeWic.png"
         }
@@ -484,7 +484,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiangling.png",
       "outfits": [
         {
-          "key": "costume:XianglingCostumeWinter",
+          "key": "skin:202301",
           "name": "New Year's Cheer",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XianglingCostumeWinter.png"
         }
@@ -525,7 +525,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xingqiu.png",
       "outfits": [
         {
-          "key": "costume:XingqiuCostumeBamboo",
+          "key": "skin:202501",
           "name": "Bamboo Rain",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_XingqiuCostumeBamboo.png"
         }
@@ -566,7 +566,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ningguang.png",
       "outfits": [
         {
-          "key": "costume:NingguangCostumeFloral",
+          "key": "skin:202701",
           "name": "Orchid's Evening Gown",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NingguangCostumeFloral.png"
         }
@@ -590,7 +590,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Klee.png",
       "outfits": [
         {
-          "key": "costume:KleeCostumeWitch",
+          "key": "skin:202901",
           "name": "Blossoming Starlight",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KleeCostumeWitch.png"
         }
@@ -631,7 +631,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Fischl.png",
       "outfits": [
         {
-          "key": "costume:FischlCostumeHighness",
+          "key": "skin:203101",
           "name": "Ein Immernachtstraum",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_FischlCostumeHighness.png"
         }
@@ -655,7 +655,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Bennett.png",
       "outfits": [
         {
-          "key": "costume:BennettCostumeSummer",
+          "key": "skin:203201",
           "name": "Adventures in Blazing Hue",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_BennettCostumeSummer.png"
         }
@@ -748,7 +748,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ganyu.png",
       "outfits": [
         {
-          "key": "costume:GanyuCostumeYu",
+          "key": "skin:203701",
           "name": "Twilight Blossom",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_GanyuCostumeYu.png"
         }
@@ -806,7 +806,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mona.png",
       "outfits": [
         {
-          "key": "costume:MonaCostumeWic",
+          "key": "skin:204101",
           "name": "Pact of Stars and Moon",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MonaCostumeWic.png"
         }
@@ -830,7 +830,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Keqing.png",
       "outfits": [
         {
-          "key": "costume:KeqingCostumeFeather",
+          "key": "skin:204201",
           "name": "Opulent Splendor",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_KeqingCostumeFeather.png"
         }
@@ -888,7 +888,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Rosaria.png",
       "outfits": [
         {
-          "key": "costume:RosariaCostumeWic",
+          "key": "skin:204501",
           "name": "To the Church's Free Spirit",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_RosariaCostumeWic.png"
         }
@@ -916,7 +916,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Hutao.png",
       "outfits": [
         {
-          "key": "costume:HutaoCostumeWinter",
+          "key": "skin:204601",
           "name": "Cherries Snow-Laden",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_HutaoCostumeWinter.png"
         }
@@ -1193,7 +1193,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yelan.png",
       "outfits": [
         {
-          "key": "costume:YelanCostumeSummer",
+          "key": "skin:206001",
           "name": "Tranquil Banquet",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YelanCostumeSummer.png"
         }
@@ -1218,7 +1218,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Momoka.png",
       "outfits": [
         {
-          "key": "costume:MomokaCostumeErrantry",
+          "key": "skin:206101",
           "name": "Phantom in Boots",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MomokaCostumeErrantry.png"
         }
@@ -1259,7 +1259,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shenhe.png",
       "outfits": [
         {
-          "key": "costume:ShenheCostumeDai",
+          "key": "skin:206301",
           "name": "Frostflower Dew",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_ShenheCostumeDai.png"
         }
@@ -1397,7 +1397,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nilou.png",
       "outfits": [
         {
-          "key": "costume:NilouCostumeFairy",
+          "key": "skin:207001",
           "name": "Breeze of Sabaa",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NilouCostumeFairy.png"
         }
@@ -1523,7 +1523,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yaoyao.png",
       "outfits": [
         {
-          "key": "costume:YaoyaoCostumeWinter",
+          "key": "skin:207701",
           "name": "Rainlit Bamboo Reverie",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_YaoyaoCostumeWinter.png"
         }
@@ -1704,7 +1704,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Neuvillette.png",
       "outfits": [
         {
-          "key": "costume:NeuvilletteCostumeWinter",
+          "key": "skin:208701",
           "name": "Melusent Gift",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_NeuvilletteCostumeWinter.png"
         }
@@ -1728,7 +1728,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Charlotte.png",
       "outfits": [
         {
-          "key": "costume:CharlotteCostumeDong",
+          "key": "skin:208801",
           "name": "Hurlock Variations",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CharlotteCostumeDong.png"
         }
@@ -2060,7 +2060,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Citlali.png",
       "outfits": [
         {
-          "key": "costume:CitlaliCostumeXia",
+          "key": "skin:210701",
           "name": "Whispers of Stars and Smoke",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_CitlaliCostumeXia.png"
         }
@@ -2348,7 +2348,7 @@
       "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin.png",
       "outfits": [
         {
-          "key": "costume:DurinCostumeWic",
+          "key": "skin:212301",
           "name": "Toward the Distant Horizon",
           "image": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DurinCostumeWic.png"
         }

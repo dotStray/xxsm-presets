@@ -89,15 +89,28 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     roster_path = upstream / "roster.json"
     saved = read_json(roster_path, {}) or {}
     characters = [roster.Character.from_json(c) for c in saved.get("characters", [])]
+    left_out = [roster.LeftOut.from_json(c) for c in saved.get("leftOut", [])]
+    if saved.get("source") and saved.get("source") != config["roster"]["source"]:
+        # A list from another source holds other kinds of keys and none of this source's checksums.
+        # It is still the fallback when the new source cannot be read, and gives each its last name.
+        result.warnings.append(f"The character list's source is now {config['roster']['source']} (was {saved.get('source') or 'none'}).")
     if fetcher is not None and refresh_roster:
         try:
-            fresh = roster.read(config["roster"]["source"], fetcher, characters)
-            if characters and len(fresh) < len(characters) * 0.9:
+            fresh = roster.read(config["roster"]["source"], fetcher, characters, config["roster"])
+            if characters and len(fresh.characters) < len(characters) * 0.9:
                 raise FetchError(
-                    f"the character list shrank from {len(characters)} to {len(fresh)} entries, which looks like a broken answer"
+                    f"the character list shrank from {len(characters)} to {len(fresh.characters)} entries, which looks like a broken answer"
                 )
-            characters = fresh
-            write_json(roster_path, {"source": config["roster"]["source"], "characters": [c.to_json() for c in characters]})
+            characters, left_out = fresh.characters, fresh.left_out
+            result.warnings.extend(fresh.warnings)
+            write_json(
+                roster_path,
+                {
+                    "source": config["roster"]["source"],
+                    "characters": [c.to_json() for c in characters],
+                    **({"leftOut": [c.to_json() for c in left_out]} if left_out else {}),
+                },
+            )
         except FetchError as error:
             result.warnings.append(f"Character list not refreshed ({error}); used the copy from the last run.")
     if not characters:
@@ -134,7 +147,8 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     else:
         (staging / "images").mkdir(parents=True)
     record = read_json(upstream / "images.json", {}) or {}
-    pictures = images.build(assembly.variants, staging / "images", record, config.get("portraits", {}).get("crop", "none"), fetcher)
+    portraits = config.get("portraits", {})
+    pictures = images.build(assembly.variants, staging / "images", record, portraits.get("crop", "none"), fetcher, float(portraits.get("frameScale", 1)))
     icon_record = read_json(upstream / "icon.json", {}) or {}
     icon_problems, icon_record = game_icon(
         config, hand, fetcher, pack_dir / "images", staging / "images", icon_record, assembly.manual_rows, result.warnings
@@ -160,7 +174,8 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     sizes = {f"images/{p.name}": p.stat().st_size for p in (staging / "images").glob("*") if p.is_file()}
 
     problems = checks.validate(game_json, variants, hash_json, sizes)
-    problems += checks.guard(previous_variants, previous_hashes, variants, hash_json, overrides.retired, overrides.allow_shrink)
+    # A replacement in manual/ is a person's deliberate choice, so it may be smaller than upstream's.
+    problems += checks.guard(previous_variants, previous_hashes, variants, hash_json, overrides.retired, overrides.allow_shrink + assembly.replaced)
     if problems:
         shutil.rmtree(staging)
         result.errors.extend(problems)
@@ -203,7 +218,7 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     if icon_record:
         write_json(upstream / "icon.json", icon_record)
     write_json(repo.ledger(game), {"names": assembly.ledger})
-    reports.write(repo.reports(game), game, assembly, variants, hash_json, pictures.missing)
+    reports.write(repo.reports(game), game, assembly, variants, hash_json, pictures.missing, left_out + assembly.left_out)
 
     result.changed = changed
     result.version = manifest["packVersion"]
@@ -284,8 +299,6 @@ def variant_json(variant: assembler.Variant, image: str | None) -> dict:
     payload["modFilesName"] = variant.name
     if image:
         payload["image"] = image
-    if variant.release:
-        payload["releaseDate"] = variant.release
     if variant.attributes:
         payload["attributes"] = variant.attributes
     if not variant.hashes:

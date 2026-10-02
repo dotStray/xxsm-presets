@@ -5,10 +5,13 @@ picture. Each is cropped to a head-and-shoulders square the way the game's sourc
 (``config`` → ``portraits.crop``), scaled to at most 512 pixels, and saved as WebP under
 80 KB in the pack's ``images/``.
 
-A source may also give a *frame*: a small picture of the same art, already framed the way it
-should look. Zenless's round face icons are exactly that. The builder finds where the frame
-sits in the big picture and cuts that square out of it, so the portrait has the game's own
-framing at the big picture's resolution, and no empty corners on a square tile.
+A source may also give a *frame*: a small picture of the same art, showing where the face is.
+Zenless's round face icons are exactly that. The builder finds where the frame sits in the big
+picture and cuts a square around it out of the big picture, at the big picture's resolution and
+with no empty corners on a square tile. ``config`` → ``portraits`` → ``frameScale`` says how much
+around the face: 1 is the icon's own framing; Zenless uses 2, which is how gachabase frames its
+512-pixel portraits of each character's default look (measured 2026-10-02), so an outfit cut this
+way sits beside its character's portrait framed alike.
 
 ``upstream/<game>/images.json`` records where each portrait came from and a checksum of the
 original. A rebuild downloads a picture only when its address changed or it has never been
@@ -39,7 +42,7 @@ class ImageResult:
     sources: dict[str, dict]
 
 
-def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher: Fetcher | None) -> ImageResult:
+def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher: Fetcher | None, frame_scale: float = 1.0) -> ImageResult:
     """Brings ``pack_images`` up to date. ``fetcher=None`` builds from what is already there.
 
     ``record`` is what ``upstream/<game>/images.json`` said last time; the new record is in the
@@ -78,7 +81,8 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
             missing.append((variant.name, "no picture in any source"))
             continue
         frame = getattr(variant, "image_frame", None)
-        if previous.get("source") == url and previous.get("frame") == frame and target.is_file():
+        scale = frame_scale if frame else 1.0
+        if previous.get("source") == url and previous.get("frame") == frame and previous.get("frameScale", 1.0) == scale and target.is_file():
             images[variant.name] = relative
             sources[variant.name] = previous
             continue
@@ -92,7 +96,7 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
         try:
             original = fetcher.get(url, fresh=False)
             if frame:
-                write_bytes(target, encode(frame_square(original, fetcher.get(frame, fresh=False))))
+                write_bytes(target, encode(frame_square(original, fetcher.get(frame, fresh=False), scale)))
             else:
                 write_bytes(target, normalise(original, crop))
         except FetchError as error:
@@ -106,7 +110,7 @@ def build(variants, pack_images: pathlib.Path, record: dict, crop: str, fetcher:
             missing.append((variant.name, f"{url} is not a picture this builder can read: {error}"))
             continue
         images[variant.name] = relative
-        sources[variant.name] = {"source": url, **({"frame": frame} if frame else {}), "sha256": hashlib.sha256(original).hexdigest()}
+        sources[variant.name] = {"source": url, **({"frame": frame} if frame else {}), **({"frameScale": scale} if scale != 1.0 else {}), "sha256": hashlib.sha256(original).hexdigest()}
 
     wanted = {f"{name}.webp" for name in images}
     for stale in pack_images.glob("*"):
@@ -191,8 +195,10 @@ def _crop(image: Image.Image, mode: str) -> Image.Image:
     raise ValueError(f"unknown crop '{mode}'")
 
 
-def frame_square(full_data: bytes, face_data: bytes) -> Image.Image:
-    """The square of ``full`` that ``face`` shows.
+def frame_square(full_data: bytes, face_data: bytes, scale: float = 1.0) -> Image.Image:
+    """The square of ``full`` that ``face`` shows, made ``scale`` times as wide around its centre.
+
+    A square that would run past the picture's edge is moved back inside it, never cut short.
 
     Found in two passes, both plain pixel comparison: a rough one over every size and place
     at 12×12 pixels, then a fine one near the best rough answer at 40×40. Only the frame's
@@ -217,6 +223,11 @@ def frame_square(full_data: bytes, face_data: bytes) -> Image.Image:
     _, x, y, side = rough
     margin = side * 0.12
     _, x, y, side = _search(flat, face, 40, [side * k / 100 for k in range(90, 111, 2)], (x - margin, x + margin), (y - margin, y + margin))
+    if scale != 1.0:
+        wide = min(side * scale, full.width, full.height)
+        x = min(max(x + side / 2 - wide / 2, 0), full.width - wide)
+        y = min(max(y + side / 2 - wide / 2, 0), full.height - wide)
+        side = wide
     return full.crop((round(x), round(y), round(x + side), round(y + side)))
 
 

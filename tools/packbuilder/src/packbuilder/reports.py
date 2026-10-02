@@ -1,6 +1,7 @@
 """The build's reports, written to ``reports/<game>/`` beside the pack (not inside it).
 
 - ``pending-hashes.md`` — characters in the pack with no hashes yet.
+- ``left-out.md`` — what the character list has that is not in the pack, and why.
 - ``missing-images.md`` — characters with no portrait, and why.
 - ``inference-report.md`` — every outfit's parent, the rule that decided it, and how sure.
 - ``collisions.md`` — hashes more than one character has.
@@ -22,7 +23,7 @@ def plural(count: int, one: str, many: str | None = None) -> str:
     return f"{count} {one if count == 1 else (many or one + 's')}"
 
 
-def write(folder: pathlib.Path, game: str, assembly, variants: list[dict], hash_json: dict, missing: list[tuple[str, str]]) -> None:
+def write(folder: pathlib.Path, game: str, assembly, variants: list[dict], hash_json: dict, missing: list[tuple[str, str]], left_out: list | None = None) -> None:
     folder.mkdir(parents=True, exist_ok=True)
     (folder / "blocked.md").unlink(missing_ok=True)
     by_name = {v["internalName"]: v for v in variants}
@@ -40,6 +41,18 @@ def write(folder: pathlib.Path, game: str, assembly, variants: list[dict], hash_
     ]
     lines += [f"- **{v['internalName']}** — {v['displayName']}" + (f" (outfit of {v['baseCharacterId']})" if v.get("baseCharacterId") else "") for v in pending]
     write_text(folder / "pending-hashes.md", "\n".join(lines) + "\n")
+
+    left_out = sorted(left_out or [], key=lambda item: (item.reason, item.key))
+    lines = [
+        f"# {game}: what the character list has that the pack does not",
+        "",
+        f"{plural(len(left_out), 'entry', 'entries')} in the character list {'is' if len(left_out) == 1 else 'are'} not in the pack. Nothing the "
+        "list has is left out without being named here. To add one anyway, give it a name in \"join\" in "
+        f"`overrides/{game}.json`, keyed by the entry below.",
+        "",
+    ]
+    lines += [f"- `{item.key}` **{item.name}** — {item.reason}." for item in left_out]
+    write_text(folder / "left-out.md", "\n".join(lines) + "\n")
 
     lines = [
         f"# {game}: characters with no portrait",

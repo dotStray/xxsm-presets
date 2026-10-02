@@ -19,7 +19,6 @@ OVERRIDE_KEYS = {
     "partOf",
     "displayNames",
     "aliases",
-    "outfitImages",
     "exclude",
     "ignoredHashes",
     "retired",
@@ -34,7 +33,6 @@ class Overrides:
     part_of: dict[str, str] = field(default_factory=dict)
     display_names: dict[str, str] = field(default_factory=dict)
     aliases: dict[str, list[str]] = field(default_factory=dict)
-    outfit_images: dict[str, str] = field(default_factory=dict)
     exclude: list[str] = field(default_factory=list)
     ignored_hashes: list[str] = field(default_factory=list)
     retired: list[str] = field(default_factory=list)
@@ -58,6 +56,11 @@ def load_overrides(path: pathlib.Path) -> Overrides:
     raw = read_json(path, {})
     if not isinstance(raw, dict):
         raise BuildError(f"{path} must be a JSON object.")
+    if "outfitImages" in raw:
+        raise BuildError(
+            f"{path}: \"outfitImages\" is no longer used: the character list names every outfit by its number now, "
+            "and the ledger remembers which folder is whose. Take it out; to tie an outfit to a folder, use \"join\"."
+        )
     unknown = sorted(set(raw) - OVERRIDE_KEYS)
     if unknown:
         raise BuildError(f"{path}: unknown key(s) {', '.join(unknown)}. Known: {', '.join(sorted(OVERRIDE_KEYS))}.")
@@ -86,7 +89,6 @@ def load_overrides(path: pathlib.Path) -> Overrides:
         part_of=mapping("partOf"),
         display_names=mapping("displayNames"),
         aliases={k: list(v) for k, v in aliases.items()},
-        outfit_images=mapping("outfitImages"),
         exclude=names("exclude"),
         ignored_hashes=[h.lower() for h in names("ignoredHashes")],
         retired=names("retired"),

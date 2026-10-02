@@ -20,7 +20,7 @@ CONFIG = {
     "shortName": "TG",
     "importer": "TGMI",
     "hashes": {"repo": "someone/TG-Assets", "folder": "PlayerCharacterData", "license": "GPL-3.0"},
-    "roster": {"source": "yatta-genshin", "url": "https://example.invalid", "credit": "a test"},
+    "roster": {"source": "gachabase-genshin", "url": "https://example.invalid", "credit": "a test"},
     "portraits": {"crop": "none"},
     "attributes": {
         "element": {"displayName": "Element", "values": [{"id": "cryo", "displayName": "Cryo", "from": ["Ice"]}], "ignore": ["None"]},
@@ -88,7 +88,7 @@ class FakeRepo:
         return json.loads((self.root / relative).read_text(encoding="utf-8"))
 
     def set_roster(self, characters: list[dict]) -> None:
-        self.write(f"upstream/{self.game}/roster.json", {"source": "yatta-genshin", "characters": characters})
+        self.write(f"upstream/{self.game}/roster.json", {"source": "gachabase-genshin", "characters": characters})
 
     def set_folders(self, folders: dict[str, list]) -> None:
         base = self.root / "upstream" / self.game / "hashes"

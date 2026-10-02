@@ -10,11 +10,12 @@
     "license": "No licence stated upstream"
   },
   "roster": {
-    "source": "yatta-starrail",
-    "url": "https://sr.yatta.moe",
-    "imagesUrl": "https://sr.yatta.moe/hsr/assets/UI/avatar/medium/",
-    "credit": "[Project Yatta](https://sr.yatta.moe) (sr.yatta.moe), with the outfit list from [Enka.Network's public data](https://github.com/EnkaNetwork/API-docs)",
-    "license": "Read as the site allows (it publishes no robots.txt); no licence stated"
+    "source": "gachabase-starrail",
+    "url": "https://hsr.gachabase.net",
+    "imagesUrl": "https://cdn.gachabase.net/hsr/assets/",
+    "include": "1\\d{3}|80\\d{2}",
+    "credit": "[gachabase](https://hsr.gachabase.net) (hsr.gachabase.net)",
+    "license": "Read as the site's robots.txt allows (it disallows nothing); no licence or terms stated"
   },
   "portraits": {
     "crop": "top-square"
@@ -51,6 +52,7 @@
           "id": "lightning",
           "displayName": "Lightning",
           "from": [
+            "Lightning",
             "Thunder"
           ]
         },
@@ -84,6 +86,7 @@
           "id": "destruction",
           "displayName": "Destruction",
           "from": [
+            "Destruction",
             "Warrior"
           ]
         },
@@ -91,6 +94,7 @@
           "id": "hunt",
           "displayName": "The Hunt",
           "from": [
+            "The Hunt",
             "Rogue"
           ]
         },
@@ -98,6 +102,7 @@
           "id": "erudition",
           "displayName": "Erudition",
           "from": [
+            "Erudition",
             "Mage"
           ]
         },
@@ -105,6 +110,7 @@
           "id": "harmony",
           "displayName": "Harmony",
           "from": [
+            "Harmony",
             "Shaman"
           ]
         },
@@ -112,6 +118,7 @@
           "id": "nihility",
           "displayName": "Nihility",
           "from": [
+            "Nihility",
             "Warlock"
           ]
         },
@@ -119,6 +126,7 @@
           "id": "preservation",
           "displayName": "Preservation",
           "from": [
+            "Preservation",
             "Knight"
           ]
         },
@@ -126,6 +134,7 @@
           "id": "abundance",
           "displayName": "Abundance",
           "from": [
+            "Abundance",
             "Priest"
           ]
         },
@@ -133,6 +142,7 @@
           "id": "remembrance",
           "displayName": "Remembrance",
           "from": [
+            "Remembrance",
             "Memory"
           ]
         },

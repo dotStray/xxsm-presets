@@ -5,6 +5,8 @@ Everything here is a plain file that can be added from GitHub's website:
 - ``hashes/<Name>.txt`` — hashes in any form people paste: one per line, ``ib 1575ec63``,
   or whole ``[TextureOverride…]`` sections copied out of a mod's ``.ini``.
 - ``hashes/<Name>.json`` — a ``hash.json`` in the asset repositories' own format.
+- ``hashes/replace/<Name>.txt|.json`` — the same, but standing in for the hash repository's hashes
+  of that character entirely, for as long as the file is there: for when upstream's are wrong.
 - ``images/<Name>.png|.jpg|.jpeg|.webp`` — a portrait for a character the sources have no picture of.
   Once a source has one, the source's is used and this file is reported as no longer used: nothing to
   remember to delete (the user's choice, 2026-09-27).
@@ -82,6 +84,8 @@ class ManualCharacter:
 class Manual:
     hashes: dict[str, list[dict]] = field(default_factory=dict)  # name as written → entries (variant filled later)
     hash_sources: dict[str, str] = field(default_factory=dict)
+    replacements: dict[str, list[dict]] = field(default_factory=dict)  # hashes/replace/: instead of upstream's
+    replacement_sources: dict[str, str] = field(default_factory=dict)
     images: dict[str, pathlib.Path] = field(default_factory=dict)
     kept_images: set[str] = field(default_factory=set)  # names whose picture is in images/keep/: used whatever the source has
     game_icon: pathlib.Path | None = None
@@ -94,25 +98,8 @@ def read(folder: pathlib.Path) -> Manual:
     if not folder.is_dir():
         return manual
 
-    for path in sorted((folder / "hashes").glob("*")) if (folder / "hashes").is_dir() else []:
-        if not path.is_file() or path.name.startswith(".") or path.name.lower() == "readme.md":
-            continue
-        name = path.stem
-        text = path.read_bytes().decode("utf-8-sig", errors="replace")
-        if path.suffix.lower() == ".json":
-            try:
-                components = json.loads(text)
-            except json.JSONDecodeError as error:
-                manual.problems.append(f"manual/{folder.name}/hashes/{path.name}: not valid JSON ({error.msg}, line {error.lineno}).")
-                continue
-            found = upstream_entries("", components if isinstance(components, list) else [])
-        else:
-            found = parse_text(text)
-        if not found:
-            manual.problems.append(f"manual/{folder.name}/hashes/{path.name}: no hashes found in it.")
-            continue
-        manual.hashes.setdefault(name, []).extend(found)
-        manual.hash_sources[name] = f"manual/{folder.name}/hashes/{path.name}"
+    _read_hashes(folder, "hashes", manual.hashes, manual.hash_sources, manual.problems)
+    _read_hashes(folder, "hashes/replace", manual.replacements, manual.replacement_sources, manual.problems)
 
     for path in sorted((folder / "images").glob("*")) if (folder / "images").is_dir() else []:
         if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES:
@@ -147,6 +134,31 @@ def read(folder: pathlib.Path) -> Manual:
             )
         )
     return manual
+
+
+def _read_hashes(folder: pathlib.Path, where: str, into: dict, sources: dict, problems: list[str]) -> None:
+    for path in sorted((folder / where).glob("*")) if (folder / where).is_dir() else []:
+        if not path.is_file() or path.name.startswith(".") or path.name.lower() == "readme.md":
+            continue
+        if path.is_symlink():
+            problems.append(f"manual/{folder.name}/{where}/{path.name} is a link, and a link is not read. Put the file itself there.")
+            continue
+        name = path.stem
+        text = path.read_bytes().decode("utf-8-sig", errors="replace")
+        if path.suffix.lower() == ".json":
+            try:
+                components = json.loads(text)
+            except json.JSONDecodeError as error:
+                problems.append(f"manual/{folder.name}/{where}/{path.name}: not valid JSON ({error.msg}, line {error.lineno}).")
+                continue
+            found = upstream_entries("", components if isinstance(components, list) else [])
+        else:
+            found = parse_text(text)
+        if not found:
+            problems.append(f"manual/{folder.name}/{where}/{path.name}: no hashes found in it.")
+            continue
+        into.setdefault(name, []).extend(found)
+        sources[name] = f"manual/{folder.name}/{where}/{path.name}"
 
 
 def parse_text(text: str, *, texture_override_only: bool = False) -> list[dict]:

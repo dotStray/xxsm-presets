@@ -10,14 +10,16 @@
     "license": "GPL-3.0"
   },
   "roster": {
-    "source": "enka-zenless",
-    "url": "https://github.com/EnkaNetwork/API-docs",
-    "imagesUrl": "https://enka.network/ui/zzz/",
-    "credit": "[Enka.Network's public data](https://github.com/EnkaNetwork/API-docs)",
-    "license": "Read as enka.network's robots.txt allows; no licence stated"
+    "source": "gachabase-zenless",
+    "url": "https://zzz.gachabase.net",
+    "imagesUrl": "https://cdn.gachabase.net/zzz/assets/",
+    "betaListDecides": true,
+    "credit": "[gachabase](https://zzz.gachabase.net) (zzz.gachabase.net)",
+    "license": "Read as the site's robots.txt allows (it disallows nothing); no licence or terms stated"
   },
   "portraits": {
-    "crop": "none"
+    "crop": "none",
+    "frameScale": 2
   },
   "icon": {
     "googlePlay": "com.HoYoverse.Nap"
@@ -30,6 +32,7 @@
           "id": "physical",
           "displayName": "Physical",
           "from": [
+            "Physical",
             "Physics"
           ]
         },
@@ -51,6 +54,7 @@
           "id": "electric",
           "displayName": "Electric",
           "from": [
+            "Electric",
             "Elec"
           ]
         },
@@ -70,8 +74,9 @@
         },
         {
           "id": "lumen",
-          "displayName": "Lumen",
+          "displayName": "Lumiflux",
           "from": [
+            "Lumiflux",
             "Lumen"
           ]
         }
