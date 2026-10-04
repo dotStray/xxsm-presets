@@ -9,8 +9,7 @@ The rules (the user's, 2026-09-30 to 2026-10-02):
 
 - **gachabase for every game** (``gi.``, ``hsr.``, ``zzz.gachabase.net``): characters, outfits, their
   names and their pictures. Star Rail's were Project Yatta's until 2026-10-02, when the user moved them
-  to gachabase: it has pictures of unreleased characters, and Yatta's of those come, in the user's
-  words, from nanoka.cc, which this builder may not use.
+  to gachabase: it has pictures of unreleased characters.
 - **Released and unreleased alike.** gachabase lists the live game's characters and, separately,
   the beta's. Both are read; a character only the beta has is in the pack, waiting for hashes like
   any other, with nothing to mark it out.
@@ -19,8 +18,6 @@ The rules (the user's, 2026-09-30 to 2026-10-02):
 - **A character's page is read only when it changed.** Each list entry carries gachabase's checksums
   of the character's data, pictures and text; while those match the last run's, last run's outfits
   are used without asking. When a page cannot be read, what the last run found stays.
-
-``nanoka.cc`` is never used: its ``robots.txt`` refuses automated agents.
 """
 
 from __future__ import annotations

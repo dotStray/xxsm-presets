@@ -6,6 +6,7 @@
 - ``inference-report.md`` — every outfit's parent, the rule that decided it, and how sure.
 - ``collisions.md`` — hashes more than one character has.
 - ``manual.md`` — what each file in ``manual/`` did.
+- ``history.md`` — how many hashes come from older versions of upstream's files, and the folders upstream deleted.
 - ``blocked.md`` — only when a build was refused: why, in plain words.
 
 They are regenerated from scratch on every build, so they always describe the pack beside them.
@@ -90,6 +91,27 @@ def write(folder: pathlib.Path, game: str, assembly, variants: list[dict], hash_
     ]
     lines += [f"| `{h}` | {len(v)}: {', '.join(v)} |" for h, v in shared]
     write_text(folder / "collisions.md", "\n".join(lines) + "\n")
+
+    deleted = assembly.deleted_folders
+    lines = [
+        f"# {game}: hashes from older versions of upstream's files",
+        "",
+        f"{plural(assembly.older, 'hash', 'hashes')} in the pack {'is' if assembly.older == 1 else 'are'} no longer in upstream's "
+        "files: a game update replaced them, and mods made before it still use them. They come from upstream's history, "
+        f"kept in `upstream/{game}/history.json`.",
+        "",
+        f"Upstream deleted {plural(len(deleted), 'folder')}. Their hashes are kept in the history but not put in the pack, "
+        f"unless `formerFolders` in `overrides/{game}.json` gives them to a character."
+        if deleted
+        else "Upstream has not deleted any folder.",
+        "",
+        "| Folder | Deleted | Hashes | Given to |",
+        "|---|---|---|---|",
+    ]
+    lines += [f"| {path} | {record.deleted} | {len(record.entries)} | {target or '— left out'} |" for path, record, target in deleted]
+    if not deleted:
+        lines = lines[:-3]
+    write_text(folder / "history.md", "\n".join(lines) + "\n")
 
     lines = [f"# {game}: what manual/ added", ""]
     lines += [f"- {row}" for row in assembly.manual_rows] or ["Nothing: `manual/" + game + "/` is empty."]

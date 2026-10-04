@@ -23,6 +23,7 @@ OVERRIDE_KEYS = {
     "ignoredHashes",
     "retired",
     "allowShrink",
+    "formerFolders",
 }
 
 
@@ -37,6 +38,7 @@ class Overrides:
     ignored_hashes: list[str] = field(default_factory=list)
     retired: list[str] = field(default_factory=list)
     allow_shrink: list[str] = field(default_factory=list)
+    former_folders: dict[str, str] = field(default_factory=dict)  # a folder upstream deleted → who its hashes go to
 
 
 def load_config(path: pathlib.Path) -> dict:
@@ -93,4 +95,5 @@ def load_overrides(path: pathlib.Path) -> Overrides:
         ignored_hashes=[h.lower() for h in names("ignoredHashes")],
         retired=names("retired"),
         allow_shrink=names("allowShrink"),
+        former_folders=mapping("formerFolders"),
     )

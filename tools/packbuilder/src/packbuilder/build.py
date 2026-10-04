@@ -3,7 +3,8 @@
 Stages, each of which can fail on its own without taking the others down:
 
 1. **Roster** — refresh ``upstream/<game>/roster.json`` from the character list.
-2. **Hashes** — refresh ``upstream/<game>/hashes/`` from the asset repository.
+2. **Hashes** — refresh ``upstream/<game>/hashes/`` from the asset repository, and
+   ``upstream/<game>/history.json`` from its history.
 3. **Assemble** — join them, add ``manual/``, apply ``overrides/``.
 4. **Portraits** — fetch and shrink any picture not already in the pack.
 5. **Check** — validate, then compare with the published pack (:mod:`packbuilder.checks`).
@@ -24,7 +25,7 @@ import shutil
 import traceback
 from dataclasses import dataclass, field
 
-from packbuilder import BUILDER, assemble as assembler, checks, hashes, images, manual, reports, roster
+from packbuilder import BUILDER, assemble as assembler, checks, hashes, history, images, manual, reports, roster
 from packbuilder.files import BuildError, Repo, dumps, read_json, swap_in, write_bytes, write_json, write_text
 from packbuilder.http import Fetcher, FetchError
 from packbuilder.settings import load_config, load_overrides
@@ -127,11 +128,23 @@ def _build(repo, game, fetcher, refresh_roster, refresh_hashes, today, known_ver
     folders, lock = hashes.load(hash_dir)
     if not folders:
         raise BuildError(f"There is no copy of {hash_config['repo']} for {game} yet, and it could not be fetched.")
+    history_path = upstream / "history.json"
+    if fetcher is not None and refresh_hashes:
+        try:
+            history.update(
+                f"https://github.com/{hash_config['repo']}.git",
+                hash_config.get("folder", "PlayerCharacterData"),
+                history_path,
+                fetcher.cache / "history" / game,
+            )
+        except FetchError as error:
+            result.warnings.append(f"Older hashes not refreshed ({error}); used the copy from the last run.")
+    older = history.load(history_path)
 
     # 3. Assemble.
     ledger = (read_json(repo.ledger(game), {}) or {}).get("names", {})
     hand = manual.read(repo.manual(game))
-    assembly = assembler.assemble(config, overrides, characters, folders, ledger, hand)
+    assembly = assembler.assemble(config, overrides, characters, folders, ledger, hand, older)
     result.warnings.extend(assembly.notes)
     if assembly.errors:
         result.errors.extend(assembly.errors)

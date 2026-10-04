@@ -18,7 +18,10 @@ The two stages meet here and nowhere else. The rules, in order:
    starts with, or a character of its own. Every such guess goes into the inference report,
    and a guess the builder is not sure of stops the build until ``overrides/<game>.json`` says
    what it is.
-6. **``manual/`` is added last.** Hand-added hashes are kept beside upstream's, duplicates
+6. **Every hash a folder has ever had** goes with it (``upstream/<game>/history.json``, the user's
+   ruling, 2026-10-04), after today's. A folder upstream deleted gives its hashes to a character
+   only through ``formerFolders`` in the overrides.
+7. **``manual/`` is added last.** Hand-added hashes are kept beside upstream's, duplicates
    removed (the user's ruling, 2026-09-25); a file in ``hashes/replace/`` stands in for
    upstream's hashes of its character entirely (their ruling, 2026-10-02).
 """
@@ -28,6 +31,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from packbuilder.hashes import Folder, entries as folder_entries
+from packbuilder.history import Record, key as history_key
 from packbuilder.manual import Manual
 from packbuilder.names import ascii_words, is_valid_id, join_key, pascal, split_camel
 from packbuilder.roster import Character, LeftOut
@@ -76,6 +80,8 @@ class Assembly:
     manual_rows: list[str] = field(default_factory=list)
     left_out: list[LeftOut] = field(default_factory=list)
     replaced: list[str] = field(default_factory=list)  # variants whose hashes manual/…/hashes/replace/ gave
+    older: int = 0  # hash entries from older versions of upstream's files
+    deleted_folders: list[tuple[str, Record, str | None]] = field(default_factory=list)  # path, history, who got its hashes
 
 
 class _Names:
@@ -99,8 +105,17 @@ class _Names:
         return candidate
 
 
-def assemble(config: dict, overrides: Overrides, roster: list[Character], folders: list[Folder], ledger: dict[str, str], manual: Manual) -> Assembly:
+def assemble(
+    config: dict,
+    overrides: Overrides,
+    roster: list[Character],
+    folders: list[Folder],
+    ledger: dict[str, str],
+    manual: Manual,
+    history: dict[str, Record] | None = None,
+) -> Assembly:
     errors: list[str] = []
+    history = history or {}
     notes: list[str] = []
     names = _Names()
     ledger = dict(ledger)
@@ -374,7 +389,17 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
         if variant.origin == "roster outfit":
             inferences.append(Inference(variant.name, variant.parent, "the character list names it as an outfit", HIGH))
 
-    # ---- 4. Hashes from the folders. ------------------------------------------------------------
+    # ---- 4. Hashes from the folders, today's and then every older one. --------------------------
+    from_history: set[tuple] = set()  # (variant, hash key) of every entry only an older file had
+
+    def add_older(variant: Variant, record: Record | None, seen: set) -> None:
+        for entry in record.to_json()["entries"] if record else []:
+            if history_key(entry) not in seen:
+                seen.add(history_key(entry))
+                kept = {k: entry[k] for k in ("component", "kind", "hash", "textureKind", "slot") if k in entry}
+                variant.hashes.append({"variant": variant.name, **kept})
+                from_history.add((variant.name, history_key(entry)))
+
     for variant in names.by_key.values():
         if variant.folder:
             variant.hashes = folder_entries(variant.name, variant.folder.components)
@@ -385,6 +410,25 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
                 if key not in seen:
                     seen.add(key)
                     variant.hashes.append(entry)
+        for source in ([variant.folder] if variant.folder else []) + parts.get(variant.name, []):
+            add_older(variant, history.get(source.path), seen)
+
+    deleted_folders: list[tuple[str, Record, str | None]] = []
+    for path, target in overrides.former_folders.items():
+        record = history.get(path)
+        if record is None:
+            errors.append(f"overrides \"formerFolders\" names '{path}', and upstream's history has no folder by that path.")
+        elif not record.deleted:
+            notes.append(f"overrides \"formerFolders\" names '{path}', which upstream has again; its hashes go with it as usual, and the entry can go.")
+        elif names.get(target) is None:
+            errors.append(f"overrides \"formerFolders\" gives '{path}' to '{target}', and there is no such character.")
+        else:
+            variant = names.get(target)
+            add_older(variant, record, {(e["kind"], e["hash"], e.get("textureKind"), e.get("slot")) for e in variant.hashes})
+    for path, record in sorted(history.items(), key=lambda item: item[0].lower()):
+        if record.deleted:
+            target = overrides.former_folders.get(path)
+            deleted_folders.append((path, record, names.get(target).name if target and names.get(target) else None))
 
     # ---- 5. manual/. ------------------------------------------------------------------------------
     manual_rows: list[str] = []
@@ -517,6 +561,8 @@ def assemble(config: dict, overrides: Overrides, roster: list[Character], folder
         manual_rows=manual_rows,
         left_out=left_out,
         replaced=replaced,
+        older=sum(1 for v in variants if v.name not in replaced for e in v.hashes if (v.name, history_key(e)) in from_history),
+        deleted_folders=deleted_folders,
     )
 
 
