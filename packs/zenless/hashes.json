@@ -828,6 +828,84 @@
       "slot": 0
     },
     {
+      "variant": "Anby",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "19226ead",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anby",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "19226ead",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Anby",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "20890a00",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anby",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "2899edd0",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anby",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "7c24acc9",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anby",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "7c24acc9",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Anby",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "b37c3b4e",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Anby",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "b37c3b4e",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Anby",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "b54f2a3d",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anby",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "39538886"
+    },
+    {
       "variant": "Anton",
       "component": "Hair",
       "kind": "ib",
@@ -1043,6 +1121,70 @@
       "kind": "texture",
       "hash": "842119d6",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "0238b0ff",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "17cf1b74",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "1b4ad5b7",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "24caeb1f",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Jacket",
+      "kind": "texture",
+      "hash": "886a664a",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "b216f758",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Jacket",
+      "kind": "texture",
+      "hash": "d7517d0e",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Anton",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "ee06579e",
+      "textureKind": "LightMap",
       "slot": 0
     },
     {
@@ -1938,6 +2080,24 @@
       "slot": 0
     },
     {
+      "variant": "AriaKfc",
+      "component": "Face",
+      "kind": "draw_vb",
+      "hash": "fc43d4db"
+    },
+    {
+      "variant": "AriaKfc",
+      "component": "Face",
+      "kind": "position_vb",
+      "hash": "c651479c"
+    },
+    {
+      "variant": "AriaKfc",
+      "component": "Face",
+      "kind": "texcoord_vb",
+      "hash": "c493b91c"
+    },
+    {
       "variant": "AriaRobot",
       "component": "Hair",
       "kind": "ib",
@@ -2669,6 +2829,112 @@
       "kind": "texture",
       "hash": "883a578f",
       "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Astra",
+      "component": "Torso",
+      "kind": "blend_vb",
+      "hash": "3cd13d03"
+    },
+    {
+      "variant": "Astra",
+      "component": "Legs",
+      "kind": "texcoord_vb",
+      "hash": "da86a32e"
+    },
+    {
+      "variant": "Astra",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "f8b92870"
+    },
+    {
+      "variant": "Astra",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "34aad3b4",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Astra",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "34aad3b4",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Astra",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3a8d0dfc",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Astra",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "b53b2e12",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Astra",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "b53b2e12",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Astra",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "da673df0",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Astra",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "da673df0",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Astra",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "2daa2443",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Astra",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "2daa2443",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Astra",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "b085765e",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Astra",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "b085765e",
+      "textureKind": "LightMap",
       "slot": 1
     },
     {
@@ -3640,6 +3906,126 @@
       "hash": "34bdb036",
       "textureKind": "MaterialMap",
       "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "cc32660c"
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "d7ca821f"
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "142ddbbc"
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "ac1c8f80"
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "1817f3ca"
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "bea4a483"
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "a9673001"
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "d2844c01"
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "11e38ebb"
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "caf95576"
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "24c47ca5",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "89b147ff",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "bf286c84",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "d2960560",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "f04f7ab9",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "f1ee2105",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "c92a17d8"
+    },
+    {
+      "variant": "Belle",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "801edbf4"
     },
     {
       "variant": "BelleBrilliance",
@@ -5122,6 +5508,102 @@
       "slot": 0
     },
     {
+      "variant": "BelleSunlight",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "39ac6700"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Neck",
+      "kind": "blend_vb",
+      "hash": "3bd79a0b"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "BackRibbon",
+      "kind": "blend_vb",
+      "hash": "83967fb0"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Hairpin",
+      "kind": "blend_vb",
+      "hash": "db7add33"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "f3dedb50"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Legs",
+      "kind": "blend_vb",
+      "hash": "f53b2eba"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Neck",
+      "kind": "draw_vb",
+      "hash": "4c215c73"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Neck",
+      "kind": "ib",
+      "hash": "62ed56cc"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Earring",
+      "kind": "ib",
+      "hash": "c0fcc53d"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "BackRibbon",
+      "kind": "ib",
+      "hash": "c2189ddf"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "BackRibbon",
+      "kind": "position_vb",
+      "hash": "903e5a55"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Neck",
+      "kind": "position_vb",
+      "hash": "be75a4be"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Earring",
+      "kind": "position_vb",
+      "hash": "fc4bea64"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "BackRibbon",
+      "kind": "texcoord_vb",
+      "hash": "751107c4"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Neck",
+      "kind": "texcoord_vb",
+      "hash": "dd2b89aa"
+    },
+    {
+      "variant": "BelleSunlight",
+      "component": "Earring",
+      "kind": "texcoord_vb",
+      "hash": "dde5eb66"
+    },
+    {
       "variant": "Ben",
       "component": "Body",
       "kind": "ib",
@@ -5225,6 +5707,84 @@
       "kind": "texture",
       "hash": "12e5120e",
       "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "18d26bd2"
+    },
+    {
+      "variant": "Ben",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "a2f79d33"
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "7e77201a"
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "4465b35d"
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "893553e3"
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "0bbceea0",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ben",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "1b79fa5c",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ben",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "3f4f6bc0",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "894ea737",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ben",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "cb84ed5e",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ben",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "cc195dc5",
+      "textureKind": "LightMap",
       "slot": 0
     },
     {
@@ -5430,6 +5990,70 @@
       "component": "Face",
       "kind": "texture",
       "hash": "3a7d88a1",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Billy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "0475db07",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Billy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "47bbe297",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Billy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4817b1bc",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Billy",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "56b5953e",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Billy",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "56b5953e",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Billy",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "789b054e",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Billy",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "789b054e",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Billy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "eeeb15f9",
       "textureKind": "MaterialMap",
       "slot": 0
     },
@@ -6100,6 +6724,62 @@
       "slot": 2
     },
     {
+      "variant": "Burnice",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "0f2c69e2",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Burnice",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "438cf629",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Burnice",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "438cf629",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Burnice",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "438cf629",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Burnice",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "e338bb82",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Burnice",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "e338bb82",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Burnice",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "e338bb82",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
       "variant": "Caesar",
       "component": "Hair",
       "kind": "ib",
@@ -6247,6 +6927,66 @@
       "kind": "texture",
       "hash": "13098244",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Caesar",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "3b2a70a5"
+    },
+    {
+      "variant": "Caesar",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "af291513"
+    },
+    {
+      "variant": "Caesar",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "10af3807",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Caesar",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "bf19954f",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Caesar",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c1f1e12f",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Caesar",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "13098244",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Caesar",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "20955a67",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Caesar",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "f1c6c309",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -7248,6 +7988,66 @@
       "slot": 0
     },
     {
+      "variant": "Corin",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "8d999156"
+    },
+    {
+      "variant": "Corin",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "2cf242f4"
+    },
+    {
+      "variant": "Corin",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "23b4c60d",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Corin",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "289f4c58",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Corin",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4a68ef99",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Corin",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "50a0faea",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Corin",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "75e05cdc",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Corin",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "929aca42",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
       "variant": "Dialyn",
       "component": "Hair",
       "kind": "ib",
@@ -7512,6 +8312,12 @@
       "slot": 0
     },
     {
+      "variant": "Dialyn",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "6ff0e4ad"
+    },
+    {
       "variant": "Ellen",
       "component": "Hair",
       "kind": "ib",
@@ -7659,6 +8465,124 @@
       "kind": "texture",
       "hash": "465a66eb",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "2f9df031"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "4f4a54f0"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "7bd3f8c2"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "d59a5fec"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "7f89a2b3"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "a72cfb34"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "89d5fba4"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "a5448398"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "26966844"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "9cddb082"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "798c3a51",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "aaadca31",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "cf5f5fed",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "52188576"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "89589539"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "5c33833e"
+    },
+    {
+      "variant": "Ellen",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "5c622251",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ellen",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "ec2b9e1c",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -8444,6 +9368,130 @@
       "slot": 0
     },
     {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "50837a5c"
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "e5e04f6f"
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "0f82a13e"
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "26ffa186"
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "e536af35"
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "06cb1413",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "08082f5f",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "1e794b69",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "210b3ebf",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "3a38f6f9",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "3a38f6f9",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "846fab9a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "846fab9a",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "8eddd041",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "8eddd041",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Grace",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "993fe3e1",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Grace",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "d21f32ad"
+    },
+    {
       "variant": "Harumasa",
       "component": "Hair",
       "kind": "ib",
@@ -8727,6 +9775,214 @@
       "kind": "texture",
       "hash": "38b0417f",
       "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "blend_vb",
+      "hash": "230371c1"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "52787e7d"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "draw_vb",
+      "hash": "cafffd37"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "fa851c10"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "ib",
+      "hash": "78bea30d"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "f51a89c1"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "position_vb",
+      "hash": "3fa41462"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "f5727f53"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "texcoord_vb",
+      "hash": "8c561c8c"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "9879fba3"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "2a90d0c3",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "texture",
+      "hash": "2dd81954",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "46d9c681",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "50e77d0b",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "texture",
+      "hash": "56db869e",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "81c16e31",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "a23bf5dc",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "ba8e396b",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Torso",
+      "kind": "texture",
+      "hash": "cd1e0187",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "d4838b9d",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "c0b32d17"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "95ee1030"
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Player",
+      "kind": "texture",
+      "hash": "53c37792",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Player",
+      "kind": "texture",
+      "hash": "9d2c6764",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "a2b9aad7",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Player",
+      "kind": "texture",
+      "hash": "b321eb39",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "ba52ac92",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c50472c0",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Harumasa",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "faad8e2c",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -9330,6 +10586,150 @@
       "slot": 0
     },
     {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "0a10c747"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "9727a184"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "5721e4e7"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "d1aa4b85"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "7b16a708"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "e2c0144e"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "06f9bc49"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "24323bf9"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "8b85c03e"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "c8ad344e"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "0165f71c",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4aa12b36",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4aa12b36",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "257a90d6"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "8721477f"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "2d06e785"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "9268a5af"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "e7a3b7dc"
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "acec29f8"
+    },
+    {
+      "variant": "Jane",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "3b39827b",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "bd556e7a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Jane",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "bd556e7a",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
       "variant": "JaneSummer",
       "component": "Hair",
       "kind": "ib",
@@ -9924,6 +11324,66 @@
       "slot": 0
     },
     {
+      "variant": "Koleda",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "1a9b182a"
+    },
+    {
+      "variant": "Koleda",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "e3021a32"
+    },
+    {
+      "variant": "Koleda",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "6f34885f",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Koleda",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "78e0f9f5",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Koleda",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "8042506d",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Koleda",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "d1aac666",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Koleda",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "e71d134f",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Koleda",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "eeeb15f9",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
       "variant": "Lighter",
       "component": "Hair",
       "kind": "ib",
@@ -10171,6 +11631,70 @@
       "kind": "texture",
       "hash": "94aebd7e",
       "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lighter",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "0baec6b7"
+    },
+    {
+      "variant": "Lighter",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "5e461440"
+    },
+    {
+      "variant": "Lighter",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "25ad7289"
+    },
+    {
+      "variant": "Lighter",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "710bca71"
+    },
+    {
+      "variant": "Lighter",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "192dda90",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lighter",
+      "component": "Glasses",
+      "kind": "texture",
+      "hash": "192dda90",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lighter",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "8185d650",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lighter",
+      "component": "Head",
+      "kind": "texture",
+      "hash": "d9a12c0a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lighter",
+      "component": "Sunglasses",
+      "kind": "texture",
+      "hash": "d9a12c0a",
+      "textureKind": "NormalMap",
       "slot": 1
     },
     {
@@ -10978,6 +12502,144 @@
       "slot": 0
     },
     {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "5315f036"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "b94b02e8"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "198e99d7"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "e0ad50ed"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "5da9dafc"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "00f11ea6"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "751e21a5"
+    },
+    {
+      "variant": "Lucy",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "463b4f55",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "919b608c",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "aa513afa",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Helmet",
+      "kind": "texture",
+      "hash": "b3013a33",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Helmet",
+      "kind": "texture",
+      "hash": "ca5fd23a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "edcb9661",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e2d5baa",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Lucy",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e2d5baa",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Lucy",
+      "component": "Helmet",
+      "kind": "texture",
+      "hash": "b9aaa736",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "bf45c1f3",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lucy",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "bf45c1f3",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lucy",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "e02568b6",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "LucySummer",
       "component": "Hair",
       "kind": "ib",
@@ -11548,6 +13210,152 @@
       "component": "Face",
       "kind": "texture",
       "hash": "7077ebb1",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "a485180e"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "2a340ed5"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "25196b7a"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "b68056b4"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "395572dc"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "949e688a"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "072e6786",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "3d6eb388",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "4a4ea6dc",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "565aa8be",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "5817e801",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "72f53876",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c8fd1702",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "7341e07b"
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "04d061fe",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "814db5bf",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "8c1076d2",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "9ad1782a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "9f43209f",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lycaon",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "d14f3284",
       "textureKind": "Diffuse",
       "slot": 0
     },
@@ -12438,6 +14246,30 @@
       "slot": 0
     },
     {
+      "variant": "Miyabi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4e91d830",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Miyabi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4e91d830",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Miyabi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "f218beff",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "MiyabiBlossom",
       "component": "Hair",
       "kind": "ib",
@@ -12692,6 +14524,12 @@
       "hash": "1d487fd5",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "MiyabiBlossom",
+      "component": "Legs",
+      "kind": "blend_vb",
+      "hash": "f2f19cb2"
     },
     {
       "variant": "NangongYu",
@@ -14048,6 +15886,140 @@
       "slot": 0
     },
     {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "d73bc96f"
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "2c317dda"
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Swords",
+      "kind": "position_vb",
+      "hash": "6abb714e"
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Swords",
+      "kind": "texcoord_vb",
+      "hash": "70f4875e"
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "b5a4c084"
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4ca5efc6",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "548c7f7d",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "799eb07d",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "d3f67c0d",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "d3f67c0d",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "ecaef71c",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "ecaef71c",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "f26828bd",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "f26828bd",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "fc53fc6f",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "fc53fc6f",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "b3286755",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nekomata",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "fc53fc6f",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
       "variant": "Nicole",
       "component": "Hair",
       "kind": "ib",
@@ -14302,6 +16274,124 @@
       "hash": "d1e84a34",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "347e4a48"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "7ecda89f"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "8cc1262b"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "f6344432"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "5a4c1ef3"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "6847bbbd"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "199853eb"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "89df5a07"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "06e4fd79"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Bangboo",
+      "kind": "texcoord_vb",
+      "hash": "077c3500"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "91c1b779"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "1dfd9e16",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "239d5744",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "8cf23419",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nicole",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "8cf23419",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nicole",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "bffb4a66",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nicole",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "7435fc0e"
+    },
+    {
+      "variant": "Nicole",
+      "component": "Face",
+      "kind": "texcoord_vb",
+      "hash": "5714e5e6"
     },
     {
       "variant": "NicoleCutie",
@@ -14594,6 +16684,18 @@
       "hash": "d1e84a34",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "NicoleCutie",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "7435fc0e"
+    },
+    {
+      "variant": "NicoleCutie",
+      "component": "Amillion",
+      "kind": "texcoord_vb",
+      "hash": "077c3500"
     },
     {
       "variant": "Norma",
@@ -16218,6 +18320,106 @@
       "slot": 0
     },
     {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "764276de"
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "b2f3e6aa"
+    },
+    {
+      "variant": "Piper",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "8b6b17f8"
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "a0d146b3"
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "51f1ec36",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Piper",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "79953d32",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Piper",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "7ca957d8",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "9cc2aaa0",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "b4b74e7e",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Piper",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "fd1b9c29"
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "a011f94e"
+    },
+    {
+      "variant": "Piper",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "17d6e212",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Piper",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3b2eb1d9",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Piper",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "593a5947",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "Promeia",
       "component": "Hair",
       "kind": "ib",
@@ -16628,6 +18830,246 @@
       "hash": "9b293811",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Promeia",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "5a263750"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Face",
+      "kind": "blend_vb",
+      "hash": "5ff41c34"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "blend_vb",
+      "hash": "61c399b6"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "blend_vb",
+      "hash": "870f56b5"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "blend_vb",
+      "hash": "fd3c3d9f"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "ib",
+      "hash": "21871660"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "5ea47a32"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "ib",
+      "hash": "68f34958"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "6cca89ab"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "ib",
+      "hash": "a633d5b7"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Eyebrows",
+      "kind": "ib",
+      "hash": "cb9d17fc"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "35096cb6"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "position_vb",
+      "hash": "595bd76e"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "position_vb",
+      "hash": "a7769c93"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "position_vb",
+      "hash": "d43597aa"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "texcoord_vb",
+      "hash": "2918714e"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "9c0aad96"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "texcoord_vb",
+      "hash": "9f083955"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "texcoord_vb",
+      "hash": "bfcfb2f7"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "texture",
+      "hash": "31d7cbad",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "texture",
+      "hash": "b9367016",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "texture",
+      "hash": "d743acd0",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "blend_vb",
+      "hash": "58f42be3"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "blend_vb",
+      "hash": "9839b071"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "blend_vb",
+      "hash": "dae4abd0"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "draw_vb",
+      "hash": "19ad87f6"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "ib",
+      "hash": "36e794ea"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "ib",
+      "hash": "93f1f568"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "ib",
+      "hash": "fd054d1d"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "position_vb",
+      "hash": "0b822797"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "position_vb",
+      "hash": "1d63183b"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "position_vb",
+      "hash": "ffaa183a"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Torso",
+      "kind": "texcoord_vb",
+      "hash": "2a9842a1"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Coat",
+      "kind": "texcoord_vb",
+      "hash": "826446a7"
+    },
+    {
+      "variant": "Promeia",
+      "component": "Legs",
+      "kind": "texcoord_vb",
+      "hash": "f5fd0e92"
+    },
+    {
+      "variant": "Promeia",
+      "component": "NoCoatTorso",
+      "kind": "blend_vb",
+      "hash": "575d8b1b"
+    },
+    {
+      "variant": "Promeia",
+      "component": "NoCoatTorso",
+      "kind": "ib",
+      "hash": "62a6b4bd"
+    },
+    {
+      "variant": "Promeia",
+      "component": "NoCoatTorso",
+      "kind": "position_vb",
+      "hash": "bf938187"
+    },
+    {
+      "variant": "Promeia",
+      "component": "NoCoatTorso",
+      "kind": "texcoord_vb",
+      "hash": "d99d21e0"
     },
     {
       "variant": "Pulchra",
@@ -17362,6 +19804,160 @@
       "slot": 0
     },
     {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "0287b8fb"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "d196bd5c"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "6a52010a"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "b1f382cd"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "33f6d1f2"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "d915de65"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "b6e5374d"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "dd421c3a"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "00487185"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "dae0117f"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "08f7d19b",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "2be10855",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "434471a2",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "603e2806",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "8a2ea47b",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "9c8c98d1",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "b4841a39",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "d1bd8250",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "0643440c"
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "2910fbd0",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "2910fbd0",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Qingyi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "542c6b04",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "Remielle",
       "component": "Hair",
       "kind": "ib",
@@ -17736,6 +20332,36 @@
       "hash": "baf9e1be",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Remielle",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "9e8a27ae"
+    },
+    {
+      "variant": "Remielle",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "7a92a10a"
+    },
+    {
+      "variant": "Remielle",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "785b21f5"
+    },
+    {
+      "variant": "Remielle",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "679a1bd8"
+    },
+    {
+      "variant": "Remielle",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "9e33a8b6"
     },
     {
       "variant": "RemielleMoonlight",
@@ -18214,6 +20840,162 @@
       "slot": 0
     },
     {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "7f6fe876"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "blend_vb",
+      "hash": "ff05e5f9"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "22ec622c"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "draw_vb",
+      "hash": "96dc0a8e"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "ib",
+      "hash": "09a51ed3"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "f57f3e40"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "554d46cf"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "position_vb",
+      "hash": "fa9635bc"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "5dcc6ee1"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texcoord_vb",
+      "hash": "7c0db158"
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "0e408177",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "0e408177",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "3b0c9e0a",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "3b0c9e0a",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "6102ae18",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "6102ae18",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "877b0ce6",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "877b0ce6",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "baeb2662",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Legs",
+      "kind": "texture",
+      "hash": "baeb2662",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "cccb8109",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "RemielleMoonlight",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "cccb8109",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
       "variant": "RemielleSummer",
       "component": "Hair",
       "kind": "ib",
@@ -18622,6 +21404,36 @@
       "slot": 0
     },
     {
+      "variant": "RemielleSummer",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "9bca83d8"
+    },
+    {
+      "variant": "RemielleSummer",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "48288582"
+    },
+    {
+      "variant": "RemielleSummer",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "241deac5"
+    },
+    {
+      "variant": "RemielleSummer",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "13c77c3a"
+    },
+    {
+      "variant": "RemielleSummer",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "c55c57ce"
+    },
+    {
       "variant": "Rina",
       "component": "Hair",
       "kind": "ib",
@@ -18769,6 +21581,22 @@
       "kind": "texture",
       "hash": "802a3281",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Rina",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "83ac7993",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Rina",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "97637a8f",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -19237,6 +22065,54 @@
       "kind": "texture",
       "hash": "09981aff",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Seth",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "3376b58c",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Seth",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "3d97c2ef",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Seth",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "d4de9ec1",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Seth",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "dde45d3d",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Seth",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "624d54ac",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Seth",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "f51be622",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -19888,6 +22764,36 @@
       "slot": 0
     },
     {
+      "variant": "Sigrid",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "8c0622d7"
+    },
+    {
+      "variant": "Sigrid",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "01b35c45"
+    },
+    {
+      "variant": "Sigrid",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "a23aa8a3"
+    },
+    {
+      "variant": "Sigrid",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "08c15b45"
+    },
+    {
+      "variant": "Sigrid",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "f6474154"
+    },
+    {
       "variant": "SigridSummer",
       "component": "Hair",
       "kind": "ib",
@@ -20514,6 +23420,28 @@
       "slot": 0
     },
     {
+      "variant": "Soldier0",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "f2f539b8"
+    },
+    {
+      "variant": "Soldier0",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "464847b3",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier0",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "464847b3",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
       "variant": "Soldier11",
       "component": "Hair",
       "kind": "ib",
@@ -20726,6 +23654,102 @@
       "hash": "67821d9d",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "2f88092e",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "2f88092e",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "2f88092e",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "68d9644a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "77ed00ad",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "787659b9",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "81db8cbe",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "81db8cbe",
+      "textureKind": "MaterialMap",
+      "slot": 1
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "81db8cbe",
+      "textureKind": "MaterialMap",
+      "slot": 2
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c94bb3d6",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c94bb3d6",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Soldier11",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c94bb3d6",
+      "textureKind": "NormalMap",
+      "slot": 2
     },
     {
       "variant": "Soukaku",
@@ -20943,6 +23967,30 @@
       "kind": "texture",
       "hash": "427b39a4",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Soukaku",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "04654e94",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soukaku",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "363e3d70",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Soukaku",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "8498ee4d",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -21826,6 +24874,90 @@
       "slot": 0
     },
     {
+      "variant": "SunnaMaid",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "79de92c7"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "22c82346"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "6cc4d486"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "327644ee"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "c77b3235"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "0c6b95ca"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "5e70dde6"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Face",
+      "kind": "draw_vb",
+      "hash": "9679c257"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Eyebrows",
+      "kind": "draw_vb",
+      "hash": "9f0ab8cd"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Eyebrows",
+      "kind": "position_vb",
+      "hash": "a5182b8a"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Face",
+      "kind": "position_vb",
+      "hash": "ac6b5110"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Eyebrows",
+      "kind": "root_vs",
+      "hash": "9684c4091fc9e35a"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Face",
+      "kind": "texcoord_vb",
+      "hash": "506dc9e1"
+    },
+    {
+      "variant": "SunnaMaid",
+      "component": "Eyebrows",
+      "kind": "texcoord_vb",
+      "hash": "e3cc1981"
+    },
+    {
       "variant": "Trigger",
       "component": "Hair",
       "kind": "ib",
@@ -21973,6 +25105,14 @@
       "kind": "texture",
       "hash": "88728785",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Trigger",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "36f39b49",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -22350,6 +25490,18 @@
       "hash": "93ce2562",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Velina",
+      "component": "Face",
+      "kind": "blend_vb",
+      "hash": "98ecf569"
+    },
+    {
+      "variant": "Velina",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "6cfb2498"
     },
     {
       "variant": "VelinaLeisure",
@@ -22790,6 +25942,18 @@
       "hash": "93ce2562",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "VelinaLeisure",
+      "component": "Face",
+      "kind": "blend_vb",
+      "hash": "98ecf569"
+    },
+    {
+      "variant": "VelinaLeisure",
+      "component": "Face",
+      "kind": "ib",
+      "hash": "6cfb2498"
     },
     {
       "variant": "Vivian",
@@ -23644,6 +26808,132 @@
       "slot": 0
     },
     {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "1273c7b0"
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "1d55bd87"
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "73c48816"
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "ba59bf09"
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "054ea752"
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "f6cac296"
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "6235fa7f"
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "9581de22"
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "a012c752"
+    },
+    {
+      "variant": "Wise",
+      "component": "Bag",
+      "kind": "texcoord_vb",
+      "hash": "cb22cb95"
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "fe89498c"
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "1f21c633",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "3b4f22ad",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "473f816d",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "84529dab",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "f43c8025",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "46462bd8"
+    },
+    {
+      "variant": "Wise",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "edfd1666"
+    },
+    {
+      "variant": "Wise",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "868709f2",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
       "variant": "WiseCrane",
       "component": "Hair",
       "kind": "ib",
@@ -23932,6 +27222,32 @@
       "component": "Face",
       "kind": "texture",
       "hash": "5d75fddc",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "WiseCrane",
+      "component": "Neck",
+      "kind": "blend_vb",
+      "hash": "458bbde3"
+    },
+    {
+      "variant": "WiseCrane",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "8612559a"
+    },
+    {
+      "variant": "WiseCrane",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "edfd1666"
+    },
+    {
+      "variant": "WiseCrane",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "81406abe",
       "textureKind": "Diffuse",
       "slot": 0
     },
@@ -24731,6 +28047,50 @@
       "kind": "texture",
       "hash": "95d9e92e",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Yanagi",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "fd363c76"
+    },
+    {
+      "variant": "Yanagi",
+      "component": "Glasses",
+      "kind": "ib",
+      "hash": "2e92fc77"
+    },
+    {
+      "variant": "Yanagi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "08933e28",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yanagi",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "95d9e92e",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Yanagi",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "9ea4f898",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yanagi",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "ccf55de4",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -27092,6 +30452,36 @@
       "slot": 0
     },
     {
+      "variant": "Yixuan",
+      "component": "Bottle",
+      "kind": "blend_vb",
+      "hash": "55638d51"
+    },
+    {
+      "variant": "Yixuan",
+      "component": "Bottle",
+      "kind": "draw_vb",
+      "hash": "d000beae"
+    },
+    {
+      "variant": "Yixuan",
+      "component": "Bottle",
+      "kind": "ib",
+      "hash": "0219df6e"
+    },
+    {
+      "variant": "Yixuan",
+      "component": "Bottle",
+      "kind": "position_vb",
+      "hash": "d0ff2c18"
+    },
+    {
+      "variant": "Yixuan",
+      "component": "Bottle",
+      "kind": "texcoord_vb",
+      "hash": "f05da93a"
+    },
+    {
       "variant": "YixuanTrailsOfInk",
       "component": "Hair",
       "kind": "ib",
@@ -28753,6 +32143,132 @@
       "kind": "texture",
       "hash": "a1eabb9f",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "5e942526"
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "a4aeb1d5"
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "f3569f8d"
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "160872c0"
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "13a38449",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "4ac1defe",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "a396c53a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "b4e20235",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "c88e7660",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "ShoulderAmmo",
+      "kind": "texture",
+      "hash": "fb35b7e9",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Extras",
+      "kind": "texture",
+      "hash": "fb35b7e9",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "fdc045fc"
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "10415de8",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "3ef82f41",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "7195a311",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "80ebf536",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "ZhuYuan",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "d81fb56e",
+      "textureKind": "NormalMap",
       "slot": 0
     }
   ]

@@ -1,6 +1,6 @@
 # zenless: hashes more than one character has
 
-304 hashes are shared (the ignored shader hashes are left out). Most are an outfit sharing its base character's parts, which is expected.
+310 hashes are shared (the ignored shader hashes are left out). Most are an outfit sharing its base character's parts, which is expected.
 
 | Hash | Characters |
 |---|---|
@@ -103,6 +103,7 @@
 | `05d7b504` | 2: Anby, Soldier0 |
 | `068aba7f` | 2: Lucy, LucySummer |
 | `06e29dd2` | 2: YeShunguang, YeShunguangDawnlight |
+| `077c3500` | 2: Nicole, NicoleCutie |
 | `07920753` | 2: Belle, BelleSummer |
 | `086ac064` | 2: Yixuan, YixuanTrailsOfInk |
 | `0932100e` | 2: Manato, ManatoWhite |
@@ -176,6 +177,7 @@
 | `6ab572d9` | 2: NangongYu, NangongYuKfc |
 | `6b1c911c` | 2: Sigrid, SigridSummer |
 | `6c04b56d` | 2: Sunna, SunnaKfc |
+| `6cfb2498` | 2: Velina, VelinaLeisure |
 | `6d1343ec` | 2: Manato, ManatoWhite |
 | `6e583c52` | 2: Belle, BelleSummer |
 | `6ed0c951` | 2: YeShunguang, YeShunguangDawnlight |
@@ -183,6 +185,7 @@
 | `710b43f7` | 2: Sigrid, SigridSummer |
 | `71d2bf80` | 2: Belle, BelleSunlight |
 | `71fabd1a` | 2: AriaRobot, AriaRobotDiscordant |
+| `7435fc0e` | 2: Nicole, NicoleCutie |
 | `74bc0b7f` | 2: Jane, JaneSummer |
 | `76fe8eed` | 2: Velina, VelinaLeisure |
 | `7947679c` | 2: Belle, BelleSummer |
@@ -218,6 +221,7 @@
 | `93b02078` | 2: Nicole, NicoleCutie |
 | `93ce2562` | 2: Velina, VelinaLeisure |
 | `96280008` | 2: PanYinhu, PanYinhuJewel |
+| `98ecf569` | 2: Velina, VelinaLeisure |
 | `999bff94` | 2: YeShunguang, YeShunguangDawnlight |
 | `9a2dfc61` | 2: YeShunguang, YeShunguangDawnlight |
 | `9c4b3484` | 2: AriaRobot, AriaRobotDiscordant |
@@ -292,7 +296,9 @@
 | `ea540ea2` | 2: AriaRobot, AriaRobotDiscordant |
 | `ebb6a59b` | 2: PanYinhu, PanYinhuJewel |
 | `ed361b8f` | 2: PanYinhu, PanYinhuJewel |
+| `edfd1666` | 2: Wise, WiseCrane |
 | `ee3c305a` | 2: Astra, AstraChandelier |
+| `eeeb15f9` | 2: Billy, Koleda |
 | `ef86fc9f` | 2: Jane, JaneSummer |
 | `f3f8895c` | 2: Sunna, SunnaKfc |
 | `f4c1c6d9` | 2: Manato, ManatoWhite |

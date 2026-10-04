@@ -1,8 +1,8 @@
 {
   "packSchemaVersion": 1,
   "gameId": "genshin",
-  "packVersion": "2026.10.02",
-  "generatedAt": "2026-10-02T00:00:00Z",
+  "packVersion": "2026.10.04",
+  "generatedAt": "2026-10-04T00:00:00Z",
   "builder": "packbuilder 0.1.0",
   "authoredBy": "official",
   "minAppVersion": "0.1.0",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-04T00:00:00Z",
   "packs": [
     {
       "gameId": "genshin",
@@ -8,6 +8,15 @@
       "shortName": "GI",
       "importer": "GIMI",
       "versions": [
+        {
+          "packVersion": "2026.10.04",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.10.04/genshin-2026.10.04.zip",
+          "sha256": "80c8a2e71c7def6e9c42425ce0fd39a0d8d9e1bbc71f09e83fb726bc77f42542",
+          "sizeBytes": 3217413,
+          "changelog": "126 characters and 30 skins, 20 still waiting for hashes."
+        },
         {
           "packVersion": "2026.10.02",
           "packSchemaVersion": 1,
@@ -34,6 +43,15 @@
       "shortName": "HSR",
       "importer": "SRMI",
       "versions": [
+        {
+          "packVersion": "2026.10.04",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.10.04/starrail-2026.10.04.zip",
+          "sha256": "dc71e2f8babb830530f7cc009618961dab8dd662568eaa5612e5b89b5f345795",
+          "sizeBytes": 1229968,
+          "changelog": "91 characters and 9 skins, 4 still waiting for hashes."
+        },
         {
           "packVersion": "2026.10.02",
           "packSchemaVersion": 1,
@@ -69,6 +87,15 @@
       "shortName": "ZZZ",
       "importer": "ZZMI",
       "versions": [
+        {
+          "packVersion": "2026.10.04",
+          "packSchemaVersion": 1,
+          "minAppVersion": "0.1.0",
+          "url": "https://github.com/dotStray/xxsm-presets/releases/download/2026.10.04/zenless-2026.10.04.zip",
+          "sha256": "f54e435087f9cb01a5ec48644b7a3f44550a09a8346025b92281a38935367c85",
+          "sizeBytes": 3885227,
+          "changelog": "65 characters and 31 skins, 4 still waiting for hashes."
+        },
         {
           "packVersion": "2026.10.02",
           "packSchemaVersion": 1,

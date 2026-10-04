@@ -384,6 +384,74 @@
       "slot": 0
     },
     {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "8747eaa2"
+    },
+    {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "ib",
+      "hash": "35a9a3e9"
+    },
+    {
+      "variant": "Albedo",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Albedo",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Albedo",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "Alhaitham",
       "component": "",
       "kind": "ib",
@@ -500,6 +568,160 @@
       "slot": 0
     },
     {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "70f00d36"
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "ib",
+      "hash": "5b497567"
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "70f00d36"
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "66ca3aee",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "6c1d69d9",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "9ab8b2fc",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "d106c084",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "d106c084",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "dfa02c17",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "dfa02c17",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "e39d3d43",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "",
+      "kind": "texture",
+      "hash": "e39d3d43",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "f596208e",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "315022f1",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "5a1dc9f0",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Alhaitham",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "830046fd",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
       "variant": "Aloy",
       "component": "",
       "kind": "ib",
@@ -592,6 +814,74 @@
       "slot": 0
     },
     {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "c987f4c0"
+    },
+    {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "ib",
+      "hash": "65c9cdc8"
+    },
+    {
+      "variant": "Aloy",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Aloy",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Aloy",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
       "variant": "Amber",
       "component": "",
       "kind": "ib",
@@ -666,6 +956,82 @@
       "hash": "1d064079",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "ca5bd26e"
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "870a7499"
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "ib",
+      "hash": "9976d124"
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "caddc4c6"
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "e3047676"
+    },
+    {
+      "variant": "Amber",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Amber",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Amber",
+      "component": "",
+      "kind": "ib",
+      "hash": "a1a2bbfb"
     },
     {
       "variant": "AmberCN",
@@ -744,6 +1110,64 @@
       "slot": 0
     },
     {
+      "variant": "AmberCN",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "da0adf2f"
+    },
+    {
+      "variant": "AmberCN",
+      "component": "",
+      "kind": "ib",
+      "hash": "8cc9274b"
+    },
+    {
+      "variant": "AmberCN",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "7f94e8da"
+    },
+    {
+      "variant": "AmberCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "AmberCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AmberCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "AmberCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "AmberCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "AratakiItto",
       "component": "",
       "kind": "ib",
@@ -817,6 +1241,58 @@
       "kind": "texture",
       "hash": "5eb50bfb",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "de4c81ac"
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "",
+      "kind": "ib",
+      "hash": "868d1bc7"
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "415af5cd",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "AratakiItto",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "f596208e",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -926,6 +1402,60 @@
       "hash": "a44625da",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "344f5b7b"
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "970e7336"
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "ib",
+      "hash": "70db78b8"
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "cf66bef6"
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "a75e7052"
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "texture",
+      "hash": "98b446f5",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "texture",
+      "hash": "98b446f5",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Arlecchino",
+      "component": "",
+      "kind": "texture",
+      "hash": "fdf09cb2",
+      "textureKind": "NormalMap",
+      "slot": 1
     },
     {
       "variant": "AyakaSpringbloom",
@@ -1152,6 +1682,50 @@
       "slot": 0
     },
     {
+      "variant": "Baizhu",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "b1729bce"
+    },
+    {
+      "variant": "Baizhu",
+      "component": "",
+      "kind": "ib",
+      "hash": "86df8dd8"
+    },
+    {
+      "variant": "Baizhu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Baizhu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Baizhu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Baizhu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bfdbc72c",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
       "variant": "Barbara",
       "component": "",
       "kind": "ib",
@@ -1242,6 +1816,112 @@
       "hash": "d9f80241",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "02089582"
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "f41c47cf"
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "ib",
+      "hash": "231723d2"
+    },
+    {
+      "variant": "Barbara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Barbara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Barbara",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 2
     },
     {
       "variant": "BarbaraSummertime",
@@ -1408,6 +2088,18 @@
       "slot": 0
     },
     {
+      "variant": "BarbaraSummertime",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "60fcbabe"
+    },
+    {
+      "variant": "BarbaraSummertime",
+      "component": "",
+      "kind": "ib",
+      "hash": "a411cfbc"
+    },
+    {
       "variant": "Beidou",
       "component": "",
       "kind": "ib",
@@ -1500,6 +2192,74 @@
       "slot": 0
     },
     {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "927d46ca"
+    },
+    {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "ib",
+      "hash": "c6004130"
+    },
+    {
+      "variant": "Beidou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Beidou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b7ff7a6e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Beidou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "Bennett",
       "component": "",
       "kind": "ib",
@@ -1574,6 +2334,72 @@
       "hash": "50f7dc9a",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "8b2a1582"
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "ib",
+      "hash": "f51209fc"
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "993d1661"
+    },
+    {
+      "variant": "Bennett",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Bennett",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Bennett",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Candace",
@@ -1692,6 +2518,138 @@
       "slot": 0
     },
     {
+      "variant": "Candace",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "d0d995f3"
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "ib",
+      "hash": "9098a3ef"
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "2a34c008",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "2a34c008",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "67e6aba6",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "8902ff82",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "90a54940",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "90a54940",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Candace",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "dec97f7c",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "e02c761f",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Candace",
+      "component": "",
+      "kind": "texture",
+      "hash": "e02c761f",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Candace",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "01eb6d46",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Candace",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
       "variant": "Charlotte",
       "component": "",
       "kind": "ib",
@@ -1782,6 +2740,74 @@
       "hash": "58d9859b",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Charlotte",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "c11fcbde"
+    },
+    {
+      "variant": "Charlotte",
+      "component": "",
+      "kind": "ib",
+      "hash": "c7812015"
+    },
+    {
+      "variant": "Charlotte",
+      "component": "",
+      "kind": "texture",
+      "hash": "2da0b1d3",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Charlotte",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "30180763",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Charlotte",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Charlotte",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "58d9859b",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Charlotte",
+      "component": "",
+      "kind": "texture",
+      "hash": "9c1dcc05",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Charlotte",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Charlotte",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Chasca",
@@ -2000,6 +3026,22 @@
       "slot": 0
     },
     {
+      "variant": "Chevreuse",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Chevreuse",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Chiori",
       "component": "",
       "kind": "ib",
@@ -2108,6 +3150,46 @@
       "slot": 0
     },
     {
+      "variant": "Chiori",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "830046fd",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Chiori",
+      "component": "",
+      "kind": "texture",
+      "hash": "b7ff7a6e",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Chiori",
+      "component": "",
+      "kind": "texture",
+      "hash": "b7ff7a6e",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Chiori",
+      "component": "",
+      "kind": "texture",
+      "hash": "b7ff7a6e",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Chiori",
+      "component": "",
+      "kind": "texture",
+      "hash": "b7ff7a6e",
+      "textureKind": "LightMap",
+      "slot": 3
+    },
+    {
       "variant": "Chongyun",
       "component": "",
       "kind": "ib",
@@ -2182,6 +3264,66 @@
       "hash": "b8f33342",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Chongyun",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "a50e6bc8"
+    },
+    {
+      "variant": "Chongyun",
+      "component": "",
+      "kind": "ib",
+      "hash": "34b9b809"
+    },
+    {
+      "variant": "Chongyun",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Chongyun",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Chongyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Chongyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Chongyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Chongyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Citlali",
@@ -2400,6 +3542,108 @@
       "slot": 0
     },
     {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "aa767fbd"
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "f9a96839"
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "ib",
+      "hash": "7c6f6974"
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "be10d76a"
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "739488d9"
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "465b6e36",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "465b6e36",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "5b59398b",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "5b59398b",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "7b81a16a",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "9afad35f",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Clorinde",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
       "variant": "Collei",
       "component": "",
       "kind": "ib",
@@ -2513,6 +3757,178 @@
       "kind": "texture",
       "hash": "b21bdf4c",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "50e8816e"
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "ib",
+      "hash": "05729218"
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "07117f1f",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "07117f1f",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "2d25bfac",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "2d25bfac",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "37035518",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Collei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "48aa6e02",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Collei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "ad6e1347",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "ad6e1347",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "fe48e436",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "37e64152",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "3de99d18",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "",
+      "kind": "texture",
+      "hash": "3de99d18",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Collei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Collei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "b21bdf4c",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -3024,6 +4440,172 @@
       "slot": 0
     },
     {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "44d9d0f7"
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "fc54f147"
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "ib",
+      "hash": "97cc2eae"
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "68416e15"
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "0d5e9531",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "0d5e9531",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Cyno",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "66e7e2c5",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "66e7e2c5",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "6ca25e89",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "6ca25e89",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "aca8de44",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "f087f97c",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "fd3917d0",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "4cc92f60"
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "6ca25e89",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "6ca25e89",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Cyno",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "830046fd",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Cyno",
+      "component": "",
+      "kind": "texture",
+      "hash": "f087f97c",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "Dahlia",
       "component": "FrontHair",
       "kind": "ib",
@@ -3320,6 +4902,58 @@
       "slot": 0
     },
     {
+      "variant": "Dehya",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "1f2a9e86"
+    },
+    {
+      "variant": "Dehya",
+      "component": "",
+      "kind": "ib",
+      "hash": "5b378f51"
+    },
+    {
+      "variant": "Dehya",
+      "component": "",
+      "kind": "texture",
+      "hash": "0038979a",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Dehya",
+      "component": "",
+      "kind": "texture",
+      "hash": "48032e7b",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dehya",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dehya",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dehya",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Diluc",
       "component": "",
       "kind": "ib",
@@ -3394,6 +5028,96 @@
       "hash": "e698735e",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "6fd20cc4"
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "56159d74"
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "ib",
+      "hash": "d1ac0687"
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "6fdb0963"
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "aee0755a"
+    },
+    {
+      "variant": "Diluc",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Diluc",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "8b50c50f",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Diluc",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "f596208e",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "dff0b253"
+    },
+    {
+      "variant": "Diluc",
+      "component": "",
+      "kind": "ib",
+      "hash": "e9786c58"
     },
     {
       "variant": "DilucFlamme",
@@ -3552,6 +5276,30 @@
       "slot": 0
     },
     {
+      "variant": "DilucFlamme",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "aeab733d"
+    },
+    {
+      "variant": "DilucFlamme",
+      "component": "",
+      "kind": "ib",
+      "hash": "9de6528c"
+    },
+    {
+      "variant": "DilucFlamme",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "0d1c1932"
+    },
+    {
+      "variant": "DilucFlamme",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "105887c0"
+    },
+    {
       "variant": "Diona",
       "component": "",
       "kind": "ib",
@@ -3626,6 +5374,58 @@
       "hash": "78267c94",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Diona",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "3d3acefa"
+    },
+    {
+      "variant": "Diona",
+      "component": "",
+      "kind": "ib",
+      "hash": "4cde183c"
+    },
+    {
+      "variant": "Diona",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Diona",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Diona",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Diona",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Diona",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Dori",
@@ -3718,6 +5518,138 @@
       "hash": "2021c2b9",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "0f07748b"
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "ib",
+      "hash": "3c46fe49"
+    },
+    {
+      "variant": "Dori",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "5f076983",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "6b61163d",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "6cd41bdb",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "9be6ec00",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "db3491eb",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "ffb16f28",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "2021c2b9",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "6913b9d4",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Dori",
+      "component": "",
+      "kind": "texture",
+      "hash": "db3491eb",
+      "textureKind": "NormalMap",
+      "slot": 1
     },
     {
       "variant": "Durin",
@@ -4172,6 +6104,54 @@
       "slot": 0
     },
     {
+      "variant": "Emilie",
+      "component": "",
+      "kind": "texture",
+      "hash": "846e94b7",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Emilie",
+      "component": "",
+      "kind": "texture",
+      "hash": "846e94b7",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Emilie",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Emilie",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Emilie",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 3
+    },
+    {
+      "variant": "Emilie",
+      "component": "",
+      "kind": "texture",
+      "hash": "b7ff7a6e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
       "variant": "Escoffier",
       "component": "Hat",
       "kind": "ib",
@@ -4480,6 +6460,82 @@
       "slot": 0
     },
     {
+      "variant": "Eula",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "9bd0821b"
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "ib",
+      "hash": "5ed7f30e"
+    },
+    {
+      "variant": "Eula",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Eula",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Eula",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "Faruzan",
       "component": "",
       "kind": "ib",
@@ -4588,6 +6644,130 @@
       "slot": 0
     },
     {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "5abe4c02"
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "ib",
+      "hash": "c2795dff"
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "00b56d21",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "04786cd0",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "1fed44c6",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "68a0ed77",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "831446e4",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "fb94ba69",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "1fed44c6",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Faruzan",
+      "component": "",
+      "kind": "texture",
+      "hash": "831446e4",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
       "variant": "Fischl",
       "component": "",
       "kind": "ib",
@@ -4678,6 +6858,110 @@
       "hash": "0cd456af",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "4e2de7ad"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "4c01720e"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "ib",
+      "hash": "d3e19075"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "9a7b2e51"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "dd428aa7"
+    },
+    {
+      "variant": "Fischl",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Fischl",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "6c491d3b"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "ib",
+      "hash": "5cfc7a92"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "9838aedf"
+    },
+    {
+      "variant": "Fischl",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 1
     },
     {
       "variant": "FischlHighness",
@@ -4810,6 +7094,18 @@
       "hash": "7eb5b84e",
       "textureKind": "ShadowRamp",
       "slot": 0
+    },
+    {
+      "variant": "FischlHighness",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "3cc8f82b"
+    },
+    {
+      "variant": "FischlHighness",
+      "component": "",
+      "kind": "ib",
+      "hash": "95bf8d7e"
     },
     {
       "variant": "Flins",
@@ -5184,6 +7480,68 @@
       "slot": 0
     },
     {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "4443153c"
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "403b6be5"
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "ib",
+      "hash": "1812a5f8"
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "d2bfc751"
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "333aa56c"
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "texture",
+      "hash": "7dee71af",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Freminet",
+      "component": "",
+      "kind": "texture",
+      "hash": "fcd2d0ec",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "Furina",
       "component": "",
       "kind": "ib",
@@ -5342,6 +7700,250 @@
       "hash": "6dfb5150",
       "textureKind": "LightMap",
       "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "85735ea7"
+    },
+    {
+      "variant": "Furina",
+      "component": "Ponytail",
+      "kind": "blend_vb",
+      "hash": "e0e4a1f0"
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "16493582"
+    },
+    {
+      "variant": "Furina",
+      "component": "Ponytail",
+      "kind": "ib",
+      "hash": "669be7b7"
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "ib",
+      "hash": "eea6a2fa"
+    },
+    {
+      "variant": "Furina",
+      "component": "Ponytail",
+      "kind": "position_vb",
+      "hash": "27e42ea9"
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "330c6649"
+    },
+    {
+      "variant": "Furina",
+      "component": "Ponytail",
+      "kind": "texcoord_vb",
+      "hash": "2e55ba6b"
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "513c176c"
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "0734ca69",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "0734ca69",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "36f1e73a",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3c17fff3",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "a0a8d1a7",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "bb4d35b7",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "ib",
+      "hash": "3c8a32d4"
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "0734ca69",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "39ff38df",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Furina",
+      "component": "Ponytail",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "ae654241",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "bb4d35b7",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "38b2a6a7",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "42fb3933",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "4c1b5389",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "901cbcaa",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "901cbcaa",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "9612c13d",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "c4dac88d",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Furina",
+      "component": "",
+      "kind": "texture",
+      "hash": "c4dac88d",
+      "textureKind": "Diffuse",
+      "slot": 2
     },
     {
       "variant": "GaMing",
@@ -5520,6 +8122,44 @@
       "slot": 0
     },
     {
+      "variant": "GaMing",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "cd9b5130"
+    },
+    {
+      "variant": "GaMing",
+      "component": "",
+      "kind": "texture",
+      "hash": "0f98f323",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "GaMing",
+      "component": "",
+      "kind": "texture",
+      "hash": "4774bbc5",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "GaMing",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "GaMing",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Ganyu",
       "component": "",
       "kind": "ib",
@@ -5610,6 +8250,74 @@
       "hash": "b2657593",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "721ca964"
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "ib",
+      "hash": "2da186bc"
+    },
+    {
+      "variant": "Ganyu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Ganyu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Ganyu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
     },
     {
       "variant": "GanyuTwilight",
@@ -5820,6 +8528,66 @@
       "slot": 0
     },
     {
+      "variant": "Gorou",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "1cbe5f20"
+    },
+    {
+      "variant": "Gorou",
+      "component": "",
+      "kind": "ib",
+      "hash": "8a31165b"
+    },
+    {
+      "variant": "Gorou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Gorou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Gorou",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Gorou",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Gorou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Gorou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Heizou",
       "component": "",
       "kind": "ib",
@@ -5896,6 +8664,118 @@
       "slot": 0
     },
     {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "8abc636b"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "23ab4dba"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "ib",
+      "hash": "31fbe5ad"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "952b4f06"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "d8bdc8ff"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texture",
+      "hash": "07a1320a",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Heizou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Heizou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texture",
+      "hash": "68b96b65",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "3deb58c4"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "17f8cba1"
+    },
+    {
+      "variant": "Heizou",
+      "component": "",
+      "kind": "ib",
+      "hash": "ec1dd06b"
+    },
+    {
       "variant": "HuTao",
       "component": "",
       "kind": "ib",
@@ -5970,6 +8850,58 @@
       "hash": "d00bb0ef",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "HuTao",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "60345291"
+    },
+    {
+      "variant": "HuTao",
+      "component": "",
+      "kind": "ib",
+      "hash": "0535853d"
+    },
+    {
+      "variant": "HuTao",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "HuTao",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "HuTao",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "HuTao",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "HuTao",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Iansan",
@@ -6956,6 +9888,58 @@
       "slot": 0
     },
     {
+      "variant": "Jean",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "e6055135"
+    },
+    {
+      "variant": "Jean",
+      "component": "",
+      "kind": "ib",
+      "hash": "29835d20"
+    },
+    {
+      "variant": "Jean",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Jean",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Jean",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Jean",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Jean",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "JeanCN",
       "component": "",
       "kind": "ib",
@@ -7030,6 +10014,272 @@
       "hash": "c2d1a57e",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "d159bf31"
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "2a29e333"
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "ib",
+      "hash": "920c0b3f"
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "93bb2522"
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "0ffefb98"
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "0f9c7705",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "JeanCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "617c45a0",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "6eca0f93",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "92ed604c",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "JeanCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "a3cccc14"
+    },
+    {
+      "variant": "JeanCN",
+      "component": "",
+      "kind": "ib",
+      "hash": "aad861e0"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "ac801371"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "972d56ee"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "ib",
+      "hash": "5114a891"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "16fef1eb"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "root_vs",
+      "hash": "653c63ba4a73ca8b"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "3ffb0363"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "15671abb",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "15671abb",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "3b4efe72",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "4b8a3da9",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "JeanSea",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "JeanSea",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "JeanSea",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "c2d1a57e",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "e555db10",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "texture",
+      "hash": "e555db10",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "1ec879c9"
+    },
+    {
+      "variant": "JeanSea",
+      "component": "",
+      "kind": "ib",
+      "hash": "69c0c24e"
     },
     {
       "variant": "Kachina",
@@ -7132,6 +10382,22 @@
       "slot": 0
     },
     {
+      "variant": "Kachina",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Kachina",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "KaedeharaKazuha",
       "component": "",
       "kind": "ib",
@@ -7224,6 +10490,66 @@
       "slot": 0
     },
     {
+      "variant": "KaedeharaKazuha",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "d155c95f"
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "",
+      "kind": "ib",
+      "hash": "0db8b101"
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "KaedeharaKazuha",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Kaeya",
       "component": "",
       "kind": "ib",
@@ -7313,6 +10639,74 @@
       "kind": "texture",
       "hash": "4e6a8e9d",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Kaeya",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "4b0aa762"
+    },
+    {
+      "variant": "Kaeya",
+      "component": "",
+      "kind": "ib",
+      "hash": "13eb3d85"
+    },
+    {
+      "variant": "Kaeya",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Kaeya",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "6d5856da",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Kaeya",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Kaeya",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Kaeya",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Kaeya",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Kaeya",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "f596208e",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -7572,6 +10966,66 @@
       "slot": 0
     },
     {
+      "variant": "KamisatoAyaka",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "14c9337a"
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "",
+      "kind": "ib",
+      "hash": "347bb8f8"
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "KamisatoAyaka",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "KamisatoAyato",
       "component": "",
       "kind": "ib",
@@ -7661,6 +11115,74 @@
       "kind": "texture",
       "hash": "6e40e741",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "bf198f17"
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "ib",
+      "hash": "dd4f6309"
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "KamisatoAyato",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "f596208e",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -7756,6 +11278,26 @@
       "slot": 0
     },
     {
+      "variant": "Kaveh",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "e96f4fc3"
+    },
+    {
+      "variant": "Kaveh",
+      "component": "",
+      "kind": "ib",
+      "hash": "61b2cce0"
+    },
+    {
+      "variant": "Kaveh",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "604770ca",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
       "variant": "Keqing",
       "component": "",
       "kind": "ib",
@@ -7846,6 +11388,82 @@
       "hash": "d8c9c399",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "4526145e"
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "ib",
+      "hash": "f325e394"
+    },
+    {
+      "variant": "Keqing",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Keqing",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Keqing",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
     },
     {
       "variant": "KeqingOpulent",
@@ -7978,6 +11596,18 @@
       "hash": "7eb5b84e",
       "textureKind": "ShadowRamp",
       "slot": 0
+    },
+    {
+      "variant": "KeqingOpulent",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "efcc8769"
+    },
+    {
+      "variant": "KeqingOpulent",
+      "component": "",
+      "kind": "ib",
+      "hash": "44bba21c"
     },
     {
       "variant": "Kinich",
@@ -8212,6 +11842,292 @@
       "slot": 0
     },
     {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "e656b9fd"
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "ib",
+      "hash": "ce3dc5a2"
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "cc833025"
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "0998fcda",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "2fadf527",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "2fadf527",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Kirara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "30180763",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Kirara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "6006d89d",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Kirara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "6eb20522",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "9feba8b9",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "9feba8b9",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "acf97111",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "acf97111",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "acf97111",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "acf97111",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Kirara",
+      "component": "",
+      "kind": "texture",
+      "hash": "c90298cc",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "53a2502b"
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "4955fc99"
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "ib",
+      "hash": "846979e2"
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "f8013ba9"
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "root_vs",
+      "hash": "653c63ba4a73ca8b"
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "596e8fe0"
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "16fbe9b0",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "89a118ba",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "8ca27fd3",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "8ca27fd3",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "c715bcf7",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "e3a21e6f",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "e3a21e6f",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "KiraraPhantom",
+      "component": "",
+      "kind": "texture",
+      "hash": "f74f093d",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
       "variant": "Klee",
       "component": "",
       "kind": "ib",
@@ -8286,6 +12202,58 @@
       "hash": "7fccd783",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Klee",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "52469e36"
+    },
+    {
+      "variant": "Klee",
+      "component": "",
+      "kind": "ib",
+      "hash": "3fe81b2a"
+    },
+    {
+      "variant": "Klee",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Klee",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Klee",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Klee",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Klee",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "KleeBlossomingStarlight",
@@ -8420,6 +12388,18 @@
       "slot": 2
     },
     {
+      "variant": "KleeBlossomingStarlight",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "6234ae22"
+    },
+    {
+      "variant": "KleeBlossomingStarlight",
+      "component": "",
+      "kind": "ib",
+      "hash": "742c4ed5"
+    },
+    {
       "variant": "KujouSara",
       "component": "",
       "kind": "ib",
@@ -8509,6 +12489,82 @@
       "kind": "texture",
       "hash": "061d7cf9",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "4320e589"
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "ib",
+      "hash": "284f55b3"
+    },
+    {
+      "variant": "KujouSara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "KujouSara",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "KujouSara",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -8620,6 +12676,106 @@
       "hash": "48bab421",
       "textureKind": "LightMap",
       "slot": 0
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "6a4d5740"
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "f82b93f8"
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "ib",
+      "hash": "368512d1"
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "d34c9522"
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "c8b3e6a4"
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "ib",
+      "hash": "c7c2a9d6"
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "KukiShinobu",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 1
     },
     {
       "variant": "Lauma",
@@ -9010,6 +13166,168 @@
       "slot": 0
     },
     {
+      "variant": "Layla",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "bafaa0e8"
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "ad28f613"
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "ib",
+      "hash": "b617aa07"
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "109b29bb",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "109b29bb",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "162703d9",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "162703d9",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "90651adc",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "9305d73a",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "aa504afc",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "c489c9d6",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "c489c9d6",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Layla",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "1089b539",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "109b29bb",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "109b29bb",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Layla",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "30180763",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "830046fd",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Layla",
+      "component": "",
+      "kind": "texture",
+      "hash": "90651adc",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
       "variant": "Linnea",
       "component": "Bangs",
       "kind": "ib",
@@ -9330,6 +13648,92 @@
       "slot": 0
     },
     {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "de1311ae"
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "6f4a034a"
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "ib",
+      "hash": "695e029f"
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "7d8a4e0f"
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "50ae5602"
+    },
+    {
+      "variant": "Lisa",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lisa",
+      "component": "",
+      "kind": "texture",
+      "hash": "b542085f",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Lisa",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "LisaStudent",
       "component": "",
       "kind": "ib",
@@ -9419,6 +13823,106 @@
       "kind": "texture",
       "hash": "95cb454c",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "362fb2b3"
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "ib",
+      "hash": "cbda8639"
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "02cb9df7",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "040d3ada",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "35136f7b",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "438c9349",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "49bea32e",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "6b32141e",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "cbf77c41",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "LisaStudent",
+      "component": "",
+      "kind": "texture",
+      "hash": "f7a42411",
+      "textureKind": "LightMap",
       "slot": 0
     },
     {
@@ -9766,6 +14270,98 @@
       "slot": 0
     },
     {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "bb7a73b6"
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "ib",
+      "hash": "010cf88a"
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "3fea57a6",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "3fea57a6",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 3
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "b758feec",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lynette",
+      "component": "",
+      "kind": "texture",
+      "hash": "b758feec",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
       "variant": "Lyney",
       "component": "",
       "kind": "ib",
@@ -9872,6 +14468,76 @@
       "hash": "6a49288c",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "ib",
+      "hash": "3168da22"
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "3a45e359",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "7f5e1d20",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "8edf1cc2",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Lyney",
+      "component": "",
+      "kind": "texture",
+      "hash": "b90fee30",
+      "textureKind": "NormalMap",
+      "slot": 2
     },
     {
       "variant": "Mavuika",
@@ -10058,6 +14724,18 @@
       "slot": 0
     },
     {
+      "variant": "Mavuika",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "2246e755"
+    },
+    {
+      "variant": "Mavuika",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "4e654846"
+    },
+    {
       "variant": "Mika",
       "component": "",
       "kind": "ib",
@@ -10163,6 +14841,138 @@
       "kind": "texture",
       "hash": "0026026f",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "14be9ad8"
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "ib",
+      "hash": "79a263de"
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "19e31e27",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "3500e91e",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "59cd2559",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Mika",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "75e8160c",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "d84ee19b",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "e7f03dcc",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "fb182f38",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "75e8160c",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Mika",
+      "component": "",
+      "kind": "texture",
+      "hash": "d84ee19b",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -10358,6 +15168,78 @@
       "slot": 0
     },
     {
+      "variant": "Mona",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "52f0e9a0"
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "00741928"
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "ib",
+      "hash": "ef876207"
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "20d0bfab"
+    },
+    {
+      "variant": "Mona",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Mona",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Mona",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "MonaCN",
       "component": "",
       "kind": "ib",
@@ -10431,6 +15313,72 @@
       "kind": "texture",
       "hash": "8e116301",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "41f18240"
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "ib",
+      "hash": "ed79ea5b"
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "ee5ed1dc"
+    },
+    {
+      "variant": "MonaCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "MonaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "MonaCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -10556,6 +15504,30 @@
       "hash": "84d7374c",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Mualani",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Mualani",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Mualani",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Nahida",
@@ -10698,6 +15670,90 @@
       "slot": 0
     },
     {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "bb58c686"
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "67d2cdf0"
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "ib",
+      "hash": "8b268d05"
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "37ef15ec"
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "f7b7ce48"
+    },
+    {
+      "variant": "Nahida",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Nahida",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 3
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nahida",
+      "component": "",
+      "kind": "ib",
+      "hash": "b3f2e7da"
+    },
+    {
       "variant": "Navia",
       "component": "",
       "kind": "ib",
@@ -10811,6 +15867,54 @@
       "kind": "texture",
       "hash": "5fbb9b27",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Navia",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Navia",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Navia",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Navia",
+      "component": "",
+      "kind": "texture",
+      "hash": "b921c5ff",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Navia",
+      "component": "",
+      "kind": "texture",
+      "hash": "b921c5ff",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Navia",
+      "component": "",
+      "kind": "texture",
+      "hash": "d3603e6b",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -11320,6 +16424,60 @@
       "hash": "81e80510",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "",
+      "kind": "ib",
+      "hash": "c8818002"
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "5a1dc9f0",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "830046fd",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Neuvillette",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Nicole",
@@ -11850,6 +17008,286 @@
       "slot": 0
     },
     {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "2f95abf6"
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "ib",
+      "hash": "265e34e3"
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "29cf0914",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "29cf0914",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Nilou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "6f0680d3",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "91cb97a8",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "91cb97a8",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "9caa70ad",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "a87ce1c0",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "a87ce1c0",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "b2501b97",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "6f0680d3",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "a87ce1c0",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Nilou",
+      "component": "",
+      "kind": "texture",
+      "hash": "a87ce1c0",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "49bede49"
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "3f79fabb"
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "ib",
+      "hash": "00439fbb"
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "7d53d78f"
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "root_vs",
+      "hash": "653c63ba4a73ca8b"
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "b976b848"
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "2593dea6",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "3f78afbf",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "58d2635b",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "9f7e392b",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "9f7e392b",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "e3e73b29",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "NilouBreeze",
+      "component": "",
+      "kind": "texture",
+      "hash": "e3e73b29",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
       "variant": "Ningguang",
       "component": "",
       "kind": "ib",
@@ -11940,6 +17378,96 @@
       "hash": "4cc85338",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "9f7dc19c"
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "e4fc5902"
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "ib",
+      "hash": "93085db7"
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "55b43e99"
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "906ad233"
+    },
+    {
+      "variant": "Ningguang",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Ningguang",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "6d197625"
+    },
+    {
+      "variant": "Ningguang",
+      "component": "",
+      "kind": "ib",
+      "hash": "abdc3768"
     },
     {
       "variant": "NingguangOrchid",
@@ -12106,6 +17634,18 @@
       "slot": 0
     },
     {
+      "variant": "NingguangOrchid",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "10de9c78"
+    },
+    {
+      "variant": "NingguangOrchid",
+      "component": "",
+      "kind": "ib",
+      "hash": "f1d09b47"
+    },
+    {
       "variant": "Noelle",
       "component": "",
       "kind": "ib",
@@ -12196,6 +17736,82 @@
       "hash": "355f2735",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "57128011"
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "ib",
+      "hash": "a4241241"
+    },
+    {
+      "variant": "Noelle",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Noelle",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Noelle",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
     },
     {
       "variant": "Ororon",
@@ -12634,6 +18250,66 @@
       "slot": 1
     },
     {
+      "variant": "Qiqi",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "1c88b789"
+    },
+    {
+      "variant": "Qiqi",
+      "component": "",
+      "kind": "ib",
+      "hash": "6ed110f3"
+    },
+    {
+      "variant": "Qiqi",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Qiqi",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qiqi",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Qiqi",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Qiqi",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Qiqi",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "RaidenShogun",
       "component": "",
       "kind": "ib",
@@ -12726,6 +18402,82 @@
       "slot": 0
     },
     {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "a05e7bec"
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "ib",
+      "hash": "428c56cd"
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "RaidenShogun",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "Razor",
       "component": "",
       "kind": "ib",
@@ -12800,6 +18552,64 @@
       "hash": "65c156fb",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Razor",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "3503373e"
+    },
+    {
+      "variant": "Razor",
+      "component": "",
+      "kind": "ib",
+      "hash": "23e2a216"
+    },
+    {
+      "variant": "Razor",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "a099b935"
+    },
+    {
+      "variant": "Razor",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Razor",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Razor",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Razor",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Razor",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Rosaria",
@@ -12910,6 +18720,98 @@
       "slot": 0
     },
     {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "9e1868d9"
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "ib",
+      "hash": "5d18b9d6"
+    },
+    {
+      "variant": "Rosaria",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 3
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Rosaria",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 3
+    },
+    {
+      "variant": "Rosaria",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "RosariaCN",
       "component": "",
       "kind": "ib",
@@ -13015,6 +18917,98 @@
       "kind": "texture",
       "hash": "2abd61ee",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "f3d4a01a"
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "ib",
+      "hash": "851e4de1"
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 3
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 3
+    },
+    {
+      "variant": "RosariaCN",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -13342,6 +19336,58 @@
       "slot": 0
     },
     {
+      "variant": "SangonomiyaKokomi",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "ef23d42d"
+    },
+    {
+      "variant": "SangonomiyaKokomi",
+      "component": "",
+      "kind": "ib",
+      "hash": "4c44665e"
+    },
+    {
+      "variant": "SangonomiyaKokomi",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "SangonomiyaKokomi",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "SangonomiyaKokomi",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "SangonomiyaKokomi",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "SangonomiyaKokomi",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
       "variant": "Sayu",
       "component": "",
       "kind": "ib",
@@ -13470,6 +19516,78 @@
       "slot": 0
     },
     {
+      "variant": "Sayu",
+      "component": "Hood",
+      "kind": "draw_vb",
+      "hash": "17d35e5e"
+    },
+    {
+      "variant": "Sayu",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "f3be854a"
+    },
+    {
+      "variant": "Sayu",
+      "component": "Hood",
+      "kind": "ib",
+      "hash": "127ea5c9"
+    },
+    {
+      "variant": "Sayu",
+      "component": "",
+      "kind": "ib",
+      "hash": "eabbb767"
+    },
+    {
+      "variant": "Sayu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "380a1467",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Sayu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Sayu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Sayu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Sayu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Sayu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Sethos",
       "component": "",
       "kind": "ib",
@@ -13562,6 +19680,38 @@
       "slot": 0
     },
     {
+      "variant": "Sethos",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0bf4310",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Sethos",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Sethos",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Sethos",
+      "component": "",
+      "kind": "texture",
+      "hash": "b81c634d",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
       "variant": "Shenhe",
       "component": "",
       "kind": "ib",
@@ -13651,6 +19801,82 @@
       "kind": "texture",
       "hash": "f5f393cb",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "fde191d7"
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "ib",
+      "hash": "0b7d4e4d"
+    },
+    {
+      "variant": "Shenhe",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Shenhe",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Shenhe",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -14278,6 +20504,66 @@
       "slot": 0
     },
     {
+      "variant": "Sucrose",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "fc07e82b"
+    },
+    {
+      "variant": "Sucrose",
+      "component": "",
+      "kind": "ib",
+      "hash": "3e3c00b7"
+    },
+    {
+      "variant": "Sucrose",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Sucrose",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Sucrose",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Sucrose",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Sucrose",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Sucrose",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "Tartaglia",
       "component": "",
       "kind": "ib",
@@ -14422,6 +20708,102 @@
       "slot": 1
     },
     {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "796a33a2"
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "Scarf",
+      "kind": "draw_vb",
+      "hash": "7acaf240"
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "ib",
+      "hash": "6bc9f987"
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "Scarf",
+      "kind": "ib",
+      "hash": "ef095180"
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "Scarf",
+      "kind": "texture",
+      "hash": "587ceb93",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "texture",
+      "hash": "587ceb93",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "Scarf",
+      "kind": "texture",
+      "hash": "5bf8d153",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "texture",
+      "hash": "5bf8d153",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Tartaglia",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Thoma",
       "component": "",
       "kind": "ib",
@@ -14511,6 +20893,74 @@
       "kind": "texture",
       "hash": "ac81584f",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Thoma",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "33c2fa53"
+    },
+    {
+      "variant": "Thoma",
+      "component": "",
+      "kind": "ib",
+      "hash": "8ac1328b"
+    },
+    {
+      "variant": "Thoma",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Thoma",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Thoma",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Thoma",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Thoma",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "9164b152",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Thoma",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Thoma",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
@@ -14628,6 +21078,210 @@
       "hash": "d4d051b1",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "86c195a8"
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "57897152"
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "ib",
+      "hash": "bfeab9d1"
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "531187c9"
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "a95a82aa"
+    },
+    {
+      "variant": "Tighnari",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "18326dbd",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "3cefff2d",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "57fe604a",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "728365a0",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "728365a0",
+      "textureKind": "Shadow",
+      "slot": 2
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "72bfd0e0",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "ac5bdd06",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "ac5bdd06",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "bb5905b2",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "c345863a",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "c345863a",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Tighnari",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "57fe604a",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "c345863a",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "texture",
+      "hash": "c345863a",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Tighnari",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "d4d051b1",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Tighnari",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "ed2e7d59"
     },
     {
       "variant": "TravelerBoy",
@@ -14752,6 +21406,18 @@
       "hash": "7eb5b84e",
       "textureKind": "ShadowRamp",
       "slot": 0
+    },
+    {
+      "variant": "TravelerBoy",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "609d4578"
+    },
+    {
+      "variant": "TravelerBoy",
+      "component": "",
+      "kind": "ib",
+      "hash": "b603af2f"
     },
     {
       "variant": "TravelerGirl",
@@ -14908,6 +21574,18 @@
       "hash": "7eb5b84e",
       "textureKind": "ShadowRamp",
       "slot": 0
+    },
+    {
+      "variant": "TravelerGirl",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "0d8adebb"
+    },
+    {
+      "variant": "TravelerGirl",
+      "component": "",
+      "kind": "ib",
+      "hash": "dfb54407"
     },
     {
       "variant": "Varesa",
@@ -15338,6 +22016,88 @@
       "slot": 0
     },
     {
+      "variant": "Venti",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "fd47c861"
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "5c8b4993"
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "ib",
+      "hash": "c314953e"
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "635466ca"
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "bf8270d3"
+    },
+    {
+      "variant": "Venti",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Venti",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "d56e66b4"
+    },
+    {
+      "variant": "Venti",
+      "component": "",
+      "kind": "ib",
+      "hash": "fbc0ffe1"
+    },
+    {
       "variant": "Wanderer",
       "component": "",
       "kind": "ib",
@@ -15487,6 +22247,54 @@
       "kind": "texture",
       "hash": "581644b9",
       "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wanderer",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "0d628859"
+    },
+    {
+      "variant": "Wanderer",
+      "component": "Hat",
+      "kind": "draw_vb",
+      "hash": "e9bf37f1"
+    },
+    {
+      "variant": "Wanderer",
+      "component": "",
+      "kind": "ib",
+      "hash": "536e3b83"
+    },
+    {
+      "variant": "Wanderer",
+      "component": "Hat",
+      "kind": "ib",
+      "hash": "99be9547"
+    },
+    {
+      "variant": "Wanderer",
+      "component": "Hat",
+      "kind": "texture",
+      "hash": "05354131",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wanderer",
+      "component": "",
+      "kind": "texture",
+      "hash": "05354131",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Wanderer",
+      "component": "",
+      "kind": "texture",
+      "hash": "79a9ab2a",
+      "textureKind": "NormalMap",
       "slot": 0
     },
     {
@@ -15666,6 +22474,66 @@
       "slot": 1
     },
     {
+      "variant": "Wriothesley",
+      "component": "Jacket",
+      "kind": "ib",
+      "hash": "496a6d62"
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "ib",
+      "hash": "a6b6de38"
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "texture",
+      "hash": "593bccf1",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "texture",
+      "hash": "6fa5e7d0",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "texture",
+      "hash": "8150aba9",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Wriothesley",
+      "component": "",
+      "kind": "texture",
+      "hash": "dfb35d93",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
       "variant": "Xiangling",
       "component": "",
       "kind": "ib",
@@ -15756,6 +22624,66 @@
       "hash": "1d353f0b",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Xiangling",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "94523bab"
+    },
+    {
+      "variant": "Xiangling",
+      "component": "",
+      "kind": "ib",
+      "hash": "5363ff5d"
+    },
+    {
+      "variant": "Xiangling",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Xiangling",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xiangling",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Xiangling",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Xiangling",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Xiangling",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "Xianyun",
@@ -15934,6 +22862,88 @@
       "slot": 0
     },
     {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "ib",
+      "hash": "b8cfed01"
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "469f6119"
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "55233416"
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "532a56a6",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "f1bce57e",
+      "textureKind": "NormalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Xianyun",
+      "component": "",
+      "kind": "texture",
+      "hash": "f1bce57e",
+      "textureKind": "NormalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Xianyun",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "49bea32e",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Xianyun",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "830046fd",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
       "variant": "Xiao",
       "component": "",
       "kind": "ib",
@@ -16040,6 +23050,120 @@
       "hash": "20b79e6a",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "65a5e725"
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "e6f38080"
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "ib",
+      "hash": "252781f1"
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "7f5ef8cc"
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "ec61cc2b"
+    },
+    {
+      "variant": "Xiao",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xiao",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 3
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "a585ffdf",
+      "textureKind": "Shadow",
+      "slot": 3
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "texture",
+      "hash": "ec3344b3",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "6f16afa7"
+    },
+    {
+      "variant": "Xiao",
+      "component": "",
+      "kind": "ib",
+      "hash": "1df3eb2e"
     },
     {
       "variant": "Xilonen",
@@ -16302,6 +23426,128 @@
       "slot": 0
     },
     {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "8f0e9948"
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "f9caefa2"
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "ib",
+      "hash": "ba1d11c3"
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "25aed172"
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "4c25bd5f"
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "0f394cb6",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "5423a093",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "69866236",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "texture",
+      "hash": "d8e82984",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "e35f8bf8",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "702fc085"
+    },
+    {
+      "variant": "Xingqiu",
+      "component": "",
+      "kind": "ib",
+      "hash": "82c97b1c"
+    },
+    {
       "variant": "XingqiuBamboo",
       "component": "",
       "kind": "ib",
@@ -16510,6 +23756,72 @@
       "slot": 0
     },
     {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "1a3107d3"
+    },
+    {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "ib",
+      "hash": "af23e644"
+    },
+    {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "b3d31859"
+    },
+    {
+      "variant": "Xinyan",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Xinyan",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Xinyan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "YaeMiko",
       "component": "",
       "kind": "ib",
@@ -16602,6 +23914,74 @@
       "slot": 0
     },
     {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "7eb264fd"
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "ib",
+      "hash": "65ddc0df"
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "YaeMiko",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
       "variant": "Yanfei",
       "component": "",
       "kind": "ib",
@@ -16676,6 +24056,66 @@
       "hash": "23ae46a3",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Yanfei",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "a2305da8"
+    },
+    {
+      "variant": "Yanfei",
+      "component": "",
+      "kind": "ib",
+      "hash": "4fb839ef"
+    },
+    {
+      "variant": "Yanfei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "3f396398",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Yanfei",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yanfei",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Yanfei",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Yanfei",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yanfei",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
     },
     {
       "variant": "YaoYao",
@@ -16768,6 +24208,98 @@
       "hash": "c70ae897",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "cf68b0bd"
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "ib",
+      "hash": "54c0b1e8"
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "43b608b3",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "51c301d3",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "78671236",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "b3e065c5",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "bebfcd2b",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "f7e1436e",
+      "textureKind": "Shadow",
+      "slot": 1
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "43b608b3",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "YaoYao",
+      "component": "",
+      "kind": "texture",
+      "hash": "51c301d3",
+      "textureKind": "NormalMap",
+      "slot": 1
     },
     {
       "variant": "Yelan",
@@ -16878,6 +24410,160 @@
       "slot": 0
     },
     {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "blend_vb",
+      "hash": "23c937b0"
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "0525ea44"
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "ib",
+      "hash": "c966bc38"
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "position_vb",
+      "hash": "f41a7730"
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texcoord_vb",
+      "hash": "0af017d0"
+    },
+    {
+      "variant": "Yelan",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7494c444",
+      "textureKind": "LightMap",
+      "slot": 1
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7494c444",
+      "textureKind": "LightMap",
+      "slot": 2
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 3
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 3
+    },
+    {
+      "variant": "Yelan",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bf9fccca",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "f1308148",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "texture",
+      "hash": "f1308148",
+      "textureKind": "Diffuse",
+      "slot": 2
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "589fed34"
+    },
+    {
+      "variant": "Yelan",
+      "component": "",
+      "kind": "ib",
+      "hash": "ba35247d"
+    },
+    {
       "variant": "Yoimiya",
       "component": "",
       "kind": "ib",
@@ -16968,6 +24654,82 @@
       "hash": "586b8f46",
       "textureKind": "Diffuse",
       "slot": 0
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "25fea501"
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "ib",
+      "hash": "bda31169"
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 0
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Yoimiya",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 2
     },
     {
       "variant": "YunJin",
@@ -17062,6 +24824,66 @@
       "slot": 0
     },
     {
+      "variant": "YunJin",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "423e7a1d"
+    },
+    {
+      "variant": "YunJin",
+      "component": "",
+      "kind": "ib",
+      "hash": "fee6d200"
+    },
+    {
+      "variant": "YunJin",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "YunJin",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "59df7508",
+      "textureKind": "Shadow",
+      "slot": 0
+    },
+    {
+      "variant": "YunJin",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "YunJin",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "YunJin",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "YunJin",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
       "variant": "Zhongli",
       "component": "",
       "kind": "ib",
@@ -17151,6 +24973,74 @@
       "kind": "texture",
       "hash": "1db9961f",
       "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Zhongli",
+      "component": "",
+      "kind": "draw_vb",
+      "hash": "e646f8d3"
+    },
+    {
+      "variant": "Zhongli",
+      "component": "",
+      "kind": "ib",
+      "hash": "7450ea2a"
+    },
+    {
+      "variant": "Zhongli",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "4e3376db",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "Zhongli",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 0
+    },
+    {
+      "variant": "Zhongli",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 1
+    },
+    {
+      "variant": "Zhongli",
+      "component": "",
+      "kind": "texture",
+      "hash": "7eb5b84e",
+      "textureKind": "ShadowRamp",
+      "slot": 2
+    },
+    {
+      "variant": "Zhongli",
+      "component": "",
+      "kind": "texture",
+      "hash": "b0e08915",
+      "textureKind": "MetalMap",
+      "slot": 1
+    },
+    {
+      "variant": "Zhongli",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "bd51b05d",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "Zhongli",
+      "component": "Face",
+      "kind": "texture",
+      "hash": "f596208e",
+      "textureKind": "Shadow",
       "slot": 0
     },
     {
