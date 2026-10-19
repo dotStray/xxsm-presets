@@ -1,6 +1,6 @@
 # starrail: hashes more than one character has
 
-132 hashes are shared (the ignored shader hashes are left out). Most are an outfit sharing its base character's parts, which is expected.
+143 hashes are shared (the ignored shader hashes are left out). Most are an outfit sharing its base character's parts, which is expected.
 
 | Hash | Characters |
 |---|---|
@@ -44,6 +44,7 @@
 | `21b96557` | 2: Caelus, CaelusVigor |
 | `22f597ef` | 2: Caelus, CaelusVigor |
 | `28d09106` | 2: Caelus, CaelusVigor |
+| `31670196` | 2: Evanescia, EvanesciaLunar |
 | `3437de1d` | 2: Caelus, CaelusVigor |
 | `3ba4eb10` | 2: Caelus, CaelusVigor |
 | `3ca71eeb` | 2: Caelus, CaelusVigor |
@@ -56,6 +57,8 @@
 | `4a529bd9` | 2: Caelus, CaelusVigor |
 | `4e98df53` | 2: Stelle, StelleVigor |
 | `4ee730fd` | 2: Aglaea, Gepard |
+| `51e9543e` | 2: Hyacine, HyacineWarm |
+| `5417235e` | 2: Hyacine, HyacineWarm |
 | `560052ad` | 2: Caelus, CaelusVigor |
 | `5df1352e` | 2: Caelus, CaelusVigor |
 | `5e0031ed` | 2: Caelus, CaelusVigor |
@@ -69,12 +72,14 @@
 | `798d048d` | 2: Caelus, CaelusVigor |
 | `7a94826e` | 2: Bailu, Hook |
 | `7de7f0c0` | 2: Caelus, CaelusVigor |
+| `810e4378` | 2: Evanescia, EvanesciaLunar |
 | `825f79f5` | 2: Caelus, CaelusVigor |
 | `84ba7549` | 2: March7thPreservation, March7thPreservationSpring |
 | `870564f1` | 2: Caelus, CaelusVigor |
 | `8877a03c` | 2: Caelus, CaelusVigor |
 | `89cd27c7` | 2: March7thPreservation, March7thPreservationSpring |
 | `89fcb592` | 2: Caelus, CaelusVigor |
+| `8c18617d` | 2: Hyacine, HyacineWarm |
 | `8d6ae530` | 2: Caelus, CaelusVigor |
 | `91022b8f` | 2: Caelus, CaelusVigor |
 | `9108c1f1` | 2: Caelus, CaelusVigor |
@@ -84,8 +89,11 @@
 | `97c34928` | 2: Caelus, CaelusVigor |
 | `99361f97` | 2: March7thHunt, RuanMei |
 | `9b6d1345` | 2: March7thPreservation, March7thPreservationSpring |
+| `9c01ae0a` | 2: Hyacine, HyacineWarm |
+| `9ca46200` | 2: Evanescia, EvanesciaLunar |
 | `9cfbc761` | 2: Stelle, StelleVigor |
 | `9d8b73a6` | 2: RuanMei, RuanMeiPlumblossom |
+| `9e06efbe` | 2: Hyacine, HyacineWarm |
 | `9e47ee7c` | 2: Caelus, CaelusVigor |
 | `9e7ca423` | 2: Caelus, CaelusVigor |
 | `9eb07943` | 2: Caelus, CaelusVigor |
@@ -104,6 +112,7 @@
 | `b3683156` | 2: Clara, SilverWolf |
 | `b416a575` | 2: Jade, Jiaoqiu |
 | `b6a70a49` | 2: Stelle, StelleVigor |
+| `bb37fe93` | 2: Hyacine, HyacineWarm |
 | `bb859078` | 2: Jade, Jiaoqiu |
 | `bc4ae744` | 2: Caelus, CaelusVigor |
 | `bcfb045b` | 2: Clara, SilverWolf |
@@ -129,8 +138,10 @@
 | `e31bfa54` | 2: Castorice, CastoriceFlutter |
 | `e3ffef9a` | 2: Caelus, CaelusVigor |
 | `eac59924` | 2: DanHengIL, DanHengPT |
+| `ec1531f1` | 2: Evanescia, EvanesciaLunar |
 | `efc71230` | 2: Arlan, Yanqing |
 | `f00b031a` | 2: Caelus, CaelusVigor |
+| `f4c55be2` | 2: Evanescia, EvanesciaLunar |
 | `f4f5c11d` | 2: Caelus, CaelusVigor |
 | `f9a527b9` | 2: Caelus, CaelusVigor |
 | `fa0975b2` | 2: Caelus, CaelusVigor |

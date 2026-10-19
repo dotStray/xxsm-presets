@@ -1,8 +1,8 @@
 {
   "packSchemaVersion": 1,
   "gameId": "starrail",
-  "packVersion": "2026.10.04",
-  "generatedAt": "2026-10-04T00:00:00Z",
+  "packVersion": "2026.10.19",
+  "generatedAt": "2026-10-19T00:00:00Z",
   "builder": "packbuilder 0.1.0",
   "authoredBy": "official",
   "minAppVersion": "0.1.0",
@@ -15,7 +15,7 @@
     {
       "kind": "hashes",
       "url": "https://github.com/Astute4533/SR-Model-Importer-Assets",
-      "commit": "84e61eeb2680d8ba1ed6c01b1ac9bae5380100a6",
+      "commit": "b6891cfc4070d5d579d81e4cb2e6787f236ed3f0",
       "license": "No licence stated upstream"
     },
     {

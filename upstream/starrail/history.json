@@ -1,7 +1,7 @@
 {
   "repo": "https://github.com/Astute4533/SR-Model-Importer-Assets.git",
   "folder": "PlayerCharacterData",
-  "commit": "84e61eeb2680d8ba1ed6c01b1ac9bae5380100a6",
+  "commit": "b6891cfc4070d5d579d81e4cb2e6787f236ed3f0",
   "folders": {
     "Acheron": {
       "entries": [
@@ -1438,6 +1438,31 @@
         {"component": "Head", "kind": "texture", "hash": "ec1531f1", "textureKind": "Diffuse", "slot": 0, "added": "2026-05-13"}
       ]
     },
+    "EvanesciaLunar": {
+      "entries": [
+        {"component": "Body", "kind": "blend_vb", "hash": "a73f3a2b", "added": "2026-10-18"},
+        {"component": "Head", "kind": "blend_vb", "hash": "e20a009e", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "blend_vb", "hash": "fac30255", "added": "2026-10-18"},
+        {"component": "Body", "kind": "draw_vb", "hash": "7f898634", "added": "2026-10-18"},
+        {"component": "Head", "kind": "draw_vb", "hash": "810e4378", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "draw_vb", "hash": "955adc80", "added": "2026-10-18"},
+        {"component": "Body", "kind": "ib", "hash": "5d813d5f", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "ib", "hash": "673f948f", "added": "2026-10-18"},
+        {"component": "Head", "kind": "ib", "hash": "f4c55be2", "added": "2026-10-18"},
+        {"component": "Head", "kind": "position_vb", "hash": "9ca46200", "added": "2026-10-18"},
+        {"component": "Body", "kind": "position_vb", "hash": "c179d0ca", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "position_vb", "hash": "ed0267d1", "added": "2026-10-18"},
+        {"component": "Head", "kind": "texcoord_vb", "hash": "31670196", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texcoord_vb", "hash": "423cc311", "added": "2026-10-18"},
+        {"component": "Body", "kind": "texcoord_vb", "hash": "58400a87", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texture", "hash": "909c06c7", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texture", "hash": "c6a9219b", "textureKind": "LightMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "ca05d179", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "ceb83a0b", "textureKind": "LightMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Head", "kind": "texture", "hash": "ec1531f1", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "f1606ce7", "textureKind": "MaterialMap", "slot": 2, "added": "2026-10-18"}
+      ]
+    },
     "Evernight": {
       "entries": [
         {"component": "Body", "kind": "blend_vb", "hash": "079cf26d", "added": "2025-09-24"},
@@ -2283,6 +2308,31 @@
         {"component": "Head", "kind": "texture", "hash": "bb37fe93", "textureKind": "Diffuse", "slot": 0, "added": "2025-05-21"},
         {"component": "Body", "kind": "texture", "hash": "ef29d267", "textureKind": "LightMap", "slot": 0, "added": "2025-05-21"},
         {"component": "Body", "kind": "blend_vb", "hash": "65df9e7c", "added": "2026-02-13"}
+      ]
+    },
+    "HyacineCotton": {
+      "entries": [
+        {"component": "Hair", "kind": "blend_vb", "hash": "0f9e72c1", "added": "2026-10-18"},
+        {"component": "Body", "kind": "blend_vb", "hash": "3a0967fd", "added": "2026-10-18"},
+        {"component": "Head", "kind": "blend_vb", "hash": "8c18617d", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "draw_vb", "hash": "0b151819", "added": "2026-10-18"},
+        {"component": "Head", "kind": "draw_vb", "hash": "51e9543e", "added": "2026-10-18"},
+        {"component": "Body", "kind": "draw_vb", "hash": "83695747", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "ib", "hash": "2e667103", "added": "2026-10-18"},
+        {"component": "Body", "kind": "ib", "hash": "6949af0f", "added": "2026-10-18"},
+        {"component": "Head", "kind": "ib", "hash": "9e06efbe", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "position_vb", "hash": "3366bd25", "added": "2026-10-18"},
+        {"component": "Head", "kind": "position_vb", "hash": "5417235e", "added": "2026-10-18"},
+        {"component": "Body", "kind": "position_vb", "hash": "e41d0708", "added": "2026-10-18"},
+        {"component": "Body", "kind": "texcoord_vb", "hash": "288a8cbe", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texcoord_vb", "hash": "866f2a69", "added": "2026-10-18"},
+        {"component": "Head", "kind": "texcoord_vb", "hash": "9c01ae0a", "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "0462559f", "textureKind": "MaterialMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texture", "hash": "1f67d9a2", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "4e5c9cec", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texture", "hash": "5c6004a2", "textureKind": "LightMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Head", "kind": "texture", "hash": "bb37fe93", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "d331acfd", "textureKind": "LightMap", "slot": 0, "added": "2026-10-18"}
       ]
     },
     "Hysilens": {
@@ -3239,6 +3289,31 @@
         {"component": "Body", "kind": "texture", "hash": "6f4ab910", "textureKind": "Diffuse", "slot": 0, "added": "2025-04-09"},
         {"component": "Body", "kind": "texture", "hash": "919da513", "textureKind": "LightMap", "slot": 2, "added": "2025-04-09"},
         {"component": "Body", "kind": "texture", "hash": "fe813491", "textureKind": "LightMap", "slot": 0, "added": "2025-04-09"}
+      ]
+    },
+    "Pearl": {
+      "entries": [
+        {"component": "Hair", "kind": "blend_vb", "hash": "791eec38", "added": "2026-10-18"},
+        {"component": "Head", "kind": "blend_vb", "hash": "e1a91aa4", "added": "2026-10-18"},
+        {"component": "Body", "kind": "blend_vb", "hash": "fc62dbbd", "added": "2026-10-18"},
+        {"component": "Head", "kind": "draw_vb", "hash": "a82cd426", "added": "2026-10-18"},
+        {"component": "Body", "kind": "draw_vb", "hash": "e9087830", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "draw_vb", "hash": "f16bc25b", "added": "2026-10-18"},
+        {"component": "Body", "kind": "ib", "hash": "131b2800", "added": "2026-10-18"},
+        {"component": "Head", "kind": "ib", "hash": "7d3ba579", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "ib", "hash": "a8908f8d", "added": "2026-10-18"},
+        {"component": "Body", "kind": "position_vb", "hash": "55bd8856", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "position_vb", "hash": "800b3ea0", "added": "2026-10-18"},
+        {"component": "Head", "kind": "position_vb", "hash": "e91774b3", "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texcoord_vb", "hash": "37eb4ef3", "added": "2026-10-18"},
+        {"component": "Head", "kind": "texcoord_vb", "hash": "7c40ff86", "added": "2026-10-18"},
+        {"component": "Body", "kind": "texcoord_vb", "hash": "fe5c3173", "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "03510d3e", "textureKind": "MaterialMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texture", "hash": "25c8dbfe", "textureKind": "LightMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "b099d47d", "textureKind": "LightMap", "slot": 0, "added": "2026-10-18"},
+        {"component": "Body", "kind": "texture", "hash": "b4ce47f9", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Hair", "kind": "texture", "hash": "d20f1c85", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"},
+        {"component": "Head", "kind": "texture", "hash": "f806e9ea", "textureKind": "Diffuse", "slot": 0, "added": "2026-10-18"}
       ]
     },
     "Pela": {

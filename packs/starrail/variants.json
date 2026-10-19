@@ -411,8 +411,7 @@
       "element": "physical",
       "path": "elation",
       "rarity": 5
-    },
-    "hashesPending": true
+    }
   },
   {
     "internalName": "Evernight",
@@ -646,8 +645,7 @@
       "element": "wind",
       "path": "remembrance",
       "rarity": 5
-    },
-    "hashesPending": true
+    }
   },
   {
     "internalName": "Hysilens",
@@ -894,8 +892,7 @@
       "element": "ice",
       "path": "elation",
       "rarity": 5
-    },
-    "hashesPending": true
+    }
   },
   {
     "internalName": "Pela",

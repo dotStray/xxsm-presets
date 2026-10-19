@@ -1,6 +1,6 @@
 {
   "repo": "Astute4533/SR-Model-Importer-Assets",
-  "commit": "84e61eeb2680d8ba1ed6c01b1ac9bae5380100a6",
+  "commit": "b6891cfc4070d5d579d81e4cb2e6787f236ed3f0",
   "folder": "PlayerCharacterData",
   "files": {
     "Acheron/hash.json": "9aba912a63df93035580e9cb451c290fb6dd88f1",
@@ -31,6 +31,7 @@
     "DanHengPT/hash.json": "03f2a79a8685ff4c2f39bfe74bb666d6695575c4",
     "DrRatio/hash.json": "4f593ac20da0fc458ba2c0d3812240f516ecf449",
     "Evanescia/hash.json": "2d38400806adf384649c19e08a9aaedd2360c107",
+    "EvanesciaLunar/hash.json": "413ca1bdd0740bc057e2c0745ea484bbf2920b43",
     "Evernight/hash.json": "c62a3a08f37c7b1a8f7cc6efb3f5614c4a65e79b",
     "Feixiao/hash.json": "4db8e90f1fd507e3f1eceab4d9fb01274350d02d",
     "Firefly/hash.json": "66dba2c2eaab0dac67bba7a89c6313cba51c9557",
@@ -48,6 +49,7 @@
     "Hook/hash.json": "71793af2bca2c043c5ad9de374bb7f86c609261e",
     "Huohuo/hash.json": "92293ac2c4d4f16e7a306f6f8b933adfd8e2ccee",
     "Hyacine/hash.json": "bc9058ec9ad26b067ed1fbeb90d8aaa82f2b2efd",
+    "HyacineCotton/hash.json": "3536ca2eb6d4a39943b2d8f09f4a93c000806934",
     "Hysilens/hash.json": "da103c8a129051c629229377161508eb32db42c9",
     "Jade/hash.json": "e959c8b0e799246df879bf3a5602d99e743266b0",
     "Jiaoqiu/hash.json": "215039165d7242b8ddbf13a5b57bdad8cf2848f9",
@@ -66,6 +68,7 @@
     "Moze/hash.json": "fbb58ef8a27cbf5670411e08eb0097a0375a3609",
     "Mydei/hash.json": "60c7a8ee8b208b2bad9d29a45a63e16ffa08fbdf",
     "Natasha/hash.json": "95cc00c2309315961cb4e4814f001f02f32ae565",
+    "Pearl/hash.json": "d7ad7cc358db151b1637bf20715529fbbb5d9b9c",
     "Pela/hash.json": "8f450e65638a81893dbe88aa4cc69bc78eba4ce0",
     "Phainon/hash.json": "b4eaf909dec8feee84605f0a1ccb6a63fb947643",
     "PhainonKhaslana/hash.json": "d318fbaf1a3f5c3c02373dce49093014fad68f78",
