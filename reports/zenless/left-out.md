@@ -4,6 +4,6 @@
 
 - `avatar:1502` **Aria (and its 2 outfits)** — another entry, avatar:1501, has the same name and is in the pack as Aria. If this one is a character of its own, give it a name in "join" in overrides.
 - `avatar:1582` **Remielle** — another entry, avatar:1581, has the same name and is in the pack as Remielle. If this one is a character of its own, give it a name in "join" in overrides.
-- `avatar:1601` **Sunbringer** — it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides).
-- `avatar:1602` **Lindverne** — it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides).
-- `avatar:1603` **CampusLead** — it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides).
+- `avatar:1602` **Lindverne** — it has no name in the source yet; it is added the week it gets one.
+- `avatar:1603` **CampusLead** — it has no name in the source yet; it is added the week it gets one.
+- `avatar:1604` **Lindverne** — it has no name in the source yet; it is added the week it gets one.

@@ -53,11 +53,11 @@
         {
           "key": "skin:3110311",
           "name": "Cunning Cutie",
-          "image": "https://cdn.gachabase.net/zzz/assets/151aa2a4191cf89e501b0cd3a19a19fb.png",
+          "image": "https://cdn.gachabase.net/zzz/assets/67d509fcddef96d26d6fcbb0fe33072b.png",
           "imageFrame": "https://cdn.gachabase.net/zzz/assets/4392befb3eecf056c45506cbd9e4ac60.png"
         }
       ],
-      "sourceHash": "release:r2:f277d552b8cf13c91e32b2a93df346d0:600b7045b67d423d5c939e8a93826d58:10a62818d91ceb963a21805f21181dc5"
+      "sourceHash": "release:r2:f277d552b8cf13c91e32b2a93df346d0:cfa3cb1ca614ecbb7a7ae163ec64ed58:10a62818d91ceb963a21805f21181dc5"
     },
     {
       "key": "avatar:1041",
@@ -987,7 +987,7 @@
           "imageFrame": "https://cdn.gachabase.net/zzz/assets/461813be9a4520c24eb5a8cd3c38e86c.png"
         }
       ],
-      "sourceHash": "release:r2:1b89b9af764231e464b755984c14bddc:16e6508f0e14eeb92761c072bd739b43:ff29f096597bd40fe12516b66ede27ff"
+      "sourceHash": "release:r2:72a0d90bc1505481662cb3243e8cafcb:16e6508f0e14eeb92761c072bd739b43:ff29f096597bd40fe12516b66ede27ff"
     },
     {
       "key": "avatar:1511",
@@ -1182,7 +1182,7 @@
         "rank": 4
       },
       "image": "https://cdn.gachabase.net/zzz/assets/5550f028b6e3c83820fbe426e21d13f8.png",
-      "sourceHash": "release:r2:5c5609195a7c15796a9b7ebc8f963490:5d134482945ddaccb032956361e214fa:adc4fdb7aa7520fe7004e753e6d243c3"
+      "sourceHash": "release:r2:45806e0ac74fd84019b25ed81d60ace5:5d134482945ddaccb032956361e214fa:adc4fdb7aa7520fe7004e753e6d243c3"
     },
     {
       "key": "avatar:1591",
@@ -1207,6 +1207,23 @@
         }
       ],
       "sourceHash": "release:r2:ce1a1f7f6ea34e66302d611d367ce096:466854ca8fc8fbb16b8980ac27512bc5:bdb36d126e8e3f59d26abbe9f333abe2"
+    },
+    {
+      "key": "avatar:1601",
+      "name": "Sunbringer",
+      "joinKeys": [
+        "sunbringer"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "attribute": [
+          "Fire"
+        ],
+        "specialty": "Armorer",
+        "rank": 4
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/e31f3f92ec3fd82e5530aa29093b462c.png",
+      "sourceHash": "beta:r2:b370bc9315d7b25ec2ef2c6a9349b83c:f5a49187e5e1fae4f76ab4e49a0857ea:ba02fea420fbece68f52ab66a577b16d"
     },
     {
       "key": "avatar:1611",
@@ -1247,7 +1264,6 @@
       "joinKeys": [
         "severian"
       ],
-      "branch": "beta",
       "attributes": {
         "attribute": [
           "Wind"
@@ -1256,7 +1272,15 @@
         "rank": 4
       },
       "image": "https://cdn.gachabase.net/zzz/assets/63f0a72fec36301c3de355ce78f32d2d.png",
-      "sourceHash": "beta:r2:0bcef2f43d99d735c9d2c56ce07d07c6:48499fffe08dd50ffcaba5978eecb179:442e14093b5655a1e205077af7dd93b6"
+      "outfits": [
+        {
+          "key": "skin:3116311",
+          "name": "Solemnly Impeccable",
+          "image": "https://cdn.gachabase.net/zzz/assets/cc7d91cf9d18adab16ca2bba5a92036b.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/a5d82d9df75ae9b93945355343ce8fb6.png"
+        }
+      ],
+      "sourceHash": "release:r2:d77506b32a6de759d3f587f00368e73e:f8f2d673f5416c75f77d93947b1d9744:82ad2ccb0c73c95b936ae9f1a1665a97"
     },
     {
       "key": "avatar:1641",
@@ -1265,7 +1289,6 @@
         "phoenix",
         "pheony"
       ],
-      "branch": "beta",
       "attributes": {
         "attribute": [
           "Fire"
@@ -1274,24 +1297,73 @@
         "rank": 4
       },
       "image": "https://cdn.gachabase.net/zzz/assets/8f0be38216c1d38219a1cb97c18d76c2.png",
-      "sourceHash": "beta:r2:e8bab497fec914de73cc271f422a4aeb:b682abd3074e2f9bfea453039f52c47b:e21a1e8f7f534f00455351896dbf3be7"
+      "outfits": [
+        {
+          "key": "skin:3116411",
+          "name": "The Illness Called Life",
+          "image": "https://cdn.gachabase.net/zzz/assets/03bde9f7906f0114996c19cd4cf67ccd.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/483fcb2e6a5f6f9e53b586ca4906f64b.png"
+        },
+        {
+          "key": "skin:3116412",
+          "name": "Daydream Complex",
+          "image": "https://cdn.gachabase.net/zzz/assets/031b1aa1c0b3b77c9ab0db7a0a161e57.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/483fcb2e6a5f6f9e53b586ca4906f64b.png"
+        }
+      ],
+      "sourceHash": "release:r2:6a4e946033a74fd62a6d90d515857538:058b4649d5bb8cd6faf88e9f116c9ca9:2fbd97ba37455cbb53891f593fba7a7a"
+    },
+    {
+      "key": "avatar:1651",
+      "name": "Kafka",
+      "joinKeys": [
+        "kafka"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "attribute": [
+          "Electric"
+        ],
+        "specialty": "Anomaly",
+        "rank": 4
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/cbcfcf945513e3f2a176d2c2f0114bd6.png",
+      "imageFrame": "https://cdn.gachabase.net/zzz/assets/fefce6b2020d476f08494426603ed363.png",
+      "sourceHash": "beta:r2:200c2ed5ba5079972ed9c32bc739c4fa:578173041d1f08bd4ea4e664852ee0b5:8fac2448a26e317530320e897e37472e"
+    },
+    {
+      "key": "avatar:1661",
+      "name": "Robin",
+      "joinKeys": [
+        "robin"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "attribute": [
+          "Ether"
+        ],
+        "specialty": "Defense",
+        "rank": 4
+      },
+      "image": "https://cdn.gachabase.net/zzz/assets/da1068033874c2c5fb75e44815a9180b.png",
+      "sourceHash": "beta:r2:3d277ced50c81aa5223c1eb0e6df1f7b:7ca0900e93c941f88198b7115f5baeda:670e638d9feecc304747dc5521202fcd"
     }
   ],
   "leftOut": [
     {
-      "key": "avatar:1601",
-      "name": "Sunbringer",
-      "reason": "it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides)"
-    },
-    {
       "key": "avatar:1602",
       "name": "Lindverne",
-      "reason": "it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides)"
+      "reason": "it has no name in the source yet; it is added the week it gets one"
     },
     {
       "key": "avatar:1603",
       "name": "CampusLead",
-      "reason": "it is not on gachabase's beta list of agents, which decides who is in (config → roster → betaListDecides)"
+      "reason": "it has no name in the source yet; it is added the week it gets one"
+    },
+    {
+      "key": "avatar:1604",
+      "name": "Lindverne",
+      "reason": "it has no name in the source yet; it is added the week it gets one"
     }
   ]
 }

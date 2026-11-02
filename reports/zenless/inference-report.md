@@ -21,9 +21,12 @@
 | NangongYuRapsody | NangongYu | the character list names it as an outfit | high |
 | NicoleCutie | Nicole | the character list names it as an outfit | high |
 | PanYinhuJewel | PanYinhu | the character list names it as an outfit | high |
+| PhoenixDaydream | Phoenix | the character list names it as an outfit | high |
+| PhoenixIllness | Phoenix | the character list names it as an outfit | high |
 | RemielleMoonlight | Remielle | the character list names it as an outfit | high |
 | RemielleMoonlightWhispersVeil | Remielle | the character list names it as an outfit | high |
 | RemielleSummer | Remielle | the character list names it as an outfit | high |
+| SeverianSolemnly | Severian | the character list names it as an outfit | high |
 | SigridSummer | Sigrid | the character list names it as an outfit | high |
 | SunnaKfc | Sunna | the character list names it as an outfit | high |
 | SunnaMaid | Sunna | the character list names it as an outfit | high |

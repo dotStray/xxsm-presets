@@ -147,6 +147,12 @@
     "source": "https://cdn.gachabase.net/zzz/assets/28475743c4563dda002200eaf0216139.png",
     "sha256": "f5301d2802a0c6d8aad99adb598350dba3f625e497c16a306470dfad99004689"
   },
+  "Kafka": {
+    "source": "https://cdn.gachabase.net/zzz/assets/cbcfcf945513e3f2a176d2c2f0114bd6.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/fefce6b2020d476f08494426603ed363.png",
+    "frameScale": 2.0,
+    "sha256": "f7800ae81f6ddb44b574885c2f9198820abc6be13745d8c9d46585b6fe71273d"
+  },
   "Koleda": {
     "source": "https://cdn.gachabase.net/zzz/assets/49acf5cd330ed18abe9e58c6003ae6e6.png",
     "sha256": "beac731514347905a41ddf6f370deb25b85ce9aeaec3a191c0aa358ba76388f2"
@@ -218,10 +224,10 @@
     "sha256": "ee833c2ae1c77ca92b663cc5f0d3267d1898a5f15a873debbefeaca83998166d"
   },
   "NicoleCutie": {
-    "source": "https://cdn.gachabase.net/zzz/assets/151aa2a4191cf89e501b0cd3a19a19fb.png",
+    "source": "https://cdn.gachabase.net/zzz/assets/67d509fcddef96d26d6fcbb0fe33072b.png",
     "frame": "https://cdn.gachabase.net/zzz/assets/4392befb3eecf056c45506cbd9e4ac60.png",
     "frameScale": 2.0,
-    "sha256": "e10ecb6ffca2552a2af0540daa3d71e7f2ed3d230f631fb3f68df99ee9258757"
+    "sha256": "65611aa87db575ccac686d522361d314c1e0a00e90185736125e0fe5c4b78883"
   },
   "Norma": {
     "source": "https://cdn.gachabase.net/zzz/assets/d28a193deaf7f4787ce72fb1211f5684.png",
@@ -244,6 +250,18 @@
   "Phoenix": {
     "source": "https://cdn.gachabase.net/zzz/assets/8f0be38216c1d38219a1cb97c18d76c2.png",
     "sha256": "52935070e33f15c43a8938bad3bc3498527638c16747d6b1d0be341abd9c1c78"
+  },
+  "PhoenixDaydream": {
+    "source": "https://cdn.gachabase.net/zzz/assets/031b1aa1c0b3b77c9ab0db7a0a161e57.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/483fcb2e6a5f6f9e53b586ca4906f64b.png",
+    "frameScale": 2.0,
+    "sha256": "5bbadc08128b25d4e54da7c30541b423cc4ccfc7f8b31c199ba05e7a50aa898b"
+  },
+  "PhoenixIllness": {
+    "source": "https://cdn.gachabase.net/zzz/assets/03bde9f7906f0114996c19cd4cf67ccd.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/483fcb2e6a5f6f9e53b586ca4906f64b.png",
+    "frameScale": 2.0,
+    "sha256": "a98494eb1bbe8ac7e35e824b9d55389321fd2a6a9dfc3c4e9d4cd59172d86794"
   },
   "Piper": {
     "source": "https://cdn.gachabase.net/zzz/assets/1976a2cefd6c40343c301e2a6d41861f.png",
@@ -291,6 +309,10 @@
     "source": "https://cdn.gachabase.net/zzz/assets/b06b14634997744ca11b55d9397dfcdf.png",
     "sha256": "b0c67b391fbee8917a6e452f13898f8997d271727f120c9fab3b281002e408e3"
   },
+  "Robin": {
+    "source": "https://cdn.gachabase.net/zzz/assets/da1068033874c2c5fb75e44815a9180b.png",
+    "sha256": "4bb0ad0e4d7c44743af72aa08b8ab48527a16c2a90cc069b87025b5619ff7a28"
+  },
   "Roxy": {
     "source": "https://cdn.gachabase.net/zzz/assets/7952393ff5046f93da5853ad3fe75001.png",
     "sha256": "15b9014046359f5069652e9c6639304ae8dadd482098222045cb099e267c29e1"
@@ -306,6 +328,12 @@
   "Severian": {
     "source": "https://cdn.gachabase.net/zzz/assets/63f0a72fec36301c3de355ce78f32d2d.png",
     "sha256": "d076ead9106fc1f95314563c37120a370c67e57a2134691cdad01a61ea80600f"
+  },
+  "SeverianSolemnly": {
+    "source": "https://cdn.gachabase.net/zzz/assets/cc7d91cf9d18adab16ca2bba5a92036b.png",
+    "frame": "https://cdn.gachabase.net/zzz/assets/a5d82d9df75ae9b93945355343ce8fb6.png",
+    "frameScale": 2.0,
+    "sha256": "9ea82317a39fc8a37c1fcdc3fb34bff59011f041728ad5982774b61aa6e0d365"
   },
   "Sigrid": {
     "source": "https://cdn.gachabase.net/zzz/assets/a61e2a6333cc18a69c9499bf27ca0968.png",
@@ -328,6 +356,10 @@
   "Soukaku": {
     "source": "https://cdn.gachabase.net/zzz/assets/32e2b296dc0fb23ccbfb3eb688f490dd.png",
     "sha256": "a98dcb31b8a5c14d8384af81241188742a2613fddbc8b35e3ae32f9ee6da421d"
+  },
+  "Sunbringer": {
+    "source": "https://cdn.gachabase.net/zzz/assets/e31f3f92ec3fd82e5530aa29093b462c.png",
+    "sha256": "e6c0f7e883521695ab2d7af749f00c993c545ec817d261dd9750dea68a1e92c2"
   },
   "Sunna": {
     "source": "https://cdn.gachabase.net/zzz/assets/7bb302a9c0bf8446d95b78ec33514761.png",

@@ -16,15 +16,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/c1c0e6911e89adb206708bf871fc3ecd.png",
+      "image": "https://cdn.gachabase.net/gi/assets/01bd1655584d890ceffd290891f24380.png",
       "outfits": [
         {
           "key": "skin:200201",
           "name": "Springbloom Missive",
-          "image": "https://cdn.gachabase.net/gi/assets/21e28e47f7f4da71d785e0cf0a5bf98a.png"
+          "image": "https://cdn.gachabase.net/gi/assets/ef44f6a53651004d2faa39473ec7bd71.png"
         }
       ],
-      "sourceHash": "release:r2:a7d0272d365ecf9c803a860842a24ab2:af293e1f0e22e6d60bba900412f09550:e185de41b8bc453ad2abf74384540983"
+      "sourceHash": "release:r2:a7d0272d365ecf9c803a860842a24ab2:1b0ea77c2a1e4ec72f0c69562322f5c7:e185de41b8bc453ad2abf74384540983"
     },
     {
       "key": "avatar:10000003",
@@ -37,20 +37,20 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/34146c3986e10e282d6965388e18f6b8.png",
+      "image": "https://cdn.gachabase.net/gi/assets/c0325d28aa7e0e0f19c0b4bd69ecda15.png",
       "outfits": [
         {
           "key": "skin:200301",
           "name": "Sea Breeze Dandelion",
-          "image": "https://cdn.gachabase.net/gi/assets/84f696e697102ea433c679295e19b973.png"
+          "image": "https://cdn.gachabase.net/gi/assets/f121acf8a39dc0377e4c7c41af8f3b07.png"
         },
         {
           "key": "skin:200302",
           "name": "Gunnhildr's Legacy",
-          "image": "https://cdn.gachabase.net/gi/assets/a9516539ad50937638e1891145051d71.png"
+          "image": "https://cdn.gachabase.net/gi/assets/e4e4cf9ff4e070c23b5e94052b2ed98c.png"
         }
       ],
-      "sourceHash": "release:r2:2dfb4a7fa6f755b84acbce0192b23d58:191dc3414564bff6b8198b190655c58d:4bf597a8f15af3487d901475938ad990"
+      "sourceHash": "release:r2:2dfb4a7fa6f755b84acbce0192b23d58:66314b580e747958d85f9d38f70d2327:4bf597a8f15af3487d901475938ad990"
     },
     {
       "key": "avatar:10000005-anemo",
@@ -64,15 +64,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-cryo",
@@ -86,15 +86,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-dendro",
@@ -108,15 +108,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-electro",
@@ -130,15 +130,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-geo",
@@ -152,15 +152,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-hydro",
@@ -174,15 +174,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000005-pyro",
@@ -196,15 +196,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a3c74f5b76a2afb67e45418b72a935be.png",
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
       "outfits": [
         {
           "key": "skin:200501",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4a270318c48efaacbb6d0b08d2e4a495.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
         }
       ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:68846b450fc1c7b91315ff3fc23a974c:e3727658bb3b0d263bfd2b6e6bda9a65"
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
       "key": "avatar:10000006",
@@ -217,15 +217,15 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/f0fc6d0af6b2fdc328ba3296ed259842.png",
+      "image": "https://cdn.gachabase.net/gi/assets/56f7a290a7bdc85efcd70871f0710f0d.png",
       "outfits": [
         {
           "key": "skin:200601",
           "name": "A Sobriquet Under Shade",
-          "image": "https://cdn.gachabase.net/gi/assets/df266941e7072eb854c27e8dfb838ebc.png"
+          "image": "https://cdn.gachabase.net/gi/assets/95b9ce8f65c76704c99c96a52a2d552d.png"
         }
       ],
-      "sourceHash": "release:r2:23e4b6d34bf4fde8f648d57a5ac5838e:e0b5d8175b73b45a2604504ca280306c:d770048ded02ced2f79fb7119e23809f"
+      "sourceHash": "release:r2:23e4b6d34bf4fde8f648d57a5ac5838e:8046c0bfa10dc01172d1beda90417e6a:d770048ded02ced2f79fb7119e23809f"
     },
     {
       "key": "avatar:10000007-anemo",
@@ -239,15 +239,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-cryo",
@@ -261,15 +261,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-dendro",
@@ -283,15 +283,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-electro",
@@ -305,15 +305,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-geo",
@@ -327,15 +327,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-hydro",
@@ -349,15 +349,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000007-pyro",
@@ -371,15 +371,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ea1686dbbaa664926e6072bd91b5f1bc.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
       "outfits": [
         {
           "key": "skin:200701",
           "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/ee60bc29350037479beb048a7282cafe.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
         }
       ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:215567fafa087e267b60fca2beb15184:6942e58e886177aa1701a8c62b18dbec"
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
       "key": "avatar:10000014",
@@ -392,15 +392,15 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/42db7fcb2d4d4ca875eb463657821d9d.png",
+      "image": "https://cdn.gachabase.net/gi/assets/d690017cf3871d16861837597d56402c.png",
       "outfits": [
         {
           "key": "skin:201401",
           "name": "Summertime Sparkle",
-          "image": "https://cdn.gachabase.net/gi/assets/982d0cbe9fc93877c03d9f6c0b4472cd.png"
+          "image": "https://cdn.gachabase.net/gi/assets/a2cefe789fe127f3fba6f3673968875f.png"
         }
       ],
-      "sourceHash": "release:r2:8567b78378ed0ef59b746264dbac3907:6894dd9bce9ecf41e1651002737313f9:93c403228a139e78c70d16c72772ceba"
+      "sourceHash": "release:r2:8567b78378ed0ef59b746264dbac3907:38efb7e805bad0d97843944ef0131694:93c403228a139e78c70d16c72772ceba"
     },
     {
       "key": "avatar:10000015",
@@ -413,15 +413,15 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ac5c5a0cace3e36002ceb5fd1779387a.png",
+      "image": "https://cdn.gachabase.net/gi/assets/a2dbd4a96ccbd206f302f85f637ee9db.png",
       "outfits": [
         {
           "key": "skin:201501",
           "name": "Sailwind Shadow",
-          "image": "https://cdn.gachabase.net/gi/assets/c0ae31eb6854d7c39936110fa1aed91a.png"
+          "image": "https://cdn.gachabase.net/gi/assets/517aeb47f1381c0c7cf22f61ae60d5e7.png"
         }
       ],
-      "sourceHash": "release:r2:69d5153b5102e08c099958205651a87a:4b6cc21b759ffe4b90dde209c0cd8f4f:f664e6f17fa610ba25a54001f1cd8d78"
+      "sourceHash": "release:r2:69d5153b5102e08c099958205651a87a:21b0afd5b47f596f8550c752612c9caa:f664e6f17fa610ba25a54001f1cd8d78"
     },
     {
       "key": "avatar:10000016",
@@ -434,15 +434,15 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/1f57a9a785d58e11ab44af7a5ef9cfc6.png",
+      "image": "https://cdn.gachabase.net/gi/assets/799a9c50a2b4849ff346cff02b2f3653.png",
       "outfits": [
         {
           "key": "skin:201601",
           "name": "Red Dead of Night",
-          "image": "https://cdn.gachabase.net/gi/assets/674f8cd4fa8ab9bd163903aef1db2179.png"
+          "image": "https://cdn.gachabase.net/gi/assets/6354fb4cb1b18339a7d2bb30d6877631.png"
         }
       ],
-      "sourceHash": "release:r2:27d5792ea58b76ce61f96ed22333e0ae:44460909292fc16a7a162c47b9c561c3:8cde9ad28f8c881ff9f8461919efefdf"
+      "sourceHash": "release:r2:27d5792ea58b76ce61f96ed22333e0ae:d0e33cd68e2ed4d342d386f4e3dd5b57:8cde9ad28f8c881ff9f8461919efefdf"
     },
     {
       "key": "avatar:10000020",
@@ -455,8 +455,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/239ef580296a75094b733dfd77074985.png",
-      "sourceHash": "release:r2:3979ed502059813700c97c42e16c3405:62259996fc518cd18778b879cfeca17c:564fe584adec671b5f7ee40126a48de9"
+      "image": "https://cdn.gachabase.net/gi/assets/9df5679f6bc44e8560d7fceed5732818.png",
+      "sourceHash": "release:r2:3979ed502059813700c97c42e16c3405:49a3b97496b4908f5326bc1c7f478973:564fe584adec671b5f7ee40126a48de9"
     },
     {
       "key": "avatar:10000021",
@@ -469,15 +469,15 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/de25155a508d2f76c1dbba4ae1b41552.png",
+      "image": "https://cdn.gachabase.net/gi/assets/11a50b0ac0b21cc36cc50646ab5d20c5.png",
       "outfits": [
         {
           "key": "skin:202101",
           "name": "100% Outrider",
-          "image": "https://cdn.gachabase.net/gi/assets/f108fa2d5c867e6bd9b43dadf892bc83.png"
+          "image": "https://cdn.gachabase.net/gi/assets/840f90b18a537445b5622382dd049f65.png"
         }
       ],
-      "sourceHash": "release:r2:34fb62e337ea7645b8d99e20029553d7:9b9d79dbcd099fca5c2dea5b12b63eb6:09801f291b3c7e5e66325e17a8e4d524"
+      "sourceHash": "release:r2:34fb62e337ea7645b8d99e20029553d7:cce17fd5c8a769206d26476d958520c9:09801f291b3c7e5e66325e17a8e4d524"
     },
     {
       "key": "avatar:10000022",
@@ -490,8 +490,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/00cefd90d4dc229b0cc9bc64ca537707.png",
-      "sourceHash": "release:r2:ef562e7bd2f59ce866c68a450f4d0dff:28dc5eb6c3ff49f898e0dc19248fb391:7ce9381c5ba900e95f5ad1a8a6e60a51"
+      "image": "https://cdn.gachabase.net/gi/assets/d15fb2b55d19526020703ced81f85f7d.png",
+      "sourceHash": "release:r2:ef562e7bd2f59ce866c68a450f4d0dff:12de009554a468599ac964e2354c552c:7ce9381c5ba900e95f5ad1a8a6e60a51"
     },
     {
       "key": "avatar:10000023",
@@ -504,15 +504,15 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/01f6d0e399ca061841562d1a5351cc76.png",
+      "image": "https://cdn.gachabase.net/gi/assets/ab2f94b2b8410db31c18b0501f01302b.png",
       "outfits": [
         {
           "key": "skin:202301",
           "name": "New Year's Cheer",
-          "image": "https://cdn.gachabase.net/gi/assets/b065163b99eac97be8a4064d42812e5e.png"
+          "image": "https://cdn.gachabase.net/gi/assets/533c1eedaa6f887032554efcf7916e5d.png"
         }
       ],
-      "sourceHash": "release:r2:55d3ccd61336585ba6610374d3c1bc88:da61434fef8b2969b23f2aa15555514b:9d0ea0f85c4e81569d00012af09859e6"
+      "sourceHash": "release:r2:55d3ccd61336585ba6610374d3c1bc88:cd3c8f59eacc145287ce184a5cc7aaa1:9d0ea0f85c4e81569d00012af09859e6"
     },
     {
       "key": "avatar:10000024",
@@ -525,8 +525,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/217f737498f780c60332a9c8bd759dca.png",
-      "sourceHash": "release:r2:2ccb9170071c55b28409e0bb09b6e0db:9b3b4b5dc8728e151d77188a0bef4971:8f6a0cd496ad399a3f638f874f65b17f"
+      "image": "https://cdn.gachabase.net/gi/assets/ee41d4446a1e6ce2bbb6df163b30dfd9.png",
+      "sourceHash": "release:r2:2ccb9170071c55b28409e0bb09b6e0db:de752db3b5c09d133f190e2f25fb36f0:8f6a0cd496ad399a3f638f874f65b17f"
     },
     {
       "key": "avatar:10000025",
@@ -539,15 +539,15 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/28a7f17b0d6df7f942b4bbcb1aafcd81.png",
+      "image": "https://cdn.gachabase.net/gi/assets/132649d7a199f717fce6c7a6ab22caef.png",
       "outfits": [
         {
           "key": "skin:202501",
           "name": "Bamboo Rain",
-          "image": "https://cdn.gachabase.net/gi/assets/19978d2e6858f45e3e37c39550d64b5c.png"
+          "image": "https://cdn.gachabase.net/gi/assets/f40c03b4fec62f019484a33ca3f654ed.png"
         }
       ],
-      "sourceHash": "release:r2:308be576d7e95bff5f6a2da739f553c5:f11e856d5e8021abe11bf45a1dd2f44a:00775a93cb304431bb5f8283cb3b951e"
+      "sourceHash": "release:r2:308be576d7e95bff5f6a2da739f553c5:b60b2a4db3045ff3e653a0678475c073:00775a93cb304431bb5f8283cb3b951e"
     },
     {
       "key": "avatar:10000026",
@@ -560,8 +560,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/3f49194503389829d0696e40a56b987a.png",
-      "sourceHash": "release:r2:f48838e94ded2958f8010fcf73f2fa1c:8bf7d427eaff9b09b015b9509a39b0f4:629aafa4537ba9340320b4ac289e8a75"
+      "image": "https://cdn.gachabase.net/gi/assets/a78a380ad0ee9d2be1b6b684c21c2527.png",
+      "sourceHash": "release:r2:f48838e94ded2958f8010fcf73f2fa1c:8bd4781194b2b1fd5ce25e4a5b96b560:629aafa4537ba9340320b4ac289e8a75"
     },
     {
       "key": "avatar:10000027",
@@ -574,15 +574,15 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/9d738ad06cbfb3b95133db467f0cf3c6.png",
+      "image": "https://cdn.gachabase.net/gi/assets/4170d1625b9740a71052030297527639.png",
       "outfits": [
         {
           "key": "skin:202701",
           "name": "Orchid's Evening Gown",
-          "image": "https://cdn.gachabase.net/gi/assets/e5dd63b16b3e87229219bfe98827052b.png"
+          "image": "https://cdn.gachabase.net/gi/assets/7c6dcf62d116c35e2bfa26d7bf20818f.png"
         }
       ],
-      "sourceHash": "release:r2:2b696ce277c071e8a6442da815448029:8b9740f93853b8322d7e674704fc69f1:80bda464d69c744c37f81582b64ecdab"
+      "sourceHash": "release:r2:2b696ce277c071e8a6442da815448029:dcd97e6aa69a26a6ee53c793491a5977:80bda464d69c744c37f81582b64ecdab"
     },
     {
       "key": "avatar:10000029",
@@ -595,15 +595,15 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/df2b99f0f527b07c80dab41165239d4b.png",
+      "image": "https://cdn.gachabase.net/gi/assets/cd653c87fea3815f44edcb71db110647.png",
       "outfits": [
         {
           "key": "skin:202901",
           "name": "Blossoming Starlight",
-          "image": "https://cdn.gachabase.net/gi/assets/cd964757fd0644cff26e402da5744b9d.png"
+          "image": "https://cdn.gachabase.net/gi/assets/66cd9a54af1379d2ffe130b2d4231371.png"
         }
       ],
-      "sourceHash": "release:r2:f962595e2a50291603137a8af6dc9be3:f349ed00db582a82f88eeb94c69b146d:dc5bfa812db3c41a46f159fbea24e1f4"
+      "sourceHash": "release:r2:f962595e2a50291603137a8af6dc9be3:625a4fde9fc7ed4a3805e993e4a6dfc9:dc5bfa812db3c41a46f159fbea24e1f4"
     },
     {
       "key": "avatar:10000030",
@@ -616,8 +616,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e3424ad122507762f9edd87ceebc24eb.png",
-      "sourceHash": "release:r2:a3929bf7a56f2f34f0e1c129dc54ea8f:715cf92ee0f7a48b513fdbde59d03606:c00fe8a77a1eba57e1923d3bf6e1eb30"
+      "image": "https://cdn.gachabase.net/gi/assets/37de10beba5ba9b67d9fcc44d5de6574.png",
+      "sourceHash": "release:r2:a3929bf7a56f2f34f0e1c129dc54ea8f:a24a8e56b1e674753b7d432f361f246b:c00fe8a77a1eba57e1923d3bf6e1eb30"
     },
     {
       "key": "avatar:10000031",
@@ -630,15 +630,15 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/eedb938da46e1491c39dc7f410c3cf88.png",
+      "image": "https://cdn.gachabase.net/gi/assets/6c6b4b40a120e9b6e0dffe24313fc802.png",
       "outfits": [
         {
           "key": "skin:203101",
           "name": "Ein Immernachtstraum",
-          "image": "https://cdn.gachabase.net/gi/assets/8bfeb9f36a4304535ac33e3b13bd25df.png"
+          "image": "https://cdn.gachabase.net/gi/assets/031a97d0df0bdae95c50415c1f92e53e.png"
         }
       ],
-      "sourceHash": "release:r2:cf0fcd09b994813967fe3e5e4a97a738:400028b54983dd9d12ca5849b0d3f347:fbc89da114dd1337cf2ce4fbc3da54b3"
+      "sourceHash": "release:r2:cf0fcd09b994813967fe3e5e4a97a738:4e66356c7793d4e0d3e69937a6b04ac4:fbc89da114dd1337cf2ce4fbc3da54b3"
     },
     {
       "key": "avatar:10000032",
@@ -651,15 +651,15 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/62129df9b3b30972d26d0bfac473231c.png",
+      "image": "https://cdn.gachabase.net/gi/assets/8d3cfc558dd1eb14368774751519b3af.png",
       "outfits": [
         {
           "key": "skin:203201",
           "name": "Adventures in Blazing Hue",
-          "image": "https://cdn.gachabase.net/gi/assets/84ffb106a053b02122d71b97cf194e6d.png"
+          "image": "https://cdn.gachabase.net/gi/assets/3fd1ff7ff94329cd342d3b677360c62e.png"
         }
       ],
-      "sourceHash": "release:r2:491c920464eeaadc0361c84b74524a55:c92e53573a32a6d390d0faaef33b345d:31a838b9b5d97a4fc826fefb1ac78185"
+      "sourceHash": "release:r2:491c920464eeaadc0361c84b74524a55:21fb36920b06008629234a5f0816f744:31a838b9b5d97a4fc826fefb1ac78185"
     },
     {
       "key": "avatar:10000033",
@@ -672,8 +672,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/f336a7762947f9a31807942fd9c89793.png",
-      "sourceHash": "release:r2:6018f637c428310709befc93df079b8b:a16fcf04579d35e7b0c4b09d482c8ea3:d35b76a293a8f3dc6cba7a4deb5661b1"
+      "image": "https://cdn.gachabase.net/gi/assets/4c79e19610d2659a303c61cc0d1eb69e.png",
+      "sourceHash": "release:r2:6018f637c428310709befc93df079b8b:462b5b41edc81de48fde7e3d3fa9b709:d35b76a293a8f3dc6cba7a4deb5661b1"
     },
     {
       "key": "avatar:10000034",
@@ -686,8 +686,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/eca70d2dc912c1eec24754bbf5f94567.png",
-      "sourceHash": "release:r2:67db98b7818232d4cac0a91c1ad92f3a:5fa46fab5b2f6bd9ccd08113c17309c5:6c1275c4030f17f21e2e55f809bb5b96"
+      "image": "https://cdn.gachabase.net/gi/assets/6adf6bebd61db037c8990cf2a925be94.png",
+      "sourceHash": "release:r2:67db98b7818232d4cac0a91c1ad92f3a:23c92d8cfbe5af4f503f1208af0aee71:6c1275c4030f17f21e2e55f809bb5b96"
     },
     {
       "key": "avatar:10000035",
@@ -700,8 +700,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/f6d67dd777a4baf59fcf0d7fe6128c22.png",
-      "sourceHash": "release:r2:f2126c37f54997367cb031c63043b934:8527daa00ad1c86b2b642933810517fa:55ed2b24089d6d57a4c09e04c14b110b"
+      "image": "https://cdn.gachabase.net/gi/assets/68b9e869712b02ff116a99d62c4873d4.png",
+      "sourceHash": "release:r2:f2126c37f54997367cb031c63043b934:8da482c7d97cd8f58f2f78a660495b7c:55ed2b24089d6d57a4c09e04c14b110b"
     },
     {
       "key": "avatar:10000036",
@@ -714,8 +714,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a79dc489040ae486945d0a57298e4be2.png",
-      "sourceHash": "release:r2:83a3f94336657d5da7983853c6c2c196:6ec2585b0ea91b44479acda62a503fd9:5ba35e54a0cd53ab1919043b667be234"
+      "image": "https://cdn.gachabase.net/gi/assets/66680e97e0fd238372b9d9844c150cec.png",
+      "sourceHash": "release:r2:83a3f94336657d5da7983853c6c2c196:1e90b464e070146f9a6bbb03b422bf89:5ba35e54a0cd53ab1919043b667be234"
     },
     {
       "key": "avatar:10000037",
@@ -728,15 +728,15 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d3d392262216d18dde7458b323c01842.png",
+      "image": "https://cdn.gachabase.net/gi/assets/298b511471311ef3cfee8e65e14c017f.png",
       "outfits": [
         {
           "key": "skin:203701",
           "name": "Twilight Blossom",
-          "image": "https://cdn.gachabase.net/gi/assets/d5bdd35d7818fcbe8083189b67b8fece.png"
+          "image": "https://cdn.gachabase.net/gi/assets/5aa8457f001ab48f397d6dc02d12301e.png"
         }
       ],
-      "sourceHash": "release:r2:1fc3558dc8477969c88da73161f9b903:3d36df64d7d8bdf7c84a7ff65d587ecb:d55caaae8bfe59668c528eef9b9c793d"
+      "sourceHash": "release:r2:1fc3558dc8477969c88da73161f9b903:df4048a691f98398fc0abaeb0bb7fb47:d55caaae8bfe59668c528eef9b9c793d"
     },
     {
       "key": "avatar:10000038",
@@ -749,8 +749,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d67b89365634517a3e32c44dac17c043.png",
-      "sourceHash": "release:r2:fc47be0df95cf7daa6b437b8647e2db8:a2d9a6a419ac038ca590ff978e7a668c:4f0637f917c51583e03c35c8e4b5c957"
+      "image": "https://cdn.gachabase.net/gi/assets/9e80de34871edcc116f21670e9196153.png",
+      "sourceHash": "release:r2:fc47be0df95cf7daa6b437b8647e2db8:7e435484e4d2e12cee8cc0513575ad4a:4f0637f917c51583e03c35c8e4b5c957"
     },
     {
       "key": "avatar:10000039",
@@ -763,8 +763,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/8ed181274ca55a385aa5f26e0360ca1a.png",
-      "sourceHash": "release:r2:896dd3276d8036cf82b7763b7003bde2:98c1a411b073f5033c71da1cabe62b41:d858de6c1fcbd3fa6e68289b4f289548"
+      "image": "https://cdn.gachabase.net/gi/assets/5eecedb6e8e542b1602f283fb4824f1a.png",
+      "sourceHash": "release:r2:896dd3276d8036cf82b7763b7003bde2:a444632a3a29bfe40d3f1a2f75863bc9:d858de6c1fcbd3fa6e68289b4f289548"
     },
     {
       "key": "avatar:10000041",
@@ -777,15 +777,15 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/cd9d2ac1d66dfd1706afe51d8d00adba.png",
+      "image": "https://cdn.gachabase.net/gi/assets/0fa4c59c1028ac78c14d567c3aafee0e.png",
       "outfits": [
         {
           "key": "skin:204101",
           "name": "Pact of Stars and Moon",
-          "image": "https://cdn.gachabase.net/gi/assets/0858b36aa6b6d3b2d1d82e3387f2c134.png"
+          "image": "https://cdn.gachabase.net/gi/assets/a84c56a3f358652baf82080392c15092.png"
         }
       ],
-      "sourceHash": "release:r2:ea95d5e1ba2c2c287f28e336d9487bec:4673714e16ced6f3881cbcfdcd988ebb:2ee3d3beda2966f4366e73a03867def4"
+      "sourceHash": "release:r2:ea95d5e1ba2c2c287f28e336d9487bec:f548f946d85e7c83cbb48a18f79e4070:2ee3d3beda2966f4366e73a03867def4"
     },
     {
       "key": "avatar:10000042",
@@ -798,15 +798,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/fb62feb1e0abb6818dcc21585a251a4a.png",
+      "image": "https://cdn.gachabase.net/gi/assets/338eacfa72dd31a450fc76efd9d94ef6.png",
       "outfits": [
         {
           "key": "skin:204201",
           "name": "Opulent Splendor",
-          "image": "https://cdn.gachabase.net/gi/assets/001cbeda366d6f12886e3ebe741438ac.png"
+          "image": "https://cdn.gachabase.net/gi/assets/be1e1aa413de1ebd41ad3822da89651a.png"
         }
       ],
-      "sourceHash": "release:r2:faedc37294b68698c8ad84800106e9f2:a6adc5b1ca2a47045765e7d0f710e87a:8211f70d3aed623dcecdc7a424fef775"
+      "sourceHash": "release:r2:faedc37294b68698c8ad84800106e9f2:eb43783710e4dd5efcb920aa1d191dcf:8211f70d3aed623dcecdc7a424fef775"
     },
     {
       "key": "avatar:10000043",
@@ -819,8 +819,8 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/cfd548852a8ae0e265682057e7168689.png",
-      "sourceHash": "release:r2:f8451b6d480f449fda46045c45292627:538cfc69d8de923439ad5425a5e5569d:ad5f3cc6388cb3f98f8138cc9efe4c69"
+      "image": "https://cdn.gachabase.net/gi/assets/efe38ee19c398b2440c3b8a2471f91e7.png",
+      "sourceHash": "release:r2:f8451b6d480f449fda46045c45292627:bab538f9e66c7ba85e4344aef1467ff6:ad5f3cc6388cb3f98f8138cc9efe4c69"
     },
     {
       "key": "avatar:10000044",
@@ -833,8 +833,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/1fff83f98ebe95520fede6d407e2f720.png",
-      "sourceHash": "release:r2:43f8c3eac3a36b04bd6bba48cf6700aa:da746197b6c83d3dcfc82f4609095181:2e362c06b5555b3b003f6110e2c6ce03"
+      "image": "https://cdn.gachabase.net/gi/assets/a87b7d0ea3bca4e5e4fbf1b4e74a5a49.png",
+      "sourceHash": "release:r2:43f8c3eac3a36b04bd6bba48cf6700aa:dc7a6390b42dea9ba05e93a98278036d:2e362c06b5555b3b003f6110e2c6ce03"
     },
     {
       "key": "avatar:10000045",
@@ -847,15 +847,15 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/5f9fb7818c97016022083348039a4163.png",
+      "image": "https://cdn.gachabase.net/gi/assets/94b95d328ff72167358405eb5d38e239.png",
       "outfits": [
         {
           "key": "skin:204501",
           "name": "To the Church's Free Spirit",
-          "image": "https://cdn.gachabase.net/gi/assets/6dd6d9ae4f4ae2c995ad15dbadf68c39.png"
+          "image": "https://cdn.gachabase.net/gi/assets/148b0f5c6b1b39849cf3e6810c139887.png"
         }
       ],
-      "sourceHash": "release:r2:88699b8d68362607d6664669c3f5ca8e:d3adec842a88458dc643aef3e1ee62ae:de3625e24d10b555afd485b41d863aa4"
+      "sourceHash": "release:r2:88699b8d68362607d6664669c3f5ca8e:cac70cf26cbf8d50d5360cb44d8289b0:de3625e24d10b555afd485b41d863aa4"
     },
     {
       "key": "avatar:10000046",
@@ -872,15 +872,15 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/dfe3cc7f3d99516ba404349cb959a4ad.png",
+      "image": "https://cdn.gachabase.net/gi/assets/a38b6e8409527edd799672a26fe610f6.png",
       "outfits": [
         {
           "key": "skin:204601",
           "name": "Cherries Snow-Laden",
-          "image": "https://cdn.gachabase.net/gi/assets/be4b1e49d79ab5ac70e1e1c688fda777.png"
+          "image": "https://cdn.gachabase.net/gi/assets/e7f03a3499f28f41315cc2d970607b01.png"
         }
       ],
-      "sourceHash": "release:r2:61a20fbd3e223100bc578c3fda248fa2:0b359aad3f3de981a8864862b5dbc2e9:ab2518d0813f74c494a140f2da0c4055"
+      "sourceHash": "release:r2:61a20fbd3e223100bc578c3fda248fa2:beb61c7814b59a89cb6490da54869150:ab2518d0813f74c494a140f2da0c4055"
     },
     {
       "key": "avatar:10000047",
@@ -897,8 +897,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7a49ef3f9c8ae8bdbcaffb25cb6332e7.png",
-      "sourceHash": "release:r2:540db96a95a0ed57a2b58b5d7dc491d9:b0c63ad67fe4a837c83da911573185a5:36f34b2846af4acc143754bc12505985"
+      "image": "https://cdn.gachabase.net/gi/assets/2268d7a8859be8ee186eae0e0ddeacba.png",
+      "sourceHash": "release:r2:540db96a95a0ed57a2b58b5d7dc491d9:a36341844ab9570abceef11867df39b3:36f34b2846af4acc143754bc12505985"
     },
     {
       "key": "avatar:10000048",
@@ -911,8 +911,8 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/780710140be01c161f5d577415d2b45e.png",
-      "sourceHash": "release:r2:54776d0ae6ef409af87c83c2fa327765:617de3ae0ba1429ad5e50407bead1417:b32e6b8f83bc53db2c33c3bdf04012e9"
+      "image": "https://cdn.gachabase.net/gi/assets/f7160bf8a60d8b3c702a02314e74300c.png",
+      "sourceHash": "release:r2:54776d0ae6ef409af87c83c2fa327765:fbbca1e6d9f77626e69eed77786e60b2:b32e6b8f83bc53db2c33c3bdf04012e9"
     },
     {
       "key": "avatar:10000049",
@@ -925,8 +925,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/c1ad44f1e68753e1d994f86b083cc84d.png",
-      "sourceHash": "release:r2:c6046bc57f740d51a497bb2b0195a755:b268910e0ff8d7bfb9062156c5b2be47:85bda251e1f3806a1d3aa0a7c3f62202"
+      "image": "https://cdn.gachabase.net/gi/assets/87c16170d2f965e17475efb5ef02da2e.png",
+      "sourceHash": "release:r2:c6046bc57f740d51a497bb2b0195a755:12d2bbb103842ee2a72dfc92fb2562a7:85bda251e1f3806a1d3aa0a7c3f62202"
     },
     {
       "key": "avatar:10000050",
@@ -939,8 +939,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e8932d466f0a436e11972b2b26194ce8.png",
-      "sourceHash": "release:r2:4dfba5ae4198228feba84f920e617fe5:8c1fc9de2348038424e697cfd25e51ce:71ba32722e56c4074d620b3ea196523d"
+      "image": "https://cdn.gachabase.net/gi/assets/20ff2eba5ce6f155848e7823a2d1746c.png",
+      "sourceHash": "release:r2:4dfba5ae4198228feba84f920e617fe5:a6916cb4024d154fc4d16a1451dec289:71ba32722e56c4074d620b3ea196523d"
     },
     {
       "key": "avatar:10000051",
@@ -953,8 +953,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/c10116e454ee58e6234346223f26f792.png",
-      "sourceHash": "release:r2:4832d4c49474065eb7afcfbba519643e:373ce07ad0f2781c0d95067b36f59a66:6518f90ab00df3e4ede8eaf40f4ecb43"
+      "image": "https://cdn.gachabase.net/gi/assets/f68c6ff36bb24e82547ead3c2aec4ea8.png",
+      "sourceHash": "release:r2:4832d4c49474065eb7afcfbba519643e:09e00af0b6a5d93119f7beb2ecf7cd2c:6518f90ab00df3e4ede8eaf40f4ecb43"
     },
     {
       "key": "avatar:10000052",
@@ -971,8 +971,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/49c97e82f7291d23d5d665a9e0b65b87.png",
-      "sourceHash": "release:r2:20b3df7b3809741036e1a7a51fb890b2:42f5aad7583a86c66b69a3d227ef542e:b7099fc4caeb57f6fb489f768cd0c431"
+      "image": "https://cdn.gachabase.net/gi/assets/ec1e5cb4edd2aee8c1ffb16fd0e494cd.png",
+      "sourceHash": "release:r2:20b3df7b3809741036e1a7a51fb890b2:f795507a839d89204856074addfbd177:b7099fc4caeb57f6fb489f768cd0c431"
     },
     {
       "key": "avatar:10000053",
@@ -985,8 +985,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6a0fc98e9eab789d9a810ba1e7cf8b7c.png",
-      "sourceHash": "release:r2:b8135849d2d5bc9f21be989e05c4b288:b6e275a5f575485581b04cad1262aabb:e125696b32cf4b8a234bbb89572e3daf"
+      "image": "https://cdn.gachabase.net/gi/assets/7d2632f2e9c4d13fde72f5a90cd4551e.png",
+      "sourceHash": "release:r2:b8135849d2d5bc9f21be989e05c4b288:33bf4a7d9d2c44ea1467d568d30c0842:e125696b32cf4b8a234bbb89572e3daf"
     },
     {
       "key": "avatar:10000054",
@@ -1003,8 +1003,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/c7df9093bfdcac72aba705e224194bcf.png",
-      "sourceHash": "release:r2:61ca09926af2b8e48ad6d4f9500ffebe:93634a0d9fb2e660d6b3e645060b5902:08ffb6d2b29bd38e752c094b08ec95f2"
+      "image": "https://cdn.gachabase.net/gi/assets/f25319fda509e043a6fba7211ab92845.png",
+      "sourceHash": "release:r2:61ca09926af2b8e48ad6d4f9500ffebe:863671df59ea1c7100beb20ef0b03b0e:08ffb6d2b29bd38e752c094b08ec95f2"
     },
     {
       "key": "avatar:10000055",
@@ -1017,8 +1017,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/749d94adac0136ba9754ba68c97a72de.png",
-      "sourceHash": "release:r2:f3b178c2c1fe7acdf8e0e867d69a2c5e:f0054e93ebb2b4817cdb30070c32c825:68abee3fd64e33a0f4413f7573ba257d"
+      "image": "https://cdn.gachabase.net/gi/assets/2f8d5e6dfc0f8db4a36171dcc3c0c445.png",
+      "sourceHash": "release:r2:f3b178c2c1fe7acdf8e0e867d69a2c5e:43fd6b7288d1935f74037e38a82f947e:68abee3fd64e33a0f4413f7573ba257d"
     },
     {
       "key": "avatar:10000056",
@@ -1035,8 +1035,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/2e6d23658459210624721c3a781a6d4f.png",
-      "sourceHash": "release:r2:796dee4fe0955a3fb79b35617f89d381:e8a6e235538ca4758edb4f7f371d3116:64f373c3a8e98e43cc893e10912a7b29"
+      "image": "https://cdn.gachabase.net/gi/assets/5cde6d06b72e99e8b3c48ea47eb1d919.png",
+      "sourceHash": "release:r2:796dee4fe0955a3fb79b35617f89d381:5a3b7b982a41070adce3ca882da749e2:64f373c3a8e98e43cc893e10912a7b29"
     },
     {
       "key": "avatar:10000057",
@@ -1053,8 +1053,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/03889bc2d68dc7949e64dcc0a61e71b9.png",
-      "sourceHash": "release:r2:51487a1ff22f8b32f8408a35e08f2dad:d59fc6633ba6675f58a49f4b51772351:c96c8d5650ffac8115e403eb7dd50c4f"
+      "image": "https://cdn.gachabase.net/gi/assets/d6429728dc64d53118c4a93b9d387e99.png",
+      "sourceHash": "release:r2:51487a1ff22f8b32f8408a35e08f2dad:69fde1b7d919ff27dd7a46e8270e074c:c96c8d5650ffac8115e403eb7dd50c4f"
     },
     {
       "key": "avatar:10000058",
@@ -1071,8 +1071,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e2436c0a4ddf1eb9583c2649968f2a34.png",
-      "sourceHash": "release:r2:24b50629cf2d0731b4dad06fe46cfb75:6d33442096490bf6aa5fe0e2caa3d3cb:745f4ccc32ade2eb53a678ee8ef5ff9c"
+      "image": "https://cdn.gachabase.net/gi/assets/9af3a07a5100bc9b1401fad7ac1d71cc.png",
+      "sourceHash": "release:r2:e99f15eabd559cac9cc778b8fd9db537:f795e7b086b278cb7b4b2180b0bab57f:2184127308349ed42f93d30a52c06da8"
     },
     {
       "key": "avatar:10000059",
@@ -1089,8 +1089,8 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/b7df0300f96417f2cdca5c726dbf60d8.png",
-      "sourceHash": "release:r2:a0b175f5dbdf1596d266bd4ab6d2b249:4aaa968b14ba7f34e77ce5a554440284:c7cefab407960e31b157a603a96c9e0f"
+      "image": "https://cdn.gachabase.net/gi/assets/b1c2e4c7655d919ebdc3b8d81eddc654.png",
+      "sourceHash": "release:r2:a0b175f5dbdf1596d266bd4ab6d2b249:2ef1d3aec4482f1717a16cc83b28dcf5:c7cefab407960e31b157a603a96c9e0f"
     },
     {
       "key": "avatar:10000060",
@@ -1103,15 +1103,15 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/b1aaee77de7a9c847a09a401f37c9e8e.png",
+      "image": "https://cdn.gachabase.net/gi/assets/85548926dc60f5706038db74d916b6fd.png",
       "outfits": [
         {
           "key": "skin:206001",
           "name": "Tranquil Banquet",
-          "image": "https://cdn.gachabase.net/gi/assets/1bed476b6f70e89f70d56246e5a8fdfb.png"
+          "image": "https://cdn.gachabase.net/gi/assets/2afc32b218e0239b1c7e603f1117d2ad.png"
         }
       ],
-      "sourceHash": "release:r2:dd06d5ca48b86536d8ff62533bb4f72e:c7477225baef55a23ca18b3a1d128b26:07bf42bd59065c31dbf2f3c6895d4fb4"
+      "sourceHash": "release:r2:dd06d5ca48b86536d8ff62533bb4f72e:a807e8d43285b12bce7d14ac9dce99f7:07bf42bd59065c31dbf2f3c6895d4fb4"
     },
     {
       "key": "avatar:10000061",
@@ -1124,15 +1124,15 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/b21ea77155bb73f1e9239450c0d8a69d.png",
+      "image": "https://cdn.gachabase.net/gi/assets/ae55937f905d5888ade8b3c75e234b84.png",
       "outfits": [
         {
           "key": "skin:206101",
           "name": "Phantom in Boots",
-          "image": "https://cdn.gachabase.net/gi/assets/5960e8253599df9a27c25232595b19fd.png"
+          "image": "https://cdn.gachabase.net/gi/assets/dd88d86a3583987e0deb869d6d71ddf2.png"
         }
       ],
-      "sourceHash": "release:r2:c798c5963707fd9ce8ddeeb131870674:0e70dbf143c99e6951d7b412c2bce49b:edef8f793761c983add1a431b5ee6a2a"
+      "sourceHash": "release:r2:c798c5963707fd9ce8ddeeb131870674:df93ea404d3213f41ce2a5089769461f:edef8f793761c983add1a431b5ee6a2a"
     },
     {
       "key": "avatar:10000062",
@@ -1145,8 +1145,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6279a0bca98218073d5932d50cf3b09d.png",
-      "sourceHash": "release:r2:e67cae60788a5bfdb83cad7d0d3311a6:1b9cbd3bc3da342dcb56529d41c7884d:21b78de2e48c1140e070bac9bca773d3"
+      "image": "https://cdn.gachabase.net/gi/assets/cb5cddfb0c8dc0d959bac94c7a4f0337.png",
+      "sourceHash": "release:r2:e67cae60788a5bfdb83cad7d0d3311a6:cd416b674a196b7738cfb5a76153537d:21b78de2e48c1140e070bac9bca773d3"
     },
     {
       "key": "avatar:10000063",
@@ -1159,15 +1159,15 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/b8f7b98175b63eddbadc614c66fcdab4.png",
+      "image": "https://cdn.gachabase.net/gi/assets/5e53b80e0145b8bb0d5ce75163424851.png",
       "outfits": [
         {
           "key": "skin:206301",
           "name": "Frostflower Dew",
-          "image": "https://cdn.gachabase.net/gi/assets/7052800a6e99c167a5f5e7cec760ede8.png"
+          "image": "https://cdn.gachabase.net/gi/assets/c9e05c6476338e5fb7d880ee39fe5972.png"
         }
       ],
-      "sourceHash": "release:r2:2ca4907eeeb00b5b6f584335b1a8d60f:6ade20e2b6a2b948d04fc0beee11edad:91b806a103eff4caf4ac129c1c1da6f1"
+      "sourceHash": "release:r2:2ca4907eeeb00b5b6f584335b1a8d60f:2c52970a9d9e2e3b2211642050c048bc:91b806a103eff4caf4ac129c1c1da6f1"
     },
     {
       "key": "avatar:10000064",
@@ -1184,8 +1184,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/8e94aa98964b5ab0e8f611859df71642.png",
-      "sourceHash": "release:r2:08e78dda2a574d44931e8da33d19dcca:8114359d5845196910755d03fbc059b0:91964f0c424eacceb664c5fd6f96fd62"
+      "image": "https://cdn.gachabase.net/gi/assets/14d7b4e597225cbb1363358d89006c2a.png",
+      "sourceHash": "release:r2:08e78dda2a574d44931e8da33d19dcca:bd3883dbcc5caf21ced05b368bdd0b06:91964f0c424eacceb664c5fd6f96fd62"
     },
     {
       "key": "avatar:10000065",
@@ -1202,8 +1202,8 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/737b47b194f5696ad6f24c1c4f26d0aa.png",
-      "sourceHash": "release:r2:dcb47a0aed1e64ef86d784abbe15051f:389df8d66449d08654e39ace84aec422:313390244355fc37cf2f0b245e86becb"
+      "image": "https://cdn.gachabase.net/gi/assets/33f26c448a00e68210e073187b996a79.png",
+      "sourceHash": "release:r2:dcb47a0aed1e64ef86d784abbe15051f:e5b1d89a6e05c87558ab675f59ce33cd:313390244355fc37cf2f0b245e86becb"
     },
     {
       "key": "avatar:10000066",
@@ -1220,8 +1220,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/5a44d3835ea1bb7c2bf419675ab0225f.png",
-      "sourceHash": "release:r2:02fd5f0c60bced65432d5caaa2ff0482:5032dabc75454b7b8181aa12ef3baeaa:d4e74fd38942c3fdfc11a811af9fd86e"
+      "image": "https://cdn.gachabase.net/gi/assets/b6159a135c6789b906cb99d1f405da97.png",
+      "sourceHash": "release:r2:02fd5f0c60bced65432d5caaa2ff0482:847d785ec046b8508de2870d242eaaac:d4e74fd38942c3fdfc11a811af9fd86e"
     },
     {
       "key": "avatar:10000067",
@@ -1234,8 +1234,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/149d8953864216516f73b00ec6fada25.png",
-      "sourceHash": "release:r2:322a75ac34d4d3f9a7d37fd21291860e:b14adf441fbe03f11f1dd71f0db438bb:2722ea43385461e5269c27feb8372a9e"
+      "image": "https://cdn.gachabase.net/gi/assets/81c977ea85b332a69b215a43753de307.png",
+      "sourceHash": "release:r2:322a75ac34d4d3f9a7d37fd21291860e:d89407d1eeb1800837c216b199b13aa8:2722ea43385461e5269c27feb8372a9e"
     },
     {
       "key": "avatar:10000068",
@@ -1248,8 +1248,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e2e4afa1c1baf881907456adf3dd07b8.png",
-      "sourceHash": "release:r2:91295ce1e1882629d01a42ca3ed41ac8:1f1bb2c0e7e97e3e2c8427a4cb5f12b0:3c7f55a7d574b91826fa0a285acb4c32"
+      "image": "https://cdn.gachabase.net/gi/assets/97cc9ff2f8da61adf3bb6d2d4cf6938c.png",
+      "sourceHash": "release:r2:91295ce1e1882629d01a42ca3ed41ac8:7ffb66b034e8201c4cb029fa5f9a392e:3c7f55a7d574b91826fa0a285acb4c32"
     },
     {
       "key": "avatar:10000069",
@@ -1262,8 +1262,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/69581fa2baa59831f43e4a9e9f4f758f.png",
-      "sourceHash": "release:r2:e65f18f3ad32a4d2450574dca140fd07:760fe259cb3f53bb8a920de6bb9313c2:15466e66f3f2baa8fba23c5bbf5545e0"
+      "image": "https://cdn.gachabase.net/gi/assets/49015403586b9188e4c40e03cf975ae1.png",
+      "sourceHash": "release:r2:e65f18f3ad32a4d2450574dca140fd07:aadfcc76379444b86537a494223f6d59:15466e66f3f2baa8fba23c5bbf5545e0"
     },
     {
       "key": "avatar:10000070",
@@ -1276,15 +1276,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/777501656904e684ebb97e40b45fdc49.png",
+      "image": "https://cdn.gachabase.net/gi/assets/962205780471379857eea4e82cbdeddd.png",
       "outfits": [
         {
           "key": "skin:207001",
           "name": "Breeze of Sabaa",
-          "image": "https://cdn.gachabase.net/gi/assets/024e4d5ef9709d64788679f3831d954a.png"
+          "image": "https://cdn.gachabase.net/gi/assets/db44bc07ef09504ebbf681713ebe3dcf.png"
         }
       ],
-      "sourceHash": "release:r2:e36071077bf99585191f6fa10458c42e:244fc9e9f47a5ba42d24c8c255b7a06f:7a34a72308ea584bcf13286d87956259"
+      "sourceHash": "release:r2:e36071077bf99585191f6fa10458c42e:7790a3bb48f18f3921f6d7ef55856c22:7a34a72308ea584bcf13286d87956259"
     },
     {
       "key": "avatar:10000071",
@@ -1297,8 +1297,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/34dd7031de49c5bedc971258f3c1ac3e.png",
-      "sourceHash": "release:r2:10f484158ae0a84b87ebb81ccb1fea6b:33f6c06c04c058aa998e4f5405aa68ce:8398aebaf22940eee9775e4342424fbe"
+      "image": "https://cdn.gachabase.net/gi/assets/c47c5e1a5f73834a2f72e7b27913d610.png",
+      "sourceHash": "release:r2:10f484158ae0a84b87ebb81ccb1fea6b:978ce45c1ce2ab501a7c904f06dc7904:8398aebaf22940eee9775e4342424fbe"
     },
     {
       "key": "avatar:10000072",
@@ -1311,8 +1311,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/65626a40e35da2bd74c74616116b7550.png",
-      "sourceHash": "release:r2:43c2b8ecd1498e66ec5a427b710a9b00:84b68c7f976afccd0103366492a14fd9:c20b695667f970bb080304bc1c028158"
+      "image": "https://cdn.gachabase.net/gi/assets/b331f74419fb5164af17f77b8b523cc1.png",
+      "sourceHash": "release:r2:43c2b8ecd1498e66ec5a427b710a9b00:5edbcd5b1cc754327ebfa14e92890962:c20b695667f970bb080304bc1c028158"
     },
     {
       "key": "avatar:10000073",
@@ -1325,8 +1325,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/57c9d4da98eb763141e3c2308232cba0.png",
-      "sourceHash": "release:r2:0ccdcb9a7905ca75840006d864528a9e:b3020e44c7759919fe08c463968af73b:5931d4be5493a12eb239ff6183ac65f1"
+      "image": "https://cdn.gachabase.net/gi/assets/e86b940e2a1b156607a76601c10e9f9b.png",
+      "sourceHash": "release:r2:0ccdcb9a7905ca75840006d864528a9e:3544919b4733ac60bab6e964c00e5b99:5931d4be5493a12eb239ff6183ac65f1"
     },
     {
       "key": "avatar:10000074",
@@ -1339,8 +1339,8 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/9c4100f29625984eb249d5d0eada080e.png",
-      "sourceHash": "release:r2:830893a45a3e5e0df66dd1a0512d8557:4a18043e2e7a70684bccb66afcb667b4:c3d0910cfd3d0529b15383456a75cca1"
+      "image": "https://cdn.gachabase.net/gi/assets/155f840948bc37aba33d27dd41bf1690.png",
+      "sourceHash": "release:r2:830893a45a3e5e0df66dd1a0512d8557:23dc119f6e14258af79316eabe085ebf:c3d0910cfd3d0529b15383456a75cca1"
     },
     {
       "key": "avatar:10000075",
@@ -1353,8 +1353,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d17b07098a33dbfcc26122ad5cf0c20c.png",
-      "sourceHash": "release:r2:9346d08d3f4c9538dde85686ec9770ae:0419712ba436dbee16f6dd24345a04c2:c26f6666d34846b4a4ca683706203b20"
+      "image": "https://cdn.gachabase.net/gi/assets/8ca70815f72a5b273d27d30ac13dbd45.png",
+      "sourceHash": "release:r2:9346d08d3f4c9538dde85686ec9770ae:701e5b381c7b5fc6d89cd7ed97d7af12:c26f6666d34846b4a4ca683706203b20"
     },
     {
       "key": "avatar:10000076",
@@ -1367,8 +1367,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/f7e3a388939a7868d7fa9665cbdf0f2c.png",
-      "sourceHash": "release:r2:6457f6ffedeab1798dac087ef9b335c9:7aa427dccc2e5f9e95dabe1c9c71c196:6bfe2398e81a70bfb56e840cfba9db5e"
+      "image": "https://cdn.gachabase.net/gi/assets/de258beef931732f33536a86f9c6bc13.png",
+      "sourceHash": "release:r2:6457f6ffedeab1798dac087ef9b335c9:ea7f9fff1ccc52ac361ccb747a786327:6bfe2398e81a70bfb56e840cfba9db5e"
     },
     {
       "key": "avatar:10000077",
@@ -1381,15 +1381,15 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/28f518c0bd0f46eba52c286f43a8630d.png",
+      "image": "https://cdn.gachabase.net/gi/assets/aa70751d15f29ce548523e8659c89c10.png",
       "outfits": [
         {
           "key": "skin:207701",
           "name": "Rainlit Bamboo Reverie",
-          "image": "https://cdn.gachabase.net/gi/assets/ea79350787991f6168d2a80e5e6bcee1.png"
+          "image": "https://cdn.gachabase.net/gi/assets/356acd32c0ff50321b4521d61d327b02.png"
         }
       ],
-      "sourceHash": "release:r2:22331ef13c892b03f990f41d5d71aad4:4473e41233fee0328dec62848bda50d8:5b21c79aafe18c610b950f33e48d4937"
+      "sourceHash": "release:r2:22331ef13c892b03f990f41d5d71aad4:e07ee86c52366816e2a91630c9839523:5b21c79aafe18c610b950f33e48d4937"
     },
     {
       "key": "avatar:10000078",
@@ -1402,8 +1402,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/83e3d45026f7dd2006bb668a2620323d.png",
-      "sourceHash": "release:r2:9d5b23684e0436ea8199311619c02d31:c26c0e81d1bd7c6c774ac7701e1bb308:7d026055341d28177cc91475bb42e2ca"
+      "image": "https://cdn.gachabase.net/gi/assets/893f9fb93ba900600020b3ad0ad79015.png",
+      "sourceHash": "release:r2:9d5b23684e0436ea8199311619c02d31:474c9256dc2f653eddd8b437ff3d3349:7d026055341d28177cc91475bb42e2ca"
     },
     {
       "key": "avatar:10000079",
@@ -1416,8 +1416,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/b75298018afb184cd6f222416383da8f.png",
-      "sourceHash": "release:r2:ad513790b7d08c734fb1d1a54589f15f:283e06502cc41feece4f6d1b1c320ce3:a97f245b2ee9f8c0f124fecdf2ecad11"
+      "image": "https://cdn.gachabase.net/gi/assets/9aade853d43808255b7305ffaf99f2fc.png",
+      "sourceHash": "release:r2:ad513790b7d08c734fb1d1a54589f15f:d4dd021013e49f4b009a9d749dd92926:a97f245b2ee9f8c0f124fecdf2ecad11"
     },
     {
       "key": "avatar:10000080",
@@ -1430,8 +1430,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/af4c4b9d2489cb977b5a7c53a55c378a.png",
-      "sourceHash": "release:r2:823eeed201713bd1dab3a27354ea4cdf:818d0e6e3e92760e3f84aa769ec577c4:786d4f566ed2de1ecbd8c91191e53f73"
+      "image": "https://cdn.gachabase.net/gi/assets/3cd2d8b36a536442b9173e72051121e1.png",
+      "sourceHash": "release:r2:823eeed201713bd1dab3a27354ea4cdf:794faf907210fa32f51ceb67688d24da:786d4f566ed2de1ecbd8c91191e53f73"
     },
     {
       "key": "avatar:10000081",
@@ -1444,8 +1444,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/772ba1dcf97ff4843a34e12c2eb5f26e.png",
-      "sourceHash": "release:r2:aae4c912e298bca6943da88ad4286fd1:cb9d59633d0886305515b7b48b9ba2ed:a5063c27978696755a9497438ecc0d2b"
+      "image": "https://cdn.gachabase.net/gi/assets/060f3485f377c49aebdb66838c9b5228.png",
+      "sourceHash": "release:r2:aae4c912e298bca6943da88ad4286fd1:129449e01b1d650f1b211b042bd323d0:a5063c27978696755a9497438ecc0d2b"
     },
     {
       "key": "avatar:10000082",
@@ -1458,8 +1458,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6a916d859aebcee669155531121fb7b1.png",
-      "sourceHash": "release:r2:2b443da3f96266d6aea7a897bec37049:e9965d0103bee5a323744271f148d112:f7cabe826cf1f3af018e7cc5fbad733d"
+      "image": "https://cdn.gachabase.net/gi/assets/98105886ec95f94592010a7e7a890f13.png",
+      "sourceHash": "release:r2:2b443da3f96266d6aea7a897bec37049:c0dc054958fa3d1fdee05aee96520967:f7cabe826cf1f3af018e7cc5fbad733d"
     },
     {
       "key": "avatar:10000083",
@@ -1472,8 +1472,8 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/aa9de72390e8abf28e9ed1618ec9b4d4.png",
-      "sourceHash": "release:r2:173ab3ae3aec0cd453229b923c731c50:376961052c6ce76d5a8b8e2a081b285f:7562fd3ecdce15c9b5097438a5d5bd7e"
+      "image": "https://cdn.gachabase.net/gi/assets/0514a776ec048ef4297d62dc7bf95c9e.png",
+      "sourceHash": "release:r2:173ab3ae3aec0cd453229b923c731c50:367adc0712abf188b8c2b7fbdbaffa7e:7562fd3ecdce15c9b5097438a5d5bd7e"
     },
     {
       "key": "avatar:10000084",
@@ -1486,8 +1486,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/f5151c98dca2132cf9b2700f857b3bd4.png",
-      "sourceHash": "release:r2:caca97facad7531046ef6586c00aa754:e4587f60f3b765a90efe7e6007391ec9:b0a11b84eefb05fe307c3a0d50709fca"
+      "image": "https://cdn.gachabase.net/gi/assets/ff2d1d21568ba441b844b8f2dc550ebc.png",
+      "sourceHash": "release:r2:caca97facad7531046ef6586c00aa754:45b7362242078962e67865551871544b:b0a11b84eefb05fe307c3a0d50709fca"
     },
     {
       "key": "avatar:10000085",
@@ -1500,8 +1500,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/38dd0daac7ec30794899ce99ac1f29c4.png",
-      "sourceHash": "release:r2:78c63952c8c9fc9cf3c49d3eb7307d40:9645591041ea31dd78339fbd534e5ba6:ed78b7342d9a7b2f691e68955072c39b"
+      "image": "https://cdn.gachabase.net/gi/assets/606cd6a1f4bf51fa41b7c472a2f66271.png",
+      "sourceHash": "release:r2:78c63952c8c9fc9cf3c49d3eb7307d40:9ca54c6899104737c18ca6c00cdb2553:ed78b7342d9a7b2f691e68955072c39b"
     },
     {
       "key": "avatar:10000086",
@@ -1514,8 +1514,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/bef0fe8f0f6b71d31acafe00466ff1df.png",
-      "sourceHash": "release:r2:8986e25b3944707686334708f00f96f0:9359d3c0355d066c6e2c420ffc3b3b94:9f2391b6a6406455d25dd334214fe470"
+      "image": "https://cdn.gachabase.net/gi/assets/163a7355cca82dc5b3c9a36c70b7dedd.png",
+      "sourceHash": "release:r2:8986e25b3944707686334708f00f96f0:7bc12d09b3d13ecdfee21184c22813af:9f2391b6a6406455d25dd334214fe470"
     },
     {
       "key": "avatar:10000087",
@@ -1528,15 +1528,15 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/ca553e5c422a12b407e3497e27567cde.png",
+      "image": "https://cdn.gachabase.net/gi/assets/1bfbee94fc42bfc1467a1c2aa99b5f02.png",
       "outfits": [
         {
           "key": "skin:208701",
           "name": "Melusent Gift",
-          "image": "https://cdn.gachabase.net/gi/assets/ad527f343cde14e41f3101d7669f95ad.png"
+          "image": "https://cdn.gachabase.net/gi/assets/76a093fd757304af154ec9b8c5a119bf.png"
         }
       ],
-      "sourceHash": "release:r2:4213394c35bc6c1e2e48497ae1a05527:b0fd45ae37fbd728963afce95886c44f:2306db040773548b28ef483058ac0768"
+      "sourceHash": "release:r2:4213394c35bc6c1e2e48497ae1a05527:0efb5cd54c604d30aeee7876478ea3b7:2306db040773548b28ef483058ac0768"
     },
     {
       "key": "avatar:10000088",
@@ -1549,15 +1549,15 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/307781d165ce09bd422112dcf3061869.png",
+      "image": "https://cdn.gachabase.net/gi/assets/73a973925c974c8995e0aa857851bedd.png",
       "outfits": [
         {
           "key": "skin:208801",
           "name": "Hurlock Variations",
-          "image": "https://cdn.gachabase.net/gi/assets/a934221ca5f3dadbf02a6d3a130ade89.png"
+          "image": "https://cdn.gachabase.net/gi/assets/4447892b632d153ed7d25c58f4e83a7c.png"
         }
       ],
-      "sourceHash": "release:r2:577f2bdcd29e5781312a00ae689bab7a:d6dcaea441f8616a4fd4897fb7dc3f5b:8ffe1a62e633568e6c509149aafad7d6"
+      "sourceHash": "release:r2:577f2bdcd29e5781312a00ae689bab7a:2f9da3e62e378f55cc2063500c139db6:8ffe1a62e633568e6c509149aafad7d6"
     },
     {
       "key": "avatar:10000089",
@@ -1570,8 +1570,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/24da7e7f1f61d412b9d7535c9b150264.png",
-      "sourceHash": "release:r2:1ea4d7226c8cbd8aea8798229929ed1e:a3890e77c19831f03fd09054d09c2ad2:707b9431a7d02e4c846b48d9b7832c9a"
+      "image": "https://cdn.gachabase.net/gi/assets/f112999e1c2a371f11cb162fa97dd67d.png",
+      "sourceHash": "release:r2:1ea4d7226c8cbd8aea8798229929ed1e:7b663da4e3f745ce504ab2a300d48853:707b9431a7d02e4c846b48d9b7832c9a"
     },
     {
       "key": "avatar:10000090",
@@ -1584,8 +1584,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/51a510f785d9f8d928194a721368e844.png",
-      "sourceHash": "release:r2:e7daa28b0656688092338f0aff489f90:59f8eaa0c228c091a0fd2a6d2cbbeeea:96f8c0ebd6c5997104776310a2a0ab0d"
+      "image": "https://cdn.gachabase.net/gi/assets/54287f20d20b1614a963f9df2b695d83.png",
+      "sourceHash": "release:r2:e7daa28b0656688092338f0aff489f90:c8b8168a89dd3584eb20c13bc944bc94:96f8c0ebd6c5997104776310a2a0ab0d"
     },
     {
       "key": "avatar:10000091",
@@ -1598,8 +1598,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/780bea73742950c31d083d9ce89c4269.png",
-      "sourceHash": "release:r2:cde1dfb2ba419eaa2186dd02eea28bda:4b7c785826be3d0983380ea05fb513c7:de1ab6f1bb757d32e19b1f017701a8a2"
+      "image": "https://cdn.gachabase.net/gi/assets/a6387a0860c270ce9b1d2a41503cb3b4.png",
+      "sourceHash": "release:r2:cde1dfb2ba419eaa2186dd02eea28bda:821dd7a46b2723484818bf71a4597730:de1ab6f1bb757d32e19b1f017701a8a2"
     },
     {
       "key": "avatar:10000092",
@@ -1612,8 +1612,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/948ba31c7dbb04d095b05d58649be7fd.png",
-      "sourceHash": "release:r2:03b002da3243c76aa813f5bfb114dd45:279bac824125357db231b5e68abeebc8:9809658a235ae1b5cdc3784373292262"
+      "image": "https://cdn.gachabase.net/gi/assets/e76de9ab492c7de8f963a1ebf2a1360c.png",
+      "sourceHash": "release:r2:03b002da3243c76aa813f5bfb114dd45:ae18949a4ab80c6e2bf4b623f8ac1e13:9809658a235ae1b5cdc3784373292262"
     },
     {
       "key": "avatar:10000093",
@@ -1626,8 +1626,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a2300af1412cb411cf9db50ba974d0c8.png",
-      "sourceHash": "release:r2:dc27e4fb94407f46c78fdc9598cb4e5a:a133b2ede660a36d65014a812626ef49:e0a320f96bfd0cc25e9b5565f4e64e5f"
+      "image": "https://cdn.gachabase.net/gi/assets/426d23d0277d63d652c0f8390d713eb4.png",
+      "sourceHash": "release:r2:dc27e4fb94407f46c78fdc9598cb4e5a:d011747f91b83780021914f372ef84fb:e0a320f96bfd0cc25e9b5565f4e64e5f"
     },
     {
       "key": "avatar:10000094",
@@ -1640,8 +1640,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/dbbd853fc804a154869b971b8b419c81.png",
-      "sourceHash": "release:r2:1b88fbf68e2159ba7d1fdc553d93d89d:084d292e4601666eb5e2e747ab2b73a4:e8e3d05383b7850c6bc4b2bd1a4c939a"
+      "image": "https://cdn.gachabase.net/gi/assets/e4b7bf68459c46c1f98f1b8e6f024272.png",
+      "sourceHash": "release:r2:1b88fbf68e2159ba7d1fdc553d93d89d:67d37e627cb9901453d7bd731844b834:e8e3d05383b7850c6bc4b2bd1a4c939a"
     },
     {
       "key": "avatar:10000095",
@@ -1654,8 +1654,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6b307f2c8a698e653771e61e5e323a0e.png",
-      "sourceHash": "release:r2:bc897b9ba735ca763163779a69ff448f:84222c761dc0f922bfaf8d729c7f53da:41bb0e1ebc768d1ae87401bff8dc53a4"
+      "image": "https://cdn.gachabase.net/gi/assets/0f51b6607e926c5d598e638bcd9da5e2.png",
+      "sourceHash": "release:r2:bc897b9ba735ca763163779a69ff448f:cd3284d984affa2dc1360bf44b6e3768:41bb0e1ebc768d1ae87401bff8dc53a4"
     },
     {
       "key": "avatar:10000096",
@@ -1668,8 +1668,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/68c77b6d44140544693b593303a1e024.png",
-      "sourceHash": "release:r2:006fe31858bf86b4886d42e5a2abf873:94ce81bf620d88c9ea54fc1437000b7b:ecc0852e1234c8a41b2620db81c5a92f"
+      "image": "https://cdn.gachabase.net/gi/assets/f7faaaa3a6722483d84a39b0fde402a8.png",
+      "sourceHash": "release:r2:006fe31858bf86b4886d42e5a2abf873:5e2175dc128fa30889912add534d0697:ecc0852e1234c8a41b2620db81c5a92f"
     },
     {
       "key": "avatar:10000097",
@@ -1682,8 +1682,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/07b15f42901488ec473a1caf1622733d.png",
-      "sourceHash": "release:r2:7c1f84b18da796df200a1d74d7aca6df:81902e2c71ac7fcbe1e4b00a0c979915:a2720b92c4ffeec9ceb6524ee7a0a7a6"
+      "image": "https://cdn.gachabase.net/gi/assets/9c2493f2aedbe499185dd90c44b45724.png",
+      "sourceHash": "release:r2:7c1f84b18da796df200a1d74d7aca6df:7bda6a9ef22e1b8f90e81eba74b4ef21:a2720b92c4ffeec9ceb6524ee7a0a7a6"
     },
     {
       "key": "avatar:10000098",
@@ -1696,8 +1696,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/73cdfdebc1ca87a163c725fe44bacae7.png",
-      "sourceHash": "release:r2:d10ca13c68a8c8b1d4d2aee0915ea020:afc6faba1181faf2a67c695fafc64a3a:d0369430ebbeb6086e8fd971224c7a32"
+      "image": "https://cdn.gachabase.net/gi/assets/b5fd12aeb068c49e2f2b3d80222edc1f.png",
+      "sourceHash": "release:r2:d10ca13c68a8c8b1d4d2aee0915ea020:0eb5404c1d029271e1fea45768d798c5:d0369430ebbeb6086e8fd971224c7a32"
     },
     {
       "key": "avatar:10000099",
@@ -1710,8 +1710,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/0c791b8a8ab9c0db54d2843e20e5722f.png",
-      "sourceHash": "release:r2:1730060dab81a6c1a3e7ce58b6fa76c7:2279d7e396310c78ed514342c834fc29:e89fb78106f329d0952e38156370e982"
+      "image": "https://cdn.gachabase.net/gi/assets/76668f2eb3ed2410df833a2fcbcdfc8b.png",
+      "sourceHash": "release:r2:1730060dab81a6c1a3e7ce58b6fa76c7:e9ac32222e67fc0b1d8d6954ad33d293:e89fb78106f329d0952e38156370e982"
     },
     {
       "key": "avatar:10000100",
@@ -1724,8 +1724,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/c11141708911cd95ffc02cd644531fab.png",
-      "sourceHash": "release:r2:f5aedf117d48bcf91a6061c8b6f1451a:b7734aa083e6c20bf8c10faf28d4828e:eeb2298c6185378f953c54b19168eea3"
+      "image": "https://cdn.gachabase.net/gi/assets/86647f6e046b5eac533358657797e799.png",
+      "sourceHash": "release:r2:f5aedf117d48bcf91a6061c8b6f1451a:47266272141545207f62e54b8238c6a9:eeb2298c6185378f953c54b19168eea3"
     },
     {
       "key": "avatar:10000101",
@@ -1738,8 +1738,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7d050035834a62243ce31283d35a51ba.png",
-      "sourceHash": "release:r2:eb1aa079d88908278483ef399ab83ef4:06db03d39fa424d264c81ea5942c64ca:7bc3592909da452b799dfca7fabc6438"
+      "image": "https://cdn.gachabase.net/gi/assets/d6950a854d5130492f84a551bdfce55b.png",
+      "sourceHash": "release:r2:eb1aa079d88908278483ef399ab83ef4:8e6770d4a1c96f7b3262c469422c5436:7bc3592909da452b799dfca7fabc6438"
     },
     {
       "key": "avatar:10000102",
@@ -1752,8 +1752,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/0e6befdd826d8bbc6e32e45d99909e74.png",
-      "sourceHash": "release:r2:86ed8cb2f2491f893ae56663fc369e82:b68df551b6ce40a021b27bac07570c85:a0389d94f9289e958012e1c18c12548e"
+      "image": "https://cdn.gachabase.net/gi/assets/0b2be6f46cda5fa7e2582857b3f7e619.png",
+      "sourceHash": "release:r2:86ed8cb2f2491f893ae56663fc369e82:4db17bcdba8fa779342c764c84bfe867:a0389d94f9289e958012e1c18c12548e"
     },
     {
       "key": "avatar:10000103",
@@ -1766,8 +1766,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/40bc31160128abfa71fed4011fc3b6ca.png",
-      "sourceHash": "release:r2:612b7393fff56f4dda754699a7865a95:7a013400acdc6c8682f642527a0f8159:1a53b3b57920262cb31d2abd5327af4f"
+      "image": "https://cdn.gachabase.net/gi/assets/4142693e6b710818f8da1757bb8abe26.png",
+      "sourceHash": "release:r2:c5f1c896c7ebc68cb3a4c96edf48f63d:1ae7771755afc1f06140319f30ccf00a:f8685140d77c008a6e9051e60094c98b"
     },
     {
       "key": "avatar:10000104",
@@ -1780,8 +1780,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/3e32ff0166be01f8cfcbd8f7e8297922.png",
-      "sourceHash": "release:r2:c3814132b9aabe0b967b21afa32b3c4b:6a63901c92ea88a8f527f867cc5acaee:f9bf00421f7a7258b4245a931ed15f8e"
+      "image": "https://cdn.gachabase.net/gi/assets/980764869d5ec95ad36fdc7340858712.png",
+      "sourceHash": "release:r2:c3814132b9aabe0b967b21afa32b3c4b:19cd6b78bd7a9a6fc2a13161e8c294a0:f9bf00421f7a7258b4245a931ed15f8e"
     },
     {
       "key": "avatar:10000105",
@@ -1794,8 +1794,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6760498c571e6f98d150f974bc261d38.png",
-      "sourceHash": "release:r2:5489bba862da67519101a82f42c70d17:80496338bed3ed44903ebff26317fcb6:49efa8df7aab550f35d37661f2c2b0b5"
+      "image": "https://cdn.gachabase.net/gi/assets/fbc5826159a5fa593819c076b58de639.png",
+      "sourceHash": "release:r2:5489bba862da67519101a82f42c70d17:d1784fbd79b7f5d40558af651a402820:49efa8df7aab550f35d37661f2c2b0b5"
     },
     {
       "key": "avatar:10000106",
@@ -1808,8 +1808,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e23f978ae6bb8606b7a86739eb78ca34.png",
-      "sourceHash": "release:r2:33222667a54bfd26ca6ce47713e5fd27:f8ccd3fad2e4e7c7453d5c7c0702980b:0c0a48b11fca6b04fba2dd39a7a0bc8a"
+      "image": "https://cdn.gachabase.net/gi/assets/dc852c2f79f480f36fd9f05cfc5d5614.png",
+      "sourceHash": "release:r2:33222667a54bfd26ca6ce47713e5fd27:50602eeb1b5af51b0d027acf3b3968f4:0c0a48b11fca6b04fba2dd39a7a0bc8a"
     },
     {
       "key": "avatar:10000107",
@@ -1822,15 +1822,15 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a563cd8a81666aa75669b795c70f05cd.png",
+      "image": "https://cdn.gachabase.net/gi/assets/77170c0e23dca3c0f3d20961bf21c37e.png",
       "outfits": [
         {
           "key": "skin:210701",
           "name": "Whispers of Stars and Smoke",
-          "image": "https://cdn.gachabase.net/gi/assets/0441e839c235288c1472f4071fd21808.png"
+          "image": "https://cdn.gachabase.net/gi/assets/f3e2efb4cf3e63362d4a3afba63d7e59.png"
         }
       ],
-      "sourceHash": "release:r2:04356dfea4ec318e1c900b185c7f3388:eb0d97249fd8031d6294402294a7dde8:26a4ed1c18cf285465d83d3fac7b7e89"
+      "sourceHash": "release:r2:04356dfea4ec318e1c900b185c7f3388:3982ff3b71038605cec42f714e1da333:26a4ed1c18cf285465d83d3fac7b7e89"
     },
     {
       "key": "avatar:10000108",
@@ -1847,8 +1847,8 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/989302ad5e15f4e18c80ec5c36575229.png",
-      "sourceHash": "release:r2:07e18fa550875c0ada260fd4d62a77e4:27d12b0f66e1248b0d53c62260fb0035:a84c4225cf3961cf59dd3711e5603897"
+      "image": "https://cdn.gachabase.net/gi/assets/d97909b68e6f8bfe4584a15262b8fbbe.png",
+      "sourceHash": "release:r2:07e18fa550875c0ada260fd4d62a77e4:3a2e1d549377452ddf827b5370b986f6:a84c4225cf3961cf59dd3711e5603897"
     },
     {
       "key": "avatar:10000109",
@@ -1865,8 +1865,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/fd4db36751306341f37a6be57d6283b7.png",
-      "sourceHash": "release:r2:4b8a3002aef42f2723fd2db548dad1a6:814efd34898adb9acd66c00c1f65535b:1c25e9e8f0fa454b572f1171a66781c3"
+      "image": "https://cdn.gachabase.net/gi/assets/b4331429163935d4d908b690aff9ba77.png",
+      "sourceHash": "release:r2:4b8a3002aef42f2723fd2db548dad1a6:e3c549db4fc4be0b2d7b111179892dd8:1c25e9e8f0fa454b572f1171a66781c3"
     },
     {
       "key": "avatar:10000110",
@@ -1879,8 +1879,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/f6bc2b1dff05ec823c98c0d651a458e8.png",
-      "sourceHash": "release:r2:5564e98955ffce6cff9285fc31762d8a:05b5f69042eace5550be615b67e8de4b:3de8a453c81d09bab603d6a7ae971aa9"
+      "image": "https://cdn.gachabase.net/gi/assets/631b5707d1857bbd3de4990594c00f96.png",
+      "sourceHash": "release:r2:5564e98955ffce6cff9285fc31762d8a:f0a67683c9fab9d83dc68bf5869cac8b:3de8a453c81d09bab603d6a7ae971aa9"
     },
     {
       "key": "avatar:10000111",
@@ -1893,8 +1893,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/9afe97583c8fe55ca1ad9c5a4c7e9c6a.png",
-      "sourceHash": "release:r2:0f864f23528ff845c1f04ff0c2cb2b63:8f15b0d97def3595d0ce653f83e7ed1a:98982d5094c8c7dd2c644474b20561cb"
+      "image": "https://cdn.gachabase.net/gi/assets/1531ed5375271187daf71a7e06986fd8.png",
+      "sourceHash": "release:r2:0f864f23528ff845c1f04ff0c2cb2b63:c92c19320442f73a117d484b612a4e23:98982d5094c8c7dd2c644474b20561cb"
     },
     {
       "key": "avatar:10000112",
@@ -1907,8 +1907,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a5b9c91c56a5c8308b2a39e734a488cf.png",
-      "sourceHash": "release:r2:d907882eaf71231e105e1181a0b73c2b:9150cb82a4a71a718edd67696f5b81c6:3a1ea94c607d26d42e2d243733c9e9b5"
+      "image": "https://cdn.gachabase.net/gi/assets/5f075987f83a290fc059ae18cd167f94.png",
+      "sourceHash": "release:r2:d907882eaf71231e105e1181a0b73c2b:ddcc1052b7aa9595f4c5d8014b855e0f:3a1ea94c607d26d42e2d243733c9e9b5"
     },
     {
       "key": "avatar:10000113",
@@ -1921,8 +1921,8 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6b1c38827e86395ae38054d6074dbbd1.png",
-      "sourceHash": "release:r2:2a62bf4199b3eefe985b31fca601fcfe:e6a12e53fd3f22fd05d87c75c8b31c26:01996761e223b5c4598c22054924e44f"
+      "image": "https://cdn.gachabase.net/gi/assets/c66efae2e66989bd32f7210e2cecf8d9.png",
+      "sourceHash": "release:r2:2a62bf4199b3eefe985b31fca601fcfe:51730f35ea7030778c81ba3079d47f11:01996761e223b5c4598c22054924e44f"
     },
     {
       "key": "avatar:10000114",
@@ -1935,8 +1935,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/8350b142103018a9381dc1cf6a94c1b7.png",
-      "sourceHash": "release:r2:fe440aa5cd4d505c746f95a1148341ce:12e95cd96b3e37ccbeacb4fbd7ee056a:4e4fa28feba081137c5a0ded420a60f3"
+      "image": "https://cdn.gachabase.net/gi/assets/94c9c9ee9bda9ba314c1235a093b5446.png",
+      "sourceHash": "release:r2:fe440aa5cd4d505c746f95a1148341ce:d7099c7c78832a6d82936b2036597564:4e4fa28feba081137c5a0ded420a60f3"
     },
     {
       "key": "avatar:10000115",
@@ -1949,8 +1949,8 @@
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/832e5b44b4409a6509f377350fa18737.png",
-      "sourceHash": "release:r2:112f0a31f27d7007d5d0ec007715a201:73035f4c96e903a4522ac38646c81086:53b96b2041c08a114634901a26e328f6"
+      "image": "https://cdn.gachabase.net/gi/assets/de1bf953d128be55051e2155ed8b7415.png",
+      "sourceHash": "release:r2:112f0a31f27d7007d5d0ec007715a201:932ed7da30e853aae46415346fdb9bc3:53b96b2041c08a114634901a26e328f6"
     },
     {
       "key": "avatar:10000116",
@@ -1963,8 +1963,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a7b75b371b53b77d5df4c0851309317b.png",
-      "sourceHash": "release:r2:6ce0506491d05611ccdf2d215db23d22:601169a70f1b885ce5d4729479276fa9:d05d29c904e23e33f1be0d24b43363b6"
+      "image": "https://cdn.gachabase.net/gi/assets/43b0d0c23d86c889aae11bdeb8e5bfd5.png",
+      "sourceHash": "release:r2:6ce0506491d05611ccdf2d215db23d22:e8812fddceb7fc667f9dee8733e35481:d05d29c904e23e33f1be0d24b43363b6"
     },
     {
       "key": "avatar:10000117-anemo",
@@ -1978,8 +1978,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000117-cryo",
@@ -1993,8 +1993,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000117-dendro",
@@ -2008,8 +2008,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000117-electro",
@@ -2023,8 +2023,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000117-geo",
@@ -2038,8 +2038,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000117-hydro",
@@ -2053,8 +2053,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000117-pyro",
@@ -2068,8 +2068,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/d4eb3288fe01947ba320318e4d811863.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:b117a8776d469733bd9868718503a1fa:e8f62953aea993bb329a5d6f301bd3b2"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
       "key": "avatar:10000118-anemo",
@@ -2083,8 +2083,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000118-cryo",
@@ -2098,8 +2098,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000118-dendro",
@@ -2113,8 +2113,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000118-electro",
@@ -2128,8 +2128,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000118-geo",
@@ -2143,8 +2143,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000118-hydro",
@@ -2158,8 +2158,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000118-pyro",
@@ -2173,8 +2173,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/7b3d24ffd3452c980d696ed3e1851b1a.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:87400a8d393e59325e0b58703cc2995e:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
       "key": "avatar:10000119",
@@ -2187,8 +2187,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/20af67834eb51d083d2b1da81bab3202.png",
-      "sourceHash": "release:r2:69fc3be59b43f4e3c9ae0d3a090c7c2d:9e0574d31739145884388703a55162f5:6fc8fd0f55afa3544c8e0e2a36ef1bec"
+      "image": "https://cdn.gachabase.net/gi/assets/42c646d9ff4960b4522e3cb1b86e6c27.png",
+      "sourceHash": "release:r2:69fc3be59b43f4e3c9ae0d3a090c7c2d:8d3fbd20fc393d958757adfdf1b6ba80:6fc8fd0f55afa3544c8e0e2a36ef1bec"
     },
     {
       "key": "avatar:10000120",
@@ -2201,8 +2201,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/829d5b5c83772d8fe194c4d37d9dfd86.png",
-      "sourceHash": "release:r2:7b46b1056e9ffaf396eeba7fe97af9f8:48cce59dee556b3f0e669c660e7f398f:e5524b7b335aeeb4230cc1431ec512da"
+      "image": "https://cdn.gachabase.net/gi/assets/9efa822fbf062ba1e013f94ccd953cd0.png",
+      "sourceHash": "release:r2:7b46b1056e9ffaf396eeba7fe97af9f8:1f062a29e7524551eaf3258ea6adaef5:e5524b7b335aeeb4230cc1431ec512da"
     },
     {
       "key": "avatar:10000121",
@@ -2215,8 +2215,8 @@
         "weaponClass": "Claymore",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/23fbc9f5ed9b64b97ec208d8abc4dcc5.png",
-      "sourceHash": "release:r2:9260b4d3c3e90c4502b3899e3fd05ab9:20ad5a13a493d055bd1d5a79dd4c0e87:f9a97f90740feae8b0eff1baa3216332"
+      "image": "https://cdn.gachabase.net/gi/assets/a546e138386207a469665543a976064a.png",
+      "sourceHash": "release:r2:9260b4d3c3e90c4502b3899e3fd05ab9:e26b0ccd9cd878d774fbfdcae678dabc:f9a97f90740feae8b0eff1baa3216332"
     },
     {
       "key": "avatar:10000122",
@@ -2229,8 +2229,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/48bf061286a840056a90ca62d64fa003.png",
-      "sourceHash": "release:r2:477486f6ed538f6bf3739b379f021b83:b81c2cde13628e58ccc0eb77d394b318:40a0168daac5d760c7af59a6fc4d37f4"
+      "image": "https://cdn.gachabase.net/gi/assets/e81f91fc7c32cfc1bda5081eb4f4ea2a.png",
+      "sourceHash": "release:r2:477486f6ed538f6bf3739b379f021b83:1420f7710f779c8e83f8db34b686601d:40a0168daac5d760c7af59a6fc4d37f4"
     },
     {
       "key": "avatar:10000123",
@@ -2243,15 +2243,15 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/4a9dc0a3325a825c138e32b703e48cb0.png",
+      "image": "https://cdn.gachabase.net/gi/assets/db8c9b5cd4b2bf432f950aa1e30620d2.png",
       "outfits": [
         {
           "key": "skin:212301",
           "name": "Toward the Distant Horizon",
-          "image": "https://cdn.gachabase.net/gi/assets/9f2b322639bee4085d550c2e4f4643cb.png"
+          "image": "https://cdn.gachabase.net/gi/assets/fa6192258c079889178f8f70bfa754f0.png"
         }
       ],
-      "sourceHash": "release:r2:56501a871dfc33a240a6c7f3cef7f039:9adc7074fcd75cd7cda5026e8fa3374d:8c08eaf8877c550e4eec1a95fb41c863"
+      "sourceHash": "release:r2:56501a871dfc33a240a6c7f3cef7f039:98ae4432f04c48a52656f17d6d104ba2:8c08eaf8877c550e4eec1a95fb41c863"
     },
     {
       "key": "avatar:10000124",
@@ -2264,8 +2264,8 @@
         "weaponClass": "Bow",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/10475d2682104bee0a03098abfe5c306.png",
-      "sourceHash": "release:r2:16420b007db3ea255c93e010b2a404d6:b003cbed20d4cc65edfb3b073892b244:a2bb1574b33e68a747cfd72f285a4bff"
+      "image": "https://cdn.gachabase.net/gi/assets/c94f69f2df7ae215f9c8a77ebfb03896.png",
+      "sourceHash": "release:r2:16420b007db3ea255c93e010b2a404d6:b22ecc6f9cd899af2973c0dcac296079:a2bb1574b33e68a747cfd72f285a4bff"
     },
     {
       "key": "avatar:10000125",
@@ -2278,8 +2278,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/85e5b02caea884fbe0f60af463c17d68.png",
-      "sourceHash": "release:r2:110fbf35edc1e6ad2ebdb2deb18aad60:aec98a5acc5e451f4052628d0c0eab3b:463adf4593543364a43ec5bfff6538d2"
+      "image": "https://cdn.gachabase.net/gi/assets/5923697771179ff746614be63c61821b.png",
+      "sourceHash": "release:r2:110fbf35edc1e6ad2ebdb2deb18aad60:21a42681a7ac941ca2a50e572d635996:463adf4593543364a43ec5bfff6538d2"
     },
     {
       "key": "avatar:10000126",
@@ -2292,8 +2292,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e700f145eed2ad72c80ea5a7a1541a7b.png",
-      "sourceHash": "release:r2:ec92bb750153781b29ce7b121a3db5ac:eb945046fadd0d69ff8aaf378e5a6a0e:ee45e33831a1df2d9ba1a2d7e0038a31"
+      "image": "https://cdn.gachabase.net/gi/assets/34a19ba96316e4711d8f5cc9b0588643.png",
+      "sourceHash": "release:r2:ec92bb750153781b29ce7b121a3db5ac:d63f04be86183b2e22d57dfe5fcffe44:ee45e33831a1df2d9ba1a2d7e0038a31"
     },
     {
       "key": "avatar:10000127",
@@ -2306,8 +2306,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/a0da206de75d152d2db70e5a27bd6092.png",
-      "sourceHash": "release:r2:0879ca529497462e55b7be25a030ae25:17b355397af49c2e8a4be02e08763d29:e5f425d89236f8b6e7268ab00d59d141"
+      "image": "https://cdn.gachabase.net/gi/assets/9d91b2895834ae2dab59bb8045009be4.png",
+      "sourceHash": "release:r2:0879ca529497462e55b7be25a030ae25:c6e3afc6a97c2b86a4426a9e29c8f360:e5f425d89236f8b6e7268ab00d59d141"
     },
     {
       "key": "avatar:10000128",
@@ -2320,8 +2320,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6254120403fd5ff832fbd697a6c86262.png",
-      "sourceHash": "release:r2:fb5a42f8de7ae92965b6375680d9992b:8615b8df7b587f33a007315adb1f20d6:cdafedd7b0ada0f981892646896220c2"
+      "image": "https://cdn.gachabase.net/gi/assets/3b9cefb01ad79ac65edd444a0a413c2e.png",
+      "sourceHash": "release:r2:fb5a42f8de7ae92965b6375680d9992b:020a30ddf305f1f1c5fa41947a94114e:cdafedd7b0ada0f981892646896220c2"
     },
     {
       "key": "avatar:10000129",
@@ -2334,8 +2334,8 @@
         "weaponClass": "Polearm",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/df74f99df90145c8c4dd060e81729c34.png",
-      "sourceHash": "release:r2:83354927194be5a3178f46aeb4879ce6:752ae3bf0af2a1b3986515006272a7c6:66b11bd0d3825750a55d5cd0d36f5761"
+      "image": "https://cdn.gachabase.net/gi/assets/a2d466b12c8542f1b6d8871baebc1ab5.png",
+      "sourceHash": "release:r2:83354927194be5a3178f46aeb4879ce6:27a61e7f537d485c99ed9b4aed33d5b2:66b11bd0d3825750a55d5cd0d36f5761"
     },
     {
       "key": "avatar:10000130",
@@ -2348,8 +2348,8 @@
         "weaponClass": "Bow",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/26b9f952b3bda837e99c03a691ad1e32.png",
-      "sourceHash": "release:r2:896939a6e97878b8da4ab8a45f420388:08b294a519a8732394262c790ac6b27c:123d48e8590b51e85c03c8e493252d1c"
+      "image": "https://cdn.gachabase.net/gi/assets/ba7bd044b7a67c92189abbf73587dd1a.png",
+      "sourceHash": "release:r2:896939a6e97878b8da4ab8a45f420388:b02138650e18e61f27d5354d000a43f6:123d48e8590b51e85c03c8e493252d1c"
     },
     {
       "key": "avatar:10000131",
@@ -2362,8 +2362,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/2cfac73f282a2768d235cc0c85805395.png",
-      "sourceHash": "release:r2:6dd474152867a305597736e9d0277914:77f1b4e376b556346cb65cbf2c4543ad:0fb86abcfad4d3ef35d839f69ca81481"
+      "image": "https://cdn.gachabase.net/gi/assets/833692cb4e6ce9947f542124487dc04f.png",
+      "sourceHash": "release:r2:6dd474152867a305597736e9d0277914:9e978eddc4db6b740ba2c55e7897e34a:0fb86abcfad4d3ef35d839f69ca81481"
     },
     {
       "key": "avatar:10000132",
@@ -2376,8 +2376,8 @@
         "weaponClass": "Catalyst",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/5a2ec5c152828dd930bd004dacc4ec75.png",
-      "sourceHash": "release:r2:ce32a4b23218c7c542fc6f8c983f6342:e19d8d2f3d16908d946a0cee9fd70add:dc0ee3d1bcc36c4ae01267d032658bee"
+      "image": "https://cdn.gachabase.net/gi/assets/08f1bb1047faccb1fef6c98eb3ad1ef8.png",
+      "sourceHash": "release:r2:ce32a4b23218c7c542fc6f8c983f6342:2af23eb5821915489113cfce940675b5:dc0ee3d1bcc36c4ae01267d032658bee"
     },
     {
       "key": "avatar:10000133",
@@ -2390,8 +2390,8 @@
         "weaponClass": "Claymore",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/6358e40835bacdb98ca9a05f8c09df43.png",
-      "sourceHash": "release:r2:fa35fd7d5b69a2e6a1ac1625faa057ba:38b89c2eaf6dc7dc0c1f53d23c6d69f2:bccbd7b0f8a835874cad5174ab1cb8eb"
+      "image": "https://cdn.gachabase.net/gi/assets/01d114df1f18f71a75763b1f27ea2a81.png",
+      "sourceHash": "release:r2:fa35fd7d5b69a2e6a1ac1625faa057ba:4994d13dbe4af8bf88b9c120a88a85a9:bccbd7b0f8a835874cad5174ab1cb8eb"
     },
     {
       "key": "avatar:10000136",
@@ -2399,14 +2399,13 @@
       "joinKeys": [
         "mitya"
       ],
-      "branch": "beta",
       "attributes": {
         "element": "Electro",
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/01f26722851dc864fe866c284750d09a.png",
-      "sourceHash": "beta:r2:a131abada5a4ad427b5d2a37d6ce242c:86743ea0468a254061276fd2d849593d:b1184d55f3e0dcf1a9a6cf04cdb6f52e"
+      "image": "https://cdn.gachabase.net/gi/assets/55316264625932aec26f2789e3065af5.png",
+      "sourceHash": "release:r2:a131abada5a4ad427b5d2a37d6ce242c:ad36b285bdb36bbc61d43b5b2ee3c8a2:2879071d594df6a034b3b3362e50ea0b"
     },
     {
       "key": "avatar:10000137",
@@ -2414,14 +2413,13 @@
       "joinKeys": [
         "valeriy"
       ],
-      "branch": "beta",
       "attributes": {
         "element": "Electro",
         "weaponClass": "Sword",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/b21a22b6e99dac5f41f591ce207bf2d5.png",
-      "sourceHash": "beta:r2:93f2aeb947e6724dee4a81d0a805103f:78a14c7cc96ec0c1b06db1f6f5655565:b643e62238a806e73b45cb5279a4df92"
+      "image": "https://cdn.gachabase.net/gi/assets/30b7be483206b877a88677c31e25a9bb.png",
+      "sourceHash": "release:r2:93f2aeb947e6724dee4a81d0a805103f:ee04796c77d232c99ba86b7123a1b3be:c33a1503fdc88a4558f488f82a6d338d"
     },
     {
       "key": "avatar:10000140",
@@ -2434,8 +2432,8 @@
         "weaponClass": "Catalyst",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/4ed3905b4bf6e429eb6335002d214fbe.png",
-      "sourceHash": "release:r2:62ee041e31e8da886554f739c4098fd4:4e70451557db40051fe7f1dfd7b2b447:ef10a2267dbd036c1888f60d39bd5dd5"
+      "image": "https://cdn.gachabase.net/gi/assets/940dbabba932ce86461b16150c846335.png",
+      "sourceHash": "release:r2:62ee041e31e8da886554f739c4098fd4:91aa59789fc7fdb79ba4e50ccc72a23e:3de1b9c5943394dfb46b5f6c9de045ff"
     },
     {
       "key": "avatar:10000143",
@@ -2448,8 +2446,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/5a28acf25f5d449da22100097d63fbe8.png",
-      "sourceHash": "release:r2:29fb9d630025ca7bd0981a43e8a8b69f:1014d3b57e245c42b27cf81d69394526:a31869f89fffb71f3805fa91e94000bf"
+      "image": "https://cdn.gachabase.net/gi/assets/673f828e16f466cb3fffa5dac8b9f8a5.png",
+      "sourceHash": "release:r2:29fb9d630025ca7bd0981a43e8a8b69f:8521e51f7941ee0066857d5fa001e998:4fc0a5c73dc0ba4511de07476b296d74"
     },
     {
       "key": "avatar:10000148",
@@ -2462,8 +2460,8 @@
         "weaponClass": "Polearm",
         "rarity": 4
       },
-      "image": "https://cdn.gachabase.net/gi/assets/be039888aebc701ab7a5a67c3a72757d.png",
-      "sourceHash": "release:r2:4274082997d8d0356138bf8de407c414:5b0f1df8725137c7e2540f95b2eb0d49:e32ae4cdfa9e8da4a474a7bf4c48b502"
+      "image": "https://cdn.gachabase.net/gi/assets/aebdd40d2ccdecf25bbfe9a7b8da9b06.png",
+      "sourceHash": "release:r2:4274082997d8d0356138bf8de407c414:d19f0c039e38a683d03d0f3a44f6da55:e32ae4cdfa9e8da4a474a7bf4c48b502"
     },
     {
       "key": "avatar:10000150",
@@ -2476,8 +2474,8 @@
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/e2ae90ac6c14326555456ea4833726be.png",
-      "sourceHash": "release:r2:3cfbfa84b757189d25f92233adf47bf9:17d58939d4e4de0c0c02c73583a32394:a71da30cb78b2a6388c8b8d1425decd5"
+      "image": "https://cdn.gachabase.net/gi/assets/4edcfaa343fb70b2b6ec162f583389d0.png",
+      "sourceHash": "release:r2:3cfbfa84b757189d25f92233adf47bf9:dad1a7cbb26f6fe5387eb99edb282d3d:a71da30cb78b2a6388c8b8d1425decd5"
     }
   ],
   "leftOut": [

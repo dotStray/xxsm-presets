@@ -412,6 +412,20 @@
     }
   },
   {
+    "internalName": "Kafka",
+    "displayName": "Kafka",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Kafka",
+    "image": "images/Kafka.webp",
+    "attributes": {
+      "attribute": "electric",
+      "specialty": "anomaly",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "Koleda",
     "displayName": "Koleda",
     "baseCharacterId": null,
@@ -686,6 +700,34 @@
     "hashesPending": true
   },
   {
+    "internalName": "PhoenixDaydream",
+    "displayName": "Daydream Complex",
+    "baseCharacterId": "Phoenix",
+    "isDefaultVariant": false,
+    "modFilesName": "PhoenixDaydream",
+    "image": "images/PhoenixDaydream.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "anomaly",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "PhoenixIllness",
+    "displayName": "The Illness Called Life",
+    "baseCharacterId": "Phoenix",
+    "isDefaultVariant": false,
+    "modFilesName": "PhoenixIllness",
+    "image": "images/PhoenixIllness.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "anomaly",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "Piper",
     "displayName": "Piper",
     "baseCharacterId": null,
@@ -817,6 +859,20 @@
     }
   },
   {
+    "internalName": "Robin",
+    "displayName": "Robin",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Robin",
+    "image": "images/Robin.webp",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "defense",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "Roxy",
     "displayName": "Roxy",
     "baseCharacterId": null,
@@ -863,6 +919,20 @@
     "isDefaultVariant": true,
     "modFilesName": "Severian",
     "image": "images/Severian.webp",
+    "attributes": {
+      "attribute": "wind",
+      "specialty": "attack",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
+    "internalName": "SeverianSolemnly",
+    "displayName": "Solemnly Impeccable",
+    "baseCharacterId": "Severian",
+    "isDefaultVariant": false,
+    "modFilesName": "SeverianSolemnly",
+    "image": "images/SeverianSolemnly.webp",
     "attributes": {
       "attribute": "wind",
       "specialty": "attack",
@@ -934,6 +1004,20 @@
       "specialty": "support",
       "rank": "a"
     }
+  },
+  {
+    "internalName": "Sunbringer",
+    "displayName": "Sunbringer",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Sunbringer",
+    "image": "images/Sunbringer.webp",
+    "attributes": {
+      "attribute": "fire",
+      "specialty": "armorer",
+      "rank": "s"
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Sunna",
