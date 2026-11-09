@@ -1,13 +1,15 @@
 # genshin: characters waiting for hashes
 
-20 characters in the pack have no hashes yet. They are still usable: they appear in the grid, take mods filed by hand or by name, and offer *Learn hashes from a mod*. A shrinking list is the pipeline working; a growing one means an upstream hash repository has gone quiet.
+22 characters in the pack have no hashes yet. They are still usable: they appear in the grid, take mods filed by hand or by name, and offer *Learn hashes from a mod*. A shrinking list is the pipeline working; a growing one means an upstream hash repository has gone quiet.
 
 To add hashes yourself, put a file in `manual/genshin/hashes/` named after the character.
 
 - **Alyosha** — Alyosha
+- **Anastasya** — Anastasya
 - **BennettAdventures** — Adventures in Blazing Hue (outfit of Bennett)
 - **CharlotteHurlock** — Hurlock Variations (outfit of Charlotte)
 - **CitlaliWhispers** — Whispers of Stars and Smoke (outfit of Citlali)
+- **Danica** — Danica
 - **DurinToward** — Toward the Distant Horizon (outfit of Durin)
 - **HuTaoCherries** — Cherries Snow-Laden (outfit of HuTao)
 - **LanYan** — Lan Yan

@@ -53,14 +53,14 @@
       "sourceHash": "release:r2:2dfb4a7fa6f755b84acbce0192b23d58:66314b580e747958d85f9d38f70d2327:4bf597a8f15af3487d901475938ad990"
     },
     {
-      "key": "avatar:10000005-anemo",
+      "key": "avatar:100000051",
       "name": "Traveler",
       "joinKeys": [
         "traveler"
       ],
       "family": "avatar:10000005",
       "attributes": {
-        "element": "Anemo",
+        "element": "Pyro",
         "weaponClass": "Sword",
         "rarity": 5
       },
@@ -75,95 +75,7 @@
       "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
-      "key": "avatar:10000005-cryo",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000005",
-      "attributes": {
-        "element": "Cryo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
-      "outfits": [
-        {
-          "key": "skin:200501",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
-        }
-      ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
-    },
-    {
-      "key": "avatar:10000005-dendro",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000005",
-      "attributes": {
-        "element": "Dendro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
-      "outfits": [
-        {
-          "key": "skin:200501",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
-        }
-      ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
-    },
-    {
-      "key": "avatar:10000005-electro",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000005",
-      "attributes": {
-        "element": "Electro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
-      "outfits": [
-        {
-          "key": "skin:200501",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
-        }
-      ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
-    },
-    {
-      "key": "avatar:10000005-geo",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000005",
-      "attributes": {
-        "element": "Geo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
-      "outfits": [
-        {
-          "key": "skin:200501",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
-        }
-      ],
-      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
-    },
-    {
-      "key": "avatar:10000005-hydro",
+      "key": "avatar:100000052",
       "name": "Traveler",
       "joinKeys": [
         "traveler"
@@ -185,14 +97,102 @@
       "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
     },
     {
-      "key": "avatar:10000005-pyro",
+      "key": "avatar:100000053",
       "name": "Traveler",
       "joinKeys": [
         "traveler"
       ],
       "family": "avatar:10000005",
       "attributes": {
-        "element": "Pyro",
+        "element": "Dendro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
+    },
+    {
+      "key": "avatar:100000054",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000005",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
+    },
+    {
+      "key": "avatar:100000055",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000005",
+      "attributes": {
+        "element": "Cryo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
+    },
+    {
+      "key": "avatar:100000057",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000005",
+      "attributes": {
+        "element": "Anemo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/b975440a1ea06e378d525c68c67a3fae.png",
+      "outfits": [
+        {
+          "key": "skin:200501",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/4fad29037a4e92d9f74399ced43dc2c7.png"
+        }
+      ],
+      "sourceHash": "release:r2:36ecacf5247cc5e216932db199b05c66:aa79daf790ae57793d1955aa005bbd20:e3727658bb3b0d263bfd2b6e6bda9a65"
+    },
+    {
+      "key": "avatar:100000058",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000005",
+      "attributes": {
+        "element": "Geo",
         "weaponClass": "Sword",
         "rarity": 5
       },
@@ -228,14 +228,14 @@
       "sourceHash": "release:r2:23e4b6d34bf4fde8f648d57a5ac5838e:8046c0bfa10dc01172d1beda90417e6a:d770048ded02ced2f79fb7119e23809f"
     },
     {
-      "key": "avatar:10000007-anemo",
+      "key": "avatar:100000071",
       "name": "Traveler",
       "joinKeys": [
         "traveler"
       ],
       "family": "avatar:10000007",
       "attributes": {
-        "element": "Anemo",
+        "element": "Pyro",
         "weaponClass": "Sword",
         "rarity": 5
       },
@@ -250,95 +250,7 @@
       "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
-      "key": "avatar:10000007-cryo",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000007",
-      "attributes": {
-        "element": "Cryo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
-      "outfits": [
-        {
-          "key": "skin:200701",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
-        }
-      ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
-    },
-    {
-      "key": "avatar:10000007-dendro",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000007",
-      "attributes": {
-        "element": "Dendro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
-      "outfits": [
-        {
-          "key": "skin:200701",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
-        }
-      ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
-    },
-    {
-      "key": "avatar:10000007-electro",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000007",
-      "attributes": {
-        "element": "Electro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
-      "outfits": [
-        {
-          "key": "skin:200701",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
-        }
-      ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
-    },
-    {
-      "key": "avatar:10000007-geo",
-      "name": "Traveler",
-      "joinKeys": [
-        "traveler"
-      ],
-      "family": "avatar:10000007",
-      "attributes": {
-        "element": "Geo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
-      "outfits": [
-        {
-          "key": "skin:200701",
-          "name": "As Heaven and Earth Are Made Anew",
-          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
-        }
-      ],
-      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
-    },
-    {
-      "key": "avatar:10000007-hydro",
+      "key": "avatar:100000072",
       "name": "Traveler",
       "joinKeys": [
         "traveler"
@@ -360,14 +272,102 @@
       "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
     },
     {
-      "key": "avatar:10000007-pyro",
+      "key": "avatar:100000073",
       "name": "Traveler",
       "joinKeys": [
         "traveler"
       ],
       "family": "avatar:10000007",
       "attributes": {
-        "element": "Pyro",
+        "element": "Dendro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
+    },
+    {
+      "key": "avatar:100000074",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000007",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
+    },
+    {
+      "key": "avatar:100000075",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000007",
+      "attributes": {
+        "element": "Cryo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
+    },
+    {
+      "key": "avatar:100000077",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000007",
+      "attributes": {
+        "element": "Anemo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/1222e1d08252962c17c921d789879977.png",
+      "outfits": [
+        {
+          "key": "skin:200701",
+          "name": "As Heaven and Earth Are Made Anew",
+          "image": "https://cdn.gachabase.net/gi/assets/7d253eab44146a5c0800dfa2dcc8c121.png"
+        }
+      ],
+      "sourceHash": "release:r2:79a9b4659f7482dfcc0e805e55e4e863:252deece07c0a366d7259c56da8531d2:6942e58e886177aa1701a8c62b18dbec"
+    },
+    {
+      "key": "avatar:100000078",
+      "name": "Traveler",
+      "joinKeys": [
+        "traveler"
+      ],
+      "family": "avatar:10000007",
+      "attributes": {
+        "element": "Geo",
         "weaponClass": "Sword",
         "rarity": 5
       },
@@ -1967,97 +1967,7 @@
       "sourceHash": "release:r2:6ce0506491d05611ccdf2d215db23d22:e8812fddceb7fc667f9dee8733e35481:d05d29c904e23e33f1be0d24b43363b6"
     },
     {
-      "key": "avatar:10000117-anemo",
-      "name": "Manekin",
-      "joinKeys": [
-        "manekin"
-      ],
-      "family": "avatar:10000117",
-      "attributes": {
-        "element": "Anemo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
-    },
-    {
-      "key": "avatar:10000117-cryo",
-      "name": "Manekin",
-      "joinKeys": [
-        "manekin"
-      ],
-      "family": "avatar:10000117",
-      "attributes": {
-        "element": "Cryo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
-    },
-    {
-      "key": "avatar:10000117-dendro",
-      "name": "Manekin",
-      "joinKeys": [
-        "manekin"
-      ],
-      "family": "avatar:10000117",
-      "attributes": {
-        "element": "Dendro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
-    },
-    {
-      "key": "avatar:10000117-electro",
-      "name": "Manekin",
-      "joinKeys": [
-        "manekin"
-      ],
-      "family": "avatar:10000117",
-      "attributes": {
-        "element": "Electro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
-    },
-    {
-      "key": "avatar:10000117-geo",
-      "name": "Manekin",
-      "joinKeys": [
-        "manekin"
-      ],
-      "family": "avatar:10000117",
-      "attributes": {
-        "element": "Geo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
-    },
-    {
-      "key": "avatar:10000117-hydro",
-      "name": "Manekin",
-      "joinKeys": [
-        "manekin"
-      ],
-      "family": "avatar:10000117",
-      "attributes": {
-        "element": "Hydro",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
-      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
-    },
-    {
-      "key": "avatar:10000117-pyro",
+      "key": "avatar:100001171",
       "name": "Manekin",
       "joinKeys": [
         "manekin"
@@ -2072,74 +1982,104 @@
       "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
-      "key": "avatar:10000118-anemo",
-      "name": "Manekina",
+      "key": "avatar:100001172",
+      "name": "Manekin",
       "joinKeys": [
-        "manekina"
+        "manekin"
       ],
-      "family": "avatar:10000118",
+      "family": "avatar:10000117",
       "attributes": {
-        "element": "Anemo",
+        "element": "Hydro",
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
-      "key": "avatar:10000118-cryo",
-      "name": "Manekina",
+      "key": "avatar:100001173",
+      "name": "Manekin",
       "joinKeys": [
-        "manekina"
+        "manekin"
       ],
-      "family": "avatar:10000118",
-      "attributes": {
-        "element": "Cryo",
-        "weaponClass": "Sword",
-        "rarity": 5
-      },
-      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
-    },
-    {
-      "key": "avatar:10000118-dendro",
-      "name": "Manekina",
-      "joinKeys": [
-        "manekina"
-      ],
-      "family": "avatar:10000118",
+      "family": "avatar:10000117",
       "attributes": {
         "element": "Dendro",
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
-      "key": "avatar:10000118-electro",
-      "name": "Manekina",
+      "key": "avatar:100001174",
+      "name": "Manekin",
       "joinKeys": [
-        "manekina"
+        "manekin"
       ],
-      "family": "avatar:10000118",
+      "family": "avatar:10000117",
       "attributes": {
         "element": "Electro",
         "weaponClass": "Sword",
         "rarity": 5
       },
-      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
-      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
     },
     {
-      "key": "avatar:10000118-geo",
+      "key": "avatar:100001175",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Cryo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:100001177",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Anemo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:100001178",
+      "name": "Manekin",
+      "joinKeys": [
+        "manekin"
+      ],
+      "family": "avatar:10000117",
+      "attributes": {
+        "element": "Geo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/d976f99f2ea21b1c2a648129e6c396d1.png",
+      "sourceHash": "release:r2:e7b4f48b59023a36fc9fa1680382bc8f:70065a38b0f8545011869eb5b6973abc:e8f62953aea993bb329a5d6f301bd3b2"
+    },
+    {
+      "key": "avatar:100001181",
       "name": "Manekina",
       "joinKeys": [
         "manekina"
       ],
       "family": "avatar:10000118",
       "attributes": {
-        "element": "Geo",
+        "element": "Pyro",
         "weaponClass": "Sword",
         "rarity": 5
       },
@@ -2147,7 +2087,7 @@
       "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
-      "key": "avatar:10000118-hydro",
+      "key": "avatar:100001182",
       "name": "Manekina",
       "joinKeys": [
         "manekina"
@@ -2162,14 +2102,74 @@
       "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
     },
     {
-      "key": "avatar:10000118-pyro",
+      "key": "avatar:100001183",
       "name": "Manekina",
       "joinKeys": [
         "manekina"
       ],
       "family": "avatar:10000118",
       "attributes": {
-        "element": "Pyro",
+        "element": "Dendro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:100001184",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:100001185",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Cryo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:100001187",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Anemo",
+        "weaponClass": "Sword",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/fd259fe39d2edf1f96397d68e429a50d.png",
+      "sourceHash": "release:r2:8cd5e301cdbb9994af1ef27e4a55bd3d:824f73cd1e8064f6261d9eac651b671b:18e39f953b1d73f50d9548a1340d073e"
+    },
+    {
+      "key": "avatar:100001188",
+      "name": "Manekina",
+      "joinKeys": [
+        "manekina"
+      ],
+      "family": "avatar:10000118",
+      "attributes": {
+        "element": "Geo",
         "weaponClass": "Sword",
         "rarity": 5
       },
@@ -2450,6 +2450,21 @@
       "sourceHash": "release:r2:29fb9d630025ca7bd0981a43e8a8b69f:8521e51f7941ee0066857d5fa001e998:4fc0a5c73dc0ba4511de07476b296d74"
     },
     {
+      "key": "avatar:10000147",
+      "name": "Danica",
+      "joinKeys": [
+        "danica"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Electro",
+        "weaponClass": "Claymore",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/86c4cbe06ed7831ea555f4545fd62413.png",
+      "sourceHash": "beta:r2:4da8b387853030b31a715309d388413a:8cfbbff4703b6806e4f2d9e448d01a13:b15049005da270cdbc17f5cfd5d6485b"
+    },
+    {
       "key": "avatar:10000148",
       "name": "Alyosha",
       "joinKeys": [
@@ -2464,6 +2479,21 @@
       "sourceHash": "release:r2:4274082997d8d0356138bf8de407c414:d19f0c039e38a683d03d0f3a44f6da55:e32ae4cdfa9e8da4a474a7bf4c48b502"
     },
     {
+      "key": "avatar:10000149",
+      "name": "Anastasya",
+      "joinKeys": [
+        "anastasya"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Cryo",
+        "weaponClass": "Bow",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/gi/assets/e5337e123927ed861e5863dcaf027702.png",
+      "sourceHash": "beta:r2:a69200f4afb15d69075f0026e17e16ca:88ed39edf48882ace20bf5a6c2bd5065:7fc06d09fbe3381ba2445f61c5891816"
+    },
+    {
       "key": "avatar:10000150",
       "name": "Odette",
       "joinKeys": [
@@ -2476,18 +2506,6 @@
       },
       "image": "https://cdn.gachabase.net/gi/assets/4edcfaa343fb70b2b6ec162f583389d0.png",
       "sourceHash": "release:r2:3cfbfa84b757189d25f92233adf47bf9:dad1a7cbb26f6fe5387eb99edb282d3d:a71da30cb78b2a6388c8b8d1425decd5"
-    }
-  ],
-  "leftOut": [
-    {
-      "key": "avatar:10000134",
-      "name": "Traveler",
-      "reason": "it has no element: an empty placeholder in the game's files, not a character anyone can play"
-    },
-    {
-      "key": "avatar:10000135",
-      "name": "Traveler",
-      "reason": "it has no element: an empty placeholder in the game's files, not a character anyone can play"
     }
   ]
 }

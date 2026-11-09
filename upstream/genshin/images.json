@@ -27,6 +27,10 @@
     "source": "https://cdn.gachabase.net/gi/assets/840f90b18a537445b5622382dd049f65.png",
     "sha256": "2641af7c51258b2cf2085fdc48b8dfbb91af82e83861ed8ef131be5cdd17b93d"
   },
+  "Anastasya": {
+    "source": "https://cdn.gachabase.net/gi/assets/e5337e123927ed861e5863dcaf027702.png",
+    "sha256": "4e3e32845493c656d7c47331db87872c4bad58d1b1c8b116ea2b9bb4e3bd9626"
+  },
   "AratakiItto": {
     "source": "https://cdn.gachabase.net/gi/assets/d6429728dc64d53118c4a93b9d387e99.png",
     "sha256": "dde7b9e947ab891f8cdc6f0d94a46c31f1254aae5d6da1a6782b3ce075cb29e0"
@@ -118,6 +122,10 @@
   "Dahlia": {
     "source": "https://cdn.gachabase.net/gi/assets/de1bf953d128be55051e2155ed8b7415.png",
     "sha256": "2a07a6a73b38c539982012567c3fd0b3767e9dbdd4cb296db71abd62fbcb6a1b"
+  },
+  "Danica": {
+    "source": "https://cdn.gachabase.net/gi/assets/86c4cbe06ed7831ea555f4545fd62413.png",
+    "sha256": "012bd1641a6e3bd225e325342a27dcbf51fa2f611e5c049a1b89db695055be83"
   },
   "Dehya": {
     "source": "https://cdn.gachabase.net/gi/assets/9aade853d43808255b7305ffaf99f2fc.png",

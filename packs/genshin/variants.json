@@ -92,6 +92,20 @@
     }
   },
   {
+    "internalName": "Anastasya",
+    "displayName": "Anastasya",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Anastasya",
+    "image": "images/Anastasya.webp",
+    "attributes": {
+      "element": "cryo",
+      "weaponClass": "bow",
+      "rarity": 5
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "AratakiItto",
     "displayName": "Arataki Itto",
     "baseCharacterId": null,
@@ -392,6 +406,20 @@
       "weaponClass": "sword",
       "rarity": 4
     }
+  },
+  {
+    "internalName": "Danica",
+    "displayName": "Danica",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Danica",
+    "image": "images/Danica.webp",
+    "attributes": {
+      "element": "electro",
+      "weaponClass": "claymore",
+      "rarity": 5
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Dehya",
@@ -1133,13 +1161,13 @@
     "image": "images/Manekin.webp",
     "attributes": {
       "element": [
-        "anemo",
-        "cryo",
+        "pyro",
+        "hydro",
         "dendro",
         "electro",
-        "geo",
-        "hydro",
-        "pyro"
+        "cryo",
+        "anemo",
+        "geo"
       ],
       "weaponClass": "sword",
       "rarity": 5
@@ -1155,13 +1183,13 @@
     "image": "images/Manekina.webp",
     "attributes": {
       "element": [
-        "anemo",
-        "cryo",
+        "pyro",
+        "hydro",
         "dendro",
         "electro",
-        "geo",
-        "hydro",
-        "pyro"
+        "cryo",
+        "anemo",
+        "geo"
       ],
       "weaponClass": "sword",
       "rarity": 5
@@ -1674,13 +1702,13 @@
     "image": "images/TravelerBoy.webp",
     "attributes": {
       "element": [
-        "anemo",
-        "cryo",
+        "pyro",
+        "hydro",
         "dendro",
         "electro",
-        "geo",
-        "hydro",
-        "pyro"
+        "cryo",
+        "anemo",
+        "geo"
       ],
       "weaponClass": "sword",
       "rarity": 5
@@ -1695,13 +1723,13 @@
     "image": "images/TravelerBoyHeaven.webp",
     "attributes": {
       "element": [
-        "anemo",
-        "cryo",
+        "pyro",
+        "hydro",
         "dendro",
         "electro",
-        "geo",
-        "hydro",
-        "pyro"
+        "cryo",
+        "anemo",
+        "geo"
       ],
       "weaponClass": "sword",
       "rarity": 5
@@ -1717,13 +1745,13 @@
     "image": "images/TravelerGirl.webp",
     "attributes": {
       "element": [
-        "anemo",
-        "cryo",
+        "pyro",
+        "hydro",
         "dendro",
         "electro",
-        "geo",
-        "hydro",
-        "pyro"
+        "cryo",
+        "anemo",
+        "geo"
       ],
       "weaponClass": "sword",
       "rarity": 5
@@ -1738,13 +1766,13 @@
     "image": "images/TravelerGirlHeaven.webp",
     "attributes": {
       "element": [
-        "anemo",
-        "cryo",
+        "pyro",
+        "hydro",
         "dendro",
         "electro",
-        "geo",
-        "hydro",
-        "pyro"
+        "cryo",
+        "anemo",
+        "geo"
       ],
       "weaponClass": "sword",
       "rarity": 5

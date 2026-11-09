@@ -243,6 +243,19 @@
     }
   },
   {
+    "internalName": "CampusLead",
+    "displayName": "CampusLead",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "CampusLead",
+    "attributes": {
+      "attribute": "ether",
+      "specialty": "attack",
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "Cissia",
     "displayName": "Cissia",
     "baseCharacterId": null,
@@ -450,6 +463,14 @@
       "specialty": "stun",
       "rank": "s"
     }
+  },
+  {
+    "internalName": "Lindverne",
+    "displayName": "Lindverne",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Lindverne",
+    "hashesPending": true
   },
   {
     "internalName": "Lucia",
