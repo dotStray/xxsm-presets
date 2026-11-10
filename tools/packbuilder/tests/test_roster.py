@@ -283,6 +283,38 @@ class GenshinTest(unittest.TestCase):
 
 
 class ZenlessTest(unittest.TestCase):
+    def test_detail_envelopes_require_an_object_and_prefer_dto(self):
+        game = roster.SOURCES["gachabase-zenless"]
+        dto, legacy = {"id": 1011}, {"id": 1602}
+        self.assertIs(game.entity({"dto": dto, "entity": legacy}), dto)
+        self.assertIs(game.entity({"entity": legacy}), legacy)
+        for envelope in ("dto", "entity"):
+            for value in (None, [], "agent", 1011, False):
+                with self.subTest(envelope=envelope, value=value):
+                    with self.assertRaises(FetchError):
+                        game.entity({envelope: value})
+        with self.assertRaises(FetchError):
+            game.entity({})
+        with self.assertRaises(FetchError):
+            game.entity({"dto": None, "entity": legacy})
+
+    def test_invalid_detail_keeps_previous_outfits_and_portrait_without_a_success_stamp(self):
+        before = roster.Character("avatar:1011", "Anby", ["anby"], image=f"{CDN}/game/assets/anby.png",
+                                  outfits=[roster.Outfit("skin:1", "Saved outfit", None)], source_hash="old")
+        for detail in ({}, {"dto": []}, {"entity": None}, {"dto": False, "entity": {"skins": []}}):
+            with self.subTest(detail=detail):
+                site = FakeSite({
+                    "/agents/release/__data": {"entries": [entry(1011, "Anby")]},
+                    "/agents/beta/__data": {"entries": [entry(1011, "Anby")]},
+                    "/agents/1011/anby/release": detail,
+                })
+                result = roster.read("gachabase-zenless", site, [before])
+                anby = result.characters[0]
+                self.assertEqual((anby.image, anby.outfits), (before.image, before.outfits))
+                self.assertIsNone(anby.source_hash)
+                self.assertEqual(len(result.warnings), 1)
+                self.assertIn("last run's outfits and picture are kept", result.warnings[0])
+
     def test_the_first_look_is_the_portrait_and_the_rest_are_outfits_even_unnamed(self):
         filters = [{"id": "element_ids", "options": {"300": {"name": "Lumiflux"}}}, {"id": "specialty_id", "options": {"3": {"name": "Anomaly"}}}]
         skins = [
@@ -353,9 +385,18 @@ class ZenlessTest(unittest.TestCase):
             "/agents/1261/jane/release": {"entity": {"assets": {"square_icon_path_hash": "sq"}, "skins": skins},
                                           "refs": {"assets": {**asset("sq", "square512"), **asset("s0", "art"), **asset("c0", "icon"), **asset("s1", "art1"), **asset("c1", "icon1")}}},
         })
-        jane = roster.read("gachabase-zenless", site, []).characters[0]
-        self.assertEqual((jane.image, jane.frame), (f"{CDN}/game/assets/square512.png", None))  # used as it is, not cut
-        self.assertEqual((jane.outfits[0].image, jane.outfits[0].frame), (f"{CDN}/game/assets/art1.png", f"{CDN}/game/assets/icon1.png"))
+        page = site.pages["/agents/1261/jane/release"]
+        entity = page.pop("entity")
+        for envelope in ("entity", "dto"):
+            with self.subTest(envelope=envelope):
+                site.pages["/agents/1261/jane/release"] = {envelope: entity, "refs": page["refs"]}
+                result = roster.read("gachabase-zenless", site, [])
+                self.assertEqual(result.warnings, [])
+                jane = result.characters[0]
+                self.assertEqual((jane.image, jane.frame), (f"{CDN}/game/assets/square512.png", None))  # used as it is, not cut
+                self.assertEqual([(o.key, o.name) for o in jane.outfits], [("skin:3112611", "Nocturne of Light")])
+                self.assertEqual((jane.outfits[0].image, jane.outfits[0].frame), (f"{CDN}/game/assets/art1.png", f"{CDN}/game/assets/icon1.png"))
+                self.assertIsNotNone(jane.source_hash)
 
 
 class ConfigWordsTest(unittest.TestCase):

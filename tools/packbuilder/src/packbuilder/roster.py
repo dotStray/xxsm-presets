@@ -299,9 +299,9 @@ class _Zenless(_Game):
         return {k: v for k, v in values.items() if v}
 
     def entity(self, data: dict) -> dict:
-        found = data.get("entity")
+        found = data.get("dto", data.get("entity"))
         if not isinstance(found, dict):
-            raise FetchError("the agent page has no agent in it (no 'entity').")
+            raise FetchError("the agent page has no agent in it (no 'dto' or 'entity' object).")
         return found
 
     def pictures(self, data: dict, entity: dict, entry: dict) -> tuple[str | None, str | None]:
