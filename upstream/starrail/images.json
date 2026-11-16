@@ -7,6 +7,10 @@
     "source": "https://cdn.gachabase.net/hsr/assets/2be49dbbe7cfe8f77187dcfea51d9863.png",
     "sha256": "9f5f400bc2551ac3bf18c866500527ca1ea72a8afc2c7d1b84a039e31c0d4353"
   },
+  "AeonAhaLotto": {
+    "source": "https://cdn.gachabase.net/hsr/assets/2c80233296e64ab34f95c5e051d86007.png",
+    "sha256": "879bfeedb973efcaf03bd970a5ed4934141b2304f04c10bf90e291269101b1e7"
+  },
   "Aglaea": {
     "source": "https://cdn.gachabase.net/hsr/assets/87ac37c964ffbf03f0e59a686c9d2792.png",
     "sha256": "8fa811a184b0fff306f32f0383347d2b1c64912bffd35e01e6bdd3ce2e437c2c"
@@ -34,6 +38,10 @@
   "Asta": {
     "source": "https://cdn.gachabase.net/hsr/assets/8cafc46d07ce456dc3fad53fb5f1cf2b.png",
     "sha256": "b1d0e590aefef5e18a3480ab48abc723f2a75b76aeb127b809ea4dfd48cec52c"
+  },
+  "AstraYao": {
+    "source": "https://cdn.gachabase.net/hsr/assets/b2e25a3498ff343cfe11749bb1250f97.png",
+    "sha256": "886cb7ed75283fc6d2eb195bfec8d145a61c1b506bf825c97cff7e0df384378b"
   },
   "Aventurine": {
     "source": "https://cdn.gachabase.net/hsr/assets/07756cf596fdba62a2a199821cd93971.png",
@@ -106,6 +114,10 @@
   "DrRatio": {
     "source": "https://cdn.gachabase.net/hsr/assets/3a33024c2bc9b1dfd8a95969c8675e92.png",
     "sha256": "0b5343292fc22dada42f2fb5f6b37550dc07c8ca893e2797359d048b5b304f06"
+  },
+  "Ellen": {
+    "source": "https://cdn.gachabase.net/hsr/assets/ac8b25ec99a6790fbe48a1282a3e7bdd.png",
+    "sha256": "fcfe02918f13677009cfaa903d2c24f69deb583ede3f7287edc72a7f8070b760"
   },
   "Evanescia": {
     "source": "https://cdn.gachabase.net/hsr/assets/723a90e789fd354fb96b450a90c73e30.png",

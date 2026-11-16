@@ -2,6 +2,7 @@
 
 | Outfit or folder | Belongs to | How it was decided | Confidence |
 |---|---|---|---|
+| AeonAhaLotto | AeonAha | the character list names it as an outfit | high |
 | CaelusVigor | Caelus | override: an outfit of Caelus | high |
 | CastoriceFlutter | Castorice | the character list names it as an outfit | high |
 | EvanesciaLunar | Evanescia | the character list names it as an outfit | high |

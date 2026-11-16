@@ -14,7 +14,7 @@
   },
   {
     "internalName": "AliceSummer",
-    "displayName": "Sea of Thyme",
+    "displayName": "Alice: Sea of Thyme",
     "baseCharacterId": "Alice",
     "isDefaultVariant": false,
     "modFilesName": "AliceSummer",
@@ -66,7 +66,7 @@
   },
   {
     "internalName": "AriaDiscordant",
-    "displayName": "Aria Discordant",
+    "displayName": "Aria: Discordant Note",
     "baseCharacterId": "Aria",
     "isDefaultVariant": false,
     "modFilesName": "AriaDiscordant",
@@ -79,7 +79,7 @@
   },
   {
     "internalName": "AriaKfc",
-    "displayName": "Cuteness Loading",
+    "displayName": "Aria: Cuteness Loading",
     "baseCharacterId": "Aria",
     "isDefaultVariant": false,
     "modFilesName": "AriaKfc",
@@ -121,7 +121,7 @@
   },
   {
     "internalName": "AstraChandelier",
-    "displayName": "Chandelier",
+    "displayName": "Astra Yao: Chandelier",
     "baseCharacterId": "Astra",
     "isDefaultVariant": false,
     "modFilesName": "AstraChandelier",
@@ -248,6 +248,7 @@
     "baseCharacterId": null,
     "isDefaultVariant": true,
     "modFilesName": "CampusLead",
+    "image": "images/CampusLead.webp",
     "attributes": {
       "attribute": "ether",
       "specialty": "attack",
@@ -322,7 +323,7 @@
   },
   {
     "internalName": "EllenCampus",
-    "displayName": "On Campus",
+    "displayName": "Ellen: On Campus",
     "baseCharacterId": "Ellen",
     "isDefaultVariant": false,
     "modFilesName": "EllenCampus",
@@ -400,7 +401,7 @@
   },
   {
     "internalName": "JaneSummer",
-    "displayName": "Nocturne of Light",
+    "displayName": "Jane: Nocturne of Light",
     "baseCharacterId": "Jane",
     "isDefaultVariant": false,
     "modFilesName": "JaneSummer",
@@ -470,6 +471,7 @@
     "baseCharacterId": null,
     "isDefaultVariant": true,
     "modFilesName": "Lindverne",
+    "image": "images/Lindverne.webp",
     "hashesPending": true
   },
   {
@@ -500,7 +502,7 @@
   },
   {
     "internalName": "LucySummer",
-    "displayName": "Princess on Holiday",
+    "displayName": "Lucy: Princess on Holiday",
     "baseCharacterId": "Lucy",
     "isDefaultVariant": false,
     "modFilesName": "LucySummer",
@@ -539,7 +541,7 @@
   },
   {
     "internalName": "ManatoWhite",
-    "displayName": "White Heart Silhouette",
+    "displayName": "Komano Manato: White Heart Silhouette",
     "baseCharacterId": "Manato",
     "isDefaultVariant": false,
     "modFilesName": "ManatoWhite",
@@ -565,7 +567,7 @@
   },
   {
     "internalName": "MiyabiBlossom",
-    "displayName": "Dignified Blossom",
+    "displayName": "Hoshimi Miyabi: Dignified Blossom",
     "baseCharacterId": "Miyabi",
     "isDefaultVariant": false,
     "modFilesName": "MiyabiBlossom",
@@ -591,7 +593,7 @@
   },
   {
     "internalName": "NangongYuKfc",
-    "displayName": "Heartfelt Support",
+    "displayName": "Nangong Yu: Heartfelt Support",
     "baseCharacterId": "NangongYu",
     "isDefaultVariant": false,
     "modFilesName": "NangongYuKfc",
@@ -604,7 +606,7 @@
   },
   {
     "internalName": "NangongYuRapsody",
-    "displayName": "Rhapsody's Muse",
+    "displayName": "Nangong Yu: Rhapsody's Muse",
     "baseCharacterId": "NangongYu",
     "isDefaultVariant": false,
     "modFilesName": "NangongYuRapsody",
@@ -643,7 +645,7 @@
   },
   {
     "internalName": "NicoleCutie",
-    "displayName": "Cunning Cutie",
+    "displayName": "Nicole: Cunning Cutie",
     "baseCharacterId": "Nicole",
     "isDefaultVariant": false,
     "modFilesName": "NicoleCutie",
@@ -695,7 +697,7 @@
   },
   {
     "internalName": "PanYinhuJewel",
-    "displayName": "Culinary Jewel",
+    "displayName": "Pan Yinhu: Culinary Jewel",
     "baseCharacterId": "PanYinhu",
     "isDefaultVariant": false,
     "modFilesName": "PanYinhuJewel",
@@ -722,7 +724,7 @@
   },
   {
     "internalName": "PhoenixDaydream",
-    "displayName": "Daydream Complex",
+    "displayName": "Phoenix: Daydream Complex",
     "baseCharacterId": "Phoenix",
     "isDefaultVariant": false,
     "modFilesName": "PhoenixDaydream",
@@ -736,7 +738,7 @@
   },
   {
     "internalName": "PhoenixIllness",
-    "displayName": "The Illness Called Life",
+    "displayName": "Phoenix: The Illness Called Life",
     "baseCharacterId": "Phoenix",
     "isDefaultVariant": false,
     "modFilesName": "PhoenixIllness",
@@ -828,7 +830,7 @@
   },
   {
     "internalName": "RemielleMoonlight",
-    "displayName": "Moonlight Whispers",
+    "displayName": "Remielle: Moonlight Whispers",
     "baseCharacterId": "Remielle",
     "isDefaultVariant": false,
     "modFilesName": "RemielleMoonlight",
@@ -841,7 +843,7 @@
   },
   {
     "internalName": "RemielleMoonlightWhispersVeil",
-    "displayName": "Moonlight Whispers (Veil)",
+    "displayName": "Remielle: Moonlight Whispers (Veil)",
     "baseCharacterId": "Remielle",
     "isDefaultVariant": false,
     "modFilesName": "RemielleMoonlightWhispersVeil",
@@ -855,7 +857,7 @@
   },
   {
     "internalName": "RemielleSummer",
-    "displayName": "Seashade Pas Seul",
+    "displayName": "Remielle: Seashade Pas Seul",
     "baseCharacterId": "Remielle",
     "isDefaultVariant": false,
     "modFilesName": "RemielleSummer",
@@ -949,7 +951,7 @@
   },
   {
     "internalName": "SeverianSolemnly",
-    "displayName": "Solemnly Impeccable",
+    "displayName": "Severian: Solemnly Impeccable",
     "baseCharacterId": "Severian",
     "isDefaultVariant": false,
     "modFilesName": "SeverianSolemnly",
@@ -976,7 +978,7 @@
   },
   {
     "internalName": "SigridSummer",
-    "displayName": "Majestic Wavechaser",
+    "displayName": "Sigrid: Majestic Wavechaser",
     "baseCharacterId": "Sigrid",
     "isDefaultVariant": false,
     "modFilesName": "SigridSummer",
@@ -1055,7 +1057,7 @@
   },
   {
     "internalName": "SunnaKfc",
-    "displayName": "Delusions in Business",
+    "displayName": "Sunna: Delusions in Business",
     "baseCharacterId": "Sunna",
     "isDefaultVariant": false,
     "modFilesName": "SunnaKfc",
@@ -1068,7 +1070,7 @@
   },
   {
     "internalName": "SunnaMaid",
-    "displayName": "Afternoon Tea Break",
+    "displayName": "Sunna: Afternoon Tea Break",
     "baseCharacterId": "Sunna",
     "isDefaultVariant": false,
     "modFilesName": "SunnaMaid",
@@ -1107,7 +1109,7 @@
   },
   {
     "internalName": "VelinaLeisure",
-    "displayName": "Shade of Leisure",
+    "displayName": "Velina: Shade of Leisure",
     "baseCharacterId": "Velina",
     "isDefaultVariant": false,
     "modFilesName": "VelinaLeisure",
@@ -1133,7 +1135,7 @@
   },
   {
     "internalName": "VivianSummer",
-    "displayName": "Iris of the Shore",
+    "displayName": "Vivian: Iris of the Shore",
     "baseCharacterId": "Vivian",
     "isDefaultVariant": false,
     "modFilesName": "VivianSummer",
@@ -1204,7 +1206,7 @@
   },
   {
     "internalName": "YeShunguangDawnlight",
-    "displayName": "Touch of Dawnlight",
+    "displayName": "Ye Shunguang: Touch of Dawnlight",
     "baseCharacterId": "YeShunguang",
     "isDefaultVariant": false,
     "modFilesName": "YeShunguangDawnlight",
@@ -1243,7 +1245,7 @@
   },
   {
     "internalName": "YixuanTrailsOfInk",
-    "displayName": "Trails of Ink",
+    "displayName": "Yixuan: Trails of Ink",
     "baseCharacterId": "Yixuan",
     "isDefaultVariant": false,
     "modFilesName": "YixuanTrailsOfInk",
@@ -1269,7 +1271,7 @@
   },
   {
     "internalName": "YuzuhaSummer",
-    "displayName": "Tanuki in Broad Daylight",
+    "displayName": "Yuzuha: Tanuki in Broad Daylight",
     "baseCharacterId": "Yuzuha",
     "isDefaultVariant": false,
     "modFilesName": "YuzuhaSummer",

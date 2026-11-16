@@ -1,9 +1,11 @@
 {
   "repo": "Astute4533/SR-Model-Importer-Assets",
-  "commit": "b6891cfc4070d5d579d81e4cb2e6787f236ed3f0",
+  "commit": "1398b85fa72204410fdec5c35fc89b5b898143f1",
   "folder": "PlayerCharacterData",
   "files": {
     "Acheron/hash.json": "9aba912a63df93035580e9cb451c290fb6dd88f1",
+    "AeonAha/hash.json": "8212fc36617fe930adc1425dfb2eb467568938eb",
+    "AeonAhaLotto/hash.json": "a2dfa0b51c000922a3dc61da079eef3c0fc459e5",
     "Aglaea/hash.json": "a96b687475f5f209760c9de716674f52b6e35f85",
     "Anaxa/hash.json": "da60bad1edd643807c98536d1cee636ccb81210a",
     "Archer/hash.json": "69d3be2d403cfe010306901a6be523e1219acb04",

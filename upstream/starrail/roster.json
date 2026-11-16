@@ -56,7 +56,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/26a0a1c7fa3cd5d4c7e002e7a7a38196.png",
-      "sourceHash": "release:r2:062aeaff63b5823f1cf484efaa130785:6c832f09adc0b4ee099c3c827d042999:20e29d3b1b8a5c8d5deeb882de5c01ee"
+      "sourceHash": "release:r2:56540519928afd7166e6268dba6470c1:6c832f09adc0b4ee099c3c827d042999:f25090dcff66d48dc338e8fb90917d41"
     },
     {
       "key": "avatar:1004",
@@ -102,7 +102,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/2ffd18388014392b721df480b6a147a9.png",
-      "sourceHash": "release:r2:e18fe2bcca93d4e5eb7b5fa63a172bfc:1245d4d51fbcea807fe043fff91b1ab5:04293fe568fd95cb6ffd7f82b171556a"
+      "sourceHash": "release:r2:b2750fd76956c85ccf0663c38b9f9586:1245d4d51fbcea807fe043fff91b1ab5:4bd64f815cfd4b7a27e600cd438c2976"
     },
     {
       "key": "avatar:1008",
@@ -284,7 +284,7 @@
         "rarity": 4
       },
       "image": "https://cdn.gachabase.net/hsr/assets/76d8fa5f38c395f33feb35091fc0f599.png",
-      "sourceHash": "release:r2:e41b4f66575db9df7dd4e96891821188:46392a87f4465134def1359619a2ae98:480c27f7f0c7b9ed307fcc43d6711da3"
+      "sourceHash": "release:r2:25ebe74f654b55604a8785cc6247cabb:46392a87f4465134def1359619a2ae98:97725775579ff9c49a980cfe539b636f"
     },
     {
       "key": "avatar:1109",
@@ -404,7 +404,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/a783ba914152ebf4c6216ed948fe0f90.png",
-      "sourceHash": "release:r2:168403e1e903df7cde69e67b98ea3f7e:2c00542831045e9ad559406251b3fa53:1c2fa6305b56b728b95ac724d76c3ff7"
+      "sourceHash": "release:r2:4f59fe314eb26d5a6e08c7084490737a:7f3a1097dc9e4a9c70c9a2aa27d09795:d9a16ebac2016d1432810dddbb901d02"
     },
     {
       "key": "avatar:1205",
@@ -538,7 +538,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/7d9d7c036c0d88048b228a6e2853cc20.png",
-      "sourceHash": "release:r2:9b92ab5e838aa2c186fc6a26144e7e04:8aa823eb65d275e5f3e558fda7e6d630:80dc1a5f984abe656251964f04b2d282"
+      "sourceHash": "release:r2:92b8abe02b9feb2406d13ce9e3aeca62:742af7ba9f105f2a44572860acbb95b4:f28bf6be94eabb810c46bf48d2f0db7c"
     },
     {
       "key": "avatar:1214",
@@ -781,7 +781,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/fa392ec307add9c1adedef9c2a23e224.png",
-      "sourceHash": "release:r2:2d583904b1191c1ba169f5c82f2df0fe:ff4b9431c699bb948fab606f5c6f50a6:674e99bb9e64ac0ecfc6e791e5320481"
+      "sourceHash": "release:r2:14133f6b88015a7aa619f825bb417be2:ff4b9431c699bb948fab606f5c6f50a6:c9ee28c7de97c83a39c78da519f9ec48"
     },
     {
       "key": "avatar:1307",
@@ -813,7 +813,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/c0f59d0bd9d4cdbf59f9d7d3d1dcd5fc.png",
-      "sourceHash": "release:r2:a70c1f9f51a33b5dd9755fe52f481bba:34ce9c9dff84478c9d4fef822a2af19b:efb90851bc736d03ccf0d95c4fd5deea"
+      "sourceHash": "release:r2:7aad31735d2b5e40354c617bde536ae4:a6514655462a9939907ecdbace42afb7:5c1806d6129eab0bd82ba2a10fa1b038"
     },
     {
       "key": "avatar:1309",
@@ -876,7 +876,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/2dd3f7d16106722b57ff155f25dba780.png",
-      "sourceHash": "release:r2:88c3a1241876d0228ebb28e598ad0b57:e3f83cce8a477db0d7782b82c3cae765:b9ce53dc8174b077911bd3005925bad4"
+      "sourceHash": "release:r2:3fbfbb4d4d628c085d837e3ce1921134:e3f83cce8a477db0d7782b82c3cae765:04d8796d8e2905f0dedee325ab8ed25d"
     },
     {
       "key": "avatar:1314",
@@ -1182,7 +1182,7 @@
           "image": "https://cdn.gachabase.net/hsr/assets/307e2d25319e01d1db92905b78ec0da2.png"
         }
       ],
-      "sourceHash": "release:r2:764a046e40bf396f9e6954643a89897f:81b4e209025a7838cc4256ca9818919f:f7599a2abe8b705d3053ba5d7b060936"
+      "sourceHash": "release:r2:06b13d6bc9d599906e810b8e22a5cc11:2bd59f2d234216257bbbe33a526471d7:d9114f282acd1a776a095ff0ef736e8f"
     },
     {
       "key": "avatar:1502",
@@ -1200,7 +1200,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/8ca2530c42791593b72d54a850fce97e.png",
-      "sourceHash": "release:r2:83c98015f2cfb75c6d5d75f08056979c:0302b2df245cb2f4c8f6f2368bcb85c7:d837093bad224dbafe9b01309e74a407"
+      "sourceHash": "release:r2:b7d948b72de719bbe194a15fd132f7d0:81cf003de9ad8b99e286a309e402ed0c:1fb0007eb76ebca0e2794a6418ffac5e"
     },
     {
       "key": "avatar:1503",
@@ -1214,7 +1214,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/b4e31c2407f7834ab2d40d35d94f987b.png",
-      "sourceHash": "release:r2:7b47ad70d6b2eec8e2203a47e72198a0:44b068add754fd9fd62dcb6b37e5ec41:a896860b7727b9abccf5d1e59adb7cdc"
+      "sourceHash": "release:r2:9a6f930ba71c4c3bd6f9e29afe57ac6a:9d18e615c282e9efcff290324e4d2d26:ec17db6c2ec8603ff7e881ef79023c88"
     },
     {
       "key": "avatar:1504",
@@ -1228,7 +1228,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/183d741e6204c6c46259606d15af4de0.png",
-      "sourceHash": "release:r2:821e2d5c61ed5971ff512c2aad4ac50d:a9b527660433e67579f267c5ed5779e2:0d6fbccbaaed2a62d8ea7eb986c82c9b"
+      "sourceHash": "release:r2:fb8e8543a851a815e2b3bf661fbc3b27:a9b527660433e67579f267c5ed5779e2:2974ad1d7e772dd60864003cf3ec4181"
     },
     {
       "key": "avatar:1505",
@@ -1249,7 +1249,7 @@
           "image": "https://cdn.gachabase.net/hsr/assets/e48a276f033cf42ccf3cf2c1aaabdfdf.png"
         }
       ],
-      "sourceHash": "release:r2:f18492bab88b4ee1427588f394a6989f:8d99e38cb8256dcde593b14b4e7d2bcc:92fda22fa52f80c2a4ca1777a3a56536"
+      "sourceHash": "release:r2:baeacf907bd89b81ddc17621a0891f95:159ca0b7d0083e501f37e05c31caeeed:ebfa182601fa29ea5a164590137b3bf3"
     },
     {
       "key": "avatar:1506",
@@ -1267,7 +1267,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/98dd725eefc23aba5e2b8ae7ad008d33.png",
-      "sourceHash": "release:r2:eac4f41df41b694b58d1f001841a81a2:632b8f150f71be3b26980b197c171ae3:2dd60cb1e456825c65aef41e2935fff1"
+      "sourceHash": "release:r2:ce3295105eddab008a6bf2f71103e11b:f286068f3174c069b8f27bdfdf2fbc77:5a54f89a3b623970d21b3d9d82362a9c"
     },
     {
       "key": "avatar:1507",
@@ -1285,7 +1285,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/c98c2d67c810e74bcc549f151ee42d14.png",
-      "sourceHash": "release:r2:0ddb113bd76a31b2d44527531bf9ca10:56725aa89e019919aa661a47967d830b:27b09ee155c241d4422b82f5d230b4fc"
+      "sourceHash": "release:r2:fcc0902a7f9e4cde85b42d7dd78526bf:56725aa89e019919aa661a47967d830b:fe54d531f437ef7e0dac556b38d37c58"
     },
     {
       "key": "avatar:1508",
@@ -1335,7 +1335,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/a02fa50e1826ff9d666e9a1e9299fd72.png",
-      "sourceHash": "release:r2:4b5be14cf3122385db2775e3ea46525a:4b0b3b42906781341cfe2a3dfb7bf318:43b64d27d2c3939f0eac5493ef1ea930"
+      "sourceHash": "release:r2:147896e672177acb99978c21a08d6706:4b0b3b42906781341cfe2a3dfb7bf318:770eb20950cd3431631bab25a85ad0d1"
     },
     {
       "key": "avatar:1511",
@@ -1347,14 +1347,20 @@
         "aha",
         "aeon"
       ],
-      "branch": "beta",
       "attributes": {
         "element": "Quantum",
         "path": "Elation",
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/2be49dbbe7cfe8f77187dcfea51d9863.png",
-      "sourceHash": "beta:r2:b7a2f5ca8e4c0198284c3dbb74ba3683:8b1ca4c7a8a243f5b5e3b9a276181b6e:ace254ccf9288fa463e1d44418f8f169"
+      "outfits": [
+        {
+          "key": "skin:1151101",
+          "name": "Star Lotto",
+          "image": "https://cdn.gachabase.net/hsr/assets/2c80233296e64ab34f95c5e051d86007.png"
+        }
+      ],
+      "sourceHash": "release:r2:de0a243b2d53d1cf5393883601163e42:7358436fe324dc97974c9d6418328d10:e1a73b24a1b6890c64f4cc8d2f76904f"
     },
     {
       "key": "avatar:1512",
@@ -1372,7 +1378,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/98bcc901782bee57cb5907f354f0c2d5.png",
-      "sourceHash": "release:r2:ef47308982185a3f145e28798fb3d93f:23c789758464bbf66d2b58c8cf225235:82c6b2598b7dd4abdddf7cc54abcb213"
+      "sourceHash": "release:r2:ef47308982185a3f145e28798fb3d93f:23c789758464bbf66d2b58c8cf225235:b1977c7d7fe9d5fa9aea06f150b07fcb"
     },
     {
       "key": "avatar:1513",
@@ -1390,7 +1396,41 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/2fdf5d4fe6eb998064438ffd373ce95f.png",
-      "sourceHash": "release:r2:c5fedf47dfa4926f0ae921be05bd239b:d68358e489d9f97687bfc705a06cca97:7b65674afc4d63ac5ea03f1722d9a015"
+      "sourceHash": "release:r2:1e99544e6693150cee1b7ec90bdb600e:a5b32ed4b3b4d69e642420351c4faaf6:5d4db8e91bd836c5a518792288c6676a"
+    },
+    {
+      "key": "avatar:1514",
+      "name": "Ellen",
+      "joinKeys": [
+        "ellen"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Ice",
+        "path": "Destruction",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/hsr/assets/ac8b25ec99a6790fbe48a1282a3e7bdd.png",
+      "sourceHash": "beta:r2:0cb01ded72b56fed7292dff865b391b4:75ab7a7611ff0b4cd17ccc0f4e729c79:08b3fa514d972ce3cbb00bd9b646211f"
+    },
+    {
+      "key": "avatar:1515",
+      "name": "Astra Yao",
+      "joinKeys": [
+        "astrayao"
+      ],
+      "wordKeys": [
+        "yao",
+        "astra"
+      ],
+      "branch": "beta",
+      "attributes": {
+        "element": "Quantum",
+        "path": "Harmony",
+        "rarity": 5
+      },
+      "image": "https://cdn.gachabase.net/hsr/assets/b2e25a3498ff343cfe11749bb1250f97.png",
+      "sourceHash": "beta:r2:137225deea7feaeff34a47f00a17b6a9:3a435da48cef6d1aee670f32bc3d567f:fba2063a34c4963fef8d6e27d5f1c603"
     },
     {
       "key": "avatar:8001",
@@ -1404,7 +1444,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/0ffa395fe7c71255c3c206a9d195db7f.png",
-      "sourceHash": "release:r2:d9ea7de6ec4aca593ef57ffc6e767815:ed39c3d42cc32d19c0b7ecec61f90c55:08cfa4bba247105cf787792930fb97c7"
+      "sourceHash": "release:r2:91741008d2e35b790f022c139e9a8cac:ed39c3d42cc32d19c0b7ecec61f90c55:3a5929e3a2de5823b5cd25ab95b1bafd"
     },
     {
       "key": "avatar:8002",
@@ -1418,7 +1458,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/511d14e283c60ec40ecb74491b22c268.png",
-      "sourceHash": "release:r2:c380d34b8fa9f8fddffc30248d7af1bd:f4896f42ecc981286d99a2c3ee1318d7:8e766d165f00983bd93ca7ae64a8fe6c"
+      "sourceHash": "release:r2:bba4281cee44cec8a23836bcd3d8483c:f4896f42ecc981286d99a2c3ee1318d7:8e4a1f0161a43612559ff164fba81fa3"
     },
     {
       "key": "avatar:8003",
@@ -1432,7 +1472,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/723d62bebcc31d6e77b2b42cbad711b9.png",
-      "sourceHash": "release:r2:0e33c3482ddaa6619cf87c4518201dc9:a394b7f714424c63fc846e21daba32a3:553c4bc7635d09891acad5161a476948"
+      "sourceHash": "release:r2:f029ba7294e685da99d6b589b72d9aa8:a394b7f714424c63fc846e21daba32a3:e4e65733960afe724090b4cf8058f299"
     },
     {
       "key": "avatar:8004",
@@ -1446,7 +1486,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/f521fb6e83ca2316d8e20d297301c62c.png",
-      "sourceHash": "release:r2:20077de6b90b326e475b85c041156250:c2580af7427217c11b91a359c97793cd:35ff4aba5117532ef3b8ed4c20fd7670"
+      "sourceHash": "release:r2:613863f25918ab9f54297f5c7dc95f5b:c2580af7427217c11b91a359c97793cd:476c620b03f88b61f38d37a1b5b4f9e1"
     },
     {
       "key": "avatar:8005",
@@ -1460,7 +1500,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/b9b33e1ed8b901a0f2b5cc27cd271895.png",
-      "sourceHash": "release:r2:83b770932ccae55c2a0b342c0c54bd9a:00a5f5f97698060ed33c08da22dfe3f2:7c85d2a108c983275405da3f36b31b44"
+      "sourceHash": "release:r2:98224e66ef4aacc3b59cf740eb6e84dc:00a5f5f97698060ed33c08da22dfe3f2:1cce91678867567dc3d16bba16c15f58"
     },
     {
       "key": "avatar:8006",
@@ -1474,7 +1514,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/6242ddb3f1b4bff617438fb1bd29aa07.png",
-      "sourceHash": "release:r2:8937489dd751d9b3ed61aca2116c72c2:73820014818a117a44aedf202cbf87f0:81ddff4a1ba1d1af2681ab7dd8a98091"
+      "sourceHash": "release:r2:0e66a14d593d672703979d974c650636:73820014818a117a44aedf202cbf87f0:426e4a892d016a769a78d6cc1817c24a"
     },
     {
       "key": "avatar:8007",
@@ -1488,7 +1528,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/8c13c583eb0c37fb38e1bae55b8cb9cb.png",
-      "sourceHash": "release:r2:7356dab9451169aec26ba6649aba92fe:a0fa76fa395c748744e6e9e9e858a6f0:8cb0a64a53d5f0851ab03d646f07fbdf"
+      "sourceHash": "release:r2:c40470f146ad2b1c2e8afa6a523d05d7:a0fa76fa395c748744e6e9e9e858a6f0:70704eaa9ad5010a7c51f648f1f50388"
     },
     {
       "key": "avatar:8008",
@@ -1502,7 +1542,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/f71d370e214756f86351b24ec20a211d.png",
-      "sourceHash": "release:r2:fd5e331dcd98bc4248854dd2e131bd7d:ce66a05b85babaeb13053ab41b20f8b9:5a66286460e7d9c35dd2697d1ffacd3d"
+      "sourceHash": "release:r2:162e0f7c972af254ad0311a7c97a3b9e:ce66a05b85babaeb13053ab41b20f8b9:b8d1a2beff1e50b161aee668b250d1ca"
     },
     {
       "key": "avatar:8009",
@@ -1516,7 +1556,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/71766955de4ec3d7b647aded7b5266cb.png",
-      "sourceHash": "release:r2:7d83ab04384462219ca763e722715617:87137ca50586620ca3136a5da4440954:119b689a659dd19cf687465d996bbeb1"
+      "sourceHash": "release:r2:c8dcddbf2ed0be2d7831d02f332606b7:fdc8ac708c4005d2eb8a410d8672dfcf:f2df637e840a4429024fc7bd133a5f3f"
     },
     {
       "key": "avatar:8010",
@@ -1530,7 +1570,7 @@
         "rarity": 5
       },
       "image": "https://cdn.gachabase.net/hsr/assets/d761e38823852df1d28adfb72b47a08f.png",
-      "sourceHash": "release:r2:15764406ccabbef72a0d0b5e99f12057:407d311210fcfa8dcf2cd80396f00587:dda0087b373462b09aab3328e9ac8268"
+      "sourceHash": "release:r2:fe4c456becd78c7cb0a1d935ab0cea81:d2ce65946aa5b5d869b241ef47d98d3b:9a2c188df6d36e7e38036da0dcfe3a70"
     }
   ],
   "leftOut": [
@@ -1625,6 +1665,11 @@
       "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
     },
     {
+      "key": "avatar:6042",
+      "name": "King Pom-Pom",
+      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
+    },
+    {
       "key": "avatar:7005",
       "name": "Kafka",
       "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
@@ -1657,11 +1702,6 @@
     {
       "key": "avatar:8902",
       "name": "nickname",
-      "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
-    },
-    {
-      "key": "avatar:6042",
-      "name": "King Pom-Pom",
       "reason": "its number is outside the playable range (config → roster → include): a trial version, an event form or the like"
     }
   ]

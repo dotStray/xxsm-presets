@@ -596,6 +596,528 @@
       "hash": "45f5804b"
     },
     {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "ib",
+      "hash": "37268e80"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "position_vb",
+      "hash": "bf9001f0"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "blend_vb",
+      "hash": "fbcddcca"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "texcoord_vb",
+      "hash": "18867554"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "draw_vb",
+      "hash": "2f05aef8"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "texture",
+      "hash": "308a704f",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Head",
+      "kind": "texture",
+      "hash": "1878a8ad",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "7fd890ef"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "f7830808"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "2470d5a8"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "90ed2b60"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "9d864fde"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "c63a3397",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "819c20a9",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "7138e673"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "fcd9f793"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "4f247fac"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "dec72383"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "450b4994"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "e4f3fc09",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "46d16da9",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "afbee0ad",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "47c4da0c",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Overworld",
+      "kind": "ib",
+      "hash": "0ef1887a"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Overworld",
+      "kind": "position_vb",
+      "hash": "5df6a200"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Overworld",
+      "kind": "blend_vb",
+      "hash": "e49422af"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Overworld",
+      "kind": "texcoord_vb",
+      "hash": "70ed378c"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Overworld",
+      "kind": "draw_vb",
+      "hash": "902aed2e"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "ib",
+      "hash": "f3101897"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "position_vb",
+      "hash": "928fae0e"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "blend_vb",
+      "hash": "82e66445"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "texcoord_vb",
+      "hash": "af14c04a"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "draw_vb",
+      "hash": "98c847ea"
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "2f8fb1cc",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "8b06552e",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAha",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "2f03d43e",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "ib",
+      "hash": "37268e80"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "position_vb",
+      "hash": "ccdd70e4"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "blend_vb",
+      "hash": "bc080310"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "texcoord_vb",
+      "hash": "18867554"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "draw_vb",
+      "hash": "986d7e97"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "texture",
+      "hash": "308a704f",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Head",
+      "kind": "texture",
+      "hash": "1878a8ad",
+      "textureKind": "Diffuse",
+      "slot": 1
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "ib",
+      "hash": "7fd890ef"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "position_vb",
+      "hash": "958b79a7"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "blend_vb",
+      "hash": "2470d5a8"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "texcoord_vb",
+      "hash": "90ed2b60"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "draw_vb",
+      "hash": "7f3256fd"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "8ab40705",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Hair",
+      "kind": "texture",
+      "hash": "73a625a2",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "ib",
+      "hash": "ed28d541"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "position_vb",
+      "hash": "5f743607"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "blend_vb",
+      "hash": "70b17603"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "texcoord_vb",
+      "hash": "9f0156c9"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "draw_vb",
+      "hash": "e71271d7"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "b5996745",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "93083cfd",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "0ffa7b91",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Body",
+      "kind": "texture",
+      "hash": "3d27f845",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Overworld",
+      "kind": "ib",
+      "hash": "ad8e2702"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Overworld",
+      "kind": "position_vb",
+      "hash": "6101834d"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Overworld",
+      "kind": "blend_vb",
+      "hash": "d08e2f80"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Overworld",
+      "kind": "texcoord_vb",
+      "hash": "edba71c2"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Overworld",
+      "kind": "draw_vb",
+      "hash": "0edf1a36"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "ib",
+      "hash": "ad341b51"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "position_vb",
+      "hash": "cd2df59d"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "blend_vb",
+      "hash": "20a4cd92"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "texcoord_vb",
+      "hash": "c1e9ad70"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "draw_vb",
+      "hash": "9fd89679"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "80ca70f2",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "3fa76d2a",
+      "textureKind": "LightMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "5d7925ff",
+      "textureKind": "NormalMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Battle",
+      "kind": "texture",
+      "hash": "f7dcdd16",
+      "textureKind": "MaterialMap",
+      "slot": 0
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Veil",
+      "kind": "ib",
+      "hash": "ce0c8dba"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Veil",
+      "kind": "position_vb",
+      "hash": "0cafcb42"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Veil",
+      "kind": "blend_vb",
+      "hash": "58c80c9b"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Veil",
+      "kind": "texcoord_vb",
+      "hash": "8d081983"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Veil",
+      "kind": "draw_vb",
+      "hash": "5cad9de7"
+    },
+    {
+      "variant": "AeonAhaLotto",
+      "component": "Veil",
+      "kind": "texture",
+      "hash": "70094798",
+      "textureKind": "Diffuse",
+      "slot": 0
+    },
+    {
       "variant": "Aglaea",
       "component": "Hair",
       "kind": "ib",

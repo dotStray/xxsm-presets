@@ -1,6 +1,6 @@
 # starrail: hashes more than one character has
 
-143 hashes are shared (the ignored shader hashes are left out). Most are an outfit sharing its base character's parts, which is expected.
+150 hashes are shared (the ignored shader hashes are left out). Most are an outfit sharing its base character's parts, which is expected.
 
 | Hash | Characters |
 |---|---|
@@ -37,15 +37,20 @@
 | `145fa311` | 2: Caelus, CaelusVigor |
 | `15be9519` | 2: Caelus, CaelusVigor |
 | `186136d6` | 2: Firefly, FireflySpring |
+| `1878a8ad` | 2: AeonAha, AeonAhaLotto |
+| `18867554` | 2: AeonAha, AeonAhaLotto |
 | `19d09218` | 2: Stelle, StelleVigor |
 | `1d62eafb` | 2: Stelle, StelleVigor |
 | `1d9d63f3` | 2: Caelus, CaelusVigor |
 | `1f99f5fb` | 2: DanHengIL, Luka |
 | `21b96557` | 2: Caelus, CaelusVigor |
 | `22f597ef` | 2: Caelus, CaelusVigor |
+| `2470d5a8` | 2: AeonAha, AeonAhaLotto |
 | `28d09106` | 2: Caelus, CaelusVigor |
+| `308a704f` | 2: AeonAha, AeonAhaLotto |
 | `31670196` | 2: Evanescia, EvanesciaLunar |
 | `3437de1d` | 2: Caelus, CaelusVigor |
+| `37268e80` | 2: AeonAha, AeonAhaLotto |
 | `3ba4eb10` | 2: Caelus, CaelusVigor |
 | `3ca71eeb` | 2: Caelus, CaelusVigor |
 | `3e8e34d5` | 2: Caelus, CaelusVigor |
@@ -72,6 +77,7 @@
 | `798d048d` | 2: Caelus, CaelusVigor |
 | `7a94826e` | 2: Bailu, Hook |
 | `7de7f0c0` | 2: Caelus, CaelusVigor |
+| `7fd890ef` | 2: AeonAha, AeonAhaLotto |
 | `810e4378` | 2: Evanescia, EvanesciaLunar |
 | `825f79f5` | 2: Caelus, CaelusVigor |
 | `84ba7549` | 2: March7thPreservation, March7thPreservationSpring |
@@ -81,6 +87,7 @@
 | `89fcb592` | 2: Caelus, CaelusVigor |
 | `8c18617d` | 2: Hyacine, HyacineWarm |
 | `8d6ae530` | 2: Caelus, CaelusVigor |
+| `90ed2b60` | 2: AeonAha, AeonAhaLotto |
 | `91022b8f` | 2: Caelus, CaelusVigor |
 | `9108c1f1` | 2: Caelus, CaelusVigor |
 | `93c571d5` | 2: Caelus, CaelusVigor |

@@ -23,8 +23,20 @@
       "element": "quantum",
       "path": "elation",
       "rarity": 5
-    },
-    "hashesPending": true
+    }
+  },
+  {
+    "internalName": "AeonAhaLotto",
+    "displayName": "Star Lotto",
+    "baseCharacterId": "AeonAha",
+    "isDefaultVariant": false,
+    "modFilesName": "AeonAhaLotto",
+    "image": "images/AeonAhaLotto.webp",
+    "attributes": {
+      "element": "quantum",
+      "path": "elation",
+      "rarity": 5
+    }
   },
   {
     "internalName": "Aglaea",
@@ -116,6 +128,20 @@
       "path": "harmony",
       "rarity": 4
     }
+  },
+  {
+    "internalName": "AstraYao",
+    "displayName": "Astra Yao",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "AstraYao",
+    "image": "images/AstraYao.webp",
+    "attributes": {
+      "element": "quantum",
+      "path": "harmony",
+      "rarity": 5
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Aventurine",
@@ -386,6 +412,20 @@
       "path": "hunt",
       "rarity": 5
     }
+  },
+  {
+    "internalName": "Ellen",
+    "displayName": "Ellen",
+    "baseCharacterId": null,
+    "isDefaultVariant": true,
+    "modFilesName": "Ellen",
+    "image": "images/Ellen.webp",
+    "attributes": {
+      "element": "ice",
+      "path": "destruction",
+      "rarity": 5
+    },
+    "hashesPending": true
   },
   {
     "internalName": "Evanescia",

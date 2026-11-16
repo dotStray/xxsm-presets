@@ -8,11 +8,11 @@ To add hashes yourself, put a file in `manual/zenless/hashes/` named after the c
 - **Kafka** — Kafka
 - **Lindverne** — Lindverne
 - **Phoenix** — Phoenix
-- **PhoenixDaydream** — Daydream Complex (outfit of Phoenix)
-- **PhoenixIllness** — The Illness Called Life (outfit of Phoenix)
-- **RemielleMoonlightWhispersVeil** — Moonlight Whispers (Veil) (outfit of Remielle)
+- **PhoenixDaydream** — Phoenix: Daydream Complex (outfit of Phoenix)
+- **PhoenixIllness** — Phoenix: The Illness Called Life (outfit of Phoenix)
+- **RemielleMoonlightWhispersVeil** — Remielle: Moonlight Whispers (Veil) (outfit of Remielle)
 - **Robin** — Robin
 - **Roxy** — Roxy
 - **Severian** — Severian
-- **SeverianSolemnly** — Solemnly Impeccable (outfit of Severian)
+- **SeverianSolemnly** — Severian: Solemnly Impeccable (outfit of Severian)
 - **Sunbringer** — Sunbringer
