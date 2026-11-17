@@ -2,14 +2,29 @@
   "notes": "Corrections the builder cannot work out for itself. Each entry is explained in the presets repository's README.",
   "join": {
     "avatar:1381": "Soldier0",
-    "avatar:1531": "BillyStarlight"
+    "avatar:1531": "BillyStarlight",
+    "avatar:1601": "Sunbringer",
+    "avatar:1602": "Sunbringer",
+    "avatar:1603": "Sunbringer",
+    "avatar:1604": "Sunbringer",
+    "avatar:1606": "Sunbringer"
   },
+  "partOf": {
+    "Lindverne": "Sunbringer",
+    "CampusLead": "Sunbringer",
+    "Dracaene": "Sunbringer"
+  },
+  "aliases": {
+    "Sunbringer": ["Lindverne", "Dracaene", "CampusLead"]
+  },
+  "retired": ["Lindverne", "CampusLead"],
   "parents": {
     "Belle": null,
     "Wise": null,
     "AriaRobot": null
   },
   "displayNames": {
+    "Sunbringer": "Sunbringer",
     "BelleSunlight": "Delicate Sunlight",
     "BelleBrilliance": "Brilliance of Stars",
     "BelleSummer": "Summer Skies",
