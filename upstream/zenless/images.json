@@ -91,12 +91,6 @@
     "source": "https://cdn.gachabase.net/zzz/assets/0586bd6fbddf7887b57a2a9226f14149.png",
     "sha256": "4c01ff05168addb12f8bb258db07ae34b4efa69ae282143326ad5686bd08ef12"
   },
-  "CampusLead": {
-    "source": "https://cdn.gachabase.net/zzz/assets/5879680def5e4efc423dceb0d7b881bc.png",
-    "frame": "https://cdn.gachabase.net/zzz/assets/0524a8c139ad4c37884e90ccb0ca0053.png",
-    "frameScale": 2.0,
-    "sha256": "49ba7484111f71358c830f9c5b14b34e466d2e481e02d70ec65223b604c1bcb0"
-  },
   "Cissia": {
     "source": "https://cdn.gachabase.net/zzz/assets/0804993e19ea636bdcfbfb779a0c32f3.png",
     "sha256": "5fd1a01affbde36bb5b3effd5008ea2a4373743cb537e23867d33d588ed28844"
@@ -164,10 +158,6 @@
   "Lighter": {
     "source": "https://cdn.gachabase.net/zzz/assets/f613e88b2dddadf102343af72bacdaa9.png",
     "sha256": "deec98dd4fd21b4a818e06eb5cd713eefb5e1647e85a16c783a98507b81d1093"
-  },
-  "Lindverne": {
-    "source": "https://cdn.gachabase.net/zzz/assets/3316765b1bdb65e4c5978cf893a0fc5a.png",
-    "sha256": "113a5f69b42e99dd3df3902674d868009340d9954d57d44dfc9df77916000d03"
   },
   "Lucia": {
     "source": "https://cdn.gachabase.net/zzz/assets/fbd2b2dc05ad95d20f2721beea8e56a8.png",
