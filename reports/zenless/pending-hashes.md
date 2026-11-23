@@ -1,6 +1,6 @@
 # zenless: characters waiting for hashes
 
-10 characters in the pack have no hashes yet. They are still usable: they appear in the grid, take mods filed by hand or by name, and offer *Learn hashes from a mod*. A shrinking list is the pipeline working; a growing one means an upstream hash repository has gone quiet.
+11 characters in the pack have no hashes yet. They are still usable: they appear in the grid, take mods filed by hand or by name, and offer *Learn hashes from a mod*. A shrinking list is the pipeline working; a growing one means an upstream hash repository has gone quiet.
 
 To add hashes yourself, put a file in `manual/zenless/hashes/` named after the character.
 
@@ -14,3 +14,4 @@ To add hashes yourself, put a file in `manual/zenless/hashes/` named after the c
 - **Severian** — Severian
 - **SeverianSolemnly** — Severian: Solemnly Impeccable (outfit of Severian)
 - **Sunbringer** — Sunbringer
+- **Sunbringer2** — ... (outfit of Sunbringer)

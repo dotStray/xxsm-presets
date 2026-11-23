@@ -1164,7 +1164,14 @@
         "specialty": "Armorer",
         "rank": 4
       },
-      "image": "https://cdn.gachabase.net/zzz/assets/bd3575aca33e7935e3631b50b2781435.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/bd3575aca33e7935e3631b50b2781435.png",
+      "outfits": [
+        {
+          "key": "skin:3116011",
+          "image": "https://cdn.gachabase.net/zzz/assets/12aaa379148a11c818ae456091e751b3.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/3009b7a60f437aa15fb196e1c80cd332.png"
+        }
+      ]
     },
     {
       "key": "avatar:1602",
@@ -1189,7 +1196,14 @@
         "rank": 4
       },
       "image": "https://cdn.gachabase.net/zzz/assets/5879680def5e4efc423dceb0d7b881bc.png",
-      "imageFrame": "https://cdn.gachabase.net/zzz/assets/0524a8c139ad4c37884e90ccb0ca0053.png"
+      "imageFrame": "https://cdn.gachabase.net/zzz/assets/0524a8c139ad4c37884e90ccb0ca0053.png",
+      "outfits": [
+        {
+          "key": "skin:3116031",
+          "name": "...",
+          "image": "https://cdn.gachabase.net/zzz/assets/c5fc8059c827d27bf3b6792aba6bfcef.png"
+        }
+      ]
     },
     {
       "key": "avatar:1604",
@@ -1212,8 +1226,14 @@
         "sunbringer"
       ],
       "branch": "beta",
-      "image": "https://cdn.gachabase.net/zzz/assets/e7f679904a746ce6b304e73b3118da51.png",
-      "imageFrame": "https://cdn.gachabase.net/zzz/assets/fcc8323ef7b5a942c7264c1b54932fd4.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/3316765b1bdb65e4c5978cf893a0fc5a.png",
+      "outfits": [
+        {
+          "key": "skin:3116061",
+          "image": "https://cdn.gachabase.net/zzz/assets/12aaa379148a11c818ae456091e751b3.png",
+          "imageFrame": "https://cdn.gachabase.net/zzz/assets/3009b7a60f437aa15fb196e1c80cd332.png"
+        }
+      ]
     },
     {
       "key": "avatar:1611",
@@ -1329,7 +1349,12 @@
         "specialty": "Defense",
         "rank": 4
       },
-      "image": "https://cdn.gachabase.net/zzz/assets/0cbeab1bc0949f02bcbeac87635c4fca.png"
+      "image": "https://cdn.gachabase.net/zzz/assets/0cbeab1bc0949f02bcbeac87635c4fca.png",
+      "outfits": [
+        {
+          "key": "skin:3116611"
+        }
+      ]
     }
   ]
 }

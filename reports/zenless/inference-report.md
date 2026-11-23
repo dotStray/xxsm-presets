@@ -28,6 +28,7 @@
 | RemielleSummer | Remielle | the character list names it as an outfit | high |
 | SeverianSolemnly | Severian | the character list names it as an outfit | high |
 | SigridSummer | Sigrid | the character list names it as an outfit | high |
+| Sunbringer2 | Sunbringer | the character list names it as an outfit | high |
 | SunnaKfc | Sunna | the character list names it as an outfit | high |
 | SunnaMaid | Sunna | the character list names it as an outfit | high |
 | VelinaLeisure | Velina | the character list names it as an outfit | high |

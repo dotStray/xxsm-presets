@@ -1,15 +1,15 @@
 {
   "packSchemaVersion": 1,
   "gameId": "zenless",
-  "packVersion": "2026.11.17",
-  "generatedAt": "2026-11-17T00:00:00Z",
+  "packVersion": "2026.11.23",
+  "generatedAt": "2026-11-23T00:00:00Z",
   "builder": "packbuilder 0.1.0",
   "authoredBy": "official",
   "minAppVersion": "0.1.0",
   "counts": {
-    "variants": 102,
-    "skins": 34,
-    "images": 102
+    "variants": 103,
+    "skins": 35,
+    "images": 103
   },
   "sources": [
     {

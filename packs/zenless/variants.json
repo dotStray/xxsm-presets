@@ -1031,6 +1031,26 @@
     "hashesPending": true
   },
   {
+    "internalName": "Sunbringer2",
+    "displayName": "...",
+    "baseCharacterId": "Sunbringer",
+    "isDefaultVariant": false,
+    "modFilesName": "Sunbringer2",
+    "image": "images/Sunbringer2.webp",
+    "attributes": {
+      "attribute": [
+        "fire",
+        "ether"
+      ],
+      "specialty": [
+        "armorer",
+        "attack"
+      ],
+      "rank": "s"
+    },
+    "hashesPending": true
+  },
+  {
     "internalName": "Sunna",
     "displayName": "Sunna",
     "baseCharacterId": null,
